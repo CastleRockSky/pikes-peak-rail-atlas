@@ -125,12 +125,18 @@
      "Altitude: the Midland Terminal timetables print 9,198 ft for Divide; the 1 m lidar ground is 9,112 ft at the depot and at most about 9,174 ft anywhere on the line inside the box (at the summit cut). Which point the 9,198 refers to is not known.",
      "The depot is not in a timetable as a building; the timetables show only that Divide was a telegraph station from 1893 (a coupon station 1935 to 1940).",
      "The 1894 and 1901 maps draw the loop about 800 ft east of where it lies on the ground; read only shapes from them here.",
-     "Photographs: the Denver Public Library and Pikes Peak Library District catalogues were searched by hand on 24 Nov 2026 with about eight keyword combinations (Divide with Midland, depot, station, train, Teller, Midland Terminal). DPL's search does not match phrases and 'Divide' is drowned by the Continental Divide (9,790 hits), so the search is not exhaustive. Where Perry's and Hallock's 'near Divide' views were taken has not been worked out. No image has been fetched.",
+     "Photographs: the Denver Public Library and Pikes Peak Library District catalogues were searched by hand on 24 Nov 2026 with about eight keyword combinations (Divide with Midland, depot, station, train, Teller, Midland Terminal). DPL's search does not match phrases and 'Divide' is drowned by the Continental Divide (9,790 hits), so the search is not exhaustive. Where Perry's and Hallock's 'near Divide' views were taken has not been worked out. The library display copies of 13 were fetched and are shown; the Hallock view (Colorado Railroad Museum) and PPLD 103-717 (probably not this Divide) are not.",
      "Newspapers indexed by PPLD and not yet read: Gazette 30 Dec 1921 (Midland Terminal buys the track as far as Divide) and 23 May 1976 (the depot renovated).",
-     "Rights: eight of the catalogued photographs are of 1935 and 1949 (Otto Perry) and are marked as library copies that may be shown. That rests on the permission the owner reported, whose terms have not been seen; confirm it covers photographs still in copyright before any is fetched and shown."
+     "Rights: eight of the photographs shown are Otto Perry's of 1935 and 1949, held by the Denver Public Library. They are shown on the owner's instruction of 24 Nov 2026, under the library permission the owner reported on 23 Nov; the terms of that permission have not been seen, so whether it covers photographs still in copyright is unconfirmed."
     ],
     "local": {
-     "tier": 2
+     "tier": 2,
+     "pages": [
+      {
+       "title": "Photograph library: 13 library photographs of Divide",
+       "href": "photos.html?place=divide"
+      }
+     ]
     },
     "notes": "The first lidar reading (24 Nov 2026) is now entered as structures: the loop, the summit cut, a straight cut the maps do not show, and the Midland Terminal bank south of the junction. Through the town centre the main line is under US 24 and modern building. Divide is a living town, so most railway ground is built over.",
     "elevation_ft": 9112,

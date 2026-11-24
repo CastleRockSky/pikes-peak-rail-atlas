@@ -9,20 +9,24 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Men in winter clothes in front of the depot; a Colorado Midland train on the track in front of it; snow patches. Copied from 'Cripple Creek and Colorado Springs Illustrated' (1896), p. 101, and the copy negative carries other printed text from that book: crop to the photograph before showing. This is the depot before the 1903 rebuild that secondary sources report, so it is not the standing building.",
+  "notes": "Men in winter clothes in front of the depot; a Colorado Midland train on the track in front of it; snow patches. Copied from 'Cripple Creek and Colorado Springs Illustrated' (1896), p. 101; the library's copy negative also carries printed text from that book. This is the depot before the 1903 rebuild that secondary sources report, so it is not the standing building. Looked at before use: the library's display copy is the photograph alone (the book text on the copy negative is not in it). A 'DIVIDE' board hangs from the depot, so the place is certain.",
   "place": "place:divide",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "X-7727",
   "url": "https://digital.denverlibrary.org/nodes/view/1023961",
   "date": "circa 1896",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, X-7727",
   "shows": [],
   "topics": [
    "depot"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-x-7727.jpg",
+  "thumb": "img/places/divide/dpl-x-7727-t.jpg",
+  "w": 1999,
+  "h": 1214
  },
  {
   "id": "photo:divide:dpl-x-7728",
@@ -34,7 +38,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Wood-frame buildings with front gables, a rail fence joining a row of outhouses, Pikes Peak behind. Whether the railway shows is not stated.",
+  "notes": "Wood-frame buildings with front gables, a rail fence joining a row of outhouses, Pikes Peak behind. Whether the railway shows is not stated. The photographer's own inscription is on the print ('J. G. Wilson Photo', 'View of Pikes Peak July 17th 1895 Divide, Colo.').",
   "place": "place:divide",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "X-7728",
@@ -42,13 +46,17 @@
   "photographer": "Wilson, J. G.",
   "date": "1895 July 17",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, X-7728",
   "shows": [],
   "topics": [
    "street"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-x-7728.jpg",
+  "thumb": "img/places/divide/dpl-x-7728-t.jpg",
+  "w": 1999,
+  "h": 1275
  },
  {
   "id": "photo:divide:dpl-x-7729",
@@ -60,7 +68,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Stereograph: panorama of the town on the plain, log and dead tree in the foreground.",
+  "notes": "Stereograph: panorama of the town on the plain, log and dead tree in the foreground. The publisher's stereograph card, with its own printing, shown whole.",
   "place": "place:divide",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "X-7729",
@@ -68,13 +76,17 @@
   "photographer": "Graves, C. H. (Carleton H.), -1943",
   "date": "1900",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, X-7729",
   "shows": [],
   "topics": [
    "panorama"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-x-7729.jpg",
+  "thumb": "img/places/divide/dpl-x-7729-t.jpg",
+  "w": 1999,
+  "h": 1002
  },
  {
   "id": "photo:divide:dpl-z-2478",
@@ -85,7 +97,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Stereograph: snow-covered Pikes Peak with a gabled wood-frame building, trees and fence. The library files it under Divide (Teller County); the date range is before the railway, and that it is this Divide has not been checked.",
+  "notes": "Stereograph: snow-covered Pikes Peak with a gabled wood-frame building, trees and fence. The library files it under Divide (Teller County); the date range is before the railway, and that it is this Divide has not been checked. A stereograph card ('Colorado Scenery', 'Pike's Peak from the Divide') shown whole. That it is this Divide rests on the library's subject heading.",
   "place": "place:divide",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "Z-2478",
@@ -93,13 +105,17 @@
   "photographer": "Chamberlain, W. G. (William Gunnison), 1815-1910",
   "date": "1864-1880",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, Z-2478",
   "shows": [],
   "topics": [
    "other"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-z-2478.jpg",
+  "thumb": "img/places/divide/dpl-z-2478-t.jpg",
+  "w": 1999,
+  "h": 1130
  },
  {
   "id": "photo:divide:ppld-103-717",
@@ -111,7 +127,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Men holding surveying equipment in front of several log buildings; the library places it at Divide. PPLD's own rights line is 'In Copyright - Educational Use' and asks for reuse to be requested; the owner's report of permission covers PPLD.",
+  "notes": "Men holding surveying equipment in front of several log buildings; the library places it at Divide. PPLD's own rights line is 'In Copyright - Educational Use' and asks for reuse to be requested; the owner's report of permission covers PPLD. Not shown: the picture shows log cabins in dense forest under high snow peaks, which does not look like the open park country at Divide (Teller County); 'Divide' here is more likely the Continental Divide on the Colorado Midland's line further west. Kept as a record, not shown on this page, until its place is settled.",
   "place": "place:divide",
   "holder": "Pikes Peak Library District, Abby Kernochan Photograph Collection",
   "call_number": "103-717",
@@ -135,7 +151,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Haystacks in fenced fields with Pikes Peak beyond, taken from a moving train; '838. Pike's Peak from Divide - Colo. Midland' printed on the photograph.",
+  "notes": "Haystacks in fenced fields with Pikes Peak beyond, taken from a moving train; '838. Pike's Peak from Divide - Colo. Midland' printed on the photograph. McClure's printed title is on the print. Reduced from the library's 4,000 px display copy to 2,000 px.",
   "place": "place:divide",
   "holder": "Pikes Peak Library District, Colorado Midland Railway Photograph Album",
   "call_number": "189-3987",
@@ -143,13 +159,17 @@
   "photographer": "McClure, Louis C., 1867-1957",
   "date": "1897-1918",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Pikes Peak Library District, Colorado Midland Railway Photograph Album, 189-3987",
   "shows": [],
   "topics": [
    "panorama"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/ppld-189-3987.jpg",
+  "thumb": "img/places/divide/ppld-189-3987-t.jpg",
+  "w": 2000,
+  "h": 1580
  },
  {
   "id": "photo:divide:dpl-op-12647",
@@ -160,7 +180,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Midland Terminal engine 53 (2-8-0): three-quarter view of right side from front. 'near Divide'. Where 'near Divide' was has not been worked out.",
+  "notes": "Midland Terminal engine 53 (2-8-0): three-quarter view of right side from front. 'near Divide'. Where 'near Divide' was has not been worked out. Looked at before use: the engine stands beside an engine house with a stall door. No engine house at Divide is known from any source read, so the library's 'near Divide' may be loose for this view.",
   "place": "place:divide",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "OP-12647",
@@ -168,13 +188,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1935 April 7",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12647",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12647.jpg",
+  "thumb": "img/places/divide/dpl-op-12647-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-op-12648",
@@ -193,13 +217,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1935 April 7",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12648",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12648.jpg",
+  "thumb": "img/places/divide/dpl-op-12648-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-op-12682",
@@ -218,13 +246,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1935 April 7",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12682",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12682.jpg",
+  "thumb": "img/places/divide/dpl-op-12682-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-op-12739",
@@ -243,13 +275,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1949 January 18",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12739",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12739.jpg",
+  "thumb": "img/places/divide/dpl-op-12739-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-op-12740",
@@ -268,13 +304,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1949 January 18",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12740",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12740.jpg",
+  "thumb": "img/places/divide/dpl-op-12740-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-op-12726",
@@ -293,13 +333,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1949 January 26",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12726",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12726.jpg",
+  "thumb": "img/places/divide/dpl-op-12726-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-op-12747",
@@ -318,13 +362,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1949 February 16",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12747",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12747.jpg",
+  "thumb": "img/places/divide/dpl-op-12747-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-op-12706",
@@ -343,13 +391,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1949 February 17",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's display copy, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12706",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/divide/dpl-op-12706.jpg",
+  "thumb": "img/places/divide/dpl-op-12706-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:divide:dpl-crrm-2012-285-0746",
