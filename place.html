@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atlas place</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { margin: 0; height: 100%; font: 14px/1.45 Georgia, 'Times New Roman', serif; color: #2b2620; background: #f4f1e8; }
+  #map { position: absolute; inset: 0 0 0 360px; }
+  #side { position: absolute; inset: 0 auto 0 0; width: 360px; box-sizing: border-box; padding: 16px 16px 30px; overflow-y: auto; background: #f4f1e8; border-right: 1px solid #cfc7b3; }
+  h1 { font-size: 20px; margin: 0 0 6px; } h2 { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #8a5a2b; margin: 18px 0 6px; border-bottom: 1px solid #d8d0bd; padding-bottom: 3px; }
+  p { margin: 0 0 8px; } ul { margin: 0; padding-left: 18px; } li { margin-bottom: 5px; }
+  .note { color: #6b6253; font-size: 12.5px; } .sw { display: inline-block; width: 14px; height: 10px; margin-right: 6px; vertical-align: middle; border: 2px solid; }
+  label { display: block; margin: 3px 0; } a { color: #7a4a16; } .pill { display: inline-block; padding: 0 7px; border-radius: 9px; font-size: 12px; color: #fff; }
+  .leaflet-popup-content { font: 13px/1.4 Georgia, serif; max-width: 300px; } .leaflet-popup-content img { max-width: 100%; display: block; margin: 6px 0; }
+  #warn { display: none; background: #7c2d12; color: #fff; padding: 10px; margin-bottom: 10px; }
+  @media (max-width: 760px) { #side { position: static; width: auto; border-right: 0; } #map { position: static; height: 70vh; } }
+</style>
+</head>
+<body>
+<div id="side">
+  <div id="warn">This page must be opened from the local server (http://localhost:8765/place.html), not as a file.</div>
+  <h1 id="name">Loading</h1>
+  <p class="note" id="kind"></p>
+  <p id="summary"></p>
+  <h2>Map on top</h2><div id="overlays"></div>
+  <h2>What is drawn</h2>
+  <label><span class="sw" style="border-color:#15803d;background:#15803d44"></span>Measured</label>
+  <label><span class="sw" style="border-color:#d97706;background:#d9770644"></span>Inferred from measured things</label>
+  <label><span class="sw" style="border-color:#6b7280;border-style:dashed"></span>Conjecture</label>
+  <label><span class="sw" style="border-color:#111;border-style:dashed;height:0"></span>Railway grade</label>
+  <label><span class="sw" style="border-color:#2563eb;background:#2563eb;border-radius:50%;width:8px;height:8px"></span>Where a photograph was taken (wedge = its view)</label>
+  <p class="note" id="counts"></p>
+  <h2>Photographs</h2><div id="photos"></div>
+  <h2>Still open</h2><ul id="open"></ul>
+  <h2>Other places</h2><div id="places"></div>
+  <div id="pages"></div>
+  <p><a href="index.html">The whole region</a></p>
+  <p class="note">Every position carries a grade and an error; click anything on the map to read what it rests on.</p>
+  <p class="note" id="attribution">Railway lines and place names: © OpenStreetMap contributors (Open Database Licence). Base maps and imagery: Esri. Elevation, historical maps and aerial photographs: U.S. Geological Survey. Insurance maps: Sanborn Map Company, 1896 to 1908, from the University of Colorado Boulder. Photographs are held by the institutions named with each and are shown by their permission; those not cleared for publication are linked, not shown. The atlas's own work (positions, camera stations, footprints, models and notes) is © Pikes Peak Rail Atlas, free to reuse with credit under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+</div>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+if (location.protocol === 'file:') document.getElementById('warn').style.display = 'block';
+const slug = new URLSearchParams(location.search).get('place') || 'gillett';
+const base = 'atlas/places/' + slug + '/';
+const get = (u, fallback) => fetch(u, { cache: 'no-store' }).then(r => r.ok ? r.json() : fallback).catch(() => fallback);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const GRADE = { measured: '#15803d', inferred: '#d97706', conjecture: '#6b7280' };
+const LEVEL = { solved: '#1d4ed8', direction: '#7c3aed', pin: '#64748b' };
+const img = p => !p ? null : (p.startsWith('img/') ? p : base + p);          // pictures kept with the site, or with the place
+const map = L.map('map');
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 20, maxNativeZoom: 18, attribution: 'Imagery: Esri, Maxar, Earthstar Geographics' }).addTo(map);
+Promise.all([get(base + 'place.json', null), get(base + 'structures.geojson', { features: [] }), get(base + 'stations.json', []), get(base + 'photos.json', []), get(base + 'overlays.json', []),
+             get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] })]).then(([place, st, stations, photos, overlays, lines, places]) => {
+  if (!place) { document.getElementById('name').textContent = 'No place called "' + slug + '"'; return; }
+  document.title = place.name + ' · Pikes Peak Rail Atlas'; document.getElementById('name').textContent = place.name;
+  document.getElementById('kind').textContent = place.kind + (place.valid_from ? ', ' + place.valid_from + (place.valid_to ? ' to ' + place.valid_to : ' on') : '') + ' · position ' + place.grade + ', good to ' + (place.error_ft == null ? 'an unstated distance' : place.error_ft + ' ft');
+  document.getElementById('summary').textContent = place.summary;
+  const [lon, lat] = place.geometry.coordinates; map.setView([lat, lon], place.kind === 'town' ? 16 : 17);
+  // ---- maps and aerial photographs laid on the ground
+  const box = document.getElementById('overlays'); let current = null;
+  const usable = overlays.filter(o => o.image && o.bounds);
+  const pick = (o) => { if (current) map.removeLayer(current); current = o ? L.imageOverlay(img(o.image), o.bounds, { opacity: 0.75 }).addTo(map) : null; };
+  [null].concat(usable).forEach((o, i) => {
+    const l = document.createElement('label'); l.innerHTML = '<input type="radio" name="ov"' + (i === (usable.length ? 1 : 0) ? ' checked' : '') + '> ' + (o ? esc(o.name) + ' <span class="note">(' + esc(o.date) + ')</span>' : 'None (today\'s ground only)');
+    l.querySelector('input').onchange = () => pick(o); box.appendChild(l);
+  });
+  if (usable.length) pick(usable[0]);
+  const skipped = overlays.length - usable.length;
+  if (skipped) { const n = document.createElement('p'); n.className = 'note'; n.textContent = skipped + ' more layer' + (skipped > 1 ? 's are' : ' is') + ' registered by corner points and shown only on this place\'s own map page.'; box.appendChild(n); }
+  // ---- railway grade
+  for (const l of lines) for (const s of l.segments)
+    L.geoJSON(s.geometry, { style: { color: '#111', weight: 3, dashArray: '8 6', opacity: 0.85 } }).bindPopup('<b>' + esc(l.name) + '</b><br>' + esc(s.valid_from || '?') + ' to ' + esc(s.valid_to || '?') + '<br><i>' + esc(s.grade) + ', good to ' + esc(s.error_ft) + ' ft</i><br>' + esc(s.basis)).addTo(map);
+  // ---- structures, coloured by how they are known
+  const style = p => ({ color: GRADE[p.grade], weight: p.kind === 'building' ? 1.5 : 4, dashArray: p.grade === 'conjecture' ? '4 4' : null, fillColor: GRADE[p.grade], fillOpacity: p.grade === 'conjecture' ? 0.05 : 0.3 });
+  L.geoJSON(st, { style: f => style(f.properties), pointToLayer: (f, ll) => L.circleMarker(ll, Object.assign(style(f.properties), { radius: 7, weight: 2 })),
+    onEachFeature: (f, layer) => { const p = f.properties; layer.bindPopup('<b>' + esc(p.name || p.kind) + '</b><br><span class="pill" style="background:' + GRADE[p.grade] + '">' + p.grade + '</span> ' + (p.error_ft == null ? '' : 'good to ' + p.error_ft + ' ft') +
+      '<br>' + esc(p.basis) + (p.parts ? '<ul>' + p.parts.map(q => '<li>' + esc(q.name) + ': <i>' + q.grade + '</i>. ' + esc(q.basis) + '</li>').join('') + '</ul>' : '')); } }).addTo(map);
+  const n = g => st.features.filter(f => f.properties.grade === g).length;
+  document.getElementById('counts').textContent = st.features.length + ' structures: ' + n('measured') + ' measured, ' + n('inferred') + ' inferred, ' + n('conjecture') + ' conjecture.';
+  // ---- where photographs were taken
+  const byId = Object.fromEntries(photos.map(p => [p.id, p])); const M_LAT = 111132, M_LON = 111320 * Math.cos(lat * Math.PI / 180);
+  const pbox = document.getElementById('photos'); const marker = {};
+  for (const s of stations) {
+    const p = byId[s.photo] || {}, col = LEVEL[s.level] || '#64748b', R = s.level === 'pin' ? 60 : 110, pts = [[s.lat, s.lon]];
+    for (let a = -s.fov / 2; a <= s.fov / 2 + 0.01; a += s.fov / 12) { const b = (s.heading + a) * Math.PI / 180; pts.push([s.lat + R * Math.cos(b) / M_LAT, s.lon + R * Math.sin(b) / M_LON]); }
+    L.polygon(pts, { color: col, weight: 1, fillOpacity: 0.18, dashArray: s.level === 'pin' ? '4 4' : null, interactive: false }).addTo(map);
+    marker[s.photo] = L.circleMarker([s.lat, s.lon], { radius: 6, color: '#fff', weight: 2, fillColor: col, fillOpacity: 1 }).addTo(map).bindPopup(
+      '<b>' + esc(p.name || s.name) + '</b><br><span class="pill" style="background:' + col + '">' + s.level + '</span> ' + (s.position_error_ft ? 'position good to ' + s.position_error_ft + ' ft' : 'position error not stated') +
+      (p.thumb ? '<img src="' + img(p.thumb) + '" alt=""><span class="note">' + esc(p.credit || p.holder || '') + '</span><br>' : '<br><span class="note">The photograph is not shown here; follow the link to its holder.</span><br>') + esc(s.basis) + (p.url ? '<br><a href="' + p.url + '" target="_blank" rel="noopener">Held by ' + esc(p.holder) + '</a>' : ''));
+  }
+  for (const p of photos.slice(0, 40)) {
+    const d = document.createElement('p'); const has = marker[p.id];
+    d.innerHTML = (has ? '<a href="#">' + esc(p.name) + '</a>' : esc(p.name)) + ' <span class="note">' + esc(p.date || '') + (has ? '' : ' · not placed') + (p.rights === 'public-domain' || p.rights === 'licensed' ? '' : ' · ' + p.rights) + '</span>';
+    if (has) d.querySelector('a').onclick = e => { e.preventDefault(); map.panTo(has.getLatLng()); has.openPopup(); };
+    pbox.appendChild(d);
+  }
+  if (photos.length > 40) { const m = document.createElement('p'); m.className = 'note'; m.textContent = 'and ' + (photos.length - 40) + ' more.'; pbox.appendChild(m); }
+  if (!photos.length) pbox.innerHTML = '<p class="note">None yet.</p>';
+  document.getElementById('open').innerHTML = (place.open_questions || []).map(q => '<li>' + esc(q) + '</li>').join('') || '<li class="note">Nothing recorded.</li>';
+  document.getElementById('places').innerHTML = places.features.map(f => '<p>' + (f.properties.id === place.id ? '<b>' + esc(f.properties.name) + '</b>' : '<a href="place.html?place=' + f.properties.id.split(':')[1] + '">' + esc(f.properties.name) + '</a>') + ' <span class="note">' + f.properties.kind + '</span></p>').join('');
+  document.getElementById('pages').innerHTML = ((place.local || {}).pages || []).map(q => '<p><a href="' + q.href + '"><b>' + esc(q.title) + '</b></a></p>').join('');
+  window.atlasPlacePage = { map, place, structures: st, stations, photos, overlays };
+});
+</script>
+</body>
+</html>

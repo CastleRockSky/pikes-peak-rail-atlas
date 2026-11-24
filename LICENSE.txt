@@ -1,0 +1,14 @@
+Pikes Peak Rail Atlas
+
+The atlas's own work - positions, camera stations, building footprints, 3D models, notes and the pages themselves -
+is (c) Pikes Peak Rail Atlas and may be reused with credit under the Creative Commons Attribution 4.0 International
+licence: https://creativecommons.org/licenses/by/4.0/
+
+Not covered by that licence:
+- Railway lines and place names are from OpenStreetMap, (c) OpenStreetMap contributors, under the Open Database
+  Licence: https://opendatacommons.org/licenses/odbl/
+- Photographs belong to the institutions named with each (Denver Public Library, Western History Collection; Pikes
+  Peak Library District) and are shown by their permission with a credit line. Ask the holder before reusing one.
+- Historical maps, aerial photographs and elevation data are from the U.S. Geological Survey; insurance maps are by the
+  Sanborn Map Company, 1896 to 1908, from scans by the University of Colorado Boulder. Base maps and imagery shown
+  behind the atlas are from Esri and are not part of it.

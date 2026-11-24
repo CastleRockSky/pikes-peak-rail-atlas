@@ -1,0 +1,141 @@
+[
+ {
+  "id": "station:short-line-tunnel-4:dpl-mcc-83",
+  "name": "Tunnel No. 4 and its trestle, from beside the track to the south-east",
+  "grade": "inferred",
+  "basis": "Solved, loosely. The camera stood beside the track about 430 ft east of the trestle, on the bank about 15 ft above the rails, looking north-west at the south portal 720 ft away. Fitted to the portal (its position, and its size taken as 16 by 19 ft), the track in the foreground and the near rocky skyline: 12 px. Fifteen of twenty starts agree, within 150 ft and between headings 326 and 339. The catalogue says the push car on the track is McClure's own, which fits a camera set up beside it.",
+  "sources": [
+   "source:dpl-mcc-83"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:short-line-tunnel-4:dpl-mcc-83",
+  "place": "place:short-line-tunnel-4",
+  "level": "solved",
+  "lat": 38.751522308808745,
+  "lon": -104.91542998927007,
+  "height_ft": 15.708512078768077,
+  "heading": 327.1789042942587,
+  "pitch": -2.7799792812564545,
+  "roll": 0,
+  "fov": 50.52818941219695,
+  "cx": 0,
+  "cy": 0,
+  "method": "atlas/tools/solve_camera.py: 6 controls, 12.1 px rms; 15 of 20 starts agree",
+  "controls": [
+   {
+    "type": "structure",
+    "name": "track at the portal mouth",
+    "px": [
+     640,
+     1330
+    ],
+    "structure": "structure:short-line-tunnel-4:south-portal",
+    "local_ft": [
+     0,
+     0,
+     0
+    ],
+    "weight": 3,
+    "residual_px": 12.9
+   },
+   {
+    "type": "structure",
+    "name": "crown of the portal arch",
+    "px": [
+     632,
+     1238
+    ],
+    "structure": "structure:short-line-tunnel-4:south-portal",
+    "local_ft": [
+     0,
+     0,
+     19
+    ],
+    "weight": 2,
+    "residual_px": 22.6
+   },
+   {
+    "type": "structure",
+    "name": "west jamb of the portal",
+    "px": [
+     612,
+     1300
+    ],
+    "structure": "structure:short-line-tunnel-4:south-portal",
+    "local_ft": [
+     0,
+     -8,
+     6
+    ],
+    "weight": 2,
+    "residual_px": 7.5
+   },
+   {
+    "type": "structure",
+    "name": "east jamb of the portal",
+    "px": [
+     668,
+     1300
+    ],
+    "structure": "structure:short-line-tunnel-4:south-portal",
+    "local_ft": [
+     0,
+     8,
+     6
+    ],
+    "weight": 2,
+    "residual_px": 13.2
+   },
+   {
+    "type": "line",
+    "name": "track on the fill beyond the trestle",
+    "px": [
+     [
+      1150,
+      1640
+     ],
+     [
+      1300,
+      1680
+     ],
+     [
+      1480,
+      1725
+     ]
+    ],
+    "line": "structure:short-line-tunnel-4:grade-beyond",
+    "up_ft": 0,
+    "weight": 2,
+    "residual_px": 5.3
+   },
+   {
+    "type": "ridge",
+    "name": "near rocky skyline right of the portal",
+    "px": [
+     [
+      1100,
+      690
+     ],
+     [
+      1180,
+      700
+     ],
+     [
+      1300,
+      760
+     ],
+     [
+      1400,
+      790
+     ]
+    ],
+    "weight": 0.3,
+    "residual_px": 12.6
+   }
+  ],
+  "position_error_ft": 148,
+  "heading_error_deg": 6.7
+ }
+]

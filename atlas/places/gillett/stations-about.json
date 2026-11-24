@@ -1,0 +1,3 @@
+{
+ "about": "Camera stations solved in web/match.html. heading is degrees east of north; fov is the horizontal field of view; cx, cy shift the image centre in percent. placed = ground points the user clicked on the photograph with that camera. These four fall on mapped buildings on the east side of Parker Avenue (plat u 610-645, v 193-440), so they read as test clicks, not new houses."
+}

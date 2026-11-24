@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gillett photograph library</title>
+<style>
+  :root { --paper: #f4f1ea; --ink: #22201c; --line: #cfc7b5; --accent: #8a3b1e; }
+  * { box-sizing: border-box; }
+  body { font: 16px/1.5 Georgia, serif; margin: 0; background: var(--paper); color: var(--ink); }
+  header { padding: 18px 22px 10px; max-width: 1500px; margin: auto; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  .sub { color: #5c564a; margin: 0 0 12px; font-size: 15px; }
+  a { color: var(--accent); }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+  .chip { border: 1px solid var(--line); background: #fff; border-radius: 16px; padding: 3px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+  .chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  input[type=search], select { font: inherit; font-size: 15px; padding: 5px 9px; border: 1px solid var(--line); border-radius: 4px; background: #fff; }
+  input[type=search] { width: 260px; max-width: 100%; }
+  #count { color: #5c564a; font-size: 14px; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; padding: 6px 22px 40px; max-width: 1500px; margin: auto; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 5px; overflow: hidden; cursor: pointer; padding: 0; text-align: left; font: inherit; color: inherit; }
+  .card:hover, .card:focus { outline: 2px solid var(--accent); }
+  .card img { width: 100%; height: 170px; object-fit: cover; display: block; background: #ddd; }
+  .card div { padding: 7px 10px 9px; font-size: 14px; line-height: 1.35; }
+  .card small { color: #6b6557; display: block; }
+  #view { position: fixed; inset: 0; background: rgba(20, 18, 15, .96); display: none; z-index: 10; color: #eee; }
+  #view.on { display: grid; grid-template-columns: minmax(0, 1fr) 380px; }
+  #stage { position: relative; overflow: hidden; cursor: grab; }
+  #stage.drag { cursor: grabbing; }
+  #big { position: absolute; left: 0; top: 0; transform-origin: 0 0; user-select: none; -webkit-user-drag: none; max-width: none; }
+  #side { background: var(--paper); color: var(--ink); padding: 18px 20px; overflow: auto; font-size: 15px; }
+  #side h2 { font-size: 19px; margin: 0 0 6px; }
+  #side p { margin: 8px 0; }
+  #side dt { color: #6b6557; font-size: 13px; margin-top: 8px; }
+  #side dd { margin: 0; }
+  .nav { display: flex; gap: 8px; margin: 0 0 12px; flex-wrap: wrap; }
+  .nav button, .tool button { font: inherit; font-size: 14px; padding: 4px 11px; border: 1px solid var(--line); background: #fff; border-radius: 4px; cursor: pointer; }
+  .tool { position: absolute; left: 12px; bottom: 12px; display: flex; gap: 6px; }
+  .tag { display: inline-block; font-size: 12.5px; border: 1px solid var(--line); border-radius: 10px; padding: 0 8px; margin: 0 4px 4px 0; background: #fff; }
+  @media (max-width: 900px) { #view.on { grid-template-columns: 1fr; grid-template-rows: 55% 45%; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Gillett photograph library</h1>
+  <p class="sub">Every photograph in the project: those you supplied and those collected from libraries. Click one to look closely; scroll to zoom, drag to move, arrow keys for the next and previous.
+    <a href="gillett.html">Base map</a> &middot; <a href="town3d.html">3D town</a> &middot; Photo matching &middot; Landmark guide</p>
+  <div class="bar" id="chips"></div>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search captions, e.g. Poley, snow, hydrant">
+    <select id="sort"><option value="date">Oldest first</option><option value="new">Newest first</option><option value="file">As catalogued</option></select>
+    <select id="src"><option value="">All sources</option><option value="project">Supplied by you</option><option value="collected">Collected from libraries</option></select>
+    <span id="count"></span>
+  </div>
+</header>
+<div id="grid"></div>
+<div id="view">
+  <div id="stage"><img id="big" alt=""><div class="tool"><button id="zin">+</button><button id="zout">&minus;</button><button id="zfit">Fit</button><button id="z100">Full size</button></div></div>
+  <div id="side"></div>
+</div>
+<script src="atlas.js"></script>
+<script>
+if (location.protocol === 'file:') document.querySelector('.sub').innerHTML = '<b>Open this page as <a href="http://localhost:8765/photos.html">http://localhost:8765/photos.html</a> (run start-site.bat first).</b>';
+const esc = (s) => String(s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+let DATA = null, shown = [], cur = -1, topic = '';
+const md = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/`(.+?)`/g, '<code>$1</code>');
+
+function draw() {
+  const q = document.getElementById('q').value.trim().toLowerCase(), src = document.getElementById('src').value, sort = document.getElementById('sort').value;
+  shown = DATA.photos.filter(p => (!topic || p.topics.includes(topic)) && (!src || p.source === src) &&
+    (!q || [p.title, p.subject, p.text, p.date, p.holder, p.photographer, p.file].join(' ').toLowerCase().includes(q)));
+  if (sort !== 'file') shown.sort((a, b) => ((a.year || 9999) - (b.year || 9999)) * (sort === 'new' ? -1 : 1) || a.id.localeCompare(b.id));
+  if (sort === 'new') shown.sort((a, b) => (b.year || 0) - (a.year || 0));
+  document.getElementById('count').textContent = shown.length + ' of ' + DATA.photos.length + ' photographs';
+  document.getElementById('grid').innerHTML = shown.map((p, i) =>
+    `<button class="card" data-i="${i}"><img loading="lazy" src="${p.thumb}" alt=""><div>${esc(p.title || p.file)}<small>${esc(p.date || 'undated')}</small></div></button>`).join('');
+}
+document.getElementById('grid').addEventListener('click', e => { const c = e.target.closest('.card'); if (c) open(+c.dataset.i); });
+['q', 'sort', 'src'].forEach(id => document.getElementById(id).addEventListener('input', draw));
+
+// ---- the close view: zoom and pan
+const stage = document.getElementById('stage'), big = document.getElementById('big');
+let z = 1, ox = 0, oy = 0;
+const place = () => { big.style.transform = `translate(${ox}px,${oy}px) scale(${z})`; };
+function fit() { const r = stage.getBoundingClientRect(); z = Math.min(r.width / big.naturalWidth, r.height / big.naturalHeight); ox = (r.width - big.naturalWidth * z) / 2; oy = (r.height - big.naturalHeight * z) / 2; place(); }
+function zoom(k, cx, cy) { const r = stage.getBoundingClientRect(); cx = cx ?? r.width / 2; cy = cy ?? r.height / 2; const nz = Math.max(0.05, Math.min(8, z * k)); ox = cx - (cx - ox) * nz / z; oy = cy - (cy - oy) * nz / z; z = nz; place(); }
+big.addEventListener('load', fit);
+stage.addEventListener('wheel', e => { e.preventDefault(); const r = stage.getBoundingClientRect(); zoom(e.deltaY < 0 ? 1.2 : 1 / 1.2, e.clientX - r.left, e.clientY - r.top); }, { passive: false });
+let drag = null;
+stage.addEventListener('pointerdown', e => { if (e.target.closest('.tool')) return; drag = [e.clientX - ox, e.clientY - oy]; stage.classList.add('drag'); stage.setPointerCapture(e.pointerId); });
+stage.addEventListener('pointermove', e => { if (drag) { ox = e.clientX - drag[0]; oy = e.clientY - drag[1]; place(); } });
+stage.addEventListener('pointerup', () => { drag = null; stage.classList.remove('drag'); });
+document.getElementById('zin').onclick = () => zoom(1.4); document.getElementById('zout').onclick = () => zoom(1 / 1.4);
+document.getElementById('zfit').onclick = fit; document.getElementById('z100').onclick = () => zoom(1 / z);
+
+function open(i) {
+  cur = i; const p = shown[i]; if (!p) return;
+  big.src = p.img;
+  const label = (t) => (DATA.topics.find(x => x.tag === t) || {}).label || t;
+  const models = [...new Set(p.topics.map(t => DATA.topics.find(x => x.tag === t)).filter(x => x && x.model).map(x => `<a href="${x.model}">${esc(x.label)} model</a>`))];
+  const row = (k, v) => v ? `<dt>${k}</dt><dd>${v}</dd>` : '';
+  document.getElementById('side').innerHTML = `
+    <div class="nav"><button id="prev">&larr; Previous</button><button id="next">Next &rarr;</button><button id="close">Close</button></div>
+    <h2>${esc(p.title || p.file)}</h2>
+    <div>${p.topics.map(t => `<span class="tag">${esc(label(t))}</span>`).join('')}</div>
+    <p>${md(p.subject)}</p>
+    <dl>${row('Date', md(p.date))}${row('Photographer', esc(p.photographer))}${row('Lettering on it', md(p.text))}${row('Held by', esc(p.holder))}
+      ${row('Catalogue record', p.url ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.url.replace(/^https?:\/\//, ''))}</a>` : '')}
+      ${row('Rights', esc(p.rights))}${row('Use for the reconstruction', md(p.use))}
+      ${row('Where it was taken', p.match ? `Camera solved: see it over the mapped town` : '')}
+      ${row('Related', models.join(' &middot; '))}
+      ${row('File', `<code>${esc(p.file)}</code>, ${p.w} &times; ${p.h} px &middot; <a href="${p.img}" target="_blank">open the image alone</a>`)}</dl>
+    <p style="color:#6b6557;font-size:13px">${i + 1} of ${shown.length} in this selection</p>`;
+  document.getElementById('prev').onclick = () => open((cur - 1 + shown.length) % shown.length);
+  document.getElementById('next').onclick = () => open((cur + 1) % shown.length);
+  document.getElementById('close').onclick = close;
+  document.getElementById('view').classList.add('on'); history.replaceState(null, '', '#' + p.id);
+}
+function close() { document.getElementById('view').classList.remove('on'); cur = -1; history.replaceState(null, '', location.pathname + location.search); }
+addEventListener('keydown', e => {
+  if (cur < 0) return;
+  if (e.key === 'Escape') close(); if (e.key === 'ArrowRight') open((cur + 1) % shown.length); if (e.key === 'ArrowLeft') open((cur - 1 + shown.length) % shown.length);
+});
+addEventListener('resize', () => { if (cur >= 0) fit(); });
+
+atlasData('data/photos.json').then(d => {
+  DATA = d;
+  if (d.withheld) {                       // a public copy shows only what its holders have cleared
+    const w = document.createElement('p'); w.style.cssText = 'color:#6b6253;font-size:13px;margin:8px 0';
+    w.textContent = d.withheld + ' more photographs used in this work are not shown here: their holders are not established, or have not cleared them. Each is listed with its place on the atlas.';
+    document.getElementById('chips').after(w);
+  }
+  const n = (t) => d.photos.filter(p => p.topics.includes(t)).length;
+  document.getElementById('chips').innerHTML = `<button class="chip on" data-t="">All (${d.photos.length})</button>` +
+    d.topics.filter(t => n(t.tag)).map(t => `<button class="chip" data-t="${t.tag}">${esc(t.label)} (${n(t.tag)})</button>`).join('');
+  document.getElementById('chips').addEventListener('click', e => {
+    const c = e.target.closest('.chip'); if (!c) return;
+    topic = c.dataset.t; document.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x === c)); draw();
+  });
+  const want = new URLSearchParams(location.search).get('topic'); if (want) { topic = want; document.querySelectorAll('.chip').forEach(x => x.classList.toggle('on', x.dataset.t === want)); }
+  draw();
+  if (location.hash) { const i = shown.findIndex(p => p.id === location.hash.slice(1)); if (i >= 0) open(i); }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+{
+ "id": "place:gillett",
+ "name": "Gillett",
+ "valid_from": 1894,
+ "grade": "measured",
+ "error_ft": 10,
+ "basis": "Platted townsite; position from three registered insurance sheets and 2024 lidar.",
+ "sources": [
+  "source:sanborn-1896-gillett",
+  "source:lidar-3dep-2024"
+ ],
+ "status": "reviewed",
+ "contributor": "project",
+ "updated": "2026-11-23",
+ "kind": "town",
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   -105.1235,
+   38.7817
+  ]
+ },
+ "elevation_ft": 9960,
+ "on_lines": [
+  {
+   "line": "line:midland-terminal",
+   "milepost": null
+  }
+ ],
+ "local_frame": {
+  "origin": "north-west corner of block 49",
+  "u": "east along the streets",
+  "v": "north along the avenues",
+  "units": "ft",
+  "avenue_bearing_deg": -8.83,
+  "block_ft": [
+   210,
+   600
+  ],
+  "street_ft": 60,
+  "block_columns_u": [
+   -540,
+   -270,
+   0,
+   310,
+   580,
+   850,
+   1120
+  ],
+  "enu_origin": [
+   38.7817,
+   -105.1235
+  ]
+ },
+ "summary": "A Midland Terminal Railway town in Teller County, Colorado, platted in 1894 on the flats north-east of Cripple Creek. It peaked about 1896 to 1897, held the bullfight of August 1895 in a timber ring inside its racetrack, and faded after 1900. Nothing stands today but the ruin of the Catholic church.",
+ "open_questions": [
+  "Bull ring: position good to about 50 ft; the lens angle of the hill photograph (X-8601) is not settled.",
+  "5th Street photograph (X-8657): the standpoint is a guess and the building fronts do not fit the map.",
+  "Depot: the street side and the north end are conjecture.",
+  "Monte Carlo: orientation good only to about 20 degrees; wall height uncertain.",
+  "Catholic church: the north (rear) wall is not shown in any photograph.",
+  "Houses placed from the 1897 panorama on the far north-west slope may be 7 to 10 percent too near (evidence from three houses).",
+  "122 houses are illustrative placeholders: no photograph in hand gives their positions.",
+  "Which dam the 1965 flood photographs show."
+ ],
+ "local": {
+  "pages": [
+   {
+    "title": "Detailed map with the insurance sheets",
+    "href": "gillett.html"
+   },
+   {
+    "title": "The town in 3D, and standing where photographs were taken",
+    "href": "town3d.html"
+   }
+  ]
+ }
+}

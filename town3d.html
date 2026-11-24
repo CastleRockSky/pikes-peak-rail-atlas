@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gillett 1896 massing</title>
+<style>
+  :root { --ink:#22201c; --paper:#f6f1e4; --line:#cfc5ab; --accent:#8a3b1e; --muted:#6b6557; }
+  html, body { height:100%; margin:0; overflow:hidden; }
+  body { font:14px/1.4 Georgia, "Times New Roman", serif; color:var(--ink); background:#b9c7d3; }
+  canvas { display:block; }
+  .card { position:absolute; z-index:10; background:var(--paper); border:1px solid var(--line); border-radius:6px;
+          box-shadow:0 2px 10px rgba(0,0,0,.35); padding:12px 14px; box-sizing:border-box; }
+  #panel { top:12px; left:12px; width:280px; max-height:calc(100% - 24px); overflow:auto; }
+  #panel h1 { font-size:18px; margin:0 0 2px; }
+  p.sub { margin:0 0 10px; color:var(--muted); font-size:12.5px; }
+  fieldset { border:0; border-top:1px solid var(--line); margin:0; padding:8px 0 6px; }
+  legend { font-variant:small-caps; letter-spacing:.06em; color:var(--accent); padding:0 6px 0 0; font-size:13px; }
+  label { display:block; margin:3px 0; cursor:pointer; }
+  .sw { display:inline-block; width:14px; height:10px; margin-right:6px; border:1px solid rgba(0,0,0,.4); }
+  .note { font-size:12px; color:var(--muted); margin:6px 0 0; }
+  #key div { font-size:12.5px; margin:2px 0; }
+  #info { right:12px; top:12px; width:270px; display:none; }
+  #info h2 { font-size:15px; margin:0 0 4px; }
+  #info p { margin:3px 0; font-size:13px; }
+  #info .x { position:absolute; right:8px; top:4px; cursor:pointer; font-size:18px; color:var(--muted); background:none; border:0; }
+  a { color:var(--accent); }
+  @media (max-width:600px) { #panel { width:calc(100% - 24px); max-height:42%; } #info { top:auto; bottom:12px; left:12px; right:12px; width:auto; } }
+</style>
+</head>
+<body>
+<div id="panel" class="card">
+  <h1>Gillett in November 1896</h1>
+  <p class="sub">Block massing of the business core, on the real ground (2024 lidar), built from the Sanborn fire insurance sheet. Drag to orbit, scroll to zoom, right-drag to pan, click a building for details.</p>
+  <fieldset>
+    <legend>Colour buildings by</legend>
+    <label><input type="radio" name="mode" value="look" checked> Appearance (conjectural)</label>
+    <label><input type="radio" name="mode" value="storeys"> Storeys</label>
+    <label><input type="radio" name="mode" value="use"> Use</label>
+    <label><input type="radio" name="mode" value="evidence"> Strength of evidence</label>
+    <div id="key"></div>
+  </fieldset>
+  <fieldset>
+    <legend>Stand where a photograph was taken</legend>
+    <div id="stations"></div>
+    <div id="stationBar" style="display:none">
+      <label>Photograph <input type="range" id="fade" min="0" max="100" value="55"> model</label>
+      <button id="leave" type="button">Leave this view</button>
+      <div class="note" id="stationNote"></div>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Show</legend>
+    <label><input type="checkbox" id="sheet" checked> 1896 sheet on the ground</label>
+    <label><input type="checkbox" id="infill" checked> Illustrative housing beyond the sheet (houses placed from photographs always show)</label>
+    <label><input type="checkbox" id="names" checked> Names of known buildings</label>
+    <label><input type="checkbox" id="shadows" checked> Shadows</label>
+  </fieldset>
+  <p class="note">North of the sheet: the racetrack is drawn from lidar; the bull ring and the church are the detailed models at their located positions (the church fronts south, measured from two photographs); the Monte Carlo and Congregational church stand where two or more photographs put them; their shapes are plain blocks.</p>
+  <p class="note">Footprints, storeys and uses come from the sheet. Roof shapes, wall heights, false fronts and colours are typical forms, not evidence for each building. The depot is the detailed model.</p>
+  <p class="note">Eleven street fronts on Parker Avenue and 5th Street are drawn from photographs, with their signs. Click one for the evidence.</p>
+  <p class="note"><a href="depot.html">Depot model</a> &middot; <a href="bullring.html">Bull ring model</a> &middot; <a href="church.html">Catholic church</a> &middot; <a href="congregational.html">Congregational church</a> &middot; <a href="montecarlo.html">Monte Carlo</a> &middot; <a href="gillett.html">Base map</a></p>
+</div>
+<img id="photoOver" alt="" style="position:fixed;display:none;pointer-events:none;z-index:1;opacity:.45">
+<div id="info" class="card"><button class="x" aria-label="Close">&times;</button><div id="infobody"></div></div>
+
+<script src="atlas.js"></script>
+<script>
+// These pages load their parts over http, which browsers refuse for a file opened straight from disk.
+if (location.protocol === 'file:') {
+  var page = location.pathname.split('/').pop();
+  var d = document.createElement('div');
+  d.style.cssText = 'position:fixed;left:50%;top:40%;transform:translate(-50%,-50%);max-width:520px;padding:22px 26px;background:#fff8e6;border:2px solid #b45309;border-radius:8px;font:16px/1.5 Georgia,serif;color:#222;z-index:99999;box-shadow:0 6px 24px rgba(0,0,0,.25)';
+  d.innerHTML = '<b>This page was opened as a file, so the model cannot load.</b><br><br>' +
+    'Double-click <b>start-site.bat</b> in the project folder, then open<br>' +
+    '<a href="http://localhost:8765/' + page + '">http://localhost:8765/' + page + '</a>';
+  document.addEventListener('DOMContentLoaded', function () { document.body.appendChild(d); });
+}
+</script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { buildDepot } from './models/depot.js';
+import { buildBullring } from './models/bullring.js';
+import { buildCongregational } from './models/congregational.js';
+import { buildMonteCarlo, MC } from './models/montecarlo.js';
+import { buildChurch } from './models/church.js';
+
+// ---- coordinates: feet east (x) and north (n) of a local origin; scene is x east, y up, z south
+const LAT0 = 38.7817, LON0 = -105.1235;
+const FT_LAT = 111132.0 * 3.28084, FT_LON = 111320.0 * Math.cos(LAT0 * Math.PI / 180) * 3.28084;
+const enu = ([lon, lat]) => [(lon - LON0) * FT_LON, (lat - LAT0) * FT_LAT];
+// ---- terrain: USGS lidar resampled to 5 m (data/terrain-5m.json, metres). Heights in the scene are feet above the
+// ground at the scene origin. GZ is the ground height added to everything built while it is set, so each building,
+// model and label is made as if on flat ground and then stands at its own ground level.
+let terrain = null, BASE = 0, GZ = 0;
+function elev(x, n) {
+  const t = terrain; if (!t) return 0;
+  const lon = LON0 + x / FT_LON, lat = LAT0 + n / FT_LAT;
+  const fx = (lon - t.west) / (t.east - t.west) * (t.nx - 1), fy = (t.north - lat) / (t.north - t.south) * (t.ny - 1);
+  const i = Math.max(0, Math.min(t.nx - 2, Math.floor(fx))), j = Math.max(0, Math.min(t.ny - 2, Math.floor(fy)));
+  const a = Math.max(0, Math.min(1, fx - i)), b = Math.max(0, Math.min(1, fy - j)), z = (ii, jj) => t.z[jj * t.nx + ii];
+  return ((z(i, j) * (1 - a) + z(i + 1, j) * a) * (1 - b) + (z(i, j + 1) * (1 - a) + z(i + 1, j + 1) * a) * b - BASE) * 3.28084;
+}
+const lowest = (ring) => Math.min(...ring.map(q => elev(q[0], q[1])));
+const V = (x, n, y = 0) => new THREE.Vector3(x, y + GZ, -n);
+const TH = 8.83 * Math.PI / 180;                       // avenues bear 8.83 degrees west of north
+const U = [Math.cos(TH), Math.sin(TH)], W = [-Math.sin(TH), Math.cos(TH)];   // plat east / plat north in ground axes
+
+const COMMERCIAL = /store|saloon|restaurant|office|hotel|bank|drug|grocery|meat|bakery|lodging|boarding|hardware|post office|dining|bar|cloth|laundry|print|paint/i;
+const esc = (s) => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xb9c7d3);
+scene.fog = new THREE.Fog(0xb9c7d3, 6000, 16000);
+const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 5, 20000);
+camera.position.set(-250, 420, 900);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(480, 0, -20);
+controls.maxPolarAngle = Math.PI / 2 - 0.03;
+controls.minDistance = 40; controls.maxDistance = 5000;
+controls.update();
+
+scene.add(new THREE.HemisphereLight(0xeaf1f7, 0xa39680, 1.9));
+const sun = new THREE.DirectionalLight(0xfff2dc, 2.6);
+sun.position.set(-700, 900, 500);
+sun.castShadow = true;
+sun.shadow.mapSize.set(4096, 4096);
+Object.assign(sun.shadow.camera, { left: -1100, right: 1100, top: 1100, bottom: -1100, near: 10, far: 3500 });
+sun.shadow.bias = -0.0005;
+sun.target.position.set(450, 0, 0);
+scene.add(sun, sun.target);
+
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(16000, 16000), new THREE.MeshStandardMaterial({ color: 0xa79f7c, roughness: 1 }));
+ground.rotation.x = -Math.PI / 2; ground.position.y = -0.6; ground.receiveShadow = true;
+scene.add(ground);
+
+const PALETTE = [0xd8d0bc, 0xbfa37a, 0xa3835c, 0xcfc8b4, 0xb39473, 0x9a9c92, 0xc9b48f, 0x8f7658];
+const ROOFS = [0x6b5a48, 0x5a5046, 0x74624d, 0x4f4a45];
+const STOREY = (s) => s == null ? 0x9ca3af : s >= 2 ? 0xb45309 : s > 1 ? 0xf59e0b : 0xfde68a;
+const USECOL = (p) => /depot|freight/i.test(p.use || '') ? 0x7c3aed : /livery|stable|hay|feed|blacksmith|lumber/i.test((p.use || '') + (p.name || '')) || p.crossed ? 0x92400e
+  : /saloon|bar/i.test(p.use || '') ? 0xdc2626 : /hotel|lodging|boarding|restaurant|dining/i.test((p.use || '') + (p.name || '')) ? 0x2563eb
+  : /dwelling|cabin/i.test(p.use || '') ? 0x65a30d : COMMERCIAL.test(p.use || '') ? 0xf59e0b : /school|hall|calaboose/i.test((p.use || '') + (p.name || '')) ? 0x0d9488 : 0x9ca3af;
+const EVID = (p) => p.source === 'placed' ? 0x0ea5e9 : p.source === 'infill' ? 0xa78bfa : p.source === 'walls' && p.storeys != null ? 0x4d7c0f : p.source === 'walls' ? 0xd97706 : 0xdc2626;
+const KEYS = {
+  look: [],
+  storeys: [[0xfde68a, '1 storey'], [0xf59e0b, '1½ storeys'], [0xb45309, '2 storeys'], [0x9ca3af, 'figure not read (drawn as 1, or 2 if a second floor is lettered)']],
+  use: [[0xf59e0b, 'Stores and offices'], [0xdc2626, 'Saloons'], [0x2563eb, 'Hotels, lodgings, restaurants'], [0x65a30d, 'Dwellings and cabins'],
+        [0x92400e, 'Stables, livery, yards'], [0x7c3aed, 'Railway'], [0x0d9488, 'Civic'], [0x9ca3af, 'No use lettered']],
+  evidence: [[0x4d7c0f, 'Outline from walls, storeys read'], [0xd97706, 'Outline from walls, storeys assumed'], [0xdc2626, 'Outline approximate (tint only or placed by hand)'],
+             [0x0ea5e9, 'Placed from the 1897 panorama: direction good, distance to 30-70 ft, size assumed'],
+             [0xa78bfa, 'Illustrative: position invented, only the number per block follows the panoramas']],
+};
+
+const buildings = [];   // { props, walls:[Mesh], look:int }
+const pickable = [];
+const nameSprites = new THREE.Group();
+scene.add(nameSprites);
+let sheetMesh = null;
+
+function tri(arr, a, b, c) { arr.push(a.x, a.y, a.z, b.x, b.y, b.z, c.x, c.y, c.z); }
+function quad(arr, a, b, c, d) { tri(arr, a, b, c); tri(arr, a, c, d); }
+function meshFrom(arr, mat) {
+  const g = new THREE.BufferGeometry();
+  g.setAttribute('position', new THREE.Float32BufferAttribute(arr, 3));
+  g.computeVertexNormals();
+  const m = new THREE.Mesh(g, mat);
+  m.castShadow = m.receiveShadow = true;
+  return m;
+}
+
+function label(text, x, n, y) {
+  const c = document.createElement('canvas'), ctx = c.getContext('2d');
+  ctx.font = '600 28px Georgia';
+  c.width = Math.ceil(ctx.measureText(text).width) + 20; c.height = 40;
+  ctx.font = '600 28px Georgia'; ctx.fillStyle = 'rgba(246,241,228,.92)'; ctx.fillRect(0, 0, c.width, c.height);
+  ctx.strokeStyle = '#8a3b1e'; ctx.strokeRect(0.5, 0.5, c.width - 1, c.height - 1);
+  ctx.fillStyle = '#22201c'; ctx.textBaseline = 'middle'; ctx.fillText(text, 10, 21);
+  // constant size on screen, however far the camera is
+  const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: new THREE.CanvasTexture(c), depthTest: false, sizeAttenuation: false }));
+  s.scale.set(c.width * 0.00075, c.height * 0.00075, 1);
+  s.position.copy(V(x, n, y));
+  nameSprites.add(s);
+}
+
+// ---- street fronts read from photographs (data/facades-1896.json), drawn on the side of the footprint that faces the street
+let FAC = {};
+const facadeGroup = new THREE.Group();
+scene.add(facadeGroup);
+const TONE = { light: 0xcfc6b0, white: 0xe9e4d6, dark: 0x8a745a, brick: 0x8c5a44 };
+function signTexture(text, dark) {
+  const c = document.createElement('canvas'), g = c.getContext('2d');
+  g.font = '700 44px Georgia'; c.width = Math.ceil(g.measureText(text).width) + 36; c.height = 64;
+  g.fillStyle = dark ? '#1c1b19' : '#f1ecdc'; g.fillRect(0, 0, c.width, c.height);
+  g.strokeStyle = dark ? '#e9e4d2' : '#222'; g.lineWidth = 3; g.strokeRect(3, 3, c.width - 6, c.height - 6);
+  g.font = '700 44px Georgia'; g.fillStyle = dark ? '#f1ecdc' : '#1c1b19'; g.textBaseline = 'middle'; g.fillText(text, 18, 34);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8;
+  return { tex: t, aspect: c.width / c.height };
+}
+function addFacade(F, ring, origin, rec) {
+  const plat = (q) => [(q[0] - origin[0]) * U[0] + (q[1] - origin[1]) * U[1], (q[0] - origin[0]) * W[0] + (q[1] - origin[1]) * W[1]];
+  const ground = (u, v) => [origin[0] + u * U[0] + v * W[0], origin[1] + u * U[1] + v * W[1]];
+  const uv = ring.map(plat), us = uv.map(q => q[0]), vs = uv.map(q => q[1]);
+  const u0 = Math.min(...us), u1 = Math.max(...us), v0 = Math.min(...vs), v1 = Math.max(...vs);
+  // a, b: the two ends of the front, left to right as seen from the street
+  const ends = { W: [[u0, v1], [u0, v0]], E: [[u1, v0], [u1, v1]], S: [[u0, v0], [u1, v0]], N: [[u1, v1], [u0, v1]] }[F.side];
+  const a = V(...ground(...ends[0]), 0), b = V(...ground(...ends[1]), 0);
+  const L = a.distanceTo(b), dir = b.clone().sub(a).normalize(), up = new THREE.Vector3(0, 1, 0), nrm = new THREE.Vector3().crossVectors(dir, up);
+  const h = F.front_ft || F.wall_ft, ff = F.ff || h + 4;
+  const place = (geo, off) => { const m = new THREE.Matrix4().makeBasis(dir, up, nrm); m.setPosition(a.clone().addScaledVector(nrm, off)); geo.applyMatrix4(m); return geo; };
+  const flat = (pts, off, mat, shadow = false) => {
+    const mesh = new THREE.Mesh(place(new THREE.ShapeGeometry(new THREE.Shape(pts.map(q => new THREE.Vector2(q[0], q[1])))), off), mat);
+    mesh.castShadow = shadow; mesh.receiveShadow = true; mesh.userData.rec = rec; facadeGroup.add(mesh); pickable.push(mesh);
+    return mesh;
+  };
+  const M = (color) => new THREE.MeshStandardMaterial({ color, roughness: 0.95, side: THREE.DoubleSide });
+
+  // the two-storey front part of a building whose rear is lower (the Woodruff store)
+  if (F.front_depth) {
+    const g = new THREE.BoxGeometry(L, h, F.front_depth); g.translate(L / 2, h / 2, -F.front_depth / 2);
+    const box = new THREE.Mesh(place(g, 0), M(TONE[F.tone] || TONE.light));
+    box.castShadow = box.receiveShadow = true; box.userData.rec = rec; facadeGroup.add(box); pickable.push(box);
+  }
+  // false front
+  const outline = F.style === 'stepped'
+    ? [[0, 0], [L, 0], [L, ff - 6], [L * 0.78, ff - 6], [L * 0.78, ff - 3], [L * 0.62, ff - 3], [L * 0.62, ff], [L * 0.38, ff], [L * 0.38, ff - 3], [L * 0.22, ff - 3], [L * 0.22, ff - 6], [0, ff - 6]]
+    : [[0, 0], [L, 0], [L, ff], [0, ff]];
+  flat(outline, 0.5, M(TONE[F.tone] || TONE.light), true);
+  if (F.style === 'cornice' || F.style === 'signboard') flat([[-0.6, ff - 1.4], [L + 0.6, ff - 1.4], [L + 0.6, ff], [-0.6, ff]], 1.0, M(0xe4dece));
+  if (F.style === 'signboard') flat([[L * 0.3, ff], [L * 0.7, ff], [L * 0.7, ff + 2.2], [L * 0.3, ff + 2.2]], 0.6, M(0xd8d0bc));
+  // openings
+  const glass = M(0x20282c), two = h >= 17;
+  const shopTop = 8.6, n = Math.max(1, Math.round(L / 22));
+  for (let i = 0; i < n; i++) {
+    const x0 = L * i / n + 1.6, x1 = L * (i + 1) / n - 1.6, xm = (x0 + x1) / 2;
+    flat([[x0, 2.2], [xm - 2, 2.2], [xm - 2, shopTop], [x0, shopTop]], 0.56, glass);
+    flat([[xm + 2, 2.2], [x1, 2.2], [x1, shopTop], [xm + 2, shopTop]], 0.56, glass);
+    flat([[xm - 1.6, 0.3], [xm + 1.6, 0.3], [xm + 1.6, 7.6], [xm - 1.6, 7.6]], 0.56, M(0x3a332b));
+  }
+  if (two && F.up) for (let i = 0; i < F.up; i++) {
+    const xc = L * (i + 0.5) / F.up, y0 = h - 8.2, y1 = h - 2.4, w = 1.4;
+    const pts = [[xc - w, y0], [xc + w, y0], [xc + w, y1]];
+    if (F.arched) for (let k = 1; k < 8; k++) pts.push([xc + w * Math.cos(Math.PI * k / 8), y1 + w * Math.sin(Math.PI * k / 8)]);
+    pts.push([xc - w, y1]);
+    flat(pts, 0.56, glass);
+  }
+  // awning or porch roof over the walk
+  if (F.awning) {
+    const c = F.awning === 'shed' ? 0x7a6a55 : F.awning === 'striped' ? 0xb9b2a0 : 0xe6e0d0, y = two ? 10.6 : 10.0, out = F.awning === 'shed' ? 8 : 7;
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.Float32BufferAttribute([0, y, 0, L, y, 0, L, y - 2.2, out, 0, y, 0, L, y - 2.2, out, 0, y - 2.2, out], 3));
+    g.computeVertexNormals();
+    const aw = new THREE.Mesh(place(g, 0.55), M(c)); aw.castShadow = true; aw.userData.rec = rec; facadeGroup.add(aw);
+    if (F.awning === 'shed') for (const x of [0.4, L / 2, L - 0.4]) {
+      const post = new THREE.Mesh(place(new THREE.BoxGeometry(0.4, y - 2.2, 0.4).translate(x, (y - 2.2) / 2, out - 0.3), 0.55), M(0x6b5a45));
+      post.castShadow = true; facadeGroup.add(post);
+    }
+  }
+  // lettered boards
+  const board = (text, y, dark) => {
+    const { tex, aspect } = signTexture(text, dark), hh = 1.7, ww = Math.min(L - 1.5, hh * aspect), x0 = (L - ww) / 2;
+    const g = new THREE.PlaneGeometry(ww, ww / aspect); g.translate(x0 + ww / 2, y + ww / aspect / 2, 0);
+    const m = new THREE.Mesh(place(g, F.awning ? 0.62 : 0.62), new THREE.MeshStandardMaterial({ map: tex, roughness: 0.9 }));
+    m.userData.rec = rec; facadeGroup.add(m);
+  };
+  const signY = two ? h - 11.6 : Math.max(10.8, ff - 3.6);
+  if (F.sign) board(F.sign, F.awning && two ? h - 10.9 : signY, F.tone === 'brick');
+  if (F.sign2) board(F.sign2, (F.awning && two ? h - 10.9 : signY) + (two ? -2.0 : 2.0), false);
+}
+
+function addBuilding(f, origin) {
+  const p = f.properties;
+  const F = p.source === 'infill' || p.source === 'located' ? null : FAC[p.id];
+  if (F && F.skip) return;
+  if (F) {
+    p.wall_ft = F.wall_ft; if (F.name && !p.name) p.name = F.name;
+    p.notes = (p.notes ? p.notes + ' ' : '') + '[Photograph, ' + F.photo + ', confidence ' + F.conf + '] ' + F.note;
+  }
+  const ring = f.geometry.coordinates[0].slice(0, -1).map(enu);
+  // no storey figure read: one storey, unless the lettering mentions a second floor ("Lodg's 2d", "Off. 2nd")
+  const upper = /\b2n?d\b|second floor/i.test((p.notes || '') + ' ' + (p.use || ''));
+  const st = p.storeys == null ? (upper ? 2 : 1) : p.storeys;
+  p.drawn_storeys = st;
+  const commercial = COMMERCIAL.test(p.use || '') || COMMERCIAL.test(p.name || '');
+  const outbuilding = p.crossed || p.source === 'seeded' || /shed|stable|tent|hay|coal/i.test(p.use || '');
+  const big = /livery|barn|lumber/i.test((p.name || '') + (p.use || ''));
+  const h = p.wall_ft || (outbuilding && !big ? 8 : big ? 16 : commercial ? (st >= 2 ? 22 : st > 1 ? 17 : 12) : (st >= 2 ? 18 : st > 1 ? 13 : 9));
+  const look = p.id % PALETTE.length;
+  const wallMat = new THREE.MeshStandardMaterial({ color: PALETTE[look], roughness: 0.95, side: THREE.DoubleSide });
+  const roofMat = new THREE.MeshStandardMaterial({ color: ROOFS[p.id % ROOFS.length], roughness: 1, side: THREE.DoubleSide });
+  const rec = { props: p, walls: [], roofs: [], look: PALETTE[look], roofMat, roofLook: ROOFS[p.id % ROOFS.length] };
+  const cx = ring.reduce((s, q) => s + q[0], 0) / ring.length, cn = ring.reduce((s, q) => s + q[1], 0) / ring.length;
+  let top = h;
+  GZ = lowest(ring);
+
+  if (ring.length === 4) {
+    let c = ring.map(q => ({ x: q[0], n: q[1] }));
+    const len = (a, b) => Math.hypot(a.x - b.x, a.n - b.n);
+    if (len(c[0], c[1]) < len(c[1], c[2])) c = [c[1], c[2], c[3], c[0]];          // make 0-1 a long side
+    const span = len(c[1], c[2]);
+    const rise = outbuilding && !big ? span * 0.2 : Math.min(span * 0.32, 13);
+    const mid = (a, b) => ({ x: (a.x + b.x) / 2, n: (a.n + b.n) / 2 });
+    const mA = mid(c[1], c[2]), mB = mid(c[3], c[0]);
+    const lo = c.map(q => V(q.x, q.n, 0)), hi = c.map(q => V(q.x, q.n, h));
+    const rA = V(mA.x, mA.n, h + rise), rB = V(mB.x, mB.n, h + rise);
+    const w = [], r = [];
+    for (let i = 0; i < 4; i++) quad(w, lo[i], lo[(i + 1) % 4], hi[(i + 1) % 4], hi[i]);
+    tri(w, hi[1], hi[2], rA); tri(w, hi[3], hi[0], rB);
+    quad(r, hi[0], hi[1], rA, rB); quad(r, hi[2], hi[3], rB, rA);
+    top = h + rise;
+
+    if (commercial && !outbuilding && !F) {
+      // false front on the gable end that is nearer a street
+      const plat = (q) => [(q.x - origin[0]) * U[0] + (q.n - origin[1]) * U[1], (q.x - origin[0]) * W[0] + (q.n - origin[1]) * W[1]];
+      const toStreet = (q) => {
+        const [u, v] = plat(q);
+        let d = Math.min(Math.abs(v - 0), Math.abs(v - 60), Math.abs(v + 600), Math.abs(v - 660));
+        for (const u0 of [-270, 0, 310, 580, 850, 1120]) d = Math.min(d, Math.abs(u - u0), Math.abs(u - (u0 + 210)));
+        return d;
+      };
+      const front = toStreet(mA) <= toStreet(mB) ? [c[1], c[2], mA, mB] : [c[3], c[0], mB, mA];
+      const out = { x: front[2].x - front[3].x, n: front[2].n - front[3].n }, ol = Math.hypot(out.x, out.n) || 1;
+      const off = { x: out.x / ol * 0.4, n: out.n / ol * 0.4 }, fh = h + rise + 3.5;
+      const a = front[0], b = front[1];
+      quad(w, V(a.x + off.x, a.n + off.n, 0), V(b.x + off.x, b.n + off.n, 0), V(b.x + off.x, b.n + off.n, fh), V(a.x + off.x, a.n + off.n, fh));
+      top = fh;
+    }
+    const wm = meshFrom(w, wallMat), rm = meshFrom(r, roofMat);
+    scene.add(wm, rm); rec.walls.push(wm); rec.roofs.push(rm);
+    wm.userData.rec = rm.userData.rec = rec; pickable.push(wm, rm);
+  } else {
+    const shape = new THREE.Shape(ring.map(q => new THREE.Vector2(q[0], q[1])));
+    const g = new THREE.ExtrudeGeometry(shape, { depth: h, bevelEnabled: false });
+    g.rotateX(-Math.PI / 2);
+    const m = new THREE.Mesh(g, [roofMat, wallMat]);
+    m.castShadow = m.receiveShadow = true;
+    m.position.y = GZ;
+    scene.add(m); rec.walls.push(m); rec.multi = true;
+    m.userData.rec = rec; pickable.push(m);
+  }
+  if (F) { addFacade(F, ring, origin, rec); top = Math.max(top, F.ff || (F.front_ft || F.wall_ft) + 4); }
+  if (p.name) label(p.name, cx, cn, top + 14);
+  GZ = 0;
+  buildings.push(rec);
+}
+
+function recolour(mode) {
+  facadeGroup.visible = mode === 'look';        // photographed fronts belong to the appearance view only
+  for (const b of buildings) {
+    const col = mode === 'look' ? b.look : mode === 'storeys' ? STOREY(b.props.storeys) : mode === 'use' ? USECOL(b.props) : EVID(b.props);
+    for (const m of b.walls) (Array.isArray(m.material) ? m.material[1] : m.material).color.setHex(col);
+    // in the thematic modes the roof takes a darker shade of the same colour, so it reads from above
+    if (mode === 'look') b.roofMat.color.setHex(b.roofLook);
+    else b.roofMat.color.setHex(col).multiplyScalar(0.72);
+  }
+  document.getElementById('key').innerHTML = KEYS[mode].map(([c, t]) =>
+    `<div><span class="sw" style="background:#${c.toString(16).padStart(6, '0')}"></span>${t}</div>`).join('');
+}
+
+// Features off the Sanborn sheet, drawn as plain placeholders at their located positions.
+function addLocated(fc) {
+  const by = Object.fromEntries(fc.features.map(f => [f.properties.kind, f]));
+  const ringOf = (f) => (f.geometry.type === 'Polygon' ? f.geometry.coordinates[0] : f.geometry.coordinates).slice(0, -1).map(enu);
+  const centre = (r) => [r.reduce((s, q) => s + q[0], 0) / r.length, r.reduce((s, q) => s + q[1], 0) / r.length];
+  const annulus = (outer, inner, depth, color, opacity = 1) => {
+    const sh = new THREE.Shape(outer.map(q => new THREE.Vector2(q[0], q[1])));
+    if (inner) sh.holes.push(new THREE.Path(inner.map(q => new THREE.Vector2(q[0], q[1]))));
+    const g = new THREE.ExtrudeGeometry(sh, { depth, bevelEnabled: false });
+    g.rotateX(-Math.PI / 2);
+    const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ color, roughness: 1, transparent: opacity < 1, opacity }));
+    m.castShadow = depth > 2; m.receiveShadow = true;
+    scene.add(m);
+    return m;
+  };
+  if (by.racetrack && by['racetrack-line']) {
+    const outer = ringOf(by.racetrack);
+    const inner = ringOf(by['racetrack-line']), c = centre(outer);
+    if (inner.length === outer.length) {            // a ribbon that follows the ground
+      const pos = [], idx = [], n = outer.length;
+      for (let i = 0; i < n; i++) for (const q of [outer[i], inner[i]]) pos.push(q[0], elev(q[0], q[1]) + 0.6, -q[1]);
+      for (let i = 0; i < n; i++) { const a = 2 * i, b = 2 * ((i + 1) % n); idx.push(a, b, a + 1, a + 1, b, b + 1); }
+      const tg = new THREE.BufferGeometry(); tg.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); tg.setIndex(idx); tg.computeVertexNormals();
+      const tm = new THREE.Mesh(tg, new THREE.MeshStandardMaterial({ color: 0x9a8a68, roughness: 1, side: THREE.DoubleSide })); tm.receiveShadow = true; scene.add(tm);
+    } else annulus(outer, inner, 0.4, 0x9a8a68).position.y = elev(c[0], c[1]);
+    GZ = elev(c[0], c[1] - 380); label('Half-mile racetrack', c[0], c[1] - 380, 30); GZ = 0;
+  }
+  if (by.bullring && by['bullring-arena']) {
+    const c = centre(ringOf(by.bullring));
+    GZ = elev(c[0], c[1]);
+    // the detailed model, its posts running down to the real ground; a full circle, so it needs no turning
+    const ringModel = buildBullring(THREE, undefined, (x, z) => elev(c[0] + x, c[1] - z) - GZ).group;
+    ringModel.position.copy(V(c[0], c[1], 0));
+    scene.add(ringModel);
+    label('Bull ring, August 1895', c[0], c[1], 60); GZ = 0;
+  }
+  if (by.church) {
+    // the detailed model at the lidar position; long axis 2 degrees east of north, front to the south (measured from the Wolle photograph, research/12)
+    const c = enu(by.church.geometry.coordinates);
+    const ch = buildChurch(THREE).group;
+    GZ = elev(c[0], c[1]);
+    ch.position.copy(V(c[0], c[1], 0));
+    ch.rotation.y = -2 * Math.PI / 180;
+    scene.add(ch);
+    label('Catholic church', c[0], c[1], 52); GZ = 0;
+  }
+  if (by.congregational) {
+    // the detailed model: its footprint here is the body; the model's front (+x) faces bearing 92, almost due east: 11 degrees off the plat (measured in two photographs, research/18)
+    const c = centre(ringOf(by.congregational));
+    GZ = elev(c[0], c[1]);
+    const cg = buildCongregational(THREE); cg.group.remove(cg.scale);
+    cg.group.position.copy(V(c[0], c[1], 0)); cg.group.rotation.y = -2 * Math.PI / 180;
+    scene.add(cg.group);
+    label('Congregational church', c[0], c[1], 48); GZ = 0;
+  }
+  if (by.lake) {
+    // the outline is from the 1951 map; the water is drawn level, a few feet above the lowest ground inside it
+    const lr = ringOf(by.lake), c = centre(lr), wl = lowest(lr) + 6;
+    annulus(lr, null, 0.3, 0x5b8fb0, 0.6).position.y = wl;
+    GZ = wl; label('Monte Carlo lake (as mapped in 1951)', c[0], c[1], 20); GZ = 0;
+  }
+  if (by.montecarlo) {
+    // the detailed model on the measured spot; its door end (+x) faces bearing MC.axis
+    const c = enu(by.montecarlo.geometry.coordinates);
+    GZ = elev(c[0], c[1]);
+    const mc = buildMonteCarlo(THREE); mc.group.remove(mc.scale);
+    mc.group.position.copy(V(c[0], c[1], 0)); mc.group.rotation.y = (90 - MC.axis) * Math.PI / 180;
+    scene.add(mc.group);
+    label('Monte Carlo', c[0], c[1], 44); GZ = 0;
+  }
+}
+
+Promise.all(['data/buildings-1896.geojson', 'data/georef.json', 'data/plat.geojson', 'data/located.geojson', 'data/infill-1896.geojson', 'data/facades-1896.json', 'data/terrain-5m.json'].map(u => atlasData(u)))
+  .then(([bld, georef, plat, located, infill, facades, t5]) => {
+    FAC = facades;
+    terrain = t5; BASE = 0; BASE = elev(0, 0) / 3.28084;          // zero height at the scene origin
+    {
+      const t = terrain, pos = new Float32Array(t.nx * t.ny * 3), idx = [];
+      let lo = Infinity;
+      for (let j = 0; j < t.ny; j++) for (let i = 0; i < t.nx; i++) {
+        const [x, n] = enu([t.west + i / (t.nx - 1) * (t.east - t.west), t.north - j / (t.ny - 1) * (t.north - t.south)]);
+        const y = (t.z[j * t.nx + i] - BASE) * 3.28084; lo = Math.min(lo, y);
+        pos.set([x, y, -n], (j * t.nx + i) * 3);
+      }
+      for (let j = 0; j < t.ny - 1; j++) for (let i = 0; i < t.nx - 1; i++) { const a = j * t.nx + i, b = a + t.nx; idx.push(a, b, a + 1, a + 1, b, b + 1); }
+      const tg = new THREE.BufferGeometry(); tg.setAttribute('position', new THREE.BufferAttribute(pos, 3)); tg.setIndex(idx); tg.computeVertexNormals();
+      const land = new THREE.Mesh(tg, new THREE.MeshStandardMaterial({ color: 0xa79f7c, roughness: 1 }));
+      land.receiveShadow = true; scene.add(land);
+      ground.position.y = lo - 3;                                   // the flat plane now only fills in beyond the lidar
+    }
+    // plat origin on the ground, from each building's recorded plat position
+    let ox = 0, on = 0;
+    for (const f of bld.features) {
+      const ring = f.geometry.coordinates[0].slice(0, -1).map(enu);
+      const cx = ring.reduce((s, q) => s + q[0], 0) / ring.length, cn = ring.reduce((s, q) => s + q[1], 0) / ring.length;
+      ox += cx - (f.properties.plat_u * U[0] + f.properties.plat_v * W[0]);
+      on += cn - (f.properties.plat_u * U[1] + f.properties.plat_v * W[1]);
+    }
+    const origin = [ox / bld.features.length, on / bld.features.length];
+
+    // the 1896 sheet laid on the ground at its fitted position
+    const g = georef['1896'];
+    const tl = enu([g.topLeft[1], g.topLeft[0]]), tr = enu([g.topRight[1], g.topRight[0]]), bl = enu([g.bottomLeft[1], g.bottomLeft[0]]);
+    const br = [tr[0] + bl[0] - tl[0], tr[1] + bl[1] - tl[1]];
+    const sg = new THREE.BufferGeometry();
+    {                                                               // a grid of points across the sheet, each at its ground height
+      const NA = 150, NB = 180, pos = [], uv = [], idx = [];
+      for (let b = 0; b <= NB; b++) for (let a = 0; a <= NA; a++) {
+        const s = a / NA, t = b / NB, x = tl[0] + s * (tr[0] - tl[0]) + t * (bl[0] - tl[0]), n = tl[1] + s * (tr[1] - tl[1]) + t * (bl[1] - tl[1]);
+        pos.push(x, elev(x, n) + 1.0, -n); uv.push(s, 1 - t);
+      }
+      for (let b = 0; b < NB; b++) for (let a = 0; a < NA; a++) { const p = b * (NA + 1) + a, q = p + NA + 1; idx.push(p, q, p + 1, p + 1, q, q + 1); }
+      sg.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3)); sg.setAttribute('uv', new THREE.Float32BufferAttribute(uv, 2)); sg.setIndex(idx);
+      sg.computeVertexNormals();
+    }
+    const tex = new THREE.TextureLoader().load(`img/${g.file}.jpg`);
+    tex.colorSpace = THREE.SRGBColorSpace; tex.anisotropy = renderer.capabilities.getMaxAnisotropy();
+    sheetMesh = new THREE.Mesh(sg, new THREE.MeshStandardMaterial({ map: tex, roughness: 1 }));
+    sheetMesh.receiveShadow = true;
+    scene.add(sheetMesh);
+
+    // the detailed depot model, set on the traced footprint: its origin is the body's north-west corner
+    const dep = plat.features.find(f => /Depot \(passenger/.test(f.properties.name || ''));
+    const [nw, ne] = dep.geometry.coordinates[0].map(enu);
+    const depot = buildDepot(THREE).group;
+    GZ = elev(nw[0] + 10, nw[1] - 30);
+    depot.position.copy(V(nw[0], nw[1], 0));
+    depot.rotation.y = Math.atan2(ne[1] - nw[1], ne[0] - nw[0]);
+    scene.add(depot);
+    label('Midland Terminal depot', nw[0] + 10, nw[1] - 30, 46); GZ = 0;
+
+    for (const f of bld.features) if (!/depot/i.test(f.properties.name || '')) addBuilding(f, origin);
+    for (const f of infill.features) addBuilding(f, origin);        // illustrative housing outside the sheet
+    addLocated(located);
+    recolour('look');
+    initStations();
+  });
+
+// ---- interaction
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2();
+let down = null;
+renderer.domElement.addEventListener('pointerdown', e => { down = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener('pointerup', e => {
+  if (!down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 4) return;
+  mouse.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1);
+  ray.setFromCamera(mouse, camera);
+  const hit = ray.intersectObjects(pickable, false)[0];
+  const info = document.getElementById('info');
+  if (!hit) { info.style.display = 'none'; return; }
+  const p = hit.object.userData.rec.props, rows = [];
+  rows.push(`<h2>${esc(p.name || p.use || 'Building')} <span style="color:#6b6557;font-weight:400">#${p.id}</span></h2>`);
+  if (p.name && p.use) rows.push(`<p>${esc(p.use)}</p>`);
+  rows.push(`<p>${p.storeys == null ? `Storey figure not read from the sheet (drawn as ${p.drawn_storeys})` : p.storeys + (p.storeys === 1 ? ' storey' : ' storeys')}, ${esc(p.material)}</p>`);
+  rows.push(`<p>About ${p.ew_ft} ft east-west by ${p.ns_ft} ft north-south${p.block ? ', block ' + p.block : ''}</p>`);
+  if (p.notes) rows.push(`<p>${esc(p.notes)}</p>`);
+  if (p.crossed) rows.push('<p>Drawn with an X: stable or shed</p>');
+  rows.push(`<p class="note">${{ walls: 'Outline follows the inked walls on the sheet.', tint: 'Outline approximate: taken from the tint only.', seeded: 'Untinted outbuilding, placed by hand.' }[p.source] || ''} Roof and height are typical forms.</p>`);
+  document.getElementById('infobody').innerHTML = rows.join('');
+  info.style.display = 'block';
+});
+document.querySelector('#info .x').addEventListener('click', () => document.getElementById('info').style.display = 'none');
+document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', () => recolour(r.value)));
+document.getElementById('sheet').addEventListener('change', e => { if (sheetMesh) sheetMesh.visible = e.target.checked; });
+document.getElementById('names').addEventListener('change', e => { nameSprites.visible = e.target.checked; });
+document.getElementById('infill').addEventListener('change', e => {
+  for (const b of buildings) if (b.props.source === 'infill') for (const m of [...b.walls, ...b.roofs]) m.visible = e.target.checked;
+});
+document.getElementById('shadows').addEventListener('change', e => { sun.castShadow = e.target.checked; });
+addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); });
+window.gillett = { scene, camera, controls, buildings };
+// ---- camera stations: put the 3D camera where a photographer stood, with the photograph laid over the view
+let STATIONS = {}, station = null, savedView = null;
+const stationMarks = new THREE.Group(); scene.add(stationMarks);
+const over = document.getElementById('photoOver');
+function layoutStation() {
+  if (!station) return;
+  const st = STATIONS[station], k = st.cam, W = innerWidth, H = innerHeight, a = st.w / st.h;
+  const pw = Math.min(W, H * a), ph = pw / a;                                  // the photograph, fitted inside the window
+  const f = (pw / 2) / Math.tan(k.fov * Math.PI / 360);                          // focal length in screen pixels
+  camera.fov = 2 * Math.atan((H / 2) / f) * 180 / Math.PI; camera.aspect = W / H; camera.near = 2; camera.updateProjectionMatrix();
+  const [x, n] = enu([k.lon, k.lat]);
+  camera.position.set(x, elev(x, n) + k.height, -n);
+  camera.rotation.set(0, 0, 0, 'YXZ'); camera.rotation.y = -k.heading * Math.PI / 180; camera.rotation.x = k.pitch * Math.PI / 180; camera.rotation.z = -(k.roll || 0) * Math.PI / 180;
+  // the solved cameras shift the picture's centre: the photograph moves the other way here, since the 3D view stays centred
+  Object.assign(over.style, { display: st.image ? 'block' : 'none', width: pw + 'px', height: ph + 'px', left: ((W - pw) / 2 - (k.cx || 0) / 100 * pw) + 'px', top: ((H - ph) / 2 + (k.cy || 0) / 100 * ph) + 'px' });
+}
+function enterStation(key) {
+  if (!STATIONS[key]) return;
+  if (!station) savedView = { p: camera.position.clone(), t: controls.target.clone(), fov: camera.fov };
+  station = key; controls.enabled = false;
+  if (STATIONS[key].image) over.src = STATIONS[key].image; else over.removeAttribute('src');
+  nameSprites.visible = false; stationMarks.visible = false;
+  document.getElementById('stationBar').style.display = 'block';
+  const wh = STATIONS[key].withheld;        // set in a public copy when the photograph may not be shown
+  document.getElementById('stationNote').innerHTML = esc(STATIONS[key].title + '. ' + STATIONS[key].status + '. ') + (STATIONS[key].image ? 'Slide to fade between the photograph and the model.'
+    : 'The photograph itself is not shown here' + (wh && wh.url ? ': <a href="' + wh.url + '" target="_blank" rel="noopener">see it at ' + esc(wh.holder) + '</a>.' : (wh ? ': it is held by ' + esc(wh.holder) + '.' : '.')) + ' This is the model from where it was taken.');
+  layoutStation(); history.replaceState(null, '', '?station=' + key);
+}
+function leaveStation() {
+  if (!station) return;
+  station = null; controls.enabled = true; over.style.display = 'none'; document.getElementById('stationBar').style.display = 'none';
+  nameSprites.visible = document.getElementById('names').checked; stationMarks.visible = true;
+  camera.fov = savedView.fov; camera.near = 5; camera.position.copy(savedView.p); controls.target.copy(savedView.t); camera.updateProjectionMatrix(); controls.update();
+  history.replaceState(null, '', location.pathname);
+}
+document.getElementById('fade').addEventListener('input', e => { over.style.opacity = 1 - e.target.value / 100; });
+document.getElementById('leave').addEventListener('click', leaveStation);
+addEventListener('resize', layoutStation);
+addEventListener('keydown', e => { if (e.key === 'Escape') leaveStation(); });
+function initStations() {
+  atlasData('data/cameras.json').then(c => {
+    STATIONS = Object.fromEntries(Object.entries(c).filter(([, v]) => v && v.cam));
+    document.getElementById('stations').innerHTML = Object.entries(STATIONS).map(([k, v]) => `<button class="v" type="button" data-station="${k}">${esc(v.label)}</button>`).join('');
+    document.querySelectorAll('button[data-station]').forEach(b => b.addEventListener('click', () => enterStation(b.dataset.station)));
+    // a small marker at each station, to find them when flying about
+    for (const v of Object.values(STATIONS)) {
+      const [x, n] = enu([v.cam.lon, v.cam.lat]);
+      const m = new THREE.Mesh(new THREE.ConeGeometry(5, 14, 4), new THREE.MeshStandardMaterial({ color: 0xfacc15, roughness: 0.8 }));
+      m.position.set(x, elev(x, n) + 24, -n); m.rotation.x = Math.PI; stationMarks.add(m);
+    }
+    const want = new URLSearchParams(location.search).get('station'); if (want) enterStation(want);
+  });
+}
+window.gillett.enterStation = enterStation; window.gillett.leaveStation = leaveStation;
+renderer.setAnimationLoop(() => { if (!station) controls.update(); renderer.render(scene, camera); });
+</script>
+</body>
+</html>

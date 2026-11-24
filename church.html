@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gillett church model</title>
+<style>
+  :root { --ink:#22201c; --paper:#f6f1e4; --line:#cfc5ab; --accent:#8a3b1e; --muted:#6b6557; }
+  html, body { height:100%; margin:0; overflow:hidden; }
+  body { font:14px/1.4 Georgia, "Times New Roman", serif; color:var(--ink); background:#b9c7d3; }
+  canvas { display:block; }
+  .card { position:absolute; z-index:10; background:var(--paper); border:1px solid var(--line); border-radius:6px;
+          box-shadow:0 2px 10px rgba(0,0,0,.35); padding:12px 14px; box-sizing:border-box; }
+  #panel { top:12px; left:12px; width:290px; max-height:calc(100% - 24px); overflow:auto; }
+  h1 { font-size:18px; margin:0 0 2px; }
+  p.sub { margin:0 0 10px; color:var(--muted); font-size:12.5px; }
+  fieldset { border:0; border-top:1px solid var(--line); margin:0; padding:8px 0 6px; }
+  legend { font-variant:small-caps; letter-spacing:.06em; color:var(--accent); padding:0 6px 0 0; font-size:13px; }
+  label { display:block; margin:3px 0; cursor:pointer; }
+  button.v { font:inherit; font-size:13px; margin:2px 4px 2px 0; padding:3px 9px; border:1px solid var(--line); border-radius:4px; background:#fffdf6; cursor:pointer; }
+  button.v:hover { border-color:var(--accent); }
+  .sw { display:inline-block; width:14px; height:10px; margin-right:6px; border:1px solid rgba(0,0,0,.4); }
+  .note { font-size:12px; color:var(--muted); margin:6px 0 0; }
+  #key div, #dims div { font-size:12.5px; margin:2px 0; }
+  #dims b { font-weight:600; }
+  #info { right:12px; top:12px; width:280px; display:none; }
+  #info h2 { font-size:15px; margin:0 0 4px; } #info p { margin:3px 0; font-size:13px; }
+  #info .x { position:absolute; right:8px; top:4px; cursor:pointer; font-size:18px; color:var(--muted); background:none; border:0; }
+  a { color:var(--accent); }
+  @media (max-width:600px) { #panel { width:calc(100% - 24px); max-height:45%; } #info { top:auto; bottom:12px; left:12px; right:12px; width:auto; } }
+</style>
+</head>
+<body>
+<div id="panel" class="card">
+  <h1>Catholic church, Gillett</h1>
+  <p class="sub">A stone nave with a timber, barrel-roofed front and an open belfry, built in the 1890s and burned in 1949. Drag to orbit, scroll to zoom, click any part for its evidence.</p>
+  <fieldset>
+    <legend>View</legend>
+    <button class="v" data-view="p1940">Door side and front (1935, 1940s)</button>
+    <button class="v" data-view="p1919">Far side and front (1919)</button>
+    <button class="v" data-view="front">Front</button>
+    <button class="v" data-view="rear">Rear</button>
+    <button class="v" data-view="above">From above</button>
+  </fieldset>
+  <fieldset>
+    <legend>Colour</legend>
+    <label><input type="radio" name="mode" value="look" checked> Appearance (as weathered, about 1919)</label>
+    <label><input type="radio" name="mode" value="evidence"> Evidence for each part</label>
+    <div id="key"></div>
+    <label><input type="checkbox" id="figures" checked> Figure for scale (5 ft 9 in)</label>
+  </fieldset>
+  <fieldset>
+    <legend>Dimensions (all estimated)</legend>
+    <div id="dims"></div>
+  </fieldset>
+  <p class="note">Sources: a 1919 postcard, a view of about 1935 and one of the 1940s, and photographs of the roofless shell from the 1960s and 1980. No measurement or drawing has been found, and the photographs date from after the church fell out of use.</p>
+  <p class="note"><a href="town3d.html">Town massing</a> &middot; <a href="depot.html">Depot</a> &middot; <a href="bullring.html">Bull ring</a> &middot; <a href="gillett.html">Base map</a></p>
+</div>
+<div id="info" class="card"><button class="x" aria-label="Close">&times;</button><div id="infobody"></div></div>
+
+<script>
+// These pages load their parts over http, which browsers refuse for a file opened straight from disk.
+if (location.protocol === 'file:') {
+  var page = location.pathname.split('/').pop();
+  var d = document.createElement('div');
+  d.style.cssText = 'position:fixed;left:50%;top:40%;transform:translate(-50%,-50%);max-width:520px;padding:22px 26px;background:#fff8e6;border:2px solid #b45309;border-radius:8px;font:16px/1.5 Georgia,serif;color:#222;z-index:99999;box-shadow:0 6px 24px rgba(0,0,0,.25)';
+  d.innerHTML = '<b>This page was opened as a file, so the model cannot load.</b><br><br>' +
+    'Double-click <b>start-site.bat</b> in the project folder, then open<br>' +
+    '<a href="http://localhost:8765/' + page + '">http://localhost:8765/' + page + '</a>';
+  document.addEventListener('DOMContentLoaded', function () { document.body.appendChild(d); });
+}
+</script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { buildChurch, colourByEvidence, EVIDENCE, CHURCH } from './models/church.js';
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xb9c7d3);
+scene.fog = new THREE.Fog(0xb9c7d3, 500, 2500);
+const camera = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 1, 5000);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.maxPolarAngle = Math.PI / 2 - 0.01; controls.minDistance = 10; controls.maxDistance = 600;
+
+scene.add(new THREE.HemisphereLight(0xeaf1f7, 0xa39680, 1.9));
+const sun = new THREE.DirectionalLight(0xfff2dc, 2.6);
+sun.position.set(-120, 150, 130); sun.castShadow = true; sun.shadow.mapSize.set(4096, 4096);
+Object.assign(sun.shadow.camera, { left: -90, right: 90, top: 90, bottom: -90, near: 10, far: 500 });
+sun.shadow.bias = -0.0004;
+scene.add(sun, sun.target);
+
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(6000, 6000), new THREE.MeshStandardMaterial({ color: 0xa79f7c, roughness: 1 }));
+ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
+
+const model = buildChurch(THREE);
+scene.add(model.group);
+
+const VIEWS = {
+  p1940: [[-66, 12, 56], [0, 10, 2]],
+  p1919: [[58, 12, 70], [0, 10, 4]],
+  front: [[0, 14, 100], [0, 12, 0]],
+  rear: [[-45, 22, -80], [0, 9, 0]],
+  above: [[0, 150, 1], [0, 0, 0]],
+};
+function view(name) { const [p, t] = VIEWS[name]; camera.position.set(...p); controls.target.set(...t); controls.update(); }
+view('p1940');
+document.querySelectorAll('button[data-view]').forEach(b => b.addEventListener('click', () => view(b.dataset.view)));
+
+const hex = (c) => '#' + c.toString(16).padStart(6, '0');
+document.getElementById('dims').innerHTML = [
+  ['Overall', `${CHURCH.width} &times; ${CHURCH.length} ft`],
+  ['Stone nave', `${CHURCH.width} &times; ${CHURCH.nave} ft, walls ${CHURCH.wall} ft`],
+  ['Arched wall and timber front', `${CHURCH.vestibule} ft deep together`],
+  ['Top of the arched wall', `${CHURCH.crown.toFixed(1)} ft`],
+  ['Crown of the nave roof', `${CHURCH.ridge.toFixed(1)} ft`],
+  ['Top of the cross', `${CHURCH.top.toFixed(0)} ft`],
+].map(([k, v]) => `<div>${k}: <b>${v}</b></div>`).join('')
+  + '<div class="note">Scaled from the figures standing in the front doorway in the 1919 postcard and from the spacing of the windows. Treat every figure as good to about 15 percent. The lidar shows remains about 40 by 50 ft, rubble included.</div>';
+
+function setMode(mode) {
+  colourByEvidence(model, mode === 'evidence');
+  document.getElementById('key').innerHTML = mode !== 'evidence' ? '' : Object.values(EVIDENCE).map(e =>
+    `<div><span class="sw" style="background:${hex(e.color)}"></span>${e.label}</div>`).join('');
+}
+document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', () => setMode(r.value)));
+document.getElementById('figures').addEventListener('change', ev => { model.scale.visible = ev.target.checked; });
+setMode('look');
+
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2();
+let down = null;
+renderer.domElement.addEventListener('pointerdown', ev => { down = [ev.clientX, ev.clientY]; });
+renderer.domElement.addEventListener('pointerup', ev => {
+  if (!down || Math.hypot(ev.clientX - down[0], ev.clientY - down[1]) > 4) return;
+  mouse.set(ev.clientX / innerWidth * 2 - 1, -(ev.clientY / innerHeight) * 2 + 1);
+  ray.setFromCamera(mouse, camera);
+  const hit = ray.intersectObjects(model.parts, false)[0], info = document.getElementById('info');
+  if (!hit) { info.style.display = 'none'; return; }
+  const u = hit.object.userData, cls = EVIDENCE[u.ev];
+  document.getElementById('infobody').innerHTML = `<h2>${u.part}</h2>
+    <p><span class="sw" style="background:${hex(cls.color)}"></span>${cls.label}</p><p>${u.note}</p>`;
+  info.style.display = 'block';
+});
+document.querySelector('#info .x').addEventListener('click', () => document.getElementById('info').style.display = 'none');
+addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); });
+window.church = { scene, camera, controls, model, view, setMode };
+renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
+</script>
+</body>
+</html>

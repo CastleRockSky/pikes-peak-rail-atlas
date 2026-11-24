@@ -1,0 +1,32 @@
+[
+ {
+  "id": "overlay:short-line-tunnel-4:hillshade",
+  "name": "Shaded ground (USGS 3DEP)",
+  "grade": "measured",
+  "error_ft": 10,
+  "basis": "USGS 3DEP elevation service, shaded. The service does not report which survey it drew on.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "place": "place:short-line-tunnel-4",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "hillshade.png",
+  "bounds": [
+   [
+    38.74901284584098,
+    -104.92287254125858
+   ],
+   [
+    38.75801115415902,
+    -104.91135345874142
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source"
+  }
+ }
+]

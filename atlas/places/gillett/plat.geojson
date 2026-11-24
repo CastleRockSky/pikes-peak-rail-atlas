@@ -1,0 +1,1209 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 29,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1247156,
+       38.7816389
+      ],
+      [
+       -105.1243699,
+       38.7816809
+      ],
+      [
+       -105.1246933,
+       38.7833073
+      ],
+      [
+       -105.125039,
+       38.7832653
+      ],
+      [
+       -105.1247156,
+       38.7816389
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 29,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1243353,
+       38.7816851
+      ],
+      [
+       -105.1239896,
+       38.7817271
+      ],
+      [
+       -105.124313,
+       38.7833535
+      ],
+      [
+       -105.1246587,
+       38.7833115
+      ],
+      [
+       -105.1243353,
+       38.7816851
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 29"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1245143,
+     38.7824962
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 50,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1243599,
+       38.7798498
+      ],
+      [
+       -105.1240142,
+       38.7798918
+      ],
+      [
+       -105.1243376,
+       38.7815182
+      ],
+      [
+       -105.1246833,
+       38.7814762
+      ],
+      [
+       -105.1243599,
+       38.7798498
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 50,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1239796,
+       38.779896
+      ],
+      [
+       -105.1236339,
+       38.779938
+      ],
+      [
+       -105.1239573,
+       38.7815644
+      ],
+      [
+       -105.124303,
+       38.7815224
+      ],
+      [
+       -105.1239796,
+       38.779896
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 50"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1241586,
+     38.7807071
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 30,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1237822,
+       38.7817523
+      ],
+      [
+       -105.1234365,
+       38.7817943
+      ],
+      [
+       -105.1237599,
+       38.7834207
+      ],
+      [
+       -105.1241056,
+       38.7833787
+      ],
+      [
+       -105.1237822,
+       38.7817523
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 30,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1234019,
+       38.7817985
+      ],
+      [
+       -105.1230562,
+       38.7818405
+      ],
+      [
+       -105.1233796,
+       38.783467
+      ],
+      [
+       -105.1237253,
+       38.7834249
+      ],
+      [
+       -105.1234019,
+       38.7817985
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 30"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1235809,
+     38.7826096
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 49,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1234265,
+       38.7799632
+      ],
+      [
+       -105.1230808,
+       38.7800052
+      ],
+      [
+       -105.1234042,
+       38.7816317
+      ],
+      [
+       -105.1237499,
+       38.7815896
+      ],
+      [
+       -105.1234265,
+       38.7799632
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 49,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1230462,
+       38.7800094
+      ],
+      [
+       -105.1227005,
+       38.7800514
+      ],
+      [
+       -105.1230239,
+       38.7816779
+      ],
+      [
+       -105.1233696,
+       38.7816359
+      ],
+      [
+       -105.1230462,
+       38.7800094
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 49"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1232252,
+     38.7808205
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 31,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1227105,
+       38.7818825
+      ],
+      [
+       -105.1223648,
+       38.7819245
+      ],
+      [
+       -105.1226882,
+       38.783551
+      ],
+      [
+       -105.1230339,
+       38.783509
+      ],
+      [
+       -105.1227105,
+       38.7818825
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 31,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1223302,
+       38.7819287
+      ],
+      [
+       -105.1219845,
+       38.7819707
+      ],
+      [
+       -105.1223079,
+       38.7835972
+      ],
+      [
+       -105.1226536,
+       38.7835552
+      ],
+      [
+       -105.1223302,
+       38.7819287
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 31"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1225092,
+     38.7827399
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 48,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1223548,
+       38.7800934
+      ],
+      [
+       -105.1220091,
+       38.7801355
+      ],
+      [
+       -105.1223325,
+       38.7817619
+      ],
+      [
+       -105.1226782,
+       38.7817199
+      ],
+      [
+       -105.1223548,
+       38.7800934
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 48,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1219745,
+       38.7801397
+      ],
+      [
+       -105.1216288,
+       38.7801817
+      ],
+      [
+       -105.1219522,
+       38.7818081
+      ],
+      [
+       -105.1222979,
+       38.7817661
+      ],
+      [
+       -105.1219745,
+       38.7801397
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 48"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1221535,
+     38.7809508
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 32,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1217771,
+       38.781996
+      ],
+      [
+       -105.1214314,
+       38.782038
+      ],
+      [
+       -105.1217548,
+       38.7836644
+      ],
+      [
+       -105.1221005,
+       38.7836224
+      ],
+      [
+       -105.1217771,
+       38.781996
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 32,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1213968,
+       38.7820422
+      ],
+      [
+       -105.1210511,
+       38.7820842
+      ],
+      [
+       -105.1213745,
+       38.7837106
+      ],
+      [
+       -105.1217202,
+       38.7836686
+      ],
+      [
+       -105.1213968,
+       38.7820422
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 32"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1215758,
+     38.7828533
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 47,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1214214,
+       38.7802069
+      ],
+      [
+       -105.1210757,
+       38.7802489
+      ],
+      [
+       -105.1213991,
+       38.7818753
+      ],
+      [
+       -105.1217448,
+       38.7818333
+      ],
+      [
+       -105.1214214,
+       38.7802069
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 47,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1210411,
+       38.7802531
+      ],
+      [
+       -105.1206954,
+       38.7802951
+      ],
+      [
+       -105.1210188,
+       38.7819215
+      ],
+      [
+       -105.1213645,
+       38.7818795
+      ],
+      [
+       -105.1210411,
+       38.7802531
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 47"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1212201,
+     38.7810642
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 33,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1208437,
+       38.7821094
+      ],
+      [
+       -105.120498,
+       38.7821514
+      ],
+      [
+       -105.1208214,
+       38.7837778
+      ],
+      [
+       -105.1211671,
+       38.7837358
+      ],
+      [
+       -105.1208437,
+       38.7821094
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 33,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1204634,
+       38.7821556
+      ],
+      [
+       -105.1201177,
+       38.7821976
+      ],
+      [
+       -105.1204411,
+       38.783824
+      ],
+      [
+       -105.1207868,
+       38.783782
+      ],
+      [
+       -105.1204634,
+       38.7821556
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 33"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1206424,
+     38.7829667
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 46,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.120488,
+       38.7803203
+      ],
+      [
+       -105.1201423,
+       38.7803623
+      ],
+      [
+       -105.1204657,
+       38.7819887
+      ],
+      [
+       -105.1208114,
+       38.7819467
+      ],
+      [
+       -105.120488,
+       38.7803203
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 46,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1201077,
+       38.7803665
+      ],
+      [
+       -105.119762,
+       38.7804085
+      ],
+      [
+       -105.1200854,
+       38.782035
+      ],
+      [
+       -105.1204311,
+       38.7819929
+      ],
+      [
+       -105.1201077,
+       38.7803665
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 46"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1202867,
+     38.7811776
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 34,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1199103,
+       38.7822228
+      ],
+      [
+       -105.1195646,
+       38.7822648
+      ],
+      [
+       -105.119888,
+       38.7838913
+      ],
+      [
+       -105.1202337,
+       38.7838492
+      ],
+      [
+       -105.1199103,
+       38.7822228
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 34,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.11953,
+       38.782269
+      ],
+      [
+       -105.1191843,
+       38.782311
+      ],
+      [
+       -105.1195077,
+       38.7839375
+      ],
+      [
+       -105.1198534,
+       38.7838955
+      ],
+      [
+       -105.11953,
+       38.782269
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 34"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.119709,
+     38.7830801
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 45,
+    "half": "west"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1195546,
+       38.7804337
+      ],
+      [
+       -105.1192089,
+       38.7804757
+      ],
+      [
+       -105.1195323,
+       38.7821022
+      ],
+      [
+       -105.119878,
+       38.7820602
+      ],
+      [
+       -105.1195546,
+       38.7804337
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "halfblock",
+    "block": 45,
+    "half": "east"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.1191743,
+       38.7804799
+      ],
+      [
+       -105.1188286,
+       38.7805219
+      ],
+      [
+       -105.119152,
+       38.7821484
+      ],
+      [
+       -105.1194977,
+       38.7821064
+      ],
+      [
+       -105.1191743,
+       38.7804799
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "blocklabel",
+    "name": "Block 45"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1193533,
+     38.7812911
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Newell Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.123611,
+     38.7803572
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Newell Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1241285,
+     38.7829595
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Midland Terminal Ry. Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1226085,
+     38.780479
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Midland Terminal Ry. Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1231259,
+     38.7830813
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Parker Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1216059,
+     38.7806009
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Parker Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1221234,
+     38.7832032
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Collbran Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1206725,
+     38.7807143
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "Collbran Av."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.12119,
+     38.7833166
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "5th St."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1232302,
+     38.7817361
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "5th St."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.121398,
+     38.7819587
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "4th St."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1228745,
+     38.779947
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "4th St."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1210422,
+     38.7801697
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "6th St."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1235859,
+     38.7835252
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "kind": "street",
+    "name": "6th St."
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1217537,
+     38.7837478
+    ]
+   }
+  }
+ ]
+}

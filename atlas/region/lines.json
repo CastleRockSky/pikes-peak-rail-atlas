@@ -1,0 +1,11609 @@
+[
+ {
+  "id": "line:colorado-midland",
+  "name": "Colorado Midland Railway",
+  "valid_from": 1887,
+  "valid_to": 1921,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Grade from OpenStreetMap ways carrying this company's name as former operator: 37 km in 30 pieces inside the fetched corridors. Checked against lidar only at the atlas's two worked places. It is not the whole railway.",
+  "sources": [
+   "source:osm-railways",
+   "source:wikipedia-colorado-midland"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "Founded 1883; built up Ute Pass in 1886 to 1887. Sources disagree on the end: operations stopped in August 1918, the line was abandoned in 1921 and the company dissolved in 1922. East of Divide the track passed to the Midland Terminal and was used until 1949; those segments are dated to 1949.",
+  "railway": "Colorado Midland Railway",
+  "gauge": "standard",
+  "segments": [
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.345067,
+       38.961464
+      ],
+      [
+       -105.337051,
+       38.958918
+      ],
+      [
+       -105.323093,
+       38.954601
+      ],
+      [
+       -105.318308,
+       38.952951
+      ],
+      [
+       -105.315803,
+       38.951996
+      ],
+      [
+       -105.314719,
+       38.951537
+      ],
+      [
+       -105.314112,
+       38.951065
+      ],
+      [
+       -105.313299,
+       38.950147
+      ],
+      [
+       -105.312725,
+       38.949627
+      ],
+      [
+       -105.312007,
+       38.949143
+      ],
+      [
+       -105.311528,
+       38.948932
+      ],
+      [
+       -105.310842,
+       38.948783
+      ],
+      [
+       -105.30569,
+       38.948398
+      ],
+      [
+       -105.304749,
+       38.948249
+      ],
+      [
+       -105.303919,
+       38.948014
+      ],
+      [
+       -105.301542,
+       38.947096
+      ],
+      [
+       -105.299453,
+       38.946351
+      ],
+      [
+       -105.298208,
+       38.945979
+      ],
+      [
+       -105.297124,
+       38.945768
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99249973, tagged as an abandoned railway of this company (now Colorado Midland Railroad).",
+    "local": {
+     "osm_way": 99249973,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99249973,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.322709,
+       38.955341
+      ],
+      [
+       -105.320691,
+       38.95381
+      ],
+      [
+       -105.320313,
+       38.953537
+      ],
+      [
+       -105.319897,
+       38.953247
+      ],
+      [
+       -105.317712,
+       38.951868
+      ],
+      [
+       -105.315708,
+       38.950615
+      ],
+      [
+       -105.315674,
+       38.950595
+      ],
+      [
+       -105.315649,
+       38.95058
+      ],
+      [
+       -105.31494,
+       38.95014
+      ],
+      [
+       -105.311927,
+       38.948245
+      ],
+      [
+       -105.310898,
+       38.947629
+      ],
+      [
+       -105.310186,
+       38.947267
+      ],
+      [
+       -105.30952,
+       38.946946
+      ],
+      [
+       -105.308973,
+       38.946721
+      ],
+      [
+       -105.308078,
+       38.946393
+      ],
+      [
+       -105.307282,
+       38.94613
+      ],
+      [
+       -105.306327,
+       38.945867
+      ],
+      [
+       -105.305368,
+       38.945673
+      ],
+      [
+       -105.304169,
+       38.94548
+      ],
+      [
+       -105.303229,
+       38.945383
+      ],
+      [
+       -105.30227,
+       38.945341
+      ],
+      [
+       -105.30203,
+       38.945342
+      ],
+      [
+       -105.301637,
+       38.945332
+      ],
+      [
+       -105.30126,
+       38.945334
+      ],
+      [
+       -105.300822,
+       38.945348
+      ],
+      [
+       -105.300397,
+       38.94537
+      ],
+      [
+       -105.299905,
+       38.945399
+      ],
+      [
+       -105.297865,
+       38.94555
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99250009, tagged as an abandoned railway of this company (now West U.S. Highway 24).",
+    "local": {
+     "osm_way": 99250009,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99250009,
+      "name": "West U.S. Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.287532,
+       38.946356
+      ],
+      [
+       -105.287235,
+       38.946423
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 179901513, tagged as an abandoned railway of this company (now West U.S. Highway 24).",
+    "local": {
+     "osm_way": 179901513,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 179901513,
+      "name": "West U.S. Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.297458,
+       38.945579
+      ],
+      [
+       -105.295778,
+       38.94569
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 179901615, tagged as an abandoned railway of this company (now West U.S. Highway 24).",
+    "local": {
+     "osm_way": 179901615,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 179901615,
+      "name": "West U.S. Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.297865,
+       38.94555
+      ],
+      [
+       -105.297458,
+       38.945579
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 179901616, tagged as an abandoned railway of this company (now West U.S. Highway 24).",
+    "local": {
+     "osm_way": 179901616,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 179901616,
+      "name": "West U.S. Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.295778,
+       38.94569
+      ],
+      [
+       -105.29433,
+       38.945792
+      ],
+      [
+       -105.293523,
+       38.945853
+      ],
+      [
+       -105.292238,
+       38.945948
+      ],
+      [
+       -105.291061,
+       38.946027
+      ],
+      [
+       -105.28949,
+       38.946147
+      ],
+      [
+       -105.289408,
+       38.946154
+      ],
+      [
+       -105.289188,
+       38.946172
+      ],
+      [
+       -105.288864,
+       38.946193
+      ],
+      [
+       -105.28856,
+       38.946214
+      ],
+      [
+       -105.288304,
+       38.946235
+      ],
+      [
+       -105.28807,
+       38.946263
+      ],
+      [
+       -105.287785,
+       38.946306
+      ],
+      [
+       -105.287532,
+       38.946356
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 367158474, tagged as an abandoned railway of this company (now West U.S. Highway 24).",
+    "local": {
+     "osm_way": 367158474,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 367158474,
+      "name": "West U.S. Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.160454,
+       38.942121
+      ],
+      [
+       -105.160663,
+       38.942181
+      ],
+      [
+       -105.160774,
+       38.94222
+      ],
+      [
+       -105.161148,
+       38.942435
+      ],
+      [
+       -105.161253,
+       38.942521
+      ],
+      [
+       -105.161382,
+       38.942653
+      ],
+      [
+       -105.161572,
+       38.942857
+      ],
+      [
+       -105.161681,
+       38.942958
+      ],
+      [
+       -105.161984,
+       38.943154
+      ],
+      [
+       -105.162041,
+       38.94321
+      ],
+      [
+       -105.162063,
+       38.943247
+      ],
+      [
+       -105.162071,
+       38.943298
+      ],
+      [
+       -105.162074,
+       38.943358
+      ],
+      [
+       -105.162064,
+       38.943427
+      ],
+      [
+       -105.162033,
+       38.943551
+      ],
+      [
+       -105.161981,
+       38.943654
+      ],
+      [
+       -105.161911,
+       38.943752
+      ],
+      [
+       -105.161783,
+       38.943877
+      ],
+      [
+       -105.161641,
+       38.944019
+      ],
+      [
+       -105.161506,
+       38.94419
+      ],
+      [
+       -105.161344,
+       38.944441
+      ],
+      [
+       -105.161121,
+       38.944909
+      ],
+      [
+       -105.161047,
+       38.945126
+      ],
+      [
+       -105.16113,
+       38.945444
+      ],
+      [
+       -105.161291,
+       38.945699
+      ],
+      [
+       -105.161471,
+       38.945907
+      ],
+      [
+       -105.161863,
+       38.946066
+      ],
+      [
+       -105.162177,
+       38.946141
+      ],
+      [
+       -105.162389,
+       38.946145
+      ],
+      [
+       -105.163067,
+       38.946125
+      ],
+      [
+       -105.163313,
+       38.946117
+      ],
+      [
+       -105.16354,
+       38.946104
+      ],
+      [
+       -105.163635,
+       38.946096
+      ],
+      [
+       -105.163725,
+       38.946082
+      ],
+      [
+       -105.164103,
+       38.945969
+      ],
+      [
+       -105.1644,
+       38.945791
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 17150825, tagged as an abandoned railway of this company (now Grandview Drive). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 17150825,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 17150825,
+      "name": "Grandview Drive",
+      "railway": "abandoned",
+      "highway": "residential"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.157642,
+       38.942008
+      ],
+      [
+       -105.157803,
+       38.942003
+      ],
+      [
+       -105.158755,
+       38.941986
+      ],
+      [
+       -105.159444,
+       38.942018
+      ],
+      [
+       -105.160454,
+       38.942121
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 64378490, tagged as an abandoned railway of this company (now Weaver Road). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 64378490,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 64378490,
+      "name": "Weaver Road",
+      "railway": "abandoned",
+      "highway": "residential"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.160454,
+       38.942121
+      ],
+      [
+       -105.161046,
+       38.942182
+      ],
+      [
+       -105.163282,
+       38.942389
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 71742692, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 71742692,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 71742692,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "service"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.16785,
+       38.941841
+      ],
+      [
+       -105.167295,
+       38.942186
+      ],
+      [
+       -105.166703,
+       38.942412
+      ],
+      [
+       -105.166064,
+       38.942551
+      ],
+      [
+       -105.165377,
+       38.942566
+      ],
+      [
+       -105.163282,
+       38.942389
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99249974, tagged as an abandoned railway of this company (now Colorado Midland Railroad). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 99249974,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99249974,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.195153,
+       38.935785
+      ],
+      [
+       -105.194836,
+       38.935705
+      ],
+      [
+       -105.194451,
+       38.935662
+      ],
+      [
+       -105.194018,
+       38.935698
+      ],
+      [
+       -105.193548,
+       38.935808
+      ],
+      [
+       -105.193069,
+       38.936042
+      ],
+      [
+       -105.191404,
+       38.937
+      ],
+      [
+       -105.190835,
+       38.937252
+      ],
+      [
+       -105.189464,
+       38.937535
+      ],
+      [
+       -105.185396,
+       38.938265
+      ],
+      [
+       -105.177272,
+       38.939194
+      ],
+      [
+       -105.173781,
+       38.939585
+      ],
+      [
+       -105.171028,
+       38.939889
+      ],
+      [
+       -105.170455,
+       38.939969
+      ],
+      [
+       -105.169919,
+       38.940138
+      ],
+      [
+       -105.169411,
+       38.940423
+      ],
+      [
+       -105.168828,
+       38.940913
+      ],
+      [
+       -105.16785,
+       38.941841
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99249976, tagged as an abandoned railway of this company (now Colorado Midland Railroad).",
+    "local": {
+     "osm_way": 99249976,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99249976,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.16785,
+       38.941841
+      ],
+      [
+       -105.166308,
+       38.943304
+      ],
+      [
+       -105.16564,
+       38.943985
+      ],
+      [
+       -105.164897,
+       38.945147
+      ],
+      [
+       -105.1644,
+       38.945791
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99250070, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 99250070,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99250070,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.153239,
+       38.943167
+      ],
+      [
+       -105.149644,
+       38.945172
+      ],
+      [
+       -105.147332,
+       38.946363
+      ],
+      [
+       -105.146976,
+       38.946516
+      ],
+      [
+       -105.145665,
+       38.947077
+      ],
+      [
+       -105.142004,
+       38.948237
+      ],
+      [
+       -105.140783,
+       38.948605
+      ],
+      [
+       -105.134684,
+       38.950102
+      ],
+      [
+       -105.133311,
+       38.950407
+      ],
+      [
+       -105.124252,
+       38.951725
+      ],
+      [
+       -105.123521,
+       38.95176
+      ],
+      [
+       -105.122977,
+       38.951697
+      ],
+      [
+       -105.121221,
+       38.951045
+      ],
+      [
+       -105.120695,
+       38.950914
+      ],
+      [
+       -105.120142,
+       38.950907
+      ],
+      [
+       -105.119571,
+       38.950948
+      ],
+      [
+       -105.119215,
+       38.950967
+      ],
+      [
+       -105.118421,
+       38.951233
+      ],
+      [
+       -105.117931,
+       38.951468
+      ],
+      [
+       -105.116638,
+       38.95237
+      ],
+      [
+       -105.116281,
+       38.952599
+      ],
+      [
+       -105.115461,
+       38.952931
+      ],
+      [
+       -105.111467,
+       38.95472
+      ],
+      [
+       -105.111261,
+       38.954785
+      ],
+      [
+       -105.111016,
+       38.954814
+      ],
+      [
+       -105.110637,
+       38.954817
+      ],
+      [
+       -105.109362,
+       38.954561
+      ],
+      [
+       -105.109189,
+       38.954543
+      ],
+      [
+       -105.108825,
+       38.954566
+      ],
+      [
+       -105.106328,
+       38.954922
+      ],
+      [
+       -105.104854,
+       38.955292
+      ],
+      [
+       -105.101327,
+       38.956648
+      ],
+      [
+       -105.100089,
+       38.956938
+      ],
+      [
+       -105.093186,
+       38.958303
+      ],
+      [
+       -105.09175,
+       38.958636
+      ],
+      [
+       -105.090734,
+       38.959018
+      ],
+      [
+       -105.089887,
+       38.95951
+      ],
+      [
+       -105.086279,
+       38.961882
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 635710408, tagged as an abandoned railway of this company (now Colorado Midland Railroad). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 635710408,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 635710408,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.025283,
+       38.950412
+      ],
+      [
+       -105.025042,
+       38.949028
+      ],
+      [
+       -105.024938,
+       38.948578
+      ],
+      [
+       -105.024568,
+       38.947811
+      ],
+      [
+       -105.023668,
+       38.946703
+      ],
+      [
+       -105.022603,
+       38.945354
+      ],
+      [
+       -105.021708,
+       38.944334
+      ],
+      [
+       -105.020051,
+       38.943007
+      ],
+      [
+       -105.01874,
+       38.941971
+      ],
+      [
+       -105.017781,
+       38.941071
+      ],
+      [
+       -105.016717,
+       38.93981
+      ],
+      [
+       -105.016216,
+       38.939119
+      ],
+      [
+       -105.015913,
+       38.938193
+      ],
+      [
+       -105.015645,
+       38.936899
+      ],
+      [
+       -105.015377,
+       38.936219
+      ],
+      [
+       -105.014968,
+       38.935522
+      ],
+      [
+       -105.014436,
+       38.934908
+      ],
+      [
+       -105.013989,
+       38.934393
+      ],
+      [
+       -105.011542,
+       38.931881
+      ],
+      [
+       -105.008997,
+       38.929155
+      ],
+      [
+       -105.008497,
+       38.928656
+      ],
+      [
+       -105.008071,
+       38.928382
+      ],
+      [
+       -105.007235,
+       38.927979
+      ],
+      [
+       -105.005115,
+       38.927046
+      ],
+      [
+       -105.004264,
+       38.926553
+      ],
+      [
+       -105.002677,
+       38.925295
+      ],
+      [
+       -105.002616,
+       38.925247
+      ],
+      [
+       -105.001463,
+       38.924434
+      ],
+      [
+       -105.000109,
+       38.923742
+      ],
+      [
+       -104.994623,
+       38.92128
+      ],
+      [
+       -104.991056,
+       38.919558
+      ],
+      [
+       -104.986546,
+       38.917559
+      ],
+      [
+       -104.985671,
+       38.91712
+      ],
+      [
+       -104.984372,
+       38.916265
+      ],
+      [
+       -104.977779,
+       38.911232
+      ],
+      [
+       -104.976116,
+       38.910064
+      ],
+      [
+       -104.9747,
+       38.908872
+      ],
+      [
+       -104.973833,
+       38.908083
+      ],
+      [
+       -104.972578,
+       38.906445
+      ],
+      [
+       -104.971804,
+       38.905462
+      ],
+      [
+       -104.971544,
+       38.904865
+      ],
+      [
+       -104.97147,
+       38.904133
+      ],
+      [
+       -104.971495,
+       38.903377
+      ],
+      [
+       -104.971662,
+       38.90211
+      ],
+      [
+       -104.971881,
+       38.900177
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99250047, tagged as an abandoned railway of this company (now Colorado Midland Railroad). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 99250047,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99250047,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.971881,
+       38.900177
+      ],
+      [
+       -104.971916,
+       38.899783
+      ],
+      [
+       -104.971926,
+       38.899446
+      ],
+      [
+       -104.971878,
+       38.898836
+      ],
+      [
+       -104.971747,
+       38.898224
+      ],
+      [
+       -104.971572,
+       38.897535
+      ],
+      [
+       -104.971531,
+       38.897403
+      ],
+      [
+       -104.971331,
+       38.896752
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99250112, tagged as an abandoned railway of this company (now West Highway 24). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 99250112,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99250112,
+      "name": "West Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.969671,
+       38.894582
+      ],
+      [
+       -104.969442,
+       38.894434
+      ],
+      [
+       -104.969146,
+       38.894249
+      ],
+      [
+       -104.968817,
+       38.894067
+      ],
+      [
+       -104.968312,
+       38.893711
+      ],
+      [
+       -104.968012,
+       38.89345
+      ],
+      [
+       -104.9678,
+       38.893225
+      ],
+      [
+       -104.967526,
+       38.892901
+      ],
+      [
+       -104.967307,
+       38.892624
+      ],
+      [
+       -104.967173,
+       38.89243
+      ],
+      [
+       -104.966928,
+       38.892108
+      ],
+      [
+       -104.96646,
+       38.891495
+      ],
+      [
+       -104.966373,
+       38.891386
+      ],
+      [
+       -104.965221,
+       38.889769
+      ],
+      [
+       -104.96497,
+       38.889432
+      ],
+      [
+       -104.964801,
+       38.889231
+      ],
+      [
+       -104.964629,
+       38.889069
+      ],
+      [
+       -104.964447,
+       38.888918
+      ],
+      [
+       -104.964302,
+       38.888818
+      ],
+      [
+       -104.964082,
+       38.888718
+      ],
+      [
+       -104.963873,
+       38.888634
+      ],
+      [
+       -104.96367,
+       38.888581
+      ],
+      [
+       -104.963446,
+       38.888533
+      ],
+      [
+       -104.963224,
+       38.888513
+      ],
+      [
+       -104.963025,
+       38.888513
+      ],
+      [
+       -104.962816,
+       38.888522
+      ],
+      [
+       -104.962603,
+       38.888561
+      ],
+      [
+       -104.962285,
+       38.888626
+      ],
+      [
+       -104.961974,
+       38.888734
+      ],
+      [
+       -104.961646,
+       38.888843
+      ],
+      [
+       -104.961384,
+       38.888939
+      ],
+      [
+       -104.961115,
+       38.889069
+      ],
+      [
+       -104.960853,
+       38.889177
+      ],
+      [
+       -104.960584,
+       38.889294
+      ],
+      [
+       -104.960198,
+       38.889449
+      ],
+      [
+       -104.959962,
+       38.889524
+      ],
+      [
+       -104.959534,
+       38.889585
+      ],
+      [
+       -104.959249,
+       38.889578
+      ],
+      [
+       -104.958996,
+       38.889549
+      ],
+      [
+       -104.958733,
+       38.889494
+      ],
+      [
+       -104.958401,
+       38.889373
+      ],
+      [
+       -104.95809,
+       38.889198
+      ],
+      [
+       -104.957763,
+       38.888973
+      ],
+      [
+       -104.957451,
+       38.888734
+      ],
+      [
+       -104.957167,
+       38.888517
+      ],
+      [
+       -104.956958,
+       38.88835
+      ],
+      [
+       -104.956738,
+       38.888183
+      ],
+      [
+       -104.956523,
+       38.888037
+      ],
+      [
+       -104.956361,
+       38.887932
+      ],
+      [
+       -104.956123,
+       38.887811
+      ],
+      [
+       -104.955805,
+       38.887687
+      ],
+      [
+       -104.955472,
+       38.88757
+      ],
+      [
+       -104.955214,
+       38.88749
+      ],
+      [
+       -104.954941,
+       38.887398
+      ],
+      [
+       -104.954673,
+       38.887307
+      ],
+      [
+       -104.954345,
+       38.887156
+      ],
+      [
+       -104.954077,
+       38.887006
+      ],
+      [
+       -104.953857,
+       38.886835
+      ],
+      [
+       -104.953648,
+       38.886647
+      ],
+      [
+       -104.953476,
+       38.886455
+      ],
+      [
+       -104.953172,
+       38.886102
+      ],
+      [
+       -104.952881,
+       38.885787
+      ],
+      [
+       -104.952616,
+       38.885461
+      ],
+      [
+       -104.952092,
+       38.884862
+      ],
+      [
+       -104.951672,
+       38.884375
+      ],
+      [
+       -104.951352,
+       38.883983
+      ],
+      [
+       -104.951201,
+       38.883702
+      ],
+      [
+       -104.95105,
+       38.883399
+      ],
+      [
+       -104.950884,
+       38.882995
+      ],
+      [
+       -104.950755,
+       38.882656
+      ],
+      [
+       -104.950609,
+       38.882253
+      ],
+      [
+       -104.950515,
+       38.882013
+      ],
+      [
+       -104.950449,
+       38.881821
+      ],
+      [
+       -104.950416,
+       38.881735
+      ],
+      [
+       -104.950314,
+       38.881504
+      ],
+      [
+       -104.950144,
+       38.881237
+      ],
+      [
+       -104.94994,
+       38.88099
+      ],
+      [
+       -104.949685,
+       38.880774
+      ],
+      [
+       -104.949371,
+       38.880606
+      ],
+      [
+       -104.948937,
+       38.880452
+      ],
+      [
+       -104.948306,
+       38.880271
+      ],
+      [
+       -104.94714,
+       38.879917
+      ],
+      [
+       -104.946861,
+       38.879775
+      ],
+      [
+       -104.946453,
+       38.879504
+      ],
+      [
+       -104.945895,
+       38.879038
+      ],
+      [
+       -104.945407,
+       38.878644
+      ],
+      [
+       -104.945083,
+       38.87842
+      ],
+      [
+       -104.944774,
+       38.878288
+      ],
+      [
+       -104.944447,
+       38.878192
+      ],
+      [
+       -104.944091,
+       38.87816
+      ],
+      [
+       -104.943473,
+       38.878226
+      ],
+      [
+       -104.942808,
+       38.878373
+      ],
+      [
+       -104.942348,
+       38.878464
+      ],
+      [
+       -104.941724,
+       38.878473
+      ],
+      [
+       -104.941323,
+       38.878371
+      ],
+      [
+       -104.940967,
+       38.878191
+      ],
+      [
+       -104.940568,
+       38.877887
+      ],
+      [
+       -104.940245,
+       38.877653
+      ],
+      [
+       -104.939898,
+       38.877472
+      ],
+      [
+       -104.939387,
+       38.877304
+      ],
+      [
+       -104.939328,
+       38.877286
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 652831645, tagged as an abandoned railway of this company (now West Highway 24). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 652831645,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 652831645,
+      "name": "West Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.971331,
+       38.896752
+      ],
+      [
+       -104.971296,
+       38.896623
+      ],
+      [
+       -104.971191,
+       38.896241
+      ],
+      [
+       -104.971102,
+       38.895991
+      ],
+      [
+       -104.970977,
+       38.895748
+      ],
+      [
+       -104.970743,
+       38.895437
+      ],
+      [
+       -104.970535,
+       38.895213
+      ],
+      [
+       -104.970312,
+       38.895023
+      ],
+      [
+       -104.969671,
+       38.894582
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 968258292, tagged as an abandoned railway of this company (now West Highway 24). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 968258292,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 968258292,
+      "name": "West Highway 24",
+      "railway": "abandoned",
+      "highway": "trunk"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.929175,
+       38.867333
+      ],
+      [
+       -104.929434,
+       38.867646
+      ],
+      [
+       -104.929573,
+       38.867817
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89496969, tagged as an abandoned railway of this company (now Colorado Midland Railroad). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89496969,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 89496969,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.930385,
+       38.875353
+      ],
+      [
+       -104.930685,
+       38.875537
+      ],
+      [
+       -104.930862,
+       38.875635
+      ],
+      [
+       -104.931018,
+       38.875687
+      ],
+      [
+       -104.931221,
+       38.875726
+      ],
+      [
+       -104.931519,
+       38.875789
+      ],
+      [
+       -104.931999,
+       38.875879
+      ],
+      [
+       -104.932439,
+       38.875956
+      ],
+      [
+       -104.932819,
+       38.876026
+      ],
+      [
+       -104.933222,
+       38.87614
+      ],
+      [
+       -104.933389,
+       38.876138
+      ],
+      [
+       -104.933566,
+       38.876099
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569989, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89569989,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 89569989,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.933566,
+       38.876099
+      ],
+      [
+       -104.934357,
+       38.87587
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569990, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89569990,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 89569990,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.934357,
+       38.87587
+      ],
+      [
+       -104.93477,
+       38.875731
+      ],
+      [
+       -104.935086,
+       38.875651
+      ],
+      [
+       -104.93543,
+       38.875593
+      ],
+      [
+       -104.935709,
+       38.875547
+      ],
+      [
+       -104.935961,
+       38.87557
+      ],
+      [
+       -104.936248,
+       38.875589
+      ],
+      [
+       -104.936449,
+       38.875559
+      ],
+      [
+       -104.936656,
+       38.875585
+      ],
+      [
+       -104.936859,
+       38.875647
+      ],
+      [
+       -104.937028,
+       38.875731
+      ],
+      [
+       -104.937227,
+       38.875879
+      ],
+      [
+       -104.937374,
+       38.876038
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569991, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89569991,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 89569991,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.928818,
+       38.871802
+      ],
+      [
+       -104.929194,
+       38.871991
+      ],
+      [
+       -104.929537,
+       38.872139
+      ],
+      [
+       -104.929668,
+       38.872197
+      ],
+      [
+       -104.929862,
+       38.872304
+      ],
+      [
+       -104.930047,
+       38.872502
+      ],
+      [
+       -104.930208,
+       38.87269
+      ],
+      [
+       -104.930267,
+       38.872853
+      ],
+      [
+       -104.930277,
+       38.873091
+      ],
+      [
+       -104.930299,
+       38.873294
+      ],
+      [
+       -104.930302,
+       38.873486
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569997, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89569997,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 89569997,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.930302,
+       38.873486
+      ],
+      [
+       -104.930261,
+       38.873956
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569998, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89569998,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 89569998,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.930261,
+       38.873956
+      ],
+      [
+       -104.930272,
+       38.874323
+      ],
+      [
+       -104.930261,
+       38.874547
+      ],
+      [
+       -104.93024,
+       38.874778
+      ],
+      [
+       -104.930237,
+       38.874975
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569999, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89569999,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 89569999,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.930237,
+       38.874975
+      ],
+      [
+       -104.930385,
+       38.875353
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89570000, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89570000,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 89570000,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.929573,
+       38.867817
+      ],
+      [
+       -104.929634,
+       38.867919
+      ],
+      [
+       -104.929678,
+       38.868026
+      ],
+      [
+       -104.929703,
+       38.868137
+      ],
+      [
+       -104.929709,
+       38.86825
+      ],
+      [
+       -104.929696,
+       38.868362
+      ],
+      [
+       -104.929664,
+       38.868472
+      ],
+      [
+       -104.929614,
+       38.868578
+      ],
+      [
+       -104.929547,
+       38.868677
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89570001, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89570001,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 89570001,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.929547,
+       38.868677
+      ],
+      [
+       -104.929394,
+       38.868892
+      ],
+      [
+       -104.929253,
+       38.869128
+      ],
+      [
+       -104.929092,
+       38.869332
+      ],
+      [
+       -104.928877,
+       38.869529
+      ],
+      [
+       -104.928639,
+       38.869752
+      ],
+      [
+       -104.92851,
+       38.869877
+      ],
+      [
+       -104.928388,
+       38.870024
+      ],
+      [
+       -104.928305,
+       38.870146
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89570005, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 89570005,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 89570005,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.928305,
+       38.870146
+      ],
+      [
+       -104.928218,
+       38.870287
+      ],
+      [
+       -104.928154,
+       38.870434
+      ],
+      [
+       -104.928114,
+       38.870587
+      ],
+      [
+       -104.928099,
+       38.870743
+      ],
+      [
+       -104.928108,
+       38.870899
+      ],
+      [
+       -104.928143,
+       38.871053
+      ],
+      [
+       -104.928202,
+       38.871202
+      ],
+      [
+       -104.928285,
+       38.871344
+      ],
+      [
+       -104.928389,
+       38.871477
+      ],
+      [
+       -104.928515,
+       38.871599
+      ],
+      [
+       -104.928658,
+       38.871708
+      ],
+      [
+       -104.928818,
+       38.871802
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99249992, tagged as an abandoned railway of this company. East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 99249992,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99249992,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "path"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.937374,
+       38.876038
+      ],
+      [
+       -104.938362,
+       38.876791
+      ],
+      [
+       -104.939328,
+       38.877286
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99250078, tagged as an abandoned railway of this company (now Colorado Midland Railroad). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 99250078,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99250078,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.895842,
+       38.856879
+      ],
+      [
+       -104.896336,
+       38.856697
+      ],
+      [
+       -104.89736,
+       38.856181
+      ],
+      [
+       -104.898089,
+       38.855942
+      ],
+      [
+       -104.898962,
+       38.855829
+      ],
+      [
+       -104.900052,
+       38.855782
+      ],
+      [
+       -104.900678,
+       38.855857
+      ],
+      [
+       -104.900995,
+       38.855931
+      ],
+      [
+       -104.901521,
+       38.856054
+      ],
+      [
+       -104.903497,
+       38.856701
+      ],
+      [
+       -104.904213,
+       38.856837
+      ],
+      [
+       -104.904755,
+       38.856856
+      ],
+      [
+       -104.905436,
+       38.856772
+      ],
+      [
+       -104.913138,
+       38.855374
+      ],
+      [
+       -104.913919,
+       38.855324
+      ],
+      [
+       -104.914156,
+       38.855308
+      ],
+      [
+       -104.915023,
+       38.855322
+      ],
+      [
+       -104.915824,
+       38.855407
+      ],
+      [
+       -104.91636,
+       38.855566
+      ],
+      [
+       -104.917017,
+       38.855824
+      ],
+      [
+       -104.919227,
+       38.856978
+      ],
+      [
+       -104.920082,
+       38.857317
+      ],
+      [
+       -104.920992,
+       38.857475
+      ],
+      [
+       -104.921997,
+       38.85756
+      ],
+      [
+       -104.923846,
+       38.857541
+      ],
+      [
+       -104.92496,
+       38.857395
+      ],
+      [
+       -104.925526,
+       38.857273
+      ],
+      [
+       -104.926345,
+       38.857076
+      ],
+      [
+       -104.926803,
+       38.856997
+      ],
+      [
+       -104.927153,
+       38.85702
+      ],
+      [
+       -104.927538,
+       38.857114
+      ],
+      [
+       -104.927839,
+       38.857283
+      ],
+      [
+       -104.928044,
+       38.857555
+      ],
+      [
+       -104.92814,
+       38.857822
+      ],
+      [
+       -104.92808,
+       38.858118
+      ],
+      [
+       -104.927893,
+       38.858413
+      ],
+      [
+       -104.927538,
+       38.858704
+      ],
+      [
+       -104.926986,
+       38.858934
+      ],
+      [
+       -104.926327,
+       38.859093
+      ],
+      [
+       -104.925978,
+       38.859215
+      ],
+      [
+       -104.925763,
+       38.859367
+      ],
+      [
+       -104.925582,
+       38.85953
+      ],
+      [
+       -104.925436,
+       38.859778
+      ],
+      [
+       -104.925364,
+       38.860089
+      ],
+      [
+       -104.92536,
+       38.860353
+      ],
+      [
+       -104.925382,
+       38.860401
+      ],
+      [
+       -104.925938,
+       38.861353
+      ],
+      [
+       -104.926056,
+       38.861928
+      ],
+      [
+       -104.926142,
+       38.862365
+      ],
+      [
+       -104.926175,
+       38.862899
+      ],
+      [
+       -104.926183,
+       38.863557
+      ],
+      [
+       -104.926303,
+       38.86404
+      ],
+      [
+       -104.926767,
+       38.865077
+      ],
+      [
+       -104.927128,
+       38.865592
+      ],
+      [
+       -104.92791,
+       38.866324
+      ],
+      [
+       -104.928303,
+       38.866574
+      ],
+      [
+       -104.928739,
+       38.866921
+      ],
+      [
+       -104.929175,
+       38.867333
+      ]
+     ]
+    },
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 191841704, tagged as an abandoned railway of this company (now Colorado Midland Railroad). East of Divide: used by the Midland Terminal after 1921.",
+    "local": {
+     "osm_way": 191841704,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 191841704,
+      "name": "Colorado Midland Railroad",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   }
+  ],
+  "successors": [
+   "line:midland-terminal"
+  ]
+ },
+ {
+  "id": "line:cs-and-cc-district",
+  "name": "Colorado Springs and Cripple Creek District Railway (the Short Line)",
+  "valid_from": 1901,
+  "valid_to": 1920,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Grade from OpenStreetMap ways carrying this company's name as former operator: 53 km in 54 pieces inside the fetched corridors. Checked against lidar only at the atlas's two worked places. It is not the whole railway.",
+  "sources": [
+   "source:osm-railways",
+   "source:wikipedia-cscc"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "Opened 8 April 1901. Given up about 1920; sources say the rails were lifted by 1922, when the grade was sold for a toll road, later Gold Camp Road.",
+  "railway": "Colorado Springs and Cripple Creek District Railway",
+  "gauge": "standard",
+  "segments": [
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.160535,
+       38.737544
+      ],
+      [
+       -105.160521,
+       38.736288
+      ],
+      [
+       -105.160447,
+       38.735966
+      ],
+      [
+       -105.16027,
+       38.735666
+      ],
+      [
+       -105.160107,
+       38.735482
+      ],
+      [
+       -105.159753,
+       38.735332
+      ],
+      [
+       -105.159339,
+       38.735229
+      ],
+      [
+       -105.158896,
+       38.735263
+      ],
+      [
+       -105.158365,
+       38.735436
+      ],
+      [
+       -105.156873,
+       38.736461
+      ],
+      [
+       -105.156563,
+       38.736714
+      ],
+      [
+       -105.156371,
+       38.736991
+      ],
+      [
+       -105.156312,
+       38.737383
+      ],
+      [
+       -105.15643,
+       38.739156
+      ],
+      [
+       -105.156504,
+       38.739629
+      ],
+      [
+       -105.156681,
+       38.739986
+      ],
+      [
+       -105.157346,
+       38.740896
+      ],
+      [
+       -105.157656,
+       38.741495
+      ],
+      [
+       -105.158291,
+       38.742969
+      ],
+      [
+       -105.158439,
+       38.743545
+      ],
+      [
+       -105.158439,
+       38.74404
+      ],
+      [
+       -105.15832,
+       38.744431
+      ],
+      [
+       -105.157966,
+       38.744927
+      ],
+      [
+       -105.156755,
+       38.746228
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99269284, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99269284,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99269284,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.156755,
+       38.746228
+      ],
+      [
+       -105.156369,
+       38.746749
+      ],
+      [
+       -105.155851,
+       38.747805
+      ],
+      [
+       -105.155516,
+       38.748312
+      ],
+      [
+       -105.155202,
+       38.748612
+      ],
+      [
+       -105.154613,
+       38.74899
+      ],
+      [
+       -105.154299,
+       38.749278
+      ],
+      [
+       -105.154107,
+       38.749612
+      ],
+      [
+       -105.154008,
+       38.749964
+      ],
+      [
+       -105.153997,
+       38.750359
+      ],
+      [
+       -105.154068,
+       38.750849
+      ],
+      [
+       -105.154024,
+       38.751166
+      ],
+      [
+       -105.15392,
+       38.751445
+      ],
+      [
+       -105.153788,
+       38.751643
+      ],
+      [
+       -105.153551,
+       38.751905
+      ],
+      [
+       -105.153066,
+       38.752226
+      ],
+      [
+       -105.152571,
+       38.752437
+      ],
+      [
+       -105.151949,
+       38.752591
+      ],
+      [
+       -105.151311,
+       38.75278
+      ],
+      [
+       -105.150788,
+       38.753003
+      ],
+      [
+       -105.150166,
+       38.753342
+      ],
+      [
+       -105.149715,
+       38.753536
+      ],
+      [
+       -105.149354,
+       38.753623
+      ],
+      [
+       -105.148853,
+       38.753653
+      ],
+      [
+       -105.148506,
+       38.753641
+      ],
+      [
+       -105.148204,
+       38.753568
+      ],
+      [
+       -105.147891,
+       38.753399
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99571233, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99571233,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99571233,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.121775,
+       38.742478
+      ],
+      [
+       -105.122099,
+       38.742914
+      ],
+      [
+       -105.122859,
+       38.743889
+      ],
+      [
+       -105.123081,
+       38.744259
+      ],
+      [
+       -105.123257,
+       38.744633
+      ],
+      [
+       -105.123426,
+       38.74515
+      ],
+      [
+       -105.123537,
+       38.745796
+      ],
+      [
+       -105.123597,
+       38.746477
+      ],
+      [
+       -105.123658,
+       38.746955
+      ],
+      [
+       -105.123945,
+       38.747489
+      ],
+      [
+       -105.124315,
+       38.747809
+      ],
+      [
+       -105.125276,
+       38.748235
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 17150541, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 17150541,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 17150541,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.106634,
+       38.743195
+      ],
+      [
+       -105.106893,
+       38.743042
+      ],
+      [
+       -105.107098,
+       38.742887
+      ],
+      [
+       -105.107271,
+       38.742724
+      ],
+      [
+       -105.107495,
+       38.742443
+      ],
+      [
+       -105.107794,
+       38.742149
+      ],
+      [
+       -105.108111,
+       38.741925
+      ],
+      [
+       -105.108465,
+       38.741744
+      ],
+      [
+       -105.109035,
+       38.741591
+      ],
+      [
+       -105.109512,
+       38.741587
+      ],
+      [
+       -105.110181,
+       38.741691
+      ],
+      [
+       -105.111166,
+       38.742026
+      ],
+      [
+       -105.111771,
+       38.742207
+      ],
+      [
+       -105.112128,
+       38.742261
+      ],
+      [
+       -105.112508,
+       38.742257
+      ],
+      [
+       -105.112959,
+       38.742174
+      ],
+      [
+       -105.113477,
+       38.742005
+      ],
+      [
+       -105.114296,
+       38.741664
+      ],
+      [
+       -105.115199,
+       38.741375
+      ],
+      [
+       -105.116433,
+       38.741186
+      ],
+      [
+       -105.117407,
+       38.741122
+      ],
+      [
+       -105.118115,
+       38.741124
+      ],
+      [
+       -105.118792,
+       38.741231
+      ],
+      [
+       -105.119269,
+       38.74136
+      ],
+      [
+       -105.119813,
+       38.741541
+      ],
+      [
+       -105.120231,
+       38.741751
+      ],
+      [
+       -105.120825,
+       38.742046
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568998, tagged as an abandoned railway of this company (now County Road 81).",
+    "local": {
+     "osm_way": 99568998,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568998,
+      "name": "County Road 81",
+      "railway": "abandoned",
+      "highway": "secondary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.138922,
+       38.748169
+      ],
+      [
+       -105.138517,
+       38.747764
+      ],
+      [
+       -105.13817,
+       38.747395
+      ],
+      [
+       -105.137879,
+       38.746949
+      ],
+      [
+       -105.13746,
+       38.745923
+      ],
+      [
+       -105.137245,
+       38.745568
+      ],
+      [
+       -105.137011,
+       38.745285
+      ],
+      [
+       -105.136701,
+       38.74508
+      ],
+      [
+       -105.136221,
+       38.744992
+      ],
+      [
+       -105.13576,
+       38.745065
+      ],
+      [
+       -105.135356,
+       38.745285
+      ],
+      [
+       -105.135092,
+       38.745549
+      ],
+      [
+       -105.13497,
+       38.745828
+      ],
+      [
+       -105.134951,
+       38.746158
+      ],
+      [
+       -105.135008,
+       38.746481
+      ],
+      [
+       -105.135673,
+       38.747947
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569036, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569036,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569036,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.134535,
+       38.747227
+      ],
+      [
+       -105.134776,
+       38.747376
+      ],
+      [
+       -105.134957,
+       38.747618
+      ],
+      [
+       -105.13523,
+       38.748202
+      ],
+      [
+       -105.135449,
+       38.748527
+      ],
+      [
+       -105.135911,
+       38.74901
+      ],
+      [
+       -105.136222,
+       38.749432
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569104, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569104,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569104,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.099518,
+       38.743026
+      ],
+      [
+       -105.09992,
+       38.743041
+      ],
+      [
+       -105.100133,
+       38.74306
+      ],
+      [
+       -105.100724,
+       38.7432
+      ],
+      [
+       -105.101257,
+       38.743287
+      ],
+      [
+       -105.101474,
+       38.743291
+      ],
+      [
+       -105.101743,
+       38.743261
+      ],
+      [
+       -105.102149,
+       38.743095
+      ],
+      [
+       -105.102734,
+       38.742719
+      ],
+      [
+       -105.103209,
+       38.742542
+      ],
+      [
+       -105.10367,
+       38.742494
+      ],
+      [
+       -105.104041,
+       38.742575
+      ],
+      [
+       -105.105094,
+       38.743047
+      ],
+      [
+       -105.105608,
+       38.743195
+      ],
+      [
+       -105.106073,
+       38.743244
+      ],
+      [
+       -105.106634,
+       38.743195
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569111, tagged as an abandoned railway of this company (now Colorado Springs and Cripple Creek District Railway).",
+    "local": {
+     "osm_way": 99569111,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569111,
+      "name": "Colorado Springs and Cripple Creek District Railway",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.121775,
+       38.742478
+      ],
+      [
+       -105.120825,
+       38.742046
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569142, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569142,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569142,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.125276,
+       38.748235
+      ],
+      [
+       -105.125946,
+       38.748348
+      ],
+      [
+       -105.128261,
+       38.748789
+      ],
+      [
+       -105.131445,
+       38.749987
+      ],
+      [
+       -105.134912,
+       38.750995
+      ],
+      [
+       -105.135457,
+       38.751005
+      ],
+      [
+       -105.136127,
+       38.750749
+      ],
+      [
+       -105.136403,
+       38.750394
+      ],
+      [
+       -105.136455,
+       38.749987
+      ],
+      [
+       -105.136222,
+       38.749432
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 348453276, tagged as an abandoned railway of this company (now Gold Camp Loop Road).",
+    "local": {
+     "osm_way": 348453276,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 348453276,
+      "name": "Gold Camp Loop Road",
+      "railway": "abandoned",
+      "highway": "residential"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.127505,
+       38.728491
+      ],
+      [
+       -105.127211,
+       38.728273
+      ],
+      [
+       -105.126821,
+       38.728079
+      ],
+      [
+       -105.126476,
+       38.727955
+      ],
+      [
+       -105.126072,
+       38.727936
+      ],
+      [
+       -105.125467,
+       38.727885
+      ],
+      [
+       -105.124848,
+       38.727911
+      ],
+      [
+       -105.124172,
+       38.728027
+      ],
+      [
+       -105.123395,
+       38.728242
+      ],
+      [
+       -105.122856,
+       38.728425
+      ],
+      [
+       -105.122319,
+       38.728708
+      ],
+      [
+       -105.120893,
+       38.729701
+      ],
+      [
+       -105.120321,
+       38.730054
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 349626827, tagged as an abandoned railway of this company (now Independence Road).",
+    "local": {
+     "osm_way": 349626827,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 349626827,
+      "name": "Independence Road",
+      "railway": "abandoned",
+      "highway": "residential"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.120321,
+       38.730054
+      ],
+      [
+       -105.120041,
+       38.730318
+      ],
+      [
+       -105.119797,
+       38.730638
+      ],
+      [
+       -105.119604,
+       38.731099
+      ],
+      [
+       -105.119505,
+       38.731524
+      ],
+      [
+       -105.119479,
+       38.731772
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 1457850486, tagged as an abandoned railway of this company (now Independence Road).",
+    "local": {
+     "osm_way": 1457850486,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 1457850486,
+      "name": "Independence Road",
+      "railway": "abandoned",
+      "highway": "residential"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.119479,
+       38.731772
+      ],
+      [
+       -105.119868,
+       38.732741
+      ],
+      [
+       -105.120368,
+       38.733885
+      ],
+      [
+       -105.121084,
+       38.735853
+      ],
+      [
+       -105.121336,
+       38.736217
+      ],
+      [
+       -105.121661,
+       38.736521
+      ],
+      [
+       -105.122191,
+       38.73693
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 1547507994, tagged as an abandoned railway of this company (now Cameron Road).",
+    "local": {
+     "osm_way": 1547507994,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 1547507994,
+      "name": "Cameron Road",
+      "railway": "abandoned",
+      "highway": "residential"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.099518,
+       38.743026
+      ],
+      [
+       -105.099219,
+       38.743046
+      ],
+      [
+       -105.098876,
+       38.743177
+      ],
+      [
+       -105.098682,
+       38.743369
+      ],
+      [
+       -105.098571,
+       38.743485
+      ],
+      [
+       -105.098498,
+       38.743561
+      ],
+      [
+       -105.098427,
+       38.743931
+      ],
+      [
+       -105.098467,
+       38.744232
+      ],
+      [
+       -105.098548,
+       38.744377
+      ],
+      [
+       -105.098647,
+       38.744534
+      ],
+      [
+       -105.098955,
+       38.744761
+      ],
+      [
+       -105.099335,
+       38.745095
+      ],
+      [
+       -105.099494,
+       38.745271
+      ],
+      [
+       -105.099573,
+       38.745386
+      ],
+      [
+       -105.099597,
+       38.745577
+      ],
+      [
+       -105.099622,
+       38.745898
+      ],
+      [
+       -105.099535,
+       38.74615
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568855, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99568855,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568855,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "residential"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.099535,
+       38.74615
+      ],
+      [
+       -105.099308,
+       38.746374
+      ],
+      [
+       -105.098978,
+       38.746524
+      ],
+      [
+       -105.098627,
+       38.74661
+      ],
+      [
+       -105.098276,
+       38.746631
+      ],
+      [
+       -105.098015,
+       38.746604
+      ],
+      [
+       -105.097735,
+       38.746538
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569081, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569081,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569081,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.025416,
+       38.731901
+      ],
+      [
+       -105.025059,
+       38.732051
+      ],
+      [
+       -105.024783,
+       38.732223
+      ],
+      [
+       -105.023944,
+       38.733124
+      ],
+      [
+       -105.022964,
+       38.733944
+      ],
+      [
+       -105.022693,
+       38.734071
+      ],
+      [
+       -105.022475,
+       38.734125
+      ],
+      [
+       -105.022085,
+       38.734231
+      ],
+      [
+       -105.021625,
+       38.734224
+      ],
+      [
+       -105.020867,
+       38.734085
+      ],
+      [
+       -105.02011,
+       38.73352
+      ],
+      [
+       -105.019764,
+       38.732957
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 17149991, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 17149991,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 17149991,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.026195,
+       38.731811
+      ],
+      [
+       -105.025416,
+       38.731901
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569089, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99569089,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99569089,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.019764,
+       38.732957
+      ],
+      [
+       -105.019785,
+       38.732137
+      ],
+      [
+       -105.02006,
+       38.731621
+      ],
+      [
+       -105.020377,
+       38.731266
+      ],
+      [
+       -105.021785,
+       38.730711
+      ],
+      [
+       -105.022197,
+       38.730369
+      ],
+      [
+       -105.022403,
+       38.729834
+      ],
+      [
+       -105.022309,
+       38.729332
+      ],
+      [
+       -105.022043,
+       38.728916
+      ],
+      [
+       -105.021974,
+       38.728488
+      ],
+      [
+       -105.022103,
+       38.728043
+      ],
+      [
+       -105.023128,
+       38.726462
+      ],
+      [
+       -105.023193,
+       38.725977
+      ],
+      [
+       -105.023083,
+       38.725481
+      ],
+      [
+       -105.022587,
+       38.725066
+      ],
+      [
+       -105.021744,
+       38.724843
+      ],
+      [
+       -105.020664,
+       38.724586
+      ],
+      [
+       -105.019696,
+       38.724001
+      ],
+      [
+       -105.019202,
+       38.723372
+      ],
+      [
+       -105.019008,
+       38.723016
+      ],
+      [
+       -105.018875,
+       38.72222
+      ],
+      [
+       -105.01879,
+       38.721685
+      ],
+      [
+       -105.018621,
+       38.721409
+      ],
+      [
+       -105.018414,
+       38.721243
+      ],
+      [
+       -105.018181,
+       38.721122
+      ],
+      [
+       -105.017846,
+       38.721001
+      ],
+      [
+       -105.017228,
+       38.720928
+      ],
+      [
+       -105.016652,
+       38.721089
+      ],
+      [
+       -105.016077,
+       38.72141
+      ],
+      [
+       -105.014644,
+       38.722722
+      ],
+      [
+       -105.014198,
+       38.72301
+      ],
+      [
+       -105.013631,
+       38.723158
+      ],
+      [
+       -105.012962,
+       38.723111
+      ],
+      [
+       -105.012438,
+       38.72289
+      ],
+      [
+       -105.011777,
+       38.722468
+      ],
+      [
+       -105.011331,
+       38.722066
+      ],
+      [
+       -105.011217,
+       38.721606
+      ],
+      [
+       -105.011297,
+       38.721182
+      ],
+      [
+       -105.011777,
+       38.720807
+      ],
+      [
+       -105.012115,
+       38.720614
+      ],
+      [
+       -105.012763,
+       38.72062
+      ],
+      [
+       -105.013339,
+       38.720553
+      ],
+      [
+       -105.013711,
+       38.720387
+      ],
+      [
+       -105.014052,
+       38.720004
+      ],
+      [
+       -105.01423,
+       38.719624
+      ],
+      [
+       -105.014255,
+       38.719144
+      ],
+      [
+       -105.014187,
+       38.718626
+      ],
+      [
+       -105.014032,
+       38.718193
+      ],
+      [
+       -105.013762,
+       38.717836
+      ],
+      [
+       -105.013398,
+       38.717586
+      ],
+      [
+       -105.012915,
+       38.717458
+      ],
+      [
+       -105.012506,
+       38.717444
+      ],
+      [
+       -105.011886,
+       38.71749
+      ],
+      [
+       -105.011416,
+       38.717437
+      ],
+      [
+       -105.010592,
+       38.717036
+      ],
+      [
+       -105.010017,
+       38.716922
+      ],
+      [
+       -105.009442,
+       38.717015
+      ],
+      [
+       -105.008834,
+       38.717249
+      ],
+      [
+       -105.008566,
+       38.717565
+      ],
+      [
+       -105.008459,
+       38.718003
+      ],
+      [
+       -105.0085,
+       38.718215
+      ],
+      [
+       -105.008721,
+       38.71869
+      ],
+      [
+       -105.010129,
+       38.721784
+      ],
+      [
+       -105.01049,
+       38.722379
+      ],
+      [
+       -105.01094,
+       38.722765
+      ],
+      [
+       -105.01195,
+       38.723446
+      ],
+      [
+       -105.01212,
+       38.723665
+      ],
+      [
+       -105.012292,
+       38.724037
+      ],
+      [
+       -105.012257,
+       38.724288
+      ],
+      [
+       -105.012221,
+       38.72456
+      ],
+      [
+       -105.011991,
+       38.72483
+      ],
+      [
+       -105.011064,
+       38.725885
+      ],
+      [
+       -105.010604,
+       38.726406
+      ],
+      [
+       -105.01057,
+       38.726604
+      ],
+      [
+       -105.010549,
+       38.726899
+      ],
+      [
+       -105.010756,
+       38.727343
+      ],
+      [
+       -105.010884,
+       38.727665
+      ],
+      [
+       -105.010958,
+       38.728102
+      ],
+      [
+       -105.010858,
+       38.728388
+      ],
+      [
+       -105.010661,
+       38.728654
+      ],
+      [
+       -105.010189,
+       38.728921
+      ],
+      [
+       -105.009737,
+       38.728991
+      ],
+      [
+       -105.009054,
+       38.728864
+      ],
+      [
+       -105.008678,
+       38.728809
+      ],
+      [
+       -105.005683,
+       38.728279
+      ],
+      [
+       -105.005056,
+       38.728312
+      ],
+      [
+       -105.00433,
+       38.728619
+      ],
+      [
+       -105.004177,
+       38.728724
+      ],
+      [
+       -105.003975,
+       38.728948
+      ],
+      [
+       -105.003722,
+       38.72939
+      ],
+      [
+       -105.00368,
+       38.729682
+      ],
+      [
+       -105.003827,
+       38.730275
+      ],
+      [
+       -105.004187,
+       38.730919
+      ],
+      [
+       -105.004602,
+       38.731367
+      ],
+      [
+       -105.004696,
+       38.731601
+      ],
+      [
+       -105.004683,
+       38.731941
+      ],
+      [
+       -105.004524,
+       38.732184
+      ],
+      [
+       -105.004207,
+       38.732438
+      ],
+      [
+       -105.003923,
+       38.732535
+      ],
+      [
+       -105.00364,
+       38.732579
+      ],
+      [
+       -105.002808,
+       38.732411
+      ],
+      [
+       -105.002112,
+       38.732452
+      ],
+      [
+       -105.001597,
+       38.732753
+      ],
+      [
+       -105.00116,
+       38.733335
+      ],
+      [
+       -105.000662,
+       38.73363
+      ],
+      [
+       -105.00019,
+       38.73375
+      ],
+      [
+       -104.999921,
+       38.73374
+      ],
+      [
+       -104.999587,
+       38.733657
+      ],
+      [
+       -104.999194,
+       38.733492
+      ],
+      [
+       -104.998823,
+       38.733409
+      ],
+      [
+       -104.998384,
+       38.733421
+      ],
+      [
+       -104.998088,
+       38.73347
+      ],
+      [
+       -104.997696,
+       38.733668
+      ],
+      [
+       -104.997006,
+       38.734212
+      ],
+      [
+       -104.996576,
+       38.734326
+      ],
+      [
+       -104.996188,
+       38.734285
+      ],
+      [
+       -104.994971,
+       38.733965
+      ],
+      [
+       -104.994268,
+       38.734045
+      ],
+      [
+       -104.993787,
+       38.734278
+      ],
+      [
+       -104.993452,
+       38.734645
+      ],
+      [
+       -104.99337,
+       38.735012
+      ],
+      [
+       -104.993317,
+       38.735446
+      ],
+      [
+       -104.993203,
+       38.735712
+      ],
+      [
+       -104.992765,
+       38.73608
+      ],
+      [
+       -104.992379,
+       38.736227
+      ],
+      [
+       -104.992165,
+       38.736308
+      ],
+      [
+       -104.991512,
+       38.736335
+      ],
+      [
+       -104.990581,
+       38.735843
+      ],
+      [
+       -104.990083,
+       38.735752
+      ],
+      [
+       -104.988804,
+       38.735776
+      ],
+      [
+       -104.988143,
+       38.735524
+      ],
+      [
+       -104.987912,
+       38.735344
+      ],
+      [
+       -104.987573,
+       38.734547
+      ],
+      [
+       -104.987132,
+       38.73409
+      ],
+      [
+       -104.985607,
+       38.732813
+      ],
+      [
+       -104.984532,
+       38.731876
+      ],
+      [
+       -104.984293,
+       38.73163
+      ],
+      [
+       -104.984031,
+       38.731474
+      ],
+      [
+       -104.983595,
+       38.731356
+      ],
+      [
+       -104.983127,
+       38.73138
+      ],
+      [
+       -104.981202,
+       38.731879
+      ],
+      [
+       -104.979839,
+       38.732003
+      ],
+      [
+       -104.979196,
+       38.731936
+      ],
+      [
+       -104.978243,
+       38.731715
+      ],
+      [
+       -104.977299,
+       38.731246
+      ],
+      [
+       -104.975963,
+       38.729983
+      ],
+      [
+       -104.975422,
+       38.729616
+      ],
+      [
+       -104.974983,
+       38.729418
+      ],
+      [
+       -104.974157,
+       38.729297
+      ],
+      [
+       -104.972629,
+       38.729411
+      ],
+      [
+       -104.970856,
+       38.72955
+      ],
+      [
+       -104.970511,
+       38.729676
+      ],
+      [
+       -104.970319,
+       38.729847
+      ],
+      [
+       -104.969735,
+       38.73058
+      ],
+      [
+       -104.969472,
+       38.730786
+      ],
+      [
+       -104.969222,
+       38.730877
+      ],
+      [
+       -104.969004,
+       38.730925
+      ],
+      [
+       -104.968331,
+       38.730894
+      ],
+      [
+       -104.96792,
+       38.730659
+      ],
+      [
+       -104.967489,
+       38.730306
+      ],
+      [
+       -104.966644,
+       38.729963
+      ],
+      [
+       -104.966345,
+       38.729909
+      ],
+      [
+       -104.966115,
+       38.729976
+      ],
+      [
+       -104.965201,
+       38.730325
+      ],
+      [
+       -104.963634,
+       38.731065
+      ],
+      [
+       -104.963347,
+       38.731346
+      ],
+      [
+       -104.962719,
+       38.73211
+      ],
+      [
+       -104.962244,
+       38.732906
+      ],
+      [
+       -104.962168,
+       38.733275
+      ],
+      [
+       -104.96237,
+       38.734035
+      ],
+      [
+       -104.962356,
+       38.734566
+      ],
+      [
+       -104.962144,
+       38.734995
+      ],
+      [
+       -104.961584,
+       38.735467
+      ],
+      [
+       -104.960709,
+       38.736342
+      ],
+      [
+       -104.959466,
+       38.738086
+      ],
+      [
+       -104.958835,
+       38.738916
+      ],
+      [
+       -104.958138,
+       38.739399
+      ],
+      [
+       -104.957214,
+       38.739876
+      ],
+      [
+       -104.956628,
+       38.740217
+      ],
+      [
+       -104.95627,
+       38.7406
+      ],
+      [
+       -104.956032,
+       38.740739
+      ],
+      [
+       -104.955794,
+       38.740815
+      ],
+      [
+       -104.955388,
+       38.740998
+      ],
+      [
+       -104.954983,
+       38.741083
+      ],
+      [
+       -104.954324,
+       38.741026
+      ],
+      [
+       -104.953742,
+       38.740765
+      ],
+      [
+       -104.953446,
+       38.740546
+      ],
+      [
+       -104.953252,
+       38.740119
+      ],
+      [
+       -104.953155,
+       38.739722
+      ],
+      [
+       -104.953053,
+       38.739327
+      ],
+      [
+       -104.952889,
+       38.738926
+      ],
+      [
+       -104.952429,
+       38.738489
+      ],
+      [
+       -104.951785,
+       38.738157
+      ],
+      [
+       -104.951217,
+       38.737705
+      ],
+      [
+       -104.950784,
+       38.736991
+      ],
+      [
+       -104.950498,
+       38.736481
+      ],
+      [
+       -104.949807,
+       38.735337
+      ],
+      [
+       -104.949506,
+       38.735009
+      ],
+      [
+       -104.949301,
+       38.734883
+      ],
+      [
+       -104.949,
+       38.734746
+      ],
+      [
+       -104.948553,
+       38.734687
+      ],
+      [
+       -104.947953,
+       38.734696
+      ],
+      [
+       -104.947636,
+       38.734673
+      ],
+      [
+       -104.947372,
+       38.734585
+      ],
+      [
+       -104.947111,
+       38.734382
+      ],
+      [
+       -104.946837,
+       38.73406
+      ],
+      [
+       -104.94679,
+       38.733541
+      ],
+      [
+       -104.947163,
+       38.733136
+      ],
+      [
+       -104.947764,
+       38.732801
+      ],
+      [
+       -104.949607,
+       38.732883
+      ],
+      [
+       -104.950141,
+       38.732754
+      ],
+      [
+       -104.950759,
+       38.732392
+      ],
+      [
+       -104.951052,
+       38.732132
+      ],
+      [
+       -104.951197,
+       38.731897
+      ],
+      [
+       -104.951206,
+       38.731395
+      ],
+      [
+       -104.951034,
+       38.731026
+      ],
+      [
+       -104.950622,
+       38.730698
+      ],
+      [
+       -104.949683,
+       38.73003
+      ],
+      [
+       -104.948665,
+       38.729426
+      ],
+      [
+       -104.948127,
+       38.729293
+      ],
+      [
+       -104.947472,
+       38.729292
+      ],
+      [
+       -104.946837,
+       38.729351
+      ],
+      [
+       -104.946328,
+       38.729554
+      ],
+      [
+       -104.945726,
+       38.72996
+      ],
+      [
+       -104.944951,
+       38.731106
+      ],
+      [
+       -104.94458,
+       38.731534
+      ],
+      [
+       -104.94439,
+       38.731749
+      ],
+      [
+       -104.943989,
+       38.731889
+      ],
+      [
+       -104.943478,
+       38.732084
+      ],
+      [
+       -104.942915,
+       38.732235
+      ],
+      [
+       -104.941799,
+       38.7325
+      ],
+      [
+       -104.941365,
+       38.7327
+      ],
+      [
+       -104.941043,
+       38.732968
+      ],
+      [
+       -104.940528,
+       38.733571
+      ],
+      [
+       -104.940391,
+       38.733852
+      ],
+      [
+       -104.940275,
+       38.734226
+      ],
+      [
+       -104.940365,
+       38.735627
+      ],
+      [
+       -104.940329,
+       38.735914
+      ],
+      [
+       -104.940212,
+       38.736254
+      ],
+      [
+       -104.940063,
+       38.736503
+      ],
+      [
+       -104.939807,
+       38.736717
+      ],
+      [
+       -104.939479,
+       38.736935
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 463192126, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 463192126,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 463192126,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.91288,
+       38.742396
+      ],
+      [
+       -104.912749,
+       38.742383
+      ],
+      [
+       -104.912687,
+       38.742159
+      ],
+      [
+       -104.912566,
+       38.741512
+      ],
+      [
+       -104.912363,
+       38.739899
+      ],
+      [
+       -104.912358,
+       38.739572
+      ],
+      [
+       -104.912219,
+       38.739442
+      ],
+      [
+       -104.912022,
+       38.739286
+      ],
+      [
+       -104.911669,
+       38.739063
+      ],
+      [
+       -104.910356,
+       38.738878
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 7672941, tagged as an abandoned railway of this company (now Saint Petes Shooting Range Road).",
+    "local": {
+     "osm_way": 7672941,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 7672941,
+      "name": "Saint Petes Shooting Range Road",
+      "railway": "abandoned",
+      "highway": "track"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.904361,
+       38.739654
+      ],
+      [
+       -104.904571,
+       38.739643
+      ],
+      [
+       -104.904805,
+       38.739587
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568841, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99568841,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568841,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.940983,
+       38.737139
+      ],
+      [
+       -104.940608,
+       38.736932
+      ],
+      [
+       -104.940197,
+       38.736868
+      ],
+      [
+       -104.939823,
+       38.736868
+      ],
+      [
+       -104.939479,
+       38.736935
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568850, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99568850,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568850,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.903696,
+       38.739527
+      ],
+      [
+       -104.904021,
+       38.739613
+      ],
+      [
+       -104.904361,
+       38.739654
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568970, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99568970,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99568970,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.902381,
+       38.741977
+      ],
+      [
+       -104.902877,
+       38.742081
+      ],
+      [
+       -104.903176,
+       38.742109
+      ],
+      [
+       -104.903598,
+       38.742081
+      ],
+      [
+       -104.904202,
+       38.741974
+      ],
+      [
+       -104.90457,
+       38.741882
+      ],
+      [
+       -104.9049,
+       38.741869
+      ],
+      [
+       -104.905101,
+       38.741825
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568982, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99568982,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568982,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.902381,
+       38.741977
+      ],
+      [
+       -104.902031,
+       38.741744
+      ],
+      [
+       -104.901822,
+       38.741592
+      ],
+      [
+       -104.901662,
+       38.741448
+      ],
+      [
+       -104.901459,
+       38.741227
+      ],
+      [
+       -104.901378,
+       38.741006
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569006, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569006,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569006,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.905993,
+       38.74291
+      ],
+      [
+       -104.906347,
+       38.743362
+      ],
+      [
+       -104.90652,
+       38.743466
+      ],
+      [
+       -104.907053,
+       38.743661
+      ],
+      [
+       -104.907285,
+       38.743796
+      ],
+      [
+       -104.907473,
+       38.744014
+      ],
+      [
+       -104.907604,
+       38.744254
+      ],
+      [
+       -104.907649,
+       38.744478
+      ],
+      [
+       -104.907613,
+       38.744651
+      ],
+      [
+       -104.907436,
+       38.744979
+      ],
+      [
+       -104.907134,
+       38.745254
+      ],
+      [
+       -104.906562,
+       38.745748
+      ],
+      [
+       -104.906301,
+       38.746086
+      ],
+      [
+       -104.905726,
+       38.747419
+      ],
+      [
+       -104.905471,
+       38.74794
+      ],
+      [
+       -104.905293,
+       38.748104
+      ],
+      [
+       -104.905056,
+       38.748242
+      ],
+      [
+       -104.904573,
+       38.748399
+      ],
+      [
+       -104.902105,
+       38.74854
+      ],
+      [
+       -104.900391,
+       38.748729
+      ],
+      [
+       -104.899906,
+       38.748876
+      ],
+      [
+       -104.899503,
+       38.749235
+      ],
+      [
+       -104.899273,
+       38.749997
+      ],
+      [
+       -104.899118,
+       38.750864
+      ],
+      [
+       -104.898983,
+       38.751388
+      ],
+      [
+       -104.899118,
+       38.751929
+      ],
+      [
+       -104.8995,
+       38.752272
+      ],
+      [
+       -104.900002,
+       38.752443
+      ],
+      [
+       -104.900547,
+       38.752454
+      ],
+      [
+       -104.90134,
+       38.752194
+      ],
+      [
+       -104.90236,
+       38.751802
+      ],
+      [
+       -104.90289,
+       38.751515
+      ],
+      [
+       -104.904002,
+       38.750759
+      ],
+      [
+       -104.90466,
+       38.750571
+      ],
+      [
+       -104.905254,
+       38.750638
+      ],
+      [
+       -104.905708,
+       38.75093
+      ],
+      [
+       -104.906274,
+       38.752128
+      ],
+      [
+       -104.906612,
+       38.752572
+      ],
+      [
+       -104.906926,
+       38.75273
+      ],
+      [
+       -104.907227,
+       38.752821
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569063, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569063,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569063,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.910847,
+       38.737228
+      ],
+      [
+       -104.910518,
+       38.73702
+      ],
+      [
+       -104.910351,
+       38.736877
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569073, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569073,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569073,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.909679,
+       38.736345
+      ],
+      [
+       -104.909225,
+       38.736077
+      ],
+      [
+       -104.908758,
+       38.735895
+      ],
+      [
+       -104.908241,
+       38.735809
+      ],
+      [
+       -104.907834,
+       38.735815
+      ],
+      [
+       -104.907487,
+       38.735872
+      ],
+      [
+       -104.907221,
+       38.736005
+      ],
+      [
+       -104.906593,
+       38.736414
+      ],
+      [
+       -104.906097,
+       38.736651
+      ],
+      [
+       -104.904339,
+       38.737215
+      ],
+      [
+       -104.903622,
+       38.737521
+      ],
+      [
+       -104.903407,
+       38.737705
+      ],
+      [
+       -104.903282,
+       38.738017
+      ],
+      [
+       -104.903164,
+       38.73853
+      ],
+      [
+       -104.9032,
+       38.738801
+      ],
+      [
+       -104.903304,
+       38.739123
+      ],
+      [
+       -104.903489,
+       38.739389
+      ],
+      [
+       -104.903696,
+       38.739527
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569108, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569108,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569108,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.905101,
+       38.741825
+      ],
+      [
+       -104.905273,
+       38.741883
+      ],
+      [
+       -104.905571,
+       38.742068
+      ],
+      [
+       -104.905737,
+       38.7423
+      ],
+      [
+       -104.905993,
+       38.74291
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569117, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569117,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569117,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.941302,
+       38.737381
+      ],
+      [
+       -104.940983,
+       38.737139
+      ],
+      [
+       -104.940654,
+       38.736776
+      ],
+      [
+       -104.940426,
+       38.736306
+      ],
+      [
+       -104.940329,
+       38.735914
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569118, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569118,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569118,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.910351,
+       38.736877
+      ],
+      [
+       -104.909679,
+       38.736345
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569148, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569148,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99569148,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.910847,
+       38.737228
+      ],
+      [
+       -104.910871,
+       38.737088
+      ],
+      [
+       -104.911298,
+       38.73681
+      ],
+      [
+       -104.911507,
+       38.736634
+      ],
+      [
+       -104.911572,
+       38.736475
+      ],
+      [
+       -104.91158,
+       38.73634
+      ],
+      [
+       -104.911483,
+       38.736106
+      ],
+      [
+       -104.911292,
+       38.735747
+      ],
+      [
+       -104.911131,
+       38.735523
+      ],
+      [
+       -104.910998,
+       38.735448
+      ],
+      [
+       -104.91088,
+       38.735434
+      ],
+      [
+       -104.910211,
+       38.735484
+      ],
+      [
+       -104.909432,
+       38.735494
+      ],
+      [
+       -104.908499,
+       38.735303
+      ],
+      [
+       -104.908271,
+       38.735226
+      ],
+      [
+       -104.907854,
+       38.735212
+      ],
+      [
+       -104.907496,
+       38.735232
+      ],
+      [
+       -104.907237,
+       38.73529
+      ],
+      [
+       -104.906881,
+       38.73539
+      ],
+      [
+       -104.904967,
+       38.736074
+      ],
+      [
+       -104.904331,
+       38.736126
+      ],
+      [
+       -104.903485,
+       38.73633
+      ],
+      [
+       -104.903076,
+       38.736441
+      ],
+      [
+       -104.902632,
+       38.736629
+      ],
+      [
+       -104.902316,
+       38.736876
+      ],
+      [
+       -104.901972,
+       38.737595
+      ],
+      [
+       -104.901932,
+       38.737936
+      ],
+      [
+       -104.901793,
+       38.73833
+      ],
+      [
+       -104.901735,
+       38.738715
+      ],
+      [
+       -104.901584,
+       38.739301
+      ],
+      [
+       -104.901365,
+       38.74012
+      ],
+      [
+       -104.901392,
+       38.740696
+      ],
+      [
+       -104.901378,
+       38.741006
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569157, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99569157,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569157,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.938286,
+       38.730463
+      ],
+      [
+       -104.937651,
+       38.730262
+      ],
+      [
+       -104.93727,
+       38.730228
+      ],
+      [
+       -104.936762,
+       38.730312
+      ],
+      [
+       -104.936193,
+       38.730552
+      ],
+      [
+       -104.935642,
+       38.730983
+      ],
+      [
+       -104.934935,
+       38.731618
+      ],
+      [
+       -104.934554,
+       38.731867
+      ],
+      [
+       -104.934152,
+       38.732048
+      ],
+      [
+       -104.933551,
+       38.73251
+      ],
+      [
+       -104.933235,
+       38.732734
+      ],
+      [
+       -104.932885,
+       38.732852
+      ],
+      [
+       -104.932044,
+       38.733018
+      ],
+      [
+       -104.931693,
+       38.733092
+      ],
+      [
+       -104.93139,
+       38.733236
+      ],
+      [
+       -104.930939,
+       38.73361
+      ],
+      [
+       -104.930729,
+       38.733737
+      ],
+      [
+       -104.930478,
+       38.733854
+      ],
+      [
+       -104.929823,
+       38.733872
+      ],
+      [
+       -104.92919,
+       38.733721
+      ],
+      [
+       -104.928218,
+       38.733396
+      ],
+      [
+       -104.927644,
+       38.733229
+      ],
+      [
+       -104.926957,
+       38.733148
+      ],
+      [
+       -104.926227,
+       38.733221
+      ],
+      [
+       -104.925462,
+       38.733469
+      ],
+      [
+       -104.925017,
+       38.733757
+      ],
+      [
+       -104.924579,
+       38.734413
+      ],
+      [
+       -104.923592,
+       38.736127
+      ],
+      [
+       -104.923372,
+       38.73635
+      ],
+      [
+       -104.923125,
+       38.736471
+      ],
+      [
+       -104.922864,
+       38.73655
+      ],
+      [
+       -104.922519,
+       38.736589
+      ],
+      [
+       -104.920846,
+       38.73675
+      ],
+      [
+       -104.920317,
+       38.736835
+      ],
+      [
+       -104.920005,
+       38.736924
+      ],
+      [
+       -104.919484,
+       38.737185
+      ],
+      [
+       -104.919094,
+       38.737479
+      ],
+      [
+       -104.918943,
+       38.73773
+      ],
+      [
+       -104.918792,
+       38.738135
+      ],
+      [
+       -104.918485,
+       38.739388
+      ],
+      [
+       -104.918193,
+       38.740282
+      ],
+      [
+       -104.917903,
+       38.740809
+      ],
+      [
+       -104.917783,
+       38.741222
+      ],
+      [
+       -104.917743,
+       38.741537
+      ],
+      [
+       -104.917589,
+       38.741886
+      ],
+      [
+       -104.917464,
+       38.742045
+      ],
+      [
+       -104.917258,
+       38.742293
+      ],
+      [
+       -104.917083,
+       38.742416
+      ],
+      [
+       -104.916857,
+       38.742514
+      ],
+      [
+       -104.915478,
+       38.74255
+      ],
+      [
+       -104.914945,
+       38.742652
+      ],
+      [
+       -104.913813,
+       38.742852
+      ],
+      [
+       -104.913502,
+       38.742813
+      ],
+      [
+       -104.913152,
+       38.742694
+      ],
+      [
+       -104.91288,
+       38.742396
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 425743429, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 425743429,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 425743429,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.939479,
+       38.736935
+      ],
+      [
+       -104.939039,
+       38.737035
+      ],
+      [
+       -104.93743,
+       38.737203
+      ],
+      [
+       -104.936827,
+       38.737078
+      ],
+      [
+       -104.936507,
+       38.736876
+      ],
+      [
+       -104.936287,
+       38.736569
+      ],
+      [
+       -104.935788,
+       38.734842
+      ],
+      [
+       -104.935836,
+       38.734247
+      ],
+      [
+       -104.936069,
+       38.73395
+      ],
+      [
+       -104.936391,
+       38.733767
+      ],
+      [
+       -104.936654,
+       38.73359
+      ],
+      [
+       -104.937673,
+       38.733046
+      ],
+      [
+       -104.938237,
+       38.732672
+      ],
+      [
+       -104.938476,
+       38.732399
+      ],
+      [
+       -104.938581,
+       38.732254
+      ],
+      [
+       -104.938782,
+       38.731948
+      ],
+      [
+       -104.938823,
+       38.731713
+      ],
+      [
+       -104.938822,
+       38.731507
+      ],
+      [
+       -104.938784,
+       38.731159
+      ],
+      [
+       -104.93875,
+       38.730995
+      ],
+      [
+       -104.938645,
+       38.730736
+      ],
+      [
+       -104.938479,
+       38.730559
+      ],
+      [
+       -104.938286,
+       38.730463
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 448361329, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 448361329,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 448361329,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.910356,
+       38.738878
+      ],
+      [
+       -104.909006,
+       38.738641
+      ],
+      [
+       -104.908543,
+       38.738714
+      ],
+      [
+       -104.908025,
+       38.738914
+      ],
+      [
+       -104.907155,
+       38.73887
+      ],
+      [
+       -104.906341,
+       38.738703
+      ],
+      [
+       -104.906073,
+       38.738712
+      ],
+      [
+       -104.905806,
+       38.738857
+      ],
+      [
+       -104.905106,
+       38.739407
+      ],
+      [
+       -104.904805,
+       38.739587
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 982255721, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 982255721,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 982255721,
+      "name": "",
+      "railway": "abandoned",
+      "highway": "track"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.903741,
+       38.790292
+      ],
+      [
+       -104.903924,
+       38.790515
+      ],
+      [
+       -104.904014,
+       38.790653
+      ],
+      [
+       -104.904204,
+       38.790849
+      ],
+      [
+       -104.904286,
+       38.790932
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 7681022, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 7681022,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 7681022,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.908114,
+       38.752833
+      ],
+      [
+       -104.908281,
+       38.752804
+      ],
+      [
+       -104.908592,
+       38.752699
+      ],
+      [
+       -104.909052,
+       38.75249
+      ],
+      [
+       -104.909694,
+       38.752219
+      ],
+      [
+       -104.910142,
+       38.752139
+      ],
+      [
+       -104.911074,
+       38.752213
+      ],
+      [
+       -104.911531,
+       38.752181
+      ],
+      [
+       -104.911945,
+       38.752055
+      ],
+      [
+       -104.912377,
+       38.751931
+      ],
+      [
+       -104.912673,
+       38.751767
+      ],
+      [
+       -104.913224,
+       38.751476
+      ],
+      [
+       -104.913476,
+       38.751287
+      ],
+      [
+       -104.914298,
+       38.750872
+      ],
+      [
+       -104.914578,
+       38.750853
+      ],
+      [
+       -104.915074,
+       38.750915
+      ],
+      [
+       -104.915538,
+       38.751092
+      ],
+      [
+       -104.915644,
+       38.751145
+      ],
+      [
+       -104.91637,
+       38.751517
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568864, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99568864,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568864,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.903741,
+       38.790292
+      ],
+      [
+       -104.903689,
+       38.790287
+      ],
+      [
+       -104.903657,
+       38.790279
+      ],
+      [
+       -104.903615,
+       38.790267
+      ],
+      [
+       -104.903517,
+       38.79024
+      ],
+      [
+       -104.903404,
+       38.790207
+      ],
+      [
+       -104.903093,
+       38.790136
+      ],
+      [
+       -104.902861,
+       38.790093
+      ],
+      [
+       -104.902731,
+       38.790081
+      ],
+      [
+       -104.90258,
+       38.790076
+      ],
+      [
+       -104.902426,
+       38.790085
+      ],
+      [
+       -104.90224,
+       38.790101
+      ],
+      [
+       -104.902049,
+       38.790134
+      ],
+      [
+       -104.901904,
+       38.790155
+      ],
+      [
+       -104.901726,
+       38.790189
+      ],
+      [
+       -104.901467,
+       38.790247
+      ],
+      [
+       -104.901374,
+       38.790254
+      ],
+      [
+       -104.90129,
+       38.790249
+      ],
+      [
+       -104.901202,
+       38.790239
+      ],
+      [
+       -104.901102,
+       38.790219
+      ],
+      [
+       -104.900995,
+       38.790182
+      ],
+      [
+       -104.900873,
+       38.790129
+      ],
+      [
+       -104.900674,
+       38.790032
+      ],
+      [
+       -104.900503,
+       38.789966
+      ],
+      [
+       -104.900317,
+       38.789898
+      ],
+      [
+       -104.900093,
+       38.789828
+      ],
+      [
+       -104.899991,
+       38.789806
+      ],
+      [
+       -104.899866,
+       38.789802
+      ],
+      [
+       -104.899505,
+       38.78982
+      ],
+      [
+       -104.899333,
+       38.789834
+      ],
+      [
+       -104.899169,
+       38.789859
+      ],
+      [
+       -104.898976,
+       38.789901
+      ],
+      [
+       -104.898871,
+       38.789941
+      ],
+      [
+       -104.898751,
+       38.789999
+      ],
+      [
+       -104.898666,
+       38.790055
+      ],
+      [
+       -104.898574,
+       38.790118
+      ],
+      [
+       -104.898506,
+       38.790175
+      ],
+      [
+       -104.898451,
+       38.790238
+      ],
+      [
+       -104.898388,
+       38.790349
+      ],
+      [
+       -104.898333,
+       38.790451
+      ],
+      [
+       -104.898272,
+       38.79055
+      ],
+      [
+       -104.898233,
+       38.790641
+      ],
+      [
+       -104.898181,
+       38.790805
+      ],
+      [
+       -104.898118,
+       38.790921
+      ],
+      [
+       -104.898047,
+       38.791009
+      ],
+      [
+       -104.897962,
+       38.791095
+      ],
+      [
+       -104.897842,
+       38.79119
+      ],
+      [
+       -104.897699,
+       38.791278
+      ],
+      [
+       -104.897525,
+       38.791384
+      ],
+      [
+       -104.897306,
+       38.791503
+      ],
+      [
+       -104.897198,
+       38.791601
+      ],
+      [
+       -104.897117,
+       38.791662
+      ],
+      [
+       -104.897054,
+       38.791746
+      ],
+      [
+       -104.896989,
+       38.791865
+      ],
+      [
+       -104.896956,
+       38.791973
+      ],
+      [
+       -104.896946,
+       38.792069
+      ],
+      [
+       -104.896953,
+       38.792187
+      ],
+      [
+       -104.896986,
+       38.792372
+      ],
+      [
+       -104.897019,
+       38.792488
+      ],
+      [
+       -104.897059,
+       38.792592
+      ],
+      [
+       -104.897116,
+       38.792675
+      ],
+      [
+       -104.897191,
+       38.792749
+      ],
+      [
+       -104.897284,
+       38.792829
+      ],
+      [
+       -104.89738,
+       38.792889
+      ],
+      [
+       -104.897479,
+       38.792958
+      ],
+      [
+       -104.897897,
+       38.793233
+      ],
+      [
+       -104.898004,
+       38.793319
+      ],
+      [
+       -104.898107,
+       38.793428
+      ],
+      [
+       -104.898179,
+       38.793531
+      ],
+      [
+       -104.898217,
+       38.793596
+      ],
+      [
+       -104.898238,
+       38.793681
+      ],
+      [
+       -104.898267,
+       38.793807
+      ],
+      [
+       -104.898275,
+       38.79396
+      ],
+      [
+       -104.898273,
+       38.794035
+      ],
+      [
+       -104.898258,
+       38.794112
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568871, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99568871,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568871,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.905859,
+       38.785812
+      ],
+      [
+       -104.905342,
+       38.785607
+      ],
+      [
+       -104.904258,
+       38.785426
+      ],
+      [
+       -104.902878,
+       38.784582
+      ],
+      [
+       -104.902273,
+       38.784625
+      ],
+      [
+       -104.901482,
+       38.784317
+      ],
+      [
+       -104.901025,
+       38.7841
+      ],
+      [
+       -104.900767,
+       38.784034
+      ],
+      [
+       -104.899315,
+       38.784015
+      ],
+      [
+       -104.898718,
+       38.783827
+      ],
+      [
+       -104.898304,
+       38.783553
+      ],
+      [
+       -104.898121,
+       38.7833
+      ],
+      [
+       -104.898079,
+       38.783129
+      ],
+      [
+       -104.898089,
+       38.783043
+      ],
+      [
+       -104.898101,
+       38.782938
+      ],
+      [
+       -104.898112,
+       38.782906
+      ],
+      [
+       -104.898184,
+       38.782689
+      ],
+      [
+       -104.898631,
+       38.782221
+      ],
+      [
+       -104.899204,
+       38.781915
+      ],
+      [
+       -104.899469,
+       38.781348
+      ],
+      [
+       -104.899313,
+       38.780293
+      ],
+      [
+       -104.899537,
+       38.779733
+      ],
+      [
+       -104.899997,
+       38.779345
+      ],
+      [
+       -104.900606,
+       38.779091
+      ],
+      [
+       -104.901025,
+       38.778837
+      ],
+      [
+       -104.901208,
+       38.778654
+      ],
+      [
+       -104.901363,
+       38.778391
+      ],
+      [
+       -104.90131,
+       38.777852
+      ],
+      [
+       -104.901159,
+       38.777335
+      ],
+      [
+       -104.901151,
+       38.776778
+      ],
+      [
+       -104.901541,
+       38.775916
+      ],
+      [
+       -104.901859,
+       38.775539
+      ],
+      [
+       -104.902119,
+       38.775317
+      ],
+      [
+       -104.902433,
+       38.775173
+      ],
+      [
+       -104.902818,
+       38.775092
+      ],
+      [
+       -104.903273,
+       38.77505
+      ],
+      [
+       -104.903809,
+       38.774885
+      ],
+      [
+       -104.904113,
+       38.774645
+      ],
+      [
+       -104.904351,
+       38.774169
+      ],
+      [
+       -104.904692,
+       38.773995
+      ],
+      [
+       -104.905009,
+       38.773845
+      ],
+      [
+       -104.905409,
+       38.773781
+      ],
+      [
+       -104.906145,
+       38.773893
+      ],
+      [
+       -104.906705,
+       38.774021
+      ],
+      [
+       -104.907297,
+       38.773925
+      ],
+      [
+       -104.907761,
+       38.773589
+      ],
+      [
+       -104.907811,
+       38.773504
+      ],
+      [
+       -104.908015,
+       38.773159
+      ],
+      [
+       -104.908079,
+       38.772946
+      ],
+      [
+       -104.907977,
+       38.771897
+      ],
+      [
+       -104.907875,
+       38.770185
+      ],
+      [
+       -104.907835,
+       38.769827
+      ],
+      [
+       -104.907989,
+       38.76937
+      ],
+      [
+       -104.908027,
+       38.769337
+      ],
+      [
+       -104.908412,
+       38.768993
+      ],
+      [
+       -104.90918,
+       38.768201
+      ],
+      [
+       -104.909802,
+       38.767836
+      ],
+      [
+       -104.910225,
+       38.767564
+      ],
+      [
+       -104.910603,
+       38.767266
+      ],
+      [
+       -104.910736,
+       38.767013
+      ],
+      [
+       -104.910815,
+       38.766686
+      ],
+      [
+       -104.91075,
+       38.766388
+      ],
+      [
+       -104.910205,
+       38.765782
+      ],
+      [
+       -104.909774,
+       38.76543
+      ],
+      [
+       -104.909259,
+       38.765071
+      ],
+      [
+       -104.908834,
+       38.764591
+      ],
+      [
+       -104.908726,
+       38.764346
+      ],
+      [
+       -104.908688,
+       38.763909
+      ],
+      [
+       -104.908774,
+       38.763598
+      ],
+      [
+       -104.908957,
+       38.763284
+      ],
+      [
+       -104.909274,
+       38.762898
+      ],
+      [
+       -104.909575,
+       38.762815
+      ],
+      [
+       -104.910022,
+       38.762619
+      ],
+      [
+       -104.910311,
+       38.762587
+      ],
+      [
+       -104.911019,
+       38.762598
+      ],
+      [
+       -104.911263,
+       38.762553
+      ],
+      [
+       -104.911727,
+       38.762424
+      ],
+      [
+       -104.91224,
+       38.762035
+      ],
+      [
+       -104.912753,
+       38.761742
+      ],
+      [
+       -104.913326,
+       38.76164
+      ],
+      [
+       -104.914247,
+       38.76159
+      ],
+      [
+       -104.914832,
+       38.761477
+      ],
+      [
+       -104.915121,
+       38.761074
+      ],
+      [
+       -104.91528,
+       38.760652
+      ],
+      [
+       -104.915174,
+       38.760271
+      ],
+      [
+       -104.914901,
+       38.759813
+      ],
+      [
+       -104.914512,
+       38.759537
+      ],
+      [
+       -104.913999,
+       38.75938
+      ],
+      [
+       -104.913348,
+       38.759294
+      ],
+      [
+       -104.912817,
+       38.75919
+      ],
+      [
+       -104.912459,
+       38.759045
+      ],
+      [
+       -104.912162,
+       38.758679
+      ],
+      [
+       -104.911943,
+       38.758243
+      ],
+      [
+       -104.911886,
+       38.757967
+      ],
+      [
+       -104.911946,
+       38.757719
+      ],
+      [
+       -104.912181,
+       38.757389
+      ],
+      [
+       -104.912477,
+       38.757131
+      ],
+      [
+       -104.912781,
+       38.757031
+      ],
+      [
+       -104.913068,
+       38.757007
+      ],
+      [
+       -104.913819,
+       38.757125
+      ],
+      [
+       -104.91413,
+       38.757145
+      ],
+      [
+       -104.914477,
+       38.757098
+      ],
+      [
+       -104.914817,
+       38.756954
+      ],
+      [
+       -104.914951,
+       38.756838
+      ],
+      [
+       -104.915252,
+       38.75659
+      ],
+      [
+       -104.915534,
+       38.756233
+      ],
+      [
+       -104.91592,
+       38.755923
+      ],
+      [
+       -104.916903,
+       38.755205
+      ],
+      [
+       -104.917087,
+       38.754953
+      ],
+      [
+       -104.917152,
+       38.754578
+      ],
+      [
+       -104.917142,
+       38.754239
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568947, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99568947,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568947,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.907227,
+       38.752821
+      ],
+      [
+       -104.907447,
+       38.75285
+      ],
+      [
+       -104.907669,
+       38.752862
+      ],
+      [
+       -104.907893,
+       38.752856
+      ],
+      [
+       -104.908114,
+       38.752833
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569027, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99569027,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99569027,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.917085,
+       38.752784
+      ],
+      [
+       -104.91715,
+       38.752612
+      ],
+      [
+       -104.917003,
+       38.752262
+      ],
+      [
+       -104.916741,
+       38.7519
+      ],
+      [
+       -104.91637,
+       38.751517
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569113, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569113,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569113,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.907344,
+       38.786685
+      ],
+      [
+       -104.907151,
+       38.786572
+      ],
+      [
+       -104.906818,
+       38.786379
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569121, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99569121,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99569121,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.917142,
+       38.754239
+      ],
+      [
+       -104.917085,
+       38.752784
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569149, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99569149,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99569149,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.904286,
+       38.790932
+      ],
+      [
+       -104.904309,
+       38.790958
+      ],
+      [
+       -104.904363,
+       38.790999
+      ],
+      [
+       -104.904426,
+       38.791044
+      ],
+      [
+       -104.904579,
+       38.791113
+      ],
+      [
+       -104.904742,
+       38.791173
+      ],
+      [
+       -104.904879,
+       38.791202
+      ],
+      [
+       -104.905145,
+       38.791198
+      ],
+      [
+       -104.905606,
+       38.791163
+      ],
+      [
+       -104.905957,
+       38.791127
+      ],
+      [
+       -104.906515,
+       38.791033
+      ],
+      [
+       -104.907545,
+       38.790822
+      ],
+      [
+       -104.907837,
+       38.79073
+      ],
+      [
+       -104.908092,
+       38.790577
+      ],
+      [
+       -104.908414,
+       38.79036
+      ],
+      [
+       -104.908935,
+       38.789925
+      ],
+      [
+       -104.909138,
+       38.789727
+      ],
+      [
+       -104.909377,
+       38.789482
+      ],
+      [
+       -104.909562,
+       38.78929
+      ],
+      [
+       -104.909745,
+       38.789099
+      ],
+      [
+       -104.909943,
+       38.788955
+      ],
+      [
+       -104.910292,
+       38.788788
+      ],
+      [
+       -104.910735,
+       38.788568
+      ],
+      [
+       -104.911088,
+       38.788364
+      ],
+      [
+       -104.911453,
+       38.788188
+      ],
+      [
+       -104.911697,
+       38.788041
+      ],
+      [
+       -104.912019,
+       38.787864
+      ],
+      [
+       -104.912298,
+       38.787678
+      ],
+      [
+       -104.912537,
+       38.787502
+      ],
+      [
+       -104.912711,
+       38.787366
+      ],
+      [
+       -104.912909,
+       38.787138
+      ],
+      [
+       -104.913036,
+       38.787011
+      ],
+      [
+       -104.913145,
+       38.786912
+      ],
+      [
+       -104.913269,
+       38.786852
+      ],
+      [
+       -104.913395,
+       38.786812
+      ],
+      [
+       -104.913526,
+       38.786795
+      ],
+      [
+       -104.91376,
+       38.786806
+      ],
+      [
+       -104.913903,
+       38.7868
+      ],
+      [
+       -104.914057,
+       38.786793
+      ],
+      [
+       -104.914275,
+       38.786758
+      ],
+      [
+       -104.914452,
+       38.786697
+      ],
+      [
+       -104.914582,
+       38.786624
+      ],
+      [
+       -104.914597,
+       38.786524
+      ],
+      [
+       -104.914599,
+       38.786434
+      ],
+      [
+       -104.914535,
+       38.786338
+      ],
+      [
+       -104.914446,
+       38.786256
+      ],
+      [
+       -104.913982,
+       38.786094
+      ],
+      [
+       -104.913673,
+       38.786057
+      ],
+      [
+       -104.912534,
+       38.785634
+      ],
+      [
+       -104.912003,
+       38.785744
+      ],
+      [
+       -104.910988,
+       38.785939
+      ],
+      [
+       -104.910561,
+       38.786197
+      ],
+      [
+       -104.910083,
+       38.78643
+      ],
+      [
+       -104.909361,
+       38.786562
+      ],
+      [
+       -104.908667,
+       38.786744
+      ],
+      [
+       -104.907939,
+       38.786909
+      ],
+      [
+       -104.907657,
+       38.786856
+      ],
+      [
+       -104.907344,
+       38.786685
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 117082555, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 117082555,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 117082555,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "unclassified"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.897942,
+       38.794534
+      ],
+      [
+       -104.897899,
+       38.794575
+      ],
+      [
+       -104.897837,
+       38.794611
+      ],
+      [
+       -104.897631,
+       38.794691
+      ],
+      [
+       -104.897506,
+       38.794722
+      ],
+      [
+       -104.897385,
+       38.794742
+      ],
+      [
+       -104.897245,
+       38.794753
+      ],
+      [
+       -104.897082,
+       38.79475
+      ],
+      [
+       -104.896935,
+       38.794739
+      ],
+      [
+       -104.896781,
+       38.794715
+      ],
+      [
+       -104.896652,
+       38.794675
+      ],
+      [
+       -104.896544,
+       38.79463
+      ],
+      [
+       -104.896455,
+       38.794575
+      ],
+      [
+       -104.896375,
+       38.794498
+      ],
+      [
+       -104.896263,
+       38.794365
+      ],
+      [
+       -104.895971,
+       38.79392
+      ],
+      [
+       -104.895683,
+       38.793575
+      ],
+      [
+       -104.89533,
+       38.793244
+      ],
+      [
+       -104.895151,
+       38.793107
+      ],
+      [
+       -104.894967,
+       38.792997
+      ],
+      [
+       -104.894872,
+       38.792951
+      ],
+      [
+       -104.894758,
+       38.792925
+      ],
+      [
+       -104.894265,
+       38.79289
+      ],
+      [
+       -104.894161,
+       38.792908
+      ],
+      [
+       -104.894084,
+       38.792929
+      ],
+      [
+       -104.893999,
+       38.792962
+      ],
+      [
+       -104.893674,
+       38.793161
+      ],
+      [
+       -104.893542,
+       38.793241
+      ],
+      [
+       -104.893488,
+       38.793294
+      ],
+      [
+       -104.89344,
+       38.793362
+      ],
+      [
+       -104.893377,
+       38.793473
+      ],
+      [
+       -104.893289,
+       38.793595
+      ],
+      [
+       -104.893151,
+       38.793706
+      ],
+      [
+       -104.893083,
+       38.793758
+      ],
+      [
+       -104.892869,
+       38.793931
+      ],
+      [
+       -104.892605,
+       38.794132
+      ],
+      [
+       -104.892509,
+       38.794194
+      ],
+      [
+       -104.892417,
+       38.794235
+      ],
+      [
+       -104.892281,
+       38.794266
+      ],
+      [
+       -104.892166,
+       38.794283
+      ],
+      [
+       -104.892016,
+       38.79429
+      ],
+      [
+       -104.89184,
+       38.794287
+      ],
+      [
+       -104.891725,
+       38.794273
+      ],
+      [
+       -104.891618,
+       38.79425
+      ],
+      [
+       -104.891512,
+       38.794216
+      ],
+      [
+       -104.89134,
+       38.794168
+      ],
+      [
+       -104.891212,
+       38.794137
+      ],
+      [
+       -104.891084,
+       38.794119
+      ],
+      [
+       -104.890958,
+       38.794122
+      ],
+      [
+       -104.890785,
+       38.794143
+      ],
+      [
+       -104.89058,
+       38.794184
+      ],
+      [
+       -104.890434,
+       38.794224
+      ],
+      [
+       -104.890307,
+       38.794273
+      ],
+      [
+       -104.890192,
+       38.794342
+      ],
+      [
+       -104.890024,
+       38.794465
+      ],
+      [
+       -104.889795,
+       38.794615
+      ],
+      [
+       -104.889676,
+       38.794683
+      ],
+      [
+       -104.889555,
+       38.794749
+      ],
+      [
+       -104.889326,
+       38.794863
+      ],
+      [
+       -104.88905,
+       38.794985
+      ],
+      [
+       -104.888921,
+       38.795061
+      ],
+      [
+       -104.888762,
+       38.795162
+      ],
+      [
+       -104.888605,
+       38.795239
+      ],
+      [
+       -104.888466,
+       38.795331
+      ],
+      [
+       -104.888379,
+       38.795405
+      ],
+      [
+       -104.88831,
+       38.795489
+      ],
+      [
+       -104.888223,
+       38.795592
+      ],
+      [
+       -104.888178,
+       38.795687
+      ],
+      [
+       -104.888142,
+       38.795799
+      ],
+      [
+       -104.888124,
+       38.795899
+      ],
+      [
+       -104.888112,
+       38.796023
+      ],
+      [
+       -104.888111,
+       38.796041
+      ],
+      [
+       -104.888103,
+       38.796215
+      ],
+      [
+       -104.888088,
+       38.796353
+      ],
+      [
+       -104.888067,
+       38.796441
+      ],
+      [
+       -104.888037,
+       38.796533
+      ],
+      [
+       -104.887973,
+       38.7966
+      ],
+      [
+       -104.887898,
+       38.796693
+      ],
+      [
+       -104.887879,
+       38.796737
+      ],
+      [
+       -104.887771,
+       38.796821
+      ],
+      [
+       -104.887468,
+       38.797025
+      ],
+      [
+       -104.88712,
+       38.797242
+      ],
+      [
+       -104.887019,
+       38.797317
+      ],
+      [
+       -104.886896,
+       38.79742
+      ],
+      [
+       -104.886765,
+       38.797495
+      ],
+      [
+       -104.886571,
+       38.797592
+      ],
+      [
+       -104.885818,
+       38.79808
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568887, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99568887,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99568887,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.898258,
+       38.794112
+      ],
+      [
+       -104.898215,
+       38.794228
+      ],
+      [
+       -104.898148,
+       38.794342
+      ],
+      [
+       -104.898056,
+       38.794445
+      ],
+      [
+       -104.897942,
+       38.794534
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568977, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99568977,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 99568977,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.88495,
+       38.798636
+      ],
+      [
+       -104.88481,
+       38.798736
+      ],
+      [
+       -104.884671,
+       38.798816
+      ],
+      [
+       -104.884569,
+       38.798876
+      ],
+      [
+       -104.884475,
+       38.798928
+      ],
+      [
+       -104.884382,
+       38.798964
+      ],
+      [
+       -104.884277,
+       38.798989
+      ],
+      [
+       -104.88415,
+       38.799013
+      ],
+      [
+       -104.884024,
+       38.799018
+      ],
+      [
+       -104.883909,
+       38.799015
+      ],
+      [
+       -104.883781,
+       38.799
+      ],
+      [
+       -104.883668,
+       38.798983
+      ],
+      [
+       -104.883557,
+       38.798953
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 117996142, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 117996142,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 117996142,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.885818,
+       38.79808
+      ],
+      [
+       -104.88495,
+       38.798636
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 117996143, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 117996143,
+     "tunnel": true,
+     "viewer": {
+      "osm_id": 117996143,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.876075,
+       38.795934
+      ],
+      [
+       -104.876083,
+       38.795974
+      ],
+      [
+       -104.876076,
+       38.796016
+      ],
+      [
+       -104.876025,
+       38.796134
+      ],
+      [
+       -104.876012,
+       38.796186
+      ],
+      [
+       -104.876015,
+       38.79624
+      ],
+      [
+       -104.87603,
+       38.796278
+      ],
+      [
+       -104.876063,
+       38.796315
+      ],
+      [
+       -104.876254,
+       38.796458
+      ],
+      [
+       -104.876411,
+       38.796568
+      ],
+      [
+       -104.876524,
+       38.796657
+      ],
+      [
+       -104.876595,
+       38.796722
+      ],
+      [
+       -104.876652,
+       38.796804
+      ],
+      [
+       -104.876702,
+       38.796895
+      ],
+      [
+       -104.87674,
+       38.796987
+      ],
+      [
+       -104.876772,
+       38.797082
+      ],
+      [
+       -104.87679,
+       38.797172
+      ],
+      [
+       -104.876803,
+       38.797281
+      ],
+      [
+       -104.876808,
+       38.797351
+      ],
+      [
+       -104.876801,
+       38.797424
+      ],
+      [
+       -104.876773,
+       38.797502
+      ],
+      [
+       -104.87674,
+       38.79758
+      ],
+      [
+       -104.876673,
+       38.797682
+      ],
+      [
+       -104.876579,
+       38.797807
+      ],
+      [
+       -104.876417,
+       38.797982
+      ],
+      [
+       -104.876332,
+       38.798085
+      ],
+      [
+       -104.876289,
+       38.798177
+      ],
+      [
+       -104.876248,
+       38.798266
+      ],
+      [
+       -104.87621,
+       38.798355
+      ],
+      [
+       -104.876187,
+       38.798438
+      ],
+      [
+       -104.876179,
+       38.79854
+      ],
+      [
+       -104.876215,
+       38.798869
+      ],
+      [
+       -104.876228,
+       38.798956
+      ],
+      [
+       -104.876267,
+       38.799062
+      ],
+      [
+       -104.876349,
+       38.799214
+      ],
+      [
+       -104.876515,
+       38.799488
+      ],
+      [
+       -104.876582,
+       38.799599
+      ],
+      [
+       -104.876656,
+       38.799747
+      ],
+      [
+       -104.876703,
+       38.79986
+      ],
+      [
+       -104.876716,
+       38.799933
+      ],
+      [
+       -104.876718,
+       38.799958
+      ],
+      [
+       -104.876724,
+       38.800032
+      ],
+      [
+       -104.876726,
+       38.800121
+      ],
+      [
+       -104.87672,
+       38.800206
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 413446885, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 413446885,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 413446885,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.883557,
+       38.798953
+      ],
+      [
+       -104.883468,
+       38.798926
+      ],
+      [
+       -104.883391,
+       38.798892
+      ],
+      [
+       -104.883307,
+       38.798846
+      ],
+      [
+       -104.883204,
+       38.798785
+      ],
+      [
+       -104.883111,
+       38.798721
+      ],
+      [
+       -104.883015,
+       38.798657
+      ],
+      [
+       -104.882945,
+       38.798599
+      ],
+      [
+       -104.882854,
+       38.798514
+      ],
+      [
+       -104.882802,
+       38.798446
+      ],
+      [
+       -104.882758,
+       38.798389
+      ],
+      [
+       -104.882717,
+       38.798302
+      ],
+      [
+       -104.882645,
+       38.798075
+      ],
+      [
+       -104.882516,
+       38.797662
+      ],
+      [
+       -104.882435,
+       38.797466
+      ],
+      [
+       -104.882229,
+       38.797007
+      ],
+      [
+       -104.881956,
+       38.796227
+      ],
+      [
+       -104.881834,
+       38.795938
+      ],
+      [
+       -104.881727,
+       38.795774
+      ],
+      [
+       -104.881632,
+       38.79568
+      ],
+      [
+       -104.881495,
+       38.795567
+      ],
+      [
+       -104.881355,
+       38.795477
+      ],
+      [
+       -104.881224,
+       38.795408
+      ],
+      [
+       -104.881118,
+       38.795368
+      ],
+      [
+       -104.881013,
+       38.795346
+      ],
+      [
+       -104.880888,
+       38.795329
+      ],
+      [
+       -104.880736,
+       38.795324
+      ],
+      [
+       -104.880308,
+       38.795346
+      ],
+      [
+       -104.880015,
+       38.795357
+      ],
+      [
+       -104.879763,
+       38.795384
+      ],
+      [
+       -104.879227,
+       38.795422
+      ],
+      [
+       -104.879052,
+       38.795428
+      ],
+      [
+       -104.878941,
+       38.795421
+      ],
+      [
+       -104.878824,
+       38.7954
+      ],
+      [
+       -104.878719,
+       38.795373
+      ],
+      [
+       -104.878604,
+       38.795328
+      ],
+      [
+       -104.878247,
+       38.795116
+      ],
+      [
+       -104.878011,
+       38.794984
+      ],
+      [
+       -104.877718,
+       38.794846
+      ],
+      [
+       -104.877451,
+       38.794731
+      ],
+      [
+       -104.877195,
+       38.794654
+      ],
+      [
+       -104.877059,
+       38.794632
+      ],
+      [
+       -104.876932,
+       38.794631
+      ],
+      [
+       -104.876813,
+       38.794643
+      ],
+      [
+       -104.876683,
+       38.794665
+      ],
+      [
+       -104.876518,
+       38.794713
+      ],
+      [
+       -104.876334,
+       38.794773
+      ],
+      [
+       -104.876113,
+       38.794856
+      ],
+      [
+       -104.875878,
+       38.794962
+      ],
+      [
+       -104.875761,
+       38.795026
+      ],
+      [
+       -104.875687,
+       38.795083
+      ],
+      [
+       -104.875627,
+       38.795155
+      ],
+      [
+       -104.875589,
+       38.795235
+      ],
+      [
+       -104.87557,
+       38.795324
+      ],
+      [
+       -104.875555,
+       38.795422
+      ],
+      [
+       -104.875557,
+       38.795499
+      ],
+      [
+       -104.875573,
+       38.795555
+      ],
+      [
+       -104.875605,
+       38.795603
+      ],
+      [
+       -104.875651,
+       38.795651
+      ],
+      [
+       -104.87572,
+       38.795701
+      ],
+      [
+       -104.875786,
+       38.79574
+      ],
+      [
+       -104.876041,
+       38.795891
+      ],
+      [
+       -104.876075,
+       38.795934
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 437657133, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 437657133,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 437657133,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.890227,
+       38.822775
+      ],
+      [
+       -104.890064,
+       38.822999
+      ],
+      [
+       -104.889947,
+       38.823145
+      ],
+      [
+       -104.8899,
+       38.823202
+      ],
+      [
+       -104.889808,
+       38.823289
+      ],
+      [
+       -104.889679,
+       38.823396
+      ],
+      [
+       -104.889563,
+       38.823478
+      ],
+      [
+       -104.889415,
+       38.82357
+      ],
+      [
+       -104.889302,
+       38.823615
+      ],
+      [
+       -104.889197,
+       38.823647
+      ],
+      [
+       -104.889073,
+       38.823679
+      ],
+      [
+       -104.888953,
+       38.823701
+      ],
+      [
+       -104.888825,
+       38.823716
+      ],
+      [
+       -104.888686,
+       38.823727
+      ],
+      [
+       -104.888555,
+       38.823739
+      ],
+      [
+       -104.88843,
+       38.823756
+      ],
+      [
+       -104.888298,
+       38.823783
+      ],
+      [
+       -104.88818,
+       38.82381
+      ],
+      [
+       -104.888052,
+       38.823851
+      ],
+      [
+       -104.887948,
+       38.823902
+      ],
+      [
+       -104.887666,
+       38.824118
+      ],
+      [
+       -104.887538,
+       38.824191
+      ],
+      [
+       -104.887249,
+       38.824366
+      ],
+      [
+       -104.88695,
+       38.824565
+      ],
+      [
+       -104.886673,
+       38.824778
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569041, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 99569041,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569041,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.890962,
+       38.821712
+      ],
+      [
+       -104.890959,
+       38.821468
+      ],
+      [
+       -104.890818,
+       38.821186
+      ],
+      [
+       -104.890591,
+       38.820909
+      ],
+      [
+       -104.890303,
+       38.820728
+      ],
+      [
+       -104.889893,
+       38.820618
+      ],
+      [
+       -104.889374,
+       38.82058
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569075, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99569075,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569075,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.882379,
+       38.818098
+      ],
+      [
+       -104.882513,
+       38.8182
+      ],
+      [
+       -104.882744,
+       38.81838
+      ],
+      [
+       -104.883049,
+       38.81859
+      ],
+      [
+       -104.883161,
+       38.818658
+      ],
+      [
+       -104.883257,
+       38.818706
+      ],
+      [
+       -104.883402,
+       38.818757
+      ],
+      [
+       -104.883584,
+       38.81881
+      ],
+      [
+       -104.883762,
+       38.818851
+      ],
+      [
+       -104.883835,
+       38.818865
+      ],
+      [
+       -104.883921,
+       38.818882
+      ],
+      [
+       -104.884071,
+       38.818901
+      ],
+      [
+       -104.88423,
+       38.818919
+      ],
+      [
+       -104.884497,
+       38.81895
+      ],
+      [
+       -104.884682,
+       38.818984
+      ],
+      [
+       -104.884837,
+       38.81902
+      ],
+      [
+       -104.884982,
+       38.819059
+      ],
+      [
+       -104.885143,
+       38.81912
+      ],
+      [
+       -104.88527,
+       38.819182
+      ],
+      [
+       -104.885362,
+       38.819228
+      ],
+      [
+       -104.885428,
+       38.819277
+      ],
+      [
+       -104.885495,
+       38.81933
+      ],
+      [
+       -104.885586,
+       38.81942
+      ],
+      [
+       -104.885732,
+       38.819561
+      ],
+      [
+       -104.885897,
+       38.81973
+      ],
+      [
+       -104.88617,
+       38.820034
+      ],
+      [
+       -104.886476,
+       38.820402
+      ],
+      [
+       -104.886585,
+       38.820521
+      ],
+      [
+       -104.88666,
+       38.820583
+      ],
+      [
+       -104.886744,
+       38.820641
+      ],
+      [
+       -104.886897,
+       38.820729
+      ],
+      [
+       -104.887036,
+       38.820791
+      ],
+      [
+       -104.887139,
+       38.820833
+      ],
+      [
+       -104.887248,
+       38.820867
+      ],
+      [
+       -104.887348,
+       38.820885
+      ],
+      [
+       -104.887453,
+       38.820893
+      ],
+      [
+       -104.887563,
+       38.820892
+      ],
+      [
+       -104.887691,
+       38.820882
+      ],
+      [
+       -104.889374,
+       38.82058
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 232727347, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 232727347,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 232727347,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.886673,
+       38.824778
+      ],
+      [
+       -104.886551,
+       38.824882
+      ],
+      [
+       -104.886249,
+       38.825143
+      ],
+      [
+       -104.886066,
+       38.825289
+      ],
+      [
+       -104.885847,
+       38.825441
+      ],
+      [
+       -104.885412,
+       38.825757
+      ],
+      [
+       -104.884934,
+       38.826105
+      ],
+      [
+       -104.884657,
+       38.8263
+      ],
+      [
+       -104.88433,
+       38.826545
+      ],
+      [
+       -104.883927,
+       38.82683
+      ],
+      [
+       -104.883743,
+       38.826963
+      ],
+      [
+       -104.883598,
+       38.827079
+      ],
+      [
+       -104.883315,
+       38.82734
+      ],
+      [
+       -104.88315,
+       38.827505
+      ],
+      [
+       -104.882975,
+       38.82768
+      ],
+      [
+       -104.882876,
+       38.827783
+      ],
+      [
+       -104.8828,
+       38.827877
+      ],
+      [
+       -104.882715,
+       38.827993
+      ],
+      [
+       -104.882654,
+       38.828082
+      ],
+      [
+       -104.882233,
+       38.828811
+      ],
+      [
+       -104.882044,
+       38.829145
+      ],
+      [
+       -104.881933,
+       38.8294
+      ],
+      [
+       -104.881778,
+       38.82968
+      ],
+      [
+       -104.881666,
+       38.829865
+      ],
+      [
+       -104.881576,
+       38.830016
+      ],
+      [
+       -104.881426,
+       38.830262
+      ],
+      [
+       -104.881212,
+       38.830463
+      ],
+      [
+       -104.881023,
+       38.830576
+      ],
+      [
+       -104.880925,
+       38.830616
+      ],
+      [
+       -104.880774,
+       38.830677
+      ],
+      [
+       -104.880516,
+       38.830737
+      ],
+      [
+       -104.880225,
+       38.83075
+      ],
+      [
+       -104.879667,
+       38.83077
+      ],
+      [
+       -104.879459,
+       38.830784
+      ],
+      [
+       -104.879333,
+       38.830776
+      ],
+      [
+       -104.879245,
+       38.830763
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 232727379, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 232727379,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 232727379,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.87672,
+       38.800206
+      ],
+      [
+       -104.876711,
+       38.800369
+      ],
+      [
+       -104.876711,
+       38.800394
+      ],
+      [
+       -104.876711,
+       38.800622
+      ],
+      [
+       -104.876722,
+       38.800797
+      ],
+      [
+       -104.876744,
+       38.800995
+      ],
+      [
+       -104.876767,
+       38.801113
+      ],
+      [
+       -104.876796,
+       38.801207
+      ],
+      [
+       -104.876829,
+       38.801299
+      ],
+      [
+       -104.876956,
+       38.801553
+      ],
+      [
+       -104.876992,
+       38.80164
+      ],
+      [
+       -104.877017,
+       38.801723
+      ],
+      [
+       -104.877047,
+       38.801817
+      ],
+      [
+       -104.877073,
+       38.8019
+      ],
+      [
+       -104.877174,
+       38.802116
+      ],
+      [
+       -104.877233,
+       38.802237
+      ],
+      [
+       -104.877293,
+       38.802358
+      ],
+      [
+       -104.877358,
+       38.802525
+      ],
+      [
+       -104.877399,
+       38.80265
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 437657385, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 437657385,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 437657385,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.890962,
+       38.821712
+      ],
+      [
+       -104.890907,
+       38.821856
+      ],
+      [
+       -104.890881,
+       38.8219
+      ],
+      [
+       -104.890861,
+       38.821933
+      ],
+      [
+       -104.890767,
+       38.822074
+      ],
+      [
+       -104.890493,
+       38.822457
+      ],
+      [
+       -104.890227,
+       38.822775
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 531328085, tagged as an abandoned railway of this company (now Gold Camp Road).",
+    "local": {
+     "osm_way": 531328085,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 531328085,
+      "name": "Gold Camp Road",
+      "railway": "abandoned",
+      "highway": "tertiary"
+     }
+    }
+   }
+  ],
+  "successors": []
+ },
+ {
+  "id": "line:midland-terminal",
+  "name": "Midland Terminal Railway",
+  "valid_from": 1894,
+  "valid_to": 1949,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Grade from OpenStreetMap ways carrying this company's name as former operator: 35 km in 18 pieces inside the fetched corridors. Checked against lidar only at the atlas's two worked places. It is not the whole railway.",
+  "sources": [
+   "source:osm-railways",
+   "source:wikipedia-midland-terminal"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "Chartered 1893 (some sources 1892). Built from Divide through Gillett in 1894 and into Cripple Creek in 1895. Last run February 1949.",
+  "railway": "Midland Terminal Railway",
+  "gauge": "standard",
+  "segments": [
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.136638,
+       38.838592
+      ],
+      [
+       -105.136932,
+       38.839128
+      ],
+      [
+       -105.13719,
+       38.839372
+      ],
+      [
+       -105.137462,
+       38.839527
+      ],
+      [
+       -105.137815,
+       38.839663
+      ],
+      [
+       -105.138137,
+       38.839728
+      ],
+      [
+       -105.138473,
+       38.839736
+      ],
+      [
+       -105.13876,
+       38.839682
+      ],
+      [
+       -105.139091,
+       38.839654
+      ],
+      [
+       -105.139381,
+       38.839681
+      ],
+      [
+       -105.139943,
+       38.839813
+      ],
+      [
+       -105.140607,
+       38.839908
+      ],
+      [
+       -105.140917,
+       38.839985
+      ],
+      [
+       -105.141223,
+       38.840096
+      ],
+      [
+       -105.141488,
+       38.840265
+      ],
+      [
+       -105.141664,
+       38.84045
+      ],
+      [
+       -105.141807,
+       38.840672
+      ],
+      [
+       -105.141887,
+       38.840918
+      ],
+      [
+       -105.14197,
+       38.841398
+      ],
+      [
+       -105.142024,
+       38.84169
+      ],
+      [
+       -105.14217,
+       38.841921
+      ],
+      [
+       -105.142398,
+       38.842166
+      ],
+      [
+       -105.142805,
+       38.842429
+      ],
+      [
+       -105.143239,
+       38.842779
+      ],
+      [
+       -105.143616,
+       38.843222
+      ],
+      [
+       -105.14395,
+       38.843573
+      ],
+      [
+       -105.144134,
+       38.8438
+      ],
+      [
+       -105.144252,
+       38.844151
+      ],
+      [
+       -105.144282,
+       38.844769
+      ],
+      [
+       -105.144496,
+       38.845224
+      ],
+      [
+       -105.144848,
+       38.845558
+      ],
+      [
+       -105.145569,
+       38.845798
+      ],
+      [
+       -105.146676,
+       38.845879
+      ],
+      [
+       -105.147161,
+       38.846031
+      ],
+      [
+       -105.147559,
+       38.846285
+      ],
+      [
+       -105.148597,
+       38.847038
+      ],
+      [
+       -105.149022,
+       38.847224
+      ],
+      [
+       -105.149397,
+       38.84727
+      ],
+      [
+       -105.149726,
+       38.847247
+      ],
+      [
+       -105.150115,
+       38.847091
+      ],
+      [
+       -105.150783,
+       38.846562
+      ],
+      [
+       -105.151114,
+       38.84638
+      ],
+      [
+       -105.151372,
+       38.846261
+      ],
+      [
+       -105.152123,
+       38.846173
+      ],
+      [
+       -105.152552,
+       38.846098
+      ],
+      [
+       -105.152788,
+       38.846002
+      ],
+      [
+       -105.152976,
+       38.845873
+      ],
+      [
+       -105.15368,
+       38.845163
+      ],
+      [
+       -105.153915,
+       38.845045
+      ],
+      [
+       -105.154124,
+       38.84497
+      ],
+      [
+       -105.154487,
+       38.844856
+      ],
+      [
+       -105.154912,
+       38.844815
+      ],
+      [
+       -105.15538,
+       38.844862
+      ],
+      [
+       -105.15557,
+       38.844911
+      ],
+      [
+       -105.155787,
+       38.844974
+      ],
+      [
+       -105.156006,
+       38.84507
+      ],
+      [
+       -105.156173,
+       38.845208
+      ],
+      [
+       -105.156715,
+       38.845798
+      ],
+      [
+       -105.156935,
+       38.845927
+      ],
+      [
+       -105.157252,
+       38.846061
+      ],
+      [
+       -105.157547,
+       38.846107
+      ],
+      [
+       -105.158297,
+       38.846205
+      ],
+      [
+       -105.158594,
+       38.846299
+      ],
+      [
+       -105.158685,
+       38.84635
+      ],
+      [
+       -105.158785,
+       38.846428
+      ],
+      [
+       -105.158899,
+       38.846579
+      ],
+      [
+       -105.15918,
+       38.846929
+      ],
+      [
+       -105.159457,
+       38.847349
+      ],
+      [
+       -105.159531,
+       38.847564
+      ],
+      [
+       -105.159498,
+       38.847776
+      ],
+      [
+       -105.159387,
+       38.848091
+      ],
+      [
+       -105.159259,
+       38.848412
+      ],
+      [
+       -105.158869,
+       38.849208
+      ],
+      [
+       -105.158835,
+       38.849665
+      ],
+      [
+       -105.158894,
+       38.850256
+      ],
+      [
+       -105.158916,
+       38.850734
+      ],
+      [
+       -105.158835,
+       38.851138
+      ],
+      [
+       -105.158608,
+       38.851475
+      ],
+      [
+       -105.158157,
+       38.852282
+      ],
+      [
+       -105.157713,
+       38.853727
+      ],
+      [
+       -105.15745,
+       38.854216
+      ],
+      [
+       -105.157055,
+       38.854586
+      ],
+      [
+       -105.156616,
+       38.854769
+      ],
+      [
+       -105.155895,
+       38.854956
+      ],
+      [
+       -105.155345,
+       38.854949
+      ],
+      [
+       -105.154832,
+       38.854842
+      ],
+      [
+       -105.154425,
+       38.854711
+      ],
+      [
+       -105.153601,
+       38.854472
+      ],
+      [
+       -105.153258,
+       38.854391
+      ],
+      [
+       -105.152976,
+       38.854366
+      ],
+      [
+       -105.152683,
+       38.854401
+      ],
+      [
+       -105.152496,
+       38.854446
+      ],
+      [
+       -105.152315,
+       38.854526
+      ],
+      [
+       -105.152157,
+       38.854649
+      ],
+      [
+       -105.151938,
+       38.854892
+      ],
+      [
+       -105.151793,
+       38.85521
+      ],
+      [
+       -105.151772,
+       38.855427
+      ],
+      [
+       -105.151804,
+       38.85559
+      ],
+      [
+       -105.151879,
+       38.855804
+      ],
+      [
+       -105.152063,
+       38.856044
+      ],
+      [
+       -105.152601,
+       38.856657
+      ],
+      [
+       -105.152957,
+       38.857029
+      ],
+      [
+       -105.153258,
+       38.857332
+      ],
+      [
+       -105.153534,
+       38.857518
+      ],
+      [
+       -105.153717,
+       38.857601
+      ],
+      [
+       -105.153875,
+       38.857664
+      ],
+      [
+       -105.154269,
+       38.857775
+      ],
+      [
+       -105.154762,
+       38.857877
+      ],
+      [
+       -105.155865,
+       38.858105
+      ],
+      [
+       -105.15641,
+       38.858231
+      ],
+      [
+       -105.156868,
+       38.858426
+      ],
+      [
+       -105.159171,
+       38.859412
+      ],
+      [
+       -105.159475,
+       38.859568
+      ],
+      [
+       -105.159625,
+       38.859709
+      ],
+      [
+       -105.159725,
+       38.859857
+      ],
+      [
+       -105.159825,
+       38.860082
+      ],
+      [
+       -105.159789,
+       38.860342
+      ],
+      [
+       -105.159743,
+       38.860518
+      ],
+      [
+       -105.159596,
+       38.860914
+      ],
+      [
+       -105.159455,
+       38.861335
+      ],
+      [
+       -105.159408,
+       38.861599
+      ],
+      [
+       -105.15938,
+       38.863121
+      ],
+      [
+       -105.159346,
+       38.863943
+      ],
+      [
+       -105.159435,
+       38.864251
+      ],
+      [
+       -105.159548,
+       38.864537
+      ],
+      [
+       -105.159912,
+       38.865204
+      ],
+      [
+       -105.160594,
+       38.8663
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 720109770, tagged as an abandoned railway of this company (now South State Highway 67).",
+    "local": {
+     "osm_way": 720109770,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 720109770,
+      "name": "South State Highway 67",
+      "railway": "abandoned",
+      "highway": "primary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.160594,
+       38.8663
+      ],
+      [
+       -105.160747,
+       38.866576
+      ],
+      [
+       -105.160907,
+       38.866849
+      ],
+      [
+       -105.160999,
+       38.867085
+      ],
+      [
+       -105.161066,
+       38.867342
+      ],
+      [
+       -105.161114,
+       38.86762
+      ],
+      [
+       -105.16113,
+       38.867927
+      ],
+      [
+       -105.161112,
+       38.868173
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 1277872326, tagged as an abandoned railway of this company (now South State Highway 67).",
+    "local": {
+     "osm_way": 1277872326,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 1277872326,
+      "name": "South State Highway 67",
+      "railway": "abandoned",
+      "highway": "primary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.15938,
+       38.864741
+      ],
+      [
+       -105.159595,
+       38.865579
+      ],
+      [
+       -105.160114,
+       38.867136
+      ],
+      [
+       -105.160152,
+       38.867471
+      ],
+      [
+       -105.160101,
+       38.867806
+      ],
+      [
+       -105.158797,
+       38.870625
+      ],
+      [
+       -105.158405,
+       38.871285
+      ],
+      [
+       -105.157658,
+       38.872084
+      ],
+      [
+       -105.156978,
+       38.87274
+      ],
+      [
+       -105.156858,
+       38.872862
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 1427613862, tagged as an abandoned railway of this company (now Midland Terminal Railway).",
+    "local": {
+     "osm_way": 1427613862,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 1427613862,
+      "name": "Midland Terminal Railway",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.159114,
+       38.892668
+      ],
+      [
+       -105.15976,
+       38.892757
+      ],
+      [
+       -105.161013,
+       38.892845
+      ],
+      [
+       -105.161595,
+       38.892993
+      ],
+      [
+       -105.162203,
+       38.893367
+      ],
+      [
+       -105.162544,
+       38.893821
+      ],
+      [
+       -105.162899,
+       38.894914
+      ],
+      [
+       -105.163241,
+       38.895486
+      ],
+      [
+       -105.163709,
+       38.895958
+      ],
+      [
+       -105.164962,
+       38.896904
+      ],
+      [
+       -105.16776,
+       38.898628
+      ],
+      [
+       -105.168101,
+       38.898983
+      ],
+      [
+       -105.168253,
+       38.899436
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 1427613865, tagged as an abandoned railway of this company (now Midland Terminal Railway).",
+    "local": {
+     "osm_way": 1427613865,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 1427613865,
+      "name": "Midland Terminal Railway",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.15181,
+       38.925747
+      ],
+      [
+       -105.148809,
+       38.929535
+      ],
+      [
+       -105.148672,
+       38.929799
+      ],
+      [
+       -105.147045,
+       38.932032
+      ],
+      [
+       -105.146607,
+       38.932862
+      ],
+      [
+       -105.146524,
+       38.933718
+      ],
+      [
+       -105.146789,
+       38.936958
+      ],
+      [
+       -105.147039,
+       38.937825
+      ],
+      [
+       -105.147485,
+       38.938757
+      ],
+      [
+       -105.15009,
+       38.943438
+      ],
+      [
+       -105.150216,
+       38.943937
+      ],
+      [
+       -105.15016,
+       38.944457
+      ],
+      [
+       -105.150021,
+       38.944836
+      ],
+      [
+       -105.149644,
+       38.945172
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99250053, tagged as an abandoned railway of this company (now Midland Terminal Railway).",
+    "local": {
+     "osm_way": 99250053,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99250053,
+      "name": "Midland Terminal Railway",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.158543,
+       38.91781
+      ],
+      [
+       -105.15838,
+       38.918515
+      ],
+      [
+       -105.158076,
+       38.919096
+      ],
+      [
+       -105.157481,
+       38.919796
+      ],
+      [
+       -105.155736,
+       38.921242
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 1427613866, tagged as an abandoned railway of this company (now Midland Terminal Railway).",
+    "local": {
+     "osm_way": 1427613866,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 1427613866,
+      "name": "Midland Terminal Railway",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.155051,
+       38.92181
+      ],
+      [
+       -105.154772,
+       38.922041
+      ],
+      [
+       -105.153937,
+       38.922819
+      ],
+      [
+       -105.153295,
+       38.923622
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 1427613867, tagged as an abandoned railway of this company (now Midland Terminal Railway).",
+    "local": {
+     "osm_way": 1427613867,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 1427613867,
+      "name": "Midland Terminal Railway",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.105174,
+       38.755386
+      ],
+      [
+       -105.104479,
+       38.754869
+      ],
+      [
+       -105.103892,
+       38.754304
+      ],
+      [
+       -105.103307,
+       38.753818
+      ],
+      [
+       -105.103073,
+       38.753529
+      ],
+      [
+       -105.102938,
+       38.75291
+      ],
+      [
+       -105.102848,
+       38.752341
+      ],
+      [
+       -105.102482,
+       38.751581
+      ],
+      [
+       -105.102094,
+       38.750963
+      ],
+      [
+       -105.102021,
+       38.750783
+      ],
+      [
+       -105.101974,
+       38.750535
+      ],
+      [
+       -105.10202,
+       38.749561
+      ],
+      [
+       -105.10196,
+       38.749369
+      ],
+      [
+       -105.101869,
+       38.749177
+      ],
+      [
+       -105.101677,
+       38.748927
+      ],
+      [
+       -105.100522,
+       38.748201
+      ],
+      [
+       -105.10025,
+       38.747929
+      ],
+      [
+       -105.100167,
+       38.74766
+      ],
+      [
+       -105.100222,
+       38.747248
+      ],
+      [
+       -105.100177,
+       38.746061
+      ],
+      [
+       -105.100123,
+       38.745296
+      ],
+      [
+       -105.100104,
+       38.745073
+      ],
+      [
+       -105.100124,
+       38.744819
+      ],
+      [
+       -105.100285,
+       38.744547
+      ],
+      [
+       -105.100457,
+       38.744344
+      ],
+      [
+       -105.100584,
+       38.744219
+      ],
+      [
+       -105.10077,
+       38.74411
+      ],
+      [
+       -105.101137,
+       38.743971
+      ],
+      [
+       -105.101665,
+       38.743795
+      ],
+      [
+       -105.102989,
+       38.743019
+      ],
+      [
+       -105.103387,
+       38.742887
+      ],
+      [
+       -105.103718,
+       38.742851
+      ],
+      [
+       -105.10415,
+       38.742957
+      ],
+      [
+       -105.105039,
+       38.743296
+      ],
+      [
+       -105.105427,
+       38.743365
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 17146701, tagged as an abandoned railway of this company (now County Road 81).",
+    "local": {
+     "osm_way": 17146701,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 17146701,
+      "name": "County Road 81",
+      "railway": "abandoned",
+      "highway": "secondary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.105427,
+       38.743365
+      ],
+      [
+       -105.10598,
+       38.743431
+      ],
+      [
+       -105.106485,
+       38.743395
+      ],
+      [
+       -105.107016,
+       38.74328
+      ],
+      [
+       -105.107309,
+       38.7431
+      ],
+      [
+       -105.107585,
+       38.742784
+      ],
+      [
+       -105.107997,
+       38.742263
+      ],
+      [
+       -105.108376,
+       38.742011
+      ],
+      [
+       -105.108905,
+       38.741872
+      ],
+      [
+       -105.109545,
+       38.741845
+      ],
+      [
+       -105.110185,
+       38.742016
+      ],
+      [
+       -105.111362,
+       38.742483
+      ],
+      [
+       -105.111988,
+       38.742623
+      ],
+      [
+       -105.112455,
+       38.742596
+      ],
+      [
+       -105.113501,
+       38.742344
+      ],
+      [
+       -105.115201,
+       38.741668
+      ],
+      [
+       -105.11584,
+       38.741523
+      ],
+      [
+       -105.116625,
+       38.741426
+      ],
+      [
+       -105.117347,
+       38.741421
+      ],
+      [
+       -105.118407,
+       38.741523
+      ],
+      [
+       -105.119294,
+       38.741673
+      ],
+      [
+       -105.119927,
+       38.741882
+      ],
+      [
+       -105.120587,
+       38.742204
+      ],
+      [
+       -105.121241,
+       38.742585
+      ],
+      [
+       -105.121833,
+       38.743138
+      ],
+      [
+       -105.122294,
+       38.743744
+      ],
+      [
+       -105.122679,
+       38.744437
+      ],
+      [
+       -105.122927,
+       38.745252
+      ],
+      [
+       -105.123043,
+       38.74595
+      ],
+      [
+       -105.12316,
+       38.747076
+      ],
+      [
+       -105.12336,
+       38.747565
+      ],
+      [
+       -105.123786,
+       38.747983
+      ],
+      [
+       -105.124296,
+       38.748311
+      ],
+      [
+       -105.124915,
+       38.748525
+      ],
+      [
+       -105.127433,
+       38.749024
+      ],
+      [
+       -105.128231,
+       38.749276
+      ],
+      [
+       -105.132249,
+       38.750698
+      ],
+      [
+       -105.132779,
+       38.750754
+      ],
+      [
+       -105.133256,
+       38.750707
+      ],
+      [
+       -105.133747,
+       38.750554
+      ],
+      [
+       -105.134239,
+       38.750265
+      ],
+      [
+       -105.134549,
+       38.749899
+      ],
+      [
+       -105.134746,
+       38.749498
+      ],
+      [
+       -105.134814,
+       38.749179
+      ],
+      [
+       -105.134761,
+       38.748807
+      ],
+      [
+       -105.134557,
+       38.748353
+      ],
+      [
+       -105.134067,
+       38.747987
+      ],
+      [
+       -105.13284,
+       38.7474
+      ],
+      [
+       -105.13191,
+       38.746922
+      ],
+      [
+       -105.131352,
+       38.746566
+      ],
+      [
+       -105.129343,
+       38.744886
+      ],
+      [
+       -105.128574,
+       38.74407
+      ],
+      [
+       -105.127691,
+       38.742828
+      ],
+      [
+       -105.126457,
+       38.740969
+      ],
+      [
+       -105.125706,
+       38.740214
+      ],
+      [
+       -105.124895,
+       38.739515
+      ],
+      [
+       -105.121855,
+       38.73692
+      ],
+      [
+       -105.121088,
+       38.736264
+      ],
+      [
+       -105.120659,
+       38.735559
+      ],
+      [
+       -105.119222,
+       38.731775
+      ],
+      [
+       -105.119099,
+       38.731008
+      ],
+      [
+       -105.119147,
+       38.730484
+      ],
+      [
+       -105.119298,
+       38.73013
+      ],
+      [
+       -105.119657,
+       38.729732
+      ],
+      [
+       -105.120139,
+       38.7294
+      ],
+      [
+       -105.121183,
+       38.728816
+      ],
+      [
+       -105.121855,
+       38.728433
+      ],
+      [
+       -105.122953,
+       38.727774
+      ],
+      [
+       -105.123476,
+       38.727432
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569092, tagged as an abandoned railway of this company (now Midland Terminal Railway).",
+    "local": {
+     "osm_way": 99569092,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99569092,
+      "name": "Midland Terminal Railway",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.105174,
+       38.755386
+      ],
+      [
+       -105.10587,
+       38.75601
+      ],
+      [
+       -105.110535,
+       38.759852
+      ],
+      [
+       -105.112734,
+       38.761643
+      ],
+      [
+       -105.1132,
+       38.762014
+      ],
+      [
+       -105.113376,
+       38.762157
+      ],
+      [
+       -105.113591,
+       38.762316
+      ],
+      [
+       -105.115149,
+       38.763598
+      ],
+      [
+       -105.115586,
+       38.764025
+      ],
+      [
+       -105.116072,
+       38.764538
+      ],
+      [
+       -105.117075,
+       38.765998
+      ],
+      [
+       -105.118457,
+       38.76859
+      ],
+      [
+       -105.120217,
+       38.77184
+      ],
+      [
+       -105.120507,
+       38.772362
+      ],
+      [
+       -105.120876,
+       38.773004
+      ],
+      [
+       -105.121429,
+       38.774098
+      ],
+      [
+       -105.121655,
+       38.77477
+      ],
+      [
+       -105.121954,
+       38.776327
+      ],
+      [
+       -105.122159,
+       38.77739
+      ],
+      [
+       -105.122257,
+       38.778312
+      ],
+      [
+       -105.122366,
+       38.778952
+      ],
+      [
+       -105.122414,
+       38.779192
+      ],
+      [
+       -105.122723,
+       38.780708
+      ],
+      [
+       -105.122936,
+       38.781756
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 17151761, tagged as an abandoned railway of this company (now County Road 81).",
+    "local": {
+     "osm_way": 17151761,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 17151761,
+      "name": "County Road 81",
+      "railway": "abandoned",
+      "highway": "secondary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.123197,
+       38.783113
+      ],
+      [
+       -105.123249,
+       38.783552
+      ],
+      [
+       -105.123715,
+       38.786204
+      ],
+      [
+       -105.124116,
+       38.788354
+      ],
+      [
+       -105.124403,
+       38.790206
+      ],
+      [
+       -105.124506,
+       38.791129
+      ],
+      [
+       -105.124459,
+       38.791976
+      ],
+      [
+       -105.124411,
+       38.792338
+      ],
+      [
+       -105.123262,
+       38.796227
+      ],
+      [
+       -105.122987,
+       38.797043
+      ],
+      [
+       -105.122335,
+       38.797892
+      ],
+      [
+       -105.121736,
+       38.798306
+      ],
+      [
+       -105.121654,
+       38.798357
+      ],
+      [
+       -105.121571,
+       38.798407
+      ],
+      [
+       -105.121492,
+       38.798454
+      ],
+      [
+       -105.121379,
+       38.798517
+      ],
+      [
+       -105.121135,
+       38.798615
+      ],
+      [
+       -105.120799,
+       38.798767
+      ],
+      [
+       -105.120701,
+       38.798804
+      ],
+      [
+       -105.120496,
+       38.79888
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 17152319, tagged as an abandoned railway of this company (now South State Highway 67).",
+    "local": {
+     "osm_way": 17152319,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 17152319,
+      "name": "South State Highway 67",
+      "railway": "abandoned",
+      "highway": "primary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.123711,
+       38.779834
+      ],
+      [
+       -105.123391,
+       38.779784
+      ],
+      [
+       -105.123019,
+       38.77966
+      ],
+      [
+       -105.12271,
+       38.779444
+      ],
+      [
+       -105.122414,
+       38.779192
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99571229, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99571229,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99571229,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.147883,
+       38.753466
+      ],
+      [
+       -105.147936,
+       38.754075
+      ],
+      [
+       -105.147688,
+       38.754358
+      ],
+      [
+       -105.147215,
+       38.754768
+      ],
+      [
+       -105.146906,
+       38.75528
+      ],
+      [
+       -105.146134,
+       38.755899
+      ],
+      [
+       -105.145156,
+       38.756567
+      ],
+      [
+       -105.144492,
+       38.757496
+      ],
+      [
+       -105.143945,
+       38.75886
+      ],
+      [
+       -105.143546,
+       38.759311
+      ],
+      [
+       -105.14283,
+       38.759839
+      ],
+      [
+       -105.142239,
+       38.760107
+      ],
+      [
+       -105.141896,
+       38.76009
+      ],
+      [
+       -105.141486,
+       38.759964
+      ],
+      [
+       -105.140971,
+       38.760014
+      ],
+      [
+       -105.140381,
+       38.760323
+      ],
+      [
+       -105.139855,
+       38.760633
+      ],
+      [
+       -105.139793,
+       38.761094
+      ],
+      [
+       -105.139868,
+       38.761646
+      ],
+      [
+       -105.139834,
+       38.761955
+      ],
+      [
+       -105.13948,
+       38.762206
+      ],
+      [
+       -105.139042,
+       38.76229
+      ],
+      [
+       -105.137658,
+       38.762399
+      ],
+      [
+       -105.136682,
+       38.762524
+      ],
+      [
+       -105.136081,
+       38.762457
+      ],
+      [
+       -105.135362,
+       38.762407
+      ],
+      [
+       -105.135135,
+       38.762524
+      ],
+      [
+       -105.135073,
+       38.762775
+      ],
+      [
+       -105.135051,
+       38.76311
+      ],
+      [
+       -105.134815,
+       38.763336
+      ],
+      [
+       -105.134568,
+       38.763461
+      ],
+      [
+       -105.134214,
+       38.763495
+      ],
+      [
+       -105.133568,
+       38.763544
+      ],
+      [
+       -105.132948,
+       38.763662
+      ],
+      [
+       -105.13239,
+       38.764373
+      ],
+      [
+       -105.131777,
+       38.764766
+      ],
+      [
+       -105.131337,
+       38.764983
+      ],
+      [
+       -105.130395,
+       38.765285
+      ],
+      [
+       -105.129837,
+       38.765519
+      ],
+      [
+       -105.129504,
+       38.765569
+      ],
+      [
+       -105.129086,
+       38.765653
+      ],
+      [
+       -105.129062,
+       38.765937
+      ],
+      [
+       -105.128882,
+       38.766582
+      ],
+      [
+       -105.128689,
+       38.766975
+      ],
+      [
+       -105.128644,
+       38.767359
+      ],
+      [
+       -105.128238,
+       38.767594
+      ],
+      [
+       -105.127882,
+       38.767735
+      ],
+      [
+       -105.127552,
+       38.767987
+      ],
+      [
+       -105.127348,
+       38.76828
+      ],
+      [
+       -105.126575,
+       38.768581
+      ],
+      [
+       -105.125524,
+       38.768765
+      ],
+      [
+       -105.124558,
+       38.768865
+      ],
+      [
+       -105.123904,
+       38.769175
+      ],
+      [
+       -105.1234,
+       38.769468
+      ],
+      [
+       -105.122915,
+       38.769626
+      ],
+      [
+       -105.122496,
+       38.769818
+      ],
+      [
+       -105.122282,
+       38.770236
+      ],
+      [
+       -105.122067,
+       38.770897
+      ],
+      [
+       -105.1224,
+       38.772185
+      ],
+      [
+       -105.123097,
+       38.773499
+      ],
+      [
+       -105.123344,
+       38.774285
+      ],
+      [
+       -105.123492,
+       38.774603
+      ],
+      [
+       -105.12385,
+       38.775118
+      ],
+      [
+       -105.124286,
+       38.775458
+      ],
+      [
+       -105.124893,
+       38.775707
+      ],
+      [
+       -105.125714,
+       38.776073
+      ],
+      [
+       -105.126086,
+       38.776388
+      ],
+      [
+       -105.126278,
+       38.776787
+      ],
+      [
+       -105.126299,
+       38.777119
+      ],
+      [
+       -105.126171,
+       38.777418
+      ],
+      [
+       -105.125756,
+       38.777966
+      ],
+      [
+       -105.125586,
+       38.778398
+      ],
+      [
+       -105.125266,
+       38.779128
+      ],
+      [
+       -105.125021,
+       38.779461
+      ],
+      [
+       -105.124712,
+       38.779668
+      ],
+      [
+       -105.124457,
+       38.779743
+      ],
+      [
+       -105.123711,
+       38.779834
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99571230, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99571230,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99571230,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.123197,
+       38.783113
+      ],
+      [
+       -105.122936,
+       38.781756
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99571234, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99571234,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99571234,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.123711,
+       38.779834
+      ],
+      [
+       -105.123296,
+       38.779975
+      ],
+      [
+       -105.123029,
+       38.780125
+      ],
+      [
+       -105.122859,
+       38.780374
+      ],
+      [
+       -105.122723,
+       38.780708
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99571237, tagged as an abandoned railway of this company.",
+    "local": {
+     "osm_way": 99571237,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 99571237,
+      "name": "",
+      "railway": "abandoned",
+      "highway": ""
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.120496,
+       38.79888
+      ],
+      [
+       -105.119065,
+       38.799424
+      ],
+      [
+       -105.11882,
+       38.799566
+      ],
+      [
+       -105.118626,
+       38.799747
+      ],
+      [
+       -105.118516,
+       38.799897
+      ],
+      [
+       -105.118449,
+       38.800053
+      ],
+      [
+       -105.118434,
+       38.800213
+      ],
+      [
+       -105.118451,
+       38.800367
+      ],
+      [
+       -105.11858,
+       38.800763
+      ],
+      [
+       -105.118737,
+       38.801157
+      ],
+      [
+       -105.118972,
+       38.801744
+      ],
+      [
+       -105.119152,
+       38.801927
+      ],
+      [
+       -105.119374,
+       38.802066
+      ],
+      [
+       -105.119618,
+       38.802166
+      ],
+      [
+       -105.12015,
+       38.802293
+      ],
+      [
+       -105.120653,
+       38.802468
+      ],
+      [
+       -105.120935,
+       38.802654
+      ],
+      [
+       -105.121151,
+       38.802857
+      ],
+      [
+       -105.121337,
+       38.803099
+      ],
+      [
+       -105.121399,
+       38.803357
+      ],
+      [
+       -105.121408,
+       38.804126
+      ],
+      [
+       -105.121414,
+       38.804491
+      ],
+      [
+       -105.121491,
+       38.804684
+      ],
+      [
+       -105.121511,
+       38.804726
+      ],
+      [
+       -105.121674,
+       38.804949
+      ],
+      [
+       -105.122318,
+       38.80541
+      ],
+      [
+       -105.123614,
+       38.806414
+      ],
+      [
+       -105.123894,
+       38.806786
+      ],
+      [
+       -105.124109,
+       38.807166
+      ],
+      [
+       -105.124618,
+       38.808628
+      ],
+      [
+       -105.124771,
+       38.809198
+      ],
+      [
+       -105.125199,
+       38.80978
+      ],
+      [
+       -105.126471,
+       38.810771
+      ],
+      [
+       -105.127691,
+       38.812237
+      ],
+      [
+       -105.129012,
+       38.813671
+      ],
+      [
+       -105.129314,
+       38.814209
+      ],
+      [
+       -105.129491,
+       38.814627
+      ],
+      [
+       -105.130053,
+       38.815353
+      ],
+      [
+       -105.130573,
+       38.816028
+      ],
+      [
+       -105.130918,
+       38.816606
+      ],
+      [
+       -105.131305,
+       38.816995
+      ],
+      [
+       -105.131642,
+       38.817404
+      ],
+      [
+       -105.131785,
+       38.817653
+      ],
+      [
+       -105.131853,
+       38.818033
+      ],
+      [
+       -105.131999,
+       38.818365
+      ],
+      [
+       -105.13233,
+       38.818925
+      ],
+      [
+       -105.132568,
+       38.819324
+      ],
+      [
+       -105.132669,
+       38.819582
+      ],
+      [
+       -105.132669,
+       38.819936
+      ],
+      [
+       -105.132621,
+       38.820291
+      ],
+      [
+       -105.132669,
+       38.820632
+      ],
+      [
+       -105.132872,
+       38.821158
+      ],
+      [
+       -105.133113,
+       38.821642
+      ],
+      [
+       -105.133364,
+       38.822066
+      ],
+      [
+       -105.133834,
+       38.822859
+      ],
+      [
+       -105.134199,
+       38.823389
+      ],
+      [
+       -105.134631,
+       38.82406
+      ],
+      [
+       -105.134756,
+       38.824237
+      ],
+      [
+       -105.13484,
+       38.824544
+      ],
+      [
+       -105.134936,
+       38.824971
+      ],
+      [
+       -105.134988,
+       38.825389
+      ],
+      [
+       -105.135081,
+       38.825942
+      ],
+      [
+       -105.135164,
+       38.826179
+      ],
+      [
+       -105.135321,
+       38.826363
+      ],
+      [
+       -105.135695,
+       38.8268
+      ],
+      [
+       -105.13585,
+       38.827068
+      ],
+      [
+       -105.135922,
+       38.827339
+      ],
+      [
+       -105.135827,
+       38.828095
+      ],
+      [
+       -105.135673,
+       38.829893
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 720107136, tagged as an abandoned railway of this company (now South State Highway 67).",
+    "local": {
+     "osm_way": 720107136,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 720107136,
+      "name": "South State Highway 67",
+      "railway": "abandoned",
+      "highway": "primary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.135673,
+       38.829893
+      ],
+      [
+       -105.135553,
+       38.830669
+      ],
+      [
+       -105.135586,
+       38.830885
+      ],
+      [
+       -105.135682,
+       38.831084
+      ],
+      [
+       -105.136308,
+       38.831612
+      ],
+      [
+       -105.136603,
+       38.832098
+      ],
+      [
+       -105.136711,
+       38.832344
+      ],
+      [
+       -105.13674,
+       38.832601
+      ],
+      [
+       -105.136806,
+       38.832909
+      ],
+      [
+       -105.137032,
+       38.833303
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 720109768, tagged as an abandoned railway of this company (now South State Highway 67).",
+    "local": {
+     "osm_way": 720109768,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 720109768,
+      "name": "South State Highway 67",
+      "railway": "abandoned",
+      "highway": "primary"
+     }
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.137032,
+       38.833303
+      ],
+      [
+       -105.137488,
+       38.833938
+      ],
+      [
+       -105.137656,
+       38.834252
+      ],
+      [
+       -105.137743,
+       38.834555
+      ],
+      [
+       -105.137724,
+       38.834716
+      ],
+      [
+       -105.137699,
+       38.834903
+      ],
+      [
+       -105.137637,
+       38.83506
+      ],
+      [
+       -105.137507,
+       38.835206
+      ],
+      [
+       -105.137349,
+       38.835367
+      ],
+      [
+       -105.137109,
+       38.835483
+      ],
+      [
+       -105.136557,
+       38.835617
+      ],
+      [
+       -105.136307,
+       38.835673
+      ],
+      [
+       -105.136043,
+       38.835759
+      ],
+      [
+       -105.135841,
+       38.835909
+      ],
+      [
+       -105.135712,
+       38.83607
+      ],
+      [
+       -105.135625,
+       38.836261
+      ],
+      [
+       -105.135597,
+       38.836436
+      ],
+      [
+       -105.135643,
+       38.836739
+      ],
+      [
+       -105.135784,
+       38.837041
+      ],
+      [
+       -105.136638,
+       38.838592
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 720109769, tagged as an abandoned railway of this company (now South State Highway 67).",
+    "local": {
+     "osm_way": 720109769,
+     "tunnel": false,
+     "viewer": {
+      "osm_id": 720109769,
+      "name": "South State Highway 67",
+      "railway": "abandoned",
+      "highway": "primary"
+     }
+    }
+   }
+  ],
+  "successors": []
+ },
+ {
+  "id": "line:florence-and-cripple-creek",
+  "name": "Florence and Cripple Creek Railroad",
+  "valid_from": 1894,
+  "valid_to": 1915,
+  "grade": "inferred",
+  "error_ft": 60,
+  "basis": "Only the two tunnels on Phantom Canyon Road are entered. The road is on the railway's grade, but OpenStreetMap does not tag it as a railway, so the line itself is not drawn yet.",
+  "sources": [
+   "source:osm-railways",
+   "source:wikipedia-fcc",
+   "source:rmrc-fcc-guide"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "Narrow gauge. First train into Cripple Creek 1 July 1894. The canyon line was wrecked by the flood of 21 July 1912; the company was dissolved on 27 April 1915 (one source says 1916).",
+  "railway": "Florence and Cripple Creek Railroad",
+  "gauge": "narrow",
+  "successors": [],
+  "segments": [
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.105201,
+       38.547271
+      ],
+      [
+       -105.104561,
+       38.547904
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "grade": "inferred",
+    "error_ft": 60,
+    "basis": "OpenStreetMap way 525706316, a tunnel on Phantom Canyon Road, which follows the railway's grade.",
+    "local": {
+     "osm_way": 525706316,
+     "tunnel": true
+    }
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.124562,
+       38.519565
+      ],
+      [
+       -105.125218,
+       38.519597
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "grade": "inferred",
+    "error_ft": 60,
+    "basis": "OpenStreetMap way 525717269, a tunnel on Phantom Canyon Road, which follows the railway's grade.",
+    "local": {
+     "osm_way": 525717269,
+     "tunnel": true
+    }
+   }
+  ]
+ }
+]

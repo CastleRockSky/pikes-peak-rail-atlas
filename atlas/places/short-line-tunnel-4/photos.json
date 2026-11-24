@@ -1,0 +1,39 @@
+[
+ {
+  "id": "photo:short-line-tunnel-4:dpl-mcc-83",
+  "name": "Tunnel No. 4, Cripple Creek Short Line",
+  "valid_from": 1901,
+  "valid_to": 1920,
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library.",
+  "sources": [
+   "source:dpl-mcc-83"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "View of Tunnel Number Four, a curved timber trestle and standard gauge track; a push car on the track. Dated 1900-1920 by the library; the line opened in 1901.",
+  "place": "place:short-line-tunnel-4",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-83",
+  "url": "https://digital.denverlibrary.org/nodes/view/1052597",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "rights": "licensed",
+  "rights_note": "Shown by permission of the holding library, on condition of a credit line. Permission and its terms as reported by the atlas's owner on 23 November 2026.",
+  "image": "img/places/short-line-tunnel-4/dpl-mcc-83.jpg",
+  "thumb": "img/places/short-line-tunnel-4/dpl-mcc-83-t.jpg",
+  "w": 1999,
+  "h": 2465,
+  "shows": [
+   "structure:short-line-tunnel-4:bore"
+  ],
+  "topics": [
+   "tunnel",
+   "trestle"
+  ],
+  "transcription": "83. TUNNEL No. 4. CRIPPLE CREEK SHORT LINE. McClure, Denver.",
+  "kind": "photograph",
+  "credit": "Denver Public Library, Western History Collection, MCC-83"
+ }
+]

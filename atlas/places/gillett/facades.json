@@ -1,0 +1,132 @@
+{
+ "_about": "Street fronts read from photographs and pinned to traced Sanborn footprints (ids from buildings-1896.geojson). side = the plat side the front faces (W, E, S, N). Photographs date from 1894 to about 1900; the footprints are January 1896, so signs and occupants may be later than the map. See research/16-street-photographs.md.",
+ "44": {
+  "side": "W",
+  "wall_ft": 22,
+  "style": "cornice",
+  "up": 2,
+  "tone": "light",
+  "sign": "FURNISHED ROOMS",
+  "name": "Furnished rooms",
+  "conf": "high",
+  "photo": "DPL X-8658",
+  "note": "Two-storey false front with a bracketed cornice, two upper windows, shop windows below and a long board lettered FURNISHED ROOMS over the walk. 'Vacant' on the January 1896 map."
+ },
+ "55": {
+  "side": "W",
+  "wall_ft": 12,
+  "ff": 17,
+  "style": "flat",
+  "up": 0,
+  "tone": "white",
+  "awning": "canvas",
+  "sign": "MEAT MARKET",
+  "name": "Meat market",
+  "conf": "high",
+  "photo": "DPL X-8658",
+  "note": "Narrow one-storey shop with a tall white false front lettered MEAT MARKET and a canvas awning, squeezed between two-storey neighbours. A 'store' on the map."
+ },
+ "56": {
+  "side": "W",
+  "wall_ft": 24,
+  "style": "cornice",
+  "up": 4,
+  "arched": true,
+  "tone": "light",
+  "awning": "canvas",
+  "conf": "high",
+  "photo": "DPL X-8658 and X-8654",
+  "note": "The largest front in the row: two tall storeys, four round-arched upper windows (the lodge hall), a bracketed cornice and a deep canvas awning over the walk. The map has 'Drugs & P.O.' below and 'Lodge Hall 2d'."
+ },
+ "66": {
+  "side": "W",
+  "wall_ft": 21,
+  "style": "flat",
+  "up": 2,
+  "tone": "dark",
+  "conf": "high",
+  "photo": "DPL X-8654 and X-8658",
+  "note": "Narrow two-storey front with two upper windows, between the lodge hall and the three-store block. 'Boarding 2d, General Store' on the map."
+ },
+ "79": {
+  "side": "W",
+  "wall_ft": 22,
+  "style": "signboard",
+  "up": 5,
+  "tone": "light",
+  "awning": "striped",
+  "sign": "GEO. A. KILLAM & CO.  REAL ESTATE - MINES",
+  "sign2": "FURNISHED ROOMS",
+  "name": "Three-store block (Killam real estate, furnished rooms)",
+  "conf": "high",
+  "photo": "DPL X-8654",
+  "note": "Long two-storey block: five upper windows, a band of fancy-cut shingles between the floors, a name board on the parapet ending in BLOCK (first word not read), a striped canvas awning, and boards lettered FURNISHED ROOMS and GEO. A. KILLAM & CO. Real Estate - Mines. Three stores with lodgings above on the map."
+ },
+ "100": {
+  "skip": true
+ },
+ "101": {
+  "side": "W",
+  "wall_ft": 9,
+  "front_depth": 26,
+  "front_ft": 19,
+  "ff": 27,
+  "style": "stepped",
+  "up": 2,
+  "tone": "light",
+  "awning": "shed",
+  "sign": "LODGING",
+  "name": "Woodruff store",
+  "conf": "high",
+  "photo": "DPL X-8656 (1894) and X-8654",
+  "note": "The Woodruff family's store: a stepped false front with two upper windows, a board-roofed porch across the front (the dashed strip on the map), tinware hanging under it, LODGING painted across the front by about 1896, and circus posters on the south wall facing the empty corner lot. Map No. 275: store, one and a half storeys, with a long one-storey dwelling behind."
+ },
+ "65": {
+  "side": "E",
+  "wall_ft": 12,
+  "ff": 16,
+  "style": "flat",
+  "up": 0,
+  "tone": "dark",
+  "sign": "MEAT MARKET",
+  "conf": "low",
+  "photo": "DPL X-8658",
+  "note": "On the west side of Parker Avenue the photograph shows a one-storey false front with large windows and a board beginning MEAT M..., with SALOON and LODGING boards on the buildings beyond. Which of the row of small stores on the map each one is has not been settled; this is the best guess for the nearest."
+ },
+ "91": {
+  "side": "S",
+  "wall_ft": 23,
+  "style": "cornice",
+  "up": 3,
+  "tone": "dark",
+  "sign": "HOTEL GILLETT",
+  "conf": "low",
+  "photo": "DPL X-8657",
+  "note": "Two-storey false front with a bracketed cornice at the corner of Newell Avenue and 5th Street; a white board lettered HOTEL GILLETT hangs at its corner. On the map it is 'Store, Saloon, Lodgings 2nd'; the Gillett Hotel proper is three blocks east, so the board may be a direction sign or the name may have moved. Re-read 22 Nov 2026: what shows in the photograph is a tall light side wall with a narrow dark face beside it; the brick front next to it is more than twice as wide in the picture, which two adjoining 50 ft fronts in one line cannot be. So this identification is doubtful."
+ },
+ "109": {
+  "side": "S",
+  "wall_ft": 19,
+  "style": "cornice",
+  "up": 1,
+  "tone": "brick",
+  "sign": "MINERS EXCHANGE",
+  "sign2": "LA JUNTA HOTEL",
+  "conf": "low",
+  "photo": "DPL X-8657",
+  "note": "A front faced in brick or a brick-patterned sheet, with a light cornice and an upper window, carrying boards lettered MINERS EXCHANGE, LA JUNTA HOTEL and SALOON. The map calls it 'La Junta Hotel', a saloon, one and a half storeys: the name on the map and the name on the board agree, which fixes this photograph's position. Re-read 22 Nov 2026 against the 1900 sheet: the photograph cannot be fitted to this corner, so this rests only on the name on the board."
+ },
+ "6021": {
+  "side": "S",
+  "wall_ft": 13,
+  "ff": 19,
+  "style": "flat",
+  "up": 0,
+  "tone": "dark",
+  "awning": "shed",
+  "sign": "CITY DRUG STORE.",
+  "conf": "medium",
+  "photo": "DPL X-8657; position from both panoramas",
+  "note": "A tall one-storey false front with a plank porch on posts and a long white board lettered CITY DRUG STORE, with D. MALABY beneath. It stands west of the mapped blocks: panorama No. 331 shows the plank real-estate shack with a long dark-roofed building just behind it, as the 5th Street photograph does from the other side, and the two panoramas together put that building about 350 ft west of Newell Avenue on the north side of 5th Street. It was first identified, wrongly, with the corner building at Newell Avenue."
+ }
+}

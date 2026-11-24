@@ -1,0 +1,82 @@
+[
+ {
+  "id": "source:lidar-3dep-2024",
+  "kind": "dataset",
+  "title": "USGS 3DEP 1 m lidar, tile x48y430 CO_CONMGaps_D24",
+  "date": "2024",
+  "holder": "U.S. Geological Survey"
+ },
+ {
+  "id": "source:usgs-topo",
+  "kind": "map series",
+  "title": "USGS historical topographic maps: Pikes Peak 1894 and 1901, Cripple Creek North 1951 and 1994",
+  "holder": "U.S. Geological Survey"
+ },
+ {
+  "id": "source:osm-railway",
+  "kind": "dataset",
+  "title": "OpenStreetMap, abandoned railway ways near Gillett",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-21"
+ },
+ {
+  "id": "source:lidar-3dep",
+  "kind": "dataset",
+  "title": "USGS 3DEP elevation service (1 m lidar where flown)",
+  "holder": "U.S. Geological Survey"
+ },
+ {
+  "id": "source:osm-gold-camp-road",
+  "kind": "dataset",
+  "title": "OpenStreetMap: Gold Camp Road and its tunnels",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-23"
+ },
+ {
+  "id": "source:wikipedia-cscc",
+  "kind": "encyclopedia article",
+  "title": "Colorado Springs and Cripple Creek District Railway",
+  "holder": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Colorado_Springs_and_Cripple_Creek_District_Railway",
+  "accessed": "2026-11-23"
+ },
+ {
+  "id": "source:osm-railways",
+  "kind": "dataset",
+  "title": "OpenStreetMap: ways tagged as abandoned railways, with former operator, and named settlements, in the Pikes Peak corridors",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-23"
+ },
+ {
+  "id": "source:wikipedia-midland-terminal",
+  "kind": "encyclopedia article",
+  "title": "Midland Terminal Railway",
+  "holder": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Midland_Terminal_Railway",
+  "accessed": "2026-11-23"
+ },
+ {
+  "id": "source:wikipedia-colorado-midland",
+  "kind": "encyclopedia article",
+  "title": "Colorado Midland Railway",
+  "holder": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Colorado_Midland_Railway",
+  "accessed": "2026-11-23"
+ },
+ {
+  "id": "source:wikipedia-fcc",
+  "kind": "encyclopedia article",
+  "title": "Florence and Cripple Creek Railroad",
+  "holder": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Florence_and_Cripple_Creek_Railroad",
+  "accessed": "2026-11-23"
+ },
+ {
+  "id": "source:rmrc-fcc-guide",
+  "kind": "tour guide",
+  "title": "Florence and Cripple Creek tour guide",
+  "holder": "Rocky Mountain Railroad Club",
+  "url": "https://www.drgw.net/info/uploads/Main/fcc-tour-guide-v1.pdf",
+  "accessed": "2026-11-23"
+ }
+]

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "source:sanborn-1896-gillett",
+  "kind": "fire insurance map",
+  "title": "Sanborn-Perris Map Co., Cripple Creek district, sheet 21: Gillett",
+  "date": "1896-11",
+  "holder": "University of Colorado Boulder (CU Digital Library)"
+ },
+ {
+  "id": "source:sanborn-1900-gillett",
+  "kind": "fire insurance map",
+  "title": "Sanborn-Perris Map Co., sheet 20: Gillett",
+  "date": "1900-09",
+  "holder": "University of Colorado Boulder (CU Digital Library)"
+ },
+ {
+  "id": "source:sanborn-1908-gillett",
+  "kind": "fire insurance map",
+  "title": "Sanborn Map Co., sheet 32: Gillett",
+  "date": "1908",
+  "holder": "University of Colorado Boulder (CU Digital Library)"
+ },
+ {
+  "id": "source:usgs-aerial-1962",
+  "kind": "aerial photograph",
+  "title": "USGS aerial photograph, frame FR-18-19",
+  "date": "1962-09-17",
+  "holder": "U.S. Geological Survey (EarthExplorer)"
+ },
+ {
+  "id": "source:usgs-aerial-1953",
+  "kind": "aerial photograph",
+  "title": "Army Map Service aerial photograph, frame 133-2193 (EarthExplorer entity ARA001330122193)",
+  "date": "1953-10-29",
+  "holder": "U.S. Geological Survey (EarthExplorer)"
+ },
+ {
+  "id": "source:rocky-mountain-news-1895-08-23",
+  "kind": "newspaper",
+  "title": "Rocky Mountain News, 23 August 1895: the bull ring's size",
+  "date": "1895-08-23",
+  "holder": "Colorado Historic Newspapers Collection"
+ },
+ {
+  "id": "source:project-notes",
+  "kind": "working notes",
+  "title": "Gillett project research notes (research/*.md)",
+  "date": "2026-11"
+ }
+]

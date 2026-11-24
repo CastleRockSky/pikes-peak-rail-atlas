@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gillett bull ring model</title>
+<style>
+  :root { --ink:#22201c; --paper:#f6f1e4; --line:#cfc5ab; --accent:#8a3b1e; --muted:#6b6557; }
+  html, body { height:100%; margin:0; overflow:hidden; }
+  body { font:14px/1.4 Georgia, "Times New Roman", serif; color:var(--ink); background:#b9c7d3; }
+  canvas { display:block; }
+  .card { position:absolute; z-index:10; background:var(--paper); border:1px solid var(--line); border-radius:6px;
+          box-shadow:0 2px 10px rgba(0,0,0,.35); padding:12px 14px; box-sizing:border-box; }
+  #panel { top:12px; left:12px; width:290px; max-height:calc(100% - 24px); overflow:auto; }
+  h1 { font-size:18px; margin:0 0 2px; }
+  p.sub { margin:0 0 10px; color:var(--muted); font-size:12.5px; }
+  fieldset { border:0; border-top:1px solid var(--line); margin:0; padding:8px 0 6px; }
+  legend { font-variant:small-caps; letter-spacing:.06em; color:var(--accent); padding:0 6px 0 0; font-size:13px; }
+  label { display:block; margin:3px 0; cursor:pointer; }
+  button.v { font:inherit; font-size:13px; margin:2px 4px 2px 0; padding:3px 9px; border:1px solid var(--line); border-radius:4px; background:#fffdf6; cursor:pointer; }
+  button.v:hover { border-color:var(--accent); }
+  .sw { display:inline-block; width:14px; height:10px; margin-right:6px; border:1px solid rgba(0,0,0,.4); }
+  .note { font-size:12px; color:var(--muted); margin:6px 0 0; }
+  #key div, #dims div { font-size:12.5px; margin:2px 0; }
+  #dims b { font-weight:600; }
+  #info { right:12px; top:12px; width:280px; display:none; }
+  #info h2 { font-size:15px; margin:0 0 4px; } #info p { margin:3px 0; font-size:13px; }
+  #info .x { position:absolute; right:8px; top:4px; cursor:pointer; font-size:18px; color:var(--muted); background:none; border:0; }
+  a { color:var(--accent); }
+  @media (max-width:600px) { #panel { width:calc(100% - 24px); max-height:45%; } #info { top:auto; bottom:12px; left:12px; right:12px; width:auto; } }
+</style>
+</head>
+<body>
+<div id="panel" class="card">
+  <h1>Bull ring, Gillett, August 1895</h1>
+  <p class="sub">The timber amphitheater built in the infield of the racetrack for the bullfight of 24 to 26 August 1895. Drag to orbit, scroll to zoom, click any part for its evidence.</p>
+  <fieldset>
+    <legend>View</legend>
+    <button class="v" data-view="hill">From the hill (1895 view)</button>
+    <button class="v" data-view="outside">Outside, ground level</button>
+    <button class="v" data-view="inside">From the seats</button>
+    <button class="v" data-view="arena">On the arena floor</button>
+    <button class="v" data-view="above">From above</button>
+  </fieldset>
+  <fieldset>
+    <legend>Colour</legend>
+    <label><input type="radio" name="mode" value="look" checked> Appearance</label>
+    <label><input type="radio" name="mode" value="evidence"> Evidence for each part</label>
+    <div id="key"></div>
+    <label><input type="checkbox" id="figures" checked> Figures for scale (5 ft 9 in)</label>
+    <label><input type="checkbox" id="slope" checked> On its sloping site (falls 3.5 ft to the south-south-west)</label>
+  </fieldset>
+  <fieldset>
+    <legend>Size</legend>
+    <label><input type="radio" name="size" value="news" checked> 150 ft arena (newspaper and photographs)</label>
+    <label><input type="radio" name="size" value="photo"> 160 ft overall (earlier reading)</label>
+  </fieldset>
+  <fieldset>
+    <legend>Dimensions</legend>
+    <div id="dims"></div>
+  </fieldset>
+  <p class="note">Sources: the Rocky Mountain News of 23-25 August 1895, whose correspondent described the ring while carpenters were finishing it, and the Denver Public Library's photographs, mostly by H.S. Poley. No drawing has been found.</p>
+  <p class="note"><a href="town3d.html">Town massing</a> &middot; <a href="depot.html">Depot</a> &middot; <a href="gillett.html">Base map</a></p>
+</div>
+<div id="info" class="card"><button class="x" aria-label="Close">&times;</button><div id="infobody"></div></div>
+
+<script>
+// These pages load their parts over http, which browsers refuse for a file opened straight from disk.
+if (location.protocol === 'file:') {
+  var page = location.pathname.split('/').pop();
+  var d = document.createElement('div');
+  d.style.cssText = 'position:fixed;left:50%;top:40%;transform:translate(-50%,-50%);max-width:520px;padding:22px 26px;background:#fff8e6;border:2px solid #b45309;border-radius:8px;font:16px/1.5 Georgia,serif;color:#222;z-index:99999;box-shadow:0 6px 24px rgba(0,0,0,.25)';
+  d.innerHTML = '<b>This page was opened as a file, so the model cannot load.</b><br><br>' +
+    'Double-click <b>start-site.bat</b> in the project folder, then open<br>' +
+    '<a href="http://localhost:8765/' + page + '">http://localhost:8765/' + page + '</a>';
+  document.addEventListener('DOMContentLoaded', function () { document.body.appendChild(d); });
+}
+</script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { buildBullring, colourByEvidence, EVIDENCE, ringDims, SITE_SLOPE, siteGround } from './models/bullring.js';
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xb9c7d3);
+scene.fog = new THREE.Fog(0xb9c7d3, 900, 4000);
+const camera = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 1, 8000);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.maxPolarAngle = Math.PI / 2 - 0.01; controls.minDistance = 5; controls.maxDistance = 1500;
+
+scene.add(new THREE.HemisphereLight(0xeaf1f7, 0xa39680, 1.9));
+const sun = new THREE.DirectionalLight(0xfff2dc, 2.6);
+sun.position.set(-260, 300, 220); sun.castShadow = true; sun.shadow.mapSize.set(4096, 4096);
+Object.assign(sun.shadow.camera, { left: -200, right: 200, top: 200, bottom: -200, near: 10, far: 1000 });
+sun.shadow.bias = -0.0006;
+scene.add(sun, sun.target);
+
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(9000, 9000), new THREE.MeshStandardMaterial({ color: 0xa79f7c, roughness: 1 }));
+ground.geometry.rotateX(-Math.PI / 2); ground.receiveShadow = true; scene.add(ground);
+let sloped = true;
+function tiltGround() {                                       // the plane z = east * x + north * n, with n = -z
+  const n = sloped ? new THREE.Vector3(-SITE_SLOPE.east, 1, SITE_SLOPE.north).normalize() : new THREE.Vector3(0, 1, 0);
+  ground.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), n);
+}
+tiltGround();
+
+let B = ringDims('news'), model = buildBullring(THREE, B, siteGround), mode = 'look';
+scene.add(model.group);
+
+const VIEWS = {
+  hill: [[215, 95, 190], [0, 6, 0]],
+  outside: [[0, 9, 250], [0, 8, 0]],
+  inside: [[0, 25, 76], [0, 4, -20]],
+  arena: [[0, 5.8, 42], [0, 5.5, -53]],
+  above: [[0, 380, 1], [0, 0, 0]],
+};
+let lastView = 'hill';
+function view(name) {
+  lastView = name;
+  const k = B.outer / 160, [p, t] = VIEWS[name];              // the views were set up for the 160 ft ring
+  camera.position.set(p[0] * k, p[1], p[2] * k); controls.target.set(t[0] * k, t[1], t[2] * k); controls.update();
+}
+view('hill');
+document.querySelectorAll('button[data-view]').forEach(b => b.addEventListener('click', () => view(b.dataset.view)));
+
+const hex = (c) => '#' + c.toString(16).padStart(6, '0');
+function showDims() {
+  const photo = B.size === 'photo';
+  document.getElementById('dims').innerHTML = [
+    ['Overall diameter', Math.round(B.outer) + ' ft', photo ? 'inferred' : 'photo'],
+    ['Arena diameter', Math.round(B.arena) + ' ft', photo ? 'inferred' : 'news'],
+    ['Barrier of cedar posts', B.barrier + ' ft high', 'news'],
+    ['Box platform', B.platform + ' ft wide, about ' + B.boxes + ' boxes', 'news'],
+    ['Tiers of benches', '' + B.rows, 'news'],
+    ['Top seats above ground', B.topSeat + ' ft', 'news'],
+    ['Seats claimed', '5,000 to 8,000', 'news'],
+    ['Bench in the model', B.benchFeet.toLocaleString() + ' ft, about ' + B.seats.toLocaleString() + ' seats', 'inferred'],
+  ].map(([k, v, ev]) => '<div><span class="sw" style="background:' + hex(EVIDENCE[ev].color) + '"></span>' + k + ': <b>' + v + '</b></div>').join('')
+    + '<div class="note">' + (photo
+      ? 'This reads the "about 160 feet" of the 25 August caption as the whole structure. It leaves a 100 ft arena and far fewer seats than claimed, and the snow photographs show a wider ring. Kept for comparison only.'
+      : 'The correspondent wrote that the arena was 150 ft across. Measured on the two snow photographs the ring is 8 to 9 times as wide as it is high, which is 190 to 220 ft overall, so the photographs agree. The depth of each tier (2 ft) is assumed.') + '</div>';
+}
+showDims();
+document.querySelectorAll('input[name=size]').forEach(r => r.addEventListener('change', () => {
+  scene.remove(model.group);
+  B = ringDims(r.value); model = buildBullring(THREE, B, sloped ? siteGround : null);
+  scene.add(model.group);
+  model.scale.visible = document.getElementById('figures').checked;
+  setMode(mode); showDims(); view(lastView);
+}));
+
+function setMode(m) {
+  mode = m;
+  colourByEvidence(model, mode === 'evidence');
+  document.getElementById('key').innerHTML = mode !== 'evidence' ? '' : Object.values(EVIDENCE).map(e =>
+    `<div><span class="sw" style="background:${hex(e.color)}"></span>${e.label}</div>`).join('');
+}
+document.querySelectorAll('input[name=mode]').forEach(r => r.addEventListener('change', () => setMode(r.value)));
+document.getElementById('figures').addEventListener('change', ev => { model.scale.visible = ev.target.checked; });
+document.getElementById('slope').addEventListener('change', ev => {
+  sloped = ev.target.checked; tiltGround();
+  scene.remove(model.group); model = buildBullring(THREE, B, sloped ? siteGround : null); scene.add(model.group);
+  model.scale.visible = document.getElementById('figures').checked; setMode(mode);
+});
+setMode('look');
+
+const ray = new THREE.Raycaster(), mouse = new THREE.Vector2();
+let down = null;
+renderer.domElement.addEventListener('pointerdown', ev => { down = [ev.clientX, ev.clientY]; });
+renderer.domElement.addEventListener('pointerup', ev => {
+  if (!down || Math.hypot(ev.clientX - down[0], ev.clientY - down[1]) > 4) return;
+  mouse.set(ev.clientX / innerWidth * 2 - 1, -(ev.clientY / innerHeight) * 2 + 1);
+  ray.setFromCamera(mouse, camera);
+  const hit = ray.intersectObjects(model.parts, false)[0], info = document.getElementById('info');
+  if (!hit) { info.style.display = 'none'; return; }
+  const u = hit.object.userData, cls = EVIDENCE[u.ev];
+  document.getElementById('infobody').innerHTML = `<h2>${u.part}</h2>
+    <p><span class="sw" style="background:${hex(cls.color)}"></span>${cls.label}</p><p>${u.note}</p>`;
+  info.style.display = 'block';
+});
+document.querySelector('#info .x').addEventListener('click', () => document.getElementById('info').style.display = 'none');
+addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); });
+window.ring = { scene, camera, controls, get model() { return model; }, get dims() { return B; }, view, setMode };
+renderer.setAnimationLoop(() => { controls.update(); renderer.render(scene, camera); });
+</script>
+</body>
+</html>

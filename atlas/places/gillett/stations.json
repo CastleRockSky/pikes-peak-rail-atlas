@@ -1,0 +1,990 @@
+[
+ {
+  "id": "station:gillett:south1897",
+  "name": "Panorama of 19 July 1897",
+  "grade": "inferred",
+  "basis": "solved by eye against the mapped town; checked from the other side",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p031",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.78351,
+  "lon": -105.11979,
+  "height_ft": 3,
+  "heading": 237.8,
+  "pitch": -5,
+  "roll": 2.4,
+  "fov": 56,
+  "cx": 3.7,
+  "cy": 0,
+  "method": "lined up by eye by the user against the traced 1896 buildings",
+  "controls": [],
+  "local": {
+   "key": "south1897",
+   "viewer": {
+    "title": "19 July 1897, after the storm (Tingvik collection)",
+    "image": null,
+    "solved": "2026-11-22",
+    "method": "lined up by eye by the user against the traced 1896 buildings",
+    "placed": [
+     {
+      "lat": 38.782576,
+      "lon": -105.12166,
+      "distance_ft": 635
+     },
+     {
+      "lat": 38.782368,
+      "lon": -105.121743,
+      "distance_ft": 698
+     },
+     {
+      "lat": 38.782669,
+      "lon": -105.121787,
+      "distance_ft": 649
+     },
+     {
+      "lat": 38.783044,
+      "lon": -105.121831,
+      "distance_ft": 609
+     }
+    ],
+    "w": 1440,
+    "h": 690,
+    "label": "Panorama of 19 July 1897",
+    "status": "solved by eye against the mapped town; checked from the other side",
+    "library": "p012"
+   }
+  },
+  "notes": "Lined up by eye by the user. A later least-squares fit was no better on any ground control and was not adopted (research/12)."
+ },
+ {
+  "id": "station:gillett:no331",
+  "name": "Panorama No. 331, about 1897",
+  "grade": "inferred",
+  "basis": "fitted to the Lodge Hall and 5th Street; its mountain skyline independently gives the same direction and field of view to about 1 degree",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p077",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.781053,
+  "lon": -105.128852,
+  "height_ft": 6,
+  "heading": 76.4,
+  "pitch": 1.3,
+  "roll": 0,
+  "fov": 43.5,
+  "cx": 0,
+  "cy": 0,
+  "method": "fitted to the Lodge Hall and Gillett Hotel edges, then adjusted by eye by Claude so the drawn 5th Street runs down the photographed street; not yet confirmed by the user",
+  "controls": [],
+  "local": {
+   "key": "no331",
+   "viewer": {
+    "title": "No. 331, about 1897, from the west (Edgar A. Yelton; Pikes Peak Library District)",
+    "image": "img/pano-1897-no331-ppld.jpg",
+    "solved": "2026-11-22",
+    "method": "fitted to the Lodge Hall and Gillett Hotel edges, then adjusted by eye by Claude so the drawn 5th Street runs down the photographed street; not yet confirmed by the user",
+    "w": 2250,
+    "h": 1352,
+    "label": "Panorama No. 331, about 1897",
+    "status": "fitted to the Lodge Hall and 5th Street; its mountain skyline independently gives the same direction and field of view to about 1 degree",
+    "library": "p077"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:southdpl",
+  "name": "View with the Congregational church",
+  "grade": "inferred",
+  "basis": "provisional: fitted to five points; station good to about 60 ft",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p056",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.783139,
+  "lon": -105.119443,
+  "height_ft": 5,
+  "heading": 245.1,
+  "pitch": -3,
+  "roll": 0,
+  "fov": 47,
+  "cx": 0,
+  "cy": 0,
+  "method": "grid search over the station, fitted to five points on mapped buildings (Lodge Hall roof corners, the east face of the building north of it, the foot of a two-storey grocery); stations fitting to 7-10 px lie about 200 ft south of the July 1897 station. This one also puts the church tower on its sight line from No. 331. Station good to perhaps 60 ft.",
+  "controls": [],
+  "local": {
+   "key": "southDPL",
+   "viewer": {
+    "title": "View from the east hill with the frame church in front (Denver Public Library)",
+    "image": "img/pano-south-dpl.jpg",
+    "solved": "2026-11-22 (provisional)",
+    "method": "grid search over the station, fitted to five points on mapped buildings (Lodge Hall roof corners, the east face of the building north of it, the foot of a two-storey grocery); stations fitting to 7-10 px lie about 200 ft south of the July 1897 station. This one also puts the church tower on its sight line from No. 331. Station good to perhaps 60 ft.",
+    "w": 1993,
+    "h": 1085,
+    "label": "View with the Congregational church",
+    "status": "provisional: fitted to five points; station good to about 60 ft",
+    "library": "p056"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x8658",
+  "name": "Parker Avenue, looking south",
+  "grade": "inferred",
+  "basis": "provisional: solved from 5 building corners, fitting to 9 px; picture centre assumed",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p060",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.782847,
+  "lon": -105.122051,
+  "height_ft": 5,
+  "heading": 165.5,
+  "pitch": 0,
+  "roll": 0,
+  "fov": 37.2,
+  "cx": 0,
+  "cy": -24.0,
+  "method": "tools/solve_street_cameras.py: Furnished Rooms, south corner; Lodge Hall, north corner; Lodge Hall, south corner; narrow two-storey, south corner; three-store block, south corner",
+  "controls": [],
+  "local": {
+   "key": "X8658",
+   "viewer": {
+    "title": "Gillett, Colo. Streets (Denver Public Library X-8658)",
+    "label": "Parker Avenue, looking south",
+    "image": "img/library/p060.jpg",
+    "w": 1999,
+    "h": 1162,
+    "library": "p060",
+    "solved": "2026-11-22 (provisional)",
+    "status": "provisional: solved from 5 building corners, fitting to 9 px; picture centre assumed",
+    "method": "tools/solve_street_cameras.py: Furnished Rooms, south corner; Lodge Hall, north corner; Lodge Hall, south corner; narrow two-storey, south corner; three-store block, south corner"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x8654",
+  "name": "Woodruff store and the Parker Avenue row",
+  "grade": "inferred",
+  "basis": "provisional: solved from 5 building corners, fitting to 5 px; picture centre assumed",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p057",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.781911,
+  "lon": -105.121968,
+  "height_ft": 5,
+  "heading": 29.1,
+  "pitch": 0,
+  "roll": 0,
+  "fov": 42.2,
+  "cx": 0,
+  "cy": -25.5,
+  "method": "tools/solve_street_cameras.py: Woodruff store, south corner; Woodruff store, north corner; three-store block, south corner; three-store block, north corner; narrow two-storey, north corner",
+  "controls": [],
+  "local": {
+   "key": "X8654",
+   "viewer": {
+    "title": "Papa & Mama and Glea in spring wagon (Denver Public Library X-8654)",
+    "label": "Woodruff store and the Parker Avenue row",
+    "image": "img/library/p057.jpg",
+    "w": 2000,
+    "h": 1239,
+    "library": "p057",
+    "solved": "2026-11-22 (provisional)",
+    "status": "provisional: solved from 5 building corners, fitting to 5 px; picture centre assumed",
+    "method": "tools/solve_street_cameras.py: Woodruff store, south corner; Woodruff store, north corner; three-store block, south corner; three-store block, north corner; narrow two-storey, north corner"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:p942",
+  "name": "The depot from the south-west",
+  "grade": "inferred",
+  "basis": "provisional: solved from 4 building corners, fitting to 7 px; picture centre assumed",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p040",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.781101,
+  "lon": -105.122982,
+  "height_ft": 5,
+  "heading": 21.2,
+  "pitch": 0,
+  "roll": 0,
+  "fov": 21.2,
+  "cx": 0,
+  "cy": -3.4,
+  "method": "tools/solve_street_cameras.py: south-west corner; south-east corner; bay meets the wall; bay, outer corner",
+  "controls": [],
+  "local": {
+   "key": "P942",
+   "viewer": {
+    "title": "Station Gillet (Denver Public Library P-942, H. S. Poley)",
+    "label": "The depot from the south-west",
+    "image": "img/library/p040.jpg",
+    "w": 1999,
+    "h": 1312,
+    "library": "p040",
+    "solved": "2026-11-22 (provisional)",
+    "status": "provisional: solved from 4 building corners, fitting to 7 px; picture centre assumed",
+    "method": "tools/solve_street_cameras.py: south-west corner; south-east corner; bay meets the wall; bay, outer corner"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x8601",
+  "name": "The bullfight from the east hill",
+  "grade": "inferred",
+  "basis": "solved roughly: looks west-south-west from the wooded slope east of the track. Direction fixed by the dome on the skyline (a hill 3.85 km west); position from the railway, the two track rails and the ring, to about 13 px. The lens angle is uncertain (the skyline right of the dome wants it narrower), so the standpoint could be 100 ft or more nearer or farther",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p049",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.789182,
+  "lon": -105.12076,
+  "height_ft": 5.5,
+  "heading": 258.4,
+  "pitch": -2.7,
+  "roll": 0,
+  "fov": 47.8,
+  "cx": 0,
+  "cy": 0,
+  "method": "tools/solve_ring_hill.py; ring solved at 38.789228, -105.122788 (86 ft north of its earlier mapped position)",
+  "controls": [],
+  "local": {
+   "key": "X8601",
+   "viewer": {
+    "title": "Gillett, Colo. bullfight (Denver Public Library X-8601, J. G. Wilson)",
+    "label": "The bullfight from the east hill",
+    "image": "img/library/p049.jpg",
+    "w": 1999,
+    "h": 1231,
+    "library": "p049",
+    "solved": "2026-11-22 (second solve)",
+    "status": "solved roughly: looks west-south-west from the wooded slope east of the track. Direction fixed by the dome on the skyline (a hill 3.85 km west); position from the railway, the two track rails and the ring, to about 13 px. The lens angle is uncertain (the skyline right of the dome wants it narrower), so the standpoint could be 100 ft or more nearer or farther",
+    "method": "tools/solve_ring_hill.py; ring solved at 38.789228, -105.122788 (86 ft north of its earlier mapped position)"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x8657",
+  "name": "5th Street looking east (position a guess)",
+  "grade": "inferred",
+  "basis": "rough: direction and field from the skyline (about 87 degrees, 27 degrees wide); the standpoint is a guess, good to perhaps 60 ft, and the buildings do not fit the map",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p059",
+  "place": "place:gillett",
+  "level": "direction",
+  "lat": 38.781384,
+  "lon": -105.126132,
+  "height_ft": 5,
+  "heading": 87.0,
+  "pitch": 3.0,
+  "roll": 0,
+  "fov": 27.0,
+  "cx": 0,
+  "cy": 0,
+  "method": "tools/skyline.py from an assumed standpoint at plat (-680, 30)",
+  "controls": [],
+  "local": {
+   "key": "X8657",
+   "viewer": {
+    "title": "Gillett, Colo. streets (Denver Public Library X-8657)",
+    "label": "5th Street looking east (position a guess)",
+    "image": "img/library/p059.jpg",
+    "w": 1999,
+    "h": 1193,
+    "library": "p059",
+    "solved": "not solved",
+    "status": "rough: direction and field from the skyline (about 87 degrees, 27 degrees wide); the standpoint is a guess, good to perhaps 60 ft, and the buildings do not fit the map",
+    "method": "tools/skyline.py from an assumed standpoint at plat (-680, 30)"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x8646",
+  "name": "Town from the east hill, looking west (second frame)",
+  "grade": "measured",
+  "basis": "solved: direction, tilt and lens from the knob on the skyline and the railway grade (agreeing with the separate skyline match, 276 degrees and 42 wide); position from the Congregational church in the foreground. Position good to perhaps 50 ft east-west and 10 ft north-south; the church corners still miss by 10 to 40 px",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p055",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.783070869943856,
+  "lon": -105.11933780219377,
+  "height_ft": 1.1746856556601415,
+  "heading": 276.0459449309094,
+  "pitch": 0.7829803486135907,
+  "roll": 0,
+  "fov": 40.96572912766146,
+  "cx": 0,
+  "cy": 0,
+  "method": "tools/solve_x8646.py",
+  "controls": [
+   {
+    "type": "structure",
+    "name": "Congregational church: gable apex",
+    "px": [
+     281,
+     1131
+    ],
+    "structure": "structure:gillett:congregational-church",
+    "local_ft": [
+     23,
+     0,
+     25.2
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "Congregational church: south eave of the front",
+    "px": [
+     166,
+     1272
+    ],
+    "structure": "structure:gillett:congregational-church",
+    "local_ft": [
+     23,
+     -10.5,
+     14.2
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "Congregational church: north eave of the front",
+    "px": [
+     393,
+     1257
+    ],
+    "structure": "structure:gillett:congregational-church",
+    "local_ft": [
+     23,
+     10.5,
+     14.2
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "Congregational church: north-east corner, foot",
+    "px": [
+     384,
+     1401
+    ],
+    "structure": "structure:gillett:congregational-church",
+    "local_ft": [
+     23,
+     10.5,
+     0
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "Congregational church: north-west corner, eave",
+    "px": [
+     469,
+     1251
+    ],
+    "structure": "structure:gillett:congregational-church",
+    "local_ft": [
+     -23,
+     10.5,
+     14.2
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "Congregational church: north-west corner, foot",
+    "px": [
+     469,
+     1369
+    ],
+    "structure": "structure:gillett:congregational-church",
+    "local_ft": [
+     -23,
+     10.5,
+     0
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "Congregational church: spire apex",
+    "px": [
+     134,
+     1028
+    ],
+    "structure": "structure:gillett:congregational-church",
+    "local_ft": [
+     18.65,
+     -14.85,
+     39.6
+    ]
+   },
+   {
+    "type": "line",
+    "name": "Midland Terminal grade across the middle of the picture",
+    "px": [
+     [
+      600,
+      1005
+     ],
+     [
+      900,
+      1008
+     ],
+     [
+      1200,
+      1012
+     ],
+     [
+      1500,
+      1012
+     ],
+     [
+      1900,
+      1003
+     ]
+    ],
+    "line": "line:midland-terminal",
+    "up_ft": 2,
+    "weight": 2
+   },
+   {
+    "type": "far",
+    "name": "summit of the knob on the skyline",
+    "px": [
+     688,
+     700
+    ],
+    "at": [
+     38.782645603772146,
+     -105.16644948324021
+    ],
+    "weight": 2
+   }
+  ],
+  "local": {
+   "key": "X8646",
+   "viewer": {
+    "title": "Town view with the frame church, second frame (Denver Public Library X-8646)",
+    "label": "Town from the east hill, looking west (second frame)",
+    "image": "img/library/p055.jpg",
+    "w": 2000,
+    "h": 1631,
+    "library": "p055",
+    "solved": "solved",
+    "status": "solved: direction, tilt and lens from the knob on the skyline and the railway grade (agreeing with the separate skyline match, 276 degrees and 42 wide); position from the Congregational church in the foreground. Position good to perhaps 50 ft east-west and 10 ft north-south; the church corners still miss by 10 to 40 px",
+    "method": "tools/solve_x8646.py"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x3936",
+  "name": "Catholic church from the south-west",
+  "grade": "measured",
+  "basis": "solved: direction, field and tilt from the Pikes Peak skyline (45.6 degrees, 55.8 wide, sharp minimum), confirmed by the eye level given by the wall lines; position from the height of the stone wall, good to about 10 ft",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p076",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.785908,
+  "lon": -105.125735,
+  "height_ft": 4.9,
+  "heading": 45.6,
+  "pitch": 3.4,
+  "roll": 0,
+  "fov": 55.8,
+  "cx": 0,
+  "cy": 0,
+  "method": "tools/skyline.py on a hand-traced skyline; vanishing point of the west wall",
+  "controls": [
+   {
+    "type": "skyline",
+    "name": "Pikes Peak skyline either side of the church, traced by hand",
+    "px": [
+     [
+      0,
+      440
+     ],
+     [
+      75,
+      446
+     ],
+     [
+      150,
+      451
+     ],
+     [
+      200,
+      465
+     ],
+     [
+      215,
+      458
+     ],
+     [
+      260,
+      472
+     ],
+     [
+      300,
+      468
+     ],
+     [
+      375,
+      459
+     ],
+     [
+      450,
+      448
+     ],
+     [
+      525,
+      438
+     ],
+     [
+      570,
+      430
+     ],
+     [
+      585,
+      426
+     ],
+     [
+      610,
+      435
+     ],
+     [
+      650,
+      438
+     ],
+     [
+      690,
+      431
+     ],
+     [
+      705,
+      430
+     ],
+     [
+      730,
+      442
+     ],
+     [
+      750,
+      448
+     ],
+     [
+      1500,
+      427
+     ],
+     [
+      1575,
+      435
+     ],
+     [
+      1650,
+      434
+     ],
+     [
+      1700,
+      445
+     ],
+     [
+      1750,
+      448
+     ],
+     [
+      1800,
+      448
+     ],
+     [
+      1850,
+      446
+     ],
+     [
+      1900,
+      443
+     ],
+     [
+      1950,
+      438
+     ],
+     [
+      1990,
+      436
+     ]
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "nave south-west corner, foot",
+    "px": [
+     1040,
+     875
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     9.5,
+     -10,
+     0
+    ],
+    "weight": 2
+   },
+   {
+    "type": "structure",
+    "name": "nave south-west corner, eave",
+    "px": [
+     1040,
+     601
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     9.5,
+     -10,
+     11.5
+    ],
+    "weight": 2
+   },
+   {
+    "type": "structure",
+    "name": "nave north-west corner, eave",
+    "px": [
+     505,
+     625
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     -22.5,
+     -10,
+     11.5
+    ],
+    "weight": 2
+   },
+   {
+    "type": "structure",
+    "name": "nave north-west corner, foot",
+    "px": [
+     505,
+     823
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     -22.5,
+     -10,
+     0
+    ],
+    "weight": 2
+   }
+  ],
+  "local": {
+   "key": "X3936",
+   "viewer": {
+    "title": "Catholic church, Muriel Wolle (Denver Public Library X-3936)",
+    "label": "Catholic church from the south-west",
+    "image": "img/library/p076.jpg",
+    "w": 1999,
+    "h": 1159,
+    "library": "p076",
+    "solved": "solved",
+    "status": "solved: direction, field and tilt from the Pikes Peak skyline (45.6 degrees, 55.8 wide, sharp minimum), confirmed by the eye level given by the wall lines; position from the height of the stone wall, good to about 10 ft",
+    "method": "tools/skyline.py on a hand-traced skyline; vanishing point of the west wall"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:church1935",
+  "name": "Catholic church from the south-west, about 1935",
+  "grade": "inferred",
+  "basis": "direction, field and tilt from the Pikes Peak skyline (45.5 degrees, 55.2 wide), an independent trace that agrees with the Wolle view; the standpoint is taken to be the same and is not solved separately",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p016",
+  "place": "place:gillett",
+  "level": "direction",
+  "lat": 38.785908,
+  "lon": -105.125735,
+  "height_ft": 4.9,
+  "heading": 45.5,
+  "pitch": 3.6,
+  "roll": 0,
+  "fov": 55.2,
+  "cx": 0,
+  "cy": 0,
+  "method": "tools/skyline.py on a hand-traced skyline",
+  "controls": [],
+  "local": {
+   "key": "church1935",
+   "viewer": {
+    "title": "Catholic church about 1935",
+    "label": "Catholic church from the south-west, about 1935",
+    "image": null,
+    "w": 1440,
+    "h": 804,
+    "library": "p016",
+    "solved": "direction only",
+    "status": "direction, field and tilt from the Pikes Peak skyline (45.5 degrees, 55.2 wide), an independent trace that agrees with the Wolle view; the standpoint is taken to be the same and is not solved separately",
+    "method": "tools/skyline.py on a hand-traced skyline"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x8650",
+  "name": "Church ruins from the north-east (rough)",
+  "grade": "inferred",
+  "basis": "rough: direction and field from the low hills behind (213 degrees, 46 wide, misfit 5 percent; a weaker alternative looks north-east); the standpoint is a guess at 150 ft",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p071",
+  "place": "place:gillett",
+  "level": "direction",
+  "lat": 38.786426,
+  "lon": -105.125209,
+  "height_ft": 5,
+  "heading": 212.6,
+  "pitch": 2.2,
+  "roll": 0,
+  "fov": 45.8,
+  "cx": 0,
+  "cy": 0,
+  "method": "tools/skyline.py on a hand-traced skyline",
+  "controls": [],
+  "local": {
+   "key": "X8650",
+   "viewer": {
+    "title": "Catholic church ruins (Denver Public Library X-8650)",
+    "label": "Church ruins from the north-east (rough)",
+    "image": "img/library/p071.jpg",
+    "w": 1999,
+    "h": 1336,
+    "library": "p071",
+    "solved": "direction only",
+    "status": "rough: direction and field from the low hills behind (213 degrees, 46 wide, misfit 5 percent; a weaker alternative looks north-east); the standpoint is a guess at 150 ft",
+    "method": "tools/skyline.py on a hand-traced skyline"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:postcard1919",
+  "name": "Catholic church from the south-east, 1919",
+  "grade": "measured",
+  "basis": "solved from four corners of the building at its measured facing; position good to about 8 ft, direction to about 3 degrees. Eye level is near the foot of the walls, far below the middle of the picture; drawn here as a camera tilted up 10 degrees, though the print may instead be a crop of a level view",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p035",
+  "place": "place:gillett",
+  "level": "solved",
+  "lat": 38.785896,
+  "lon": -105.125319,
+  "height_ft": 3.1,
+  "heading": 319.5,
+  "pitch": 9.9,
+  "roll": 0,
+  "fov": 43.7,
+  "cx": 0,
+  "cy": 0,
+  "method": "pixel columns of four building corners (scratch pc_solve.py); eye level from the eave line and the rising ground to the north-west",
+  "controls": [
+   {
+    "type": "structure",
+    "name": "vestibule south-west corner, foot",
+    "px": [
+     318,
+     737
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     22.5,
+     -10,
+     0
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "vestibule south-east corner, foot",
+    "px": [
+     655,
+     735
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     22.5,
+     10,
+     0
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "nave south-east corner, foot",
+    "px": [
+     875,
+     738
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     9.5,
+     10,
+     0
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "nave north-east corner, foot",
+    "px": [
+     1270,
+     722
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     -22.5,
+     10,
+     0
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "nave south-east corner, eave",
+    "px": [
+     880,
+     397
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     9.5,
+     10,
+     11.5
+    ]
+   },
+   {
+    "type": "structure",
+    "name": "nave north-east corner, eave",
+    "px": [
+     1265,
+     478
+    ],
+    "structure": "structure:gillett:catholic-church",
+    "local_ft": [
+     -22.5,
+     10,
+     11.5
+    ]
+   }
+  ],
+  "local": {
+   "key": "postcard1919",
+   "viewer": {
+    "title": "Catholic church at Gillett in 1919 (postcard)",
+    "label": "Catholic church from the south-east, 1919",
+    "image": null,
+    "w": 1440,
+    "h": 808,
+    "library": "p035",
+    "solved": "solved",
+    "status": "solved from four corners of the building at its measured facing; position good to about 8 ft, direction to about 3 degrees. Eye level is near the foot of the walls, far below the middle of the picture; drawn here as a camera tilted up 10 degrees, though the print may instead be a crop of a level view",
+    "method": "pixel columns of four building corners (scratch pc_solve.py); eye level from the eave line and the rising ground to the north-west"
+   }
+  }
+ },
+ {
+  "id": "station:gillett:x8644",
+  "name": "The town from the flats to the west, about 1900 (rough)",
+  "grade": "inferred",
+  "basis": "rough: looks east at about 88 degrees with a lens of about 43, from the Pikes Peak skyline traced by hand. The standpoint is on the flats about 3,000 ft west of the business blocks, a little north of the line of 5th Street: north-south it is fixed to about 100 ft by the Monte Carlo and the Congregational spire, east-west only to several hundred feet",
+  "sources": [
+   "source:project-notes"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "photo": "photo:gillett:p073",
+  "place": "place:gillett",
+  "level": "direction",
+  "lat": 38.781154,
+  "lon": -105.133978,
+  "height_ft": 5,
+  "heading": 88.0,
+  "pitch": -0.9,
+  "roll": 0,
+  "fov": 43.0,
+  "cx": 0,
+  "cy": 0,
+  "method": "tools/skyline.py on a hand-traced skyline over a grid of standpoints; columns of the Monte Carlo and the Congregational spire",
+  "controls": [],
+  "local": {
+   "key": "X8644",
+   "viewer": {
+    "title": "Gillett, circa 1900 (Denver Public Library X-8644)",
+    "label": "The town from the flats to the west, about 1900 (rough)",
+    "image": "img/library/p073.jpg",
+    "w": 2000,
+    "h": 1164,
+    "library": "p073",
+    "solved": "direction only",
+    "status": "rough: looks east at about 88 degrees with a lens of about 43, from the Pikes Peak skyline traced by hand. The standpoint is on the flats about 3,000 ft west of the business blocks, a little north of the line of 5th Street: north-south it is fixed to about 100 ft by the Monte Carlo and the Congregational spire, east-west only to several hundred feet",
+    "method": "tools/skyline.py on a hand-traced skyline over a grid of standpoints; columns of the Monte Carlo and the Congregational spire"
+   }
+  }
+ }
+]

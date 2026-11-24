@@ -1,0 +1,964 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1235,
+     38.7817
+    ]
+   },
+   "properties": {
+    "id": "place:gillett",
+    "name": "Gillett",
+    "valid_from": 1894,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "Platted townsite; position from three registered insurance sheets and 2024 lidar.",
+    "sources": [
+     "source:sanborn-1896-gillett",
+     "source:lidar-3dep-2024"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "town",
+    "elevation_ft": 9960,
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": null
+     }
+    ],
+    "local_frame": {
+     "origin": "north-west corner of block 49",
+     "u": "east along the streets",
+     "v": "north along the avenues",
+     "units": "ft",
+     "avenue_bearing_deg": -8.83,
+     "block_ft": [
+      210,
+      600
+     ],
+     "street_ft": 60,
+     "block_columns_u": [
+      -540,
+      -270,
+      0,
+      310,
+      580,
+      850,
+      1120
+     ],
+     "enu_origin": [
+      38.7817,
+      -105.1235
+     ]
+    },
+    "summary": "A Midland Terminal Railway town in Teller County, Colorado, platted in 1894 on the flats north-east of Cripple Creek. It peaked about 1896 to 1897, held the bullfight of August 1895 in a timber ring inside its racetrack, and faded after 1900. Nothing stands today but the ruin of the Catholic church.",
+    "open_questions": [
+     "Bull ring: position good to about 50 ft; the lens angle of the hill photograph (X-8601) is not settled.",
+     "5th Street photograph (X-8657): the standpoint is a guess and the building fronts do not fit the map.",
+     "Depot: the street side and the north end are conjecture.",
+     "Monte Carlo: orientation good only to about 20 degrees; wall height uncertain.",
+     "Catholic church: the north (rear) wall is not shown in any photograph.",
+     "Houses placed from the 1897 panorama on the far north-west slope may be 7 to 10 percent too near (evidence from three houses).",
+     "122 houses are illustrative placeholders: no photograph in hand gives their positions.",
+     "Which dam the 1965 flood photographs show."
+    ],
+    "local": {
+     "pages": [
+      {
+       "title": "Detailed map with the insurance sheets",
+       "href": "gillett.html"
+      },
+      {
+       "title": "The town in 3D, and standing where photographs were taken",
+       "href": "town3d.html"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.917113,
+     38.753512
+    ]
+   },
+   "properties": {
+    "id": "place:short-line-tunnel-4",
+    "name": "Short Line Tunnel No. 4 (the Granite Tunnel)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "Position of the bore from the OpenStreetMap trace of Gold Camp Road, which runs on the railway grade; to be checked against lidar. Identified as Tunnel No. 4 by its length: the trace is about 530 ft, and the Denver Public Library caption gives 521 ft for No. 4, the longest of the nine.",
+    "sources": [
+     "source:osm-gold-camp-road",
+     "source:dpl-mcc-83"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "The longest of the nine tunnels on the Colorado Springs and Cripple Creek District Railway, the Short Line, cut through granite without timbering: 521 ft. The line opened in April 1901 and was given up about 1920; its grade became a toll road and then Gold Camp Road. A curved timber trestle led to one portal.",
+    "open_questions": [
+     "The McClure photograph (MCC-83) shows the south portal: its camera solves there to 12 px, and only that portal has a hollow for the trestle. The north portal was not put through the solver, because the ground there has no hollow at all. The camera is good only to about 150 ft.",
+     "The tunnel numbering: sources disagree on which tunnels survive and how they are numbered. No. 4 here rests on the length alone.",
+     "Dates of the line (opened April 1901, abandoned about 1920 to 1922) are from secondary sources and need a primary one.",
+     "The portals read off the lidar are about 440 ft apart, against 521 ft in the library caption and about 530 ft on the map trace; the approach cuts may hide the true portals.",
+     "The trestle carried from the photograph to the ground comes out about 500 ft long and up to 70 ft high, but its far end misses the grade by about 45 ft, so its course is good only to about 100 ft. A second photograph, or the trestle footings on the ground, would fix it.",
+     "The portal was taken as 16 ft wide and 19 ft from rail to crown to give the photograph its scale. That is an assumption, not a measurement; the bore still exists and could be measured."
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.928562,
+     38.870974
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-a",
+    "name": "Colorado Midland tunnel, about 680 ft (number not established)",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99249992: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland Railway, about 680 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.929374,
+     38.867575
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-b",
+    "name": "Colorado Midland tunnel, about 210 ft (number not established)",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89496969: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland Railway, about 210 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.92956,
+     38.868247
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-c",
+    "name": "Colorado Midland tunnel, about 330 ft (number not established)",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89570001: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland Railway, about 330 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.930311,
+     38.875164
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-d",
+    "name": "Colorado Midland tunnel, about 140 ft (number not established)",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland Railway, about 140 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.930282,
+     38.873721
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-e",
+    "name": "Colorado Midland tunnel, about 170 ft (number not established)",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569998: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland Railway, about 170 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.933962,
+     38.875985
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-f",
+    "name": "Colorado Midland tunnel, about 240 ft (number not established)",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 89569990: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland Railway, about 240 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.885384,
+     38.798358
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-a",
+    "name": "Short Line tunnel, about 320 ft (number not established)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 117996143: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Springs and Cripple Creek District Railway (the Short Line), about 320 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.8981,
+     38.794323
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-b",
+    "name": "Short Line tunnel, about 180 ft (number not established)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568977: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Springs and Cripple Creek District Railway (the Short Line), about 180 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.904028,
+     38.739591
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-c",
+    "name": "Short Line tunnel, about 200 ft (number not established)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Springs and Cripple Creek District Railway (the Short Line), about 200 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.90767,
+     38.752827
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-d",
+    "name": "Short Line tunnel, about 250 ft (number not established)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569027: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Springs and Cripple Creek District Railway (the Short Line), about 250 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.907081,
+     38.786532
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-e",
+    "name": "Short Line tunnel, about 190 ft (number not established)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Springs and Cripple Creek District Railway (the Short Line), about 190 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.910015,
+     38.736611
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-f",
+    "name": "Short Line tunnel, about 270 ft (number not established)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Springs and Cripple Creek District Railway (the Short Line), about 270 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.025806,
+     38.731856
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-h",
+    "name": "Short Line tunnel, about 220 ft (number not established)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 99569089: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Springs and Cripple Creek District Railway (the Short Line), about 220 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.104881,
+     38.547588
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-tunnel-a",
+    "name": "Florence and Cripple Creek tunnel, about 290 ft (number not established)",
+    "valid_from": 1894,
+    "valid_to": 1915,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Florence and Cripple Creek Railroad, about 290 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.12489,
+     38.519581
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-tunnel-b",
+    "name": "Florence and Cripple Creek tunnel, about 190 ft (number not established)",
+    "valid_from": 1894,
+    "valid_to": 1915,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Florence and Cripple Creek Railroad, about 190 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.289436,
+     38.945825
+    ]
+   },
+   "properties": {
+    "id": "place:florissant",
+    "name": "Florissant",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap village of this name lies 120 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "town",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.158314,
+     38.743877
+    ]
+   },
+   "properties": {
+    "id": "place:fairview",
+    "name": "Fairview",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 40 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.161651,
+     38.858323
+    ]
+   },
+   "properties": {
+    "id": "place:midland",
+    "name": "Midland",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 770 ft from the midland terminal grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.157209,
+     38.941936
+    ]
+   },
+   "properties": {
+    "id": "place:divide",
+    "name": "Divide",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap village of this name lies 130 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "town",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.14998,
+     38.747766
+    ]
+   },
+   "properties": {
+    "id": "place:stratton",
+    "name": "Stratton",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 1350 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.015169,
+     38.934124
+    ]
+   },
+   "properties": {
+    "id": "place:green-mountain-falls",
+    "name": "Green Mountain Falls",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap village of this name lies 330 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "town",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.006648,
+     38.924435
+    ]
+   },
+   "properties": {
+    "id": "place:chipita-park",
+    "name": "Chipita Park",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 1020 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.954817,
+     38.741349
+    ]
+   },
+   "properties": {
+    "id": "place:rosemont",
+    "name": "Rosemont",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 100 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.972071,
+     38.896751
+    ]
+   },
+   "properties": {
+    "id": "place:cascade",
+    "name": "Cascade",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 210 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.912473,
+     38.742212
+    ]
+   },
+   "properties": {
+    "id": "place:duffield",
+    "name": "Duffield",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 60 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.917873,
+     38.858578
+    ]
+   },
+   "properties": {
+    "id": "place:manitou-springs",
+    "name": "Manitou Springs",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap town of this name lies 700 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "town",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  }
+ ]
+}

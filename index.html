@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pikes Peak Rail Atlas</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { margin: 0; height: 100%; font: 14px/1.45 Georgia, 'Times New Roman', serif; color: #2b2620; background: #f4f1e8; }
+  #map { position: absolute; inset: 0 0 0 360px; }
+  #side { position: absolute; inset: 0 auto 0 0; width: 360px; box-sizing: border-box; padding: 16px 16px 30px; overflow-y: auto; border-right: 1px solid #cfc7b3; }
+  h1 { font-size: 21px; margin: 0 0 6px; } h2 { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #8a5a2b; margin: 18px 0 6px; border-bottom: 1px solid #d8d0bd; padding-bottom: 3px; }
+  p { margin: 0 0 8px; } .note { color: #6b6253; font-size: 12.5px; } a { color: #7a4a16; }
+  #year { width: 100%; } #yearlabel { font-size: 30px; font-variant-numeric: tabular-nums; }
+  .line { display: block; margin: 5px 0; } .sw { display: inline-block; width: 22px; height: 0; border-top: 4px solid; margin-right: 7px; vertical-align: middle; }
+  .off { opacity: .38; } .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; border: 2px solid #fff; box-shadow: 0 0 0 1px #555; }
+  .leaflet-popup-content { font: 13px/1.4 Georgia, serif; max-width: 290px; } .pill { display: inline-block; padding: 0 7px; border-radius: 9px; font-size: 12px; color: #fff; }
+  #warn { display: none; background: #7c2d12; color: #fff; padding: 10px; margin-bottom: 10px; }
+  @media (max-width: 760px) { #side { position: static; width: auto; border-right: 0; } #map { position: static; height: 70vh; } }
+</style>
+</head>
+<body>
+<div id="side">
+  <div id="warn">This page must be opened from the local server (http://localhost:8765/region.html), not as a file.</div>
+  <h1>Pikes Peak Rail Atlas</h1>
+  <p><b>Railways of the Pikes Peak region</b></p>
+  <p class="note">The lines into the Cripple Creek district as they stood in a chosen year, and the places along them. Click a place to open it.</p>
+  <h2>Year</h2>
+  <div id="yearlabel">1900</div>
+  <input id="year" type="range" min="1885" max="1950" value="1900" step="1">
+  <p class="note" id="yearnote"></p>
+  <h2>Railways</h2><div id="lines"></div>
+  <h2>Places</h2>
+  <p><span class="dot" style="background:#b45309;width:14px;height:14px"></span>Worked up: has its own page</p>
+  <p><span class="dot" style="background:#475569"></span>Tunnel, pinned from the map</p>
+  <p><span class="dot" style="background:#94a3b8"></span>Settlement beside a line, pinned from the map</p>
+  <div id="places"></div>
+  <h2>What this is not, yet</h2>
+  <p class="note" id="caveat"></p>
+  <p class="note" id="attribution">Railway lines and place names: © OpenStreetMap contributors (Open Database Licence). Base maps and imagery: Esri. Elevation, historical maps and aerial photographs: U.S. Geological Survey. Insurance maps: Sanborn Map Company, 1896 to 1908, from the University of Colorado Boulder. Photographs are held by the institutions named with each and are shown by their permission; those not cleared for publication are linked, not shown. The atlas's own work (positions, camera stations, footprints, models and notes) is © Pikes Peak Rail Atlas, free to reuse with credit under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+</div>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+if (location.protocol === 'file:') document.getElementById('warn').style.display = 'block';
+const get = (u, fb) => fetch(u, { cache: 'no-store' }).then(r => r.ok ? r.json() : fb).catch(() => fb);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#b91c1c', 'line:cs-and-cc-district': '#15803d', 'line:florence-and-cripple-creek': '#a16207' };
+const map = L.map('map').setView([38.83, -105.05], 11);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Map: Esri and contributors' }).addTo(map);
+Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] })]).then(([lines, places]) => {
+  const segLayers = [];            // {layer, from, to, line}
+  for (const l of lines) for (const s of l.segments) {
+    const layer = L.geoJSON(s.geometry, { style: { color: COLOUR[l.id] || '#111', weight: 4, opacity: 0.9 } })
+      .bindPopup('<b>' + esc(l.name) + '</b><br>' + esc(s.valid_from || '?') + ' to ' + esc(s.valid_to || '?') + '<br><i>' + esc(s.grade) + ', good to ' + esc(s.error_ft) + ' ft</i><br>' + esc(s.basis));
+    segLayers.push({ layer, from: s.valid_from || 0, to: s.valid_to || 9999, line: l.id });
+  }
+  const lineBox = document.getElementById('lines'); const rows = {};
+  for (const l of lines) {
+    const d = document.createElement('div'); d.className = 'line';
+    d.innerHTML = '<span class="sw" style="border-color:' + (COLOUR[l.id] || '#111') + '"></span><b>' + esc(l.name) + '</b><br><span class="note">' + esc(l.valid_from) + ' to ' + esc(l.valid_to) + ' · ' + esc(l.gauge) + ' gauge · ' + esc(l.notes || '') + '</span>';
+    lineBox.appendChild(d); rows[l.id] = d;
+  }
+  const placeLayers = [];
+  const pbox = document.getElementById('places'); const worked = places.features.filter(f => f.properties.status !== 'draft');
+  for (const f of places.features) {
+    const p = f.properties, slug = p.id.split(':')[1], isWorked = p.status !== 'draft', [lon, lat] = f.geometry.coordinates;
+    const col = isWorked ? '#b45309' : (p.kind === 'tunnel' ? '#475569' : '#94a3b8');
+    const layer = L.circleMarker([lat, lon], { radius: isWorked ? 9 : 5, color: '#fff', weight: 2, fillColor: col, fillOpacity: 1 })
+      .bindPopup('<b>' + esc(p.name) + '</b><br>' + esc(p.kind) + (p.valid_from ? ', ' + p.valid_from + (p.valid_to ? ' to ' + p.valid_to : ' on') : '') +
+        '<br><span class="pill" style="background:' + ({ measured: '#15803d', inferred: '#d97706', conjecture: '#6b7280' }[p.grade]) + '">' + p.grade + '</span> ' + (p.error_ft == null ? '' : 'good to ' + p.error_ft + ' ft') +
+        '<br>' + esc(isWorked ? p.summary : p.basis) + (isWorked ? '<br><a href="place.html?place=' + slug + '"><b>Open this place</b></a>' : '<br><span class="note">A pin only: not worked up yet.</span>'));
+    placeLayers.push({ layer, from: p.valid_from || 0, to: p.valid_to || 9999, worked: isWorked });
+  }
+  pbox.innerHTML = worked.map(f => '<p><a href="place.html?place=' + f.properties.id.split(':')[1] + '">' + esc(f.properties.name) + '</a> <span class="note">' + f.properties.kind + '</span></p>').join('');
+  const km = lines.map(l => l.segments.length).reduce((a, b) => a + b, 0);
+  document.getElementById('caveat').textContent = 'The lines are OpenStreetMap\'s traces of the abandoned grades inside the corridors fetched so far (' + km + ' pieces), not the whole of each railway, and are checked against lidar only at the worked places. ' +
+    'The Florence and Cripple Creek is represented by two tunnels only. Settlements are pinned because they lie beside a grade, not because a stop there has been confirmed. ' +
+    (places.features.length - worked.length) + ' of ' + places.features.length + ' places are pins.';
+  const slider = document.getElementById('year');
+  function show() {
+    const y = +slider.value; document.getElementById('yearlabel').textContent = y; const open = new Set();
+    for (const s of segLayers) { const on = s.from <= y && y <= s.to; if (on) { open.add(s.line); if (!map.hasLayer(s.layer)) s.layer.addTo(map); } else if (map.hasLayer(s.layer)) map.removeLayer(s.layer); }
+    for (const p of placeLayers) { const on = p.worked ? true : (p.from <= y && y <= p.to); if (on) { if (!map.hasLayer(p.layer)) p.layer.addTo(map); } else if (map.hasLayer(p.layer)) map.removeLayer(p.layer); }
+    for (const id in rows) rows[id].classList.toggle('off', !open.has(id));
+    document.getElementById('yearnote').textContent = open.size ? open.size + ' of ' + lines.length + ' railways running.' : 'No railway running in this year.';
+  }
+  slider.oninput = show; show();
+  window.atlasRegion = { map, lines, places, show };
+});
+</script>
+</body>
+</html>

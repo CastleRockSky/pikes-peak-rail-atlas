@@ -1,0 +1,463 @@
+[
+ {
+  "id": "overlay:gillett:sanborn-1896",
+  "name": "Sanborn insurance sheet, 1896",
+  "valid_from": 1896,
+  "valid_to": 1896,
+  "grade": "measured",
+  "error_ft": 10,
+  "basis": "Registered to the plat grid on its street corners; residual 0.67 ft.",
+  "sources": [
+   "source:sanborn-1896-gillett"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "place": "place:gillett",
+  "kind": "sanborn",
+  "date": "1896",
+  "image": "img/1896-sheet21-gillett.jpg",
+  "corners": {
+   "topLeft": [
+    38.7832614,
+    -105.1245557
+   ],
+   "topRight": [
+    38.7837336,
+    -105.1207675
+   ],
+   "bottomLeft": [
+    38.7797986,
+    -105.1238341
+   ]
+  },
+  "fit": {
+   "method": "affine on plat street corners",
+   "residual_ft": 0.67,
+   "width": 6450,
+   "height": 7650,
+   "file": "1896-sheet21-gillett"
+  },
+  "local": {
+   "viewer": {
+    "file": "1896-sheet21-gillett",
+    "width": 6450,
+    "height": 7650,
+    "rms_ft": 0.67,
+    "topLeft": [
+     38.7832614,
+     -105.1245557
+    ],
+    "topRight": [
+     38.7837336,
+     -105.1207675
+    ],
+    "bottomLeft": [
+     38.7797986,
+     -105.1238341
+    ]
+   },
+   "key": "1896"
+  }
+ },
+ {
+  "id": "overlay:gillett:sanborn-1900",
+  "name": "Sanborn insurance sheet, 1900",
+  "valid_from": 1900,
+  "valid_to": 1900,
+  "grade": "measured",
+  "error_ft": 10,
+  "basis": "Registered to the plat grid on its street corners; residual 0.75 ft.",
+  "sources": [
+   "source:sanborn-1900-gillett"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "place": "place:gillett",
+  "kind": "sanborn",
+  "date": "1900",
+  "image": "img/1900-sheet20-gillett.jpg",
+  "corners": {
+   "topLeft": [
+    38.7832884,
+    -105.124571
+   ],
+   "topRight": [
+    38.7837534,
+    -105.1207444
+   ],
+   "bottomLeft": [
+    38.7797971,
+    -105.1238729
+   ]
+  },
+  "fit": {
+   "method": "affine on plat street corners",
+   "residual_ft": 0.75,
+   "width": 6450,
+   "height": 7650,
+   "file": "1900-sheet20-gillett"
+  },
+  "local": {
+   "viewer": {
+    "file": "1900-sheet20-gillett",
+    "width": 6450,
+    "height": 7650,
+    "rms_ft": 0.75,
+    "topLeft": [
+     38.7832884,
+     -105.124571
+    ],
+    "topRight": [
+     38.7837534,
+     -105.1207444
+    ],
+    "bottomLeft": [
+     38.7797971,
+     -105.1238729
+    ]
+   },
+   "key": "1900"
+  }
+ },
+ {
+  "id": "overlay:gillett:sanborn-1908",
+  "name": "Sanborn insurance sheet, 1908",
+  "valid_from": 1908,
+  "valid_to": 1908,
+  "grade": "measured",
+  "error_ft": 10,
+  "basis": "Registered to the plat grid on its street corners; residual 0.68 ft.",
+  "sources": [
+   "source:sanborn-1908-gillett"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "place": "place:gillett",
+  "kind": "sanborn",
+  "date": "1908",
+  "image": "img/1908-sheet32-gillett.jpg",
+  "corners": {
+   "topLeft": [
+    38.7832841,
+    -105.1245688
+   ],
+   "topRight": [
+    38.7837247,
+    -105.1207598
+   ],
+   "bottomLeft": [
+    38.7797854,
+    -105.1238948
+   ]
+  },
+  "fit": {
+   "method": "affine on plat street corners",
+   "residual_ft": 0.68,
+   "width": 6450,
+   "height": 7650,
+   "file": "1908-sheet32-gillett"
+  },
+  "local": {
+   "viewer": {
+    "file": "1908-sheet32-gillett",
+    "width": 6450,
+    "height": 7650,
+    "rms_ft": 0.68,
+    "topLeft": [
+     38.7832841,
+     -105.1245688
+    ],
+    "topRight": [
+     38.7837247,
+     -105.1207598
+    ],
+    "bottomLeft": [
+     38.7797854,
+     -105.1238948
+    ]
+   },
+   "key": "1908"
+  }
+ },
+ {
+  "id": "overlay:gillett:usgs-1894",
+  "name": "USGS Pikes Peak, 1:125,000, edition of 1894",
+  "valid_from": 1894,
+  "valid_to": 1894,
+  "grade": "measured",
+  "error_ft": 400,
+  "basis": "Reprojected from the USGS GeoTIFF with the NAD27 shift applied. ",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "Surveyed 1892-93, as the camp was starting. Very small scale: the whole town is a quarter of an inch.",
+  "place": "place:gillett",
+  "kind": "usgs-topo",
+  "date": "1894",
+  "image": "img/usgs-1894.jpg",
+  "bounds": [
+   [
+    38.7725,
+    -105.1345
+   ],
+   [
+    38.7945,
+    -105.1075
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published"
+  },
+  "local": {
+   "viewer": {
+    "year": "1894",
+    "title": "USGS Pikes Peak, 1:125,000, edition of 1894",
+    "note": "Surveyed 1892-93, as the camp was starting. Very small scale: the whole town is a quarter of an inch.",
+    "file": "img/usgs-1894.jpg"
+   }
+  }
+ },
+ {
+  "id": "overlay:gillett:usgs-1901",
+  "name": "USGS Pikes Peak special, 1:62,500, 1901",
+  "valid_from": 1901,
+  "valid_to": 1901,
+  "grade": "measured",
+  "error_ft": 200,
+  "basis": "Reprojected from the USGS GeoTIFF with the NAD27 shift applied. ",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "The district at its peak, an inch to the mile. Shows the railways and the town as a block of streets.",
+  "place": "place:gillett",
+  "kind": "usgs-topo",
+  "date": "1901",
+  "image": "img/usgs-1901.jpg",
+  "bounds": [
+   [
+    38.7725,
+    -105.1345
+   ],
+   [
+    38.7945,
+    -105.1075
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published"
+  },
+  "local": {
+   "viewer": {
+    "year": "1901",
+    "title": "USGS Pikes Peak special, 1:62,500, 1901",
+    "note": "The district at its peak, an inch to the mile. Shows the railways and the town as a block of streets.",
+    "file": "img/usgs-1901.jpg"
+   }
+  }
+ },
+ {
+  "id": "overlay:gillett:usgs-1951",
+  "name": "USGS Cripple Creek North and Pikes Peak, 1:24,000, 1951",
+  "valid_from": 1951,
+  "valid_to": 1951,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Reprojected from the USGS GeoTIFF with the NAD27 shift applied. ",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "From aerial photographs of about 1947-49: the last buildings, the lake below the Monte Carlo and the reservoirs, before the 1965 flood.",
+  "place": "place:gillett",
+  "kind": "usgs-topo",
+  "date": "1951",
+  "image": "img/usgs-1951.jpg",
+  "bounds": [
+   [
+    38.7725,
+    -105.1345
+   ],
+   [
+    38.7945,
+    -105.1075
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published"
+  },
+  "local": {
+   "viewer": {
+    "year": "1951",
+    "title": "USGS Cripple Creek North and Pikes Peak, 1:24,000, 1951",
+    "note": "From aerial photographs of about 1947-49: the last buildings, the lake below the Monte Carlo and the reservoirs, before the 1965 flood.",
+    "file": "img/usgs-1951.jpg"
+   }
+  }
+ },
+ {
+  "id": "overlay:gillett:aerial-1953",
+  "name": "Aerial photograph, 29 October 1953 (Army Map Service, frame 133-2193)",
+  "valid_from": 1953,
+  "valid_to": 1953,
+  "grade": "measured",
+  "error_ft": 115,
+  "basis": "Fitted by hand to the racetrack and railway. 30 to 40 m in the town, worse on the hills",
+  "sources": [
+   "source:usgs-aerial-1953"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "Four years after the railway closed. Coarse (4 m per pixel), but it shows water still standing in the lake bed below the Monte Carlo, and the highway newly laid on the old grade.",
+  "place": "place:gillett",
+  "kind": "aerial",
+  "date": "1953",
+  "image": "img/aerial-1953.jpg",
+  "bounds": [
+   [
+    38.7725,
+    -105.1345
+   ],
+   [
+    38.7945,
+    -105.1075
+   ]
+  ],
+  "fit": {
+   "method": "three-point similarity",
+   "note": "30 to 40 m in the town, worse on the hills"
+  },
+  "local": {
+   "viewer": {
+    "year": "1953",
+    "title": "Aerial photograph, 29 October 1953 (Army Map Service, frame 133-2193)",
+    "note": "Four years after the railway closed. Coarse (4 m per pixel), but it shows water still standing in the lake bed below the Monte Carlo, and the highway newly laid on the old grade.",
+    "file": "img/aerial-1953.jpg",
+    "accuracy": "30 to 40 m in the town, worse on the hills"
+   }
+  }
+ },
+ {
+  "id": "overlay:gillett:aerial-1962",
+  "name": "Aerial photograph, 17 September 1962 (USGS, frame FR-18-19)",
+  "valid_from": 1962,
+  "valid_to": 1962,
+  "grade": "measured",
+  "error_ft": 50,
+  "basis": "Fitted by hand to the racetrack and railway. about 15 m near the racetrack and railway, worse on the hills",
+  "sources": [
+   "source:usgs-aerial-1962"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "Three years before the flood. Shows the airstrip, the last buildings by the highway bend, the drained lake bed below the Monte Carlo, and the reservoirs up the valley still full.",
+  "place": "place:gillett",
+  "kind": "aerial",
+  "date": "1962",
+  "image": "img/aerial-1962.jpg",
+  "bounds": [
+   [
+    38.7725,
+    -105.1345
+   ],
+   [
+    38.7945,
+    -105.1075
+   ]
+  ],
+  "detail": "img/aerial-1962-town.jpg",
+  "fit": {
+   "method": "three-point similarity",
+   "note": "about 15 m near the racetrack and railway, worse on the hills"
+  },
+  "local": {
+   "viewer": {
+    "year": "1962",
+    "title": "Aerial photograph, 17 September 1962 (USGS, frame FR-18-19)",
+    "note": "Three years before the flood. Shows the airstrip, the last buildings by the highway bend, the drained lake bed below the Monte Carlo, and the reservoirs up the valley still full.",
+    "file": "img/aerial-1962.jpg",
+    "detail": "img/aerial-1962-town.jpg",
+    "accuracy": "about 15 m near the racetrack and railway, worse on the hills"
+   }
+  }
+ },
+ {
+  "id": "overlay:gillett:usgs-1994",
+  "name": "USGS Cripple Creek North and Pikes Peak, 1:24,000, 1994",
+  "valid_from": 1994,
+  "valid_to": 1994,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Reprojected from the USGS GeoTIFF with the NAD27 shift applied. ",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "notes": "After the flood. Not every water feature was revised, so the lake still appears.",
+  "place": "place:gillett",
+  "kind": "usgs-topo",
+  "date": "1994",
+  "image": "img/usgs-1994.jpg",
+  "bounds": [
+   [
+    38.7725,
+    -105.1345
+   ],
+   [
+    38.7945,
+    -105.1075
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published"
+  },
+  "local": {
+   "viewer": {
+    "year": "1994",
+    "title": "USGS Cripple Creek North and Pikes Peak, 1:24,000, 1994",
+    "note": "After the flood. Not every water feature was revised, so the lake still appears.",
+    "file": "img/usgs-1994.jpg"
+   }
+  }
+ },
+ {
+  "id": "overlay:gillett:lidar-relief-2024",
+  "name": "Lidar local relief, 2024",
+  "valid_from": 2024,
+  "valid_to": 2024,
+  "grade": "measured",
+  "error_ft": 3,
+  "basis": "USGS 3DEP 1 m lidar; local relief and hillshade computed from the tile. The 3 ft is the grid, not a tested accuracy.",
+  "sources": [
+   "source:lidar-3dep-2024"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-23",
+  "place": "place:gillett",
+  "kind": "lidar-relief",
+  "date": "2024",
+  "fit": {
+   "method": "georeferenced at source"
+  },
+  "image": "img/lidar-relief.png"
+ }
+]
