@@ -7,13 +7,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "small one-room cabin alone on open treeless grassland. Walls of vertical logs/slabs with bark; low gable roof covered with sod/earth; short stovepipe at ridge. Gable-end door and a second panel both covered in sheet material fastened with rows of light-colored tacks/washers. Wooden bench/washstand by door, cloth hanging, barrel and crate at left, clothes pole on crossed sticks with a garment, pile of split wood and boards at right, barrel at rear corner, two poles propped against the eave. Flat horizon, no buildings or peaks.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "undated; postcard lettering style suggests c.1900-1920 (inference). Direction unknown.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is not established.",
+  "image": "img/library/p001.jpg",
+  "thumb": "img/library/t/p001.jpg",
   "w": 2000,
   "h": 1144,
   "shows": [],
@@ -24,6 +26,7 @@
   "kind": "photograph",
   "local": {
    "viewer": {
+    "file": "480918734_1000146918846925_5274085075238148838_n.jpg",
     "title": "small one-room cabin alone on open treeless grassland",
     "subject": "small one-room cabin alone on open treeless grassland. Walls of vertical logs/slabs with bark; low gable roof covered with sod/earth; short stovepipe at ridge. Gable-end door and a second panel both covered in sheet material fastened with rows of light-colored tacks/washers. Wooden bench/washstand by door, cloth hanging, barrel and crate at left, clothes pole on crossed sticks with a garment, pile of split wood and boards at right, barrel at rear corner, two poles propped against the eave. Flat horizon, no buildings or peaks.",
     "text": "on-print, white hand lettering: \"CABIN NEAR GILLETTE\" (final letters run to the edge).",
@@ -35,6 +38,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p001",
+    "img": "img/library/p001.jpg",
+    "thumb": "img/library/t/p001.jpg",
     "w": 2000,
     "h": 1144,
     "topics": [
@@ -45,7 +50,8 @@
    }
   },
   "valid_from": 1900,
-  "valid_to": 1900
+  "valid_to": 1900,
+  "credit": "Public domain."
  },
  {
   "id": "photo:gillett:p002",
@@ -172,13 +178,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "view straight down a dirt street lined with utility poles toward a boulder-strewn, conifer-covered slope. Left side: one- and two-story frame false-front buildings, metal-roofed sheds, a log structure. Right side: board-fenced yard and long shed in foreground, a log cabin at far right, frame buildings beyond, a long building with a dark roof and two small dormers, and at far right a two-story building with large upper windows. Many people and horses/wagons along the street; a crowd at the far end of the street at the foot of the slope. A small flag on a pole mid-street. Railroad cars are not clearly visible in this crop.",
   "place": "place:gillett",
-  "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
+  "holder": "Pikes Peak Library District (a detail of the No. 331 panorama, photo:gillett:p077)",
   "date": "same source image as the \"No. 331\" panorama, dated 1897 on slide 907755478. Looks along the street toward the slope that the full panorama shows beneath the high bare massif; if that massif is the Pikes Peak group (lies east/northeast of Gillett), the view is roughly northeast to east. Inference, not confirmed.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is as given under holder.",
+  "image": "img/library/p004.jpg",
+  "thumb": "img/library/t/p004.jpg",
   "w": 1924,
   "h": 1140,
   "shows": [
@@ -193,6 +201,7 @@
   "kind": "photograph",
   "local": {
    "viewer": {
+    "file": "490994470_9964177896946674_8329206288100672116_n.jpg",
     "title": "view straight down a dirt street lined with utility poles toward a boulder-strewn, conifer-covered slope",
     "subject": "view straight down a dirt street lined with utility poles toward a boulder-strewn, conifer-covered slope. Left side: one- and two-story frame false-front buildings, metal-roofed sheds, a log structure. Right side: board-fenced yard and long shed in foreground, a log cabin at far right, frame buildings beyond, a long building with a dark roof and two small dormers, and at far right a two-story building with large upper windows. Many people and horses/wagons along the street; a crowd at the far end of the street at the foot of the slope. A small flag on a pole mid-street. Railroad cars are not clearly visible in this crop.",
     "text": "none.",
@@ -204,6 +213,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p004",
+    "img": "img/library/p004.jpg",
+    "thumb": "img/library/t/p004.jpg",
     "w": 1924,
     "h": 1140,
     "topics": [
@@ -216,7 +227,8 @@
    }
   },
   "valid_from": 1897,
-  "valid_to": 1897
+  "valid_to": 1897,
+  "credit": "Public domain. Pikes Peak Library District."
  },
  {
   "id": "photo:gillett:p005",
@@ -226,13 +238,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "elevated panorama of the town. Right foreground: a wood-frame church, front-gabled, horizontal siding with a different pattern (shingle or diagonal boarding) in the gable, a three-part window in the gable end, a corner entry tower with open belfry stage and tall pyramidal spire, two side windows visible, sheds behind. Left foreground: a tall plain gabled barn-like building, two privies, a road junction. Middle: the business district, several two-story flat-roofed or false-front blocks including one light-colored two-story block with regular window rows (possibly masonry), and a large long two-story building; ladders/poles against one wall. Beyond: scattered houses, a road climbing a grassy slope to the right, wooded hills, and a pointed conical peak at the far right skyline. A long low line at the far left middle distance may be railroad grade/cars (not certain).",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "undated; town appears fully built, so c.1896-1900 (inference). Direction unknown; the conical peak at right is a potential landmark for matching to terrain.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is not established.",
+  "image": "img/library/p005.jpg",
+  "thumb": "img/library/t/p005.jpg",
   "w": 1993,
   "h": 1085,
   "shows": [
@@ -248,6 +262,7 @@
   "kind": "photograph",
   "local": {
    "viewer": {
+    "file": "688071062_10224707246509149_5137032850578872467_n.jpg",
     "title": "elevated panorama of the town",
     "subject": "elevated panorama of the town. Right foreground: a wood-frame church, front-gabled, horizontal siding with a different pattern (shingle or diagonal boarding) in the gable, a three-part window in the gable end, a corner entry tower with open belfry stage and tall pyramidal spire, two side windows visible, sheds behind. Left foreground: a tall plain gabled barn-like building, two privies, a road junction. Middle: the business district, several two-story flat-roofed or false-front blocks including one light-colored two-story block with regular window rows (possibly masonry), and a large long two-story building; ladders/poles against one wall. Beyond: scattered houses, a road climbing a grassy slope to the right, wooded hills, and a pointed conical peak at the far right skyline. A long low line at the far left middle distance may be railroad grade/cars (not certain).",
     "text": "none.",
@@ -259,6 +274,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p005",
+    "img": "img/library/p005.jpg",
+    "thumb": "img/library/t/p005.jpg",
     "w": 1993,
     "h": 1085,
     "topics": [
@@ -271,7 +288,8 @@
    }
   },
   "valid_from": 1896,
-  "valid_to": 1896
+  "valid_to": 1896,
+  "credit": "Public domain."
  },
  {
   "id": "photo:gillett:p006",
@@ -281,13 +299,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "street-level view down a wide dirt business street. Left side, near to far: a two-story clapboard building with a board sidewalk/porch and a horizontal sign on posts reading \"FURNISHED ROOMS\" (a man stands on a ladder beside it; a fallen picket section lies in front); a small one-story false front with a faint sign reading \"MEAT MARKET\"; a taller two-story building with four round-arched upper windows and a scalloped canvas awning; further two-story false fronts with striped awnings; a street clock on a post. A row of men on the sidewalk, a two-horse wagon/carriage, a mounted rider. Tall poles with cross-arms line the left side; a line of shorter poles recedes on the right. Right side: lower one-story buildings with signs, partly legible: \"MEAT M[...]\", \"LODGING\", and another reading approximately \"MEALS\" / \"SALOON\" (uncertain). Low wooded hill closes the street.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "c.1895-1900 by content (inference). Direction unknown. The \"FURNISHED ROOMS\" sign on posts matches the one in 912722897 (John Heslin House, captioned \"5th and Newell\"), so this is probably the same corner seen looking along the street; treat as probable, not proven.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is not established.",
+  "image": "img/library/p006.jpg",
+  "thumb": "img/library/t/p006.jpg",
   "w": 1999,
   "h": 1162,
   "shows": [],
@@ -298,6 +318,7 @@
   "kind": "photograph",
   "local": {
    "viewer": {
+    "file": "688926432_10224707273509824_2902602751285796552_n.jpg",
     "title": "street-level view down a wide dirt business street",
     "subject": "street-level view down a wide dirt business street. Left side, near to far: a two-story clapboard building with a board sidewalk/porch and a horizontal sign on posts reading \"FURNISHED ROOMS\" (a man stands on a ladder beside it; a fallen picket section lies in front); a small one-story false front with a faint sign reading \"MEAT MARKET\"; a taller two-story building with four round-arched upper windows and a scalloped canvas awning; further two-story false fronts with striped awnings; a street clock on a post. A row of men on the sidewalk, a two-horse wagon/carriage, a mounted rider. Tall poles with cross-arms line the left side; a line of shorter poles recedes on the right. Right side: lower one-story buildings with signs, partly legible: \"MEAT M[...]\", \"LODGING\", and another reading approximately \"MEALS\" / \"SALOON\" (uncertain). Low wooded hill closes the street.",
     "text": "signage as above; no caption or archive mark.",
@@ -309,6 +330,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p006",
+    "img": "img/library/p006.jpg",
+    "thumb": "img/library/t/p006.jpg",
     "w": 1999,
     "h": 1162,
     "topics": [
@@ -319,7 +342,8 @@
    }
   },
   "valid_from": 1895,
-  "valid_to": 1895
+  "valid_to": 1895,
+  "credit": "Public domain."
  },
  {
   "id": "photo:gillett:p007",
@@ -329,13 +353,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "left-center portion of the town panorama. Foreground: log cabins, board sheds, frame houses with gable roofs, lumber piles, a wagon. Middle: a line of railroad boxcars runs across behind the houses; two-story frame buildings; at the right edge the spired church and commercial blocks. Background: a bare grassy rise and, at the forest edge above, a wide light-colored building with a large roof and three small gables/dormers on its front, with people, horses and wagons gathered before it and figures on the slope.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "source panorama dated 1897 on slide 907755478. Same direction as the panorama (see file 12).",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 806,
   "shows": [
@@ -381,21 +405,23 @@
  },
  {
   "id": "photo:gillett:p008",
-  "name": "left: advertisement",
+  "name": "Advertisement: \"Look out for the boom! Gillett\", Beaver Park Land Co., September 1894",
   "grade": "inferred",
   "basis": "As supplied to the project; the original holder and date are not confirmed.",
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
-  "notes": "left: advertisement. Right: studio photo of two seated men in suits reading papers.",
+  "updated": "2026-11-24",
+  "notes": "Shown cropped to: Advertisement: \"Look out for the boom! Gillett\", Beaver Park Land Co., September 1894. Description of the whole slide: left: advertisement. Right: studio photo of two seated men in suits reading papers.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "ad 1894; n/a.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
-  "w": 1440,
-  "h": 946,
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is a slide shown by the Victor Heritage Society, cropped here to the original item alone; the Society's captions and the rest of the slide are not reproduced (the uncropped slide is kept as a research copy, local.original_image).",
+  "image": "img/library/pd/p008.jpg",
+  "thumb": "img/library/pd/t/p008.jpg",
+  "w": 554,
+  "h": 836,
   "shows": [
    "structure:gillett:bull-ring",
    "structure:gillett:monte-carlo"
@@ -409,7 +435,8 @@
   "kind": "document",
   "local": {
    "viewer": {
-    "title": "left: advertisement",
+    "file": "907686309_1459188912852517_4611647201513395458_n.jpg",
+    "title": "Advertisement: \"Look out for the boom! Gillett\", Beaver Park Land Co., September 1894",
     "subject": "left: advertisement. Right: studio photo of two seated men in suits reading papers.",
     "text": "ad: \"LOOK OUT FOR THE BOOM! GILLETT Is the coming town of the Cripple Creek District. A fine new hotel will soon be erected and numerous improvements are contracted for and under way. GILLETT LOTS Are bound to double in price within a short time. Now is the time to buy. Lots for sale by the Beaver Park Land Co For Terms Apply to CHARLES KINNEY, Agent on the Ground. Or to TUTT & PENROSE, Cripple Creek, Colo.\" with added label \"September 1894\". Photo caption on slide: \"Spencer Penrose and Charles Tutt\". Slide text: \"Gillett —Real Estate Speculators Tutt and Penrose platted Gillett on January 8, 1894 and began selling lots in September 1894. —Promoter Joseph H. Wolfe built a Racetrack in Gillett as early as October 1894. His Monte Carlo Hotel opened on March 31, 1895. —Wolfe is best known for bringing the Great Mexican Bull Fight to Gillett on August 24th, 25th, and 26th of 1895.\"",
     "date": "ad 1894; n/a.",
@@ -420,8 +447,10 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p008",
-    "w": 1440,
-    "h": 946,
+    "img": "img/library/pd/p008.jpg",
+    "thumb": "img/library/pd/t/p008.jpg",
+    "w": "554",
+    "h": "836",
     "topics": [
      "bullring",
      "montecarlo",
@@ -429,10 +458,18 @@
     ],
     "year": 1894,
     "source": "project"
-   }
+   },
+   "original_image": "img/library/p008.jpg",
+   "crop_percent": [
+    1.8,
+    8.5,
+    40.3,
+    96.8
+   ]
   },
   "valid_from": 1894,
-  "valid_to": 1894
+  "valid_to": 1894,
+  "credit": "Public domain. Copy from a slide shown by the Victor Heritage Society."
  },
  {
   "id": "photo:gillett:p009",
@@ -442,13 +479,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "the \"No. 331\" town panorama (see file 12 for full description), slightly cropped, with overlays.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "1897 per slide caption. Direction: see file 12.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 810,
   "shows": [],
@@ -549,13 +586,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "main image (\"Then\"): elevated view from a hillside with conifers in the left foreground and a vertical-board fence at lower right. Lower right: the circular bullring, a ring of tiered open bleachers on a dense timber trestle frame, crowded with spectators; an inner ring wall; horses, wagons and people outside. In front of it curves the fenced horse track with inner and outer rail fences. Left of the ring: a large wall tent with a peaked roof, wagons and animals. Behind: a long board fence and a small gabled building, then a train with a smoking locomotive at left on a line running across the frame. A few small buildings beyond the track at left; rolling treeless ground and wooded hills behind. Inset (\"Now\"): color photo of empty grassland from a similar viewpoint, with a dark conical hill at the upper left.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "August 24-26, 1895 (bullfight in progress). Direction: the ring is seen with the railway beyond it and the town off-frame left. On the Jessen map the track lies east of the grade and the town to the south/southwest, so the camera is probably on a hill east of the track looking roughly west to northwest. Inference from the map; verify against terrain.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 802,
   "shows": [
@@ -604,13 +641,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "wide panorama of the whole town from a low grassy rise. Left foreground: a low building with a hipped/polygonal dark roof and board walls. Center: the town, mostly one-story gabled houses and cabins with a denser core of two-story commercial blocks; a main street with pole lines runs away from the camera at center-right; a church spire rises at center. Right: long low log/board buildings, a line of railroad cars along the far right middle distance, part of a building at the right edge. Behind town: a grassy bench with a pale wide building at the forest edge (the building labeled Monte Carlo on other slides), a cleared straight line running up the forested slope right of it, a forested ridge, and beyond that a high, bare, broad massif with several rounded summits.",
   "place": "place:gillett",
-  "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
+  "holder": "Pikes Peak Library District (the same photograph as photo:gillett:p077)",
   "date": "1897 per slide 907755478. Direction: the high bare massif behind is most likely the Pikes Peak group, which lies east/northeast of Gillett, so the camera is west or southwest of town looking roughly northeast. Inference from skyline, not confirmed.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is as given under holder.",
+  "image": "img/library/p012.jpg",
+  "thumb": "img/library/t/p012.jpg",
   "w": 1440,
   "h": 882,
   "shows": [
@@ -629,6 +668,7 @@
   "kind": "photograph",
   "local": {
    "viewer": {
+    "file": "910927668_1664233765441182_352141904983974403_n.jpg",
     "title": "wide panorama of the whole town from a low grassy rise",
     "subject": "wide panorama of the whole town from a low grassy rise. Left foreground: a low building with a hipped/polygonal dark roof and board walls. Center: the town, mostly one-story gabled houses and cabins with a denser core of two-story commercial blocks; a main street with pole lines runs away from the camera at center-right; a church spire rises at center. Right: long low log/board buildings, a line of railroad cars along the far right middle distance, part of a building at the right edge. Behind town: a grassy bench with a pale wide building at the forest edge (the building labeled Monte Carlo on other slides), a cleared straight line running up the forested slope right of it, a forested ridge, and beyond that a high, bare, broad massif with several rounded summits.",
     "text": "on-print: \"GILLETT, COLO.\" (lower left), \"NO. 331\" (lower right).",
@@ -640,6 +680,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p012",
+    "img": "img/library/p012.jpg",
+    "thumb": "img/library/t/p012.jpg",
     "w": 1440,
     "h": 882,
     "topics": [
@@ -654,7 +696,8 @@
    }
   },
   "valid_from": 1897,
-  "valid_to": 1897
+  "valid_to": 1897,
+  "credit": "Public domain. Pikes Peak Library District."
  },
  {
   "id": "photo:gillett:p013",
@@ -664,13 +707,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "center portion of the town panorama. Left: gable of a frame church with a pointed spire beside it; a two-story brick-looking building; a light two-story block with four arched upper windows. Center: stacked false-front and flat-roofed two-story buildings, a railroad boxcar visible between buildings, metal-roofed sheds, a square board building with hipped roof in the foreground. Right: the main street with pole lines, wagons and a crowd. Background: bouldery forested slope with a cleared straight strip running uphill.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "1897 per source panorama. Direction as file 12.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 810,
   "shows": [
@@ -723,15 +766,17 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "early townsite on a flat open park. A long train stands on a track running across the middle: boxcars at left, two or more passenger coaches at right, further flat or low cars and possibly a locomotive at the far right edge. Near the track at left: a two-story frame building with rows of windows, a large light-roofed gabled building or tent-roofed structure, several wall tents, a small gabled shed. Beyond the track: a long low building with a light roof. Foreground: scattered tents, a log cabin, and at lower right two log cabins under construction (one roofless). No station building can be distinguished. Background: low rounded wooded hills.",
   "place": "place:gillett",
-  "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
+  "holder": "Denver Public Library, Western History Collection (credited on the image)",
   "date": "1894 per caption. Direction unknown.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is a slide shown by the Victor Heritage Society, cropped here to the original item alone; the Society's captions and the rest of the slide are not reproduced (the uncropped slide is kept as a research copy, local.original_image).",
+  "image": "img/library/pd/p014.jpg",
+  "thumb": "img/library/pd/t/p014.jpg",
   "w": 1440,
-  "h": 816,
+  "h": 608,
   "shows": [
    "structure:gillett:depot"
   ],
@@ -743,6 +788,7 @@
   "kind": "photograph",
   "local": {
    "viewer": {
+    "file": "911423443_1762307674868572_1817055584531866582_n.jpg",
     "title": "early townsite on a flat open park",
     "subject": "early townsite on a flat open park. A long train stands on a track running across the middle: boxcars at left, two or more passenger coaches at right, further flat or low cars and possibly a locomotive at the far right edge. Near the track at left: a two-story frame building with rows of windows, a large light-roofed gabled building or tent-roofed structure, several wall tents, a small gabled shed. Beyond the track: a long low building with a light roof. Foreground: scattered tents, a log cabin, and at lower right two log cabins under construction (one roofless). No station building can be distinguished. Background: low rounded wooded hills.",
     "text": "overlays: \"January 1, 1894 the Rocky Mountain News reported the Midland Terminal would be the \"First Line to Lay Rails Towards Cripple Creek.\"\"; \"DENVER PUBLIC LIBRARY 1894\"; \"Gillett was the only city in the District built on level ground.\"",
@@ -754,36 +800,48 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p014",
-    "w": 1440,
-    "h": 816,
+    "img": "img/library/pd/p014.jpg",
+    "thumb": "img/library/pd/t/p014.jpg",
+    "w": "1440",
+    "h": "608",
     "topics": [
      "depot",
      "panorama"
     ],
     "year": 1894,
     "source": "project"
-   }
+   },
+   "original_image": "img/library/p014.jpg",
+   "crop_percent": [
+    0,
+    17.5,
+    100,
+    92
+   ]
   },
   "valid_from": 1894,
-  "valid_to": 1894
+  "valid_to": 1894,
+  "credit": "Public domain. Copy from a slide shown by the Victor Heritage Society; Denver Public Library, Western History Collection."
  },
  {
   "id": "photo:gillett:p015",
-  "name": "left: display ad",
+  "name": "Advertisement: Great Mexican Bull Fight, Gillett, August 24th, 25th and 26th, 1895",
   "grade": "inferred",
   "basis": "As supplied to the project; the original holder and date are not confirmed.",
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
-  "notes": "left: display ad. Right: line engraving of the arena from a hill: circular ring with a tall vertical-plank outer wall on a braced timber base, tiered seating inside filled with spectators, flags on poles, figures and a bull in the arena, the curved race track with rail fence in front, conifers at lower right, a train with locomotive and several cars on a line behind, hills beyond.",
+  "updated": "2026-11-24",
+  "notes": "Shown cropped to: Advertisement: Great Mexican Bull Fight, Gillett, August 24th, 25th and 26th, 1895. Description of the whole slide: left: display ad. Right: line engraving of the arena from a hill: circular ring with a tall vertical-plank outer wall on a braced timber base, tiered seating inside filled with spectators, flags on poles, figures and a bull in the arena, the curved race track with rail fence in front, conifers at lower right, a train with locomotive and several cars on a line behind, hills beyond.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "August 25, 1895. Same viewpoint as file 11.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
-  "w": 1440,
-  "h": 920,
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is a slide shown by the Victor Heritage Society, cropped here to the original item alone; the Society's captions and the rest of the slide are not reproduced (the uncropped slide is kept as a research copy, local.original_image).",
+  "image": "img/library/pd/p015.jpg",
+  "thumb": "img/library/pd/t/p015.jpg",
+  "w": 720,
+  "h": 777,
   "shows": [
    "structure:gillett:bull-ring",
    "structure:gillett:depot"
@@ -796,7 +854,8 @@
   "kind": "document",
   "local": {
    "viewer": {
-    "title": "left: display ad",
+    "file": "911748179_1129385336802374_2124220187468423733_n.jpg",
+    "title": "Advertisement: Great Mexican Bull Fight, Gillett, August 24th, 25th and 26th, 1895",
     "subject": "left: display ad. Right: line engraving of the arena from a hill: circular ring with a tall vertical-plank outer wall on a braced timber base, tiered seating inside filled with spectators, flags on poles, figures and a bull in the arena, the curved race track with rail fence in front, conifers at lower right, a train with locomotive and several cars on a line behind, hills beyond.",
     "text": "slide: \"J. H. Wolfe and Arizona Charley Meadows\"; \"August 25, 1895 Rocky Mountain News\"; labels \"Midland Terminal Railroad\", \"Bull Ring\", \"Horse Race Track\"; \"Bull Ring was 160 feet in Diameter With a Seating Capacity About 5,000\". Ad: \"Great Mexican Bull Fight FIRST EVER GIVEN IN THE UNITED STATES. Gillett, Cripple Creek District, August 24th, 25th and 26th. A Troop of Mexican Bull Fighters and a Carload of Fighting Bulls! SENOR CARLOS GARCIA Mexico's Most Famous Bull Fighter. The Only Lady Bull Fighter In the World. LA CHARITTA Showing for the First Time in the United States. ARIZONA CHARLEY King of the Cowboys, and His World Famed Wild West Show Company. KID MEADOWS, the Equestrian Hero of Four Continents. Ladies' Hurdle Races! Ladies' Chariot Races! Cowboy Tournament! Miss May Melbourne, Miss Alice Hamilton, Miss Rose Higgins. Triple Queens of the Arena, in Chariot and Hurdle Races. $3,000 in Premiums. Entrance Free to All Races and Contests. PRICES!—Box of five seats, $25. Single Box Seat, $5. First class seat, $3. Second class seat, $2. Doors open at 10 a. m. Performance begins at 1 p. m. J. H. WOLFE, - - - - MANAGER. C. MEADOWS, Director of Amusements. BUTLER & DETMER, Advertising Agents.\" Engraving caption: \"THE ARENA AT GILLETT, PHOTOGRAPHED FROM A NEARBY HILL. The arena is about 160 feet in diameter and is built in one end of the race track a mile from Gillett. It is in a beautiful valley with the Cripple creek group of hills on one side and the towering mass of Pike's peak and its sisters on the other. The seating capacity of the arena is about 5,000.\"",
     "date": "August 25, 1895. Same viewpoint as file 11.",
@@ -807,18 +866,28 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p015",
-    "w": 1440,
-    "h": 920,
+    "img": "img/library/pd/p015.jpg",
+    "thumb": "img/library/pd/t/p015.jpg",
+    "w": "720",
+    "h": "777",
     "topics": [
      "depot",
      "bullring"
     ],
     "year": 1895,
     "source": "project"
-   }
+   },
+   "original_image": "img/library/p015.jpg",
+   "crop_percent": [
+    0.5,
+    13,
+    50.5,
+    97.5
+   ]
   },
   "valid_from": 1895,
-  "valid_to": 1895
+  "valid_to": 1895,
+  "credit": "Public domain. Copy from a slide shown by the Victor Heritage Society."
  },
  {
   "id": "photo:gillett:p016",
@@ -878,13 +947,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "the railway depot from across the track in snow. One-story wood-frame building with horizontal clapboard siding. Roof: main gable with ridge parallel to the track plus a cross-gable (a second gable end faces the track at the left/center), wide overhanging eaves carried on large diagonal timber brackets, decorative open truss-work in the gable peaks, dark shingle roof. Two brick chimneys with corbelled tops on the ridge. The near gable end has two tall windows with multi-pane sash or protective grilles. Trackside: a recessed or sheltered area under the eave, a horizontal sign reading \"GILLETT\" hung from a bracket arm projecting toward the track, a smaller sign below on the wall (reads approximately \"POSTAL TELEGRAPH OFFICE\"; uncertain), and a lamp or signal on a post at the corner. A raised timber platform runs along the track side and around the near end, loaded with crates, boxes, sacks, a large open bin/cart, barrels and a hand truck; steps at the platform end. One track with a second rail line visible in the foreground. Behind at right: a large two-story clapboard building with a flat or false-front roofline and regular windows, a ladder against it. Left background: conifers, a pole, and a forested hill. Inset: studio portrait of a man in a suit (not part of the scene).",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "undated; winter; c.1895-1905 (inference from an active, well-kept depot). Direction: by the Sanborn sheet in file 20 (912908605) the depot stands between the tracks and Midland Terminal Ry. Avenue near 5th Street; the photo is taken from the track side. If the Sanborn compass is read correctly (north toward the right of that sheet), the tracks lie west of the depot and the camera looks roughly east to southeast. Tentative.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 946,
   "shows": [
@@ -922,21 +991,23 @@
  },
  {
   "id": "photo:gillett:p018",
-  "name": "top center photo: inside the arena, a mounted picador, a man on foot facing a charging bull, another man stand",
+  "name": "Admission ticket, Mexican Bull Fight, Gillett, August 1895 ($2.00)",
   "grade": "inferred",
   "basis": "As supplied to the project; the original holder and date are not confirmed.",
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
-  "notes": "top center photo: inside the arena, a mounted picador, a man on foot facing a charging bull, another man standing; behind them the inner barrier of vertical planks with a light cloth strip along its top, a gap/gate, and packed tiered seating above. Lower left photo: wider interior view with the plank barrier, a gate, a booth-like structure at the barrier, cloth-draped sections, crowded bleachers rising behind, a flagpole, and wooded hills over the top of the stands. Lower right photo: interior view on a sparsely attended day showing the stands' structure clearly: plank barrier with two light-colored gates, a low front tier of spectators, and behind it an open timber frame of posts and horizontal rails rising well above the occupied seats (upper tiers unfinished or empty), a flag on a tall pole at left.",
+  "updated": "2026-11-24",
+  "notes": "Shown cropped to: Admission ticket, Mexican Bull Fight, Gillett, August 1895 ($2.00). Description of the whole slide: top center photo: inside the arena, a mounted picador, a man on foot facing a charging bull, another man standing; behind them the inner barrier of vertical planks with a light cloth strip along its top, a gap/gate, and packed tiered seating above. Lower left photo: wider interior view with the plank barrier, a gate, a booth-like structure at the barrier, cloth-draped sections, crowded bleachers rising behind, a flagpole, and wooded hills over the top of the stands. Lower right photo: interior view on a sparsely attended day showing the stands' structure clearly: plank barrier with two light-colored gates, a low front tier of spectators, and behind it an open timber frame of posts and horizontal rails rising well above the occupied seats (upper tiers unfinished or empty), a flag on a tall pole at left.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "August 24-26, 1895. Directions unknown.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
-  "w": 1440,
-  "h": 802,
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is a slide shown by the Victor Heritage Society, cropped here to the original item alone; the Society's captions and the rest of the slide are not reproduced (the uncropped slide is kept as a research copy, local.original_image).",
+  "image": "img/library/pd/p018.jpg",
+  "thumb": "img/library/pd/t/p018.jpg",
+  "w": 375,
+  "h": 221,
   "shows": [
    "structure:gillett:bull-ring"
   ],
@@ -948,7 +1019,8 @@
   "kind": "document",
   "local": {
    "viewer": {
-    "title": "top center photo: inside the arena, a mounted picador, a man on foot facing a charging bull, another man stand",
+    "file": "912709178_2176658062972625_5263524469548764650_n.jpg",
+    "title": "Admission ticket, Mexican Bull Fight, Gillett, August 1895 ($2.00)",
     "subject": "top center photo: inside the arena, a mounted picador, a man on foot facing a charging bull, another man standing; behind them the inner barrier of vertical planks with a light cloth strip along its top, a gap/gate, and packed tiered seating above. Lower left photo: wider interior view with the plank barrier, a gate, a booth-like structure at the barrier, cloth-draped sections, crowded bleachers rising behind, a flagpole, and wooded hills over the top of the stands. Lower right photo: interior view on a sparsely attended day showing the stands' structure clearly: plank barrier with two light-colored gates, a low front tier of spectators, and behind it an open timber frame of posts and horizontal rails rising well above the occupied seats (upper tiers unfinished or empty), a flag on a tall pole at left.",
     "text": "\"DENVER PUBLIC LIBRARY\"; tickets (both): \"FIESTA Mexican Bull Fight CRIPPLE CREEK, DIST. COLO. AUG. 24, 25 & 26. ADMIT ONE GOOD AUGUST ..... J. H. WOLFE, MANAGER.\" with \"No. 2074 $2.00\" on the red-bordered one and \"$5.00\" on the blue-bordered one (number illegible); captions \"During the Bull Fight, Wolfe was arrested the first day\" and \"August 27th newspapers reported little turn out for day 3\".",
     "date": "August 24-26, 1895. Directions unknown.",
@@ -959,18 +1031,28 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p018",
-    "w": 1440,
-    "h": 802,
+    "img": "img/library/pd/p018.jpg",
+    "thumb": "img/library/pd/t/p018.jpg",
+    "w": "375",
+    "h": "221",
     "topics": [
      "bullring",
      "document"
     ],
     "year": 1895,
     "source": "project"
-   }
+   },
+   "original_image": "img/library/p018.jpg",
+   "crop_percent": [
+    3.5,
+    7,
+    29.5,
+    34.5
+   ]
   },
   "valid_from": 1895,
-  "valid_to": 1895
+  "valid_to": 1895,
+  "credit": "Public domain. Copy from a slide shown by the Victor Heritage Society."
  },
  {
   "id": "photo:gillett:p019",
@@ -980,13 +1062,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "corner view of a large two-story wood-frame building with horizontal siding, flat roof behind a stepped parapet/cornice (the roofline steps down in three stages toward the rear on the left face). Left face: about seven bays, upper and lower double-hung windows and at least two doors. Right (front) face: upper windows and a tall upper door or window, ground-floor storefront with large glazing. Board sidewalk around the corner. On posts at the sidewalk edge a sign: \"FURNISHED ROOMS\". Further right, on the adjoining facade, a projecting sign: \"JOHN HESLIN\" above \"MINERS EXCHANGE\" (cut off at the frame edge after \"EXCHANG\"). About eighteen people posed on the sidewalk: men in suits and hats, one in a long white apron, women and children at left, a seated woman in dark dress. A one-story house with porch at far left; a faint hill behind it.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "1900-1905 per caption. Direction unknown; the Sanborn inset in file 20 (912908605) places the corner building at Newell Avenue and 5th Street.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 816,
   "shows": [],
@@ -1028,13 +1110,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "right: part of a Sanborn sheet showing lot-by-lot building footprints (yellow = frame; a few green/blue). Avenues named, top to bottom: \"NEWELL AV.\", then the railroad right of way with multiple tracks labeled \"MIDLAND TERMINAL RY.\", \"MIDLAND TERMINAL RY. AV.\", \"PARKER AV.\", \"COLLBRAN AV.\" Cross streets \"4TH ST.\" and \"5TH ST.\"; block numbers 21, 29, 30, 31, 32, 33, 48, 49 visible. \"NEWTON LUMBER CO.\" with \"LUMBER PILE\" on the block between Newell and the tracks east of 5th. The depot is drawn as a long narrow footprint with dashed platform outline on the track side of Midland Terminal Ry. Avenue just left of 5th Street. A creek (blue) crosses the lower left blocks. Densest building cluster is along 5th Street between M.T. Ry. Avenue and Collbran. A compass star at upper right has its pointer toward the right and slightly up, so north appears to be toward the right of the sheet (verify on a full-resolution copy). A scale bar is drawn near 4th Street. Lower left: enlarged inset of the Newell/5th corner showing a two-story building marked \"Sal.\" and \"Lod'gs 2d\" and the name \"LA JUNTA HOTEL\". Upper left: the Sanborn title block.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "title block Sept. 1900; sheet stamp Nov. 1896 (the Gillett sheet may be the 1896 survey reused). North apparently to the right.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 814,
   "shows": [
@@ -1082,13 +1164,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "slide title \"The Woods family, founders of Victor, expanded their holdings to Gillett\". Labels: \"Gillett Waterworks November 14, 1899\", \"Gillett Power Plant December 30, 1899\", \"Town, Racetrack and Ball Field Grounds February 21, 1900\". Clipping headlines: \"GILLETT VOTES TO SELL TOWN WATERWORKS\", \"WOODS COMPANY BUYS GILLETT POWER PLANT\", \"WOODS PEOPLE NOW OWN THE TOWN / Gillett Gives Option on Last Piece of Property—Purchasers Assume the Taxes.\" Content: waterworks sold to Maynard Gunsul for $32,000, dam to be enlarged, pipeline to Cameron; Gillett Light and Power company plant sold to the Woods Investment company; Cripple Creek District Sportsman Park and Land association gives option on 2,753 unsold lots, \"the race track and ball grounds being included in the sale\". Footer: \"Article on right reports the Woods family has expended upwards of $50,000 already with another $10,000 expected. That's over $2.3 million in today's prices.\"",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "1899-1900; n/a.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 802,
   "shows": [
@@ -1135,13 +1217,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "exterior of the empty bullring in patchy snow, seen from outside the race track. The ring is a tall cylinder of exposed timber framing: closely spaced vertical posts with long diagonal braces and horizontal girts, the back of the seating rake visible, a level top rail. A lower fenced enclosure/corral adjoins at left; a board or picket fence runs off to the right. In the foreground two parallel post-and-rail fences curve across the frame (inner and outer rails of the track). Behind: a smooth snow-covered rise, a small building at far right at the foot of the hill, and a ridge covered with bare (leafless) trees.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "snow and leafless trees mean it was not taken during the August 1895 event; probably winter 1895-96 or later while the structure stood (inference). Direction unknown.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 802,
   "shows": [
@@ -1185,13 +1267,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "parade on a business street lined with two-story brick commercial buildings with bracketed cornices, awnings and very tall multi-arm utility poles; mounted riders in wide hats in front, a band and crowd behind. A red arrow marks one rider. Partial signs on the corner building: \"...WARE\", \"...NWARE\", \"CROCKERY\".",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "August 21, 1895; location is Cripple Creek per caption.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 806,
   "shows": [],
@@ -1233,13 +1315,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "\"GILLETT!\" in a box with two pointing-hand ornaments. \"Lots for sale at prices ranging from $25 to $100 at any of the offices of the Beaver Park Land Company. President: James M. Parker, President First National Bank of Cripple Creek and Director of the Midland Terminal railroad; Treasurer: H. P. Lillibridge, Director of the Midland Terminal railroad; Secretary: K. R. Babbitt. Directors: H. Colbran, President Midland Terminal railroad; W. K. Gillett, Auditor Atchison, Topeka & Santa Fé railroad; H. P. Lillibridge, J. M. Parker and Richard Newell, Jr., Chief Engineer Midland Terminal railroad. OFFICES OF THE BEAVER PARK LAND CO. Cripple Creek, Colorado Springs, Pueblo, Denver, Chicago and Detroit.\"",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "c.1894 (inference from content); n/a.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is not established.",
+  "image": "img/library/p024.jpg",
+  "thumb": "img/library/t/p024.jpg",
   "w": 1235,
   "h": 1235,
   "shows": [
@@ -1251,6 +1335,7 @@
   "kind": "document",
   "local": {
    "viewer": {
+    "file": "913242601_1129376493240901_3752968266448180659_n.jpg",
     "title": "\"GILLETT!\" in a box with two pointing-hand ornaments",
     "subject": "\"GILLETT!\" in a box with two pointing-hand ornaments. \"Lots for sale at prices ranging from $25 to $100 at any of the offices of the Beaver Park Land Company. President: James M. Parker, President First National Bank of Cripple Creek and Director of the Midland Terminal railroad; Treasurer: H. P. Lillibridge, Director of the Midland Terminal railroad; Secretary: K. R. Babbitt. Directors: H. Colbran, President Midland Terminal railroad; W. K. Gillett, Auditor Atchison, Topeka & Santa Fé railroad; H. P. Lillibridge, J. M. Parker and Richard Newell, Jr., Chief Engineer Midland Terminal railroad. OFFICES OF THE BEAVER PARK LAND CO. Cripple Creek, Colorado Springs, Pueblo, Denver, Chicago and Detroit.\"",
     "text": "",
@@ -1262,6 +1347,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p024",
+    "img": "img/library/p024.jpg",
+    "thumb": "img/library/t/p024.jpg",
     "w": 1235,
     "h": 1235,
     "topics": [
@@ -1272,7 +1359,8 @@
    }
   },
   "valid_from": 1894,
-  "valid_to": 1894
+  "valid_to": 1894,
+  "credit": "Public domain."
  },
  {
   "id": "photo:gillett:p025",
@@ -1282,13 +1370,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "group of twelve people posed on a rock and shore at the edge of a small lake: two boys standing in a rowboat at left, men with tools (shovel, poles), women in long dresses, children seated on the rock, a man holding a burro. Across the water an eroded earth bank, young aspens, and at upper left on the rise a light-colored frame building with gabled dormers (part only) and a log structure to its right.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "c.1895 (inference from caption and dress). Direction unknown.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 904,
   "shows": [
@@ -1332,13 +1420,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "large white frame building, one and a half stories, horizontal siding, steep roof with a clipped (jerkinhead) gable end showing decorative peak trim, and a matching clipped cross-gable/dormer on the long side with an upper window; a row of tall ground-floor windows and a door on the long side. About ninety children and several adults posed in front; a small signboard on the ground among them. Bare aspens at left, a bank at right. Inset upper left: distant view of a wide building with three front gables at a forest edge with people and horses in front (the detail from the town panorama).",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "undated; after 1895, probably c.1898-1905 (inference). Direction unknown.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 800,
   "shows": [
@@ -1386,13 +1474,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "heading \"GILLETT.\" \"A new town platted and owned by the Beaver Park Land Company is Gillett. This town, three miles distant from Cripple Creek to the northeast, is most favorably located in the beautiful Beaver Park on Beaver Creek. A site with more picturesque surroundings could not have been chosen. Northward are the eternal snows of the Pikes Peak range and outspread below and afar toward the distant plains, the blue hills fade away. Gillett is within one and a half miles of the main center of mining operations, and from thence a down hill pull for ores coming to the stamp mills and to the railroad for transportation. At this point the Midland Terminal Railway Company will erect their ore receiving bins, shops, round houses, and a $150,000 railway hotel station, to be used also for the offices of the road. There is to be erected by Chicago capitalists a splendid resort hotel adapted for the comfort and enjoyment of pleasure seekers and tourists, and for the residents of the district. The main line of the Michigan Pipe Company to Cripple Creek is laid through Gillett and it will have waterworks from its infancy. The officials of the Beaver Park Land Company are prominent railroad men and capitalists. Mr. J. M. Parker, president of the First National Bank of Cripple Creek, is president of the company. The directors are H. Collbran, president of the Midland Terminal Railway; W.\"",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "c.1894 promotional text (inference); n/a.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is not established.",
+  "image": "img/library/p027.jpg",
+  "thumb": "img/library/t/p027.jpg",
   "w": 1280,
   "h": 1440,
   "shows": [
@@ -1406,6 +1496,7 @@
   "kind": "document",
   "local": {
    "viewer": {
+    "file": "913870802_1853556482438835_3340449992671064955_n.jpg",
     "title": "heading \"GILLETT",
     "subject": "heading \"GILLETT.\" \"A new town platted and owned by the Beaver Park Land Company is Gillett. This town, three miles distant from Cripple Creek to the northeast, is most favorably located in the beautiful Beaver Park on Beaver Creek. A site with more picturesque surroundings could not have been chosen. Northward are the eternal snows of the Pikes Peak range and outspread below and afar toward the distant plains, the blue hills fade away. Gillett is within one and a half miles of the main center of mining operations, and from thence a down hill pull for ores coming to the stamp mills and to the railroad for transportation. At this point the Midland Terminal Railway Company will erect their ore receiving bins, shops, round houses, and a $150,000 railway hotel station, to be used also for the offices of the road. There is to be erected by Chicago capitalists a splendid resort hotel adapted for the comfort and enjoyment of pleasure seekers and tourists, and for the residents of the district. The main line of the Michigan Pipe Company to Cripple Creek is laid through Gillett and it will have waterworks from its infancy. The officials of the Beaver Park Land Company are prominent railroad men and capitalists. Mr. J. M. Parker, president of the First National Bank of Cripple Creek, is president of the company. The directors are H. Collbran, president of the Midland Terminal Railway; W.\"",
     "text": "",
@@ -1417,6 +1508,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p027",
+    "img": "img/library/p027.jpg",
+    "thumb": "img/library/t/p027.jpg",
     "w": 1280,
     "h": 1440,
     "topics": [
@@ -1429,7 +1522,8 @@
    }
   },
   "valid_from": 1894,
-  "valid_to": 1894
+  "valid_to": 1894,
+  "credit": "Public domain."
  },
  {
   "id": "photo:gillett:p028",
@@ -1539,13 +1633,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "page number \"43\". \"K. Gillett, auditor of the Santa Fe, and H. P. Lillibridge, Midland Terminal Railway official.\" Then heading \"VICTOR.\" and a paragraph about the town of Victor (\"About four miles to the southeast of Cripple Creek, where the limits of the porphyry meet the granite walls, is the town of Victor. ...\" ending \"... everything points favorably to Victor being \"a hummer\" in the near future.\").",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "c.1894; n/a.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is not established.",
+  "image": "img/library/p030.jpg",
+  "thumb": "img/library/t/p030.jpg",
   "w": 1281,
   "h": 1281,
   "shows": [
@@ -1557,6 +1653,7 @@
   "kind": "document",
   "local": {
    "viewer": {
+    "file": "916322471_1152526680584385_6758158983037039486_n.jpg",
     "title": "page number \"43\"",
     "subject": "page number \"43\". \"K. Gillett, auditor of the Santa Fe, and H. P. Lillibridge, Midland Terminal Railway official.\" Then heading \"VICTOR.\" and a paragraph about the town of Victor (\"About four miles to the southeast of Cripple Creek, where the limits of the porphyry meet the granite walls, is the town of Victor. ...\" ending \"... everything points favorably to Victor being \"a hummer\" in the near future.\").",
     "text": "",
@@ -1568,6 +1665,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p030",
+    "img": "img/library/p030.jpg",
+    "thumb": "img/library/t/p030.jpg",
     "w": 1281,
     "h": 1281,
     "topics": [
@@ -1578,7 +1677,8 @@
    }
   },
   "valid_from": 1894,
-  "valid_to": 1894
+  "valid_to": 1894,
+  "credit": "Public domain."
  },
  {
   "id": "photo:gillett:p031",
@@ -1588,15 +1688,17 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "elevated panorama of the town under a light covering of hail or snow. Foreground: bare slope with a long brush/slash pile, small sheds and privies, wagon tracks. Middle: the built-up core running left to right: many one- and two-story buildings with gable and flat roofs, a prominent large two-story block near center with ladders against it, dense lower buildings at left where long horizontal lines suggest rail cars or long sheds, houses thinning out to the right, a group of larger light-colored buildings at the far right edge. Beyond: open ground with scattered small buildings, roads or grades climbing a gentle rise, and low wooded hills; a higher slope at upper right.",
   "place": "place:gillett",
-  "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
+  "holder": "Linda Irene Tingvik Collection (credited on the image)",
   "date": "July 19, 1897 (on-print). Direction unknown; the low wooded hills here differ from the high massif in No. 331 and resemble the background of 688071062, so this is probably taken from a similar hill looking away from the Pikes Peak side. Tentative.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is a slide shown by the Victor Heritage Society, cropped here to the original item alone; the Society's captions and the rest of the slide are not reproduced (the uncropped slide is kept as a research copy, local.original_image).",
+  "image": "img/library/pd/p031.jpg",
+  "thumb": "img/library/pd/t/p031.jpg",
   "w": 1440,
-  "h": 804,
+  "h": 687,
   "shows": [],
   "topics": [
    "panorama"
@@ -1605,6 +1707,7 @@
   "kind": "photograph",
   "local": {
    "viewer": {
+    "file": "916442938_40044168228560279_3504188427705124045_n.jpg",
     "title": "elevated panorama of the town under a light covering of hail or snow",
     "subject": "elevated panorama of the town under a light covering of hail or snow. Foreground: bare slope with a long brush/slash pile, small sheds and privies, wagon tracks. Middle: the built-up core running left to right: many one- and two-story buildings with gable and flat roofs, a prominent large two-story block near center with ladders against it, dense lower buildings at left where long horizontal lines suggest rail cars or long sheds, houses thinning out to the right, a group of larger light-colored buildings at the far right edge. Beyond: open ground with scattered small buildings, roads or grades climbing a gentle rise, and low wooded hills; a higher slope at upper right.",
     "text": "on-print: \"GILLETT, Colo. July, 19th '97\" and \"AFTER THE STORM\" (second phrase faint, partly illegible). Overlays: \"LINDA IRENE TINGVIK COLLECTION\"; \"Gillett, Colo., July 19, 1897, after the Storm\"; \"\"Gillett has a splendid location. She has plenty of the purest water that was ever given to man…She has an electric system. Her homes are of the best, and in general effect the town is one of the prettiest in the state.\"—January 1, 1899 Morning Times\".",
@@ -1616,17 +1719,27 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p031",
-    "w": 1440,
-    "h": 804,
+    "img": "img/library/pd/p031.jpg",
+    "thumb": "img/library/pd/t/p031.jpg",
+    "w": "1440",
+    "h": "687",
     "topics": [
      "panorama"
     ],
     "year": 1897,
     "source": "project"
-   }
+   },
+   "original_image": "img/library/p031.jpg",
+   "crop_percent": [
+    0,
+    0,
+    100,
+    85.5
+   ]
   },
   "valid_from": 1897,
-  "valid_to": 1897
+  "valid_to": 1897,
+  "credit": "Public domain. Copy from a slide shown by the Victor Heritage Society; Linda Irene Tingvik Collection."
  },
  {
   "id": "photo:gillett:p032",
@@ -1741,13 +1854,15 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "display ad with an engraving of a mounted rider in fringed clothing firing a rifle from a group of galloping horses.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "August 1895; n/a.",
-  "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age: made before 1931 (see the date field; where the date is inferred it is from what the picture shows). The copy is as supplied to the project; who holds the original is not established.",
+  "image": "img/library/p034.jpg",
+  "thumb": "img/library/t/p034.jpg",
   "w": 682,
   "h": 960,
   "shows": [
@@ -1761,6 +1876,7 @@
   "kind": "document",
   "local": {
    "viewer": {
+    "file": "920579455_2243267712934956_6367670149324169670_n.jpg",
     "title": "display ad with an engraving of a mounted rider in fringed clothing firing a rifle from a group of galloping h",
     "subject": "display ad with an engraving of a mounted rider in fringed clothing firing a rifle from a group of galloping horses.",
     "text": "\"BULL [printed with a reversed/odd letter, reads \"BUZL\"] FIGHT AT GILLET [sic] Cripple Creek District.\" \"KING OF COWBOYS.\" \"ARIZONA CHARLIE\" \"August 24, 25 and 26. GREAT MEXICAN BULL FIGHT! Equestrian Carnival & Wild-west A troop of Mexican Bull Fighters and a carload of Fighting Bulls Carlos Garcia Mexico's most famous bull fighter. LaCharita Only lady bull fighter in the world. Show for the first time in the United States. ARIZONA CHARLIE, King of the Cowboys and his world famous Equestrian company. KID MEADOWS, the equestrian hero of four continents. RACES! Ladies' chariot races, ladies' hurdle races, cowboy tournament. Free for all to enter. $3,000 in premiums! Boxes of five seats, $25; single seats in box, $5; first class seats $3; second class seats, $2; children, half price. Parties desiring to secure sporting and refreshment privileges should call on C. Meadows, Director of Amusements. Butler & Detner [as printed], Advertising Agents. J. H. WOLFE, Manager, Palace Hotel, Cripple Creek.\"",
@@ -1772,6 +1888,8 @@
     "url": "",
     "rights": "As supplied; credits are on the slides",
     "id": "p034",
+    "img": "img/library/p034.jpg",
+    "thumb": "img/library/t/p034.jpg",
     "w": 682,
     "h": 960,
     "topics": [
@@ -1783,7 +1901,8 @@
    }
   },
   "valid_from": 1895,
-  "valid_to": 1895
+  "valid_to": 1895,
+  "credit": "Public domain."
  },
  {
   "id": "photo:gillett:p035",
@@ -1793,13 +1912,13 @@
   "sources": [],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "notes": "the Catholic church seen from the front-left, the opposite side from files 2 and 16. Wooden vestibule in the foreground: horizontal boarding, round-arched roof whose shingles are partly missing over the front, a recessed board panel in the arch, two diamond-shaped panels (shown here projecting/open like hinged shutters or louvres) on the front wall, a wide doorway at lower left of the front with two children standing in it on a low step. The stone body extends to the right: stone and brick side wall with three tall openings, a tall brick chimney with corbelled cap rising from this side of the roof just behind the vestibule, curved shingled roof. Open timber belfry with a cross on the ridge at the junction. Three long poles lean against the far end of the side wall as props. A dark board structure or fence at far right. Stones and timbers on the ground. Bare open ground behind, no hills visible at left.",
   "place": "place:gillett",
   "holder": "Not established (supplied to the project; many are slides from a Victor Heritage Society talk)",
   "date": "1919 (on-print). Direction unknown.",
   "rights": "unknown",
-  "rights_note": "As supplied; credits are on the slides",
+  "rights_note": "The underlying item was made before 1931 and is public domain in the United States by age, but the only copy held is a Victor Heritage Society slide with the Society's captions or marks printed over it, and it cannot be cropped clean. Withheld until a clean copy is obtained from the holder credited on the slide, or the Society agrees.",
   "w": 1440,
   "h": 808,
   "shows": [],

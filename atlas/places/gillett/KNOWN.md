@@ -82,7 +82,7 @@ Grades: **measured** = read from a survey, insurance sheet, lidar or a solved ph
 
 ## Photographs
 
-78 records. By rights: unknown 39, licensed 38, public-domain 1.
+78 records. By rights: licensed 38, unknown 25, public-domain 15.
 Only `public-domain` and `licensed` images may be shown on a public site; the rest are linked to their holder or withheld.
 
 ## Camera stations
