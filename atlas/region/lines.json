@@ -21672,7 +21672,7 @@
   "valid_to": 1949,
   "grade": "measured",
   "error_ft": 40,
-  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.76 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line to Victor and Cripple Creek is not traced. A separate OpenStreetMap piece running south-west from Gillett is kept as it was; what it is has not been established. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 5.58 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. The 1903 map draws no railway along the separate OpenStreetMap piece running south-west from Gillett, which follows the present highway; it is kept only until that is settled. Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor by the switchback is not traced (see atlas/tools/once_route_mt_victor_side.py).",
+  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.76 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line goes on by the routes below. An OpenStreetMap piece running 2.85 miles south-west from Gillett, once shown as part of this line, is removed: the USGS district map of 1903 draws no railway there and it follows the present Highway 67. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 5.4 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. It now stops where it reaches Victor, 12 m from the west end of the switchback leg drawn on the Sanborn sheets, which carries it into the town. Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor goes on in the next route (see atlas/tools/once_route_mt_victor_side.py and once_route_victor_sanborn.py). Through Victor the line is 0.89 miles of pieces taken from the Sanborn fire insurance sheets of December 1908 (sheets 2 and 3, fitted to the present street corners to 2 to 4 m RMS), with the 1903 map above the town (42 per cent smooth on the 1 m lidar, weighted by length). The sheets of 1896, 1900 and 1908 agree: the main track passes the north-west corner of the town, and the depot at 4th Street and Granite Avenue stands on a leg lettered 'Switchback', entered by reversing (Moody's of 1917 describes a branch to Victor). The main track past the town and the track by the depot lie on surviving smooth ground and are measured; the leg is inferred, good to about 25 ft. Where the leg left the main track is not on any sheet read: at the sheet's west edge the two are 29 m apart in height on the present ground, so they met further west, perhaps at the 'Switchback' the timetables put 1.1 miles before Victor; the join drawn between them is conjecture, there only to keep the line continuous on the map. Above the town, from the rim of the open pit down, the line follows the 1903 map through ground the pit and its dumps have replaced (see atlas/tools/once_route_victor_sanborn.py).",
   "sources": [
    "source:osm-railways",
    "source:wikipedia-midland-terminal",
@@ -21680,7 +21680,8 @@
    "source:official-guide-timetables",
    "source:usgs-pp54-plate1",
    "source:usgs-gf7-cripple-creek-special",
-   "source:sanborn-victor"
+   "source:sanborn-victor",
+   "source:sanborn-victor-town-sheets"
   ],
   "status": "reviewed",
   "contributor": "project",
@@ -21767,336 +21768,6 @@
      "tunnel": false,
      "viewer": {
       "osm_id": 99571237,
-      "name": "",
-      "railway": "abandoned",
-      "highway": ""
-     }
-    }
-   },
-   {
-    "geometry": {
-     "type": "LineString",
-     "coordinates": [
-      [
-       -105.147883,
-       38.753466
-      ],
-      [
-       -105.147936,
-       38.754075
-      ],
-      [
-       -105.147688,
-       38.754358
-      ],
-      [
-       -105.147215,
-       38.754768
-      ],
-      [
-       -105.146906,
-       38.75528
-      ],
-      [
-       -105.146134,
-       38.755899
-      ],
-      [
-       -105.145156,
-       38.756567
-      ],
-      [
-       -105.144492,
-       38.757496
-      ],
-      [
-       -105.143945,
-       38.75886
-      ],
-      [
-       -105.143546,
-       38.759311
-      ],
-      [
-       -105.14283,
-       38.759839
-      ],
-      [
-       -105.142239,
-       38.760107
-      ],
-      [
-       -105.141896,
-       38.76009
-      ],
-      [
-       -105.141486,
-       38.759964
-      ],
-      [
-       -105.140971,
-       38.760014
-      ],
-      [
-       -105.140381,
-       38.760323
-      ],
-      [
-       -105.139855,
-       38.760633
-      ],
-      [
-       -105.139793,
-       38.761094
-      ],
-      [
-       -105.139868,
-       38.761646
-      ],
-      [
-       -105.139834,
-       38.761955
-      ],
-      [
-       -105.13948,
-       38.762206
-      ],
-      [
-       -105.139042,
-       38.76229
-      ],
-      [
-       -105.137658,
-       38.762399
-      ],
-      [
-       -105.136682,
-       38.762524
-      ],
-      [
-       -105.136081,
-       38.762457
-      ],
-      [
-       -105.135362,
-       38.762407
-      ],
-      [
-       -105.135135,
-       38.762524
-      ],
-      [
-       -105.135073,
-       38.762775
-      ],
-      [
-       -105.135051,
-       38.76311
-      ],
-      [
-       -105.134815,
-       38.763336
-      ],
-      [
-       -105.134568,
-       38.763461
-      ],
-      [
-       -105.134214,
-       38.763495
-      ],
-      [
-       -105.133568,
-       38.763544
-      ],
-      [
-       -105.132948,
-       38.763662
-      ],
-      [
-       -105.13239,
-       38.764373
-      ],
-      [
-       -105.131777,
-       38.764766
-      ],
-      [
-       -105.131337,
-       38.764983
-      ],
-      [
-       -105.130395,
-       38.765285
-      ],
-      [
-       -105.129837,
-       38.765519
-      ],
-      [
-       -105.129504,
-       38.765569
-      ],
-      [
-       -105.129086,
-       38.765653
-      ],
-      [
-       -105.129062,
-       38.765937
-      ],
-      [
-       -105.128882,
-       38.766582
-      ],
-      [
-       -105.128689,
-       38.766975
-      ],
-      [
-       -105.128644,
-       38.767359
-      ],
-      [
-       -105.128238,
-       38.767594
-      ],
-      [
-       -105.127882,
-       38.767735
-      ],
-      [
-       -105.127552,
-       38.767987
-      ],
-      [
-       -105.127348,
-       38.76828
-      ],
-      [
-       -105.126575,
-       38.768581
-      ],
-      [
-       -105.125524,
-       38.768765
-      ],
-      [
-       -105.124558,
-       38.768865
-      ],
-      [
-       -105.123904,
-       38.769175
-      ],
-      [
-       -105.1234,
-       38.769468
-      ],
-      [
-       -105.122915,
-       38.769626
-      ],
-      [
-       -105.122496,
-       38.769818
-      ],
-      [
-       -105.122282,
-       38.770236
-      ],
-      [
-       -105.122067,
-       38.770897
-      ],
-      [
-       -105.1224,
-       38.772185
-      ],
-      [
-       -105.123097,
-       38.773499
-      ],
-      [
-       -105.123344,
-       38.774285
-      ],
-      [
-       -105.123492,
-       38.774603
-      ],
-      [
-       -105.12385,
-       38.775118
-      ],
-      [
-       -105.124286,
-       38.775458
-      ],
-      [
-       -105.124893,
-       38.775707
-      ],
-      [
-       -105.125714,
-       38.776073
-      ],
-      [
-       -105.126086,
-       38.776388
-      ],
-      [
-       -105.126278,
-       38.776787
-      ],
-      [
-       -105.126299,
-       38.777119
-      ],
-      [
-       -105.126171,
-       38.777418
-      ],
-      [
-       -105.125756,
-       38.777966
-      ],
-      [
-       -105.125586,
-       38.778398
-      ],
-      [
-       -105.125266,
-       38.779128
-      ],
-      [
-       -105.125021,
-       38.779461
-      ],
-      [
-       -105.124712,
-       38.779668
-      ],
-      [
-       -105.124457,
-       38.779743
-      ],
-      [
-       -105.123711,
-       38.779834
-      ]
-     ]
-    },
-    "valid_from": 1894,
-    "valid_to": 1949,
-    "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99571230, tagged as an abandoned railway of this company.",
-    "local": {
-     "osm_way": 99571230,
-     "tunnel": false,
-     "viewer": {
-      "osm_id": 99571230,
       "name": "",
       "railway": "abandoned",
       "highway": ""
@@ -22833,142 +22504,6 @@
       [
        -105.144525,
        38.71168
-      ],
-      [
-       -105.14438,
-       38.711715
-      ],
-      [
-       -105.144234,
-       38.711748
-      ],
-      [
-       -105.144089,
-       38.711817
-      ],
-      [
-       -105.144002,
-       38.711914
-      ],
-      [
-       -105.143946,
-       38.712026
-      ],
-      [
-       -105.143825,
-       38.712115
-      ],
-      [
-       -105.143743,
-       38.712228
-      ],
-      [
-       -105.143671,
-       38.71234
-      ],
-      [
-       -105.143528,
-       38.712373
-      ],
-      [
-       -105.143384,
-       38.712324
-      ],
-      [
-       -105.143238,
-       38.712334
-      ],
-      [
-       -105.143093,
-       38.712393
-      ],
-      [
-       -105.142957,
-       38.712476
-      ],
-      [
-       -105.142814,
-       38.712529
-      ],
-      [
-       -105.142679,
-       38.712611
-      ],
-      [
-       -105.142568,
-       38.7126
-      ],
-      [
-       -105.142426,
-       38.712595
-      ],
-      [
-       -105.142281,
-       38.712601
-      ],
-      [
-       -105.142136,
-       38.71262
-      ],
-      [
-       -105.14199,
-       38.712632
-      ],
-      [
-       -105.141845,
-       38.712634
-      ],
-      [
-       -105.1417,
-       38.712656
-      ],
-      [
-       -105.141555,
-       38.712691
-      ],
-      [
-       -105.141409,
-       38.712723
-      ],
-      [
-       -105.141274,
-       38.712784
-      ],
-      [
-       -105.14113,
-       38.71283
-      ],
-      [
-       -105.140985,
-       38.712864
-      ],
-      [
-       -105.140839,
-       38.71296
-      ],
-      [
-       -105.140693,
-       38.713044
-      ],
-      [
-       -105.140548,
-       38.713113
-      ],
-      [
-       -105.140402,
-       38.713196
-      ],
-      [
-       -105.140256,
-       38.713293
-      ],
-      [
-       -105.140141,
-       38.713353
-      ],
-      [
-       -105.140135,
-       38.713354
       ]
      ]
     },
@@ -30986,6 +30521,448 @@
     "error_ft": 300,
     "basis": "From the horseshoe along the east foot of Battle Mountain and west past the Portland mine, 1.38 miles: the corridor only. Traced from the USGS map of 1903 (Professional Paper 54, plate 1), which draws three to five tracks side by side here and names none; the map surveyed in 1894 draws one, lettered Midland Terminal, on the same hillside. The trace follows one drawn track and is moved 76 m to start on the bench. On the 1 m lidar 0% of it reads as a smooth grade; the ground is reworked by mine roads. It stops above Victor: the descent to the depot, by a switchback, is not traced.",
     "from_route": "routes/midland-terminal-independence-toward-victor.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.140796,
+       38.712776
+      ],
+      [
+       -105.140454,
+       38.712717
+      ],
+      [
+       -105.14,
+       38.712634
+      ],
+      [
+       -105.139661,
+       38.71256
+      ],
+      [
+       -105.139444,
+       38.712467
+      ],
+      [
+       -105.139234,
+       38.712356
+      ],
+      [
+       -105.139023,
+       38.712235
+      ],
+      [
+       -105.138814,
+       38.712107
+      ],
+      [
+       -105.138603,
+       38.711996
+      ],
+      [
+       -105.138402,
+       38.711886
+      ]
+     ]
+    },
+    "valid_from": 1896,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "Past the depot at 4th Street and Granite Avenue and away east-south-east, 0.15 mile, as the Sanborn sheet of December 1908 (sheet 3) draws the track lettered 'Midland Terminal Ry (Main Track)': put on the ground by the present street corners (fit 2.3 m RMS, worst 3.4 m). On the 1 m lidar 100% of it reads as a smooth grade. Where it went beyond the sheet's plotted area is not read here. Slid sideways onto the bench it moves a median of 6 m, so the sheet's line lies on a surviving grade and is graded measured; the smooth ground may be a later road on the grade.",
+    "from_route": "routes/midland-terminal-victor-switchback.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.143173,
+       38.717885
+      ],
+      [
+       -105.143054,
+       38.717542
+      ],
+      [
+       -105.142946,
+       38.717505
+      ],
+      [
+       -105.142846,
+       38.717426
+      ],
+      [
+       -105.142822,
+       38.717312
+      ],
+      [
+       -105.142824,
+       38.717197
+      ],
+      [
+       -105.14284,
+       38.717083
+      ],
+      [
+       -105.142849,
+       38.716968
+      ],
+      [
+       -105.142854,
+       38.716854
+      ],
+      [
+       -105.142835,
+       38.716741
+      ],
+      [
+       -105.142819,
+       38.716634
+      ],
+      [
+       -105.142795,
+       38.716527
+      ],
+      [
+       -105.142684,
+       38.716485
+      ],
+      [
+       -105.142662,
+       38.716385
+      ],
+      [
+       -105.142707,
+       38.716275
+      ],
+      [
+       -105.142803,
+       38.716176
+      ],
+      [
+       -105.142822,
+       38.716061
+      ],
+      [
+       -105.142805,
+       38.715947
+      ],
+      [
+       -105.142832,
+       38.715832
+      ],
+      [
+       -105.142842,
+       38.715718
+      ],
+      [
+       -105.142872,
+       38.715604
+      ],
+      [
+       -105.14291,
+       38.715494
+      ],
+      [
+       -105.142977,
+       38.715384
+      ],
+      [
+       -105.143015,
+       38.71527
+      ],
+      [
+       -105.143061,
+       38.715156
+      ],
+      [
+       -105.143048,
+       38.715041
+      ],
+      [
+       -105.143114,
+       38.714927
+      ],
+      [
+       -105.143169,
+       38.714813
+      ],
+      [
+       -105.143244,
+       38.714698
+      ],
+      [
+       -105.143259,
+       38.714584
+      ],
+      [
+       -105.14327,
+       38.714469
+      ],
+      [
+       -105.143233,
+       38.714355
+      ],
+      [
+       -105.143164,
+       38.71424
+      ],
+      [
+       -105.143237,
+       38.714146
+      ],
+      [
+       -105.143438,
+       38.713979
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "inferred",
+    "error_ft": 300,
+    "basis": "From the end of the corridor from Independence, on the rim of the present open pit, down to the north-west corner of Victor, 0.29 mile: traced from the USGS map of 1903 (Professional Paper 54, plate 1), which draws a track down the west side of what is now the pit to the top of the Midland Terminal's main track on the Sanborn sheet. On the 1 m lidar 0% of it reads as a smooth grade: the ground is the pit, its dumps and a mine road, and nothing of the railway survives here. The plate is good to about 15 m in the town and 100 to 200 m on the east side of the district.",
+    "from_route": "routes/midland-terminal-victor-switchback.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.143438,
+       38.713979
+      ],
+      [
+       -105.143489,
+       38.713737
+      ],
+      [
+       -105.143557,
+       38.713435
+      ],
+      [
+       -105.143602,
+       38.713286
+      ],
+      [
+       -105.143641,
+       38.713198
+      ],
+      [
+       -105.143676,
+       38.713124
+      ],
+      [
+       -105.143711,
+       38.713067
+      ],
+      [
+       -105.143746,
+       38.712993
+      ],
+      [
+       -105.143786,
+       38.712921
+      ],
+      [
+       -105.143836,
+       38.712849
+      ],
+      [
+       -105.143913,
+       38.712781
+      ],
+      [
+       -105.144035,
+       38.712719
+      ],
+      [
+       -105.144176,
+       38.712659
+      ],
+      [
+       -105.144355,
+       38.712603
+      ],
+      [
+       -105.144389,
+       38.712594
+      ]
+     ]
+    },
+    "valid_from": 1896,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "The Midland Terminal's main track past the north-west corner of Victor, 0.12 mile, as the Sanborn sheet of December 1908 (sheet 2) draws it, lettered 'Midland Terminal R.R. (Main Track)'; the sheets of 1896 and 1900 draw it the same way. Put on the ground by the present street corners (fit 4.1 m RMS; this track is at the sheet's west edge, outside the corners used, so allow about 40 ft). On the 1 m lidar 100% of it reads as a smooth grade. A present mine road runs beside it, 10 to 20 m to the west. Slid sideways onto the bench it moves a median of 2 m, so the sheet's line lies on a surviving grade and is graded measured; the smooth ground may be a later road on the grade.",
+    "from_route": "routes/midland-terminal-victor-switchback.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.144389,
+       38.712594
+      ],
+      [
+       -105.144611,
+       38.712529
+      ],
+      [
+       -105.144832,
+       38.712463
+      ],
+      [
+       -105.145053,
+       38.712397
+      ],
+      [
+       -105.145274,
+       38.71233
+      ],
+      [
+       -105.145495,
+       38.712263
+      ],
+      [
+       -105.145715,
+       38.712195
+      ],
+      [
+       -105.145935,
+       38.712126
+      ],
+      [
+       -105.146155,
+       38.712057
+      ]
+     ]
+    },
+    "valid_from": 1896,
+    "valid_to": 1949,
+    "grade": "conjecture",
+    "error_ft": 300,
+    "basis": "CONJECTURE, 0.10 mile, drawn only so that the line is continuous on the map: from the west edge of the Sanborn sheet to the 1903 trace of the line from Cripple Creek. Where the main track met the switchback leg is not drawn on any sheet read, and at the sheet's edge the two are 29 m apart in height on the present ground (3,019 m and 2,990 m), 90 m apart on the map, so they did not meet close by. The Midland Terminal's timetables list a 'Switchback' 1.1 miles before Victor from Independence; that may be the meeting point, west of the town, but it is not located. 11% smooth on the lidar.",
+    "from_route": "routes/midland-terminal-victor-switchback.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.144525,
+       38.71168
+      ],
+      [
+       -105.144551,
+       38.711789
+      ]
+     ]
+    },
+    "valid_from": 1896,
+    "valid_to": 1949,
+    "grade": "inferred",
+    "error_ft": 150,
+    "basis": "0.008 mile: the 1903 trace of the line from Cripple Creek, which runs into the town along the switchback leg about 20 m off it, is joined to the leg's west end on the Sanborn sheet, 12 m away. no smooth on the lidar (too short to test).",
+    "from_route": "routes/midland-terminal-victor-switchback.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.144551,
+       38.711789
+      ],
+      [
+       -105.144271,
+       38.711793
+      ],
+      [
+       -105.144023,
+       38.711796
+      ],
+      [
+       -105.143796,
+       38.711811
+      ],
+      [
+       -105.143544,
+       38.711834
+      ],
+      [
+       -105.143415,
+       38.711866
+      ],
+      [
+       -105.143278,
+       38.711927
+      ],
+      [
+       -105.143237,
+       38.711934
+      ],
+      [
+       -105.142993,
+       38.712073
+      ],
+      [
+       -105.142728,
+       38.712247
+      ],
+      [
+       -105.142541,
+       38.712352
+      ],
+      [
+       -105.14235,
+       38.712484
+      ],
+      [
+       -105.142202,
+       38.712557
+      ],
+      [
+       -105.14206,
+       38.712617
+      ],
+      [
+       -105.141897,
+       38.712686
+      ],
+      [
+       -105.141734,
+       38.712756
+      ],
+      [
+       -105.141581,
+       38.712829
+      ],
+      [
+       -105.14137,
+       38.712844
+      ],
+      [
+       -105.141064,
+       38.71281
+      ],
+      [
+       -105.140796,
+       38.712776
+      ]
+     ]
+    },
+    "valid_from": 1896,
+    "valid_to": 1949,
+    "grade": "inferred",
+    "error_ft": 25,
+    "basis": "The switchback leg from west of 7th Street north-east across block 5 to Granite Avenue at 5th Street and along Granite to 4th, 0.22 mile, as the Sanborn sheet of December 1908 (sheet 2) draws it, lettered 'Midland Terminal R.R. (Switchback)'; the 1896 sheet letters it 'M. T. Ry Co's Switch' and the 1900 sheet 'M. T. Ry Co's Switchback'. Put on the ground by the present street corners (fit 4.1 m RMS, worst 7 m). On the 1 m lidar 42% of it reads as a smooth grade. Slid sideways onto the nearest bench (a median of 6 m, within the sheet's error) it reads 100% smooth; a graded strip may survive (OpenStreetMap's Midland Avenue runs diagonally here), but the slid line is not used and the grade stays inferred.",
+    "from_route": "routes/midland-terminal-victor-switchback.json"
    }
   ],
   "successors": []
@@ -30997,7 +30974,7 @@
   "valid_to": 1915,
   "grade": "inferred",
   "error_ft": 60,
-  "basis": "Between Cripple Creek and Victor the line is a trace of 6.11 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred: 13 per cent of it reads as a smooth grade on the 1 m lidar. For about a mile south of Cripple Creek it is laid on the bench the tourist railway now uses, which the map's line follows at a typical 45 m; the rest is good to about 200 ft at best and lies mostly in ground now mined. The timetable of 2 June 1895 gives 5.7 miles from Cripple Creek to Victor. Where the map draws several railways side by side the trace is not told apart from the Midland Terminal's (see atlas/tools/once_route_district.py). South of Victor the line to Florence is not traced; two tunnels in Phantom Canyon are from OpenStreetMap.",
+  "basis": "Between Cripple Creek and Victor the line is a trace of 5.66 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred: 15 per cent of it reads as a smooth grade on the 1 m lidar. For about a mile south of Cripple Creek it is laid on the bench the tourist railway now uses, which the map's line follows at a typical 45 m; the rest is good to about 200 ft at best and lies mostly in ground now mined. The timetable of 2 June 1895 gives 5.7 miles from Cripple Creek to Victor. Where the map draws several railways side by side the trace is not told apart from the Midland Terminal's (see atlas/tools/once_route_district.py). It now stops where it reaches Victor; the Sanborn sheets carry it through the town. South of Victor the line to Florence is not traced; two tunnels in Phantom Canyon are from OpenStreetMap. Through Victor the line is 0.45 miles from the Sanborn sheets of December 1908 (sheets 2 and 3; 58 per cent smooth on the 1 m lidar, weighted by length): from west of 7th Street east along the south side of Diamond Avenue, across 4th Street and north-east past its own frame depot west of 3rd Street, then east between Granite and Diamond Avenues. Good to about 15 to 25 ft in the town; the short join to the 1903 trace west of the town is inferred, and the line east of the sheet is not traced (see atlas/tools/once_route_victor_sanborn.py).",
   "sources": [
    "source:osm-railways",
    "source:wikipedia-fcc",
@@ -31006,7 +30983,8 @@
    "source:official-guide-timetables",
    "source:usgs-pp54-plate1",
    "source:usgs-gf7-cripple-creek-special",
-   "source:sanborn-victor"
+   "source:sanborn-victor",
+   "source:sanborn-victor-town-sheets"
   ],
   "status": "reviewed",
   "contributor": "project",
@@ -31063,83 +31041,6 @@
      "osm_way": 525717269,
      "tunnel": true
     }
-   },
-   {
-    "geometry": {
-     "type": "LineString",
-     "coordinates": [
-      [
-       -105.139423,
-       38.711917
-      ],
-      [
-       -105.13931,
-       38.711968
-      ],
-      [
-       -105.139186,
-       38.711963
-      ],
-      [
-       -105.139069,
-       38.711953
-      ],
-      [
-       -105.138923,
-       38.711971
-      ],
-      [
-       -105.138784,
-       38.71203
-      ],
-      [
-       -105.138659,
-       38.712125
-      ],
-      [
-       -105.138538,
-       38.712237
-      ],
-      [
-       -105.138482,
-       38.712349
-      ],
-      [
-       -105.138388,
-       38.712408
-      ],
-      [
-       -105.138242,
-       38.712479
-      ],
-      [
-       -105.138097,
-       38.712524
-      ],
-      [
-       -105.137952,
-       38.712539
-      ],
-      [
-       -105.137806,
-       38.712535
-      ],
-      [
-       -105.137661,
-       38.712527
-      ],
-      [
-       -105.137601,
-       38.712525
-      ]
-     ]
-    },
-    "valid_from": 1894,
-    "valid_to": 1915,
-    "grade": "inferred",
-    "error_ft": 200,
-    "basis": "Mile 6 to 7 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000). On the 1 m lidar 0% of this mile reads as a smooth grade under 4.5 per cent: the map's line is not confirmed by the ground, much of which is now the open-pit mine or has been regraded. Between Anaconda and Elkton and from Eclipse to Victor the map draws several railways side by side and this trace is not told apart from the Midland Terminal's. After 1915 the track passed to the Cripple Creek and Colorado Springs; how long each part lasted is not recorded here.",
-    "from_route": "routes/florence-and-cripple-creek-cripple-creek-to-victor.json"
    },
    {
     "geometry": {
@@ -31921,230 +31822,6 @@
       [
        -105.146372,
        38.710581
-      ],
-      [
-       -105.146229,
-       38.710645
-      ],
-      [
-       -105.146103,
-       38.71075
-      ],
-      [
-       -105.146014,
-       38.710859
-      ],
-      [
-       -105.146052,
-       38.710956
-      ],
-      [
-       -105.145945,
-       38.711024
-      ],
-      [
-       -105.145804,
-       38.711043
-      ],
-      [
-       -105.145667,
-       38.711076
-      ],
-      [
-       -105.145522,
-       38.711063
-      ],
-      [
-       -105.145377,
-       38.711038
-      ],
-      [
-       -105.145232,
-       38.711025
-      ],
-      [
-       -105.145086,
-       38.711023
-      ],
-      [
-       -105.144963,
-       38.711073
-      ],
-      [
-       -105.144931,
-       38.711183
-      ],
-      [
-       -105.144898,
-       38.711282
-      ],
-      [
-       -105.144758,
-       38.711288
-      ],
-      [
-       -105.144613,
-       38.711244
-      ],
-      [
-       -105.144468,
-       38.71122
-      ],
-      [
-       -105.144323,
-       38.711258
-      ],
-      [
-       -105.144177,
-       38.711292
-      ],
-      [
-       -105.144032,
-       38.71132
-      ],
-      [
-       -105.143904,
-       38.711378
-      ],
-      [
-       -105.143765,
-       38.711399
-      ],
-      [
-       -105.14363,
-       38.711464
-      ],
-      [
-       -105.143498,
-       38.711506
-      ],
-      [
-       -105.143354,
-       38.711471
-      ],
-      [
-       -105.143209,
-       38.711432
-      ],
-      [
-       -105.143082,
-       38.711519
-      ],
-      [
-       -105.14296,
-       38.711628
-      ],
-      [
-       -105.14282,
-       38.711654
-      ],
-      [
-       -105.142678,
-       38.711645
-      ],
-      [
-       -105.142541,
-       38.711738
-      ],
-      [
-       -105.142396,
-       38.711824
-      ],
-      [
-       -105.14225,
-       38.711876
-      ],
-      [
-       -105.142106,
-       38.711908
-      ],
-      [
-       -105.141971,
-       38.711932
-      ],
-      [
-       -105.141826,
-       38.711936
-      ],
-      [
-       -105.141681,
-       38.711921
-      ],
-      [
-       -105.141536,
-       38.71189
-      ],
-      [
-       -105.141391,
-       38.711876
-      ],
-      [
-       -105.141246,
-       38.711864
-      ],
-      [
-       -105.141101,
-       38.711847
-      ],
-      [
-       -105.140956,
-       38.711831
-      ],
-      [
-       -105.140811,
-       38.711796
-      ],
-      [
-       -105.140666,
-       38.711776
-      ],
-      [
-       -105.140521,
-       38.711754
-      ],
-      [
-       -105.140376,
-       38.711757
-      ],
-      [
-       -105.140299,
-       38.711805
-      ],
-      [
-       -105.140254,
-       38.711768
-      ],
-      [
-       -105.140122,
-       38.711765
-      ],
-      [
-       -105.139977,
-       38.711813
-      ],
-      [
-       -105.139831,
-       38.711843
-      ],
-      [
-       -105.139686,
-       38.711874
-      ],
-      [
-       -105.139541,
-       38.711892
-      ],
-      [
-       -105.139423,
-       38.711917
-      ],
-      [
-       -105.13931,
-       38.711968
-      ],
-      [
-       -105.139186,
-       38.711963
       ]
      ]
     },
@@ -34302,6 +33979,185 @@
     "error_ft": 100,
     "basis": "Mile 0 to 1 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000). Part of this mile is not the map's line but the smooth bench now used by the tourist railway, which the map's line follows at a typical 43 m (9 in 10 points within 97 m). On the 1 m lidar 43% of this mile reads as a smooth grade under 4.5 per cent. Between Anaconda and Elkton and from Eclipse to Victor the map draws several railways side by side and this trace is not told apart from the Midland Terminal's. After 1915 the track passed to the Cripple Creek and Colorado Springs; how long each part lasted is not recorded here.",
     "from_route": "routes/florence-and-cripple-creek-cripple-creek-to-victor.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.141128,
+       38.711133
+      ],
+      [
+       -105.140879,
+       38.711297
+      ],
+      [
+       -105.140665,
+       38.711407
+      ],
+      [
+       -105.140476,
+       38.71152
+      ],
+      [
+       -105.140318,
+       38.711592
+      ],
+      [
+       -105.140164,
+       38.711655
+      ],
+      [
+       -105.140015,
+       38.711683
+      ],
+      [
+       -105.139851,
+       38.711678
+      ],
+      [
+       -105.139501,
+       38.711654
+      ],
+      [
+       -105.139155,
+       38.711624
+      ],
+      [
+       -105.138809,
+       38.71159
+      ],
+      [
+       -105.138484,
+       38.711561
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1915,
+    "grade": "inferred",
+    "error_ft": 15,
+    "basis": "From 4th Street north-east past the line's own depot (west of 3rd Street) and east between Granite and Diamond Avenues, 0.15 mile, as the Sanborn sheet of December 1908 (sheet 3) draws it (fit 2.3 m RMS). On the 1 m lidar 100% of it reads as a smooth grade. Where it went east of the sheet is not read here.",
+    "from_route": "routes/florence-and-cripple-creek-through-victor.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.144742,
+       38.710757
+      ],
+      [
+       -105.144575,
+       38.710847
+      ],
+      [
+       -105.144421,
+       38.710916
+      ],
+      [
+       -105.144266,
+       38.710974
+      ],
+      [
+       -105.14412,
+       38.711006
+      ],
+      [
+       -105.143971,
+       38.711037
+      ],
+      [
+       -105.143826,
+       38.711058
+      ],
+      [
+       -105.143684,
+       38.711064
+      ],
+      [
+       -105.143543,
+       38.711057
+      ],
+      [
+       -105.143405,
+       38.711044
+      ],
+      [
+       -105.143265,
+       38.711032
+      ],
+      [
+       -105.142849,
+       38.710993
+      ],
+      [
+       -105.142412,
+       38.710941
+      ],
+      [
+       -105.142204,
+       38.710933
+      ],
+      [
+       -105.141976,
+       38.710904
+      ],
+      [
+       -105.14173,
+       38.710897
+      ],
+      [
+       -105.141576,
+       38.710925
+      ],
+      [
+       -105.14147,
+       38.710958
+      ],
+      [
+       -105.14136,
+       38.711014
+      ],
+      [
+       -105.141246,
+       38.711085
+      ],
+      [
+       -105.141128,
+       38.711133
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1915,
+    "grade": "inferred",
+    "error_ft": 25,
+    "basis": "From west of 7th Street east between Diamond and Victor Avenues to 4th Street, 0.21 mile, as the Sanborn sheet of December 1908 (sheet 2) draws the 'Florence & Cripple Creek R.R. (Narrow Gauge) Main Track'; the 1896 and 1900 sheets draw it the same way. Put on the ground by the present street corners (fit 4.1 m RMS, worst 7 m). On the 1 m lidar 53% of it reads as a smooth grade: the ground is the town's streets and lots.",
+    "from_route": "routes/florence-and-cripple-creek-through-victor.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.146372,
+       38.710581
+      ],
+      [
+       -105.144742,
+       38.710757
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1915,
+    "grade": "inferred",
+    "error_ft": 150,
+    "basis": "0.09 mile: a straight join from the 1903 trace to the west edge of the Sanborn sheet, not drawn on any map read. 0% smooth on the lidar.",
+    "from_route": "routes/florence-and-cripple-creek-through-victor.json"
    }
   ]
  }

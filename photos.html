@@ -43,9 +43,9 @@
 </head>
 <body>
 <header>
-  <h1>Gillett photograph library</h1>
+  <h1 id="title">Gillett photograph library</h1>
   <p class="sub">Every photograph in the project: those you supplied and those collected from libraries. Click one to look closely; scroll to zoom, drag to move, arrow keys for the next and previous.
-    <a href="gillett.html">Base map</a> &middot; <a href="town3d.html">3D town</a> &middot; Photo matching &middot; Landmark guide</p>
+    <span id="links"><a href="gillett.html">Base map</a> &middot; <a href="town3d.html">3D town</a> &middot; Photo matching &middot; Landmark guide</span></p>
   <div class="bar" id="chips"></div>
   <div class="bar">
     <input type="search" id="q" placeholder="Search captions, e.g. Poley, snow, hydrant">
@@ -124,6 +124,16 @@ addEventListener('keydown', e => {
 });
 addEventListener('resize', () => { if (cur >= 0) fit(); });
 
+if (window.atlasPlace && window.atlasPlace !== 'gillett') {   // the page was written for Gillett; any other place gets its own name and map link
+  const slug = window.atlasPlace, links = document.getElementById('links');
+  links.innerHTML = '<a href="place.html?place=' + encodeURIComponent(slug) + '">Map of this place</a>';
+  document.getElementById('q').placeholder = 'Search captions';
+  fetch('atlas/places/' + encodeURIComponent(slug) + '/place.json').then(r => r.json()).then(p => {
+    const t = (p.name || slug) + ' photograph library';
+    document.title = t; document.getElementById('title').textContent = t;
+    links.firstChild.textContent = 'Map of ' + (p.name || slug);
+  }).catch(() => { document.title = 'Photograph library'; document.getElementById('title').textContent = 'Photograph library'; });
+}
 atlasData('data/photos.json').then(d => {
   DATA = d;
   if (d.withheld) {                       // a public copy shows only what its holders have cleared

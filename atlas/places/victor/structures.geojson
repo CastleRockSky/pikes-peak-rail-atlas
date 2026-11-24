@@ -4,33 +4,169 @@
   {
    "type": "Feature",
    "geometry": {
-    "type": "Point",
+    "type": "Polygon",
     "coordinates": [
-     -105.1403,
-     38.7125
+     [
+      [
+       -105.140594,
+       38.712692
+      ],
+      [
+       -105.140518,
+       38.712682
+      ],
+      [
+       -105.140514,
+       38.7127
+      ],
+      [
+       -105.140467,
+       38.712694
+      ],
+      [
+       -105.140471,
+       38.712676
+      ],
+      [
+       -105.140369,
+       38.712662
+      ],
+      [
+       -105.140386,
+       38.712582
+      ],
+      [
+       -105.140629,
+       38.712614
+      ],
+      [
+       -105.140619,
+       38.712657
+      ],
+      [
+       -105.140602,
+       38.712655
+      ],
+      [
+       -105.140594,
+       38.712692
+      ]
+     ]
     ]
    },
    "properties": {
     "id": "structure:victor:mt-depot",
-    "name": "Midland Terminal depot (brick; standing in the 1940s photographs, listed on the National Register in 1984)",
-    "valid_from": 1895,
-    "grade": "inferred",
-    "error_ft": 150,
-    "basis": "The Midland Terminal's brick depot. Two library records put it at 4th Street and Granite Avenue (Pikes Peak: the south-east corner), and the National Register lists it at 230 N. 4th Street. The point is the coordinate Wikipedia gives, which falls about 45 m east of 4th Street and 35 m south of Granite Avenue as OpenStreetMap draws them: the south-east corner. So address and coordinate agree; the building itself has not been seen on an aerial photograph or the ground by this project, and bare-earth lidar does not show buildings. The Sanborn index sheets of August 1900 and December 1908 list the 'M. T. R'y Depot' and 'M. T. R. R. Passenger Station' on sheet 3 and draw the Midland Terminal's track along the north side of this block; sheet 3 itself has not been read.",
+    "name": "Midland Terminal depot (brick; on the Sanborn sheets of 1900 and 1908, standing in the 1940s photographs, listed on the National Register in 1984)",
+    "valid_from": 1900,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "The Midland Terminal's brick depot, as the Sanborn sheets of August 1900 and December 1908 (sheet 3) draw it at the south-east corner of 4th Street and Granite Avenue (No. 230): a one-storey brick building about 74 by 29 ft, with a bay 14 ft wide on its north side toward the tracks, a frame canopy or platform roof round it and a platform at its east end. In 1900 it is lettered 'M. T. Ry Depot' with the 'Freight Ho.' in its east part; in 1908 'Passenger Station', divided into waiting room, office and baggage room. The footprint is traced off the full-size sheet and put on the ground by the present street corners (fit 2.3 m RMS, worst 3.4 m). The two library records and the National Register address agree (4th and Granite, the south-east corner; 230 N. 4th Street). The coordinate Wikipedia gives, used before, lies 26 m from the footprint's centre.",
     "sources": [
+     "source:sanborn-victor-town-sheets",
+     "source:sanborn-victor",
      "source:nrhp-84000899",
      "source:ppld-208-9902-record",
-     "source:dpl-x-546-record",
-     "source:wikipedia-victor-depot",
-     "source:sanborn-victor"
+     "source:dpl-x-546-record"
     ],
     "status": "reviewed",
     "contributor": "project",
     "updated": "2026-11-24",
-    "notes": "Built 1895 according to the Pikes Peak library's description and the Register's 'significant year'; neither has been checked against a period source. Whether it stands today rests on the 1984 listing, not on anything seen. Poley's photograph of 1895-1899 (P-973), titled 'Midland Terminal, Victor', shows a clapboarded frame station building, not this brick one: an earlier depot, a freight house, or a different place. Not settled.",
+    "notes": "NOT built in 1895, as the Pikes Peak library's description and the Register's 'significant year' say: the Sanborn sheets of December 1896 show no Midland Terminal building at this corner (the lots are empty but for a stable) and letter instead, at the south-east corner of 5th Street and Granite Avenue, a 'Freight car used for M. T. Ry Co's depot'. The brick depot is on the sheet of August 1900. So it was built between December 1896 and August 1900; valid_from is the first sheet that shows it. Whether it stands today rests on the 1984 listing, not on anything seen. Poley's photograph P-973 (1895-1899), titled 'Midland Terminal, Victor', shows a clapboarded frame station: see the place's open questions.",
     "place": "place:victor",
     "kind": "depot",
-    "placeholder": false
+    "placeholder": false,
+    "material": "brick",
+    "use": "passenger station; depot and freight house in 1900",
+    "dims": {
+     "length_ft": 74,
+     "width_ft": 29,
+     "storeys": 1
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.141827,
+     38.712817
+    ]
+   },
+   "properties": {
+    "id": "structure:victor:mt-freight-car-1896",
+    "name": "Midland Terminal's depot in December 1896: a freight car",
+    "valid_from": 1896,
+    "valid_to": 1900,
+    "grade": "inferred",
+    "error_ft": 30,
+    "basis": "A railway freight car standing at the south-east corner of 5th Street and Granite Avenue, beside the Midland Terminal's switchback leg, lettered on the Sanborn sheet of December 1896 (sheet 2) 'Freight car used for M. T. R'y Co's depot'. The point is that corner as the sheet of December 1908 draws it, put on the ground by the present streets (fit 4.1 m RMS); the 1896 sheet itself was not fitted, so allow 30 ft.",
+    "sources": [
+     "source:sanborn-victor-town-sheets"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "Seen only on the December 1896 sheet; gone by August 1900, when the brick depot a block east is drawn. valid_to is the first sheet without it.",
+    "place": "place:victor",
+    "kind": "depot",
+    "placeholder": false,
+    "use": "depot (a freight car)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -105.140262,
+       38.71179
+      ],
+      [
+       -105.139884,
+       38.711811
+      ],
+      [
+       -105.139877,
+       38.711759
+      ],
+      [
+       -105.140255,
+       38.711737
+      ],
+      [
+       -105.140262,
+       38.71179
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:victor:fcc-depot",
+    "name": "Florence and Cripple Creek depot (frame, iron clad by 1900)",
+    "valid_from": 1896,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "The Florence and Cripple Creek's depot, in block 7 west of 3rd Street between Granite and Diamond Avenues, on the north side of that railway's narrow-gauge main track, as the Sanborn sheets draw it: a long one-storey frame building, in December 1896 lettered 'F. & C. C. R. R. Depot' with an office at its west end and a freight house at its east, in August 1900 the same, clad in corrugated iron, and in December 1908 'Passenger & Freight Depot' (iron clad), about 108 by 19 ft with a bay on its south side, with a platform round it. The 1908 footprint is traced off the full-size sheet and put on the ground by the present street corners (fit 2.3 m RMS).",
+    "sources": [
+     "source:sanborn-victor-town-sheets"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "The 1900 footprint looks shorter than the 1908 one (not measured). When it was built and when it went are not recorded here; the sheets show it in December 1896, August 1900 and December 1908.",
+    "place": "place:victor",
+    "kind": "depot",
+    "placeholder": false,
+    "material": "frame, iron clad",
+    "use": "passenger and freight depot",
+    "dims": {
+     "length_ft": 108,
+     "width_ft": 19,
+     "storeys": 1
+    }
    }
   }
  ]
