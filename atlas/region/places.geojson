@@ -112,6 +112,37 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.161651,
+     38.858323
+    ]
+   },
+   "properties": {
+    "id": "place:midland",
+    "name": "Midland",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "An OpenStreetMap hamlet of this name lies 770 ft from the midland terminal grade. Whether the railway had a stop here, and where, has not been checked.",
+    "sources": [
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-23",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": null
+     }
+    ],
+    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.917113,
      38.753512
     ]
@@ -700,37 +731,6 @@
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
-      "milepost": null
-     }
-    ],
-    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -105.161651,
-     38.858323
-    ]
-   },
-   "properties": {
-    "id": "place:midland",
-    "name": "Midland",
-    "grade": "inferred",
-    "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 770 ft from the midland terminal grade. Whether the railway had a stop here, and where, has not been checked.",
-    "sources": [
-     "source:osm-railways"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-23",
-    "kind": "stop",
-    "on_lines": [
-     {
-      "line": "line:midland-terminal",
       "milepost": null
      }
     ],

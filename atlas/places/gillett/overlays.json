@@ -226,19 +226,19 @@
  },
  {
   "id": "overlay:gillett:usgs-1901",
-  "name": "USGS Pikes Peak special, 1:62,500, 1901",
+  "name": "USGS Pikes Peak, 1:125,000, edition of 1901 (reprinted 1909)",
   "valid_from": 1901,
   "valid_to": 1901,
   "grade": "measured",
-  "error_ft": 200,
-  "basis": "Reprojected from the USGS GeoTIFF with the NAD27 shift applied. ",
+  "error_ft": 400,
+  "basis": "Cut from the USGS scan (Pikes_Peak_402404_1901_62500.tif), placed by the sheet's four corner marks because the file's own georeference is wrong, with the NAD27 shift applied. Until 24 Nov 2026 this overlay was cut by the file's georeference and showed the wrong ground.",
   "sources": [
    "source:usgs-topo"
   ],
   "status": "reviewed",
   "contributor": "project",
-  "updated": "2026-11-23",
-  "notes": "The district at its peak, an inch to the mile. Shows the railways and the town as a block of streets.",
+  "updated": "2026-11-24",
+  "notes": "The district at its peak, at half an inch to the mile: the town is a small block of streets on the Midland Terminal, with the railway and the roads. The same scale as the 1894 sheet.",
   "place": "place:gillett",
   "kind": "usgs-topo",
   "date": "1901",
@@ -255,13 +255,13 @@
   ],
   "fit": {
    "method": "reprojection",
-   "note": "as published"
+   "note": "placed by the sheet's corner marks; see research/maps/usgs/georef-overrides.json"
   },
   "local": {
    "viewer": {
     "year": "1901",
-    "title": "USGS Pikes Peak special, 1:62,500, 1901",
-    "note": "The district at its peak, an inch to the mile. Shows the railways and the town as a block of streets.",
+    "title": "USGS Pikes Peak, 1:125,000, edition of 1901 (reprinted 1909)",
+    "note": "The district at its peak, at half an inch to the mile: the town is a small block of streets on the Midland Terminal, with the railway and the roads. The same scale as the 1894 sheet.",
     "file": "img/usgs-1901.jpg"
    }
   }

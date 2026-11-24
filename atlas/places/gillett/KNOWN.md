@@ -111,7 +111,7 @@ Only `public-domain` and `licensed` images may be shown on a public site; the re
 | USGS Pikes Peak, 1:125,000, edition of 1894 | 1894 | 400 ft |
 | Sanborn insurance sheet, 1896 | 1896 | 10 ft |
 | Sanborn insurance sheet, 1900 | 1900 | 10 ft |
-| USGS Pikes Peak special, 1:62,500, 1901 | 1901 | 200 ft |
+| USGS Pikes Peak, 1:125,000, edition of 1901 (reprinted 1909) | 1901 | 400 ft |
 | Sanborn insurance sheet, 1908 | 1908 | 10 ft |
 | USGS Cripple Creek North and Pikes Peak, 1:24,000, 1951 | 1951 | 40 ft |
 | Aerial photograph, 29 October 1953 (Army Map Service, frame 133-2193) | 1953 | 115 ft |
