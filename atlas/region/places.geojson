@@ -77,8 +77,33 @@
       {
        "title": "The town in 3D, and standing where photographs were taken",
        "href": "town3d.html"
+      },
+      {
+       "title": "Photograph library",
+       "href": "photos.html"
+      },
+      {
+       "title": "Model: the Midland Terminal depot",
+       "href": "depot.html"
+      },
+      {
+       "title": "Model: the bull ring of August 1895",
+       "href": "bullring.html"
+      },
+      {
+       "title": "Model: the Catholic church",
+       "href": "church.html"
+      },
+      {
+       "title": "Model: the Congregational church",
+       "href": "congregational.html"
+      },
+      {
+       "title": "Model: the Monte Carlo",
+       "href": "montecarlo.html"
       }
-     ]
+     ],
+     "acknowledgement": "This reconstruction began as a response to the photographs of Gillett shared by the Victor Heritage Society. Their photographs are not reproduced here unless their holders have cleared them; each is credited where it is used."
     }
    }
   },

@@ -40,6 +40,7 @@
   <p class="note" id="attribution">Railway lines and place names: © OpenStreetMap contributors (Open Database Licence). Base maps and imagery: Esri. Elevation, historical maps and aerial photographs: U.S. Geological Survey. Insurance maps: Sanborn Map Company, 1896 to 1908, from the University of Colorado Boulder. Photographs are held by the institutions named with each and are shown by their permission; those not cleared for publication are linked, not shown. The atlas's own work (positions, camera stations, footprints, models and notes) is © Pikes Peak Rail Atlas, free to reuse with credit under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
 </div>
 <div id="map"></div>
+<script>window.ATLAS_LANDING = true;</script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 if (location.protocol === 'file:') document.getElementById('warn').style.display = 'block';
@@ -69,10 +70,12 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
     const layer = L.circleMarker([lat, lon], { radius: isWorked ? 9 : 5, color: '#fff', weight: 2, fillColor: col, fillOpacity: 1 })
       .bindPopup('<b>' + esc(p.name) + '</b><br>' + esc(p.kind) + (p.valid_from ? ', ' + p.valid_from + (p.valid_to ? ' to ' + p.valid_to : ' on') : '') +
         '<br><span class="pill" style="background:' + ({ measured: '#15803d', inferred: '#d97706', conjecture: '#6b7280' }[p.grade]) + '">' + p.grade + '</span> ' + (p.error_ft == null ? '' : 'good to ' + p.error_ft + ' ft') +
-        '<br>' + esc(isWorked ? p.summary : p.basis) + (isWorked ? '<br><a href="place.html?place=' + slug + '"><b>Open this place</b></a>' : '<br><span class="note">A pin only: not worked up yet.</span>'));
+        '<br>' + esc(isWorked ? p.summary : p.basis) + (isWorked ? '<br><a href="' + (window.ATLAS_LANDING ? slug + '/' : 'place.html?place=' + slug) + '"><b>Open this place</b></a>' : '<br><span class="note">A pin only: not worked up yet.</span>'));
     placeLayers.push({ layer, from: p.valid_from || 0, to: p.valid_to || 9999, worked: isWorked });
   }
-  pbox.innerHTML = worked.map(f => '<p><a href="place.html?place=' + f.properties.id.split(':')[1] + '">' + esc(f.properties.name) + '</a> <span class="note">' + f.properties.kind + '</span></p>').join('');
+  const href = slug => window.ATLAS_LANDING ? slug + '/' : 'place.html?place=' + slug;        // the public copy gives each worked place its own address
+  pbox.innerHTML = worked.map(f => '<p><a href="' + href(f.properties.id.split(':')[1]) + '"><b>' + esc(f.properties.name) + '</b></a> <span class="note">' + f.properties.kind + '</span></p>').join('') +
+    '<p class="note">' + worked.length + ' place' + (worked.length === 1 ? ' is' : 's are') + ' worked up so far. The ' + (places.features.length - worked.length) + ' pins are places still to be done; more are added as each is worked up.</p>';
   const km = lines.map(l => l.segments.length).reduce((a, b) => a + b, 0);
   document.getElementById('caveat').textContent = 'The lines are OpenStreetMap\'s traces of the abandoned grades inside the corridors fetched so far (' + km + ' pieces), not the whole of each railway, and are checked against lidar only at the worked places. ' +
     'The Florence and Cripple Creek is represented by two tunnels only. Settlements are pinned because they lie beside a grade, not because a stop there has been confirmed. ' +
