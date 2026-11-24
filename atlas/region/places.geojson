@@ -894,10 +894,10 @@
    },
    "properties": {
     "id": "place:fairview",
-    "name": "Fairview",
-    "grade": "inferred",
+    "name": "Fairview (a modern map name near Cripple Creek; not the Short Line's Fairview)",
+    "grade": "conjecture",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 40 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. Named in the Short Line's timetable of 26 September 1909 as a telegraph station, 10.7 miles from Colorado Springs Yard.",
+    "basis": "An OpenStreetMap hamlet of this name lies 40 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. Named in the Short Line's timetable of 26 September 1909 as a telegraph station, 10.7 miles from Colorado Springs Yard. Measured along the checked route this point is more than a mile from the line and 26 miles from where the Short Line's timetable puts its Fairview (10.7 miles from Colorado Springs Yard). It is a different Fairview, and is not shown as a station.",
     "sources": [
      "source:osm-railways",
      "source:official-guide-timetables"
@@ -905,14 +905,14 @@
     "status": "draft",
     "contributor": "project",
     "updated": "2026-11-24",
-    "kind": "stop",
+    "kind": "other",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
       "milepost": 10.7
      }
     ],
-    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+    "summary": "A name on the modern map beside the district lines. The Short Line's station called Fairview was 10.7 miles from Colorado Springs Yard, some 25 miles east of here, and has its own pin."
    }
   },
   {
@@ -1572,6 +1572,254 @@
      }
     ],
     "summary": "A station in the railway's public timetables, 1909 to 1948. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.883664,
+     38.798971
+    ]
+   },
+   "properties": {
+    "id": "place:sublime",
+    "name": "Sublime",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 6.6 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 6.6
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.901685,
+     38.775745
+    ]
+   },
+   "properties": {
+    "id": "place:fairview-short-line",
+    "name": "Fairview",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 10.7 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 10.7
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.904669,
+     38.748365
+    ]
+   },
+   "properties": {
+    "id": "place:st-peters",
+    "name": "St. Peter's",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 14.9 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 14.9
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.94589,
+     38.729857
+    ]
+   },
+   "properties": {
+    "id": "place:summit-short-line",
+    "name": "Summit",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 21.4 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 21.4
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.970674,
+     38.729609
+    ]
+   },
+   "properties": {
+    "id": "place:saderlind",
+    "name": "Saderlind",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 24.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 24.2
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.01991,
+     38.731901
+    ]
+   },
+   "properties": {
+    "id": "place:clyde",
+    "name": "Clyde",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 30.1
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.06158,
+     38.733515
+    ]
+   },
+   "properties": {
+    "id": "place:love",
+    "name": "Love",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 34.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 34.2
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.123252,
+     38.744639
+    ]
+   },
+   "properties": {
+    "id": "place:grassy",
+    "name": "Grassy",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 38.8 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 38.8
+     }
+    ],
+    "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
    }
   }
  ]
