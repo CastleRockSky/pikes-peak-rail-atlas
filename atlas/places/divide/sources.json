@@ -1,0 +1,95 @@
+[
+ {
+  "id": "source:drgw-divide",
+  "kind": "web page (secondary)",
+  "title": "Divide, CO",
+  "holder": "drgw.net (railfan reference site)",
+  "url": "https://www.drgw.net/info/Divide",
+  "date": "last modified 28 August 2011",
+  "accessed": "2026-11-24",
+  "quote": "Divide was the connecting point between the Colorado Midland Railway and the Midland Terminal Railway, located at milepost 27.4. The station was originally known as Hayden's Divide. ... Today, the old Colorado Midland station sits to the south of US 24 and east of Colorado Highway 67."
+ },
+ {
+  "id": "source:drgw-midland-terminal",
+  "kind": "web page (secondary)",
+  "title": "The Midland Terminal Railway",
+  "holder": "drgw.net (railfan reference site)",
+  "url": "https://www.drgw.net/info/MidlandTerminal",
+  "date": "last modified 21 October 2013",
+  "accessed": "2026-11-24",
+  "quote": "Construction started at Divide during December of 1893 ... The last revenue train operated on 20 Feb 1949."
+ },
+ {
+  "id": "source:gazette-2025-11-01-depot",
+  "kind": "newspaper article (secondary)",
+  "title": "Restoration at Midland Depot chugs along",
+  "author": "Doug Fitzgerald",
+  "holder": "The Gazette (Colorado Springs)",
+  "date": "2025-11-01",
+  "url": "https://gazette.com/2025/11/01/restoration-at-midland-depot-chugs-along/",
+  "accessed": "2026-11-24",
+  "quote": "The depot, built in 1886, burned a year later and built again in 1903."
+ },
+ {
+  "id": "source:gazette-2025-10-09-divide",
+  "kind": "newspaper column (secondary)",
+  "title": "A town called Divide (Caboose Cobwebs)",
+  "author": "Mel McFarland",
+  "holder": "The Gazette (Colorado Springs)",
+  "date": "2025-10-09",
+  "url": "https://gazette.com/2025/10/09/a-town-called-divide-caboose-cobwebs/",
+  "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:wikipedia-divide-colorado",
+  "kind": "encyclopedia article",
+  "title": "Divide, Colorado",
+  "holder": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Divide,_Colorado",
+  "accessed": "2026-11-24",
+  "quote": "The Divide, Colorado, post office opened on June 26, 1889."
+ },
+ {
+  "id": "source:ppld-news-1921-12-30",
+  "kind": "newspaper index entry",
+  "title": "Midland Terminal Buys Track as far as Divide at cost of $200,000",
+  "holder": "Pikes Peak Library District, Pikes Peak NewsFinder (Gazette, 30 Dec 1921, p. 1, article no. 335037)",
+  "url": "https://digitalcollections.ppld.org/nodes/view/1014527",
+  "date": "1921-12-30",
+  "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:ppld-news-1976-05-23",
+  "kind": "newspaper index entry",
+  "title": "Cripple Creek-Midland Railroad Depot renovated",
+  "holder": "Pikes Peak Library District, Pikes Peak NewsFinder (Gazette, 23 May 1976, p. E3, article no. 335938; location Divide)",
+  "url": "https://digitalcollections.ppld.org/nodes/view/316577",
+  "date": "1976-05-23",
+  "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:official-guide-divide",
+  "kind": "published timetables",
+  "title": "Official Guide of the Railways: Colorado Midland tables of Oct 1888 to 1909 and Midland Terminal tables of 1895 to 1948",
+  "holder": "Scans supplied to the project (research/supplied/trains); transcribed in research/stations/",
+  "date": "1888-1948",
+  "accessed": "2026-11-24",
+  "quote": "Divide-With Midland Terminal Ry. for Grassy, Cripple Creek, &c. (Colorado Midland table, June 1895)"
+ },
+ {
+  "id": "source:poors-1887-colorado-midland",
+  "kind": "railway manual",
+  "title": "Poor's Manual of the Railroads, 1887: Colorado Midland Railway entry",
+  "holder": "Scan supplied to the project (research/supplied/trains, CM-1887-POORS.pdf); transcribed in research/stations/colorado-midland.json",
+  "date": "1887",
+  "quote": "Completed July 1, 1887 : Colorado Springs, westward ...100 miles."
+ },
+ {
+  "id": "source:google-maps-divide-depot",
+  "kind": "map listing and satellite picture",
+  "title": "Colorado Midland Railroad Depot (Google Maps place listing)",
+  "holder": "Google",
+  "accessed": "2026-11-24",
+  "quote": "Listed at 38.9447888, -105.1502692 as a historical landmark; the satellite picture there shows one building."
+ }
+]

@@ -10,7 +10,8 @@
   "source:usgs-pikes-peak-1901",
   "source:wikipedia-midland-terminal",
   "source:wikipedia-midland-colorado",
-  "source:lidar-3dep"
+  "source:lidar-3dep",
+  "source:official-guide-timetables"
  ],
  "status": "reviewed",
  "contributor": "project",
@@ -22,7 +23,7 @@
    "milepost": null
   }
  ],
- "summary": "A small settlement in the valley between Divide and Gillett, and a station on the Midland Terminal Railway. Secondary sources say the first section of the railway, 7.1 miles from Divide, was finished to Midland on 9 December 1893, and that the line went on to reach Gillett on 4 July 1894. The 1894 government map shows the name and a few buildings beside a road but no railway; the 1901 edition shows the railway passing east of the buildings and then swinging through a wide horseshoe curve to the south-east. The grade is still plain on the ground: a broad bench that bends at Midland and runs off along the hillside. The railway ran until 1949. People still live at Midland. No photograph of the place in railway days has been found yet.",
+ "summary": "A small settlement in the valley between Divide and Gillett, and a station on the Midland Terminal Railway. It is in the public timetables from June 1895 (as a Midland Terminal station in the Colorado Midland's table) to March 1948, the last one read, at 6.2 miles from Divide in the tables of 1920 and after. Secondary sources say the first section of the railway was finished to Midland on 9 December 1893. The 1894 government map shows the name and a few buildings beside a road but no railway; the 1901 edition shows the railway passing east of the buildings and then swinging through a wide horseshoe curve to the south-east. The grade is still plain on the ground: a broad bench that bends at Midland and runs off along the hillside. The railway ran until 1949. People still live at Midland. No photograph of the place in railway days has been found yet.",
  "geometry": {
   "type": "Point",
   "coordinates": [
@@ -33,10 +34,11 @@
  "open_questions": [
   "Where the station and any siding stood: not established. The 1 m lidar shows a level bench on the inside of the bend in the grade, about 700 ft north-east of the settlement, which would suit a station; that reading is a conjecture until a map, photograph or record confirms it.",
   "No photograph of Midland was found in a first search of the Denver Public Library catalogue on 24 Nov 2026. That search engine does not match phrases, so this is not proof there are none; the Pikes Peak Library District and local museums have not been searched.",
-  "The dates are from Wikipedia. Its Midland Terminal article gives 9 December 1893 for completion to Midland (citing L. I. Tingvik, 'Rail dates', 2006) but also says the first narrow-gauge track was torn up in January 1893; the two statements do not sit together and need a primary source.",
+  "How far Midland was from Divide, and when the rails reached it. The timetables give 6.2 miles (1920 to 1948), 6 miles (1909) and 7 miles (June 1895, whole miles from Denver). Wikipedia gives 7.1 miles and 9 December 1893 (citing L. I. Tingvik, 'Rail dates', 2006), and in the same article says the first narrow-gauge track was torn up in January 1893. The date needs a primary source.",
   "'Founded 1893' is given by Wikipedia without a source. Whether Midland had a post office, and when, is not known here.",
   "Elevation: 8,972 ft is the 3DEP ground at the point. The 9,407 ft in the Geographic Names record quoted by Wikipedia belongs to the census area, whose centre is about 0.8 mile to the south-east.",
-  "The 1951 and 1994 USGS maps at 1:24,000 have not been cut for Midland: it lies across the edge of two sheets."
+  "The 1951 and 1994 USGS maps at 1:24,000 have not been cut for Midland: it lies across the edge of two sheets.",
+  "Midland is missing from the Midland Terminal's own table of 14 July 1895, which lists only Divide, Gillett, Grassy, Independence and Victor; it appears in the Colorado Midland's table of June 1895. Whether it was then a regular stop is not known."
  ],
  "local": {
   "tier": 2

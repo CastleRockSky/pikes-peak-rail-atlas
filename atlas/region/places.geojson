@@ -6,6 +6,76 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.150269,
+     38.944789
+    ]
+   },
+   "properties": {
+    "id": "place:divide",
+    "name": "Divide",
+    "grade": "measured",
+    "error_ft": 30,
+    "basis": "The point is the standing depot, moved from the modern crossroads (OpenStreetMap's village point) 0.42 mile west-south-west, because the depot is the railway place and its position is now established: a Google Maps listing and satellite picture put a single building of depot form here, on the side of US 24 and Highway 67 that drgw.net gives, within about 30 ft. That the building is the depot rests on secondary sources. The junction of the two railways was about 300 ft north-east of it. Elevation is the 1 m lidar ground at the point.",
+    "sources": [
+     "source:osm-railways",
+     "source:lidar-3dep",
+     "source:usgs-pikes-peak-1894",
+     "source:usgs-pikes-peak-1901",
+     "source:drgw-divide",
+     "source:drgw-midland-terminal",
+     "source:gazette-2025-11-01-depot",
+     "source:gazette-2025-10-09-divide",
+     "source:wikipedia-divide-colorado",
+     "source:wikipedia-colorado-midland",
+     "source:wikipedia-midland-terminal",
+     "source:ppld-news-1921-12-30",
+     "source:google-maps-divide-depot",
+     "source:official-guide-divide",
+     "source:poors-1887-colorado-midland"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "town",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     },
+     {
+      "line": "line:midland-terminal",
+      "milepost": null
+     }
+    ],
+    "summary": "Divide is the town at the top of Ute Pass, where the Colorado Midland Railway crossed its summit on the way west from Colorado Springs and where the Midland Terminal Railway branched off south to the Cripple Creek district. Poor's Manual of 1887 says the Colorado Midland was finished 100 miles west from Colorado Springs by 1 July 1887, which takes in Divide, and Divide is a station in the Colorado Midland's public timetable of October 1888, 27.8 miles from Colorado Springs. The June 1895 timetable names it as the change for the Midland Terminal to Grassy and Cripple Creek, and the Midland Terminal's own tables count their miles from Divide (1895, 1909) and later from Colorado Springs, Divide being mile 26.9 (1920 to 1948, altitude printed 9,198 ft). Secondary sources say the station was first called Hayden's Divide, that the Midland Terminal was begun here in December 1893, that it took over the Colorado Midland's track east of Divide when that railway was given up in 1921 (a Gazette headline of 30 December 1921 reports the purchase), and that the last trains ran in 1949. The post office opened on 26 June 1889 (Wikipedia). The depot still stands south of US 24, about 0.4 mile east of the Highway 67 crossroads and next to the old junction; a 2025 newspaper article says it was built in 1886, burned a year later and was rebuilt in 1903, dates not yet checked against a primary record, and it is being restored. The 1894 and 1901 government maps draw the Colorado Midland climbing to the summit by a loop north of the wagon road, and the 1901 map draws a wye where the Midland Terminal leaves it. On the 1 m lidar the loop survives as a bench now used by Grandview Drive, the summit cut west of the crossroads is about 30 ft deep, and south of the junction the Midland Terminal's bank runs past the reservoir dam east of town and on along the creek. A straight cut beside the loop that the old maps do not show is unexplained. The junction and the wye are built over. The Denver Public Library holds a photograph of the earlier depot of about 1896, and Otto Perry's and Ralph Hallock's photographs of Midland Terminal trains near Divide in 1935 and 1949.",
+    "open_questions": [
+     "The depot's dates: the Gazette (2025) says built 1886, burned a year later, rebuilt 1903; 1904 is also given. 1886 is before the Colorado Midland is said to have reached Divide (1887). Needs a primary record (railway records, a newspaper of 1903 or 1904, the county's designation).",
+     "Whether the standing building is on the site of the depot in the c.1896 photograph (DPL X-7727), and where the 1887 depot stood: not established.",
+     "Where the junction switch and the wye's legs lay: the 1901 map draws a wye but at 1:125,000; the ground is built over. A faint line south-east of the junction is too steep on today's ground for track and is not taken as a leg.",
+     "Water tank, coal, section house, sidings or yard at Divide: no source seen mentions them. The 1901 map shows building symbols near the junction but not what they were.",
+     "The straight cut west of the crossroads, south of the loop: OpenStreetMap tags it Colorado Midland, but neither old map shows it and it climbs about 3.4 per cent. A line change after 1901, a siding or a road?",
+     "When the loop went out of use, and when the Colorado Midland west of Divide was taken up (1918 stop, 1921 abandonment: the secondary sources differ).",
+     "Mileage from Colorado Springs: 27.8 in the Colorado Midland's timetable of October 1888, 26.9 in the Midland Terminal's of 1920 to 1948, 27.4 on drgw.net. The difference may be a line change (the loop given up?) or a different measuring point; not resolved.",
+     "Altitude: the Midland Terminal timetables print 9,198 ft for Divide; the 1 m lidar ground is 9,112 ft at the depot and at most about 9,174 ft anywhere on the line inside the box (at the summit cut). Which point the 9,198 refers to is not known.",
+     "The depot is not in a timetable as a building; the timetables show only that Divide was a telegraph station from 1893 (a coupon station 1935 to 1940).",
+     "The 1894 and 1901 maps draw the loop about 800 ft east of where it lies on the ground; read only shapes from them here.",
+     "Photographs: the Denver Public Library and Pikes Peak Library District catalogues were searched by hand on 24 Nov 2026 with about eight keyword combinations (Divide with Midland, depot, station, train, Teller, Midland Terminal). DPL's search does not match phrases and 'Divide' is drowned by the Continental Divide (9,790 hits), so the search is not exhaustive. Where Perry's and Hallock's 'near Divide' views were taken has not been worked out. No image has been fetched.",
+     "Newspapers indexed by PPLD and not yet read: Gazette 30 Dec 1921 (Midland Terminal buys the track as far as Divide) and 23 May 1976 (the depot renovated).",
+     "Rights: eight of the catalogued photographs are of 1935 and 1949 (Otto Perry) and are marked as library copies that may be shown. That rests on the permission the owner reported, whose terms have not been seen; confirm it covers photographs still in copyright before any is fetched and shown."
+    ],
+    "local": {
+     "tier": 2
+    },
+    "notes": "The first lidar reading (24 Nov 2026) is now entered as structures: the loop, the summit cut, a straight cut the maps do not show, and the Midland Terminal bank south of the junction. Through the town centre the main line is under US 24 and modern building. Divide is a living town, so most railway ground is built over.",
+    "elevation_ft": 9112,
+    "valid_from": 1887
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -105.1235,
      38.7817
     ]
@@ -128,7 +198,8 @@
      "source:usgs-pikes-peak-1901",
      "source:wikipedia-midland-terminal",
      "source:wikipedia-midland-colorado",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:official-guide-timetables"
     ],
     "status": "reviewed",
     "contributor": "project",
@@ -140,14 +211,15 @@
       "milepost": null
      }
     ],
-    "summary": "A small settlement in the valley between Divide and Gillett, and a station on the Midland Terminal Railway. Secondary sources say the first section of the railway, 7.1 miles from Divide, was finished to Midland on 9 December 1893, and that the line went on to reach Gillett on 4 July 1894. The 1894 government map shows the name and a few buildings beside a road but no railway; the 1901 edition shows the railway passing east of the buildings and then swinging through a wide horseshoe curve to the south-east. The grade is still plain on the ground: a broad bench that bends at Midland and runs off along the hillside. The railway ran until 1949. People still live at Midland. No photograph of the place in railway days has been found yet.",
+    "summary": "A small settlement in the valley between Divide and Gillett, and a station on the Midland Terminal Railway. It is in the public timetables from June 1895 (as a Midland Terminal station in the Colorado Midland's table) to March 1948, the last one read, at 6.2 miles from Divide in the tables of 1920 and after. Secondary sources say the first section of the railway was finished to Midland on 9 December 1893. The 1894 government map shows the name and a few buildings beside a road but no railway; the 1901 edition shows the railway passing east of the buildings and then swinging through a wide horseshoe curve to the south-east. The grade is still plain on the ground: a broad bench that bends at Midland and runs off along the hillside. The railway ran until 1949. People still live at Midland. No photograph of the place in railway days has been found yet.",
     "open_questions": [
      "Where the station and any siding stood: not established. The 1 m lidar shows a level bench on the inside of the bend in the grade, about 700 ft north-east of the settlement, which would suit a station; that reading is a conjecture until a map, photograph or record confirms it.",
      "No photograph of Midland was found in a first search of the Denver Public Library catalogue on 24 Nov 2026. That search engine does not match phrases, so this is not proof there are none; the Pikes Peak Library District and local museums have not been searched.",
-     "The dates are from Wikipedia. Its Midland Terminal article gives 9 December 1893 for completion to Midland (citing L. I. Tingvik, 'Rail dates', 2006) but also says the first narrow-gauge track was torn up in January 1893; the two statements do not sit together and need a primary source.",
+     "How far Midland was from Divide, and when the rails reached it. The timetables give 6.2 miles (1920 to 1948), 6 miles (1909) and 7 miles (June 1895, whole miles from Denver). Wikipedia gives 7.1 miles and 9 December 1893 (citing L. I. Tingvik, 'Rail dates', 2006), and in the same article says the first narrow-gauge track was torn up in January 1893. The date needs a primary source.",
      "'Founded 1893' is given by Wikipedia without a source. Whether Midland had a post office, and when, is not known here.",
      "Elevation: 8,972 ft is the 3DEP ground at the point. The 9,407 ft in the Geographic Names record quoted by Wikipedia belongs to the census area, whose centre is about 0.8 mile to the south-east.",
-     "The 1951 and 1994 USGS maps at 1:24,000 have not been cut for Midland: it lies across the edge of two sheets."
+     "The 1951 and 1994 USGS maps at 1:24,000 have not been cut for Midland: it lies across the edge of two sheets.",
+     "Midland is missing from the Midland Terminal's own table of 14 July 1895, which lists only Divide, Gillett, Grassy, Independence and Victor; it appears in the Colorado Midland's table of June 1895. Whether it was then a regular stop is not known."
     ],
     "local": {
      "tier": 2
@@ -707,18 +779,19 @@
     "name": "Florissant",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap village of this name lies 120 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap village of this name lies 120 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked. Named in every Colorado Midland timetable read, 36.7 miles from Colorado Springs in that of October 1888.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "town",
     "on_lines": [
      {
       "line": "line:colorado-midland",
-      "milepost": null
+      "milepost": 36.7
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
@@ -738,49 +811,19 @@
     "name": "Fairview",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 40 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap hamlet of this name lies 40 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. Named in the Short Line's timetable of 26 September 1909 as a telegraph station, 10.7 miles from Colorado Springs Yard.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "stop",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
-      "milepost": null
-     }
-    ],
-    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -105.157209,
-     38.941936
-    ]
-   },
-   "properties": {
-    "id": "place:divide",
-    "name": "Divide",
-    "grade": "inferred",
-    "error_ft": 1500,
-    "basis": "An OpenStreetMap village of this name lies 130 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
-    "sources": [
-     "source:osm-railways"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-23",
-    "kind": "town",
-    "on_lines": [
-     {
-      "line": "line:colorado-midland",
-      "milepost": null
+      "milepost": 10.7
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
@@ -798,23 +841,24 @@
    "properties": {
     "id": "place:stratton",
     "name": "Stratton",
-    "grade": "inferred",
+    "grade": "conjecture",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 1350 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap hamlet of this name lies 1350 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. The Short Line's timetable of 26 September 1909, the only one read, does not name Stratton, so this is not shown as a station. Other years have not been checked.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
-    "kind": "stop",
+    "updated": "2026-11-24",
+    "kind": "other",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
       "milepost": null
      }
     ],
-    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+    "summary": "A name on the modern map beside the Short Line grade. It is not a station in the one Short Line timetable read (26 September 1909)."
    }
   },
   {
@@ -831,18 +875,19 @@
     "name": "Green Mountain Falls",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap village of this name lies 330 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap village of this name lies 330 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked. Named 'Green Mt. Falls' in every Colorado Midland timetable read, 15.0 miles from Colorado Springs in that of October 1888.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "town",
     "on_lines": [
      {
       "line": "line:colorado-midland",
-      "milepost": null
+      "milepost": 15.0
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
@@ -860,23 +905,24 @@
    "properties": {
     "id": "place:chipita-park",
     "name": "Chipita Park",
-    "grade": "inferred",
+    "grade": "conjecture",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 1020 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap hamlet of this name lies 1020 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked. No timetable read names Chipita. Between Cascade and Green Mountain Falls the Colorado Midland's tables print Ute Park (1890 and 1895, one to two miles past Cascade) and Culver (1888, and the Midland Terminal's of 1920, about 1.1 miles past Cascade). Whether either stood at this point is not established, so this is not shown as a station.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
-    "kind": "stop",
+    "updated": "2026-11-24",
+    "kind": "other",
     "on_lines": [
      {
       "line": "line:colorado-midland",
       "milepost": null
      }
     ],
-    "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+    "summary": "A modern settlement beside the Colorado Midland grade. No timetable read names Chipita; the stations printed for this stretch are Ute Park and Culver, and which stood here is not established."
    }
   },
   {
@@ -893,18 +939,19 @@
     "name": "Rosemont",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 100 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap hamlet of this name lies 100 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. Named in the Short Line's timetable of 26 September 1909, 22.8 miles from Colorado Springs Yard.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "stop",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
-      "milepost": null
+      "milepost": 22.8
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
@@ -924,18 +971,19 @@
     "name": "Cascade",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 210 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap hamlet of this name lies 210 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked. Named 'Cascade Canon' in the Colorado Midland timetables (11.9 miles from Colorado Springs in October 1888) and 'Cascade' in the Midland Terminal's from 1920 (11.5 miles).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "stop",
     "on_lines": [
      {
       "line": "line:colorado-midland",
-      "milepost": null
+      "milepost": 11.9
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
@@ -952,21 +1000,22 @@
    },
    "properties": {
     "id": "place:duffield",
-    "name": "Duffield",
+    "name": "Duffields (Duffield on modern maps)",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 60 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap hamlet of this name lies 60 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. Named 'Duffields' in the Short Line's timetable of 26 September 1909, 18.1 miles from Colorado Springs Yard.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "stop",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
-      "milepost": null
+      "milepost": 18.1
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
@@ -986,18 +1035,19 @@
     "name": "Manitou Springs",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap town of this name lies 700 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked.",
+    "basis": "An OpenStreetMap town of this name lies 700 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked. Named 'Manitou' in every Colorado Midland timetable read, 6.5 miles from Colorado Springs in that of October 1888.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:official-guide-timetables"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "town",
     "on_lines": [
      {
       "line": "line:colorado-midland",
-      "milepost": null
+      "milepost": 6.5
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."

@@ -78,5 +78,21 @@
   "holder": "Rocky Mountain Railroad Club",
   "url": "https://www.drgw.net/info/uploads/Main/fcc-tour-guide-v1.pdf",
   "accessed": "2026-11-23"
+ },
+ {
+  "id": "source:official-guide-timetables",
+  "kind": "published timetables",
+  "title": "Official Guide of the Railways: tables of the Colorado Midland, Midland Terminal, Colorado Springs and Cripple Creek District, and Florence and Cripple Creek, issues of 1888 to 1948",
+  "holder": "Scans supplied to the project (research/supplied/trains); transcribed in research/stations/",
+  "date": "1888-1948",
+  "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:poors-moodys-manuals",
+  "kind": "published manuals",
+  "title": "Poor's Manual of Railroads (1887, 1892, 1895, 1899, 1902) and Moody's Steam Railroads (1917): entries for the four railways",
+  "holder": "Scans supplied to the project (research/supplied/trains); quotations in research/stations/",
+  "date": "1887-1917",
+  "accessed": "2026-11-24"
  }
 ]

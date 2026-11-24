@@ -1,0 +1,560 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.150269,
+     38.944789
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:depot",
+    "name": "Depot (standing building)",
+    "valid_from": 1903,
+    "grade": "measured",
+    "error_ft": 30,
+    "basis": "Position: the Google Maps listing 'Colorado Midland Railroad Depot' is at this point and its satellite picture shows a single building of depot form there, on the south side of US 24 about 0.42 mile east-north-east of the Highway 67 crossroads, which agrees with drgw.net ('south of US 24 and east of Colorado Highway 67'). On the 1 m lidar the spot is a level shelf within about 2 ft, ground 9,112 ft. The position is good to about 30 ft (judgement: the size of the building and the fit of the listing to the roof). That this building is the railway depot rests on secondary sources (a 2025 Gazette article on its restoration and drgw.net), not yet on a primary record. The Gazette dates it 'built in 1886, burned a year later and built again in 1903'; a 1904 date is also in circulation. valid_from is the Gazette's 1903 rebuild and is secondary.",
+    "sources": [
+     "source:google-maps-divide-depot",
+     "source:drgw-divide",
+     "source:gazette-2025-11-01-depot",
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "A 2025 article says Teller County's designation covers the building and about 1.75 acres that were the railway grade; the owner is a non-profit. A Gazette article of 23 May 1976 (indexed by the Pikes Peak Library District, not read) reports the depot renovated. The photograph X-7727 (c.1896) shows the earlier depot, a different building if the rebuild date is right.",
+    "place": "place:divide",
+    "kind": "depot",
+    "placeholder": false,
+    "use": "railway station of the Colorado Midland and the Midland Terminal; under restoration in 2025"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.149651,
+     38.945186
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:junction",
+    "name": "Junction of the Midland Terminal with the Colorado Midland",
+    "valid_from": 1893,
+    "valid_to": 1949,
+    "grade": "inferred",
+    "error_ft": 200,
+    "basis": "Where the OpenStreetMap trace of the Midland Terminal leaves the Colorado Midland's, about 300 ft north-east of the standing depot and 0.46 mile east-north-east of the crossroads. Not seen on the ground: US 24, its frontage road and modern building cover it. The 1901 map draws the branch leaving the main line here within that map's error, and the Midland Terminal embankment measured further south, carried north, comes to the main line in this neighbourhood. Error is a judgement. Sources say only that the lines divided at Divide; none seen gives the switch's place.",
+    "sources": [
+     "source:osm-railways",
+     "source:usgs-pikes-peak-1901",
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:divide",
+    "kind": "other",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1493,
+     38.943294
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:wye-1901-map",
+    "name": "Wye drawn on the 1901 map",
+    "valid_from": 1901,
+    "grade": "inferred",
+    "error_ft": 400,
+    "basis": "The 1901 edition of the USGS sheet draws a wye (two legs off the main line meeting in a stem that runs south) where the Midland Terminal leaves the Colorado Midland; the 1894 edition has no branch. Point is where the legs meet, read off the map and moved about 230 ft west and 160 ft north so that the map's main line and branch lie on the grades traced on the lidar nearby. The map is generalised at 1:125,000, so this says a wye existed about here by 1901, not where its tracks lay. The ground here is partly built over and partly open field; no leg can be followed on the lidar (see the faint line, recorded separately).",
+    "sources": [
+     "source:usgs-pikes-peak-1901"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:divide",
+    "kind": "other",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.148613,
+      38.945458
+     ],
+     [
+      -105.148842,
+      38.945025
+     ],
+     [
+      -105.149095,
+      38.944601
+     ],
+     [
+      -105.149383,
+      38.944195
+     ],
+     [
+      -105.149648,
+      38.943744
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:faint-line-se-of-junction",
+    "name": "Faint line south-east of the junction (wye leg? not shown)",
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the local-relief picture a faint line, under 1.5 ft of relief, curves from near the main line south-west towards the Midland Terminal's line, close to the east leg of the wye as the 1901 map draws it (about 100 to 130 ft off once that map is fitted). The line is measured. That it was a wye leg is a conjecture and the ground counts against it: today's surface along it rises about 46 ft in 690 ft (6.7 per cent), too steep for track. The OpenStreetMap trace of the Midland Terminal close by climbs as steeply, so this ground has probably been regraded since the railway; a path or drive is as likely.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-pikes-peak-1901"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:divide",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.149749,
+      38.942825
+     ],
+     [
+      -105.149483,
+      38.942303
+     ],
+     [
+      -105.149286,
+      38.941852
+     ],
+     [
+      -105.148776,
+      38.941042
+     ],
+     [
+      -105.148464,
+      38.940502
+     ],
+     [
+      -105.14822,
+      38.939961
+     ],
+     [
+      -105.147908,
+      38.939421
+     ],
+     [
+      -105.147641,
+      38.938881
+     ],
+     [
+      -105.147444,
+      38.938611
+     ],
+     [
+      -105.147328,
+      38.93816
+     ],
+     [
+      -105.14713,
+      38.937439
+     ],
+     [
+      -105.146944,
+      38.936719
+     ],
+     [
+      -105.146805,
+      38.936178
+     ],
+     [
+      -105.146734,
+      38.935277
+     ],
+     [
+      -105.146686,
+      38.934737
+     ],
+     [
+      -105.146638,
+      38.933655
+     ],
+     [
+      -105.146695,
+      38.933115
+     ],
+     [
+      -105.146775,
+      38.932754
+     ],
+     [
+      -105.146912,
+      38.932393
+     ],
+     [
+      -105.146993,
+      38.932123
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:mt-embankment",
+    "name": "Midland Terminal grade south of the junction, as it lies on the ground",
+    "valid_from": 1893,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the 1 m lidar a continuous low bank runs south from the edge of the modern buildings, 4060 ft to the edge of the lidar box. Its crest was found on ground profiles taken across it every 65 ft. The best-kept part is a straight raised bank about 530 ft long, 3 to 6 ft above the ground beside it, that crosses the creek flat below the dam of the reservoir east of town (Coulson Lake on current maps); south of that it curves gently and runs on as a bank 1 to 2.5 ft high along the west side of the creek. Its ground falls from about 9,126 ft near the buildings to 9,120 ft at the creek and rises again to 9,144 ft at the box edge. North of about 1,000 ft from the junction it is lost under buildings and regraded ground. It follows the OpenStreetMap trace of the Midland Terminal (the crest lies up to 30 ft west of that trace) and the branch on the 1901 map, so it is taken to be the railway grade. The years are the railway's, from secondary sources.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:usgs-pikes-peak-1901"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:divide",
+    "kind": "earthwork",
+    "placeholder": false,
+    "dims": {
+     "length_ft": 4060.0
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.171028,
+      38.939889
+     ],
+     [
+      -105.170455,
+      38.939969
+     ],
+     [
+      -105.169919,
+      38.940138
+     ],
+     [
+      -105.169411,
+      38.940423
+     ],
+     [
+      -105.168828,
+      38.940913
+     ],
+     [
+      -105.16785,
+      38.941841
+     ],
+     [
+      -105.166308,
+      38.943304
+     ],
+     [
+      -105.16564,
+      38.943985
+     ],
+     [
+      -105.164897,
+      38.945147
+     ],
+     [
+      -105.1644,
+      38.945791
+     ],
+     [
+      -105.164103,
+      38.945969
+     ],
+     [
+      -105.163725,
+      38.946082
+     ],
+     [
+      -105.163635,
+      38.946096
+     ],
+     [
+      -105.16354,
+      38.946104
+     ],
+     [
+      -105.163313,
+      38.946117
+     ],
+     [
+      -105.163067,
+      38.946125
+     ],
+     [
+      -105.162389,
+      38.946145
+     ],
+     [
+      -105.162177,
+      38.946141
+     ],
+     [
+      -105.161863,
+      38.946066
+     ],
+     [
+      -105.161471,
+      38.945907
+     ],
+     [
+      -105.161291,
+      38.945699
+     ],
+     [
+      -105.16113,
+      38.945444
+     ],
+     [
+      -105.161047,
+      38.945126
+     ],
+     [
+      -105.161121,
+      38.944909
+     ],
+     [
+      -105.161344,
+      38.944441
+     ],
+     [
+      -105.161506,
+      38.94419
+     ],
+     [
+      -105.161641,
+      38.944019
+     ],
+     [
+      -105.161783,
+      38.943877
+     ],
+     [
+      -105.161911,
+      38.943752
+     ],
+     [
+      -105.161981,
+      38.943654
+     ],
+     [
+      -105.162033,
+      38.943551
+     ],
+     [
+      -105.162064,
+      38.943427
+     ],
+     [
+      -105.162074,
+      38.943358
+     ],
+     [
+      -105.162071,
+      38.943298
+     ],
+     [
+      -105.162063,
+      38.943247
+     ],
+     [
+      -105.162041,
+      38.94321
+     ],
+     [
+      -105.161984,
+      38.943154
+     ],
+     [
+      -105.161681,
+      38.942958
+     ],
+     [
+      -105.161572,
+      38.942857
+     ],
+     [
+      -105.161382,
+      38.942653
+     ],
+     [
+      -105.161253,
+      38.942521
+     ],
+     [
+      -105.161148,
+      38.942435
+     ],
+     [
+      -105.160774,
+      38.94222
+     ],
+     [
+      -105.160663,
+      38.942181
+     ],
+     [
+      -105.160454,
+      38.942121
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:cm-loop",
+    "name": "Colorado Midland loop north-west of the crossroads, as it lies on the ground",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "A bench and road on the 1 m lidar that climbs from the south-west, loops north and east round a low hill and comes back south to the summit cut: about 5500 ft inside the lidar box. Centre line is the OpenStreetMap way (tagged as a former Colorado Midland line; its northern and eastern part is now Grandview Drive), checked by eye against the lidar along its whole length. Both the 1894 and 1901 USGS maps draw the railway reaching Divide by a loop north of the wagon road, so this is taken to be the Colorado Midland's line; the maps draw their loop about 800 ft east of this one (see the overlay notes), more than their stated error, and only the ground places it. Ground along it rises from 9,039 ft at the box edge to about 9,148 ft and is roughly level, with a small dip of about 6 ft, where it rejoins; the dip may be road work. The years are the railway's, from secondary sources; when the loop went out of use is not known.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:usgs-pikes-peak-1894",
+     "source:usgs-pikes-peak-1901"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:divide",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.16785,
+      38.941841
+     ],
+     [
+      -105.167295,
+      38.942186
+     ],
+     [
+      -105.166703,
+      38.942412
+     ],
+     [
+      -105.166064,
+      38.942551
+     ],
+     [
+      -105.165377,
+      38.942566
+     ],
+     [
+      -105.163282,
+      38.942389
+     ],
+     [
+      -105.161046,
+      38.942182
+     ],
+     [
+      -105.160454,
+      38.942121
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:straight-cut-west",
+    "name": "Straight cut west of the crossroads, south of the loop (what it was is not known)",
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "On the 1 m lidar a straight line of cut runs about 2170 ft east-north-east from where the loop leaves the approach, inside the loop's south side, to where the loop rejoins; it deepens eastward to a cutting 7 to 10 ft deep. OpenStreetMap tags it, like the loop, as a former Colorado Midland line. Neither the 1894 nor the 1901 map draws it. It climbs about 73 ft in that distance, about 3.4 per cent, twice the loop's rate. Whether it was a later Colorado Midland line change that cut out the loop, a siding or a road is not known.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:divide",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.160445,
+      38.942117
+     ],
+     [
+      -105.15951,
+      38.942037
+     ],
+     [
+      -105.158356,
+      38.942012
+     ],
+     [
+      -105.157687,
+      38.942003
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:divide:summit-cut",
+    "name": "Cut at the summit, west of the crossroads",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the 1 m lidar a cutting about 780 ft long runs east from where the loop and the straight cut meet to Highway 67, just north of US 24. Its floor (now Weaver Road) is about 9,150 to 9,170 ft; the ground on its south side stands about 30 ft above the floor where it is deepest and the hill on its north side higher. drgw.net says 'the large cut where the CM passed through the summit is visible to the northwest' of the US 24 and Highway 67 intersection; this is the only large cut there, so it is taken to be that one. Its floor is the highest ground on the Colorado Midland line inside the box (about 9,174 ft at the crossroads end).",
+    "sources": [
+     "source:lidar-3dep",
+     "source:drgw-divide",
+     "source:osm-railways"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:divide",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  }
+ ]
+}
