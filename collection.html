@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Collection · Pikes Peak Rail Atlas</title>
+<meta name="description" content="Photographs, postcards and maps of the Colorado Midland, the Midland Terminal, the Short Line and the Florence and Cripple Creek railways.">
+<style>
+  html, body { margin: 0; background: #f4f1e8; color: #2b2620; font: 16px/1.5 Georgia, 'Times New Roman', serif; }
+  main { max-width: 1180px; margin: 0 auto; padding: 22px 16px 60px; }
+  h1 { font-size: 28px; margin: 0 0 4px; } a { color: #7a4a16; }
+  .note { color: #6b6253; font-size: 14px; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 16px 0 6px; }
+  .bar button { font: 13.5px Georgia, serif; padding: 4px 11px; border: 1px solid #cfc7b3; border-radius: 14px; background: #fff; color: #2b2620; cursor: pointer; }
+  .bar button.on { background: #8a5a2b; border-color: #8a5a2b; color: #fff; }
+  .bar input { font: 14px Georgia, serif; padding: 5px 9px; border: 1px solid #cfc7b3; border-radius: 6px; min-width: 200px; flex: 1 1 200px; max-width: 320px; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 14px; margin-top: 12px; }
+  .card { background: #fff; border: 1px solid #d8d0bd; border-radius: 6px; overflow: hidden; cursor: pointer; display: flex; flex-direction: column; }
+  .card:hover { border-color: #8a5a2b; }
+  .card img { width: 100%; height: 160px; object-fit: cover; display: block; background: #e7e1d0; }
+  .card div { padding: 7px 9px 9px; font-size: 13.5px; line-height: 1.35; } .card small { color: #6b6253; display: block; margin-top: 2px; }
+  #view { position: fixed; inset: 0; background: rgba(28, 24, 18, .94); display: none; z-index: 6000; overflow: auto; }
+  #view.on { display: block; }
+  #view .in { max-width: 1100px; margin: 0 auto; padding: 16px; color: #efe9da; }
+  #view img { max-width: 100%; max-height: 74vh; display: block; margin: 0 auto 12px; background: #000; }
+  #view h2 { font-size: 20px; margin: 0 0 4px; } #view p { margin: 5px 0; font-size: 14.5px; } #view .note { color: #c9c0aa; } #view a { color: #e8c48f; }
+  #view .x { position: sticky; top: 0; display: flex; justify-content: space-between; gap: 10px; padding: 4px 0 10px; }
+  #view .x button { font: 14px Georgia, serif; padding: 5px 12px; border: 1px solid #8f866f; border-radius: 6px; background: #2b2620; color: #efe9da; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+<p class="note"><a href="index.html">Pikes Peak Rail Atlas</a></p>
+<h1>The collection</h1>
+<p class="note">Photographs, postcards, engravings and maps of the railways of the Pikes Peak region and the lines they joined. These are pictures not yet tied to one worked place; each place's own photographs are on its page. Titles and dates are as printed on the item or as it was catalogued, and say so.</p>
+<div class="bar" id="rail"></div>
+<div class="bar"><span id="kinds" style="display:contents"></span><input id="q" type="search" placeholder="Search titles, captions, places" aria-label="Search"></div>
+<p class="note" id="count"></p>
+<div id="grid"></div>
+<p class="note" id="rights" style="margin-top:26px"></p>
+</main>
+<div id="view" role="dialog" aria-modal="true"><div class="in">
+  <div class="x"><span><button id="prev">&larr; Earlier</button> <button id="next">Later &rarr;</button></span><button id="close">Close</button></div>
+  <img id="big" alt=""><h2 id="vt"></h2><div id="vd"></div>
+</div></div>
+<script>
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+fetch('atlas/region/photos.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : []).catch(() => []).then(all => {
+  const shown = all.filter(p => p.image), held = all.length - shown.length;
+  const L = p => p.local || {}, rail = p => L(p).railway || 'Other';
+  let fr = 'All', fk = 'All', list = [], at = 0;
+  const count = (a, f) => a.reduce((m, p) => (m[f(p)] = (m[f(p)] || 0) + 1, m), {});
+  const bar = (el, counts, cur, set) => { el.innerHTML = ['All'].concat(Object.keys(counts).sort((a, b) => counts[b] - counts[a])).map(k =>
+    '<button class="' + (k === cur ? 'on' : '') + '" data-k="' + esc(k) + '">' + esc(k) + (k === 'All' ? '' : ' (' + counts[k] + ')') + '</button>').join('');
+    el.querySelectorAll('button').forEach(b => b.onclick = () => { set(b.dataset.k); draw(); }); };
+  function draw() {
+    const q = document.getElementById('q').value.trim().toLowerCase();
+    bar(document.getElementById('rail'), count(shown, rail), fr, v => fr = v);
+    bar(document.getElementById('kinds'), count(shown, p => L(p).form || p.kind), fk, v => fk = v);
+    list = shown.filter(p => (fr === 'All' || rail(p) === fr) && (fk === 'All' || (L(p).form || p.kind) === fk) &&
+      (!q || [p.name, p.notes, p.transcription, L(p).place_as_stated, p.date].join(' ').toLowerCase().includes(q)));
+    document.getElementById('count').textContent = list.length + ' of ' + shown.length + ' shown' + (held ? '; ' + held + ' more are listed but not shown' : '') + '.';
+    document.getElementById('grid').innerHTML = list.map((p, i) => '<div class="card" data-i="' + i + '" tabindex="0"><img loading="lazy" src="' + esc(p.thumb || p.image) + '" alt="' + esc(p.name) +
+      '"><div>' + esc(p.name) + '<small>' + esc([p.date, rail(p) === 'Other' ? '' : rail(p)].filter(Boolean).join(' · ')) + '</small></div></div>').join('');
+    document.querySelectorAll('.card').forEach(c => { c.onclick = () => open(+c.dataset.i); c.onkeydown = e => { if (e.key === 'Enter') open(+c.dataset.i); }; });
+  }
+  function open(i) {
+    at = (i + list.length) % list.length; const p = list[at];
+    document.getElementById('big').src = p.image; document.getElementById('big').alt = p.name; document.getElementById('vt').textContent = p.name;
+    document.getElementById('vd').innerHTML = [
+      p.notes ? '<p>' + esc(p.notes) + '</p>' : '',
+      p.transcription ? '<p class="note">On the item: &ldquo;' + esc(p.transcription) + '&rdquo;</p>' : '',
+      '<p class="note">' + esc(['Date: ' + (p.date || 'not given') + (p.date_basis ? ' (' + p.date_basis + ')' : ''), p.photographer ? 'By: ' + p.photographer : '', L(p).form || p.kind].filter(Boolean).join(' · ')) + '</p>',
+      '<p class="note">' + esc(p.credit || p.holder) + (p.rights_note ? ' ' + esc(p.rights_note) : '') + '</p>'].join('');
+    document.getElementById('view').classList.add('on'); document.getElementById('view').scrollTop = 0;
+  }
+  const shut = () => document.getElementById('view').classList.remove('on');
+  document.getElementById('close').onclick = shut; document.getElementById('prev').onclick = () => open(at - 1); document.getElementById('next').onclick = () => open(at + 1);
+  document.addEventListener('keydown', e => { if (!document.getElementById('view').classList.contains('on')) return; if (e.key === 'Escape') shut(); if (e.key === 'ArrowLeft') open(at - 1); if (e.key === 'ArrowRight') open(at + 1); });
+  document.getElementById('q').oninput = draw;
+  document.getElementById('rights').textContent = 'The pictures here are from the atlas owner\'s collection of scans and from public collections named with each. Where an item is in the public domain by age it says so.';
+  draw();
+});
+</script>
+<script src="home.js"></script>
+</body>
+</html>

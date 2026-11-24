@@ -1,0 +1,2807 @@
+[
+ {
+  "id": "photo:region:black-crags",
+  "name": "Black Crags in Ute Pass, on Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Single track on a rock ledge curving to a timber-framed tunnel portal beneath a dark crag; loose timbers lie beside the track. Black-and-white halftone view on a card with wide white margins and blank space below. No train. Front of card only; back not scanned, so no publisher or postmark seen.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed picture postcard with wide blank margin for a message beside/below the view (halftone); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "BLACK CRAGS IN UTE PASS\nON COLORADO MIDLAND RY.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Black Crags in Ute Pass",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/BLACK CRAGS.jpg"
+  },
+  "w": 675,
+  "h": 1080,
+  "image": "img/collection/black-crags.jpg",
+  "thumb": "img/collection/t/black-crags.jpg"
+ },
+ {
+  "id": "photo:region:buena-vista-out-of-tunnel-13-leadville",
+  "name": "Souvenir album page: Buena Vista; Out of Tunnel 13, Col. Midland R.R.; Leadville from Carbonate Hill",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Album page with three tinted engraved-style views. One looks out of a tunnel mouth along a single track past rocks and a pole; the others show a town street with mountains behind (Buena Vista) and a town seen over mine buildings and a headframe (Leadville). Views overlap on the page in a collage layout, so boxes are approximate. Whether the views are true engravings or tinted photomechanical prints cannot be told from the scan.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "tinted engraved-style views from a souvenir view album; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "engraving"
+  ],
+  "transcription": "BUENA VISTA.\nOUT OF TUNNEL 13. COL. MIDLAND. R.R.\nLEADVILLE FROM CARBONATE HILL.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "engraving",
+   "place_as_stated": "Buena Vista; Tunnel 13; Leadville from Carbonate Hill",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/BUENA VISTA - OUT OF TUNNEL 13 - LEADVILLE.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 1304,
+  "image": "img/collection/buena-vista-out-of-tunnel-13-leadville.jpg",
+  "thumb": "img/collection/t/buena-vista-out-of-tunnel-13-leadville.jpg"
+ },
+ {
+  "id": "photo:region:camerons-cone-from-tunnel",
+  "name": "Cameron's Cone from Tunnel, on Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "View out of a rock tunnel mouth along a curving single track towards a conical peak. Black-and-white halftone on a card with blank margin. No train. Tunnel number not given on this card.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed picture postcard with wide blank margin for a message beside/below the view (halftone); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "CAMERON'S CONE FROM TUNNEL\nOn Colorado Midland Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Cameron's Cone from Tunnel",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/CAMERONS CONE FROM TUNNEL.jpg"
+  },
+  "w": 987,
+  "h": 1600,
+  "image": "img/collection/camerons-cone-from-tunnel.jpg",
+  "thumb": "img/collection/t/camerons-cone-from-tunnel.jpg"
+ },
+ {
+  "id": "photo:region:cattle-ranch",
+  "name": "A Colorado Cattle Ranch, Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour-printed card of a cattle herd at a pond with green hills behind. No railway features are visible. Small scan (800 px). Caption in red at top left of the picture.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "A COLORADO CATTLE RANCH, COLORADO MIDLAND RY.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/CATTLE RANCH.jpg"
+  },
+  "w": 800,
+  "h": 524,
+  "image": "img/collection/cattle-ranch.jpg",
+  "thumb": "img/collection/t/cattle-ranch.jpg"
+ },
+ {
+  "id": "photo:region:cherry-trees",
+  "name": "Cherry Trees in Bloom, Colorado Midland Ry., Colorado",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour-printed card of orchard rows in white blossom. No railway features are visible. Caption printed in red on the picture.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "CHERRY TREES IN BLOOM, COLORADO MIDLAND RY., COLORADO.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Colorado",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/CHERRY TREES.jpg"
+  },
+  "w": 1600,
+  "h": 1061,
+  "image": "img/collection/cherry-trees.jpg",
+  "thumb": "img/collection/t/cherry-trees.jpg"
+ },
+ {
+  "id": "photo:region:cm-wildflowers",
+  "name": "Wild Flower Excursion on the Colo. Midland Ry., Colo.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Crowd of men, women and children holding bunches of yellow flowers, gathered around and on the rear observation platform of a yellow passenger car hung with flags; a telegraph pole stands behind. Colour-printed card. A small printed number at the lower right corner is damaged and cannot be read. Same picture as POSTCARDS_Page_44/48 (card no. 8005) but a different printing with a different caption, so not marked as a duplicate. High-resolution scan with black scanner edge.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; dress of the crowd (long skirts, broad hats); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "WILD FLOWER EXCURSION\nON THE COLO. MIDLAND RY., COLO.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/cm wildflowers.jpg"
+  },
+  "w": 2200,
+  "h": 1449,
+  "image": "img/collection/cm-wildflowers.jpg",
+  "thumb": "img/collection/t/cm-wildflowers.jpg"
+ },
+ {
+  "id": "photo:region:collegiate-range",
+  "name": "Collegiate Range, Mts. Princeton, Harvard and Yale, Colo., Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour-printed card of a snowy mountain range across a broad valley, with a town of red-brick buildings in the foreground. No railway features can be made out with certainty.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "Collegiate Range. Mts. Princeton, Harvard and Yale, Colo.\nColorado Midland Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Collegiate Range, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/COLLEGIATE RANGE.jpg"
+  },
+  "w": 1600,
+  "h": 1034,
+  "image": "img/collection/collegiate-range.jpg",
+  "thumb": "img/collection/t/collegiate-range.jpg"
+ },
+ {
+  "id": "photo:region:colorado-springs-denver-broadmoor-casino",
+  "name": "Souvenir album page: 17th St. from Union Depot, Denver; Colorado Springs and Pikes Peak; Broadmore Casino",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Album page with three tinted engraved-style views: a city street with streetcars and hotel signs, a town with a broad avenue below a mountain, and a large casino building. No steam-railway features; streetcars and their track appear in the Denver view. Spelling 'BROADMORE' is as printed. Other shop signs in the Denver view are too small to read. Red edge of the album cover shows at the page edge.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "tinted engraved-style views from a souvenir view album; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "engraving"
+  ],
+  "transcription": "17TH ST. FROM UNION DEPOT. DENVER.\nCOLORADO SPRINGS AND PIKES PEAK.\nBROADMORE CASINO.\n[signs in Denver view] THE OXFORD / OXFORD HOTEL / WHOLESALE",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "engraving",
+   "place_as_stated": "Denver; Colorado Springs; Broadmore Casino",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/COLORADO SPRINGS - DENVER - BROADMOOR CASINO.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 1342,
+  "image": "img/collection/colorado-springs-denver-broadmoor-casino.jpg",
+  "thumb": "img/collection/t/colorado-springs-denver-broadmoor-casino.jpg"
+ },
+ {
+  "id": "photo:region:colorado-midland-railroad-engine-29",
+  "name": "Colorado Midland locomotive No. 29, side view",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Black-and-white side view of a steam locomotive with a leading bogie and three coupled axles, standing on track with further rails in the foreground. The tender is lettered COLORADO MIDLAND with the number 29, and 29 is on the sand dome. No caption, photographer or place on the image. File name: COLORADO-MIDLAND-RAILROAD-ENGINE-29.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "none (no date on image)",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "29\nCOLORADO MIDLAND.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/COLORADO-MIDLAND-RAILROAD-ENGINE-29.jpg"
+  },
+  "w": 1024,
+  "h": 595,
+  "image": "img/collection/colorado-midland-railroad-engine-29.jpg",
+  "thumb": "img/collection/t/colorado-midland-railroad-engine-29.jpg"
+ },
+ {
+  "id": "photo:region:colorado-midland-railroad-engine-306",
+  "name": "Colorado Midland locomotive No. 306, side view",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Black-and-white side view of a steam locomotive with one leading axle and four coupled axles standing on a girder deck (apparently a turntable). The tender is lettered COLORADO MIDLAND 306 and the number 306 is on the cab, sand dome and headlight. Small lettering above the cab number is too small to read (looks like 'E-44', uncertain). No place or photographer on the image.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "none (no date on image)",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "COLORADO MIDLAND\n306\n2564",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/COLORADO-MIDLAND-RAILROAD-ENGINE-306.jpg"
+  },
+  "w": 1024,
+  "h": 626,
+  "image": "img/collection/colorado-midland-railroad-engine-306.jpg",
+  "thumb": "img/collection/t/colorado-midland-railroad-engine-306.jpg"
+ },
+ {
+  "id": "photo:region:colorado-midland-railroad-engine-31-caboose-405-",
+  "name": "Colorado Midland engine 31 with two cabooses and crew, trestle behind",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "A steam locomotive blowing steam, with number plate 31 on the smokebox, coupled to two cabooses lettered COLORADO MIDLAND; men stand on the caboose roofs, hang from the cab and stand beside the track. Behind is a tall trestle viaduct across a gulch, with houses beyond. Smokebox number reads 31 but is faint. The nearer caboose number's last digit is unclear (file name says 405). Marks at the bottom edge look like tape or album corners on the print. No place named.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "none (no date on image)",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "31\nCOLORADO 40[?] MIDLAND\nCOLORADO 407 MIDLAND",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/COLORADO-MIDLAND-RAILROAD-ENGINE-31-CABOOSE-405-407.jpg"
+  },
+  "w": 1024,
+  "h": 750,
+  "image": "img/collection/colorado-midland-railroad-engine-31-caboose-405-.jpg",
+  "thumb": "img/collection/t/colorado-midland-railroad-engine-31-caboose-405-.jpg"
+ },
+ {
+  "id": "photo:region:frying-pan-river",
+  "name": "Fan Falls, Frying Pan River, on the Colorado-Midland Ry., Colo.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour-printed card of a waterfall in a rocky wooded gorge with two men seated on a log. No railway features are visible.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard with caption in a white strip below; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "Fan Falls Frying Pan River on the Colorado–Midland Ry., Colo.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Fan Falls, Frying Pan River, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/FRYING PAN RIVER.jpg"
+  },
+  "w": 700,
+  "h": 1080,
+  "image": "img/collection/frying-pan-river.jpg",
+  "thumb": "img/collection/t/frying-pan-river.jpg"
+ },
+ {
+  "id": "photo:region:glenwood-springs",
+  "name": "Glenwood Springs, on Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "River with two bridges, a large hotel building with a fountain jet in front, and mountains behind. Black-and-white halftone at the left of the card with blank message space at the right. No train is visible. Second caption line is in capitals on this printing; POSTCARDS_Page_23 and _50 show the same picture with the line in mixed case.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed picture postcard with wide blank margin for a message beside/below the view (halftone); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "GLENWOOD SPRINGS\nON COLORADO MIDLAND RY.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Glenwood Springs",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/GLENWOOD SPRINGS.jpg"
+  },
+  "w": 1101,
+  "h": 698,
+  "image": "img/collection/glenwood-springs.jpg",
+  "thumb": "img/collection/t/glenwood-springs.jpg"
+ },
+ {
+  "id": "photo:region:green-mtn-falls-pike-peak-granite-canyon",
+  "name": "Souvenir album page: Green Mountain Falls; Pikes Peak from Manitou Park Sta.; In Granite Canon",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Album page with three tinted engraved-style views. One shows a passenger train (locomotive, tender and three cars) below a snowy peak; one shows track running through a rocky canyon; the largest shows a resort town with a lake and pavilion and a railway line across the foreground. No railway is named on this page; the file sits in the Colorado Midland folder. Boxes approximate.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "tinted engraved-style views from a souvenir view album; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "engraving"
+  ],
+  "transcription": "GREEN MOUNTAIN FALLS.\nPIKES PEAK FROM MANITOU PARK STA.\nIN GRANITE CANON.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "engraving",
+   "place_as_stated": "Green Mountain Falls; Manitou Park Sta.; Granite Canon",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/GREEN MTN FALLS - PIKE PEAK - GRANITE CANYON.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 1302,
+  "image": "img/collection/green-mtn-falls-pike-peak-granite-canyon.jpg",
+  "thumb": "img/collection/t/green-mtn-falls-pike-peak-granite-canyon.jpg"
+ },
+ {
+  "id": "photo:region:hells-gate-1",
+  "name": "Hell Gate, Nature's Masterpiece, Colo. Midland Ry., Colo.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Painted view: a train with two plumes of smoke on a ledge high on a cliff face, with a snowy peak beyond. Colour-printed card with the caption in red at the top. A small number at the lower right corner cannot be read. Same painted view as HELLS GATE 2, 4, 5, 6 and 7 but each is a different printing with a different caption. High-resolution scan (3096 x 4824).",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "HELL GATE, NATURES MASTERPIECE, COLO MIDLAND RY., COLO.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Hell Gate, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/Hells Gate 1.jpg"
+  },
+  "w": 1412,
+  "h": 2200,
+  "image": "img/collection/hells-gate-1.jpg",
+  "thumb": "img/collection/t/hells-gate-1.jpg"
+ },
+ {
+  "id": "photo:region:hells-gate-2",
+  "name": "Hell Gate, on Colo. Midland Ry. (black-and-white)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Painted view: a train with two plumes of smoke on a ledge high on a cliff face, with a snowy peak beyond. Black-and-white halftone reproduction with a white border, scanned on a blue ground. Faint pencil or ink marks at the top left of the picture are illegible. Same painted view as the colour Hell Gate cards.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "black-and-white halftone postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "Hell Gate.—On Colo. Midland Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Hell Gate",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/HELLS GATE 2.jpg"
+  },
+  "w": 1005,
+  "h": 1600,
+  "image": "img/collection/hells-gate-2.jpg",
+  "thumb": "img/collection/t/hells-gate-2.jpg"
+ },
+ {
+  "id": "photo:region:hells-gate-3",
+  "name": "1271 - Hell Gate, Colo. Midland Ry., Colo.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Photographic view of two locomotives double-heading a train, with steam, on a rock ledge beneath a cliff, a snowy peak beyond. Monochrome (greenish) print with the caption in the picture at top left. A different picture from the painted Hell Gate cards. POSTCARDS_Page_45 (no. 8219) is a coloured version of this same photograph.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "monochrome printed postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "1271–HELL GATE, COLO. MIDLAND RY. COLO.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Hell Gate, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/HELLS GATE 3.jpg"
+  },
+  "w": 718,
+  "h": 1093,
+  "image": "img/collection/hells-gate-3.jpg",
+  "thumb": "img/collection/t/hells-gate-3.jpg"
+ },
+ {
+  "id": "photo:region:hells-gate-4",
+  "name": "679. Hell Gate, Colorado Midland",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Painted view: a train with two plumes of smoke on a ledge high on a cliff face, with a snowy peak beyond. Colour-printed card with red cliffs and the caption in capitals in a white strip below. A signature in red at the lower right of the painting is too blurred to read here; on SEVEN CASTLES.jpg a similar signature reads 'Chas H Harmon 1905'.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "679. HELL GATE, COLORADO MIDLAND.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Hell Gate",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/HELLS GATE 4.jpg"
+  },
+  "w": 935,
+  "h": 1488,
+  "image": "img/collection/hells-gate-4.jpg",
+  "thumb": "img/collection/t/hells-gate-4.jpg"
+ },
+ {
+  "id": "photo:region:hells-gate-5",
+  "name": "Hell Gate, Colo., Colorado Midland Ry. (red script caption)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Painted view: a train with two plumes of smoke on a ledge high on a cliff face, with a snowy peak beyond. Colour-printed card with the caption in red script at the top; the card shows wear and ink specks. Same painted view as Hells Gate 1.jpg but a different printing (different caption wording and lettering).",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "Hell Gate, Colo., Colorado Midland, Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Hell Gate, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/HELLS GATE 5.jpg"
+  },
+  "w": 653,
+  "h": 1024,
+  "image": "img/collection/hells-gate-5.jpg",
+  "thumb": "img/collection/t/hells-gate-5.jpg"
+ },
+ {
+  "id": "photo:region:hells-gate-7",
+  "name": "679. Hell Gate, Colorado Midland (mixed-case caption)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Painted view: a train with two plumes of smoke on a ledge high on a cliff face, with a snowy peak beyond. Colour-printed card with the caption in mixed-case serif type in blue below the picture. Same number 679 and same painting as HELLS GATE 4 and 6 but a different printing (different caption type). Signature reads approximately 'Chas H Harmon' with an illegible line below.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "photographer": "Chas H Harmon (artist's signature, reading uncertain on this card)",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "679. Hell Gate, Colorado Midland.\n[signature in painting, lower right] Chas H Harmon [uncertain]",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Hell Gate",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/HELLS GATE 7.jpg"
+  },
+  "w": 1017,
+  "h": 1600,
+  "image": "img/collection/hells-gate-7.jpg",
+  "thumb": "img/collection/t/hells-gate-7.jpg"
+ },
+ {
+  "id": "photo:region:jl-clinton-photographer",
+  "name": "Back of photograph mount: J. L. Clinton, Scenic Photographer, Colorado Springs",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Printed back of a photographer's card mount; no picture. It carries the Colorado Midland Railway 'Pike's Peak Route' emblem (ring, triangle and star) above the photographer's advertisement. The photograph that belongs to this mount is not identified in the file.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed card-mount back (cabinet-card style); no date printed",
+  "photographer": "J. L. Clinton",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "document"
+  ],
+  "transcription": "COLORADO MIDLAND RAILWAY\nPIKE'S PEAK ROUTE\nJ. L. CLINTON,\nScenic · Photographer.\nOUT DOOR GROUPS AND INTERIORS.\n18 S. TEJON STREET,\nColorado Springs, - Colo.\nA LARGE LINE OF\nCOLORADO AND NEW MEXICO\nVIEWS",
+  "kind": "document",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "document",
+   "place_as_stated": "18 S. Tejon Street, Colorado Springs, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/JL CLINTON PHOTOGRAPHER.jpg"
+  },
+  "w": 1182,
+  "h": 1512,
+  "image": "img/collection/jl-clinton-photographer.jpg",
+  "thumb": "img/collection/t/jl-clinton-photographer.jpg"
+ },
+ {
+  "id": "photo:region:manitou-pike-peak-camerons-cone",
+  "name": "Souvenir album page: M. & P.P. Ry. crossing timber-line; Around Windy Point, M. & P.P. Ry.; Cameron's Cone from Tunnel 3, Col. Midland R.R.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Album page with three tinted engraved-style views. One shows a rack-railway locomotive pushing a passenger car up a steep rocky grade with crew on the engine; one shows the line climbing a forested slope; the third looks out of a tunnel mouth along curving track to a train and people at the next tunnel. The tunnel view is the same scene as the W. H. Jackson photograph 'High Res Scans/Tunnel 4 Camerons Cone.jpg', whose own caption says 'TUNNEL 4'; this album says 'TUNNEL 3'. The two sources disagree on the tunnel number. 'M. & P.P. Ry.' is given only as initials.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "tinted engraved-style views from a souvenir view album; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "engraving"
+  ],
+  "transcription": "M.& P.P. RY. CROSSING TIMBER-LINE.\nAROUND WINDY POINT M.& P.P. RY.\nCAMERON'S CONE FROM TUNNEL 3\nCOL. MIDLAND R.R.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "engraving",
+   "place_as_stated": "Timber-line; Windy Point; Cameron's Cone from Tunnel 3",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/MANITOU & PIKE PEAK - CAMERONS CONE.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 1317,
+  "image": "img/collection/manitou-pike-peak-camerons-cone.jpg",
+  "thumb": "img/collection/t/manitou-pike-peak-camerons-cone.jpg"
+ },
+ {
+  "id": "photo:region:mts-princeton-yale-harvard-at-buena-vista",
+  "name": "Mts. Princeton, Yale and Harvard, at Buena Vista, on Colorado Midland Ry. (with convention overprint)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Snowy mountains across a valley with a town below and a tree and rocks in the foreground; no railway features can be made out. Black-and-white halftone card overprinted with advertising for a convention. The red and italic overprints are period printing on the card, not modern marks; the red line runs across the top margin, the italic text down the right margin.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "overprint refers to a National Electric Light Association Convention at Denver 'next June' (year not stated); printed halftone postcard",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "There will be three days sight seeing at Colorado Springs\nMTS. PRINCETON, YALE AND HARVARD, AT BUENA VISTA\nON COLORADO MIDLAND RY.\nMake this memo: “I am going to Denver next June to attend the National Electric Light Association Convention.” Then don't forget it—but there's not much danger of that—we won't let you.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Buena Vista",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/MTS PRINCETON YALE & HARVARD AT BUENA VISTA.jpg"
+  },
+  "w": 1600,
+  "h": 1054,
+  "image": "img/collection/mts-princeton-yale-harvard-at-buena-vista.jpg",
+  "thumb": "img/collection/t/mts-princeton-yale-harvard-at-buena-vista.jpg"
+ },
+ {
+  "id": "photo:region:pikes-peak-from-ute-pass",
+  "name": "Pike's Peak from Ute Pass, on Colorado Midland Ry. (with handwritten message)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Single track curving to the right through forest with a telegraph pole beside it and a snowy peak beyond. Black-and-white halftone card with an ink message written down the right margin. Handwriting partly uncertain; the word after 'year' and the initials are doubtful. Photographed on a grey ground.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "handwritten 'Happy new year' with no year; printed halftone postcard with message space on the picture side",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "PIKE'S PEAK FROM UTE PASS\nOn Colorado Midland Ry.\n[handwritten] Happy new year we [lyn?] / were having a good / time. W. L. H.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Ute Pass",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/PIKES PEAK FROM UTE PASS.jpg"
+  },
+  "w": 1600,
+  "h": 1040,
+  "image": "img/collection/pikes-peak-from-ute-pass.jpg",
+  "thumb": "img/collection/t/pikes-peak-from-ute-pass.jpg"
+ },
+ {
+  "id": "photo:region:redrock-canon",
+  "name": "In Red Rock Canon, on Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Single track curving through a canyon beside a river, with a telegraph pole. Black-and-white halftone at the left with blank message space at the right; the card is stained.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed picture postcard with wide blank margin for a message beside/below the view (halftone); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "IN RED ROCK CANON\nON COLORADO MIDLAND RY.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Red Rock Canon",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/REDROCK CANON.jpg"
+  },
+  "w": 1600,
+  "h": 1008,
+  "image": "img/collection/redrock-canon.jpg",
+  "thumb": "img/collection/t/redrock-canon.jpg"
+ },
+ {
+  "id": "photo:region:rudy-clinton-photographers",
+  "name": "Back of photograph mount: Rudy & Clinton, Scenic Photographers, Colorado Springs",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Printed back of a photographers' card mount; no picture. It carries the Colorado Midland Railway 'Pike's Peak Route' emblem with a star and the firm's advertisement. Same street address as the J. L. Clinton mount. The photograph that belongs to this mount is not identified in the file.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed card-mount back (cabinet-card style); no date printed",
+  "photographer": "Rudy & Clinton",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "document"
+  ],
+  "transcription": "RUDY & CLINTON,\nScenic–Photographers.\nOut door Groups and Interiors.\n18 S. TEJON ST., COLORADO SPRINGS, COLO.\nCOLORADO MIDLAND RAILWAY\nPIKE'S PEAK ROUTE\nAlso at Cascade Canon, Colo.\nA LARGE LINE OF COLORADO AND NEW MEXICO VIEWS.",
+  "kind": "document",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "document",
+   "place_as_stated": "18 S. Tejon St., Colorado Springs, Colo.; Cascade Canon, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/RUDY & CLINTON PHOTOGRAPHERS.jpg"
+  },
+  "w": 1200,
+  "h": 1600,
+  "image": "img/collection/rudy-clinton-photographers.jpg",
+  "thumb": "img/collection/t/rudy-clinton-photographers.jpg"
+ },
+ {
+  "id": "photo:region:seven-castles-2",
+  "name": "Seven Castles, on Colorado Midland Ry. (black-and-white)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Cliffs weathered into fluted columns above a wooded slope. Black-and-white halftone at the left of the card with blank message space at the right. No track or train is visible.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed picture postcard with wide blank margin for a message beside/below the view (halftone); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "SEVEN CASTLES\nOn Colorado Midland Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Seven Castles",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/SEVEN CASTLES 2.jpg"
+  },
+  "w": 1600,
+  "h": 1049,
+  "image": "img/collection/seven-castles-2.jpg",
+  "thumb": "img/collection/t/seven-castles-2.jpg"
+ },
+ {
+  "id": "photo:region:seven-castles-3",
+  "name": "7245. Seven Castles, Colo., on Colo. Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Painted colour view of a single track curving beside a river beneath red cliffs, with a train and its smoke on the line.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "7245. Seven Castles, Colo., on Colo. Midland Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Seven Castles, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/SEVEN CASTLES 3.jpg"
+  },
+  "w": 1322,
+  "h": 827,
+  "image": "img/collection/seven-castles-3.jpg",
+  "thumb": "img/collection/t/seven-castles-3.jpg"
+ },
+ {
+  "id": "photo:region:seven-castles-and-aspen",
+  "name": "Souvenir album page: Approaching 'Seven Castles'; Aspen from Aspen Mtn.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Album page with two tinted engraved-style views. The upper shows the rear of a train, with people on the platform of the last car, on track beside a river with telegraph poles and men at the lineside; the lower shows a town in a valley from above. No railway is named on this page. Boxes approximate.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "tinted engraved-style views from a souvenir view album; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "engraving"
+  ],
+  "transcription": "APPROACHING \"SEVEN CASTLES\"\nASPEN FROM ASPEN MTN.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "engraving",
+   "place_as_stated": "Seven Castles; Aspen",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/SEVEN CASTLES AND ASPEN.jpg",
+   "multi": true
+  },
+  "w": 1296,
+  "h": 1600,
+  "image": "img/collection/seven-castles-and-aspen.jpg",
+  "thumb": "img/collection/t/seven-castles-and-aspen.jpg"
+ },
+ {
+  "id": "photo:region:seven-castles",
+  "name": "239. Seven Castles, Midland R. R., Colo.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Painted colour view of red cliffs above a river valley; signed and dated in red at the lower right of the painting. Railway given only as 'Midland R. R.'. Railway features in the painting were not examined at high enlargement.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "1905",
+  "date_basis": "date written with the artist's signature in the painting (date of the painting, not necessarily of the card)",
+  "photographer": "Chas H Harmon (artist's signature)",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1905 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "239. Seven Castles, Midland R. R., Colo.\n[signature in painting] Chas H Harmon / 1905",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Seven Castles, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/SEVEN CASTLES.jpg"
+  },
+  "w": 1600,
+  "h": 1027,
+  "image": "img/collection/seven-castles.jpg",
+  "thumb": "img/collection/t/seven-castles.jpg"
+ },
+ {
+  "id": "photo:region:south-platte-river",
+  "name": "Winding of South Fork of South Platte River in South Park, Colo. Midland Ry., Colo.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour-printed view of a meandering river in a broad park, with a straight fenced line (railway or road) with telegraph poles and a red-roofed building. No train is visible. '2-15' is a small number at the lower left corner of the picture, at the very edge; further digits may be cut off. Whether the fenced line is the railway cannot be told for certain.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "WINDING OF SOUTH FORK OF SOUTH PLATTE RIVER IN SOUTH PARK, COLO. MIDLAND RY., COLO.\n2-15",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "South Fork of South Platte River, South Park, Colo.",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/SOUTH PLATTE RIVER.jpg"
+  },
+  "w": 1589,
+  "h": 1007,
+  "image": "img/collection/south-platte-river.jpg",
+  "thumb": "img/collection/t/south-platte-river.jpg"
+ },
+ {
+  "id": "photo:region:the-great-loop-ivanhoe",
+  "name": "Souvenir album page: The Great Loop near Hagerman Tunnel; Snow plow at Ivanhoe, Col. Midland R.R.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Album page with two tinted views. The upper shows the line looping on several levels with a long curved trestle; the lower shows a rotary snow plow in deep snow with a water tank at the right, two men and telegraph poles. The Great Loop view has the same title as the photograph numbered 6023 in High Res Scans. Boxes approximate.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "tinted engraved-style views from a souvenir view album; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "engraving"
+  ],
+  "transcription": "THE GREAT LOOP NEAR HAGERMAN TUNNEL. COL. MIDLAND R.R.\nSNOW PLOW AT IVANHOE. COL. MIDLAND R.R.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "engraving",
+   "place_as_stated": "Hagerman Tunnel; Ivanhoe",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/THE GREAT LOOP & IVANHOE.jpg",
+   "multi": true
+  },
+  "w": 1298,
+  "h": 1600,
+  "image": "img/collection/the-great-loop-ivanhoe.jpg",
+  "thumb": "img/collection/t/the-great-loop-ivanhoe.jpg"
+ },
+ {
+  "id": "photo:region:ute-pass",
+  "name": "Ute Pass, on Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Rocky canyon with a waterfall and a fenced wagon road on a ledge. Black-and-white halftone card. No railway track is visible. Second caption line is in capitals on this printing; POSTCARDS_Page_30 shows the same picture with that line in mixed case.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed picture postcard with wide blank margin for a message beside/below the view (halftone); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "UTE PASS\nON COLORADO MIDLAND RY.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Ute Pass",
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/UTE PASS.jpg"
+  },
+  "w": 681,
+  "h": 1080,
+  "image": "img/collection/ute-pass.jpg",
+  "thumb": "img/collection/t/ute-pass.jpg"
+ },
+ {
+  "id": "photo:region:altman-mining-scene",
+  "name": "Postcard folder panels: Altman, Cripple Creek District; Mining scene - The Cripple Creek Trip",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Two panels of a fold-out view folder. The left shows a hilltop mining town; the right shows railway tracks on a grade beside a mine building with a smokestack. File is in the FLORENCE & CRIPPLE CREEK folder; no railway name is printed on these two panels.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "ALTMAN, CRIPPLE CREEK DISTRICT, HIGHEST INCORPORATED TOWN IN THE WORLD\nMINING SCENE–THE CRIPPLE CREEK TRIP",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "place_as_stated": "Altman, Cripple Creek District",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/ALTMAN - MINING SCENE.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 561,
+  "image": "img/collection/altman-mining-scene.jpg",
+  "thumb": "img/collection/t/altman-mining-scene.jpg"
+ },
+ {
+  "id": "photo:region:among-the-clouds-climbing",
+  "name": "Postcard folder panels: Among the Clouds; Climbing out of North Cheyenne Canon - The Cripple Creek Trip",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Two panels of a fold-out view folder. The left shows a small train on a mountain ledge among clouds; the right shows track in the foreground and a train on a distant hillside.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "AMONG THE CLOUDS–THE CRIPPLE CREEK TRIP\nCLIMBING OUT OF NORTH CHEYENNE CANON–THE CRIPPLE CREEK TRIP",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "place_as_stated": "North Cheyenne Canon",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/AMONG THE CLOUDS - CLIMBING.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 572,
+  "image": "img/collection/among-the-clouds-climbing.jpg",
+  "thumb": "img/collection/t/among-the-clouds-climbing.jpg"
+ },
+ {
+  "id": "photo:region:around-the-mtn-tops-observation-point",
+  "name": "Postcard folder panels: Around the Mountain Tops; Observation Point - The Cripple Creek Trip",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Two panels of a fold-out view folder. The left shows a snowy curve of track with a tunnel portal in the distance; the right shows track curving round a mountainside with a train on the far hillside.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "AROUND THE MOUNTAIN TOPS–THE CRIPPLE CREEK TRIP\nOBSERVATION POINT–THE CRIPPLE CREEK TRIP",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "place_as_stated": "Observation Point",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/AROUND THE MTN TOPS - OBSERVATION POINT.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 567,
+  "image": "img/collection/around-the-mtn-tops-observation-point.jpg",
+  "thumb": "img/collection/t/around-the-mtn-tops-observation-point.jpg"
+ },
+ {
+  "id": "photo:region:climbing-the-backbone",
+  "name": "Climbing the Backbone of the Continent - The Cripple Creek Trip (double-panel panorama)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "One panoramic view across two folder panels: a train with smoke at lower left, another train on a far ledge at centre, and a fenced road at the right, all on steep wooded mountainsides. A single picture spanning two panels with a fold down the middle, so not treated as multi.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "CLIMBING THE BACKBONE OF THE CONTINENT–THE CRIPPLE CREEK TRIP",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/CLIMBING THE BACKBONE.jpg"
+  },
+  "w": 1600,
+  "h": 551,
+  "image": "img/collection/climbing-the-backbone.jpg",
+  "thumb": "img/collection/t/climbing-the-backbone.jpg"
+ },
+ {
+  "id": "photo:region:on-the-road-heart-of-the-rockies",
+  "name": "Postcard folder panels: On the Road to Cripple Creek; Into the Heart of the Rockies - The Cripple Creek Trip",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Two panels of a fold-out view folder. The right shows the rear of a passenger car in a rock cut on curving track; the left shows the line on a mountainside. Which caption belongs to the left and which to the right panel was read at reduced size; check before relying on the order.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "ON THE ROAD TO CRIPPLE CREEK–THE CRIPPLE CREEK TRIP\nINTO THE HEART OF THE ROCKIES–THE CRIPPLE CREEK TRIP",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "place_as_stated": "Cripple Creek",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/ON THE ROAD - HEART OF THE ROCKIES.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 552,
+  "image": "img/collection/on-the-road-heart-of-the-rockies.jpg",
+  "thumb": "img/collection/t/on-the-road-heart-of-the-rockies.jpg"
+ },
+ {
+  "id": "photo:region:point-sublime",
+  "name": "Near Point Sublime - The Cripple Creek Trip (folder cover panel, 'Cripple Creek Short Line')",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Upright panel showing a train on a ledge high above a road and a bridge in a canyon, with a printed label reading CRIPPLE CREEK SHORT LINE. Appears to be a cover or end panel of the same folder.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "NEAR POINT SUBLIME–THE CRIPPLE CREEK TRIP\nCRIPPLE CREEK SHORT LINE",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "place_as_stated": "Point Sublime",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/POINT SUBLIME.jpg"
+  },
+  "w": 780,
+  "h": 1184,
+  "image": "img/collection/point-sublime.jpg",
+  "thumb": "img/collection/t/point-sublime.jpg"
+ },
+ {
+  "id": "photo:region:silver-cascade-falls",
+  "name": "Below and Above Silver Cascade Falls - The Cripple Creek Trip (folder panel)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Upright panel showing a train with smoke on a mountain ledge, a trestle, and a road with a rail fence below, with a printed slogan label. Scanned on a black ground.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "BELOW AND ABOVE SILVER CASCADE FALLS\nTHE CRIPPLE CREEK TRIP\nThrough the HEART of the ROCKIES into the LAND of GOLD\n[pencil, right margin] 16824 [uncertain]",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "place_as_stated": "Silver Cascade Falls",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/SILVER CASCADE FALLS.jpg"
+  },
+  "w": 768,
+  "h": 1136,
+  "image": "img/collection/silver-cascade-falls.jpg",
+  "thumb": "img/collection/t/silver-cascade-falls.jpg"
+ },
+ {
+  "id": "photo:region:st-peters-dome-3-elevations-of-track",
+  "name": "Postcard folder panels: St. Peter's Dome; Three Elevations of Track - The Cripple Creek Trip",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Two panels of a fold-out view folder. The left shows a locomotive with a large plume of smoke below a rock dome; the right shows a tunnel portal and track on three levels with a train on the top level.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "panel of a fold-out souvenir postcard folder; the folder's text panel mentions aeroplanes and automobile lines; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "postcard"
+  ],
+  "transcription": "ST. PETER'S DOME–THE CRIPPLE CREEK TRIP\nTHREE ELEVATIONS OF TRACK–THE CRIPPLE CREEK TRIP",
+  "kind": "photograph",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "postcard",
+   "place_as_stated": "St. Peter's Dome",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/ST PETERS DOME - 3 ELEVATIONS OF TRACK.jpg",
+   "multi": true
+  },
+  "w": 1600,
+  "h": 561,
+  "image": "img/collection/st-peters-dome-3-elevations-of-track.jpg",
+  "thumb": "img/collection/t/st-peters-dome-3-elevations-of-track.jpg"
+ },
+ {
+  "id": "photo:region:the-one-day-trip",
+  "name": "Postcard folder text panels: 'The One-Day Trip that Bankrupts the English Language' (Cripple Creek Short Line)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Two text panels of the fold-out view folder, with a brown border and no pictures. The left panel describes the trip from Colorado Springs to the Cripple Creek District; the right gives testimonials and the passenger agent's address. Transcribed from an enlarged view of a 1600-px scan; small type, so individual words may be misread ('colossal' is as printed). Paragraph order within the right panel was read column by column.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "no date printed; the text mentions aeroplanes, 'automobile lines to Cripple Creek' and a Knights Templar Triennial Conclave in Denver",
+  "photographer": "F. C. Matthews, G. P. A., F. & C. C. R. R., Colorado Spgs., Colo. (issuing agent named in text)",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Florence and Cripple Creek",
+   "document"
+  ],
+  "transcription": "“THE ONE-DAY TRIP THAT BANKRUPTS THE ENGLISH LANGUAGE”\nTHE wonderful scenery en route from Colorado Springs to the Cripple Creek district along the “Short Line” has been a large factor in spreading the fame of Colorado Springs as a tourist center. Nowhere on the American continent, and in fact nowhere in the world, can the tourist see anything to equal this wonderful trip, which is rapidly becoming famous throughout the world. Leaving Colorado Springs the passenger gets all the wonder and thrill of aeronautics without being separated from terra firma, for at the city's very border terra firma itself climbs into the sky, and the Cripple Creek Train goes with it.\nFor the “road to Cripple” doesn't go around the mountains; it boldly assails the mountain backbone, and forces a way over forbidding heights; here carved out of solid rock; there skirting the rims of dizzy abysses; yonder zigzagging to accomplish the ascent of great walls; from mountain top to mountain top; while ever and anon, matchless views of the plains are unfolded to the enraptured gaze of the traveler. There is nothing like it in all the entrancing grandeur the world holds within her confines.\nAnd this is not all. At the end you come to the Cripple Creek District—the greatest gold-mining camp on earth, and “one of America's famous show places”—a rimmed cup in the mountain tops, with towering hills of gold in its center. Out of these hills has come wealth to overlay many a proud spot of earth with glitter of gold.\nWHAT TRAVELERS SAY ABOUT THE “CRIPPLE CREEK SHORT LINE”\nEXTRACTS FROM A FEW OF MANY UNSOLICITED TESTIMONIALS\nFrom a Commander of a Knights Templar Lodge: “Will say that it is yet too early to give you any information as to the number of Knights of our Commandery who will attend the Triennial Conclave in Denver. However, I will say that those who will attend will miss the scenic route of the world if they do not include your line in their itinerary, and I will so advise them.”\nFrom a Past Grand Exalted Ruler of the B. P. O. E.: “I have taken great pleasure in recommending ‘The Cripple Creek Trip’ to my friends, and do not hesitate to say that it is one of the grandest scenic trips in America.”\nFrom an Asst. Gen. Pass. Agent of the Mo. Pac. Ry.: “I had the pleasure of making this trip, and any tourist who fails to do likewise, in my opinion, makes the mistake of his life, as it is the most beautiful trip it has ever been my privilege to make.”\nNote—This is the famous “Short Line” trip, and should not be confounded with the automobile lines to Cripple Creek, which run via an entirely different route.\nFrom an Officer of the Nobles of the Mystic Shrine: “Having taken two or three trips over your road, I am in a position to advise the Nobles of the Mystic Shrine, and I will be glad to advise all members of our party to not fail to take the side trip over the Florence & Cripple Creek Scenic Line.”\nFrom a descriptive sketch by a pastor of M. E. Church: “It is sometimes difficult to tell whether some colossal aeroplane has caught us and is rushing us forward in a race with the clouds; anyway, we must abandon all attempts at description and be content simply to look upon a thousand indescribables.”\nFrom a City Passenger Agent of the C. B. & Q. R. R.: “I have traveled over the Short Line to Cripple Creek, and in my estimation it is the grandest trip in the world—or, at least, in the United States—and we invariably tell our passengers to make it.”\nLow-rate excursion tickets on sale daily. Stop-over privileges are allowed at Colorado Springs by all roads on through tickets. For further information write to F. C. MATTHEWS G. P. A., F. & C. C. R. R., Colorado Spgs., Colo.",
+  "kind": "document",
+  "local": {
+   "railway": "Florence and Cripple Creek",
+   "form": "document",
+   "place_as_stated": "Colorado Springs; Cripple Creek District",
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/THE ONE DAY TRIP.jpg"
+  },
+  "w": 1600,
+  "h": 555,
+  "image": "img/collection/the-one-day-trip.jpg",
+  "thumb": "img/collection/t/the-one-day-trip.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-20",
+  "name": "Pike's Peak from Ute Pass, on Colorado Midland Ry. (used copy, close-up)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Close-up photograph of a used card: single track curving through forest with a telegraph pole and a snowy peak beyond. Handwriting crowds every margin and is cut off by the edges of the photograph. Same picture as 'PIKES PEAK FROM UTE PASS.jpg' but a different printing (second caption line in capitals here) and a different copy, so not marked as a duplicate. First word of the caption is damaged. Most of the handwriting is illegible or cropped.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "handwritten message on the picture side (no date legible); printed halftone postcard",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "PIK[E]'S PEAK FROM UTE PASS\nON COLORADO MIDLAND RY.\n[handwritten, fragments only] ... see Pikes Peak from ...",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Ute Pass",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_20.jpg"
+  },
+  "w": 1280,
+  "h": 960,
+  "image": "img/collection/postcards-page-20.jpg",
+  "thumb": "img/collection/t/postcards-page-20.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-23",
+  "name": "Glenwood Springs, on Colorado Midland Ry. (used copy covered with a handwritten letter)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "River with two bridges and a large hotel building, mountains behind; no train visible. The card's margins and the picture itself are covered with an ink letter, a purple hotel rubber stamp and the reversed offset of a postmark. Handwriting is hard to read and the transcription has doubtful words and gaps marked '...'; personal names are uncertain. The '11' after 'SEP 6' may be an hour, not a year. Same picture as GLENWOOD SPRINGS.jpg; this printing has the second caption line in mixed case, like POSTCARDS_Page_50. The handwriting and stamp are period marks on the picture, not modern ones.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "SEP 6 (year not legible)",
+  "date_basis": "mirror-image offset of a postmark on the picture side; day and month only, year illegible",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "GLENWOOD SPRINGS\nOn Colorado Midland Ry.\n[rubber stamp] FROM HOTEL COLORADO, GLENWOOD SPRINGS, COLO.\n[handwritten, best reading] Sat. A.M. Dear People: Was as usual and looking for a big letter from K. C. Please don't disappoint us. No letter from Bu this week. Weather fine. I sleep 'til 6.30 every day but still have two sides. What's the matter with Dorfy? Mil. Daisy, you do write the goodest letters Daddy, too, but they are so in frequent We are staying at home doing nothing these days just resting. Mrs. C. sent home 3 crates of the finest peaches nearly killed the Lady to put 'em up. What's the strike doing? Any damage to tel. service. All write – every time. Make Lod and Dot write tomorrow. We are very anxious ... news about ... Chief as it comes up. Think the weather is sufficiently settled for me to come? Mother ... to see the ... Girl with Bath ...\n[left margin] M says to be sure to go to the Orpheum next week\n[offset postmark, mirror image] SEP 6 11.. [partial]",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Glenwood Springs; Hotel Colorado, Glenwood Springs, Colo.",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_23.jpg"
+  },
+  "w": 1600,
+  "h": 1028,
+  "image": "img/collection/postcards-page-23.jpg",
+  "thumb": "img/collection/t/postcards-page-23.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-30",
+  "name": "Ute Pass, on Colorado Midland Ry. (used copy with pencil message)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Rocky canyon with a waterfall and a fenced wagon road on a ledge; no railway track visible. Black-and-white halftone card with a pencil message below the picture and stains at the left edge. Names in the pencil message are uncertain. Same picture as 'UTE PASS.jpg' but a different printing (second caption line in mixed case here), so not marked as a duplicate. Small scan (508 x 800).",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "pencil message without date; printed halftone postcard with message space on the picture side",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "UTE PASS\nOn Colorado Midland Ry.\n[pencil] Hello Prude – will be home soon Daisy",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Ute Pass",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_30.jpg"
+  },
+  "w": 508,
+  "h": 800,
+  "image": "img/collection/postcards-page-30.jpg",
+  "thumb": "img/collection/t/postcards-page-30.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-34",
+  "name": "Group of seven people on rocks below a waterfall (mounted photograph, 'McGregor Falls' faintly inscribed)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Mounted photograph of three men and four women standing on boulders in a stream beneath huge rocks, with a waterfall behind. No railway features. The picture is a modern snapshot of the mounted print lying on a dark surface, with the sides of the print cut off. Inscriptions in the negative at the bottom are faint: the number may be 'B44-6' or 'D44-6', and the place name is only partly legible. Nothing on the image connects it with a railway; it is included only because it is in the POSTCARDS folder.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "dress of the group (long skirts, hats, suits); mounted print; no date on image",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "transcription": "B44-6 [uncertain]\nMcGregor Falls [faint, uncertain]",
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "McGregor Falls (faint inscription, uncertain)",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_34.jpg"
+  },
+  "w": 1600,
+  "h": 1200,
+  "image": "img/collection/postcards-page-34.jpg",
+  "thumb": "img/collection/t/postcards-page-34.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-39",
+  "name": "Pikes Peak from Colorado Springs, Colo. Midland Ry., Colo.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour-printed view along a bridge or viaduct deck with green iron railings leading to a dirt street with horse-drawn vehicles and houses, a snowy range beyond. No train or track can be made out. '632-18' is a small red number at the bottom centre; the last digit is uncertain (16 or 18). Photographed on a dark textured ground.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "horse-drawn vehicles in the street; colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "PIKES PEAK FROM COLORADO SPRINGS, COLO. MIDLAND RY., COLO.\n632-18",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Colorado Springs",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_39.jpg"
+  },
+  "w": 1024,
+  "h": 672,
+  "image": "img/collection/postcards-page-39.jpg",
+  "thumb": "img/collection/t/postcards-page-39.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-44",
+  "name": "8005. Wild Flower Excursion, Colorado Midland Ry.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Crowd holding bunches of flowers gathered around and on the rear observation platform of a passenger car hung with flags, with a telegraph pole behind. Colour-printed card with a white border. Same picture as 'cm wildflowers.jpg' but a different printing (numbered 8005, caption at lower right), so not marked as a duplicate of it. Small scan (830 x 550).",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; dress of the crowd (long skirts, broad hats); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "8005. WILD FLOWER EXCURSION, COLORADO MIDLAND RY.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_44.jpg"
+  },
+  "w": 830,
+  "h": 550,
+  "image": "img/collection/postcards-page-44.jpg",
+  "thumb": "img/collection/t/postcards-page-44.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-45",
+  "name": "8219 Hell Gate, Colo., on Colo. Midland Ry. (coloured photographic view)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Coloured view of two locomotives heading a train on a rock ledge beneath a red cliff, with a snowy peak beyond. The card is photographed standing on a table against wood and teal cloth. The card number is partly blurred and could be 8219 or 3219. This is a coloured printing of the same photograph as HELLS GATE 3.jpg (no. 1271); it is not the painted Hell Gate view.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "colour-printed view postcard; no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "8219 Hell Gate Colo., on Colo. Midland Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Hell Gate, Colo.",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_45.jpg"
+  },
+  "w": 906,
+  "h": 1372,
+  "image": "img/collection/postcards-page-45.jpg",
+  "thumb": "img/collection/t/postcards-page-45.jpg"
+ },
+ {
+  "id": "photo:region:postcards-page-50",
+  "name": "Glenwood Springs, on Colorado Midland Ry. (mixed-case caption)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "River with two bridges, a large hotel building and mountains behind. Black-and-white halftone card. No train visible. Same picture as GLENWOOD SPRINGS.jpg but a different printing (second caption line in mixed case, as on the used copy POSTCARDS_Page_23), so not marked as a duplicate. Small scan (800 x 490).",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "printed picture postcard with wide blank margin for a message beside/below the view (halftone); no date printed",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "postcard"
+  ],
+  "transcription": "GLENWOOD SPRINGS\nOn Colorado Midland Ry.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "postcard",
+   "place_as_stated": "Glenwood Springs",
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_50.jpg"
+  },
+  "w": 800,
+  "h": 490,
+  "image": "img/collection/postcards-page-50.jpg",
+  "thumb": "img/collection/t/postcards-page-50.jpg"
+ },
+ {
+  "id": "photo:region:15169-rising-out-of-ute-pass-pike-s-peak-auto-hi",
+  "name": "15169. Rising Out of Ute Pass. Pike's Peak Auto Highway",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour white-border card of a motor car on a wide dirt road at a hairpin on a forested slope, with a valley beyond. No railway features. Faint traces of a postmark offset in the sky are illegible. No date is printed on the picture side.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "1924 (file name only)",
+  "date_basis": "year 1924 appears only in the file name; white-border colour postcard showing an automobile",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1924 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "postcard"
+  ],
+  "transcription": "15169. Rising Out of Ute Pass. Pike's Peak Auto Highway.",
+  "kind": "photograph",
+  "local": {
+   "form": "postcard",
+   "place_as_stated": "Ute Pass; Pike's Peak Auto Highway (file name adds Colorado)",
+   "source_file": "High Res Scans/15169._Rising_out_of_Ute_pass._Pike_s_Peak_Auto_Highway_(Colorado)_(1924)..jpg"
+  },
+  "w": 2200,
+  "h": 1402,
+  "image": "img/collection/15169-rising-out-of-ute-pass-pike-s-peak-auto-hi.jpg",
+  "thumb": "img/collection/t/15169-rising-out-of-ute-pass-pike-s-peak-auto-hi.jpg"
+ },
+ {
+  "id": "photo:region:1852-stansbury-map-great-salt-lake-to-fort-leven",
+  "name": "Map of a Reconnoissance between Fort Leavenworth on the Missouri River and the Great Salt Lake in the Territory of Utah (Stansbury)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Large engraved folding map of the country between the Missouri River and Great Salt Lake, with rivers, mountain hachures, forts and exploring routes. No railways are shown. Small lines below the title (engraver or printer) were not read. Only a selection of map labels is transcribed. The title spelling 'Reconnoissance' is as printed.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "made in 1849 and 1850 (title); 1852 (file name only)",
+  "date_basis": "survey years in the printed title; publication year 1852 is given only in the file name",
+  "photographer": "Capt. Howard Stansbury; drawn by Lieut. Gunnison and Charles Preuss",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1852 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "map"
+  ],
+  "transcription": "MAP of a Reconnoissance between FORT LEAVENWORTH on the MISSOURI RIVER, and the GREAT SALT LAKE in the TERRITORY OF UTAH, made in 1849 and 1850 under the orders of COL. J. J. ABERT, Chief of the Topographical Bureau, by CAPT. HOWARD STANSBURY of the Corps of Topographical Engineers, aided by LIEUT. J. W. GUNNISON Corps Topographical Engineers, and ALBERT CARRINGTON. The adjacent country laid down from the latest and most authentic data. DRAWN BY LIEUT. GUNNISON AND CHARLES PREUSS.\n[labels include] OREGON / INDIAN TERRITORY / NEW MEXICO / Fort Hall / Fort Bridger / Fort Laramie / South Pass / Middle Park / South Park / Great Salt Lake",
+  "kind": "map",
+  "local": {
+   "form": "map",
+   "place_as_stated": "Fort Leavenworth to Great Salt Lake, Territory of Utah",
+   "source_file": "High Res Scans/1852_Stansbury_Map,_Great_Salt_Lake_to_Fort_Levenworth_Route_(Colorado,_Utah,_Wyoming,_Kansas)_-_Geographicus_-_LevenworthGreatSaltLake-stansbury-1852.jpg"
+  },
+  "w": 2200,
+  "h": 957,
+  "image": "img/collection/1852-stansbury-map-great-salt-lake-to-fort-leven.jpg",
+  "thumb": "img/collection/t/1852-stansbury-map-great-salt-lake-to-fort-leven.jpg"
+ },
+ {
+  "id": "photo:region:1950-census-enumeration-district-maps-colorado-c",
+  "name": "Manitou Springs, El Paso Co., Colo. - 1950 census enumeration district map (E.D.s 21-88 to 21-92)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Blue-line street map on aged paper with coloured-pencil boundaries. A line with tick marks labelled MIDLAND RAILWAY crosses the town; U.S. Highway No. 24, Manitou Ave. and the Crystal Park Auto Road are also labelled. Dated 1950, so after the period of the historic views. The words 'AND WARDS' in the legend appear struck out. Stamped number read as 97268 (last digit uncertain). Street names were not transcribed in full. A strip of brown tape is on the sheet.",
+  "holder": "U.S. National Archives",
+  "date": "1950",
+  "date_basis": "legend '1950 E.D'S 21-88 TO 21-92' and file name",
+  "photographer": "Bureau of the Census",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "U.S. National Archives (NARA id 7867151 in the file name; number '97268' stamped at lower right; file map no. 9269)",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "map"
+  ],
+  "transcription": "MANITOU SPRINGS\nEL PASO CO., COLO.\nSCALE 500 0 500 1000 FT.\nCOMPILED FROM FILE MAP No. 92693\n1950 E.D'S 21-88 TO 21-92\nCORPORATE LIMITS (GREEN)\nENUMERATION DISTRICT (ORANGE)\nMCD (ELEC. PREC.) (RED)\nSPECIAL ENUMERATION AREAS 21-92 CLIFF HOUSE\nBUREAU OF THE CENSUS\n97268\nPREC. 66 21-88\n[labels include] MIDLAND RAILWAY / U.S. HIGHWAY NO. 24 / MANITOU AVE. / TO UTE PASS / CORPORATE LIMIT / CRYSTAL PARK AUTO ROAD / SUTHERLAND CREEK / TO CRYSTAL VALLEY CEMETERY",
+  "kind": "map",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "map",
+   "place_as_stated": "Manitou Springs, El Paso Co., Colo.",
+   "source_file": "High Res Scans/1950_Census_Enumeration_District_Maps_-_Colorado_(CO)_-_El_Paso_County_-_Manitou_Springs_-_ED_21-88_to_92_-_NARA_-_7867151.jpg"
+  },
+  "w": 2200,
+  "h": 1671,
+  "image": "img/collection/1950-census-enumeration-district-maps-colorado-c.jpg",
+  "thumb": "img/collection/t/1950-census-enumeration-district-maps-colorado-c.jpg"
+ },
+ {
+  "id": "photo:region:1-58dd8d3015e4077784c8f4fc856d6923",
+  "name": "\"Loop\" near Hagerman Tunnel, C. M. Ry. (cabinet card)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Long curved timber trestle at the right, with track curving up the centre of a cleared, boulder-strewn slope to a snowshed or row of cars at upper left; smoke of a train shows in the valley. Sepia print on a cream card mount. No photographer's name on the front of the mount. A different picture from the 'Great Loop' view no. 6023 and from 'Loop Near Hagerman Tunnel.jpg'.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "albumen-style print on a cabinet-size card mount; no date on image",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "transcription": "\"LOOP\" NEAR HAGERMAN TUNNEL. C.M.RY.",
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "Hagerman Tunnel",
+   "source_file": "High Res Scans/1_58dd8d3015e4077784c8f4fc856d6923.jpg"
+  },
+  "w": 1600,
+  "h": 1019,
+  "image": "img/collection/1-58dd8d3015e4077784c8f4fc856d6923.jpg",
+  "thumb": "img/collection/t/1-58dd8d3015e4077784c8f4fc856d6923.jpg"
+ },
+ {
+  "id": "photo:region:balancing-rock-near-manitou-col-estimated-weight",
+  "name": "Balancing Rock, near Manitou, Col. (title from file name)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Stereo pair of a large balanced rock on a small pedestal with a pine tree beside it. No railway features. Grey card mount with no printed text on its face. The title, the weight ('Estimated weight 300 tons') and the distance come only from the file name; nothing but the number '145' is on the front of the card.",
+  "holder": "New York Public Library",
+  "date_basis": "stereograph on a card mount; no date on image",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "New York Public Library (NYPL id b11707573-G90F033_022ZF in the file name; greyscale target strip from library imag)",
+  "shows": [],
+  "topics": [
+   "stereograph"
+  ],
+  "transcription": "145",
+  "kind": "photograph",
+  "local": {
+   "form": "stereograph",
+   "place_as_stated": "near Manitou, Col.; 'Four miles from Colorado Springs' (file name only)",
+   "source_file": "High Res Scans/Balancing_Rock,_near_Manitou,_Col._(Estimated_weight_300_tons._Four_miles_from_Colorado_Springs.)_(NYPL_b11707573-G90F033_022ZF).tiff"
+  },
+  "w": 2200,
+  "h": 1431,
+  "image": "img/collection/balancing-rock-near-manitou-col-estimated-weight.jpg",
+  "thumb": "img/collection/t/balancing-rock-near-manitou-col-estimated-weight.jpg"
+ },
+ {
+  "id": "photo:region:cog-road-depot-manitou-lccn93505884",
+  "name": "51 Cog Road Depot, Manitou",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Two-storey depot with a stone ground floor, shingled upper floor and balcony; a crowd stands on the platform under a canopy lettered COG ROAD DEPOT, with a hanging TICKET OFFICE sign. Track with a central rack rail runs across the foreground. The typed caption at the top of the margin is faint. The image has rounded lower corners on a white ground, as if copied from a page or lantern-slide mount.",
+  "holder": "Library of Congress",
+  "date_basis": "dress of the crowd (straw boaters, long skirts, high collars); no date on image",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "Library of Congress (LCCN 93505884 in the file name; a number scratched in the black negative border at the rig)",
+  "shows": [],
+  "topics": [
+   "Manitou and Pike's Peak",
+   "photograph"
+  ],
+  "transcription": "51 Cog Road Depot, Manitou.\nCOG ROAD DEPOT\nTICKET OFFICE",
+  "kind": "photograph",
+  "local": {
+   "railway": "Manitou and Pike's Peak",
+   "form": "photograph",
+   "place_as_stated": "Manitou",
+   "source_file": "High Res Scans/Cog_Road_Depot,_Manitou_LCCN93505884.jpg"
+  },
+  "w": 2200,
+  "h": 1769,
+  "image": "img/collection/cog-road-depot-manitou-lccn93505884.jpg",
+  "thumb": "img/collection/t/cog-road-depot-manitou-lccn93505884.jpg"
+ },
+ {
+  "id": "photo:region:colorado-adams-county-las-animas-county-part-nar",
+  "name": "Street Map of the Town of Manitou Springs, Colorado (annotated copy received 1949)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Hand-lettered street map on a microfilm frame. A dashed line labelled MIDLAND RAILWAY runs through the town with a TRESTLE marked; MT. MANITOU INCLINE STATION and COG RD STATION are marked at the west end, with U.S. 24 and Manitou Ave. Dated 1949 by the pencil note, so after 1930. The file name reads 'Colorado - Adams County - Las Animas County (part)', which does not name Manitou or El Paso County; it appears to be the title of the whole NARA microfilm roll. The signature 'E. C. Bennett' is an uncertain reading. Not all street names transcribed.",
+  "holder": "U.S. National Archives",
+  "date": "1-31-49",
+  "date_basis": "pencil note 'rec'd with letter from Town clerk dated 1-31-49'",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "U.S. National Archives (NARA id 17443770 (page 901) in the file name; black microfilm frame around the sheet.)",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "map"
+  ],
+  "transcription": "STREET MAP OF THE TOWN OF MANITOU SPRINGS COLORADO\nSCALE 1/8 INCH = 100 FEET\n[handwritten, top left] Limits would seem to be at next section line, since the limits on all four sides are the section lines - does this help? E. C. Bennett.\n[handwritten, top right] I am marking this map to point out the new village - the other map is for your use.\n[pencil] New Development\n[pencil, edges] North Limit Not Shown / Limit not shown / East limit not shown / West limit not shown\n[pencil, bottom] rec'd with letter from Town clerk dated 1-31-49\n[labels include] MIDLAND RAILWAY / TRESTLE / MT. MANITOU INCLINE STATION / COG RD STATION / LIME KILN / CITY WATER WORKS / CITY GRAVEL PIT / US. 24 / MANITOU AVE / RUXTON AVE / TO UTE PASS / TO CAVE OF WINDS / SERPENTINE DRIVE / CLIFF DWELLINGS / BALANCED ROCK / GARDEN OF GOD VILLAGE / TO GARDENS OF THE GODS / RAMPART RANGE ROAD / FOUNTAIN CREEK / SUTHERLAND CREEK / CRYSTAL PARK AUTO ROAD / TO CRYSTAL VALLEY CEMETERY / EL PASO BOULEVARD / TO SOUTH MANITOU",
+  "kind": "map",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "map",
+   "place_as_stated": "Manitou Springs, Colorado",
+   "source_file": "High Res Scans/Colorado_-Adams_County_-_Las_Animas_County_(part)-_-_NARA_-_17443770_(page_901).jpg"
+  },
+  "w": 2200,
+  "h": 1159,
+  "image": "img/collection/colorado-adams-county-las-animas-county-part-nar.jpg",
+  "thumb": "img/collection/t/colorado-adams-county-las-animas-county-part-nar.jpg"
+ },
+ {
+  "id": "photo:region:default",
+  "name": "Majestic Pikes's Peak, through the Gateway of the Garden of the Gods, Colorado, U.S.A. (Strohmeyer & Wyman, 1894)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Stereo pair of rock spires framing a view across a valley to a snowy peak, with a road on the valley floor. No railway features. Orange card mount with printed imprints on both ends. 'Pikes's' and 'majestuos a' are as printed. The other stereograph of this title in the folder (Underwood & Underwood mount, no. 6204) is a slightly different view.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "1894",
+  "date_basis": "copyright line printed on the mount",
+  "photographer": "Strohmeyer & Wyman, Publishers, New York; sold by Underwood & Underwood",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1894 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "stereograph"
+  ],
+  "transcription": "Strohmeyer & Wyman, Publishers, New York, N.Y.\nSold only by Underwood & Underwood, Liverpool, New York, Chicago, Toronto, Ottawa, Kas., El Paso, Tex\nCopyright, 1894, by Strohmeyer & Wyman.\nMajestic Pikes's Peak, through the Gateway of the Garden of the Gods, Colorado, U. S. A.\nLa punta majestuos a de Pike, desde la entrada del Jardin de los Dioses, Colorado, E. U. de A.",
+  "kind": "photograph",
+  "local": {
+   "form": "stereograph",
+   "place_as_stated": "Garden of the Gods, Colorado",
+   "source_file": "High Res Scans/default.tif"
+  },
+  "w": 2200,
+  "h": 1207,
+  "image": "img/collection/default.jpg",
+  "thumb": "img/collection/t/default.jpg"
+ },
+ {
+  "id": "photo:region:entrance-to-hagerman-tunnel",
+  "name": "Entrance to Hagerman Tunnel (title from file name)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Timber-framed tunnel portal or snowshed mouth with a single track leading into it, loose timber and rock debris on both sides and a snow-streaked rocky slope above. Sepia print, upright format. No train. No caption, number or photographer on the image; the identification comes only from the file name.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "sepia photographic print; no date on image",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "Hagerman Tunnel (file name only)",
+   "source_file": "High Res Scans/Entrance to Hagerman Tunnel.jpg"
+  },
+  "w": 1262,
+  "h": 2200,
+  "image": "img/collection/entrance-to-hagerman-tunnel.jpg",
+  "thumb": "img/collection/t/entrance-to-hagerman-tunnel.jpg"
+ },
+ {
+  "id": "photo:region:great-loop-engraving",
+  "name": "Loop and Great Trestle near Hagerman's, on the Colorado Midland Railway",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Wood engraving from a printed book or magazine page: the line loops on three levels through logged-over slopes, with a train (locomotive with smoke) on a long curved trestle at the right and more line along the far hillside. Same viewpoint as the photograph no. 6023 'The Great Loop near Hagerman Tunnel' in this folder, from which the engraving appears to have been made (the engraver has added a train). The book it comes from is not named on the image.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "wood-engraving style of a printed book illustration; no date printed",
+  "photographer": "Engraver's signature reads about 'H. PFLAUM. S' (uncertain)",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "engraving"
+  ],
+  "transcription": "Loop and Great Trestle near Hagerman's, on the Colorado Midland Railway.\n[engraver's signature, lower right] H. PFLAUM. S [uncertain]",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "engraving",
+   "place_as_stated": "near Hagerman's",
+   "source_file": "High Res Scans/Great Loop engraving.jpg"
+  },
+  "w": 2200,
+  "h": 1427,
+  "image": "img/collection/great-loop-engraving.jpg",
+  "thumb": "img/collection/t/great-loop-engraving.jpg"
+ },
+ {
+  "id": "photo:region:indian-supply-train-on-the-ute-pass-nypl-b117076",
+  "name": "Indian Supply Train, on the Ute Pass",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Stereo pair of a line of covered wagons drawn by ox teams along a ledge road with a pole fence in a rocky canyon. No railway features. Cream card mount with a paper caption strip on the left image. The caption label is trimmed at its left edge, so the number may have had another digit before '07'. 'Train' here is a wagon train, not a railway train.",
+  "holder": "New York Public Library",
+  "date_basis": "stereograph on a card mount; ox-drawn wagon train on the road; no date on image",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "New York Public Library (NYPL id b11707665-G90F057_026ZF in the file name; greyscale target strip from library imag)",
+  "shows": [],
+  "topics": [
+   "stereograph"
+  ],
+  "transcription": "07 INDIAN SUPPLY TRAIN, on the Ute Pass.",
+  "kind": "photograph",
+  "local": {
+   "form": "stereograph",
+   "place_as_stated": "Ute Pass",
+   "source_file": "High Res Scans/Indian_supply_train_on_the_Ute_Pass_(NYPL_b11707665-G90F057_026ZF).tiff"
+  },
+  "w": 2200,
+  "h": 1386,
+  "image": "img/collection/indian-supply-train-on-the-ute-pass-nypl-b117076.jpg",
+  "thumb": "img/collection/t/indian-supply-train-on-the-ute-pass-nypl-b117076.jpg"
+ },
+ {
+  "id": "photo:region:iqa-h1829-bxueszmo5o",
+  "name": "1915. Hagerman Pass, Colo. Midland Ry. (panorama)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Wide view over foreground rocks and twisted pines to a curved trestle with a train (locomotive and cars), the line looping on several levels, a group of snowshed buildings and a yard in the middle distance, and snowy peaks. Black-and-white. The picture has a hard-edged, painted look, as if a heavily retouched photograph or a painting photographed; this is an impression, not established. 'download (1).png' is an enlargement of it and 'To Print/00005.png' a colour re-rendering.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "1915 (if the leading number is a year; uncertain)",
+  "date_basis": "the caption begins '1915.', which could be a year or a negative number; it cannot be decided from the image",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1915 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "1915. HAGERMAN PASS. COLO. MIDLAND RY.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "place_as_stated": "Hagerman Pass",
+   "source_file": "High Res Scans/iqa_H1829_-BXueszMo5O.png"
+  },
+  "w": 1600,
+  "h": 693,
+  "image": "img/collection/iqa-h1829-bxueszmo5o.jpg",
+  "thumb": "img/collection/t/iqa-h1829-bxueszmo5o.jpg"
+ },
+ {
+  "id": "photo:region:julius-cahn-s-official-theatrical-guide-1896-145",
+  "name": "Route map of the Colorado Midland Railway, 'Pike's Peak Route', Ogden to Denver and Pueblo",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Printed route map on a yellowed book page. A heavy dotted line runs Ogden - Salt Lake City - Grand Jc. - New Castle - Leadville - Colorado Springs, with arms to Denver and Pueblo, a branch to Aspen, a spur towards Spring Gulch and Sunshine, and a branch lettered 'M. T.' from Divide through Gillett to Cripple Creek. The railway's emblem is at lower left. Gillett is marked on the 'M. T.' branch between Divide and Cripple Creek. Many small station names along the main line were not transcribed. The label for the Spring Gulch spur is partly lost in the gutter.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "1896 (file name only)",
+  "date_basis": "year 1896 is in the file name (the book's date); nothing dated on the map itself",
+  "photographer": "Rand, McNally & Co., Engravers, Chicago",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1896 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "map"
+  ],
+  "transcription": "COLORADO MIDLAND RAILWAY\nPIKE'S PEAK ROUTE\nRand, McNally & Co., Engravers, Chicago.\n[line lettering] RIO G'D W'N / COLORADO MIDLAND / M. T.\n[stations include] OGDEN / SALT LAKE CITY / GRAND JC. / NEW CASTLE / ASPEN / LEADVILLE / Buena Vista / Hartsel / Florissant / Divide / Gillett / Grassy / Independence / Victor / CRIPPLE CREEK / Woodland Park / Green Mount. Falls / Ute Park / Cascade Canon / Manitou Iron Springs / Manitou / Colorado City / COLORADO SPRINGS / DENVER / PUEBLO\n[states] UTAH / WYOMING / COLORADO",
+  "kind": "map",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "map",
+   "place_as_stated": "Ogden to Denver and Pueblo; Gillett and Cripple Creek shown",
+   "source_file": "High Res Scans/Julius_Cahn_s_official_theatrical_guide._(1896)_(14595188110).jpg"
+  },
+  "w": 2200,
+  "h": 1151,
+  "image": "img/collection/julius-cahn-s-official-theatrical-guide-1896-145.jpg",
+  "thumb": "img/collection/t/julius-cahn-s-official-theatrical-guide-1896-145.jpg"
+ },
+ {
+  "id": "photo:region:loop-near-hagerman-tunnel",
+  "name": "The Loop near Hagerman Tunnel",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Black-and-white view down a boulder-strewn, burnt-over slope: a long curved timber trestle at the right and the trackbed curving up the centre, with a dark object on the line near the upper cut and forested hills beyond. No railway name or photographer on the image. Whether the dark object on the upper line is a locomotive or a car could not be decided. 'To Print/00004.jpg' is an enlargement of this picture and 'download.png' a colour re-rendering.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "photographic print or negative copy; no date on image",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "transcription": "THE LOOP NEAR HAGERMAN TUNNEL.",
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "Hagerman Tunnel",
+   "source_file": "High Res Scans/Loop Near Hagerman Tunnel.jpg"
+  },
+  "w": 2200,
+  "h": 1334,
+  "image": "img/collection/loop-near-hagerman-tunnel.jpg",
+  "thumb": "img/collection/t/loop-near-hagerman-tunnel.jpg"
+ },
+ {
+  "id": "photo:region:majestic-pike-s-peak-through-garden-of-the-god",
+  "name": "(13)-6204 - Majestic Pike's Peak, through the Gateway of the Garden of the Gods, Colorado, U.S.A. (Underwood & Underwood mount)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Stereo pair of rock spires framing a view across a valley to a snowy peak. No railway features. Grey-green card mount with publisher's imprints on both ends and a sunburst trade mark. Same title as 'default.tif' but the framing differs slightly, so it is a variant view and is not marked as a duplicate. Lettering inside the sunburst trade mark is too small to read.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "189? (last digit illegible)",
+  "date_basis": "copyright line printed on the mount; the final digit of the year is blurred (4, 6 or 8)",
+  "photographer": "Underwood & Underwood, Publishers; copyright Strohmeyer & Wyman",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "stereograph"
+  ],
+  "transcription": "Underwood & Underwood, Publishers.\nNew York, London, Toronto-Canada, Ottawa-Kansas.\nWorks and Studios ~ Arlington, N.J. Westwood, N.J.\n(13)-6204-Majestic Pike's Peak, through the Gateway of the Garden of the Gods, Colorado, U. S. A. Copyright 189[?] by Strohmeyer & Wyman.",
+  "kind": "photograph",
+  "local": {
+   "form": "stereograph",
+   "place_as_stated": "Garden of the Gods, Colorado",
+   "source_file": "High Res Scans/Majestic Pike_s Peak through Garden of the God.tif"
+  },
+  "w": 2200,
+  "h": 1265,
+  "image": "img/collection/majestic-pike-s-peak-through-garden-of-the-god.jpg",
+  "thumb": "img/collection/t/majestic-pike-s-peak-through-garden-of-the-god.jpg"
+ },
+ {
+  "id": "photo:region:manitou-colo-lccn2007661977",
+  "name": "Manitou, Colo. (panorama, Stewart Photo)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Panoramic view from a hillside over a town of houses and large hotel buildings in a valley, with roads and bare hills beyond. A railway cannot be picked out with certainty at this size. The year is small but reads 1913 on enlargement.",
+  "holder": "Library of Congress",
+  "date": "1913",
+  "date_basis": "copyright date lettered in the negative beside the photographer's name",
+  "photographer": "Stewart Photo",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1913 on the item or by its catalogue name).",
+  "credit": "Library of Congress (LCCN 2007661977 in the file name.)",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "transcription": "STEWART PHOTO.\n© 1913.\n[pencil below border] Manitou, Colo.",
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "Manitou, Colo.",
+   "source_file": "High Res Scans/Manitou,_Colo_LCCN2007661977.tif"
+  },
+  "w": 2200,
+  "h": 498,
+  "image": "img/collection/manitou-colo-lccn2007661977.jpg",
+  "thumb": "img/collection/t/manitou-colo-lccn2007661977.jpg"
+ },
+ {
+  "id": "photo:region:manitou-springs-colorado-1902",
+  "name": "Manitou Springs, Colorado - colour view of the town (title and date from file name)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour photomechanical print of a town of red-roofed houses and large hotel buildings in a wooded valley below a snow-streaked peak, with roads and telegraph poles. At lower left a red-roofed building stands beside what looks like a line of track; it is not labelled. No text of any kind on the image. Whether the building at lower left is a railway depot cannot be confirmed from the picture.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "1902 (file name only)",
+  "date_basis": "year appears only in the file name; colour photomechanical print of photochrom type",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1902 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "Manitou Springs, Colorado (file name only)",
+   "source_file": "High Res Scans/Manitou_Springs,_Colorado,_1902.jpg"
+  },
+  "w": 2200,
+  "h": 1158,
+  "image": "img/collection/manitou-springs-colorado-1902.jpg",
+  "thumb": "img/collection/t/manitou-springs-colorado-1902.jpg"
+ },
+ {
+  "id": "photo:region:map-of-colorado-springs-colorado",
+  "name": "Map of the City of Colorado Springs, Broadmoor and Manitou (advertising overprint for The Strang Garage)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Folded street map with a red advertising overprint. Rail lines are labelled MIDLAND TERMINAL (Manitou to Colorado Springs), D. & R.G.R.R., A.T. & S.F.R.R. and C.R.I. & P., and the COG ROAD and MT. MANITOU INCLINE are marked at Manitou; a road is marked TO CRIPPLE CREEK. The red advertising text is period overprinting, part of the item. A pencil sunburst and 'Flag MT.' have been added by hand north of Manitou. A rail label near El Paso Boulevard reads about 'C.S. & I. RY.' (uncertain). Only a selection of labels is transcribed. The suggested period is an inference from the advertisement, not a printed date.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "no date printed; garage advertisement for 'Buick 8' cars with a 'motor analyzer' and 'Duco finishing', 'Highway 85' and U.S.-numbered roads - a motoring-era map, probably later than 1930",
+  "photographer": "Printed for The Strang Garage; small 'OUT WEST COLO SPGS' beside a printers' union label",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Midland Terminal",
+   "map"
+  ],
+  "transcription": "MAP OF THE CITY OF COLORADO SPRINGS BROADMOOR AND MANITOU\nSCALE\nCOMPLIMENTS OF The Strang Garage Buick and G.M.C. Dealers\nRight Down Town on Highway 85\nOne Block North of POST OFFICE\nPhone Main 498\n200 CAR STORAGE / TIRE SHOP / ALEMITE SERVICE / GAS AND OIL / MECHANICAL DEPT. / BATTERY DEPT. / ELECTRICAL DEPT. / BRAKE RECONDITIONING / BODY AND FENDER WORK / WRECKER SERVICE / DUCO FINISHING / WASHING AND POLISHING / RADIATOR DEPT. / MOTOR ANALYZER\nRoad Calls Any Time\nOpen Day and Night\nBuick 8\nOUT WEST COLO SPGS\nREFERENCE: 1 CHAMBER OF COMMERCE / 2 D & R.G.W. RY STATION / 3 COURT HOUSE / 4 A.T. & S.F. RY. STATION / 5 POSTOFFICE / 6 MINING EXCHANGE / 7 CITY HALL / 8 Y.M.C.A. / 9 PUBLIC LIBRARY / 10 COLO SCHOOL DEAF & BLIND / 11 MUNICIPAL AUDITORIUM / 12 Y.W.C.A. / 13 FIRST NAT. BANK / 14 EXCHANGE NAT. BANK / 15 GOLDEN CYCLE BLDG. / 16 COLORADO BLDG.\n[labels include] MIDLAND TERMINAL / COG ROAD / MT. MANITOU INCLINE / PIKES PEAK OCEAN TO OCEAN HIGHWAY / TO PIKES PEAK AUTO HIGHWAY / UTE PASS / RAINBOW FALLS / CAVE OF THE WINDS / WILLIAMS CANON / CLIFF DWELLINGS / BALANCED ROCK / GARDEN OF THE GODS / CRYSTAL PARK AUTO ROAD / CORLEY ROAD / THE HIGH DRIVE / BRUIN INN / TO CRIPPLE CREEK / STRATTON PARK ADD. / GOLDEN CYCLE MILL / PROSPECT LAKE / MUNICIPAL GOLF COURSE PATTY JEWETT FIELD / STATE HIGHWAY TO PUEBLO\n[pencil] Flag MT.",
+  "kind": "map",
+  "local": {
+   "railway": "Midland Terminal",
+   "form": "map",
+   "place_as_stated": "Colorado Springs, Broadmoor and Manitou",
+   "source_file": "High Res Scans/Map_of_Colorado_Springs,_COlorado.jpg"
+  },
+  "w": 2200,
+  "h": 1847,
+  "image": "img/collection/map-of-colorado-springs-colorado.jpg",
+  "thumb": "img/collection/t/map-of-colorado-springs-colorado.jpg"
+ },
+ {
+  "id": "photo:region:map-of-cripple-creek-and-victor-mining-districts",
+  "name": "Bird's-eye pictorial map of the Cripple Creek and Victor mining districts (title from file name)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Black-and-white photograph of a wash-drawn bird's-eye view of hills dotted with mine buildings. One continuous white line, with single cars drawn with trolley poles, loops between the camps from Cripple Creek round by Midway, Independence, Goldfield, Victor, Elkton and Anaconda. No title is on the sheet; the title comes from the file name. No railway company is named; the line shown carries trolley cars. 'INDEPNDENCE' is as lettered. The maker's name is cut off after 'SMITH-BROOKS'. Gillett does not appear among the labels read.",
+  "holder": "Digital Public Library of America (contributing institution not recorded)",
+  "date_basis": "drawn pictorial map showing trolley-pole cars; no date on image",
+  "photographer": "The Smith-Brooks [name cut off at the edge], Denver, Colo.",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "Digital Public Library of America (contributing institution not recorded) (DPLA id fdcb626386fc8e89171ff29887fa392b in the file name; number '1106' in white at lower)",
+  "shows": [],
+  "topics": [
+   "map"
+  ],
+  "transcription": "TRACHYTE MT. / COW MT. / GALENA MT. / CALF MT. / BULL HILL / BIG BULL HILL / VINDICATOR JCT. / GOLDFIELD / INDEPNDENCE / BATTLE MT. / DANTE / LOS ANGELES / WINDY POINT / IRON CLAD HILL / MIDWAY / GLOBE HILL / CARBONATE HILL / GOLD HILL / RAVEN HILL / SQUAW MT. / VICTOR / TENDERFOOT HILL / ANCHORIA / MOON ANCHOR / ANACONDA / POVERTY GULCH / MINERAL HILL / GUYOT HILL / CRIPPLE CREEK / ELKTON / ECLIPSE / BEACON HILL\n1106\nTHE SMITH-BROOKS [cut off] / DENVER, COLO.",
+  "kind": "map",
+  "local": {
+   "form": "map",
+   "place_as_stated": "Cripple Creek; Victor (labels; district title from file name)",
+   "source_file": "High Res Scans/Map_of_Cripple_Creek_and_Victor_mining_districts_-_DPLA_-_fdcb626386fc8e89171ff29887fa392b.jpg"
+  },
+  "w": 2200,
+  "h": 1661,
+  "image": "img/collection/map-of-cripple-creek-and-victor-mining-districts.jpg",
+  "thumb": "img/collection/t/map-of-cripple-creek-and-victor-mining-districts.jpg"
+ },
+ {
+  "id": "photo:region:master-pnp-det-4a20000-4a26000-4a26800-4a26880a",
+  "name": "High Bridge near Buena Vista (W. H. Jackson & Co.)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "A train stands on a steel girder viaduct carried on tall iron bents with stone footings: a locomotive with a leading bogie and three coupled axles, a tender lettered COLORADO MIDLAND, a car lettered BAGGAGE AND MAIL 308 and a coach, with crew in the cab, on the tender and in the baggage door. A valley and snowy peaks lie beyond. The negative number before the title is partly lost; only '...14,A' can be read. The locomotive's own number is not legible. The file is a 16-bit greyscale TIFF with the black edges of the glass negative, and needs converting to 8-bit to display.",
+  "holder": "Library of Congress",
+  "date_basis": "glass negative with hand-lettered caption; no date on image",
+  "photographer": "W. H. Jackson & Co.",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "Library of Congress (File name 'master-pnp-det-4a20000-4a26000-4a26800-4a26880a' is a Library of Congress Print)",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "[..]14,A HIGH BRIDGE NEAR BUENA VISTA.\nW.H. JACKSON & CO. PHOT.\n[on train] COLORADO MIDLAND / COLORADO MIDLAND BAGGAGE AND MAIL 308 / COLORADO MIDLAND",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "place_as_stated": "near Buena Vista",
+   "source_file": "High Res Scans/master-pnp-det-4a20000-4a26000-4a26800-4a26880a.tif"
+  },
+  "w": 2200,
+  "h": 1435,
+  "image": "img/collection/master-pnp-det-4a20000-4a26000-4a26800-4a26880a.jpg",
+  "thumb": "img/collection/t/master-pnp-det-4a20000-4a26000-4a26800-4a26880a.jpg"
+ },
+ {
+  "id": "photo:region:master-pnp-pan-6a02000-6a02500-6a02594u",
+  "name": "1414. Buena Vista and Collegiate Range, on the Colo. Midland Ry. (panorama)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Sepia panorama across a wide valley to a snowy mountain range, with a town at the left. In the right foreground a railway track curves past a small white building with a dark roof, with two box cars on a siding and telegraph poles; another group of buildings lies at lower left. The caption is tiny and partly hidden by a join in the print; the photographer's name could not be read with confidence and is not guessed. Whether the white building is a depot is not stated on the image.",
+  "holder": "Library of Congress",
+  "date": "1911",
+  "date_basis": "copyright line lettered in the negative (small; year reads 1911)",
+  "photographer": "Copyright holder's name not fully legible (ends '...CLURE'), Denver, Colo.",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1911 on the item or by its catalogue name).",
+  "credit": "Library of Congress (File name 'master-pnp-pan-6a02000-6a02500-6a02594u' is a Library of Congress Prints & Phot)",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "1414. BUENA VISTA AND COLLEGIATE RANGE [..]\nON THE COLO. MIDLAND RY. COPYRIGHT 1911 BY [name illegible, ending ...CLURE], DENVER COLO.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "place_as_stated": "Buena Vista and Collegiate Range",
+   "source_file": "High Res Scans/master-pnp-pan-6a02000-6a02500-6a02594u.tif"
+  },
+  "w": 2200,
+  "h": 389,
+  "image": "img/collection/master-pnp-pan-6a02000-6a02500-6a02594u.jpg",
+  "thumb": "img/collection/t/master-pnp-pan-6a02000-6a02500-6a02594u.jpg"
+ },
+ {
+  "id": "photo:region:new-map-of-the-pike-s-peak-gold-region-showing-a",
+  "name": "New Map of the Pikes Peak Gold Region, showing all the routes from the Mississippi & Missouri Rivers, and the outfitting points (Parker & Huyett, 1859)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Lithographed map of the plains between the Missouri River and the mountains with rivers, overland routes and outfitting towns. Railroads appear only at the eastern edge, in Missouri (Great Pacific R.R. and another line). The pencil notes are in the margin below the neat line, not on the map. The year in the copyright line is small and could be 1858 or 1859. Only a selection of labels is transcribed.",
+  "holder": "Digital Public Library of America (contributing institution not recorded)",
+  "date": "1859",
+  "date_basis": "imprint 'ST. LOUIS, Mo. 1859'; the copyright line reads 1858 (or 1859; small)",
+  "photographer": "Parker & Huyett, St. Louis; drawn by A. M. Bailey C.E.; lith. of A. Janicke & Co., St. Louis",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1859 on the item or by its catalogue name).",
+  "credit": "Digital Public Library of America (contributing institution not recorded) (DPLA id e57abdcca7cacd0955976491528494c8 in the file name; a library's pencil cataloguing )",
+  "shows": [],
+  "topics": [
+   "map"
+  ],
+  "transcription": "New Map OF THE PIKES PEAK GOLD REGION. Showing all the routes from the Mississippi & Missouri Rivers, and the Outfitting points. PUBLISHED BY PARKER & HUYETT, ST. LOUIS, Mo. 1859. Drawn by A.M. Bailey C.E. Lith. of A. Janicke & Co. 3d St. opposite the new Custom House St. Louis.\nEntered according to the act of Congress in the year 1858 by Parker & Huyett in Clerks Office of the District Court of the U.S. for the District of Missouri\n[pencil below border] (Vault) TRAILS. GOLD RUSH. COLORADO. PIKE'S PEA[K] / rare 1859. / Bailey, A M c.1\n[labels include] NEBRASKA / KANSAS TERRY / SILVER REGION / Ft Laramie / Route to Salt Lake / Northern Route / Santa Fe Route / Council Grove / Kansas City / Independence / Jefferson City / St. Louis / GREAT PACIFIC R.R.",
+  "kind": "map",
+  "local": {
+   "form": "map",
+   "place_as_stated": "Pikes Peak Gold Region; St. Louis, Mo. (place of publication)",
+   "source_file": "High Res Scans/New_map_of_the_Pike_s_Peak_gold_region,_showing_all_the_routes_from_the_Mississippi_and_Missouri_Rivers,_and_the_Outfitting_points_-_DPLA_-_e57abdcca7cacd0955976491528494c8.jpg"
+  },
+  "w": 2200,
+  "h": 1233,
+  "image": "img/collection/new-map-of-the-pike-s-peak-gold-region-showing-a.jpg",
+  "thumb": "img/collection/t/new-map-of-the-pike-s-peak-gold-region-showing-a.jpg"
+ },
+ {
+  "id": "photo:region:routes-to-the-pikes-peak-gold-regions-loc-200462",
+  "name": "Routes to the Pikes Peak Gold Regions (J. S. Fillmore advertisement map)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Printed map of the routes from the Mississippi and Missouri valleys to the Pikes Peak gold country, with a Denver land agent's advertisement and list of references. Railroads are drawn and named east of the Missouri River (for example the Hannibal & St. Joseph R.R.); west of it only wagon, mail and express routes are shown. The large red-brown ink inscription over the upper left of the map could not be read. Only a selection of map labels is transcribed. No printer or publisher line was found.",
+  "holder": "Library of Congress",
+  "date": "MAY 20 1916 (library stamp, not the map's date)",
+  "date_basis": "library accession stamp dated 1916; the library's pencil call number reads '186-'; the advertisement says 'Colorado Territory'; no publication date printed",
+  "photographer": "J. S. Fillmore, Denver, Colorado Territory (advertiser)",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1916 on the item or by its catalogue name).",
+  "credit": "Library of Congress (LOC id 2004629247 in the file name; purple stamp 'Map Division MAY 20 1916 Library of Cong)",
+  "shows": [],
+  "topics": [
+   "map"
+  ],
+  "transcription": "ROUTES TO THE PIKES PEAK GOLD REGIONS\nJ. S. FILLMORE, REAL ESTATE, LOAN AND COLLECTING AGENT —AND— CONVEYANCER, Blake Street, Denver, Colorado Territory.\nWill attend to the Sale, Purchase and Conveyancing of Real Estate and Mining Claims, Leasing of Property, Collection of Rents, and all other collections.\nCommissioner for New York, Ohio, Iowa, Indiana, Minnesota, Pennsylvania, Illinois, Missouri, Wisconsin and Nebraska.\nREFERENCES: C. S. Hinckley & Co. / Brown Bros. & Co. / R. B. Bradford. / Gen. Wm. Larimer. / News Printing Company. / W. W. Wyman, Omaha. / Gen. E. Estabrook. / Hon. Millard Fillmore, Buffalo. / E. E. Fillmore, Zanesville, Ohio. / Lyon, Pullman & Co. Central City. / Coleman & Moore. / C. A. Cook & Co. / Cass, Wilcox & Co. / Clark, Gruber & Co. / Amos Steck. / Turner & Hobbs. / Geo. Lefevre, Mt. City. / Curran & Mead, Mo. City. / A. G. Boone. / Jones & Cartwright. / D. D. White & Co. / B. S. Buel, Mountain City. / Wheeler & Harris, Mountain City. / Judge E. Wakeley, Nebraska. / Col. J. B. Porter, Lexington. / Hon. A. P. Edgerton, Ft. Wayne. / Baldwin, Pegram & Co., Council Bluffs, Iowa. / Winchester, Hollister & Co., Mountain City.\n[labels include] SALT LAKE CITY & CALIFORNIA MAIL & EXPRESS ROUTE / EXPRESS ROUTE / CUT OFF / BUFFALO COUNTRY / SANDY COUNTRY / DENVER / Golden City / Colorado City / PIKES PEAK / Fountain City / Bents Fort / NORTH PARK / MIDDLE PARK / SOUTH PARK / LONGS PEAK / HANNIBAL & ST. JOSEPH R.R. / NORTH MISSOURI R.R. / BURLINGTON & QUINCY R.R. / CHICAGO ALTON & ST. LOUIS R.R. / GREAT WESTERN / WABASH VALLEY R.R. / TERRE HAUTE ALTON & ST. LOUIS R.R. / OHIO & MISSISSIPPI R.R.\n[stamp] Map Division MAY 20 1916 Library of Congress\n[pencil] G3702 186- .F5 / ca 1:3,200,000 / 22 x 53\n62",
+  "kind": "map",
+  "local": {
+   "form": "map",
+   "place_as_stated": "Pikes Peak Gold Regions; Blake Street, Denver, Colorado Territory",
+   "source_file": "High Res Scans/Routes_to_the_Pikes_Peak_gold_regions._LOC_2004629247.tif"
+  },
+  "w": 2200,
+  "h": 918,
+  "image": "img/collection/routes-to-the-pikes-peak-gold-regions-loc-200462.jpg",
+  "thumb": "img/collection/t/routes-to-the-pikes-peak-gold-regions-loc-200462.jpg"
+ },
+ {
+  "id": "photo:region:stop-at-pike-s-peak-on-your-way-to-or-from-the-e",
+  "name": "Pike's Peak and Route of the Famous \"Cog Road\" (colour bird's-eye view, double page)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Colour-printed bird's-eye painting across a stapled double page, looking over a town grid to the mountain, with small labels for the Cog Road Depot, Scenic Incline, Short Line, Cripple Creek District and other points. Two trains are drawn on lines crossing the plain at lower right; elevations are printed in the right margin. A painted view rather than a measured map; classed as a map because it is a labelled route view. The imprint at the lower left inside the picture may read 'Copyright ... by Poole Bros. Chicago' but only '... Bros. Chicago' is reasonably legible. 'CRYSTAL PARK' is partly lost in the fold.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "1915 (file name only)",
+  "date_basis": "year 1915 is in the file name (the booklet's title mentions 'the Expositions'); the copyright imprint in the picture is illegible",
+  "photographer": "Imprint ends '... Bros. Chicago' (rest illegible)",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1915 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Short Line",
+   "map"
+  ],
+  "transcription": "PIKE'S PEAK AND ROUTE OF THE FAMOUS “COG ROAD”\nFrom this vantage point practically the entire state of Colorado may be seen. En route, and long before reaching the summit of this historical mountain, the scenery that has made many other side trips of this locality famous is spread out below you, and long after many other scenic attractions have blended or passed from your memory, this trip will remain as one of the satisfactory events of your travels.\n[labels] PUEBLO / CRIPPLE CREEK DIST. / BALD MT. / SHORT LINE / CRYSTAL PARK / SCENIC INCLINE / COG ROAD DEPOT / CAVE OF THE WINDS / GATEWAY GARDEN OF THE GODS\n14,109 feet / 12,232 feet / 8,500 feet / 6,552 feet\n[imprint, lower left, mostly illegible] ... Bros. Chicago",
+  "kind": "map",
+  "local": {
+   "railway": "Short Line",
+   "form": "map",
+   "place_as_stated": "Pike's Peak",
+   "source_file": "High Res Scans/Stop_at_Pike_s_Peak_on_your_Way_to_or_from_the_Expositions_(1915)_(14782122885).jpg"
+  },
+  "w": 2200,
+  "h": 1198,
+  "image": "img/collection/stop-at-pike-s-peak-on-your-way-to-or-from-the-e.jpg",
+  "thumb": "img/collection/t/stop-at-pike-s-peak-on-your-way-to-or-from-the-e.jpg"
+ },
+ {
+  "id": "photo:region:the-great-loop-near-hagerman-tunnel-col-midland-",
+  "name": "6023. The Great Loop near Hagerman Tunnel, Col. Midland R.R.",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "High view over cut-over forest where the line loops on several levels, with a long curved timber trestle right of centre and a small train or its smoke on the middle level; forested valley beyond. Sepia print with the caption lettered along the bottom. The initials after the caption are faint and read 'W.H.J. & CO.' with some doubt. The engraving 'Great Loop engraving.jpg' shows this same view.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "sepia albumen-style print with caption lettered in the negative; no date on image",
+  "photographer": "W.H.J. & Co. (faint initials after the caption)",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "6023. THE GREAT LOOP NEAR HAGERMAN TUNNEL. COL. MIDLAND R.R. W.H.J. & CO. [last part faint]",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "place_as_stated": "Hagerman Tunnel",
+   "source_file": "High Res Scans/The_Great_Loop_Near_Hagerman_Tunnel,_Col._Midland_R.R._(-6023)_(7096852183).jpg"
+  },
+  "w": 2000,
+  "h": 1202,
+  "image": "img/collection/the-great-loop-near-hagerman-tunnel-col-midland-.jpg",
+  "thumb": "img/collection/t/the-great-loop-near-hagerman-tunnel-col-midland-.jpg"
+ },
+ {
+  "id": "photo:region:tunnel-4-camerons-cone",
+  "name": "1203. Cameron's Cone from \"Tunnel 4\", Colorado Midland Ry. (W. H. Jackson & Co.)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "View out of a rock tunnel mouth along curving track to the rear of a passenger car with people on its platform and beside it, a second tunnel portal beyond, and a conical peak above. Sepia print with the caption lettered diagonally at lower left. The souvenir-album engraving of this same scene (MANITOU & PIKE PEAK - CAMERONS CONE.jpg) is captioned 'TUNNEL 3'; the two disagree on the tunnel number. 'To Print/00003.png' is a retouched enlargement of this picture.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date_basis": "sepia albumen-style print with caption lettered in the negative; no date on image",
+  "photographer": "W. H. Jackson & Co., Denver, Col.",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "1203. CAMERON'S CONE FROM \"TUNNEL 4\"\nCOLORADO MIDLAND RY\nW.H. JACKSON & CO. PHOT.\nDENVER, COL.",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "place_as_stated": "Cameron's Cone from \"Tunnel 4\"; Denver, Col. (photographer's address)",
+   "source_file": "High Res Scans/Tunnel 4 Camerons Cone.jpg"
+  },
+  "w": 1806,
+  "h": 2200,
+  "image": "img/collection/tunnel-4-camerons-cone.jpg",
+  "thumb": "img/collection/t/tunnel-4-camerons-cone.jpg"
+ },
+ {
+  "id": "photo:region:ute-pass-colorado-ca-1922",
+  "name": "Ute Pass, Colorado - canyon with fenced road (title and date from file name)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Black-and-white halftone view of a rocky canyon with a fenced road on a ledge at the left and poles in the distance. No railway features are visible and there is no text. Nothing on the image gives the place or date.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "ca 1922 (file name only)",
+  "date_basis": "'ca 1922' appears only in the file name; halftone reproduction from a printed source",
+  "rights": "public-domain",
+  "rights_note": "Public domain in the United States by age (dated 1922 on the item or by its catalogue name).",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "Ute Pass, Colorado (file name only)",
+   "source_file": "High Res Scans/Ute_Pass,_Colorado_ca_1922.png"
+  },
+  "w": 2158,
+  "h": 1645,
+  "image": "img/collection/ute-pass-colorado-ca-1922.jpg",
+  "thumb": "img/collection/t/ute-pass-colorado-ca-1922.jpg"
+ },
+ {
+  "id": "photo:region:ute-pass-lccn2008676319",
+  "name": "Ute Pass - wagon road in a rocky canyon (title from file name)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Sepia print on a black card mount: a wagon road with a log fence winds up a rocky canyon, with a stream or fall at lower left. No railway features and no text. A similar scene to the 'Ute Pass' postcards but a different picture.",
+  "holder": "Library of Congress",
+  "date_basis": "sepia print on a dark card mount; unpaved wagon road; no date on image",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "Library of Congress (LCCN 2008676319 in the file name.)",
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "place_as_stated": "Ute Pass (file name only)",
+   "source_file": "High Res Scans/Ute_Pass-LCCN2008676319.jpg"
+  },
+  "w": 1568,
+  "h": 2200,
+  "image": "img/collection/ute-pass-lccn2008676319.jpg",
+  "thumb": "img/collection/t/ute-pass-lccn2008676319.jpg"
+ },
+ {
+  "id": "photo:region:ute-pass-above-the-falls-looking-down-nypl-b1170",
+  "name": "Manitou and Vicinity - No. 13. Ute Pass above the Falls - looking down (J. Thurlow)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Stereo pair of a wagon road with a rail fence curving along a ledge above a creek in a rocky canyon. No railway features. Cream card mount with the photographer's imprint and a paper caption label. The file name ends '(1)', suggesting a second download of the same file.",
+  "holder": "New York Public Library",
+  "date_basis": "stereograph on a card mount with a pasted paper label; no date on image",
+  "photographer": "J. Thurlow, Photo., Manitou, Col.",
+  "rights": "public-domain",
+  "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
+  "credit": "New York Public Library (NYPL id b11707665-G90F057_025ZF in the file name; greyscale target strip from library imag)",
+  "shows": [],
+  "topics": [
+   "stereograph"
+  ],
+  "transcription": "COLORADO VIEWS,\nJ. THURLOW, PHOTO. MANITOU. COL.\nManitou and Vicinity—No. 13. Ute Pass above the Falls—looking down.",
+  "kind": "photograph",
+  "local": {
+   "form": "stereograph",
+   "place_as_stated": "Ute Pass above the Falls; Manitou, Col.",
+   "source_file": "High Res Scans/Ute_Pass_above_the_falls,_looking_down_(NYPL_b11707665-G90F057_025ZF) (1).tiff"
+  },
+  "w": 2200,
+  "h": 1383,
+  "image": "img/collection/ute-pass-above-the-falls-looking-down-nypl-b1170.jpg",
+  "thumb": "img/collection/t/ute-pass-above-the-falls-looking-down-nypl-b1170.jpg"
+ },
+ {
+  "id": "photo:region:s-l1600",
+  "name": "Colo. Midland Tunnel, June 19, 1932 (snapshot print photographed beside a ruler)",
+  "grade": "measured",
+  "basis": "Looked at and described from the scan itself; nothing added from memory. The title is the printed caption where there is one, otherwise a description.",
+  "sources": [
+   "source:owner-supplied-scans"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Small black-and-white snapshot print of a timber-framed tunnel portal with three motor cars in front, snowbanks and a pool of meltwater; no track or train is visible. The print is photographed in colour on a pale surface beside a white ruler. Dated 1932, after 1930. The photograph of the print is modern (dealer's listing picture); the ruler is beside the print, not over it. Which tunnel is meant is not stated.",
+  "holder": "Atlas owner's collection (scan supplied 24 Nov 2026)",
+  "date": "June 19, 1932",
+  "date_basis": "handwritten caption on the print; automobiles of about 1930",
+  "rights": "licensed",
+  "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
+  "credit": "Collection of the atlas's owner",
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "photograph"
+  ],
+  "transcription": "Colo. Midland Tunnel June 19, 1932\n[on ruler] MADE IN USA / 1 2 3 4 5 6",
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "place_as_stated": "Colo. Midland Tunnel",
+   "source_file": "s-l1600.webp"
+  },
+  "w": 1600,
+  "h": 1200,
+  "image": "img/collection/s-l1600.jpg",
+  "thumb": "img/collection/t/s-l1600.jpg"
+ }
+]

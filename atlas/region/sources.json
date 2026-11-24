@@ -94,5 +94,12 @@
   "holder": "Scans supplied to the project (research/supplied/trains); quotations in research/stations/",
   "date": "1887-1917",
   "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:owner-supplied-scans",
+  "kind": "image collection",
+  "title": "Scans of photographs, postcards, engravings and maps supplied by the atlas's owner (the 'Trains' archive), catalogued in research/supplied/photo-catalogue.json",
+  "holder": "Atlas owner's collection",
+  "accessed": "2026-11-24"
  }
 ]
