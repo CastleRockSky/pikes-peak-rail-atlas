@@ -355,6 +355,74 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.13998,
+     38.70999
+    ]
+   },
+   "properties": {
+    "id": "place:victor",
+    "name": "Victor",
+    "grade": "inferred",
+    "error_ft": 1000,
+    "basis": "The point is OpenStreetMap's for the present town, in the middle of the street grid that the USGS maps surveyed in 1894 and revised in 1902-1903 both letter 'Victor'; the 1903 map's streets fall on the present streets within about 15 m here (tested by eye against the 1 m lidar). It stands for the town, not for a station: the Midland Terminal's depot is a separate record, about 900 ft to the north.",
+    "sources": [
+     "source:nrhp-84000899",
+     "source:ppld-208-9902-record",
+     "source:dpl-x-546-record",
+     "source:wikipedia-victor-depot",
+     "source:sanborn-victor",
+     "source:usgs-pp54-plate1",
+     "source:usgs-gf7-cripple-creek-special",
+     "source:official-guide-timetables",
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "town",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 51.6
+     },
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 35.0
+     },
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 44.5
+     }
+    ],
+    "summary": "Victor is the second town of the Cripple Creek district, on the south side of Battle Mountain. Three railways reached it. The Florence and Cripple Creek (3 ft gauge) lists it in its timetable of 2 June 1895, 5.7 miles before Cripple Creek. The Midland Terminal lists it in its timetable of 14 July 1895, 24 miles from Divide, and in every table read to March 1948; its brick depot at 4th Street and Granite Avenue is photographed in the 1940s and was listed on the National Register in 1984. The Colorado Springs and Cripple Creek District (the Short Line) lists it in 1909, 44.5 miles from Colorado Springs, at the end of a branch from Cameron that Poor's Manual of 1902 gives as 5.13 miles. The Sanborn key maps of 1900 and 1908 show the Midland Terminal entering along the north edge of town above a switchback, and the Florence and Cripple Creek below it along Diamond Avenue. Ten library photographs are held, of 1895 to about 1955.",
+    "open_questions": [
+     "The depot's position rests on an address and an uncited coordinate that agree with each other. It has not been seen on an aerial photograph, a Sanborn sheet or the ground. Sanborn sheet 3 (1900, 1908) would fix its footprint.",
+     "Poley's 'Midland Terminal, Victor' (P-973, 1895-1899) shows a frame station building, not the brick depot said to date from 1895. An earlier depot, a freight house, a wrong date or a wrong place: not settled.",
+     "The Pikes Peak postcard of about 1902 calls the brick depot 'Union Depot'. Which railways used it is not established.",
+     "The railways through the town are traced only roughly (research/26): the Midland Terminal's switchback and the last 0.6 mile of the Short Line's branch are not traced, and the Florence and Cripple Creek's depot (Sanborn 1908 index: 'F. & C. C. R. R. Depots', sheet 3) is not located.",
+     "'R. R. war in front of Strong mine' (1897): the library's explanation names a railway not yet built. What the event was is not established.",
+     "Dates of the town itself (platting, incorporation, the fire of 1899) have not been researched: nothing about them is stated here.",
+     "Photographs: found by 13 searches at Denver and 5 at Pikes Peak, first page of results each; not exhaustive. Two (X-546, X-547) were made after 1930 and are marked for the owner to confirm before the place is published. Not fetched: Otto Perry's 'MT depot' of 1935 (OP-12767), whose place is not established; a 1974 view of a station on Phantom Canyon Road that the library places at Alta Vista, 5 miles south (PPLD 002-3279)."
+    ],
+    "local": {
+     "tier": 2,
+     "pages": [
+      {
+       "title": "Photograph library: 10 library photographs of Victor",
+       "href": "photos.html?place=victor"
+      }
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "notes": "Entered on 24 Nov 2026 and left as a draft. The lidar box is 1,400 m square. The open-pit mine begins about 500 m north of the depot."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.928562,
      38.870974
     ]

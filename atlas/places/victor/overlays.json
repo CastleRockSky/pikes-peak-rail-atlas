@@ -1,0 +1,163 @@
+[
+ {
+  "id": "overlay:victor:usgs-1951-24000",
+  "name": "USGS Cripple Creek South, 1:24,000, 1951",
+  "valid_from": 1951,
+  "valid_to": 1951,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Reprojected from the USGS GeoTIFF (Cripple_Creek_South_232685_1951_24000.tif). One NAD27 shift for the whole district. Not checked against the ground at this place.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:victor",
+  "kind": "usgs-topo",
+  "date": "1951",
+  "image": "img/places/victor/usgs-1951-24000.jpg",
+  "bounds": [
+   [
+    38.699003,
+    -105.157569
+   ],
+   [
+    38.725997,
+    -105.123031
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:victor:usgs-1894-125000",
+  "name": "USGS Pikes Peak, 1:125,000, 1894",
+  "valid_from": 1894,
+  "valid_to": 1894,
+  "grade": "measured",
+  "error_ft": 400,
+  "basis": "Reprojected from the USGS GeoTIFF (Pikes_Peak_234096_1894_125000.tif). One NAD27 shift for the whole district. Not checked against the ground at this place.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:victor",
+  "kind": "usgs-topo",
+  "date": "1894",
+  "image": "img/places/victor/usgs-1894-125000.jpg",
+  "bounds": [
+   [
+    38.699003,
+    -105.157569
+   ],
+   [
+    38.725997,
+    -105.123031
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:victor:usgs-1901-125000",
+  "name": "USGS Pikes Peak, 1:125,000, edition of 1901 (reprinted 1909)",
+  "valid_from": 1901,
+  "valid_to": 1901,
+  "grade": "measured",
+  "error_ft": 400,
+  "basis": "Cut from the USGS scan (Pikes_Peak_402404_1901_62500.tif), placed by the sheet's four corner marks because the file's own georeference is wrong. One NAD27 shift for the whole district. Not checked against the ground at this place.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:victor",
+  "kind": "usgs-topo",
+  "date": "1901",
+  "image": "img/places/victor/usgs-1901-125000.jpg",
+  "bounds": [
+   [
+    38.699003,
+    -105.157569
+   ],
+   [
+    38.725997,
+    -105.123031
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:victor:hillshade",
+  "name": "Shaded ground (1 m lidar)",
+  "grade": "measured",
+  "error_ft": 5,
+  "basis": "Cut from the USGS 1 m lidar elevation tiles USGS_1M_13_x48y429_CO_CONMGaps_D24.tif.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:victor",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "hillshade.png",
+  "bounds": [
+   [
+    38.706205,
+    -105.148366
+   ],
+   [
+    38.718803,
+    -105.132239
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source",
+   "note": "UTM picture laid on its corner coordinates"
+  }
+ },
+ {
+  "id": "overlay:victor:relief",
+  "name": "Local relief (1 m lidar): banks, grades and foundations",
+  "grade": "measured",
+  "error_ft": 5,
+  "basis": "Cut from the USGS 1 m lidar elevation tiles USGS_1M_13_x48y429_CO_CONMGaps_D24.tif.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:victor",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "relief.png",
+  "bounds": [
+   [
+    38.706205,
+    -105.148366
+   ],
+   [
+    38.718803,
+    -105.132239
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source",
+   "note": "UTM picture laid on its corner coordinates"
+  }
+ }
+]

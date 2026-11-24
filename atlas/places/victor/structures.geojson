@@ -1,0 +1,37 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1403,
+     38.7125
+    ]
+   },
+   "properties": {
+    "id": "structure:victor:mt-depot",
+    "name": "Midland Terminal depot (brick; standing in the 1940s photographs, listed on the National Register in 1984)",
+    "valid_from": 1895,
+    "grade": "inferred",
+    "error_ft": 150,
+    "basis": "The Midland Terminal's brick depot. Two library records put it at 4th Street and Granite Avenue (Pikes Peak: the south-east corner), and the National Register lists it at 230 N. 4th Street. The point is the coordinate Wikipedia gives, which falls about 45 m east of 4th Street and 35 m south of Granite Avenue as OpenStreetMap draws them: the south-east corner. So address and coordinate agree; the building itself has not been seen on an aerial photograph or the ground by this project, and bare-earth lidar does not show buildings. The Sanborn index sheets of August 1900 and December 1908 list the 'M. T. R'y Depot' and 'M. T. R. R. Passenger Station' on sheet 3 and draw the Midland Terminal's track along the north side of this block; sheet 3 itself has not been read.",
+    "sources": [
+     "source:nrhp-84000899",
+     "source:ppld-208-9902-record",
+     "source:dpl-x-546-record",
+     "source:wikipedia-victor-depot",
+     "source:sanborn-victor"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "Built 1895 according to the Pikes Peak library's description and the Register's 'significant year'; neither has been checked against a period source. Whether it stands today rests on the 1984 listing, not on anything seen. Poley's photograph of 1895-1899 (P-973), titled 'Midland Terminal, Victor', shows a clapboarded frame station building, not this brick one: an earlier depot, a freight house, or a different place. Not settled.",
+    "place": "place:victor",
+    "kind": "depot",
+    "placeholder": false
+   }
+  }
+ ]
+}
