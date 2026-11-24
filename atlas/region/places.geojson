@@ -1132,6 +1132,378 @@
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.83465,
+     38.828292
+    ]
+   },
+   "properties": {
+    "id": "place:hulbert",
+    "name": "Hulbert",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 1.0 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1929 to 1945), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 1.0
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1929 to 1945. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.865142,
+     38.844499
+    ]
+   },
+   "properties": {
+    "id": "place:colorado-city",
+    "name": "Colorado City",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 3.0 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1888 to 1948), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 3.0
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1888 to 1948. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.927337,
+     38.857182
+    ]
+   },
+   "properties": {
+    "id": "place:manitou-iron-springs",
+    "name": "Manitou Iron Springs",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 6.8 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1888 to 1945), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 6.8
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1888 to 1945. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.92731,
+     38.865787
+    ]
+   },
+   "properties": {
+    "id": "place:lime-rock",
+    "name": "Lime Rock",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 7.5 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1937 to 1945), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 7.5
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1937 to 1945. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.950031,
+     38.881083
+    ]
+   },
+   "properties": {
+    "id": "place:crags",
+    "name": "Crags",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 9.5 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1920 to 1945), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 9.5
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1920 to 1945. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.980809,
+     38.913547
+    ]
+   },
+   "properties": {
+    "id": "place:culver",
+    "name": "Culver",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 12.7 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1888 to 1920), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 12.7
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1888 to 1920. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.034906,
+     38.967245
+    ]
+   },
+   "properties": {
+    "id": "place:bison",
+    "name": "Bison",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 17.6 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1920 to 1920), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 17.6
+     }
+    ],
+    "summary": "A station in the railway's public timetables of 1920. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.055042,
+     38.994125
+    ]
+   },
+   "properties": {
+    "id": "place:woodland-park",
+    "name": "Woodland",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 20.0 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1890 to 1948), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. Printed 'Woodland' by the Midland Terminal and 'Woodland Park' by the Colorado Midland.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 20.0
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1890 to 1948. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.088022,
+     38.960758
+    ]
+   },
+   "properties": {
+    "id": "place:edlowe",
+    "name": "Edlowe",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 23.3 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1920 to 1945), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 23.3
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1920 to 1945. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.167056,
+     38.901181
+    ]
+   },
+   "properties": {
+    "id": "place:murphy",
+    "name": "Murphy",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 30.4 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1920 to 1945), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 3.5
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1920 to 1945. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.137691,
+     38.834374
+    ]
+   },
+   "properties": {
+    "id": "place:waters",
+    "name": "Waters",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 37.2 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1920 to 1932), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 10.3
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1920 to 1932. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.120362,
+     38.729276
+    ]
+   },
+   "properties": {
+    "id": "place:bull-hill",
+    "name": "Bull Hill",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage: 48.3 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1909 to 1948), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 21.4
+     }
+    ],
+    "summary": "A station in the railway's public timetables, 1909 to 1948. Pinned from its printed mileage; not worked up yet."
+   }
   }
  ]
 }
