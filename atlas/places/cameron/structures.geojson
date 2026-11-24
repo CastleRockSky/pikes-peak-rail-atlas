@@ -1,0 +1,365 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.122464,
+      38.743998
+     ],
+     [
+      -105.122892,
+      38.744917
+     ],
+     [
+      -105.123123,
+      38.745547
+     ],
+     [
+      -105.12309,
+      38.746448
+     ],
+     [
+      -105.123356,
+      38.747349
+     ],
+     [
+      -105.123817,
+      38.74789
+     ],
+     [
+      -105.124509,
+      38.748384
+     ],
+     [
+      -105.125326,
+      38.7486
+     ],
+     [
+      -105.127087,
+      38.748886
+     ],
+     [
+      -105.128538,
+      38.749281
+     ],
+     [
+      -105.129114,
+      38.749479
+     ],
+     [
+      -105.129689,
+      38.749686
+     ],
+     [
+      -105.130265,
+      38.749973
+     ],
+     [
+      -105.130841,
+      38.750225
+     ],
+     [
+      -105.131417,
+      38.750522
+     ],
+     [
+      -105.131993,
+      38.7508
+     ],
+     [
+      -105.132568,
+      38.750782
+     ],
+     [
+      -105.133144,
+      38.750745
+     ],
+     [
+      -105.133719,
+      38.750636
+     ],
+     [
+      -105.134064,
+      38.750465
+     ],
+     [
+      -105.134294,
+      38.750293
+     ],
+     [
+      -105.134501,
+      38.750086
+     ],
+     [
+      -105.134661,
+      38.74986
+     ],
+     [
+      -105.134776,
+      38.749635
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:cameron:mt-grade-and-loop",
+    "name": "Upper grade and loop at the head of Grassy Gulch (Midland Terminal), as it lies on the ground",
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the 1 m lidar a bench comes round the hill spur east of the flat, runs north-west along the foot of the north slope and then turns west and south as a curved bank of roughly 450 ft radius: 5060 ft traced. Its crest was found on a dozen ground profiles; between them the line is by eye, good to about 15 ft. The bench is 40 to 60 ft wide on the hillside. It climbs westward all the way: about 9,945 ft where the trace starts, 9,962 and 9,981 ft round the spur, 10,014 ft north of the flat, 10,027 ft at the top of the loop and 10,036 ft where the bank is cut off by a modern square pit about 150 ft across. On the loop the bank stands 5 to 7 ft above the flat inside it and is level with the ground outside, and for about 300 ft of the curve there are two crests about 30 ft apart (a second track, or a later line: not known). Two gullies have cut the bench north of the flat. South of the pit a bank carries on round the curve at about 10,046 ft, but a modern ditch and road follow it and it is not traced; beyond that the mine's waste dumps cover the line towards Bull Hill. It follows the OpenStreetMap way tagged Midland Terminal within about 30 ft, and the 1901 map draws the Midland Terminal making this loop at the head of the gulch (the 1894 map has no railway), so it is taken to be the Midland Terminal's grade. Dates are the railway's: the 1895 timetable has trains running to Victor through Grassy; the last timetable read is March 1948 and the 1949 closing is from secondary sources.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:usgs-pikes-peak-1901",
+     "source:official-guide-timetables"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "A higher, smooth bench north of this one (about 10,047 to 10,063 ft) is a modern road and is not entered.",
+    "place": "place:cameron",
+    "kind": "earthwork",
+    "placeholder": false,
+    "dims": {
+     "length_ft": 5060.0
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.122798,
+      38.743826
+     ],
+     [
+      -105.123236,
+      38.744736
+     ],
+     [
+      -105.123422,
+      38.745547
+     ],
+     [
+      -105.123527,
+      38.746448
+     ],
+     [
+      -105.123759,
+      38.747349
+     ],
+     [
+      -105.124278,
+      38.747889
+     ],
+     [
+      -105.125521,
+      38.748284
+     ],
+     [
+      -105.127236,
+      38.748652
+     ],
+     [
+      -105.128538,
+      38.749056
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:cameron:lower-grade",
+    "name": "Lower grade beside the Midland Terminal's, east of the flat (Short Line?)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "On the 1 m lidar a second bench runs round the same spur about 100 to 130 ft inside the upper one and 11 to 13 ft below it: 2850 ft traced, on five ground profiles (9,932 ft at the east end, 9,944, 9,951, 9,968 and 9,975 ft where it comes out on the floor of the flat). Much of it now carries a graded road, so its width and surface are modern. West of the last point it cannot be followed across the flat with any confidence. That it was the Short Line is inferred, not measured: OpenStreetMap tags the way along it Colorado Springs and Cripple Creek District, and the Pikes Peak Library District's caption to a 1900 photograph of Pinnacle Park speaks of 'parallel Colorado Midland Terminal and Short Line tracks' at Cameron. The 1901 map draws only one line here. Dates are the Short Line's: lines opened 1901 (Poor's 1902); the end, about 1920, is secondary.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:ppld-001-5301-caption",
+     "source:poors-moodys-manuals"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:cameron",
+    "kind": "earthwork",
+    "placeholder": false,
+    "dims": {
+     "length_ft": 2850.0
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.134237,
+      38.750744
+     ],
+     [
+      -105.134755,
+      38.750941
+     ],
+     [
+      -105.135446,
+      38.750896
+     ],
+     [
+      -105.135848,
+      38.750868
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:cameron:bench-west-of-loop",
+    "name": "Bench running west from the top of the loop (Short Line towards Cripple Creek?)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "On the 1 m lidar a bench about 60 ft wide leaves the outside of the loop at its top and runs west for about 480 ft, where a mine haul road cuts it off. Two ground profiles put its surface at 10,040 ft and about 10,045 ft. That it was the Short Line's main line going on to Cripple Creek is inferred: the OpenStreetMap way tagged Colorado Springs and Cripple Creek District crosses the Midland Terminal's loop at this point and follows the bench within about 35 ft, and the Short Line's timetable of 26 September 1909 prints 10,040 ft as the altitude of Cameron Junction. The printed altitudes are rough (the Midland Terminal's print 10,080 ft for Cameron), so the agreement is weak support, not proof.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:official-guide-timetables"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:cameron",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.133719,
+     38.750636
+    ]
+   },
+   "properties": {
+    "id": "structure:cameron:junction",
+    "name": "Where the Short Line met the Midland Terminal (Cameron Junction)",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "inferred",
+    "error_ft": 300,
+    "basis": "The top of the loop, where the bench going west leaves the Midland Terminal's bank and where the OpenStreetMap trace of the Short Line crosses the Midland Terminal's. No switch, crossing or connecting track can be told apart on the ground, so this is a point within about 300 ft (judgement), not a located junction. Both railways' timetables of 26 September 1909 call the station Cameron Junction, and the Midland Terminal's shows two trains a day coming 'Via C. S. & C. C. D. Ry.' to Cameron Junction and going on over its own line, so by then trains passed from one railway to the other here. Whether the lines also crossed on the level, and how the Short Line's branch to Victor (5.13 miles from Cameron, Poor's 1902) left, is not known.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:official-guide-timetables",
+     "source:poors-moodys-manuals"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:cameron",
+    "kind": "other",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.123491,
+     38.745745
+    ]
+   },
+   "properties": {
+    "id": "structure:cameron:grassy-short-line-1909",
+    "name": "Grassy, the Short Line's stop of 1909 (about here)",
+    "valid_from": 1909,
+    "valid_to": 1909,
+    "grade": "conjecture",
+    "error_ft": 1500,
+    "basis": "The Short Line's timetable of 26 September 1909 lists Grassy 0.7 mile before Cameron Junction, with altitudes of 9,977 and 10,040 ft. The point is 0.7 mile back along the lower grade from the junction as entered. The lidar ground there is about 9,945 ft; the lower grade stands at 9,977 ft only about 0.4 mile from the junction. The mileage and the altitude disagree by about 1,500 ft along the line, and nothing on the ground marks a stop, so this shows only that in 1909 Grassy was a separate stop east of Cameron Junction, somewhere on this side of the flat.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:cameron",
+    "kind": "other",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.132681,
+      38.749277
+     ],
+     [
+      -105.132967,
+      38.748691
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:cameron:flat-scarp",
+    "name": "Straight step on the flat inside the loop (what it was is not known)",
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "On the 1 m lidar a straight step about 230 ft long runs north-north-east across the flat inside the loop, the ground to its east about 4 ft lower. It is too straight to be natural. A terrace cut for building, a pond edge or later mine work: not known.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:cameron",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.132082,
+     38.748944
+    ]
+   },
+   "properties": {
+    "id": "structure:cameron:flat-rectangle",
+    "name": "Small rectangular outline on the flat inside the loop (what it was is not known)",
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "On the 1 m lidar a low rectangular outline about 50 by 80 ft, long side north to south, with raised edges under 2 ft high. A foundation is possible; so is a prospect or a modern pen. The 1901 map marks buildings inside and beside the loop but at 1:125,000 cannot be matched to this.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-pikes-peak-1901"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:cameron",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  }
+ ]
+}

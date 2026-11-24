@@ -6,6 +6,72 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.133719,
+     38.750636
+    ]
+   },
+   "properties": {
+    "id": "place:cameron",
+    "name": "Cameron",
+    "grade": "inferred",
+    "error_ft": 800,
+    "basis": "No map held prints the name, so the point rests on the timetables and the ground. The Midland Terminal's tables of 1920 to 1948 put Cameron 5.3 miles beyond Gillett. Measured along the OpenStreetMap trace from Gillett, 5.3 miles falls on the loop at the head of Grassy Gulch (5.2 miles at its top), and the trace runs on about 2.0 miles from there to where it stops near Independence, against a printed 2.5 miles to that station. The lidar ground at the loop is 10,027 to 10,046 ft, against printed altitudes of 10,040 ft (Short Line, 1909) and 10,080 ft (Midland Terminal, 1920). The point is the top of the loop, where the Short Line's trace meets the Midland Terminal's bank: moved about 860 ft north-west from the rough point the place was started with. The station, the junction switch and the town are not located, so the error is put at 800 ft (judgement: 0.1 mile of timetable rounding plus the error of measuring along a trace). Rejected: the place where the two traces first come together, on Beaver Creek about 1.9 miles east. It is only 3.3 miles from Gillett along the trace, about 4 miles short of Independence, and the 1951 map's spot height near it is 9,844 ft. One web page pins Cameron there, without a source. Elevation is the 1 m lidar ground at the point.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:poors-moodys-manuals",
+     "source:osm-railways",
+     "source:lidar-3dep",
+     "source:usgs-pikes-peak-1894",
+     "source:usgs-pikes-peak-1901",
+     "source:wmh-cameron",
+     "source:wikipedia-co-post-offices",
+     "source:dpl-subject-index-cameron",
+     "source:ppld-001-5301-caption",
+     "source:ppld-newsfinder-cameron"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "junction",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 46.6
+     },
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 39.5
+     }
+    ],
+    "summary": "Cameron was a station and small town of the Cripple Creek district at the head of Grassy Gulch, where the Midland Terminal Railway, climbing south from Gillett, swung round a loop towards Bull Hill and Victor, and where the Colorado Springs and Cripple Creek District Railway (the Short Line) met it. The Midland Terminal's timetable of 14 July 1895 has no Cameron: it has Grassy, 19 miles from Divide, where Concord coaches met every train and took passengers to Cripple Creek 'in twenty minutes'. Its timetable of 26 September 1909 has Cameron Junction at 20 miles, and those of 1920 to 1948 have Cameron 46.6 miles from Colorado Springs, 5.3 beyond Gillett. The Short Line's timetable of 26 September 1909 lists Grassy and, 0.7 mile on, Cameron Junction, 39.5 miles from Colorado Springs; Poor's Manual of 1902 gives it a branch from Cameron to Victor of 5.13 miles. Library catalogues and a web history, all secondary, say the place was first called Grassy (or Gassy), that a company bought the townsite in 1899 and laid out Cameron, and that the Woods Investment Company built Pinnacle Park beside it in 1900: a resort with a dancing pavilion, a merry-go-round and animal cages, lying on both sides of the two railways' parallel tracks with a footbridge between. The post office is listed from 10 April 1901 to 31 August 1909. A 1954 newspaper headline says only the bear pits remained. On the 1 m lidar the Midland Terminal's bench comes round the spur east of the flat and ends in a curved bank 5 to 7 ft high, the loop, at about 10,030 ft. A second bench runs beside it about 12 ft lower, and a third leaves the top of the loop westward at 10,040 ft; these fit the Short Line's line as OpenStreetMap traces it, but nothing on the ground says which railway built them. West and south of the loop the present gold mine's pits, roads and waste dumps have buried both lines. The depot, the town and Pinnacle Park have not been located. The Denver Public Library holds two Poley photographs of the stage at the Grassy depot of about 1895, views of Cameron and of Pinnacle Park of about 1900, and an Otto Perry view of a train near Cameron in February 1949; the Pikes Peak Library District holds a view of the park's footbridge.",
+    "open_questions": [
+     "Grassy and Cameron: one spot or two? The catalogues and web history say Grassy was renamed Cameron. The Short Line's 1909 timetable lists both, 0.7 mile apart, so on that railway they were two stops. The Midland Terminal's 1895 table puts Grassy 4 miles past Gillett and its 1909 table puts Cameron Junction 6 miles past (whole miles, and the two tables do not agree on Gillett either: 15 and 14), which fits either the loop or a point up to a mile east of it. Where the Grassy depot of the 1895 photographs stood is not established.",
+     "The position rests on timetable miles measured along an OpenStreetMap trace, and on printed altitudes. No map or plat naming Cameron has been seen. Western Mining History's map link (38.7467, -105.0991) is about 1.9 miles east; it gives no source. A plat, a mine map of about 1903, or the USGS sheet south of 38 45 N (not held) would settle it.",
+     "How the two railways were joined: a crossing, a junction switch, or both; where the Short Line's Victor branch left; whether the two crests on the loop were two tracks. The ground does not show it.",
+     "Which railway built the lower bench and the bench west of the loop. They are given to the Short Line on OpenStreetMap's tagging and a library caption.",
+     "The depot, the town's streets, Pinnacle Park and the Short Line power house named in the caption of DPL X-609: none located. The park is 'south of town' (web history) and astride the parallel tracks (library caption). Ground south and west of the loop is under the mine.",
+     "Dates, all secondary and unread at source: townsite bought and laid out 1899; park built 1900 by the Woods Investment Company (PPLD caption) or owned with the townsite by the Cameron Mines, Land and Tunnel Co. (DPL index card citing the Denver Times, 24 June 1900); Short Line track 'soon to be completed to Cameron' on 3 March 1901 and formally opened 27 March 1901 (DPL index cards). The web history's 'In 1892 a railroad depot was established here' is earlier than the railway and is not used.",
+     "Post office: Cameron 10 April 1901 to 31 August 1909 (Wikipedia's list). The same list closes a Teller County office called Touraine on the day Cameron's opened (16 November 1889 to 10 April 1901; the 1889 looks wrong), which suggests a renaming or a move, but that is a guess: where Touraine was is not known.",
+     "When Cameron's sidings and station went. The timetables print Cameron as a coupon and telegraph station in 1920 and still list it in March 1948.",
+     "Printed altitudes do not agree with each other or the ground: 10,040 ft (Short Line 1909), 10,080 ft (Midland Terminal 1920); the loop is 10,027 to 10,046 ft on the lidar. For Grassy the Short Line's mileage and altitude disagree by about 1,500 ft along the line.",
+     "Photographs: the Denver Public Library catalogue was searched by hand in a browser on 24 Nov 2026 with about 17 keyword combinations (Cameron with Teller, Colo, Cripple Creek, depot, Junction, Short Line, Midland Terminal, Perry, CRRM; Pinnacle Park; Grassy; Gassy), reading the first page of results each time, and the Pikes Peak Library District's with 7. 'Cameron Colo' returns 729 hits, mostly people named Cameron and Cameron's Cone, so the search is not exhaustive. No Colorado Railroad Museum item was found. No image has been fetched or looked at, so nothing on the ground has been matched to a photograph.",
+     "Not read: S. E. Poet, 'Story of Cameron, Colo.', Colorado Magazine 9 (September 1932), pp. 194-5; the Golden Crescent (Cameron's newspaper) of 8 December 1900; the Denver Times and Gazette articles the library indexes cite; the Victor Heritage Society's 2025 talk on Gillett and Cameron (held in video/, notes taken only for Gillett).",
+     "Rights: one catalogued photograph is of 1949 (Otto Perry) and is marked as a library copy that may be shown. That rests on the permission the owner reported, whose terms have not been seen; confirm it covers photographs still in copyright before it is fetched and shown."
+    ],
+    "local": {
+     "tier": 2
+    },
+    "elevation_ft": 10030,
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "notes": "Entered from nothing on 24 Nov 2026. The lidar box is 2,400 m square round the starting point. About half of it is the present open-pit gold mine: everything west of the loop and south of the flat is modern ground. The 1:24,000 sheets of 1951 and 1994 held by the project end at 38 45 N, which passes through the loop, so fetch_usgs_maps.py skipped them."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -105.150269,
      38.944789
     ]
