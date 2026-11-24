@@ -1,0 +1,98 @@
+[
+ {
+  "id": "overlay:midland:hillshade",
+  "name": "Shaded ground (USGS 3DEP)",
+  "grade": "measured",
+  "error_ft": 10,
+  "basis": "USGS 3DEP elevation service, shaded. The service does not report which survey it drew on.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:midland",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "hillshade.png",
+  "bounds": [
+   [
+    38.852024184177374,
+    -105.16972622853213
+   ],
+   [
+    38.86462181582262,
+    -105.15357577146789
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source"
+  }
+ },
+ {
+  "id": "overlay:midland:usgs-1894-125000",
+  "name": "USGS Pikes Peak, 1:125,000, 1894",
+  "valid_from": 1894,
+  "valid_to": 1894,
+  "grade": "measured",
+  "error_ft": 400,
+  "basis": "Reprojected from the USGS GeoTIFF (Pikes_Peak_234096_1894_125000.tif). One NAD27 shift for the whole district. Not checked against the ground at this place.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:midland",
+  "kind": "usgs-topo",
+  "date": "1894",
+  "image": "img/places/midland/usgs-1894-125000.jpg",
+  "bounds": [
+   [
+    38.844826,
+    -105.178955
+   ],
+   [
+    38.87182,
+    -105.144347
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:midland:usgs-1901-125000",
+  "name": "USGS Pikes Peak, 1:125,000, edition of 1901 (reprinted 1909)",
+  "valid_from": 1901,
+  "valid_to": 1901,
+  "grade": "measured",
+  "error_ft": 400,
+  "basis": "Cut from the USGS scan (Pikes_Peak_402404_1901_62500.tif), placed by the sheet's four corner marks because the file's own georeference is wrong. One NAD27 shift for the whole district. Not checked against the ground at this place.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:midland",
+  "kind": "usgs-topo",
+  "date": "1901",
+  "image": "img/places/midland/usgs-1901-125000.jpg",
+  "bounds": [
+   [
+    38.844826,
+    -105.178955
+   ],
+   [
+    38.87182,
+    -105.144347
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ }
+]

@@ -1,0 +1,46 @@
+{
+ "id": "place:midland",
+ "name": "Midland",
+ "grade": "measured",
+ "error_ft": 400,
+ "basis": "The point is the OpenStreetMap hamlet named Midland. It falls within about 300 ft of the building symbols beside the name Midland on the 1894 and 1901 USGS sheets, so the settlement's position is taken as measured to the accuracy of those maps. The railway grade, from the OpenStreetMap trace, passes about 770 ft to the north-east. Where the station itself stood is not established. Elevation is the 3DEP ground at the point.",
+ "sources": [
+  "source:osm-railways",
+  "source:usgs-pikes-peak-1894",
+  "source:usgs-pikes-peak-1901",
+  "source:wikipedia-midland-terminal",
+  "source:wikipedia-midland-colorado",
+  "source:lidar-3dep"
+ ],
+ "status": "reviewed",
+ "contributor": "project",
+ "updated": "2026-11-24",
+ "kind": "stop",
+ "on_lines": [
+  {
+   "line": "line:midland-terminal",
+   "milepost": null
+  }
+ ],
+ "summary": "A small settlement in the valley between Divide and Gillett, and a station on the Midland Terminal Railway. Secondary sources say the first section of the railway, 7.1 miles from Divide, was finished to Midland on 9 December 1893, and that the line went on to reach Gillett on 4 July 1894. The 1894 government map shows the name and a few buildings beside a road but no railway; the 1901 edition shows the railway passing east of the buildings and then swinging through a wide horseshoe curve to the south-east. The railway ran until 1949. People still live at Midland. No photograph of the place in railway days has been found yet.",
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   -105.161651,
+   38.858323
+  ]
+ },
+ "open_questions": [
+  "Where the station, siding and any other railway buildings stood: not established. Nothing has been read off the ground, because the 3DEP ground served here is coarse (about 10 m), not 1 m lidar.",
+  "No photograph of Midland was found in a first search of the Denver Public Library catalogue on 24 Nov 2026. That search engine does not match phrases, so this is not proof there are none; the Pikes Peak Library District and local museums have not been searched.",
+  "The dates are from Wikipedia. Its Midland Terminal article gives 9 December 1893 for completion to Midland (citing L. I. Tingvik, 'Rail dates', 2006) but also says the first narrow-gauge track was torn up in January 1893; the two statements do not sit together and need a primary source.",
+  "'Founded 1893' is given by Wikipedia without a source. Whether Midland had a post office, and when, is not known here.",
+  "Elevation: 8,972 ft is the 3DEP ground at the point. The 9,407 ft in the Geographic Names record quoted by Wikipedia belongs to the census area, whose centre is about 0.8 mile to the south-east.",
+  "The 1951 and 1994 USGS maps at 1:24,000 have not been cut for Midland: it lies across the edge of two sheets."
+ ],
+ "local": {
+  "tier": 2
+ },
+ "valid_from": 1893,
+ "elevation_ft": 8972
+}

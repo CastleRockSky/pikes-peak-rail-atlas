@@ -1,0 +1,24 @@
+[
+ {
+  "id": "source:wikipedia-midland-colorado",
+  "kind": "encyclopedia article",
+  "title": "Midland, Colorado",
+  "holder": "Wikipedia",
+  "url": "https://en.wikipedia.org/wiki/Midland,_Colorado",
+  "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:usgs-pikes-peak-1894",
+  "kind": "map",
+  "title": "Pikes Peak quadrangle, 1:125,000, edition of 1894",
+  "holder": "U.S. Geological Survey",
+  "date": "1894"
+ },
+ {
+  "id": "source:usgs-pikes-peak-1901",
+  "kind": "map",
+  "title": "Pikes Peak quadrangle, 1:125,000, edition of April 1901, reprinted June 1909",
+  "holder": "U.S. Geological Survey",
+  "date": "1901"
+ }
+]

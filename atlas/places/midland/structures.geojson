@@ -1,0 +1,33 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.16269,
+     38.85867
+    ]
+   },
+   "properties": {
+    "id": "structure:midland:settlement-1901",
+    "name": "Buildings at Midland as mapped in 1894 and 1901",
+    "valid_from": 1894,
+    "grade": "measured",
+    "error_ft": 400,
+    "basis": "The cluster of about six building symbols beside the name Midland on the 1901 edition of the USGS Pikes Peak sheet, west of the creek; the 1894 edition shows a similar cluster at the same spot. Read off the cut map, so good only to the map's accuracy. The symbols are a convention at this scale, not a count of buildings.",
+    "sources": [
+     "source:usgs-pikes-peak-1901",
+     "source:usgs-pikes-peak-1894"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:midland",
+    "kind": "other",
+    "placeholder": false
+   }
+  }
+ ]
+}
