@@ -9,7 +9,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Glass negative. The library: 'Cripple Creek stagecoach \"no. 7 US Mail\" with driver holding the reins of a team of horses, Midland Railway engine and car \"22\", terminal building, telephone poles, and hills.' The best view found of the railway at Grassy. Which way it looks has not been worked out.",
+  "notes": "Glass negative. The library: 'Cripple Creek stagecoach \"no. 7 US Mail\" with driver holding the reins of a team of horses, Midland Railway engine and car \"22\", terminal building, telephone poles, and hills.' The best view found of the railway at Grassy. Which way it looks has not been worked out. Looked at before use: the title is the photographer's own, written on the negative ('Cripple Creek stage at Grassy, Midland Terminal Railway'). The depot is a long, low building with a hipped roof and a cresting along its ridge; an engine and cars stand behind the stage; the hill behind is bare grass with a few trees on top. The negative is damaged at the upper left and the right-hand corner.",
   "place": "place:cameron",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "P-252",
@@ -17,13 +17,17 @@
   "photographer": "Poley, H. S. (Horace Swartley)",
   "date": "circa 1895",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet; look at it for printed captions or marks before it is shown.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's own download, fetched and looked at on 2026-11-24. The library's own download, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, P-252",
   "shows": [],
   "topics": [
    "depot"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/cameron/dpl-p-252.jpg",
+  "thumb": "img/places/cameron/dpl-p-252-t.jpg",
+  "w": 1999,
+  "h": 1593
  },
  {
   "id": "photo:cameron:dpl-p-671",
@@ -35,7 +39,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Glass negative; full title adds 'This stage ran to Cripple Creek for several years'. The library: men on the Cripple Creek stage 'near the Grassy (later Cameron) depot'; 'Three wooden barrels stand on the raised wooden platform of the depot, near the tracks.' The library's date range starts before the railway.",
+  "notes": "Glass negative; full title adds 'This stage ran to Cripple Creek for several years'. The library: men on the Cripple Creek stage 'near the Grassy (later Cameron) depot'; 'Three wooden barrels stand on the raised wooden platform of the depot, near the tracks.' The library's date range starts before the railway. Looked at before use: the gable end of the depot with a raised timber platform and steps, one track across the foreground, and a wood of spruce and aspen close behind. P-252 has a bare hill behind the depot and this has a wood, so the two look different ways; which is which has not been worked out.",
   "place": "place:cameron",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "P-671",
@@ -43,13 +47,17 @@
   "photographer": "Poley, H. S. (Horace Swartley)",
   "date": "1890-1895",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet; look at it for printed captions or marks before it is shown.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's own download, fetched and looked at on 2026-11-24. The library's own download, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, P-671",
   "shows": [],
   "topics": [
    "depot"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/cameron/dpl-p-671.jpg",
+  "thumb": "img/places/cameron/dpl-p-671-t.jpg",
+  "w": 1999,
+  "h": 1603
  },
  {
   "id": "photo:cameron:dpl-p-796",
@@ -61,7 +69,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "Nitrate negative, emulsion peeling. Men drinking round a table inside a wooden building. X-8759 (node 1024554, dated 1890-1899) is a copy of the same picture, 'Formerly P796'. An interior: it places nothing.",
+  "notes": "Nitrate negative, emulsion peeling. Men drinking round a table inside a wooden building. X-8759 (node 1024554, dated 1890-1899) is a copy of the same picture, 'Formerly P796'. An interior: it places nothing. Looked at before use: the photographer's own title 'A Grassy resort' is written on the negative.",
   "place": "place:cameron",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "P-796",
@@ -69,13 +77,17 @@
   "photographer": "Poley, H. S. (Horace Swartley)",
   "date": "circa 1895",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet; look at it for printed captions or marks before it is shown.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's own download, fetched and looked at on 2026-11-24. The library's own download, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, P-796",
   "shows": [],
   "topics": [
    "interior"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/cameron/dpl-p-796.jpg",
+  "thumb": "img/places/cameron/dpl-p-796-t.jpg",
+  "w": 1999,
+  "h": 1354
  },
  {
   "id": "photo:cameron:dpl-x-7379",
@@ -87,20 +99,24 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "The library: 'Cows graze in a field near a fence; a long narrow gabled building is across the fence. The town of Cameron is in the background at the foot of the hills that surround the valley.' A copy negative from the programme of the Trans-Mississippi Commercial Congress (Cripple Creek, July 1901), so the copy may carry that book's printed caption: crop to the photograph before showing.",
+  "notes": "The library: 'Cows graze in a field near a fence; a long narrow gabled building is across the fence. The town of Cameron is in the background at the foot of the hills that surround the valley.' A copy negative from the programme of the Trans-Mississippi Commercial Congress (Cripple Creek, July 1901), so the copy may carry that book's printed caption: crop to the photograph before showing. Looked at before use: the library's copy is the photograph alone, with no printed text, so nothing needs cropping. In the foreground a long open-fronted shed stands inside a high board fence (what it was is not known); the town lies beyond it across the valley. A halftone copy, soft.",
   "place": "place:cameron",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "X-7379",
   "url": "https://digital.denverlibrary.org/nodes/view/1022593",
   "date": "circa 1901",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet; look at it for printed captions or marks before it is shown.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's own download, fetched and looked at on 2026-11-24. The library's own download, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, X-7379",
   "shows": [],
   "topics": [
    "panorama"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/cameron/dpl-x-7379.jpg",
+  "thumb": "img/places/cameron/dpl-x-7379-t.jpg",
+  "w": 2000,
+  "h": 728
  },
  {
   "id": "photo:cameron:dpl-x-609",
@@ -112,20 +128,24 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "The library: 'amusement park, pavilions, and buildings in trees including an outhouse, houses, smokestacks of Colorado Springs and Cripple Creek District Railway Company's Power House, mining dumps and tailings.' Title from a printed label on the print. The only record seen that puts a Short Line power house at Cameron; the building is not located.",
+  "notes": "The library: 'amusement park, pavilions, and buildings in trees including an outhouse, houses, smokestacks of Colorado Springs and Cripple Creek District Railway Company's Power House, mining dumps and tailings.' Title from a printed label on the print. The only record seen that puts a Short Line power house at Cameron; the building is not located. Looked at before use: buildings strung along the foot of a wooded hill with mine dumps on its skyline; at the left a many-sided pavilion with two tall stacks behind it; a square hipped-roof building at the right; an open flat in the foreground. No caption or mark on the copy. Which way it looks has not been worked out.",
   "place": "place:cameron",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "X-609",
   "url": "https://digital.denverlibrary.org/nodes/view/1016896",
   "date": "1900-1910",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet; look at it for printed captions or marks before it is shown.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's own download, fetched and looked at on 2026-11-24. The library's own download, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, X-609",
   "shows": [],
   "topics": [
    "panorama"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/cameron/dpl-x-609.jpg",
+  "thumb": "img/places/cameron/dpl-x-609-t.jpg",
+  "w": 2000,
+  "h": 1602
  },
  {
   "id": "photo:cameron:dpl-op-12729",
@@ -137,7 +157,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "'Eastbound freight train; 25 cars. Photographed: near Cameron, Colo., February 16, 1949.' Where 'near Cameron' was has not been worked out.",
+  "notes": "'Eastbound freight train; 25 cars. Photographed: near Cameron, Colo., February 16, 1949.' Where 'near Cameron' was has not been worked out. Looked at before use: engine 64 with a train of ore cars on an open, snow-patched hillside; no building in view.",
   "place": "place:cameron",
   "holder": "Denver Public Library, Western History Collection",
   "call_number": "OP-12729",
@@ -145,13 +165,17 @@
   "photographer": "Perry, Otto, 1894-1970",
   "date": "1949 February 16",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet; look at it for printed captions or marks before it is shown.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's own download, fetched and looked at on 2026-11-24. The library's own download, fetched and looked at on 2026-11-24.",
   "credit": "Denver Public Library, Western History Collection, OP-12729",
   "shows": [],
   "topics": [
    "later"
   ],
-  "kind": "photograph"
+  "kind": "photograph",
+  "image": "img/places/cameron/dpl-op-12729.jpg",
+  "thumb": "img/places/cameron/dpl-op-12729-t.jpg",
+  "w": 2000,
+  "h": 1151
  },
  {
   "id": "photo:cameron:ppld-001-5301",
@@ -163,7 +187,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-24",
-  "notes": "The library: 'Railroad tracks running under ornate footbridge with wire fence alongside ... Two warmly dressed women are seated on a rock in the mid-ground.' Its caption says the park lay on both sides of parallel Midland Terminal and Short Line tracks, joined by this bridge. PPLD's rights line is a rightsstatements.org 'copyright not evaluated' statement; the owner's report of permission covers PPLD.",
+  "notes": "The library: 'Railroad tracks running under ornate footbridge with wire fence alongside ... Two warmly dressed women are seated on a rock in the mid-ground.' Its caption says the park lay on both sides of parallel Midland Terminal and Short Line tracks, joined by this bridge. PPLD's rights line is a rightsstatements.org 'copyright not evaluated' statement; the owner's report of permission covers PPLD. Looked at before use: a single track runs under a timber footbridge of two arches with a tower at each end; at the left a wire-fenced enclosure with a pagoda-roofed shelter. Only one track shows in this view, though the library's caption speaks of parallel tracks. Reduced from the library's 4,200 px copy to 2,000 px. The library's own page says 'In Copyright - Educational Use' and asks that publication be requested; it is shown on the owner's report of permission.",
   "place": "place:cameron",
   "holder": "Pikes Peak Library District, Margaretta M. Boas Photograph Collection",
   "call_number": "001-5301",
@@ -171,8 +195,34 @@
   "photographer": "Martin, Alexander, 1841-1929",
   "date": "1900",
   "rights": "licensed",
-  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. No copy has been fetched yet; look at it for printed captions or marks before it is shown.",
+  "rights_note": "A library copy: may be shown with a credit line, by the permission the atlas's owner reported on 23 November 2026. The library's own download, fetched and looked at on 2026-11-24. The library's own download, fetched and looked at on 2026-11-24.",
   "credit": "Pikes Peak Library District, Margaretta M. Boas Photograph Collection, 001-5301",
+  "shows": [],
+  "topics": [
+   "other"
+  ],
+  "kind": "photograph",
+  "image": "img/places/cameron/ppld-001-5301.jpg",
+  "thumb": "img/places/cameron/ppld-001-5301-t.jpg",
+  "w": 2000,
+  "h": 1363
+ },
+ {
+  "id": "photo:cameron:ccdm-pinnacle-park",
+  "name": "Pinnacle Park (views credited to the Cripple Creek District Museum)",
+  "grade": "measured",
+  "basis": "Captions on a web article, read on 2026-11-24; the pictures themselves have not been looked at closely.",
+  "sources": [],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Jan MacKell Collins's article 'Cameron & Pinnacle Park, the Playground of Colorado's Cripple Creek District' (2014) shows several views of the park: one is captioned 'Courtesy Cripple Creek District Museum', others (wooden park buildings, a log entrance with railway tracks through it) carry no credit. No catalogue numbers are given. The museum has not been asked.",
+  "place": "place:cameron",
+  "holder": "Cripple Creek District Museum (as credited in the article)",
+  "date": "about 1900",
+  "url": "https://janmackellcollins.wordpress.com/2014/04/03/cameron-pinnacle-park-the-playground-of-colorados-cripple-creek-district/",
+  "rights": "link-only",
+  "rights_note": "Held by a museum whose terms are not known, or holder not established: linked, not shown.",
   "shows": [],
   "topics": [
    "other"

@@ -232,7 +232,8 @@
     "sources": [
      "source:lidar-3dep",
      "source:osm-railways",
-     "source:official-guide-timetables"
+     "source:official-guide-timetables",
+     "source:cripple-creek-times-1903"
     ],
     "status": "reviewed",
     "contributor": "project",
@@ -258,12 +259,13 @@
     "valid_to": 1920,
     "grade": "inferred",
     "error_ft": 300,
-    "basis": "The top of the loop, where the bench going west leaves the Midland Terminal's bank and where the OpenStreetMap trace of the Short Line crosses the Midland Terminal's. No switch, crossing or connecting track can be told apart on the ground, so this is a point within about 300 ft (judgement), not a located junction. Both railways' timetables of 26 September 1909 call the station Cameron Junction, and the Midland Terminal's shows two trains a day coming 'Via C. S. & C. C. D. Ry.' to Cameron Junction and going on over its own line, so by then trains passed from one railway to the other here. Whether the lines also crossed on the level, and how the Short Line's branch to Victor (5.13 miles from Cameron, Poor's 1902) left, is not known.",
+    "basis": "The top of the loop, where the bench going west leaves the Midland Terminal's bank and where the OpenStreetMap trace of the Short Line crosses the Midland Terminal's. No switch, crossing or connecting track can be told apart on the ground, so this is a point within about 300 ft (judgement), not a located junction. Both railways' timetables of 26 September 1909 call the station Cameron Junction, and the Midland Terminal's shows two trains a day coming 'Via C. S. & C. C. D. Ry.' to Cameron Junction and going on over its own line, so by then trains passed from one railway to the other here. Whether the lines also crossed on the level, and how the Short Line's branch to Victor (5.13 miles from Cameron, Poor's 1902) left, is not known. The Cripple Creek Times book of 1903 says of the Short Line that 'At Cameron the lines of the road diverge', one to the right over Hoosier Pass and the other 'to the left at Cameron' through Pinnacle Park to Independence and Victor. That fits a line going on west from the top of the loop and a branch turning south with the Midland Terminal, but it does not fix the switch.",
     "sources": [
      "source:lidar-3dep",
      "source:osm-railways",
      "source:official-guide-timetables",
-     "source:poors-moodys-manuals"
+     "source:poors-moodys-manuals",
+     "source:cripple-creek-times-1903"
     ],
     "status": "reviewed",
     "contributor": "project",
