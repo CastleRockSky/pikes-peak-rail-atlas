@@ -28,6 +28,110 @@
     "kind": "other",
     "placeholder": false
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.159406,
+      38.86165
+     ],
+     [
+      -105.159544,
+      38.861047
+     ],
+     [
+      -105.159729,
+      38.860453
+     ],
+     [
+      -105.159775,
+      38.860094
+     ],
+     [
+      -105.159729,
+      38.859788
+     ],
+     [
+      -105.159544,
+      38.859554
+     ],
+     [
+      -105.159152,
+      38.859374
+     ],
+     [
+      -105.158574,
+      38.859104
+     ],
+     [
+      -105.157812,
+      38.858798
+     ],
+     [
+      -105.157039,
+      38.858528
+     ],
+     [
+      -105.156461,
+      38.858322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:midland:grade-lidar",
+    "name": "Railway grade through Midland, as it lies on the ground",
+    "valid_from": 1893,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "A broad, even bench on the 1 m lidar: it comes down the east side of the valley from the north, bends at Midland and runs south-east along the hillside on cut and fill. It follows the OpenStreetMap trace of the Midland Terminal and the railway drawn on the 1901 map, so it is taken to be the railway grade. Centre line read by eye. The years are the railway's, from secondary sources.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:midland",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.160006,
+     38.859734
+    ]
+   },
+   "properties": {
+    "id": "structure:midland:bench-at-bend",
+    "name": "Level bench on the inside of the bend (possible station ground)",
+    "valid_from": 1893,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "On the 1 m lidar the grade widens at the bend into a level bench about 130 ft by 175 ft on its west side, the side toward the settlement, some 700 ft north-east of the mapped buildings. The bench is measured. That it was the station ground is a conjecture from its place and shape alone: no map, photograph or record seen so far shows a depot or siding here, and a modern drive now climbs to it, so later levelling cannot be ruled out.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:midland",
+    "kind": "earthwork",
+    "placeholder": false,
+    "dims": {
+     "about_ft": [
+      130,
+      175
+     ]
+    }
+   }
   }
  ]
 }

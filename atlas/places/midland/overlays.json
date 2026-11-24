@@ -1,35 +1,5 @@
 [
  {
-  "id": "overlay:midland:hillshade",
-  "name": "Shaded ground (USGS 3DEP)",
-  "grade": "measured",
-  "error_ft": 10,
-  "basis": "USGS 3DEP elevation service, shaded. The service does not report which survey it drew on.",
-  "sources": [
-   "source:lidar-3dep"
-  ],
-  "status": "reviewed",
-  "contributor": "project",
-  "updated": "2026-11-24",
-  "place": "place:midland",
-  "kind": "lidar-relief",
-  "date": "2026",
-  "image": "hillshade.png",
-  "bounds": [
-   [
-    38.852024184177374,
-    -105.16972622853213
-   ],
-   [
-    38.86462181582262,
-    -105.15357577146789
-   ]
-  ],
-  "fit": {
-   "method": "georeferenced at source"
-  }
- },
- {
   "id": "overlay:midland:usgs-1894-125000",
   "name": "USGS Pikes Peak, 1:125,000, 1894",
   "valid_from": 1894,
@@ -93,6 +63,68 @@
   "fit": {
    "method": "reprojection",
    "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:midland:hillshade",
+  "name": "Shaded ground (1 m lidar)",
+  "grade": "measured",
+  "error_ft": 5,
+  "basis": "Cut from the USGS 1 m lidar elevation tiles USGS_1M_13_x48y431_CO_CONMGaps_D24.tif.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:midland",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "hillshade.png",
+  "bounds": [
+   [
+    38.852025,
+    -105.169739
+   ],
+   [
+    38.864618,
+    -105.153575
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source",
+   "note": "UTM picture laid on its corner coordinates"
+  }
+ },
+ {
+  "id": "overlay:midland:relief",
+  "name": "Local relief (1 m lidar): banks, grades and foundations",
+  "grade": "measured",
+  "error_ft": 5,
+  "basis": "Cut from the USGS 1 m lidar elevation tiles USGS_1M_13_x48y431_CO_CONMGaps_D24.tif.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:midland",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "relief.png",
+  "bounds": [
+   [
+    38.852025,
+    -105.169739
+   ],
+   [
+    38.864618,
+    -105.153575
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source",
+   "note": "UTM picture laid on its corner coordinates"
   }
  }
 ]
