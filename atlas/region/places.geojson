@@ -361,18 +361,19 @@
    },
    "properties": {
     "id": "place:cm-tunnel-a",
-    "name": "Colorado Midland tunnel, about 680 ft (number not established)",
+    "name": "Colorado Midland Tunnel 4, with Tunnel 5 close by (as numbered on a supplied map)",
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99249992: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 99249992: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:owner-supplied-google-earth"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -399,13 +400,14 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89496969: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 89496969: a tunnel on the grade. Its length is the map trace's. The supplied Google Earth file marks no separate tunnel here; its 'Tunnel 3' point is 250 ft to the north. This may be part of Tunnel 3 or a mapping duplicate.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:owner-supplied-google-earth"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -427,18 +429,19 @@
    },
    "properties": {
     "id": "place:cm-tunnel-c",
-    "name": "Colorado Midland tunnel, about 330 ft (number not established)",
+    "name": "Colorado Midland Tunnel 3 (as numbered on a supplied map)",
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89570001: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 89570001: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:owner-supplied-google-earth"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -460,18 +463,19 @@
    },
    "properties": {
     "id": "place:cm-tunnel-d",
-    "name": "Colorado Midland tunnel, about 140 ft (number not established)",
+    "name": "Colorado Midland Tunnel 7 (as numbered on a supplied map)",
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:owner-supplied-google-earth"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -493,18 +497,19 @@
    },
    "properties": {
     "id": "place:cm-tunnel-e",
-    "name": "Colorado Midland tunnel, about 170 ft (number not established)",
+    "name": "Colorado Midland Tunnel 6 (as numbered on a supplied map)",
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89569998: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 89569998: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:owner-supplied-google-earth"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -531,13 +536,14 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89569990: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 89569990: a tunnel on the grade. Its length is the map trace's. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there.",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:owner-supplied-google-earth"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1106,19 +1112,20 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.917873,
-     38.858578
+     -104.915002,
+     38.855251
     ]
    },
    "properties": {
     "id": "place:manitou-springs",
-    "name": "Manitou Springs",
+    "name": "Manitou (depot site as marked on a supplied map)",
     "grade": "inferred",
-    "error_ft": 1500,
-    "basis": "An OpenStreetMap town of this name lies 700 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked. Named 'Manitou' in every Colorado Midland timetable read, 6.5 miles from Colorado Springs in that of October 1888.",
+    "error_ft": 300,
+    "basis": "An OpenStreetMap town of this name lies 700 ft from the colorado midland grade. Whether the railway had a stop here, and where, has not been checked. Named 'Manitou' in every Colorado Midland timetable read, 6.5 miles from Colorado Springs in that of October 1888. Named 'Manitou' in every Colorado Midland timetable read, 6.5 miles from Colorado Springs in that of October 1888. The pin is now at the point a Google Earth file supplied by the owner marks as 'Manitou Depot', which lies 16 ft from the checked route; it was at the modern town centre, a quarter of a mile away. Who marked the depot, and whether a building stands there, is not recorded.",
     "sources": [
      "source:osm-railways",
-     "source:official-guide-timetables"
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1131,6 +1138,68 @@
      }
     ],
     "summary": "A settlement beside the railway. Entered as a pin from the map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.923413,
+     38.857512
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-1",
+    "name": "Colorado Midland Tunnel 1 (as numbered on a supplied map)",
+    "grade": "inferred",
+    "error_ft": 150,
+    "basis": "Marked 'Tunnel 1' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded, and it has not been checked on the lidar or the ground.",
+    "sources": [
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland above Manitou, pinned from a supplied map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.926251,
+     38.857131
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-2",
+    "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
+    "grade": "inferred",
+    "error_ft": 150,
+    "basis": "Marked 'Tunnel 2' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded, and it has not been checked on the lidar or the ground.",
+    "sources": [
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland above Manitou, pinned from a supplied map; nothing here has been worked up yet."
    }
   },
   {

@@ -101,5 +101,12 @@
   "title": "Scans of photographs, postcards, engravings and maps supplied by the atlas's owner (the 'Trains' archive), catalogued in research/supplied/photo-catalogue.json",
   "holder": "Atlas owner's collection",
   "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:owner-supplied-google-earth",
+  "kind": "map file",
+  "title": "Colorado_Midland_ROW_Beinecke_DandM_Version.kmz: traced lines of the Colorado Midland (filed under 'res_msrailroads.com'), seven numbered tunnel points in Ute Pass and a Manitou depot point; 112 right-of-way map sheets from the Beinecke Library laid on the ground, all west of Florissant",
+  "holder": "Supplied by the atlas's owner; who made the tracings and the numbered points is not recorded in the file",
+  "accessed": "2026-11-24"
  }
 ]
