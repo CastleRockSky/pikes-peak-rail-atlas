@@ -3428,7 +3428,7 @@
     },
     {
      "place": "place:cscc-tunnel-lidar-6",
-     "name": "Possible Short Line tunnel, sixth from Colorado Springs (No. 6 if the sixth is a tunnel and none is missed)",
+     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
      "how": "probable",
      "note": "The library's description says Tunnel 6 is hidden by smoke at the left."
     }
@@ -3514,7 +3514,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-lidar-6",
-     "name": "Possible Short Line tunnel, sixth from Colorado Springs (No. 6 if the sixth is a tunnel and none is missed)",
+     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
      "how": "probable",
      "note": "Captioned 'Colo. Springs and Tunnel No. 6'. The sixth tunnel found on the lidar."
     }
@@ -3605,6 +3605,2078 @@
    "form": "photograph",
    "library": true,
    "source_file": "research/library/tunnels/dpl-whj-751.jpg"
+  }
+ },
+ {
+  "id": "photo:region:field-img-6368",
+  "name": "Inside the third Short Line tunnel, looking through",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78648, -104.90687 and direction 319 degrees are the phone's own (stated error 171 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "An unlined bore in granite, the walls painted with graffiti, loose rock on the floor and daylight at the far end.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6368.jpg",
+  "thumb": "img/collection/t/field-img-6368.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cscc-tunnel-e"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6368.JPEG",
+   "position": [
+    -104.906875,
+    38.786483
+   ],
+   "heading": 318.9,
+   "position_error_ft": 171,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-e",
+     "name": "Short Line tunnel, third from Colorado Springs (No. 3 by that order)",
+     "how": "position",
+     "note": "Taken about 45 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6369",
+  "name": "The gate in the third Short Line tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78649, -104.90688 and direction 142 degrees are the phone's own (stated error 181 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "From inside the bore looking out through a steel bar gate that closes the mouth; a wooded valley beyond.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6369.jpg",
+  "thumb": "img/collection/t/field-img-6369.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cscc-tunnel-e"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6369.JPEG",
+   "position": [
+    -104.906883,
+    38.786492
+   ],
+   "heading": 142.1,
+   "position_error_ft": 181,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-e",
+     "name": "Short Line tunnel, third from Colorado Springs (No. 3 by that order)",
+     "how": "position",
+     "note": "Taken about 45 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-1281",
+  "name": "The shut portal of the sixth Short Line tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.74179, -104.90193 and direction 113 degrees are the phone's own (stated error 536 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A low hole under broken granite slabs, choked with fallen rock almost to its roof.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-06-13",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1281.jpg",
+  "thumb": "img/collection/t/field-img-1281.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cscc-tunnel-lidar-6"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1281.JPEG",
+   "position": [
+    -104.901925,
+    38.741794
+   ],
+   "heading": 113.1,
+   "position_error_ft": 536,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-lidar-6",
+     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
+     "how": "position",
+     "note": "Taken about 25 ft from the portal found on the lidar."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-1282",
+  "name": "Looking into the shut portal of the sixth Short Line tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.74169, -104.90188 and direction 145 degrees are the phone's own (stated error 59 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "The same hole from closer: rubble slopes down into a dark space under the rock.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-06-13",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1282.jpg",
+  "thumb": "img/collection/t/field-img-1282.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cscc-tunnel-lidar-6"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1282.JPEG",
+   "position": [
+    -104.901878,
+    38.741689
+   ],
+   "heading": 144.9,
+   "position_error_ft": 59,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-lidar-6",
+     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
+     "how": "position",
+     "note": "Taken about 25 ft from the portal found on the lidar."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-9231",
+  "name": "A portal of the seventh Short Line tunnel in snow",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.73677, -104.91030 and direction 146 degrees are the phone's own (stated error 123 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "An open mouth in a granite face with graffiti on the rock; a person stands in it, which gives its size. Timbers lean inside.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-9231.jpg",
+  "thumb": "img/collection/t/field-img-9231.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cscc-tunnel-f"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_9231.JPEG",
+   "position": [
+    -104.9103,
+    38.736769
+   ],
+   "heading": 145.6,
+   "position_error_ft": 123,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-f",
+     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "how": "position",
+     "note": "Taken about 110 ft from the portal found on the lidar."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-9233",
+  "name": "A hole into the seventh Short Line tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.73631, -104.91007 and direction 16 degrees are the phone's own (stated error 115 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A low opening at the foot of a granite face beside a snow-covered slope of fallen rock.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-9233.jpg",
+  "thumb": "img/collection/t/field-img-9233.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cscc-tunnel-f"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_9233.JPEG",
+   "position": [
+    -104.910072,
+    38.736308
+   ],
+   "heading": 15.7,
+   "position_error_ft": 115,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-f",
+     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "how": "position",
+     "note": "Taken about 200 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6370",
+  "name": "Inside a fallen Short Line tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. The file carries no position.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A rock-floored chamber heaped with fallen blocks; a person stands at a small opening where daylight comes in.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6370.jpg",
+  "thumb": "img/collection/t/field-img-6370.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cscc-tunnel-f"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6370.JPEG",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-f",
+     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "how": "position",
+     "note": "No position in the file. Placed here only by its time, between two pictures taken at this tunnel three minutes apart."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-1279",
+  "name": "Red rock beside the Short Line near the seventh tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.73536, -104.91033 and direction 16 degrees are the phone's own (stated error 172 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A steep face of red, slabby rock with pines on top.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-06-13",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1279.jpg",
+  "thumb": "img/collection/t/field-img-1279.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cscc-tunnel-f"
+  ],
+  "topics": [
+   "Short Line",
+   "cutting",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1279.JPEG",
+   "position": [
+    -104.910325,
+    38.735358
+   ],
+   "heading": 16.4,
+   "position_error_ft": 172,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-f",
+     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "how": "position",
+     "note": "Taken on the route about 500 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6374",
+  "name": "Inside the eighth Short Line tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.73967, -104.90446 and direction 115 degrees are the phone's own (stated error 168 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "By torchlight: timber sets still standing along one wall, the floor deep in fallen rock, a person further in.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6374.jpg",
+  "thumb": "img/collection/t/field-img-6374.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cscc-tunnel-c"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6374.JPEG",
+   "position": [
+    -104.904464,
+    38.739675
+   ],
+   "heading": 115.2,
+   "position_error_ft": 168,
+   "places": [
+    {
+     "place": "place:cscc-tunnel-c",
+     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "how": "position",
+     "note": "Taken about 15 ft from the portal found on the lidar."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7148",
+  "name": "Looking out of a Colorado Midland tunnel in Ute Pass",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.87488, -104.93021 and direction 319 degrees are the phone's own (stated error 113 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "From inside an unlined bore, a shaft of light and dust at the mouth; loose rock on the old roadbed, green trees outside.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-05-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7148.jpg",
+  "thumb": "img/collection/t/field-img-7148.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cm-tunnel-d"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7148.JPEG",
+   "position": [
+    -104.930214,
+    38.874881
+   ],
+   "heading": 318.9,
+   "position_error_ft": 113,
+   "places": [
+    {
+     "place": "place:cm-tunnel-d",
+     "name": "Colorado Midland Tunnel 7 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 45 ft from the portal found on the lidar."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7149",
+  "name": "The mouth of a Colorado Midland tunnel in Ute Pass, from inside",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.87488, -104.93021 and direction 316 degrees are the phone's own (stated error 113 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "The same mouth: an arched opening in dark rock framing trees and a hillside.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-05-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7149.jpg",
+  "thumb": "img/collection/t/field-img-7149.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cm-tunnel-d"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7149.JPEG",
+   "position": [
+    -104.930214,
+    38.874881
+   ],
+   "heading": 315.5,
+   "position_error_ft": 113,
+   "places": [
+    {
+     "place": "place:cm-tunnel-d",
+     "name": "Colorado Midland Tunnel 7 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 45 ft from the portal found on the lidar."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7935",
+  "name": "Rock above a Colorado Midland tunnel near Iron Springs",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.85714, -104.92616 and direction 9 degrees are the phone's own (stated error 87 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Looking up a face of red and orange rock, stained black, above the tunnel mouth.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-08-09",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7935.jpg",
+  "thumb": "img/collection/t/field-img-7935.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cm-tunnel-2"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7935.JPEG",
+   "position": [
+    -104.926156,
+    38.857139
+   ],
+   "heading": 8.9,
+   "position_error_ft": 87,
+   "places": [
+    {
+     "place": "place:cm-tunnel-2",
+     "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 30 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7936",
+  "name": "A Colorado Midland tunnel near Iron Springs, looking through",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.85706, -104.92637 and direction 25 degrees are the phone's own (stated error 47 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A short bore in red rock with daylight at the far end and a row of timber posts along one wall.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-08-09",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7936.jpg",
+  "thumb": "img/collection/t/field-img-7936.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cm-tunnel-2"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7936.JPEG",
+   "position": [
+    -104.926369,
+    38.857064
+   ],
+   "heading": 24.6,
+   "position_error_ft": 47,
+   "places": [
+    {
+     "place": "place:cm-tunnel-2",
+     "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 40 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7937",
+  "name": "A Colorado Midland tunnel near Iron Springs, looking through (second view)",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.85706, -104.92638 and direction 25 degrees are the phone's own (stated error 42 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "As the last: the bore, the timber posts along the wall and daylight beyond.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-08-09",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7937.jpg",
+  "thumb": "img/collection/t/field-img-7937.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:cm-tunnel-2"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7937.JPEG",
+   "position": [
+    -104.926383,
+    38.857056
+   ],
+   "heading": 24.9,
+   "position_error_ft": 42,
+   "places": [
+    {
+     "place": "place:cm-tunnel-2",
+     "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 45 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7940",
+  "name": "The portal of a Colorado Midland tunnel near Iron Springs",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.85693, -104.92609 and direction 243 degrees are the phone's own (stated error 244 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A wide low mouth under an overhang of red rock; people inside give its size, and timber posts stand along the wall.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-08-09",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7940.jpg",
+  "thumb": "img/collection/t/field-img-7940.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cm-tunnel-2"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7940.JPEG",
+   "position": [
+    -104.926086,
+    38.856933
+   ],
+   "heading": 242.6,
+   "position_error_ft": 244,
+   "places": [
+    {
+     "place": "place:cm-tunnel-2",
+     "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 85 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7946",
+  "name": "The rock spur a Colorado Midland tunnel passes through, near Iron Springs",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.85749, -104.92645 and direction 204 degrees are the phone's own (stated error 87 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A dark rock spur rising out of scrub oak, with a small opening at its foot.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-08-09",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7946.jpg",
+  "thumb": "img/collection/t/field-img-7946.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cm-tunnel-2"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7946.JPEG",
+   "position": [
+    -104.926453,
+    38.857492
+   ],
+   "heading": 203.6,
+   "position_error_ft": 87,
+   "places": [
+    {
+     "place": "place:cm-tunnel-2",
+     "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 140 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7952",
+  "name": "Up the canyon from the Colorado Midland grade above Manitou",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.85754, -104.92357 and direction 243 degrees are the phone's own (stated error 30 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A brushy canyon under heavy cloud, a bank of bright red earth cut into the hillside at the left and a white building far up the valley.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-08-09",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7952.jpg",
+  "thumb": "img/collection/t/field-img-7952.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:cm-tunnel-1"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "view",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7952.JPEG",
+   "position": [
+    -104.923575,
+    38.857536
+   ],
+   "heading": 243.2,
+   "position_error_ft": 30,
+   "places": [
+    {
+     "place": "place:cm-tunnel-1",
+     "name": "Colorado Midland Tunnel 1 (as numbered on a supplied map)",
+     "how": "position",
+     "note": "Taken about 45 ft from the pin, looking west-south-west."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-7954",
+  "name": "East toward the plains from above Iron Springs",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.85737, -104.92933 and direction 105 degrees are the phone's own (stated error 113 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Wooded foothills with a red scar on the far slope, a power line on the ridge and the plains in the distance.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-08-09",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-7954.jpg",
+  "thumb": "img/collection/t/field-img-7954.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:manitou-iron-springs"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "view",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_7954.JPEG",
+   "position": [
+    -104.929328,
+    38.857369
+   ],
+   "heading": 105.0,
+   "position_error_ft": 113,
+   "places": [
+    {
+     "place": "place:manitou-iron-springs",
+     "name": "Manitou Iron Springs",
+     "how": "position",
+     "note": "Taken about 570 ft from the pin, looking east."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-1568",
+  "name": "A concrete portal in a red cut at Waters",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.83459, -105.13744 and direction 78 degrees are the phone's own (stated error 34 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A concrete-framed tunnel mouth at the head of a deep cut in red gravel, forest above.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1568.jpg",
+  "thumb": "img/collection/t/field-img-1568.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:waters"
+  ],
+  "topics": [
+   "Midland Terminal",
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Midland Terminal",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1568.JPEG",
+   "position": [
+    -105.137436,
+    38.834592
+   ],
+   "heading": 77.8,
+   "position_error_ft": 34,
+   "places": [
+    {
+     "place": "place:waters",
+     "name": "Waters",
+     "how": "position",
+     "note": "Taken about 185 ft from the pin and 90 ft from the Midland Terminal's route. Not yet identified from a source."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-1569",
+  "name": "Down the cut at Waters",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.83472, -105.13724 and direction 204 degrees are the phone's own (stated error 41 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Looking out along the red cut to a car park and wooded hills.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1569.jpg",
+  "thumb": "img/collection/t/field-img-1569.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:waters"
+  ],
+  "topics": [
+   "Midland Terminal",
+   "cutting",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Midland Terminal",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1569.JPEG",
+   "position": [
+    -105.137244,
+    38.834719
+   ],
+   "heading": 204.1,
+   "position_error_ft": 41,
+   "places": [
+    {
+     "place": "place:waters",
+     "name": "Waters",
+     "how": "position",
+     "note": "Taken about 245 ft from the pin."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-0219",
+  "name": "A derelict wooden passenger car at Victor",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.71213, -105.13959 and direction 330 degrees are the phone's own (stated error 47 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "The weathered side of a wooden railway car standing in dry grass, its windows empty and its boards grey.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-02-22",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-0219.jpg",
+  "thumb": "img/collection/t/field-img-0219.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:victor"
+  ],
+  "topics": [
+   "Midland Terminal",
+   "rolling stock",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Midland Terminal",
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_0219.JPEG",
+   "position": [
+    -105.139586,
+    38.712125
+   ],
+   "heading": 330.5,
+   "position_error_ft": 47,
+   "places": [
+    {
+     "place": "place:victor",
+     "name": "Victor",
+     "how": "position",
+     "note": "Taken about 790 ft from the pin and 130 ft from the Midland Terminal's line."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-1572",
+  "name": "A shed and ruins on the hill south of Victor",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.70351, -105.14190 and direction 144 degrees are the phone's own (stated error 25 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A stone and brick building with a metal roof on open grassland, a wooded hill behind.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1572.jpg",
+  "thumb": "img/collection/t/field-img-1572.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:victor"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1572.JPEG",
+   "position": [
+    -105.1419,
+    38.703511
+   ],
+   "heading": 144.5,
+   "position_error_ft": 25,
+   "places": [
+    {
+     "place": "place:victor",
+     "name": "Victor",
+     "how": "position",
+     "note": "Taken about 2,400 ft south of the pin; the building is not identified."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-1574",
+  "name": "A ruined brick building south of Victor",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.70354, -105.14170 and direction 216 degrees are the phone's own (stated error 28 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Roofless brick and stone walls beside a metal-roofed shed, on open grass below a wooded hill.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1574.jpg",
+  "thumb": "img/collection/t/field-img-1574.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:victor"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1574.JPEG",
+   "position": [
+    -105.1417,
+    38.703542
+   ],
+   "heading": 215.7,
+   "position_error_ft": 28,
+   "places": [
+    {
+     "place": "place:victor",
+     "name": "Victor",
+     "how": "position",
+     "note": "Taken about 2,400 ft south of the pin; the building is not identified."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-2381",
+  "name": "The Platt Rogers Tunnel: the lettered portal",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.73349, -104.99288 and direction 153 degrees are the phone's own (stated error 15 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A concrete headwall lettered 'PLATT ROGERS TUNNEL 6100 FEET LONG 1952 BROADMOOR HOTEL WATER & POWER CO.' over a small opening with steel doors, dug out of the bank.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-08-30",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-2381.jpg",
+  "thumb": "img/collection/t/field-img-2381.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [],
+  "topics": [
+   "water works",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_2381.JPEG",
+   "position": [
+    -104.992881,
+    38.733494
+   ],
+   "heading": 153.2,
+   "position_error_ft": 15
+  }
+ },
+ {
+  "id": "photo:region:field-img-2382",
+  "name": "Inside the Platt Rogers Tunnel",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.73371, -104.99303 and direction 97 degrees are the phone's own (stated error 1312 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A square concrete-lined bore running straight into the dark, earth on the floor.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-08-30",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-2382.jpg",
+  "thumb": "img/collection/t/field-img-2382.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [],
+  "topics": [
+   "water works",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_2382.JPEG",
+   "position": [
+    -104.993033,
+    38.733708
+   ],
+   "heading": 96.6,
+   "position_error_ft": 1312
+  }
+ },
+ {
+  "id": "photo:region:field-img-2383",
+  "name": "Inside the Platt Rogers Tunnel (second view)",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.73364, -104.99325 and direction 107 degrees are the phone's own (stated error 160 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "The concrete-lined bore, wider here, with water and gravel on the floor.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-08-30",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-2383.jpg",
+  "thumb": "img/collection/t/field-img-2383.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [],
+  "topics": [
+   "water works",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_2383.JPEG",
+   "position": [
+    -104.993247,
+    38.733639
+   ],
+   "heading": 107.3,
+   "position_error_ft": 160
+  }
+ },
+ {
+  "id": "photo:region:field-img-2378",
+  "name": "A cut leading to a concrete headwall near Saderlind",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.72821, -104.97268 and direction 268 degrees are the phone's own (stated error 7 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A broad cut in red earth through pine forest, a concrete structure at its head.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-08-30",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-2378.jpg",
+  "thumb": "img/collection/t/field-img-2378.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [],
+  "topics": [
+   "water works",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_2378.JPEG",
+   "position": [
+    -104.972678,
+    38.728206
+   ],
+   "heading": 268.5,
+   "position_error_ft": 7
+  }
+ },
+ {
+  "id": "photo:region:field-img-2380",
+  "name": "The concrete headwall near Saderlind",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.72825, -104.97287 and direction 279 degrees are the phone's own (stated error 7 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A low concrete headwall set in a red bank under pines. It stands 6,075 ft from the lettered portal of the Platt Rogers Tunnel, which fits the length lettered there; taken to be the tunnel's other end (inferred).",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-08-30",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-2380.jpg",
+  "thumb": "img/collection/t/field-img-2380.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [],
+  "topics": [
+   "water works",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_2380.JPEG",
+   "position": [
+    -104.972869,
+    38.728247
+   ],
+   "heading": 279.2,
+   "position_error_ft": 7
+  }
+ },
+ {
+  "id": "photo:region:field-img-1585",
+  "name": "A wood-stave pipe in the trees",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.68565, -105.04666 and direction 306 degrees are the phone's own (stated error 16 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A length of pipe built of wooden staves bound with iron bands, lying half-collapsed among young firs.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1585.jpg",
+  "thumb": "img/collection/t/field-img-1585.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [],
+  "topics": [
+   "water works",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1585.JPEG",
+   "position": [
+    -105.046661,
+    38.685647
+   ],
+   "heading": 306.1,
+   "position_error_ft": 16
+  }
+ },
+ {
+  "id": "photo:region:field-img-1588",
+  "name": "The end of a wood-stave pipe",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.68560, -105.04653 and direction 104 degrees are the phone's own (stated error 15 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "The iron bands still standing in a hoop where the staves have fallen away; loose staves on the ground.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1588.jpg",
+  "thumb": "img/collection/t/field-img-1588.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [],
+  "topics": [
+   "water works",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1588.JPEG",
+   "position": [
+    -105.046531,
+    38.6856
+   ],
+   "heading": 104.0,
+   "position_error_ft": 15
+  }
+ },
+ {
+  "id": "photo:region:field-img-1589",
+  "name": "The valley below the wood-stave pipe",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.68485, -105.04681 and direction 164 degrees are the phone's own (stated error 22 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A grassy valley floor with a stream, wooded hills on both sides.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1589.jpg",
+  "thumb": "img/collection/t/field-img-1589.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [],
+  "topics": [
+   "view",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1589.JPEG",
+   "position": [
+    -105.046806,
+    38.68485
+   ],
+   "heading": 163.7,
+   "position_error_ft": 22
+  }
+ },
+ {
+  "id": "photo:region:field-img-1591",
+  "name": "Along the hillside by the wood-stave pipe",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.68467, -105.04703 and direction 202 degrees are the phone's own (stated error 81 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A grassy slope above a green valley, a line of broken rock running along it.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2026-07-03",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-1591.jpg",
+  "thumb": "img/collection/t/field-img-1591.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [],
+  "topics": [
+   "view",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_1591.JPEG",
+   "position": [
+    -105.047028,
+    38.684672
+   ],
+   "heading": 201.7,
+   "position_error_ft": 81
+  }
+ },
+ {
+  "id": "photo:region:field-img-6378",
+  "name": "Chimney ruins at Gillett",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78600, -105.12553 and direction 358 degrees are the phone's own (stated error 12 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A stone chimney stack with brick facing standing on an open flat with patches of snow; a second, lower stack behind.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6378.jpg",
+  "thumb": "img/collection/t/field-img-6378.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6378.JPEG",
+   "position": [
+    -105.125528,
+    38.786003
+   ],
+   "heading": 358.0,
+   "position_error_ft": 12,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6379",
+  "name": "Chimney ruins at Gillett (second view)",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78605, -105.12547 and direction 328 degrees are the phone's own (stated error 16 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Two stacks and a spread of fallen stone.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6379.jpg",
+  "thumb": "img/collection/t/field-img-6379.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6379.JPEG",
+   "position": [
+    -105.125472,
+    38.786053
+   ],
+   "heading": 328.5,
+   "position_error_ft": 16,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6381",
+  "name": "Fallen stone and two stacks at Gillett",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78616, -105.12553 and direction 164 degrees are the phone's own (stated error 16 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A heap of fallen stone in the snow, the two stacks beyond and the valley behind.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6381.jpg",
+  "thumb": "img/collection/t/field-img-6381.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6381.JPEG",
+   "position": [
+    -105.125533,
+    38.786158
+   ],
+   "heading": 164.0,
+   "position_error_ft": 16,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6382",
+  "name": "Foundation stones at Gillett",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78617, -105.12556 and direction 96 degrees are the phone's own (stated error 12 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A line of stones in snow and brush, a road and wooded hills beyond.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6382.jpg",
+  "thumb": "img/collection/t/field-img-6382.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6382.JPEG",
+   "position": [
+    -105.125564,
+    38.786167
+   ],
+   "heading": 96.2,
+   "position_error_ft": 12,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6383",
+  "name": "The brick-faced stack at Gillett",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78611, -105.12561 and direction 123 degrees are the phone's own (stated error 16 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A stack of rough stone faced with red brick, fallen stone at its foot.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6383.jpg",
+  "thumb": "img/collection/t/field-img-6383.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6383.JPEG",
+   "position": [
+    -105.125611,
+    38.786106
+   ],
+   "heading": 123.4,
+   "position_error_ft": 16,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-6384",
+  "name": "The brick-faced stack at Gillett, close",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78609, -105.12560 and direction 95 degrees are the phone's own (stated error 16 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "The stack square-on: rubble stone inside a skin of red brick.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-6384.jpg",
+  "thumb": "img/collection/t/field-img-6384.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_6384.JPEG",
+   "position": [
+    -105.125603,
+    38.786086
+   ],
+   "heading": 95.4,
+   "position_error_ft": 16,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-9242",
+  "name": "Stone walls at Gillett toward the mountains",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78604, -105.12558 and direction 18 degrees are the phone's own (stated error 9 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A corner of mortared stone wall at the left, a stack and fallen stone beyond, sunlit mountains behind.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-9242.jpg",
+  "thumb": "img/collection/t/field-img-9242.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_9242.JPEG",
+   "position": [
+    -105.125581,
+    38.786036
+   ],
+   "heading": 18.1,
+   "position_error_ft": 9,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-9245",
+  "name": "A stone stack at Gillett against the sky",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78609, -105.12556 and direction 243 degrees are the phone's own (stated error 9 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A stack of flat stones, bricks scattered at its foot.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-9245.jpg",
+  "thumb": "img/collection/t/field-img-9245.jpg",
+  "w": 1536,
+  "h": 2048,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_9245.JPEG",
+   "position": [
+    -105.125558,
+    38.786092
+   ],
+   "heading": 242.8,
+   "position_error_ft": 9,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-9248",
+  "name": "The ruins at Gillett across the flat",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. Position 38.78606, -105.12561 and direction 33 degrees are the phone's own (stated error 12 ft); the date is the camera file's.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "The stacks small on a snowy flat under a deep blue sky.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "2025-11-29",
+  "date_basis": "the camera file's own date",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-9248.jpg",
+  "thumb": "img/collection/t/field-img-9248.jpg",
+  "w": 2048,
+  "h": 1536,
+  "shows": [
+   "place:gillett"
+  ],
+  "topics": [
+   "ruin",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_9248.JPEG",
+   "position": [
+    -105.125611,
+    38.786056
+   ],
+   "heading": 33.2,
+   "position_error_ft": 12,
+   "places": [
+    {
+     "place": "place:gillett",
+     "name": "Gillett",
+     "how": "position",
+     "note": "Taken about 25 ft from the recorded site of the Catholic church."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:field-img-4517",
+  "name": "A tunnel on a dirt road, driven through granite",
+  "grade": "measured",
+  "basis": "Described from the photograph itself. The file carries no position.",
+  "sources": [
+   "source:owner-field-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "A single-lane arched bore in a granite face with a dirt road through it and daylight at the far end.",
+  "holder": "The atlas's owner",
+  "photographer": "The atlas's owner",
+  "date": "not recorded",
+  "date_basis": "none in the file",
+  "rights": "licensed",
+  "rights_note": "The owner's own photograph, shown at the owner's direction (25 November 2026).",
+  "credit": "Photograph by the atlas's owner",
+  "image": "img/collection/field-img-4517.jpg",
+  "thumb": "img/collection/t/field-img-4517.jpg",
+  "w": 1200,
+  "h": 1600,
+  "shows": [],
+  "topics": [
+   "tunnel",
+   "field photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "field photograph",
+   "field": true,
+   "source_file": "New Photos/icloud/IMG_4517.JPG"
   }
  }
 ]

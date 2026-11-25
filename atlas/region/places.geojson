@@ -568,7 +568,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -602,7 +602,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -637,7 +637,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -664,15 +664,16 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. On the 1 m lidar the route passes under cover here for about 148 ft (up to 36 ft of ground above the grade line), from 38.87530, -104.93023 to 38.87496, -104.93009: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. On the 1 m lidar the route passes under cover here for about 148 ft (up to 36 ft of ground above the grade line), from 38.87530, -104.93023 to 38.87496, -104.93009: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 May 2025, taken about 45 ft from the portal found on the lidar, look out of an unlined bore through an open mouth.",
     "sources": [
      "source:osm-railways",
      "source:owner-supplied-google-earth",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:owner-field-photographs"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -707,7 +708,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -742,7 +743,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -776,7 +777,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -810,7 +811,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -837,14 +838,15 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photograph of 29 November 2025, taken about 15 ft from the western portal found on the lidar, shows the inside by torchlight: timber sets standing along one wall and the floor deep in fallen rock. McClure's 'Tunnel No. 8' also shows timbering inside the bore, which agrees with the number without proving it.",
     "sources": [
      "source:osm-railways",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:owner-field-photographs"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -878,7 +880,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -905,14 +907,15 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken about 45 ft from this pin, show an unlined bore in granite, open from end to end, with a steel bar gate across one mouth.",
     "sources": [
      "source:osm-railways",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:owner-field-photographs"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -939,14 +942,15 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken 110 to 200 ft from this pin, show one open mouth in a granite face and a low hole at the foot of another; a third picture, placed here only by its time, shows the inside heaped with fallen rock.",
     "sources": [
      "source:osm-railways",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:owner-field-photographs"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -979,7 +983,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1013,7 +1017,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1047,7 +1051,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1079,7 +1083,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "town",
     "on_lines": [
      {
@@ -1111,7 +1115,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "other",
     "on_lines": [
      {
@@ -1143,7 +1147,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "other",
     "on_lines": [
      {
@@ -1175,7 +1179,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "town",
     "on_lines": [
      {
@@ -1207,7 +1211,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "other",
     "on_lines": [
      {
@@ -1239,7 +1243,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "stop",
     "on_lines": [
      {
@@ -1271,7 +1275,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "stop",
     "on_lines": [
      {
@@ -1303,7 +1307,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "stop",
     "on_lines": [
      {
@@ -1336,7 +1340,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "town",
     "on_lines": [
      {
@@ -1368,7 +1372,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1393,13 +1397,14 @@
     "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
     "grade": "inferred",
     "error_ft": 150,
-    "basis": "Marked 'Tunnel 2' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded, and it has not been checked on the lidar or the ground.",
+    "basis": "Marked 'Tunnel 2' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded. On the ground: the owner's photographs of 9 August 2025, taken 30 to 140 ft from this pin, show a short bore through a spur of red rock, open from end to end, with timber posts along one wall. The search of the lidar did not find a tunnel here; the photographs show there is one. Its number is still the supplied map's.",
     "sources": [
-     "source:owner-supplied-google-earth"
+     "source:owner-supplied-google-earth",
+     "source:owner-field-photographs"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1407,7 +1412,7 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland above Manitou, pinned from a supplied map; nothing here has been worked up yet."
+    "summary": "A tunnel on the Colorado Midland near Iron Springs, pinned from a supplied map and seen on the ground: a short open bore in red rock."
    }
   },
   {
@@ -1424,13 +1429,14 @@
     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "Not on any map held. Found on the lidar only: Counted along the line from Colorado Springs this is the sixth tunnel, at about 15.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 197 ft (up to 121 ft of ground above the grade line), from 38.74169, -104.90197 to 38.74128, -104.90153: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Not checked on the ground.",
+    "basis": "Not on any map held. Found on the lidar only: Counted along the line from Colorado Springs this is the sixth tunnel, at about 15.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. But his 'Tunnels 8 and 9' shows the two close together and he calls No. 9 the last of nine, so the ninth is near the eighth and is not yet found; numbers after the fourth are probable, not settled. On the 1 m lidar the route passes under cover here for about 197 ft (up to 121 ft of ground above the grade line), from 38.74169, -104.90197 to 38.74128, -104.90153: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 13 June 2026, taken about 25 ft from the north-west portal found on the lidar, show a low hole under broken granite, choked with fallen rock: a tunnel is here and its mouth is shut, as the library's note says.",
     "sources": [
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:owner-field-photographs"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1438,7 +1444,7 @@
       "milepost": 15.8
      }
     ],
-    "summary": "A possible tunnel on the Short Line, found on the lidar; not worked up or confirmed.",
+    "summary": "A tunnel on the Short Line, found on the lidar and seen on the ground with its mouth choked shut; sixth from Colorado Springs.",
     "local": {
      "from": "find_tunnels"
     }

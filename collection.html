@@ -83,7 +83,7 @@ fetch('atlas/region/photos.json', { cache: 'no-store' }).then(r => r.ok ? r.json
   document.getElementById('close').onclick = shut; document.getElementById('prev').onclick = () => open(at - 1); document.getElementById('next').onclick = () => open(at + 1);
   document.addEventListener('keydown', e => { if (!document.getElementById('view').classList.contains('on')) return; if (e.key === 'Escape') shut(); if (e.key === 'ArrowLeft') open(at - 1); if (e.key === 'ArrowRight') open(at + 1); });
   document.getElementById('q').oninput = draw;
-  document.getElementById('rights').textContent = 'The pictures here are from the atlas owner\'s collection of scans and from public collections named with each. Where an item is in the public domain by age it says so.';
+  document.getElementById('rights').textContent = 'The pictures here are from the atlas owner\'s collection of scans, the owner\'s own photographs taken on the ground, and public collections named with each. Where an item is in the public domain by age it says so.';
   draw();
 });
 </script>

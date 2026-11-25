@@ -172,5 +172,13 @@
   "holder": "Denver Public Library, Western History Collection",
   "url": "https://digital.denverlibrary.org/",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:owner-field-photographs",
+  "kind": "field photographs",
+  "title": "Photographs taken on the ground by the atlas's owner, 2025-2026, with the phone's position, direction and date; read by atlas/tools/read_field_photos.py, described in research/30-tunnels.md",
+  "holder": "The atlas's owner",
+  "date": "2025-2026",
+  "accessed": "2026-11-25"
  }
 ]
