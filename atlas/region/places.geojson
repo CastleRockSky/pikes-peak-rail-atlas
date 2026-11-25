@@ -381,6 +381,62 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.16779,
+     38.90065
+    ]
+   },
+   "properties": {
+    "id": "place:murphy",
+    "name": "Murphy",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "The point is where the printed mileage falls: 30.4 miles from Colorado Springs in the Midland Terminal's timetables of 1920 to 1945, that is 3.5 miles beyond Divide (26.9), measured along the atlas's checked route (as corrected by once_route_mt_murphy.py) stretched by 0.7 per cent to fit Divide and the Gillett depot (route mile 3.52). It has not been moved from that: no map held prints the name, and nothing on the ground says where a station stood. The ground does agree with it: the point falls within the one place along the bench between Divide and the summit where the formation widens (to 13 to 20 m, for about 330 ft: its own record), which would be the station ground if the widening was for the stop; that is a conjecture, so the error is not reduced. It lies on the old grade, which here is a side-hill bench seen on the 1 m lidar and named 'OLD RAILROAD GRADE' on the 1954 USGS sheet, so it is good across the track to about 20 ft; along the track it is good to about a quarter of a mile (0.1 mile of timetable rounding and 0.1 to 0.2 mile of route uncertainty: judgement, as for the other timetable pins). If Midland's 6.2 miles from Divide were taken to mean the settlement (6.86 route miles), the scale would change and the point would move about 0.35 mile south along the line, round the bend and over the summit; this is the larger risk and it runs one way. A newspaper of 1901 puts Murphy 'three miles south of Divide', which agrees within its rounding. Elevation is the ground at the point.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:lidar-3dep",
+     "source:usgs-topo",
+     "source:usgs-divide-1954",
+     "source:usgs-divide-1994",
+     "source:usgs-pikes-peak-1894",
+     "source:usgs-pikes-peak-1901",
+     "source:victor-record-1900-06-29",
+     "source:rmn-1901-08-14-wreck-at-murphy",
+     "source:rmn-1907-07-08-hail-at-murphy"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 30.4
+     }
+    ],
+    "summary": "Murphy was a small station on the Midland Terminal Railway between Divide and Midland. The Midland Terminal's public timetables of September 1920 to January 1945 print it 30.4 miles from Colorado Springs (3.5 miles beyond Divide, 2.7 short of Midland), with no altitude and no telegraph or coupon sign; those of 1935 and 1940 mark its trains 'f', stops on signal. The 1909 table does not list it, nor does that of March 1948. It was older than the tables show: newspapers report a freight train derailed 'at Murphy' in June 1900, a passenger train running into the rear of a standing ore train 'at Murphy, three miles south of Divide' in August 1901, and hail 'at Murphy, a small station on the Midland Terminal road' in July 1907. At the printed mileage the old grade, named 'OLD RAILROAD GRADE' on the 1954 USGS map and now partly a trail in Mueller State Park, runs as a narrow side-hill bench up the west side of a valley; about 0.1 mile further on it swings round a sharp bend on a fill below Tracy Hill and passes through a cut over the summit of the line between Divide and Midland, about 9,390 ft on the lidar. At the printed mileage itself the bench widens, for about 330 ft, to a flat 13 to 20 m across, room for a second track or a loading ground; nowhere else between the highway and the summit does it widen for long. What the flat was, and what the stop served, are not known, and no map held prints the name.",
+    "open_questions": [
+     "Where exactly the stop was. The point is the printed mileage only. Midland's own mileage is in dispute (6.2 printed against 6.86 to the settlement along the route); if 6.2 marks the settlement, Murphy falls about 0.35 mile further south, beyond the summit. The summit of the line (0.15 mile past the point) and the bend where a road came in on the 1954 map are the obvious candidates, but nothing confirms either.",
+     "Whether Murphy had a siding. The bench was measured across every 5 m from the highway to the summit cut: it reads mostly 4 to 12 m (the measure catches its shoulders), and widens only once for any length, to a flat 13 to 20 m across for about 330 ft at the printed mileage (record widened-flat). That is room for a second track a few cars long, or a loading ground, but too short for a passing siding for ore trains; the 1901 wreck, an ore train standing at Murphy run into from behind, does not need one. The 150 m past the pond, where a dam and basin have disturbed the ground, cannot be read. A railway track chart, a valuation map (Interstate Commerce Commission, about 1917 to 1920) or an employee timetable would settle it.",
+     "What Murphy served and why it was named: ranch, timber, ice, a section house, or simply the summit. No post office of the name is listed in Colorado (Wikipedia's list), no Murphy feature was found near here in a web search of gazetteer listings, and the library catalogues returned nothing. The 1954 sheet marks a well and three buildings near the grade; their use and date are not known.",
+     "The 1900 Victor Record calls Murphy 'the next station north of Gillett', which does not fit the later tables (Midland and, until 1933, Waters lie between). Midland had lost its post office in 1895; whether it was still a station in 1900 is not known.",
+     "When Murphy opened and closed. First seen in June 1900 (newspaper); printed in public timetables from September 1920 (no table between 1909 and 1920 is held) to January 1945; gone by March 1948. The September 1909 table, which lists only Midland between Divide and Gillett, omits it, although the 1907 newspaper calls it a station: public tables evidently left minor stops out.",
+     "The route through this stretch was corrected on 24 Nov 2026 at the owner's request (once_route_mt_murphy.py): between about 2.25 and 3.28 route miles it had lain on the creek's flat floor, with a kink, and now follows the bench west of the creek; that stretch and the bench on to the summit cut are graded measured. The route north of 2.25, on or beside the present highway, is still inferred: which side of the highway the rails ran is not settled.",
+     "Searches that found nothing (24 Nov 2026): Denver Public Library digital collections ('Murphy Midland Terminal', 'Murphy Divide Colo', 'Murphy siding railroad', 'Murphy Teller County', 'Place Names Colorado Murphy', 'Tracy Hill Teller', 'MT train Murphy', 'Perry MT train near Divide'; results are swamped by city directories and people called Murphy); Pikes Peak Library District ('Murphy Divide', 'Murphy Midland Terminal', 'Murphy Teller'; the only lead, photographs of a ranch homesteaded by a Patrick Murphy, is the Pettigrew Ranch on the Palmer Divide in El Paso County, not this place); Colorado Historic Newspapers ('Murphy siding', 'Murphy spur', 'Murphy switch', 'Murphy station' Divide: other places). Otto Perry's photographs 'near Divide' of January 1949 (DPL OP-12726 and others) have not been placed and may or may not show this stretch."
+    ],
+    "local": {
+     "tier": 2
+    },
+    "elevation_ft": 9375,
+    "valid_from": 1900,
+    "valid_to": 1945,
+    "notes": "Started on 24 Nov 2026 from the timetable pin. The ground service (fetch_terrain.py) returned HTTP 502; the 1 m lidar box (3,600 m square, both surveys of the tile, nothing empty) replaced it. The Divide 7.5-minute sheets of 1954 and 1994 were fetched for this place; five other 1954 scans of that sheet are listed by the USGS and not held."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.917113,
      38.753512
     ]
@@ -1989,6 +2045,1414 @@
      }
     ],
     "summary": "A telegraph station in the Florence and Cripple Creek's public timetable of 1895, in Phantom Canyon. Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.172626,
+     38.939734
+    ]
+   },
+   "properties": {
+    "id": "place:bellevue",
+    "name": "Bellevue",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Bellevue 29.7 in the table of 1888), between Divide and Florissant, whose places on the traced line are known; 2.0 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 29.7
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.326141,
+     38.955963
+    ]
+   },
+   "properties": {
+    "id": "place:metcalf",
+    "name": "Metcalf",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Metcalf 38.9 in the table of 1888), between Florissant and Leadville, whose places on the traced line are known; 11.7 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 38.9
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.354172,
+     38.966907
+    ]
+   },
+   "properties": {
+    "id": "place:lake-george",
+    "name": "Lake George",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Lake George 114 in the table of 1893), between Florissant and Leadville, whose places on the traced line are known; 13.4 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 114.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.371508,
+     38.966661
+    ]
+   },
+   "properties": {
+    "id": "place:lidderdale",
+    "name": "Lidderdale",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Lidderdale 42.0 in the table of 1888), between Florissant and Leadville, whose places on the traced line are known; 14.8 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 42.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.460835,
+     38.907718
+    ]
+   },
+   "properties": {
+    "id": "place:idlewild",
+    "name": "Idlewild",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Idlewild 49.5 in the table of 1888), between Florissant and Leadville, whose places on the traced line are known; 22.2 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 49.5
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.510729,
+     38.925731
+    ]
+   },
+   "properties": {
+    "id": "place:howbert",
+    "name": "Howbert",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Howbert 52.9 in the table of 1888; Howbert 126 in the table of 1890; Howbert 126 in the table of 1893), between Florissant and Leadville, whose places on the traced line are known; 25.6 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 52.9
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.60286,
+     38.967267
+    ]
+   },
+   "properties": {
+    "id": "place:spinney",
+    "name": "Spinney",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Spinney 58.7 in the table of 1888; Spinney 132 in the table of 1890; Spinney 132 in the table of 1893; Spinney 132 in the table of 1895), between Florissant and Leadville, whose places on the traced line are known; 31.4 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 58.7
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1895). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.79396,
+     39.019583
+    ]
+   },
+   "properties": {
+    "id": "place:hartsel",
+    "name": "Hartsel",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Hartsel 69.7 in the table of 1888; Hartsel 143 in the table of 1890; Hartsel 143 in the table of 1893; Hartsel 143 in the table of 1895), between Florissant and Leadville, whose places on the traced line are known; 42.3 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 69.7
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1895). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.900072,
+     38.953337
+    ]
+   },
+   "properties": {
+    "id": "place:haver",
+    "name": "Haver",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Haver 78.2 in the table of 1888; Haver 151 in the table of 1890), between Florissant and Leadville, whose places on the traced line are known; 50.8 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 78.2
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1890). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.959091,
+     38.906805
+    ]
+   },
+   "properties": {
+    "id": "place:bath",
+    "name": "Bath",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Bath 158 in the table of 1893), between Florissant and Leadville, whose places on the traced line are known; 57.1 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 158.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.974934,
+     38.911141
+    ]
+   },
+   "properties": {
+    "id": "place:hill-top",
+    "name": "Hill Top",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Hill Top 85.5 in the table of 1888; Hill Top 158 in the table of 1890), between Florissant and Leadville, whose places on the traced line are known; 58.1 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. The tables disagree by 1.0 mile about where it was. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 85.5
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1890). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.991813,
+     38.871607
+    ]
+   },
+   "properties": {
+    "id": "place:higgins",
+    "name": "Higgins",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Higgins 91.0 in the table of 1888; Higgins 163 in the table of 1890; Higgins 163 in the table of 1893), between Florissant and Leadville, whose places on the traced line are known; 63.6 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. The tables disagree by 1.5 mile about where it was. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 91.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.115396,
+     38.846039
+    ]
+   },
+   "properties": {
+    "id": "place:buena-vista",
+    "name": "Buena Vista",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Buena Vista 101.8 in the table of 1888; Buena Vista 174 in the table of 1890; Buena Vista 174 in the table of 1893; Buena Vista 175 in the table of 1895), between Florissant and Leadville, whose places on the traced line are known; 74.3 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. The tables disagree by 1.4 mile about where it was. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 101.8
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1895). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.141007,
+     38.870578
+    ]
+   },
+   "properties": {
+    "id": "place:wild-horse",
+    "name": "Wild Horse",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Wild Horse 104.2 in the table of 1888), between Florissant and Leadville, whose places on the traced line are known; 76.7 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 104.2
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.212579,
+     38.982784
+    ]
+   },
+   "properties": {
+    "id": "place:fisher",
+    "name": "Fisher",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Fisher 113.1 in the table of 1888), between Florissant and Leadville, whose places on the traced line are known; 85.6 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 113.1
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.25883,
+     39.034697
+    ]
+   },
+   "properties": {
+    "id": "place:granite-gate",
+    "name": "Granite Gate",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Granite Gate 192 in the table of 1893), between Florissant and Leadville, whose places on the traced line are known; 90.8 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 192.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.266476,
+     39.047484
+    ]
+   },
+   "properties": {
+    "id": "place:granite",
+    "name": "Granite",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Granite 119.4 in the table of 1888; Granite 192 in the table of 1890), between Florissant and Leadville, whose places on the traced line are known; 91.9 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. The tables disagree by 1.0 mile about where it was. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 119.4
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1890). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.321323,
+     39.149853
+    ]
+   },
+   "properties": {
+    "id": "place:snowden",
+    "name": "Snowden",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Snowden 201 in the table of 1893), between Florissant and Leadville, whose places on the traced line are known; 99.8 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 201.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.324105,
+     39.159221
+    ]
+   },
+   "properties": {
+    "id": "place:crystal-lake",
+    "name": "Crystal Lake",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Crystal Lake 128.0 in the table of 1888; Crystal Lake 201 in the table of 1890), between Florissant and Leadville, whose places on the traced line are known; 100.4 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 128.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1890). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.327256,
+     39.251181
+    ]
+   },
+   "properties": {
+    "id": "place:arkansas-junction",
+    "name": "Arkansas Junction",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Arkansas Junction 213 in the table of 1890; Arkansas Junction 213 in the table of 1893; Arkansas Junction 208 in the table of 1895), between Leadville and Aspen Junction, whose places on the traced line are known; 110.0 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. The tables disagree by 5.0 mile about where it was. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 213.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1890 to 1895). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.466101,
+     39.251983
+    ]
+   },
+   "properties": {
+    "id": "place:busk",
+    "name": "Busk",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Busk 147.6 in the table of 1888; Busk 221 in the table of 1890; Busk 221 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 120.0 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 147.6
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.475266,
+     39.254999
+    ]
+   },
+   "properties": {
+    "id": "place:rogers-spur",
+    "name": "Rogers Spur",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Rogers Spur 150.8 in the table of 1888), between Leadville and Aspen Junction, whose places on the traced line are known; 123.1 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 150.8
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.494314,
+     39.254375
+    ]
+   },
+   "properties": {
+    "id": "place:hagerman",
+    "name": "Hagerman",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Hagerman 152.9 in the table of 1888; Hagerman Tunnel 226 in the table of 1890; Hagerman 226 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 125.2 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 152.9
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.507868,
+     39.273225
+    ]
+   },
+   "properties": {
+    "id": "place:ivanhoe",
+    "name": "Ivanhoe",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Ivanhoe 156.8 in the table of 1888; Ivanhoe 230 in the table of 1890; Ivanhoe 230 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 129.1 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 156.8
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.606327,
+     39.322342
+    ]
+   },
+   "properties": {
+    "id": "place:sellar",
+    "name": "Sellar",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Sellar 165.6 in the table of 1888; Sellar 239 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 137.9 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 165.6
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.659997,
+     39.33415
+    ]
+   },
+   "properties": {
+    "id": "place:norrie",
+    "name": "Norrie",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Norrie 174.2 in the table of 1888; Norrie 247 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 146.5 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 174.2
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.708167,
+     39.362113
+    ]
+   },
+   "properties": {
+    "id": "place:thomasville",
+    "name": "Thomasville",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Thomasville 251 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 149.9 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 251.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.803311,
+     39.36509
+    ]
+   },
+   "properties": {
+    "id": "place:ruedi",
+    "name": "Ruedi",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Ruedi 182.9 in the table of 1888; Ruedi 256 in the table of 1890; Ruedi 256 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 155.2 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 182.9
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.893084,
+     39.378836
+    ]
+   },
+   "properties": {
+    "id": "place:sloane",
+    "name": "Sloane",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Sloane 188.8 in the table of 1888; Sloane 262 in the table of 1890; Sloane 262 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 161.0 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 188.8
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.909376,
+     39.377195
+    ]
+   },
+   "properties": {
+    "id": "place:peach-blow",
+    "name": "Peach Blow",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Peach Blow 263 in the table of 1890; Peach Blow 263 in the table of 1893), between Leadville and Aspen Junction, whose places on the traced line are known; 162.0 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 263.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1890 to 1893). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.128412,
+     39.403949
+    ]
+   },
+   "properties": {
+    "id": "place:wheeler",
+    "name": "Wheeler",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Wheeler 203.8 in the table of 1888; Wheeler 277 in the table of 1890), between Aspen Junction and Cardiff, whose places on the traced line are known; 175.9 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 203.8
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1890). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.227016,
+     39.416894
+    ]
+   },
+   "properties": {
+    "id": "place:carbondale",
+    "name": "Carbondale",
+    "grade": "inferred",
+    "error_ft": 3500,
+    "basis": "Placed by its printed mileage (Carbondale 277 in the table of 1909), between Aspen Junction and Cardiff, whose places on the traced line are known; 181.3 miles along the line from Divide. Whole miles only: good to about two thirds of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 277.0
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.243579,
+     39.427868
+    ]
+   },
+   "properties": {
+    "id": "place:sands",
+    "name": "Sands",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "Placed by its printed mileage (Sands 210.5 in the table of 1888), between Aspen Junction and Cardiff, whose places on the traced line are known; 182.5 miles along the line from Divide. The 1888 figure, to a tenth of a mile from Colorado Springs, is used: good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": 210.5
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.782431,
+     39.528539
+    ]
+   },
+   "properties": {
+    "id": "place:rifle",
+    "name": "Rifle",
+    "grade": "inferred",
+    "error_ft": 4500,
+    "basis": "Placed by its share of the printed miles between New Castle and Grand Junction (Rifle Creek 321 in the table of 1890; Rifle 321 in the table of 1893; Rifle 314 in the table of 1895; Rifle 315 in the table of 1909), along today's track. Whole miles only, on a line whose changes since 1890 have not been looked into: good to about a mile. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:rio-grande-junction",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1890 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.057731,
+     39.445296
+    ]
+   },
+   "properties": {
+    "id": "place:grand-valley",
+    "name": "Grand Valley",
+    "grade": "inferred",
+    "error_ft": 4500,
+    "basis": "Placed by its share of the printed miles between New Castle and Grand Junction (Parachute 338 in the table of 1890; Parachute 338 in the table of 1893; Parachute 331 in the table of 1895; Grand Valley 332 in the table of 1909), along today's track. Whole miles only, on a line whose changes since 1890 have not been looked into: good to about a mile. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:rio-grande-junction",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1890 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.221598,
+     39.324029
+    ]
+   },
+   "properties": {
+    "id": "place:de-beque",
+    "name": "De Beque",
+    "grade": "inferred",
+    "error_ft": 4500,
+    "basis": "Placed by its share of the printed miles between New Castle and Grand Junction (De Beque 351 in the table of 1890; De Beque 351 in the table of 1893; De Beque 344 in the table of 1895; De Beque 345 in the table of 1909), along today's track. Whole miles only, on a line whose changes since 1890 have not been looked into: good to about a mile. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:rio-grande-junction",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1890 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.345571,
+     39.113236
+    ]
+   },
+   "properties": {
+    "id": "place:palisade",
+    "name": "Palisade",
+    "grade": "inferred",
+    "error_ft": 4500,
+    "basis": "Placed by its share of the printed miles between New Castle and Grand Junction (Palisade 365 in the table of 1909), along today's track. Whole miles only, on a line whose changes since 1890 have not been looked into: good to about a mile. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:rio-grande-junction",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.293354,
+     39.241779
+    ]
+   },
+   "properties": {
+    "id": "place:leadville",
+    "name": "Leadville",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed at where the traced line from Divide ends and the line toward Glenwood Springs begins (the file notes its route through Leadville is uncertain), not by mileage: good to about a quarter of a mile, unproved. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.037195,
+     39.368905
+    ]
+   },
+   "properties": {
+    "id": "place:aspen-junction-basalt",
+    "name": "Aspen Junction (Basalt)",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed at where the traced Aspen branch leaves the main line, not by mileage: good to about a quarter of a mile, unproved. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.31131,
+     39.505403
+    ]
+   },
+   "properties": {
+    "id": "place:cardiff",
+    "name": "Cardiff",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed at where the traced Spring Gulch branch leaves the main line, not by mileage: good to about a quarter of a mile, unproved. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.336396,
+     39.550735
+    ]
+   },
+   "properties": {
+    "id": "place:glenwood-springs",
+    "name": "Glenwood Springs",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed at where the traced line from Leadville ends and the line to New Castle begins, not by mileage: good to about a quarter of a mile, unproved. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.53928,
+     39.57058
+    ]
+   },
+   "properties": {
+    "id": "place:new-castle",
+    "name": "New Castle",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed at the end of the Colorado Midland's own traced line, not by mileage: good to about a quarter of a mile, unproved. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.814219,
+     39.194245
+    ]
+   },
+   "properties": {
+    "id": "place:aspen",
+    "name": "Aspen",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed at the far end of the traced Aspen branch, not by mileage: good to about a quarter of a mile, unproved. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.570153,
+     39.064033
+    ]
+   },
+   "properties": {
+    "id": "place:grand-junction",
+    "name": "Grand Junction",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed at the station point on today's map, where the followed track was ended, not by mileage: good to about a quarter of a mile, unproved. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, and the line it sits on has not been tested against lidar.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:owner-supplied-google-earth"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:rio-grande-junction",
+      "milepost": null
+     }
+    ],
+    "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
    }
   }
  ]

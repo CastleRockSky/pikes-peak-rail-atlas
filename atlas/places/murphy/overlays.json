@@ -1,0 +1,196 @@
+[
+ {
+  "id": "overlay:murphy:hillshade",
+  "name": "Shaded ground (1 m lidar)",
+  "grade": "measured",
+  "error_ft": 5,
+  "basis": "Cut from the USGS 1 m lidar elevation tiles USGS_1M_13_x48y431_CO_ArapahoRooseveltPikeNF_D23.tif, USGS_1M_13_x48y431_CO_CONMGaps_D24.tif.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:murphy",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "hillshade.png",
+  "bounds": [
+   [
+    38.884989,
+    -105.18786
+   ],
+   [
+    38.917371,
+    -105.146267
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source",
+   "note": "UTM picture laid on its corner coordinates"
+  }
+ },
+ {
+  "id": "overlay:murphy:relief",
+  "name": "Local relief (1 m lidar): banks, grades and foundations",
+  "grade": "measured",
+  "error_ft": 5,
+  "basis": "Cut from the USGS 1 m lidar elevation tiles USGS_1M_13_x48y431_CO_ArapahoRooseveltPikeNF_D23.tif, USGS_1M_13_x48y431_CO_CONMGaps_D24.tif.",
+  "sources": [
+   "source:lidar-3dep"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:murphy",
+  "kind": "lidar-relief",
+  "date": "2026",
+  "image": "relief.png",
+  "bounds": [
+   [
+    38.884989,
+    -105.18786
+   ],
+   [
+    38.917371,
+    -105.146267
+   ]
+  ],
+  "fit": {
+   "method": "georeferenced at source",
+   "note": "UTM picture laid on its corner coordinates"
+  }
+ },
+ {
+  "id": "overlay:murphy:usgs-1954-24000",
+  "name": "USGS Divide, 1:24,000, 1954",
+  "valid_from": 1954,
+  "valid_to": 1954,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Reprojected from the USGS GeoTIFF (Divide_232830_1954_24000.tif). One NAD27 shift for the whole district. Not checked against the ground at this place. Checked at Murphy: Highway 67 on the sheet lies within 3 to 10 m of OpenStreetMap's in three rows. The dashed 'OLD RAILROAD GRADE' runs west of the creek on the bench seen on the lidar: the nearest dark ink lies a median 13 m from the corrected route (80 per cent within 27 m; a crude test, since the dashes break and lettering counts too). The sheet does not print Murphy.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:murphy",
+  "kind": "usgs-topo",
+  "date": "1954",
+  "image": "img/places/murphy/usgs-1954-24000.jpg",
+  "bounds": [
+   [
+    38.887684,
+    -105.184371
+   ],
+   [
+    38.914678,
+    -105.149741
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:murphy:usgs-1994-24000",
+  "name": "USGS Divide, 1:24,000, 1994",
+  "valid_from": 1994,
+  "valid_to": 1994,
+  "grade": "measured",
+  "error_ft": 40,
+  "basis": "Reprojected from the USGS GeoTIFF (Divide_232832_1994_24000.tif). One NAD27 shift for the whole district. Not checked against the ground at this place. Checked at Murphy: draws the old grade as an unnamed dashed trail through Mueller State Park, on the same line as the 1954 sheet.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:murphy",
+  "kind": "usgs-topo",
+  "date": "1994",
+  "image": "img/places/murphy/usgs-1994-24000.jpg",
+  "bounds": [
+   [
+    38.887684,
+    -105.184371
+   ],
+   [
+    38.914678,
+    -105.149741
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:murphy:usgs-1894-125000",
+  "name": "USGS Pikes Peak, 1:125,000, 1894",
+  "valid_from": 1894,
+  "valid_to": 1894,
+  "grade": "measured",
+  "error_ft": 400,
+  "basis": "Reprojected from the USGS GeoTIFF (Pikes_Peak_234096_1894_125000.tif). One NAD27 shift for the whole district. Not checked against the ground at this place. Checked at Murphy: no railway is drawn here (a road follows roughly the line of the present highway), so the survey is earlier than the line.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:murphy",
+  "kind": "usgs-topo",
+  "date": "1894",
+  "image": "img/places/murphy/usgs-1894-125000.jpg",
+  "bounds": [
+   [
+    38.887684,
+    -105.184371
+   ],
+   [
+    38.914678,
+    -105.149741
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ },
+ {
+  "id": "overlay:murphy:usgs-1901-125000",
+  "name": "USGS Pikes Peak, 1:125,000, edition of 1901 (reprinted 1909)",
+  "valid_from": 1901,
+  "valid_to": 1901,
+  "grade": "measured",
+  "error_ft": 400,
+  "basis": "Cut from the USGS scan (Pikes_Peak_402404_1901_62500.tif), placed by the sheet's four corner marks because the file's own georeference is wrong. One NAD27 shift for the whole district. Not checked against the ground at this place. Checked at Murphy: draws the Midland Terminal making the same S-bend below Tracy Hill, but about 500 to 700 ft east of the bench on the lidar (by eye). No station or siding is marked and the name Murphy is not printed.",
+  "sources": [
+   "source:usgs-topo"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "place": "place:murphy",
+  "kind": "usgs-topo",
+  "date": "1901",
+  "image": "img/places/murphy/usgs-1901-125000.jpg",
+  "bounds": [
+   [
+    38.887684,
+    -105.184371
+   ],
+   [
+    38.914678,
+    -105.149741
+   ]
+  ],
+  "fit": {
+   "method": "reprojection",
+   "note": "as published; the year is the edition in the file name, not the survey"
+  }
+ }
+]

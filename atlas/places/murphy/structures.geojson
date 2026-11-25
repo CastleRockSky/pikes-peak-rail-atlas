@@ -1,0 +1,758 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.15925,
+      38.911205
+     ],
+     [
+      -105.15925,
+      38.911097
+     ],
+     [
+      -105.159388,
+      38.910988
+     ],
+     [
+      -105.159527,
+      38.91088
+     ],
+     [
+      -105.159665,
+      38.910772
+     ],
+     [
+      -105.159757,
+      38.910663
+     ],
+     [
+      -105.159849,
+      38.910555
+     ],
+     [
+      -105.159941,
+      38.910447
+     ],
+     [
+      -105.160033,
+      38.910339
+     ],
+     [
+      -105.160125,
+      38.91023
+     ],
+     [
+      -105.160171,
+      38.910122
+     ],
+     [
+      -105.160263,
+      38.910014
+     ],
+     [
+      -105.160263,
+      38.909906
+     ],
+     [
+      -105.160262,
+      38.90987
+     ],
+     [
+      -105.16028,
+      38.909856
+     ],
+     [
+      -105.160706,
+      38.908493
+     ],
+     [
+      -105.160739,
+      38.908407
+     ],
+     [
+      -105.160816,
+      38.908331
+     ],
+     [
+      -105.160915,
+      38.90826
+     ],
+     [
+      -105.160947,
+      38.908173
+     ],
+     [
+      -105.16098,
+      38.908087
+     ],
+     [
+      -105.161013,
+      38.908
+     ],
+     [
+      -105.161046,
+      38.907914
+     ],
+     [
+      -105.161078,
+      38.907828
+     ],
+     [
+      -105.161111,
+      38.907741
+     ],
+     [
+      -105.161144,
+      38.907655
+     ],
+     [
+      -105.161177,
+      38.907568
+     ],
+     [
+      -105.161209,
+      38.907482
+     ],
+     [
+      -105.161242,
+      38.907395
+     ],
+     [
+      -105.161276,
+      38.907307
+     ],
+     [
+      -105.161296,
+      38.907215
+     ],
+     [
+      -105.161327,
+      38.907124
+     ],
+     [
+      -105.161335,
+      38.907035
+     ],
+     [
+      -105.161343,
+      38.906945
+     ],
+     [
+      -105.161351,
+      38.906855
+     ],
+     [
+      -105.161359,
+      38.906765
+     ],
+     [
+      -105.161367,
+      38.906675
+     ],
+     [
+      -105.161375,
+      38.906585
+     ],
+     [
+      -105.161383,
+      38.906495
+     ],
+     [
+      -105.161391,
+      38.906405
+     ],
+     [
+      -105.161399,
+      38.906315
+     ],
+     [
+      -105.161407,
+      38.906225
+     ],
+     [
+      -105.161415,
+      38.906136
+     ],
+     [
+      -105.161423,
+      38.906046
+     ],
+     [
+      -105.161431,
+      38.905956
+     ],
+     [
+      -105.161439,
+      38.905867
+     ],
+     [
+      -105.16143,
+      38.905777
+     ],
+     [
+      -105.161445,
+      38.905688
+     ],
+     [
+      -105.161461,
+      38.905599
+     ],
+     [
+      -105.161476,
+      38.905511
+     ],
+     [
+      -105.1615,
+      38.905427
+     ],
+     [
+      -105.161536,
+      38.905344
+     ],
+     [
+      -105.161573,
+      38.90526
+     ],
+     [
+      -105.161617,
+      38.905183
+     ],
+     [
+      -105.161662,
+      38.905102
+     ],
+     [
+      -105.161709,
+      38.905017
+     ],
+     [
+      -105.161793,
+      38.904954
+     ],
+     [
+      -105.161859,
+      38.90488
+     ],
+     [
+      -105.161924,
+      38.904807
+     ],
+     [
+      -105.162001,
+      38.904743
+     ],
+     [
+      -105.162086,
+      38.904683
+     ],
+     [
+      -105.162202,
+      38.904649
+     ],
+     [
+      -105.162288,
+      38.904589
+     ],
+     [
+      -105.162373,
+      38.904528
+     ],
+     [
+      -105.162459,
+      38.904468
+     ],
+     [
+      -105.162544,
+      38.904407
+     ],
+     [
+      -105.162629,
+      38.904347
+     ],
+     [
+      -105.162715,
+      38.904286
+     ],
+     [
+      -105.162785,
+      38.904212
+     ],
+     [
+      -105.16287,
+      38.904152
+     ],
+     [
+      -105.162925,
+      38.904064
+     ],
+     [
+      -105.16301,
+      38.904004
+     ],
+     [
+      -105.163096,
+      38.903943
+     ],
+     [
+      -105.163181,
+      38.903883
+     ],
+     [
+      -105.163266,
+      38.903822
+     ],
+     [
+      -105.163352,
+      38.903762
+     ],
+     [
+      -105.163437,
+      38.903701
+     ],
+     [
+      -105.163523,
+      38.903641
+     ],
+     [
+      -105.163608,
+      38.90358
+     ],
+     [
+      -105.163678,
+      38.903506
+     ],
+     [
+      -105.163794,
+      38.903472
+     ],
+     [
+      -105.163895,
+      38.903425
+     ],
+     [
+      -105.163981,
+      38.903365
+     ],
+     [
+      -105.164066,
+      38.903304
+     ],
+     [
+      -105.164152,
+      38.903243
+     ],
+     [
+      -105.164237,
+      38.903183
+     ],
+     [
+      -105.164322,
+      38.903122
+     ],
+     [
+      -105.164408,
+      38.903062
+     ],
+     [
+      -105.164478,
+      38.902988
+     ],
+     [
+      -105.164548,
+      38.902914
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:grade-west-of-creek",
+    "name": "Midland Terminal grade on the hillside west of the creek and the pond",
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "On the 1 m lidar the grade leaves the side of the present highway about 2.6 timetable miles from Divide as a low embankment running south-west, climbing steadily (2.0 then 2.3 per cent), to the west end of a small pond's dam; past the pond, whose dam and basin have disturbed the ground for about 150 m, it resumes as a narrow bench along the hillside west of the creek and becomes the side-hill bench below at 3.3. The line follows the embankment (route_check.find_path, 2.5 per cent ruling grade), is drawn straight past the pond (inferred: that 150 m is not seen), and then follows the Cheesman Ranch trail of Mueller State Park, which runs on the bench (OpenStreetMap, slid onto the bench top within 6 m). The whole reads smooth on route_check, climbing about 2 per cent. The 1954 USGS Divide sheet prints 'OLD RAILROAD GRADE' along it, west of the creek, and marks 'Well 9308' near it. Across, the bench's flat top reads mostly 4 to 12 m on sections every 5 m (the measure catches its shoulders); there is no stretch wide enough for long enough to have carried a second track. The route here is the corrected line of once_route_mt_murphy.py (24 Nov 2026). The first line, found from the lidar by once_route_mt.py, ran on the creek's flat floor 30 to 65 m to the east from about 2.25 to 3.28 route miles, with a small kink; this place's first records (earlier the same day) described that floor and a bank under the highway as the grade, which was wrong. Dates are the railway's: line opened 1893 to 1894 (secondary), last timetable read March 1948, closed 1949 (secondary).",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-divide-1954",
+     "source:usgs-divide-1994"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.164548,
+      38.902914
+     ],
+     [
+      -105.164975,
+      38.902332
+     ],
+     [
+      -105.165173,
+      38.90211
+     ],
+     [
+      -105.165417,
+      38.901919
+     ],
+     [
+      -105.165687,
+      38.901752
+     ],
+     [
+      -105.166,
+      38.901643
+     ],
+     [
+      -105.166296,
+      38.901506
+     ],
+     [
+      -105.166617,
+      38.901409
+     ],
+     [
+      -105.166905,
+      38.901259
+     ],
+     [
+      -105.167193,
+      38.901109
+     ],
+     [
+      -105.167455,
+      38.900934
+     ],
+     [
+      -105.167695,
+      38.90074
+     ],
+     [
+      -105.167913,
+      38.900533
+     ],
+     [
+      -105.168072,
+      38.900296
+     ],
+     [
+      -105.168211,
+      38.90005
+     ],
+     [
+      -105.16832,
+      38.899794
+     ],
+     [
+      -105.168306,
+      38.899526
+     ],
+     [
+      -105.168212,
+      38.899313
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:grade-sidehill-to-summit",
+    "name": "Midland Terminal grade: side-hill bench climbing to the summit, past the mileage point",
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the 1 m lidar a narrow bench is cut into the west side of the valley and built out on the east as a fill 2 to 3 m high, for about 1790 ft (cross-sections every 0.0125 mile). Its flat top reads mostly 4 to 12 m on sections every 5 m (the measure catches the shoulders), except for one widened flat about 100 m long at the mileage point (its own record). It climbs at 1.9 to 2.4 per cent, very smoothly (roughness about the best straight slope under 0.15 m over 200 m). The 1954 sheet's 'OLD RAILROAD GRADE' follows it to the bend. The timetable mileage point (30.4 miles from Colorado Springs) lies on it.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-divide-1954"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.167364,
+      38.900979
+     ],
+     [
+      -105.167674,
+      38.9006
+     ],
+     [
+      -105.167996,
+      38.900221
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:widened-flat",
+    "name": "Widened flat on the bench at the mileage point (what it was is not known)",
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the 1 m lidar the side-hill bench, elsewhere a few metres across, widens to a flat 13 to 20 m across for about 80 m and 11 to 16 m for a further 20 to 30 m: about 330 ft in all, from 3.47 to 3.53 timetable miles from Divide. Measured on sections every 5 m across a straight axis, counting the flat as the run of 1 m steps under 12 per cent; on the same measure the bench either side reads mostly 4 to 12 m. The flat falls about 3 per cent across, towards the valley, and in places has a shallow dip (about 0.5 m) along its upslope half; the Elk Meadow trail runs along its upslope edge. The printed mileage of Murphy (3.50) falls within it, about 170 ft from its north end. Measured: the shape. Conjecture, not settled: room for a second track about 330 ft long (a short siding or team track, a few cars), or a loading ground or the site of a small station building; a passing siding for the district's ore trains would need far more length. No map held marks anything here, and the ground shows no foundation.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.168072,
+      38.900296
+     ],
+     [
+      -105.168211,
+      38.90005
+     ],
+     [
+      -105.16832,
+      38.899794
+     ],
+     [
+      -105.168306,
+      38.899526
+     ],
+     [
+      -105.168212,
+      38.899313
+     ],
+     [
+      -105.168124,
+      38.899051
+     ],
+     [
+      -105.167948,
+      38.898823
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:bend-fill",
+    "name": "Fill across the head of a west-draining gulch, at the sharp bend",
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the 1 m lidar the grade turns from south-west to south-east on a fill about 570 ft long that stands about 4.5 m above the head of the gulch to its west, with a top 8 to 13 m wide (east-west sections at 10 m steps; the widest reading is where the section cuts the curve obliquely). The 1954 sheet draws the grade making this bend at the foot of Tracy Hill and a road coming in from the west to meet it here.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-divide-1954"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.167948,
+      38.898823
+     ],
+     [
+      -105.167734,
+      38.898612
+     ],
+     [
+      -105.167462,
+      38.898444
+     ],
+     [
+      -105.16719,
+      38.898277
+     ],
+     [
+      -105.166919,
+      38.89811
+     ],
+     [
+      -105.166647,
+      38.897942
+     ],
+     [
+      -105.166375,
+      38.897775
+     ],
+     [
+      -105.166104,
+      38.897608
+     ]
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:summit-cut",
+    "name": "Cut through the summit between the Divide and Midland sides",
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 15,
+    "basis": "On the 1 m lidar the grade runs for about 690 ft in a cut 2 to 3.6 m deep and about 15 m across at the top, beyond the bend. South of it the grade falls at 2.2 to 2.8 per cent towards Midland, then more steeply (5 per cent over 0.15 mile about 0.8 mile further on, already listed among the route's weak stretches).",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "earthwork",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.167709,
+     38.898597
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:summit",
+    "name": "Summit of the line between Divide and Midland (lidar ground 9,392 ft)",
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 50,
+    "basis": "The highest ground along the route between Divide and Midland: about 2,862.7 m (9,392 ft) on the 1 m lidar, at 3.68 route miles from the Divide junction (3.65 timetable miles), between the bend fill and the summit cut. The grade climbs to it from Divide at about 2 per cent and falls from it towards Midland. Its height is the present ground on the old formation, not rail level. 0.15 timetable mile (about 800 ft) beyond the point where the printed mileage puts Murphy. That a stop at the summit of the line is where trains would stand (to set or release brakes) is a conjecture, not a record.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "other",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.168316,
+     38.899103
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:road-junction-1954",
+    "name": "Road from the west meeting the grade at the bend (1954 map)",
+    "valid_from": 1954,
+    "valid_to": 1954,
+    "grade": "measured",
+    "error_ft": 100,
+    "basis": "The 1954 Divide sheet draws a dashed road coming from the west past 'Springs' and spot height 9665 and meeting the old railroad grade at its bend below Tracy Hill. On the 1 m lidar a faint track joins the bend fill from the south-west (by eye). The road is after the railway's time on the map; whether a road met the railway here when it ran is not known.",
+    "sources": [
+     "source:usgs-divide-1954",
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "other",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.161469,
+     38.904636
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:well-9308",
+    "name": "Well beside the grade (1954 map, 'Well 9308')",
+    "valid_from": 1954,
+    "valid_to": 1994,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "The 1954 Divide sheet marks a well, spot height 9308, beside the old railroad grade about 0.4 mile north of the mileage point (3.06 timetable miles from Divide); the 1994 sheet repeats it. The lidar ground there is 9,314 ft. What it served and when it was dug are not known; that it was the railway's or a stop's water supply is a conjecture with nothing to support it.",
+    "sources": [
+     "source:usgs-divide-1954",
+     "source:usgs-divide-1994"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "other",
+    "placeholder": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.160846,
+     38.902453
+    ]
+   },
+   "properties": {
+    "id": "structure:murphy:buildings-1954",
+    "name": "Three buildings east of the stream (1954 map)",
+    "valid_from": 1954,
+    "valid_to": 1994,
+    "grade": "measured",
+    "error_ft": 40,
+    "basis": "The 1954 Divide sheet marks three building symbols (one open, two solid) on the slope between the stream and the highway, about 830 ft east of the grade and level with 3.14 timetable miles. The 1994 sheet marks two or three there. Their date and use are not known; they are entered only because they are the buildings nearest the stop on any map held.",
+    "sources": [
+     "source:usgs-divide-1954",
+     "source:usgs-divide-1994"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:murphy",
+    "kind": "building",
+    "placeholder": false
+   }
+  }
+ ]
+}

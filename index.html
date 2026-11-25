@@ -99,8 +99,8 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
   const zb = document.createElement('p'); zb.className = 'note'; zb.style.margin = '6px 0 0';
   zb.innerHTML = '<a href="#" id="zoomall">Zoom out to the whole atlas</a> · <a href="#" id="zoomhome">Back to the Pikes Peak region</a>';
   document.getElementById('yearnote').after(zb);
-  document.getElementById('zoomall').onclick = e => { e.preventDefault(); map.fitBounds(whole, { padding: [20, 20] }); };
-  document.getElementById('zoomhome').onclick = e => { e.preventDefault(); map.fitBounds(home); };
+  document.getElementById('zoomall').onclick = e => { e.preventDefault(); map.fitBounds(whole, { padding: [20, 20], animate: false }); };
+  document.getElementById('zoomhome').onclick = e => { e.preventDefault(); map.fitBounds(home, { animate: false }); };
   window.atlasRegion = { map, lines, places, show };
 });
 </script>
