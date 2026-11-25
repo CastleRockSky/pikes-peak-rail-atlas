@@ -1455,6 +1455,152 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.04881,
+     38.63516
+    ]
+   },
+   "properties": {
+    "id": "place:skaguay-power-plant",
+    "name": "Skaguay power plant (Pikes Peak Power Company), site",
+    "grade": "inferred",
+    "error_ft": 100,
+    "basis": "The 1951 USGS map draws a group of five buildings here on Beaver Creek, at about 7,800 ft, at the foot of a double-dashed line running straight down the slope from the north-west; it does not name them. On the 1 m lidar a level pad lies at this point (7,748 ft) at the foot of a dead-straight line cut up the slope for at least 1,400 ft. No other group of buildings was seen drawn in the canyon between here and the dam, 3.7 miles upstream in a straight line. That this is the Skaguay plant is inferred from those and from the accounts, which put the plant on Beaver Creek below Skaguay Reservoir, reached by a cable incline. Position from the lidar pad; the map's buildings, placed by the sheet's corner marks, fall within about 130 ft of it. Dates and figures here are from secondary accounts, not from a record the project has seen.",
+    "sources": [
+     "source:usgs-big-bull-mountain-1951",
+     "source:lidar-3dep",
+     "source:skaguay-secondary"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "kind": "water works",
+    "on_lines": [],
+    "summary": "The hydro-electric plant of the Pikes Peak Power Company on Beaver Creek, said to have made power for Victor and the district from 1901 until a flood in June 1965. The site is inferred from a 1951 map and the lidar; nothing here has been worked up.",
+    "valid_from": 1901,
+    "valid_to": 1965
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.05172,
+     38.68816
+    ]
+   },
+   "properties": {
+    "id": "place:skaguay-dam",
+    "name": "Skaguay Dam and Reservoir",
+    "grade": "measured",
+    "error_ft": 150,
+    "basis": "The dam as drawn and named on OpenStreetMap; the 1951 USGS map shows the reservoir and dam at the same place, and the lidar gives the crest at about 8,910 ft. The accounts say the dam was finished in 1901 and call it steel-faced and rock-filled. Dates and figures here are from secondary accounts, not from a record the project has seen.",
+    "sources": [
+     "source:osm-railways",
+     "source:usgs-big-bull-mountain-1951",
+     "source:lidar-3dep",
+     "source:skaguay-secondary"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "kind": "water works",
+    "on_lines": [],
+    "summary": "The dam on West Beaver Creek that fed the Skaguay power plant through a wood-stave pipe. Pinned from the modern map.",
+    "valid_from": 1901
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.04666,
+     38.68565
+    ]
+   },
+   "properties": {
+    "id": "place:skaguay-pipeline",
+    "name": "Skaguay pipeline: wood-stave pipe seen here",
+    "grade": "measured",
+    "error_ft": 50,
+    "basis": "The owner's photographs of 3 July 2026 show a pipe of wooden staves bound with iron bands lying here, about 1,700 ft east-south-east of the dam and, by the lidar, about 100 ft below its crest (phone position, stated error 16 ft). That it is the power plant's supply pipe is the owner's identification and fits the accounts, which give a wood-stave line 23,200 ft long and 30 inches across, with a tunnel of 1,535 ft. This is the one point where the pipe itself has been seen. Its bed is traced from here on the lidar for about three miles (drawn as a dashed line); the last stretch to the plant, and the tunnel, are not located. Dates and figures here are from secondary accounts, not from a record the project has seen.",
+    "sources": [
+     "source:owner-field-photographs",
+     "source:lidar-3dep",
+     "source:skaguay-secondary"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "kind": "water works",
+    "on_lines": [],
+    "summary": "A surviving length of the wood-stave pipe that carried water from Skaguay Dam toward the power plant. The dashed line from here is its bed as traced on the lidar; the last stretch to the plant is not found.",
+    "valid_from": 1901,
+    "valid_to": 1965
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.99288,
+     38.73349
+    ]
+   },
+   "properties": {
+    "id": "place:platt-rogers-tunnel-west",
+    "name": "Platt Rogers Tunnel, lettered portal (west end)",
+    "grade": "measured",
+    "error_ft": 50,
+    "basis": "The owner's photographs of 30 August 2026 show a concrete portal here lettered 'PLATT ROGERS TUNNEL 6100 FEET LONG 1952 BROADMOOR HOTEL WATER & POWER CO.' (phone position, stated error 15 ft). The name, length, date and builder are the inscription's; no written account of the tunnel has been found. The lidar gives the ground here as 9,818 ft and at the other end as 9,777 ft, so the water is taken to run from here eastward: inferred.",
+    "sources": [
+     "source:owner-field-photographs",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "kind": "water works",
+    "on_lines": [],
+    "summary": "The west portal of a water tunnel built in 1952 for the Broadmoor Hotel Water and Power Company, by its own inscription. About 350 ft from the Short Line's old grade.",
+    "valid_from": 1952
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.97287,
+     38.72825
+    ]
+   },
+   "properties": {
+    "id": "place:platt-rogers-tunnel-east",
+    "name": "Platt Rogers Tunnel, east end (inferred)",
+    "grade": "inferred",
+    "error_ft": 60,
+    "basis": "The owner's photographs of 30 August 2026 show a concrete headwall here at the head of a cut (phone position, stated error 7 ft). It stands 6,075 ft from the lettered portal, which fits the '6100 FEET LONG' lettered there, and 40 ft lower by the lidar; it carries no lettering in the photographs. Taken to be the tunnel's other end on those grounds. Penrose-Rosemont Reservoir lies 0.7 mile further east and about 95 ft lower; that the tunnel feeds it is a guess.",
+    "sources": [
+     "source:owner-field-photographs",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "kind": "water works",
+    "on_lines": [],
+    "summary": "A concrete headwall taken to be the east end of the Platt Rogers water tunnel, by its distance from the lettered portal.",
+    "valid_from": 1952
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.83465,
      38.828292
     ]

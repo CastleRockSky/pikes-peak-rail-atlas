@@ -180,5 +180,28 @@
   "holder": "The atlas's owner",
   "date": "2025-2026",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:usgs-big-bull-mountain-1951",
+  "kind": "map",
+  "title": "U.S. Geological Survey, Big Bull Mountain, Colo., 7.5-minute topographic map, 1:24,000, 1951 (Historical Topographic Map Collection)",
+  "holder": "U.S. Geological Survey; copy in research/maps/usgs/",
+  "date": "1951",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:skaguay-secondary",
+  "kind": "secondary accounts",
+  "title": "Accounts of the Pikes Peak Power Company's Skaguay plant: a trade notice of 2 August 1902 as reprinted at reference.insulators.info (pipe 23,200 ft of 30-inch redwood stave; tunnel 1,535 ft), a Colorado Springs Gazette-Telegraph page, R. Carrigan's 2008 article quoting K. W. Geddes (Pikes Peak Westerners, 1979), and a Victor local-history site. Read only as summarised by a web search on 2026-11-25, except Carrigan's article, which was read; none is a primary record seen by the project",
+  "holder": "Various",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:dpl-skaguay-photograph",
+  "kind": "photograph",
+  "title": "Denver Public Library, Western History Collection, Z-6286: 'High trestle, Skaguay, Colorado', Bill Lehr, 1890-1910 as catalogued",
+  "holder": "Denver Public Library, Western History Collection",
+  "url": "https://digital.denverlibrary.org/nodes/view/1117852",
+  "accessed": "2026-11-25"
  }
 ]

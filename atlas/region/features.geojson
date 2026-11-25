@@ -1,0 +1,645 @@
+{
+ "type": "FeatureCollection",
+ "_about": "Lines in the region that are not railways. Written by atlas/tools/once_skaguay_pipeline.py; drawn by web/region.html. Not checked by validate.py.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.046704,
+      38.685589
+     ],
+     [
+      -105.046796,
+      38.685246
+     ],
+     [
+      -105.047255,
+      38.684435
+     ],
+     [
+      -105.047829,
+      38.683534
+     ],
+     [
+      -105.047897,
+      38.682092
+     ],
+     [
+      -105.047897,
+      38.681488
+     ],
+     [
+      -105.047828,
+      38.681055
+     ],
+     [
+      -105.048,
+      38.68074
+     ],
+     [
+      -105.048344,
+      38.680244
+     ],
+     [
+      -105.048666,
+      38.679928
+     ],
+     [
+      -105.048723,
+      38.679568
+     ],
+     [
+      -105.048918,
+      38.679117
+     ],
+     [
+      -105.048918,
+      38.678937
+     ],
+     [
+      -105.048964,
+      38.678486
+     ],
+     [
+      -105.04901,
+      38.678036
+     ],
+     [
+      -105.049205,
+      38.677585
+     ],
+     [
+      -105.049434,
+      38.67718
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-a",
+    "name": "Skaguay pipeline, from the pipe seen near the dam to the first side valley",
+    "kind": "pipeline",
+    "grade": "inferred",
+    "error_ft": 30,
+    "length_ft": 3234,
+    "basis": "A thin raised line shows on the 1 m lidar from the place where the owner photographed the wood-stave pipe, running south along the west side of the valley. Over its last 1,500 ft the ground on it reads 8,849 to 8,856 ft at twelve points: level to within a few feet while the creek beside it falls away. A path or a road would not hold a level so closely; a water line would. Taken to be the pipe's bed on that ground: inferred, not seen on any map.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:owner-field-photographs",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.049434,
+      38.67718
+     ],
+     [
+      -105.049607,
+      38.676909
+     ],
+     [
+      -105.049583,
+      38.676413
+     ],
+     [
+      -105.04956,
+      38.675783
+     ],
+     [
+      -105.049353,
+      38.675557
+     ],
+     [
+      -105.049146,
+      38.675332
+     ],
+     [
+      -105.04918,
+      38.674882
+     ],
+     [
+      -105.04918,
+      38.674521
+     ],
+     [
+      -105.049547,
+      38.674115
+     ],
+     [
+      -105.050007,
+      38.67371
+     ],
+     [
+      -105.050179,
+      38.673439
+     ],
+     [
+      -105.051098,
+      38.672267
+     ],
+     [
+      -105.052419,
+      38.671185
+     ],
+     [
+      -105.052993,
+      38.670374
+     ],
+     [
+      -105.0532,
+      38.669923
+     ],
+     [
+      -105.0532,
+      38.669383
+     ],
+     [
+      -105.053107,
+      38.668887
+     ],
+     [
+      -105.052739,
+      38.668392
+     ],
+     [
+      -105.052647,
+      38.668031
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-b",
+    "name": "Skaguay pipeline, across the side valley (line followed, less sure)",
+    "kind": "pipeline",
+    "grade": "inferred",
+    "error_ft": 80,
+    "length_ft": 3787,
+    "basis": "The same thin line continues, but here it drops about 100 ft to the floor of a side valley, runs along its edge at about 8,750 ft, and climbs again to about 8,790 ft. A stave pipe under pressure could cross a valley so, as a sag; a footpath would also look like this. The line is continuous with the stretches either side, which is the reason for taking it as the pipe. Less sure than those.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:owner-field-photographs",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.052647,
+      38.668031
+     ],
+     [
+      -105.052681,
+      38.66758
+     ],
+     [
+      -105.052876,
+      38.66713
+     ],
+     [
+      -105.053106,
+      38.666634
+     ],
+     [
+      -105.053105,
+      38.666319
+     ],
+     [
+      -105.052933,
+      38.665868
+     ],
+     [
+      -105.052852,
+      38.665508
+     ],
+     [
+      -105.053105,
+      38.665282
+     ],
+     [
+      -105.053392,
+      38.664967
+     ],
+     [
+      -105.053219,
+      38.664561
+     ],
+     [
+      -105.053046,
+      38.664516
+     ],
+     [
+      -105.052908,
+      38.664066
+     ],
+     [
+      -105.052873,
+      38.66348
+     ],
+     [
+      -105.052586,
+      38.663075
+     ],
+     [
+      -105.052585,
+      38.662804
+     ],
+     [
+      -105.05293,
+      38.662263
+     ],
+     [
+      -105.053447,
+      38.661722
+     ],
+     [
+      -105.053676,
+      38.661317
+     ],
+     [
+      -105.053791,
+      38.660956
+     ],
+     [
+      -105.05394,
+      38.660461
+     ],
+     [
+      -105.054078,
+      38.66001
+     ],
+     [
+      -105.054307,
+      38.659514
+     ],
+     [
+      -105.054594,
+      38.659108
+     ],
+     [
+      -105.055283,
+      38.658703
+     ],
+     [
+      -105.0558,
+      38.658387
+     ],
+     [
+      -105.05603,
+      38.658207
+     ],
+     [
+      -105.056892,
+      38.657485
+     ],
+     [
+      -105.056834,
+      38.657125
+     ],
+     [
+      -105.056776,
+      38.656584
+     ],
+     [
+      -105.056867,
+      38.655953
+     ],
+     [
+      -105.057005,
+      38.655457
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-c",
+    "name": "Skaguay pipeline, the level run above Beaver Creek",
+    "kind": "pipeline",
+    "grade": "inferred",
+    "error_ft": 30,
+    "length_ft": 5166,
+    "basis": "The line holds 8,789 to 8,803 ft at nearly every point read over about a mile, while the creek drops well below it and the line leaves the creek for the hillside to the south-west. It dips once into a small gully for about 300 ft (taken to have been bridged) and is level again beyond. Taken to be the pipe's bed on the strength of that level: inferred.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:owner-field-photographs",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.057005,
+      38.655457
+     ],
+     [
+      -105.057074,
+      38.655412
+     ],
+     [
+      -105.057154,
+      38.655214
+     ],
+     [
+      -105.057234,
+      38.655007
+     ],
+     [
+      -105.057372,
+      38.654826
+     ],
+     [
+      -105.057487,
+      38.654637
+     ],
+     [
+      -105.057452,
+      38.65443
+     ],
+     [
+      -105.057314,
+      38.654241
+     ],
+     [
+      -105.057291,
+      38.654024
+     ],
+     [
+      -105.05736,
+      38.653817
+     ],
+     [
+      -105.057475,
+      38.653637
+     ],
+     [
+      -105.057474,
+      38.653421
+     ],
+     [
+      -105.057543,
+      38.653222
+     ],
+     [
+      -105.057715,
+      38.65306
+     ],
+     [
+      -105.057922,
+      38.652925
+     ],
+     [
+      -105.058118,
+      38.65278
+     ],
+     [
+      -105.05814,
+      38.652582
+     ],
+     [
+      -105.058336,
+      38.652447
+     ],
+     [
+      -105.058542,
+      38.652348
+     ],
+     [
+      -105.058542,
+      38.652176
+     ],
+     [
+      -105.058737,
+      38.652041
+     ],
+     [
+      -105.058956,
+      38.651924
+     ],
+     [
+      -105.059151,
+      38.651771
+     ],
+     [
+      -105.059036,
+      38.65159
+     ],
+     [
+      -105.058829,
+      38.651455
+     ],
+     [
+      -105.058576,
+      38.651392
+     ],
+     [
+      -105.058335,
+      38.651293
+     ],
+     [
+      -105.058105,
+      38.651176
+     ],
+     [
+      -105.057852,
+      38.651077
+     ],
+     [
+      -105.05761,
+      38.650978
+     ],
+     [
+      -105.057438,
+      38.650816
+     ],
+     [
+      -105.057438,
+      38.650618
+     ],
+     [
+      -105.057415,
+      38.65042
+     ],
+     [
+      -105.057426,
+      38.650239
+     ],
+     [
+      -105.057495,
+      38.650032
+     ],
+     [
+      -105.057345,
+      38.64987
+     ],
+     [
+      -105.057425,
+      38.649672
+     ],
+     [
+      -105.057402,
+      38.649482
+     ],
+     [
+      -105.057299,
+      38.649347
+     ],
+     [
+      -105.057264,
+      38.649149
+     ],
+     [
+      -105.057448,
+      38.648996
+     ],
+     [
+      -105.057436,
+      38.648779
+     ],
+     [
+      -105.057298,
+      38.648599
+     ],
+     [
+      -105.057068,
+      38.648482
+     ],
+     [
+      -105.056999,
+      38.648311
+     ],
+     [
+      -105.056907,
+      38.648131
+     ],
+     [
+      -105.056746,
+      38.648023
+     ],
+     [
+      -105.05655,
+      38.64686
+     ],
+     [
+      -105.056435,
+      38.646806
+     ],
+     [
+      -105.056423,
+      38.646608
+     ],
+     [
+      -105.056527,
+      38.64641
+     ],
+     [
+      -105.056343,
+      38.646275
+     ],
+     [
+      -105.056136,
+      38.64614
+     ],
+     [
+      -105.05609,
+      38.64604
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-d",
+    "name": "Skaguay pipeline, continued as a level line (computed, not seen)",
+    "kind": "pipeline",
+    "grade": "conjecture",
+    "error_ft": 150,
+    "length_ft": 4173,
+    "basis": "Beyond the last point where the line can be seen, this is the 8,792 ft level followed along the hillside by calculation, with one gully of 400 ft jumped. A cut shelf was detected along most of it, which is some support, but the thin line itself could not be picked out among the cliffs here. It ends where it meets a straight track climbing to the plateau. Conjecture.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:owner-field-photographs",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.048808,
+      38.635157
+     ],
+     [
+      -105.050371,
+      38.635625
+     ],
+     [
+      -105.051406,
+      38.636346
+     ],
+     [
+      -105.052555,
+      38.637111
+     ],
+     [
+      -105.053935,
+      38.638057
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-incline",
+    "name": "Incline above the Skaguay power plant (lower part)",
+    "kind": "incline",
+    "grade": "measured",
+    "error_ft": 20,
+    "length_ft": 1826,
+    "basis": "A dead-straight cut up the slope from the plant's pad, plain on the 1 m lidar for 1,800 ft and drawn on the 1951 USGS map as a double-dashed line. The accounts say the plant was reached by a cable car. Whether the pressure pipe to the plant ran down the same cut is not established. Above this point the line passes a cliff and goes on to the plateau as a track.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-big-bull-mountain-1951",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  }
+ ]
+}
