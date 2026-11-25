@@ -560,10 +560,11 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99249992: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded.",
+    "basis": "OpenStreetMap way 99249992: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded. On the 1 m lidar the route passes under cover here for about 246 ft (up to 64 ft of ground above the grade line), from 38.87180, -104.92933 to 38.87140, -104.92874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the 1 m lidar the route passes under cover here for about 492 ft (up to 96 ft of ground above the grade line), from 38.87131, -104.92871 to 38.87024, -104.92863: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
      "source:osm-railways",
-     "source:owner-supplied-google-earth"
+     "source:owner-supplied-google-earth",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
@@ -628,10 +629,11 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89570001: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin.",
+    "basis": "OpenStreetMap way 89570001: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin. On the 1 m lidar the route passes under cover here for about 755 ft (up to 99 ft of ground above the grade line), from 38.86882, -104.92956 to 38.86727, -104.92873: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
      "source:osm-railways",
-     "source:owner-supplied-google-earth"
+     "source:owner-supplied-google-earth",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
@@ -662,10 +664,11 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin.",
+    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. On the 1 m lidar the route passes under cover here for about 148 ft (up to 36 ft of ground above the grade line), from 38.87530, -104.93023 to 38.87496, -104.93009: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
      "source:osm-railways",
-     "source:owner-supplied-google-earth"
+     "source:owner-supplied-google-earth",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
@@ -696,10 +699,11 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89569998: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin.",
+    "basis": "OpenStreetMap way 89569998: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin. On the 1 m lidar the route passes under cover here for about 164 ft (up to 38 ft of ground above the grade line), from 38.87392, -104.93013 to 38.87354, -104.93008: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
      "source:osm-railways",
-     "source:owner-supplied-google-earth"
+     "source:owner-supplied-google-earth",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
@@ -730,10 +734,11 @@
     "valid_to": 1921,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 89569990: a tunnel on the grade. Its length is the map trace's. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there.",
+    "basis": "OpenStreetMap way 89569990: a tunnel on the grade. Its length is the map trace's. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there. On the 1 m lidar the route passes under cover here for about 623 ft (up to 36 ft of ground above the grade line), from 38.87625, -104.93372 to 38.87580, -104.93162: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
      "source:osm-railways",
-     "source:owner-supplied-google-earth"
+     "source:owner-supplied-google-earth",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
@@ -753,24 +758,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.885384,
-     38.798358
+     -104.885671,
+     38.797874
     ]
    },
    "properties": {
     "id": "place:cscc-tunnel-a",
-    "name": "Short Line tunnel, about 320 ft (number not established)",
+    "name": "Short Line tunnel, first from Colorado Springs (No. 1 by that order)",
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 117996143: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 117996143: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -786,24 +792,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.8981,
-     38.794323
+     -104.898111,
+     38.794321
     ]
    },
    "properties": {
     "id": "place:cscc-tunnel-b",
-    "name": "Short Line tunnel, about 180 ft (number not established)",
+    "name": "Short Line tunnel, second from Colorado Springs (No. 2 by that order)",
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99568977: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 99568977: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -819,24 +826,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.904028,
-     38.739591
+     -104.904041,
+     38.73957
     ]
    },
    "properties": {
     "id": "place:cscc-tunnel-c",
-    "name": "Short Line tunnel, about 200 ft (number not established)",
+    "name": "Short Line tunnel, eighth from Colorado Springs (No. 8 if the sixth is a tunnel and none is missed)",
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -852,24 +860,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.90767,
+     -104.907648,
      38.752827
     ]
    },
    "properties": {
     "id": "place:cscc-tunnel-d",
-    "name": "Short Line tunnel, about 250 ft (number not established)",
+    "name": "Short Line tunnel, fifth from Colorado Springs (No. 5 if the sixth is a tunnel and none is missed)",
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99569027: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 99569027: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -885,24 +894,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.907081,
-     38.786532
+     -104.907039,
+     38.786478
     ]
    },
    "properties": {
     "id": "place:cscc-tunnel-e",
-    "name": "Short Line tunnel, about 190 ft (number not established)",
+    "name": "Short Line tunnel, third from Colorado Springs (No. 3 by that order)",
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -918,24 +928,25 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.910015,
-     38.736611
+     -104.909454,
+     38.736582
     ]
    },
    "properties": {
     "id": "place:cscc-tunnel-f",
-    "name": "Short Line tunnel, about 270 ft (number not established)",
+    "name": "Short Line tunnel, seventh from Colorado Springs (No. 7 if the sixth is a tunnel and none is missed)",
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -957,18 +968,18 @@
    },
    "properties": {
     "id": "place:cscc-tunnel-h",
-    "name": "Short Line tunnel, about 220 ft (number not established)",
+    "name": "Short Line tunnel, farthest west (No. 9 if the sixth is a tunnel and none is missed)",
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 99569089: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 99569089: a tunnel on the grade. Its length is the map trace's. The westernmost tunnel OpenStreetMap marks on the Short Line, and the ninth counting those found on the lidar east of it. No 1 m lidar is published here, so it has not been tested.",
     "sources": [
      "source:osm-railways"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -995,13 +1006,14 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1028,13 +1040,14 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's.",
+    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:osm-railways"
+     "source:osm-railways",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1348,9 +1361,10 @@
     "name": "Colorado Midland Tunnel 1 (as numbered on a supplied map)",
     "grade": "inferred",
     "error_ft": 150,
-    "basis": "Marked 'Tunnel 1' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded, and it has not been checked on the lidar or the ground.",
+    "basis": "Marked 'Tunnel 1' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded, and it has not been checked on the lidar or the ground. On the 1 m lidar the route passes under cover here for about 213 ft (up to 41 ft of ground above the grade line), from 38.85765, -104.92395 to 38.85777, -104.92326: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
     "sources": [
-     "source:owner-supplied-google-earth"
+     "source:owner-supplied-google-earth",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1394,6 +1408,40 @@
      }
     ],
     "summary": "A tunnel on the Colorado Midland above Manitou, pinned from a supplied map; nothing here has been worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.901747,
+     38.741489
+    ]
+   },
+   "properties": {
+    "id": "place:cscc-tunnel-lidar-6",
+    "name": "Possible Short Line tunnel, sixth from Colorado Springs (No. 6 if the sixth is a tunnel and none is missed)",
+    "grade": "inferred",
+    "error_ft": 60,
+    "basis": "Not on any map held. Found on the lidar only: Counted along the line from Colorado Springs this is the sixth tunnel, at about 15.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 197 ft (up to 121 ft of ground above the grade line), from 38.74169, -104.90197 to 38.74128, -104.90153: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Whether it is a tunnel, a collapsed one or a deep cutting crossed by the road has not been checked.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "tunnel",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": 15.8
+     }
+    ],
+    "summary": "A possible tunnel on the Short Line, found on the lidar; not worked up or confirmed.",
+    "local": {
+     "from": "find_tunnels"
+    }
    }
   },
   {
