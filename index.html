@@ -29,6 +29,7 @@
 <h2>Year</h2>
   <div id="yearlabel">1900</div>
   <input id="year" type="range" min="1885" max="1950" value="1900" step="1">
+  <label id="alllabel" style="display:flex;align-items:center;gap:7px;margin:6px 0 2px;font-size:14.5px;cursor:pointer"><input id="allyears" type="checkbox"> See everything: every line and place, whatever the year</label>
   <p class="note" id="yearnote"></p>
   <h2>Railways</h2><div id="lines"></div>
   <h2>Places</h2>
@@ -78,18 +79,21 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
   pbox.innerHTML = worked.map(f => '<p><a href="' + href(f.properties.id.split(':')[1]) + '"><b>' + esc(f.properties.name) + '</b></a> <span class="note">' + f.properties.kind + '</span></p>').join('') +
     '<p class="note">' + worked.length + ' place' + (worked.length === 1 ? ' is' : 's are') + ' worked up so far. The ' + (places.features.length - worked.length) + ' pins are places still to be done; more are added as each is worked up.</p>';
   const km = lines.map(l => l.segments.length).reduce((a, b) => a + b, 0);
-  document.getElementById('caveat').textContent = 'The lines are OpenStreetMap\'s traces of the abandoned grades inside the corridors fetched so far (' + km + ' pieces), not the whole of each railway, and are checked against lidar only at the worked places. ' +
-    'The Florence and Cripple Creek is represented by two tunnels only. Settlements are pinned because they lie beside a grade, not because a stop there has been confirmed. ' +
+  document.getElementById('caveat').textContent = 'The lines are drawn in ' + km + ' pieces, each with its own grade and error: click a line to see how that stretch is known. Most are continuous routes tested against 1 m lidar; ' +
+    'inside the mining district they are traced from a map of 1903 and are inferred, because the ground is now an open-pit mine. A few short stretches are still not traced (Florence to Phantom Canyon, the Short Line inside Colorado Springs). ' +
+    'A grey pin is a station placed by its timetable mileage, or a place taken from the modern map, and has not been worked up. ' +
     (places.features.length - worked.length) + ' of ' + places.features.length + ' places are pins.';
-  const slider = document.getElementById('year');
+  const slider = document.getElementById('year'), allBox = document.getElementById('allyears');
   function show() {
-    const y = +slider.value; document.getElementById('yearlabel').textContent = y; const open = new Set();
-    for (const s of segLayers) { const on = s.from <= y && y <= s.to; if (on) { open.add(s.line); if (!map.hasLayer(s.layer)) s.layer.addTo(map); } else if (map.hasLayer(s.layer)) map.removeLayer(s.layer); }
-    for (const p of placeLayers) { const on = p.worked ? true : (p.from <= y && y <= p.to); if (on) { if (!map.hasLayer(p.layer)) p.layer.addTo(map); } else if (map.hasLayer(p.layer)) map.removeLayer(p.layer); }
+    const all = allBox.checked, y = +slider.value; const open = new Set();
+    document.getElementById('yearlabel').textContent = all ? 'All years' : y; slider.style.opacity = all ? 0.4 : 1;
+    for (const s of segLayers) { const on = all || (s.from <= y && y <= s.to); if (on) { open.add(s.line); if (!map.hasLayer(s.layer)) s.layer.addTo(map); } else if (map.hasLayer(s.layer)) map.removeLayer(s.layer); }
+    for (const p of placeLayers) { const on = all || p.worked ? true : (p.from <= y && y <= p.to); if (on) { if (!map.hasLayer(p.layer)) p.layer.addTo(map); } else if (map.hasLayer(p.layer)) map.removeLayer(p.layer); }
     for (const id in rows) rows[id].classList.toggle('off', !open.has(id));
-    document.getElementById('yearnote').textContent = open.size ? open.size + ' of ' + lines.length + ' railways running.' : 'No railway running in this year.';
+    document.getElementById('yearnote').textContent = all ? 'Every railway and place in the atlas, from every year at once. They did not all exist together: move the slider to see a single year.'
+      : open.size ? open.size + ' of ' + lines.length + ' railways running.' : 'No railway running in this year.';
   }
-  slider.oninput = show; show();
+  slider.oninput = () => { allBox.checked = false; show(); }; allBox.onchange = show; show();
   window.atlasRegion = { map, lines, places, show };
 });
 </script>
