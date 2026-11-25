@@ -37937,7 +37937,7 @@
   "valid_to": 1949,
   "grade": "measured",
   "error_ft": 40,
-  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.7 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line goes on by the routes below. An OpenStreetMap piece running 2.85 miles south-west from Gillett, once shown as part of this line, is removed: the USGS district map of 1903 draws no railway there and it follows the present Highway 67. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 4.75 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. It now stops west of Victor, where it nears a bench that survives on the foot of Squaw Mountain; that bench carries the line to Victor Junction and the depot leg (the map's line lay up to 150 m from the bench there). Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor goes on in the next route (see atlas/tools/once_route_mt_victor_side.py and once_route_victor_sanborn.py). Through Victor the line is 0.78 miles of pieces taken from the Sanborn fire insurance sheets of December 1908 (sheets 2 and 3, fitted to the present street corners to 2 to 4 m RMS), with the 1903 map above the town (42 per cent smooth on the 1 m lidar, weighted by length). The sheets of 1896, 1900 and 1908 agree: the main track passes the north-west corner of the town, and the depot at 4th Street and Granite Avenue stands on a leg lettered 'Switchback', entered by reversing (Moody's of 1917 describes a branch to Victor). The main track past the town and the track by the depot lie on surviving smooth ground and are measured; the leg is inferred, good to about 25 ft. Where the leg left the main track is not on any sheet read; it was found on the lidar west of the town (next route). Above the town, from the rim of the open pit down, the line follows the 1903 map through ground the pit and its dumps have replaced (see atlas/tools/once_route_victor_sanborn.py). West of the town the main track and the depot leg are carried 0.77 miles on two benches that survive on the south-west foot of Squaw Mountain (83 per cent smooth on the 1 m lidar, weighted by length; the two benches themselves read 100 per cent). The main track falls westward from 3,015 to 3,004 m and the leg climbs westward from 2,990 to 3,002 m; they meet at a sharp angle 400 m west of the leg's end on the Sanborn sheet, so the depot was reached by running past and backing down. By the drawn line that meeting point is 0.56 mile from the depot, and the timetables of 1920 and 1932 print Victor Junction 0.6 mile from Victor: it is taken to be Victor Junction, and replaces a join that was marked conjecture. The 'Switchback' of the 1920 timetable is a different place, 1.1 miles before Victor on the Independence side, not located. West of the junction one bench is followed a fifth of a mile toward Eclipse, poorly (see atlas/tools/once_route_victor_joins.py).",
+  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.67 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line goes on by the routes below. An OpenStreetMap piece running 2.85 miles south-west from Gillett, once shown as part of this line, is removed: the USGS district map of 1903 draws no railway there and it follows the present Highway 67. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 4.75 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. It now stops west of Victor, where it nears a bench that survives on the foot of Squaw Mountain; that bench carries the line to Victor Junction and the depot leg (the map's line lay up to 150 m from the bench there). Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor goes on in the next route (see atlas/tools/once_route_mt_victor_side.py and once_route_victor_sanborn.py). Through Victor the line is 0.78 miles of pieces taken from the Sanborn fire insurance sheets of December 1908 (sheets 2 and 3, fitted to the present street corners to 2 to 4 m RMS), with the 1903 map above the town (42 per cent smooth on the 1 m lidar, weighted by length). The sheets of 1896, 1900 and 1908 agree: the main track passes the north-west corner of the town, and the depot at 4th Street and Granite Avenue stands on a leg lettered 'Switchback', entered by reversing (Moody's of 1917 describes a branch to Victor). The main track past the town and the track by the depot lie on surviving smooth ground and are measured; the leg is inferred, good to about 25 ft. Where the leg left the main track is not on any sheet read; it was found on the lidar west of the town (next route). Above the town, from the rim of the open pit down, the line follows the 1903 map through ground the pit and its dumps have replaced (see atlas/tools/once_route_victor_sanborn.py). West of the town the main track and the depot leg are carried 0.77 miles on two benches that survive on the south-west foot of Squaw Mountain (83 per cent smooth on the 1 m lidar, weighted by length; the two benches themselves read 100 per cent). The main track falls westward from 3,015 to 3,004 m and the leg climbs westward from 2,990 to 3,002 m; they meet at a sharp angle 400 m west of the leg's end on the Sanborn sheet, so the depot was reached by running past and backing down. By the drawn line that meeting point is 0.56 mile from the depot, and the timetables of 1920 and 1932 print Victor Junction 0.6 mile from Victor: it is taken to be Victor Junction, and replaces a join that was marked conjecture. The 'Switchback' of the 1920 timetable is a different place, 1.1 miles before Victor on the Independence side, not located. West of the junction one bench is followed a fifth of a mile toward Eclipse, poorly (see atlas/tools/once_route_victor_joins.py).",
   "sources": [
    "source:osm-railways",
    "source:wikipedia-midland-terminal",
@@ -42334,6 +42334,39 @@
     "from_route": "routes/midland-terminal-divide-to-independence.json"
    },
    {
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "inferred",
+    "error_ft": 50,
+    "basis": "Through the Midland Terminal's tunnel at Waters. The 1951 USGS map draws a tunnel here and the 1 m lidar shows a cut each side of the hill at one level; the two portals are placed from the lidar, the far one to about 50 ft, and the bore is drawn straight between them, about 405 ft. The trace this replaces followed the highway's bypass of 1994 round the hill, up to 170 ft away. The curve from the north-east portal back to the old line is not resolved.",
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.135701,
+       38.836094
+      ],
+      [
+       -105.136291,
+       38.835483
+      ],
+      [
+       -105.137246,
+       38.834662
+      ],
+      [
+       -105.137499,
+       38.834427
+      ],
+      [
+       -105.13754,
+       38.834035
+      ]
+     ]
+    },
+    "from_route": "routes/midland-terminal-divide-to-independence.json"
+   },
+   {
     "geometry": {
      "type": "LineString",
      "coordinates": [
@@ -42567,121 +42600,14 @@
     "from_route": "routes/midland-terminal-divide-to-independence.json"
    },
    {
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "Mile 10 to 11 from Divide. On the 1 m lidar 91% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.6 ft). From the OpenStreetMap trace; taken as the railway grade.",
     "geometry": {
      "type": "LineString",
      "coordinates": [
-      [
-       -105.138388,
-       38.839734
-      ],
-      [
-       -105.138045,
-       38.839709
-      ],
-      [
-       -105.137718,
-       38.839626
-      ],
-      [
-       -105.137413,
-       38.839499
-      ],
-      [
-       -105.137146,
-       38.83933
-      ],
-      [
-       -105.136928,
-       38.839121
-      ],
-      [
-       -105.136792,
-       38.838872
-      ],
-      [
-       -105.136655,
-       38.838624
-      ],
-      [
-       -105.136519,
-       38.838376
-      ],
-      [
-       -105.136382,
-       38.838127
-      ],
-      [
-       -105.136245,
-       38.837879
-      ],
-      [
-       -105.136109,
-       38.837631
-      ],
-      [
-       -105.135972,
-       38.837382
-      ],
-      [
-       -105.135835,
-       38.837134
-      ],
-      [
-       -105.13571,
-       38.836882
-      ],
-      [
-       -105.135625,
-       38.836622
-      ],
-      [
-       -105.13561,
-       38.836353
-      ],
-      [
-       -105.135701,
-       38.836094
-      ],
-      [
-       -105.135892,
-       38.835871
-      ],
-      [
-       -105.13617,
-       38.835718
-      ],
-      [
-       -105.136496,
-       38.835631
-      ],
-      [
-       -105.136827,
-       38.835552
-      ],
-      [
-       -105.137152,
-       38.835462
-      ],
-      [
-       -105.137418,
-       38.835297
-      ],
-      [
-       -105.137621,
-       38.835078
-      ],
-      [
-       -105.13771,
-       38.834819
-      ],
-      [
-       -105.137742,
-       38.83455
-      ],
-      [
-       -105.137666,
-       38.834286
-      ],
       [
        -105.13754,
        38.834035
@@ -42792,11 +42718,91 @@
       ]
      ]
     },
+    "from_route": "routes/midland-terminal-divide-to-independence.json"
+   },
+   {
     "valid_from": 1894,
     "valid_to": 1949,
     "grade": "measured",
     "error_ft": 20,
     "basis": "Mile 10 to 11 from Divide. On the 1 m lidar 91% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.6 ft). From the OpenStreetMap trace; taken as the railway grade.",
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.138388,
+       38.839734
+      ],
+      [
+       -105.138045,
+       38.839709
+      ],
+      [
+       -105.137718,
+       38.839626
+      ],
+      [
+       -105.137413,
+       38.839499
+      ],
+      [
+       -105.137146,
+       38.83933
+      ],
+      [
+       -105.136928,
+       38.839121
+      ],
+      [
+       -105.136792,
+       38.838872
+      ],
+      [
+       -105.136655,
+       38.838624
+      ],
+      [
+       -105.136519,
+       38.838376
+      ],
+      [
+       -105.136382,
+       38.838127
+      ],
+      [
+       -105.136245,
+       38.837879
+      ],
+      [
+       -105.136109,
+       38.837631
+      ],
+      [
+       -105.135972,
+       38.837382
+      ],
+      [
+       -105.135835,
+       38.837134
+      ],
+      [
+       -105.13571,
+       38.836882
+      ],
+      [
+       -105.135625,
+       38.836622
+      ],
+      [
+       -105.13561,
+       38.836353
+      ],
+      [
+       -105.135701,
+       38.836094
+      ]
+     ]
+    },
     "from_route": "routes/midland-terminal-divide-to-independence.json"
    },
    {

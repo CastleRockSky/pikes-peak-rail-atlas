@@ -3174,9 +3174,9 @@
    "places": [
     {
      "place": "place:cscc-tunnel-c",
-     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
-     "how": "probable",
-     "note": "Captioned Tunnel No. 8. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+     "name": "Short Line Tunnel No. 8",
+     "how": "named",
+     "note": "Captioned Tunnel No. 8. The number is the National Register nomination's."
     }
    ]
   }
@@ -3222,9 +3222,9 @@
    "places": [
     {
      "place": "place:cscc-tunnel-c",
-     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
-     "how": "probable",
-     "note": "Captioned 'East from Tunnel No. 8'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+     "name": "Short Line Tunnel No. 8",
+     "how": "named",
+     "note": "Captioned 'East from Tunnel No. 8'. The number is the National Register nomination's."
     }
    ]
   }
@@ -3270,9 +3270,9 @@
    "places": [
     {
      "place": "place:cscc-tunnel-c",
-     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
-     "how": "probable",
-     "note": "Captioned 'Looking west from tunnel eight'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+     "name": "Short Line Tunnel No. 8",
+     "how": "named",
+     "note": "Captioned 'Looking west from tunnel eight'. The number is the National Register nomination's."
     }
    ]
   }
@@ -3319,9 +3319,9 @@
    "places": [
     {
      "place": "place:cscc-tunnel-c",
-     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
-     "how": "probable",
-     "note": "Captioned 'North from Tunnel 8'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+     "name": "Short Line Tunnel No. 8",
+     "how": "named",
+     "note": "Captioned 'North from Tunnel 8'. The number is the National Register nomination's."
     },
     {
      "place": "place:duffield",
@@ -3373,9 +3373,9 @@
    "places": [
     {
      "place": "place:cscc-tunnel-c",
-     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
-     "how": "probable",
-     "note": "Captioned 'Tunnels 8 and 9'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled. No. 9 has no pin: it is not yet found."
+     "name": "Short Line Tunnel No. 8",
+     "how": "named",
+     "note": "Captioned 'Tunnels 8 and 9'. The number is the National Register nomination's. No. 9 is west of Clyde, 6.6 miles away, so the caption's '9' is taken to be a mislabel for 6, as the sister print has it."
     }
    ]
   }
@@ -3422,14 +3422,14 @@
    "places": [
     {
      "place": "place:cscc-tunnel-c",
-     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
-     "how": "probable",
-     "note": "Captioned 'Tunnels 8 and 6'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+     "name": "Short Line Tunnel No. 8",
+     "how": "named",
+     "note": "Captioned 'Tunnels 8 and 6'. The number is the National Register nomination's."
     },
     {
      "place": "place:cscc-tunnel-lidar-6",
-     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
-     "how": "probable",
+     "name": "Short Line Tunnel No. 6 (shut; found on the lidar)",
+     "how": "named",
      "note": "The library's description says Tunnel 6 is hidden by smoke at the left."
     }
    ]
@@ -3460,7 +3460,9 @@
   "thumb": "img/collection/t/dpl-mcc-114.jpg",
   "w": 2000,
   "h": 1614,
-  "shows": [],
+  "shows": [
+   "place:cscc-tunnel-h"
+  ],
   "topics": [
    "Short Line",
    "tunnel"
@@ -3470,7 +3472,15 @@
    "railway": "Short Line",
    "form": "photograph",
    "library": true,
-   "source_file": "research/library/tunnels/dpl-mcc-114.jpg"
+   "source_file": "research/library/tunnels/dpl-mcc-114.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-h",
+     "name": "Short Line Tunnel No. 9 (west of Clyde)",
+     "how": "named",
+     "note": "Captioned 'At Tunnel No. 9'. The library's description mentions a side track; Clyde had one."
+    }
+   ]
   }
  },
  {
@@ -3514,8 +3524,8 @@
    "places": [
     {
      "place": "place:cscc-tunnel-lidar-6",
-     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
-     "how": "probable",
+     "name": "Short Line Tunnel No. 6 (shut; found on the lidar)",
+     "how": "named",
      "note": "Captioned 'Colo. Springs and Tunnel No. 6'. The sixth tunnel found on the lidar."
     }
    ]
@@ -3608,6 +3618,53 @@
   }
  },
  {
+  "id": "photo:region:dpl-z-6286",
+  "name": "High trestle, Skaguay, Colorado",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-skaguay-photograph"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Library: cliffs and a Southern Colorado Power Company trestle near Skaguay Reservoir; the tracks were part of the electrical supply plant for the Cripple Creek district; subject heading 'Inclined railroads'. Seen: a tall timber trestle carrying a single track steeply up across the foot of a granite cliff, with pole lines beside it. Lettered on the print 'HIGH TRESTLE SKAGUAY COLO'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "Z-6286",
+  "url": "https://digital.denverlibrary.org/nodes/view/1117852",
+  "photographer": "Lehr, Bill",
+  "date": "1890-1910",
+  "date_basis": "the library's catalogue; the plant is said to date from 1901",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the lettering on the print.",
+  "credit": "Denver Public Library, Western History Collection, Z-6286",
+  "image": "img/collection/dpl-z-6286.jpg",
+  "thumb": "img/collection/t/dpl-z-6286.jpg",
+  "w": 1377,
+  "h": 2200,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "postcard"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "postcard",
+   "library": true,
+   "source_file": "research/library/skaguay/dpl-z-6286.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "probable",
+     "note": "An inclined track on a trestle at Skaguay; the plant was reached by a cable incline, and the lidar shows a straight incline above the plant site. Where on it this trestle stood is not established."
+    }
+   ]
+  }
+ },
+ {
   "id": "photo:region:field-img-6368",
   "name": "Inside the third Short Line tunnel, looking through",
   "grade": "measured",
@@ -3653,7 +3710,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-e",
-     "name": "Short Line tunnel, third from Colorado Springs (No. 3 by that order)",
+     "name": "Short Line Tunnel No. 3",
      "how": "position",
      "note": "Taken about 45 ft from the pin."
     }
@@ -3706,7 +3763,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-e",
-     "name": "Short Line tunnel, third from Colorado Springs (No. 3 by that order)",
+     "name": "Short Line Tunnel No. 3",
      "how": "position",
      "note": "Taken about 45 ft from the pin."
     }
@@ -3759,7 +3816,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-lidar-6",
-     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
+     "name": "Short Line Tunnel No. 6 (shut; found on the lidar)",
      "how": "position",
      "note": "Taken about 25 ft from the portal found on the lidar."
     }
@@ -3812,7 +3869,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-lidar-6",
-     "name": "Short Line tunnel, sixth from Colorado Springs (probably No. 6); found on the lidar, said to be blasted shut",
+     "name": "Short Line Tunnel No. 6 (shut; found on the lidar)",
      "how": "position",
      "note": "Taken about 25 ft from the portal found on the lidar."
     }
@@ -3865,7 +3922,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-f",
-     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "name": "Short Line Tunnel No. 7",
      "how": "position",
      "note": "Taken about 110 ft from the portal found on the lidar."
     }
@@ -3918,7 +3975,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-f",
-     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "name": "Short Line Tunnel No. 7",
      "how": "position",
      "note": "Taken about 200 ft from the pin."
     }
@@ -3965,7 +4022,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-f",
-     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "name": "Short Line Tunnel No. 7",
      "how": "position",
      "note": "No position in the file. Placed here only by its time, between two pictures taken at this tunnel three minutes apart."
     }
@@ -4018,7 +4075,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-f",
-     "name": "Short Line tunnel, seventh from Colorado Springs (probably No. 7)",
+     "name": "Short Line Tunnel No. 7",
      "how": "position",
      "note": "Taken on the route about 500 ft from the pin."
     }
@@ -4071,7 +4128,7 @@
    "places": [
     {
      "place": "place:cscc-tunnel-c",
-     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "name": "Short Line Tunnel No. 8",
      "how": "position",
      "note": "Taken about 15 ft from the portal found on the lidar."
     }
@@ -4557,7 +4614,7 @@
  },
  {
   "id": "photo:region:field-img-1568",
-  "name": "A concrete portal in a red cut at Waters",
+  "name": "The south-west portal of the Midland Terminal tunnel at Waters",
   "grade": "measured",
   "basis": "Described from the photograph itself. Position 38.83459, -105.13744 and direction 78 degrees are the phone's own (stated error 34 ft); the date is the camera file's.",
   "sources": [
@@ -4566,7 +4623,7 @@
   "status": "reviewed",
   "contributor": "project",
   "updated": "2026-11-25",
-  "notes": "A concrete-framed tunnel mouth at the head of a deep cut in red gravel, forest above.",
+  "notes": "A tunnel mouth faced with timber planks, half buried by heaps of red spoil, at the head of a deep cut in red gravel with forest above.",
   "holder": "The atlas's owner",
   "photographer": "The atlas's owner",
   "date": "2026-07-03",
@@ -4579,7 +4636,7 @@
   "w": 2048,
   "h": 1536,
   "shows": [
-   "place:waters"
+   "place:mt-tunnel-waters"
   ],
   "topics": [
    "Midland Terminal",
@@ -4600,17 +4657,17 @@
    "position_error_ft": 34,
    "places": [
     {
-     "place": "place:waters",
-     "name": "Waters",
+     "place": "place:mt-tunnel-waters",
+     "name": "Midland Terminal tunnel at Waters (later a highway tunnel, now shut)",
      "how": "position",
-     "note": "Taken about 185 ft from the pin and 90 ft from the Midland Terminal's route. Not yet identified from a source."
+     "note": "Taken about 50 ft from the portal found on the lidar."
     }
    ]
   }
  },
  {
   "id": "photo:region:field-img-1569",
-  "name": "Down the cut at Waters",
+  "name": "Down the approach cut from the tunnel at Waters",
   "grade": "measured",
   "basis": "Described from the photograph itself. Position 38.83472, -105.13724 and direction 204 degrees are the phone's own (stated error 41 ft); the date is the camera file's.",
   "sources": [
@@ -4632,7 +4689,7 @@
   "w": 2048,
   "h": 1536,
   "shows": [
-   "place:waters"
+   "place:mt-tunnel-waters"
   ],
   "topics": [
    "Midland Terminal",
@@ -4653,10 +4710,10 @@
    "position_error_ft": 41,
    "places": [
     {
-     "place": "place:waters",
-     "name": "Waters",
+     "place": "place:mt-tunnel-waters",
+     "name": "Midland Terminal tunnel at Waters (later a highway tunnel, now shut)",
      "how": "position",
-     "note": "Taken about 245 ft from the pin."
+     "note": "Taken about 50 ft from the south-west portal, looking away from it."
     }
    ]
   }
@@ -5767,53 +5824,6 @@
    "form": "field photograph",
    "field": true,
    "source_file": "New Photos/icloud/IMG_4517.JPG"
-  }
- },
- {
-  "id": "photo:region:dpl-z-6286",
-  "name": "High trestle, Skaguay, Colorado",
-  "grade": "measured",
-  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
-  "sources": [
-   "source:dpl-skaguay-photograph"
-  ],
-  "status": "reviewed",
-  "contributor": "project",
-  "updated": "2026-11-25",
-  "notes": "Library: cliffs and a Southern Colorado Power Company trestle near Skaguay Reservoir; the tracks were part of the electrical supply plant for the Cripple Creek district; subject heading 'Inclined railroads'. Seen: a tall timber trestle carrying a single track steeply up across the foot of a granite cliff, with pole lines beside it. Lettered on the print 'HIGH TRESTLE SKAGUAY COLO'.",
-  "holder": "Denver Public Library, Western History Collection",
-  "call_number": "Z-6286",
-  "url": "https://digital.denverlibrary.org/nodes/view/1117852",
-  "photographer": "Lehr, Bill",
-  "date": "1890-1910",
-  "date_basis": "the library's catalogue; the plant is said to date from 1901",
-  "rights": "licensed",
-  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the lettering on the print.",
-  "credit": "Denver Public Library, Western History Collection, Z-6286",
-  "image": "img/collection/dpl-z-6286.jpg",
-  "thumb": "img/collection/t/dpl-z-6286.jpg",
-  "w": 1377,
-  "h": 2200,
-  "shows": [
-   "place:skaguay-power-plant"
-  ],
-  "topics": [
-   "water works",
-   "postcard"
-  ],
-  "kind": "photograph",
-  "local": {
-   "form": "postcard",
-   "library": true,
-   "source_file": "research/library/skaguay/dpl-z-6286.jpg",
-   "places": [
-    {
-     "place": "place:skaguay-power-plant",
-     "name": "Skaguay power plant (Pikes Peak Power Company), site",
-     "how": "probable",
-     "note": "An inclined track on a trestle at Skaguay; the plant was reached by a cable incline, and the lidar shows a straight incline above the plant site. Where on it this trestle stood is not established."
-    }
-   ]
   }
  }
 ]

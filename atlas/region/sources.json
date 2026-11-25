@@ -203,5 +203,29 @@
   "holder": "Denver Public Library, Western History Collection",
   "url": "https://digital.denverlibrary.org/nodes/view/1117852",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:nrhp-cscc-1999",
+  "kind": "register nomination",
+  "title": "National Register of Historic Places nomination, 'Colorado Springs & Cripple Creek District Railway / Corley Mountain Highway', reference 99000400, prepared by Ron Sladek, Tatanka Historical Associates, 1998; listed 25 March 1999. Lists the nine tunnels by number, milepost from Point Sublime and length",
+  "holder": "National Park Service",
+  "url": "https://npgallery.nps.gov/AssetDetail/NRIS/99000400",
+  "date": "1998",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:usgs-cripple-creek-north-1951",
+  "kind": "map",
+  "title": "U.S. Geological Survey, Cripple Creek North, Colo., 7.5-minute topographic map, 1:24,000, 1951 (and the 1994 edition for comparison)",
+  "holder": "U.S. Geological Survey; copies in research/maps/usgs/",
+  "date": "1951",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:waters-tunnel-secondary",
+  "kind": "secondary accounts",
+  "title": "Accounts of the Midland Terminal tunnel on Colorado Highway 67 ('Little Ike Tunnel'): Wikipedia's articles on the Midland Terminal Railway and on State Highway 67 (both uncited at this point), a photographer's web log of August 2010, the Colorado Mountain Club's trail page, and a geotagged Wikimedia Commons photograph of the south portal (2022). None is a railway or highway record",
+  "holder": "Various",
+  "accessed": "2026-11-25"
  }
 ]
