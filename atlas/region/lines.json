@@ -37937,7 +37937,7 @@
   "valid_to": 1949,
   "grade": "measured",
   "error_ft": 40,
-  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.7 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line goes on by the routes below. An OpenStreetMap piece running 2.85 miles south-west from Gillett, once shown as part of this line, is removed: the USGS district map of 1903 draws no railway there and it follows the present Highway 67. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 5.11 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. It now stops west of Victor, where it nears a bench that survives on the foot of Squaw Mountain; that bench carries the line to Victor Junction and the depot leg (the map's line lay up to 150 m from the bench there). Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor goes on in the next route (see atlas/tools/once_route_mt_victor_side.py and once_route_victor_sanborn.py). Through Victor the line is 0.78 miles of pieces taken from the Sanborn fire insurance sheets of December 1908 (sheets 2 and 3, fitted to the present street corners to 2 to 4 m RMS), with the 1903 map above the town (42 per cent smooth on the 1 m lidar, weighted by length). The sheets of 1896, 1900 and 1908 agree: the main track passes the north-west corner of the town, and the depot at 4th Street and Granite Avenue stands on a leg lettered 'Switchback', entered by reversing (Moody's of 1917 describes a branch to Victor). The main track past the town and the track by the depot lie on surviving smooth ground and are measured; the leg is inferred, good to about 25 ft. Where the leg left the main track is not on any sheet read; it was found on the lidar west of the town (next route). Above the town, from the rim of the open pit down, the line follows the 1903 map through ground the pit and its dumps have replaced (see atlas/tools/once_route_victor_sanborn.py). West of the town the main track and the depot leg are carried 0.77 miles on two benches that survive on the south-west foot of Squaw Mountain (83 per cent smooth on the 1 m lidar, weighted by length; the two benches themselves read 100 per cent). The main track falls westward from 3,015 to 3,004 m and the leg climbs westward from 2,990 to 3,002 m; they meet at a sharp angle 400 m west of the leg's end on the Sanborn sheet, so the depot was reached by running past and backing down. By the drawn line that meeting point is 0.56 mile from the depot, and the timetables of 1920 and 1932 print Victor Junction 0.6 mile from Victor: it is taken to be Victor Junction, and replaces a join that was marked conjecture. The 'Switchback' of the 1920 timetable is a different place, 1.1 miles before Victor on the Independence side, not located. West of the junction one bench is followed a fifth of a mile toward Eclipse, poorly (see atlas/tools/once_route_victor_joins.py).",
+  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.7 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line goes on by the routes below. An OpenStreetMap piece running 2.85 miles south-west from Gillett, once shown as part of this line, is removed: the USGS district map of 1903 draws no railway there and it follows the present Highway 67. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 4.75 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. It now stops west of Victor, where it nears a bench that survives on the foot of Squaw Mountain; that bench carries the line to Victor Junction and the depot leg (the map's line lay up to 150 m from the bench there). Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor goes on in the next route (see atlas/tools/once_route_mt_victor_side.py and once_route_victor_sanborn.py). Through Victor the line is 0.78 miles of pieces taken from the Sanborn fire insurance sheets of December 1908 (sheets 2 and 3, fitted to the present street corners to 2 to 4 m RMS), with the 1903 map above the town (42 per cent smooth on the 1 m lidar, weighted by length). The sheets of 1896, 1900 and 1908 agree: the main track passes the north-west corner of the town, and the depot at 4th Street and Granite Avenue stands on a leg lettered 'Switchback', entered by reversing (Moody's of 1917 describes a branch to Victor). The main track past the town and the track by the depot lie on surviving smooth ground and are measured; the leg is inferred, good to about 25 ft. Where the leg left the main track is not on any sheet read; it was found on the lidar west of the town (next route). Above the town, from the rim of the open pit down, the line follows the 1903 map through ground the pit and its dumps have replaced (see atlas/tools/once_route_victor_sanborn.py). West of the town the main track and the depot leg are carried 0.77 miles on two benches that survive on the south-west foot of Squaw Mountain (83 per cent smooth on the 1 m lidar, weighted by length; the two benches themselves read 100 per cent). The main track falls westward from 3,015 to 3,004 m and the leg climbs westward from 2,990 to 3,002 m; they meet at a sharp angle 400 m west of the leg's end on the Sanborn sheet, so the depot was reached by running past and backing down. By the drawn line that meeting point is 0.56 mile from the depot, and the timetables of 1920 and 1932 print Victor Junction 0.6 mile from Victor: it is taken to be Victor Junction, and replaces a join that was marked conjecture. The 'Switchback' of the 1920 timetable is a different place, 1.1 miles before Victor on the Independence side, not located. West of the junction one bench is followed a fifth of a mile toward Eclipse, poorly (see atlas/tools/once_route_victor_joins.py).",
   "sources": [
    "source:osm-railways",
    "source:wikipedia-midland-terminal",
@@ -38106,6 +38106,211 @@
      "type": "LineString",
      "coordinates": [
       [
+       -105.150113,
+       38.718181
+      ],
+      [
+       -105.150333,
+       38.717849
+      ],
+      [
+       -105.1506,
+       38.717578
+      ],
+      [
+       -105.150867,
+       38.717307
+      ],
+      [
+       -105.151134,
+       38.717015
+      ],
+      [
+       -105.151375,
+       38.716744
+      ],
+      [
+       -105.151562,
+       38.716515
+      ],
+      [
+       -105.151633,
+       38.716285
+      ],
+      [
+       -105.151566,
+       38.715992
+      ],
+      [
+       -105.151393,
+       38.715699
+      ],
+      [
+       -105.151236,
+       38.715405
+      ],
+      [
+       -105.151159,
+       38.71507
+      ],
+      [
+       -105.151135,
+       38.714736
+      ],
+      [
+       -105.151127,
+       38.714443
+      ],
+      [
+       -105.15113,
+       38.714025
+      ],
+      [
+       -105.151143,
+       38.713648
+      ],
+      [
+       -105.151267,
+       38.713377
+      ],
+      [
+       -105.151405,
+       38.713036
+      ]
+     ]
+    },
+    "valid_from": 1895,
+    "valid_to": 1949,
+    "grade": "inferred",
+    "error_ft": 300,
+    "basis": "Mile 4.4 to 4.7, down the west flank of Squaw Mountain to Victor Junction. Re-read by hand from the 1903 map at full size on 25 Nov 2026: along the group of railways drawn down the flank, then between the two lines the map draws side by side, about 250 ft apart, which lead into the bench found on the lidar at Victor Junction. Which of the two is the Midland Terminal's cannot be told from the map. The ground is now covered by mine dumps. It replaces a stretch where the first trace ran across the map's lettering in right-angled steps.",
+    "from_route": "routes/midland-terminal-cripple-creek-to-victor.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.15152,
+       38.723406
+      ],
+      [
+       -105.15135,
+       38.723292
+      ],
+      [
+       -105.151258,
+       38.723195
+      ],
+      [
+       -105.151121,
+       38.723115
+      ],
+      [
+       -105.15099,
+       38.723005
+      ],
+      [
+       -105.150925,
+       38.72289
+      ],
+      [
+       -105.15084,
+       38.722791
+      ],
+      [
+       -105.150698,
+       38.722689
+      ],
+      [
+       -105.150627,
+       38.722574
+      ],
+      [
+       -105.150641,
+       38.722459
+      ],
+      [
+       -105.150685,
+       38.722345
+      ],
+      [
+       -105.150492,
+       38.72248
+      ],
+      [
+       -105.150347,
+       38.722437
+      ],
+      [
+       -105.150213,
+       38.722345
+      ],
+      [
+       -105.15007,
+       38.722253
+      ],
+      [
+       -105.149926,
+       38.72217
+      ],
+      [
+       -105.149783,
+       38.722087
+      ],
+      [
+       -105.149649,
+       38.722009
+      ],
+      [
+       -105.14952,
+       38.721955
+      ],
+      [
+       -105.149238,
+       38.721906
+      ],
+      [
+       -105.149093,
+       38.721893
+      ],
+      [
+       -105.148948,
+       38.721909
+      ],
+      [
+       -105.148803,
+       38.721938
+      ],
+      [
+       -105.148657,
+       38.721965
+      ],
+      [
+       -105.148512,
+       38.721991
+      ],
+      [
+       -105.148294,
+       38.72206
+      ],
+      [
+       -105.148148,
+       38.722111
+      ],
+      [
+       -105.148003,
+       38.722134
+      ],
+      [
+       -105.147858,
+       38.722103
+      ],
+      [
+       -105.147713,
+       38.722119
+      ],
+      [
        -105.147567,
        38.722189
       ],
@@ -38166,10 +38371,6 @@
        38.722207
       ],
       [
-       -105.145397,
-       38.722207
-      ],
-      [
        -105.145268,
        38.722262
       ],
@@ -38188,10 +38389,6 @@
       [
        -105.145027,
        38.721826
-      ],
-      [
-       -105.14509,
-       38.721741
       ],
       [
        -105.145141,
@@ -38236,10 +38433,6 @@
       [
        -105.146079,
        38.720821
-      ],
-      [
-       -105.146211,
-       38.72081
       ],
       [
        -105.146351,
@@ -38364,222 +38557,6 @@
       [
        -105.150113,
        38.718181
-      ],
-      [
-       -105.15025,
-       38.718113
-      ],
-      [
-       -105.150335,
-       38.71801
-      ],
-      [
-       -105.150318,
-       38.717895
-      ],
-      [
-       -105.150342,
-       38.71778
-      ],
-      [
-       -105.150345,
-       38.717666
-      ],
-      [
-       -105.150351,
-       38.717551
-      ],
-      [
-       -105.150329,
-       38.717437
-      ],
-      [
-       -105.150341,
-       38.717322
-      ],
-      [
-       -105.15034,
-       38.717208
-      ],
-      [
-       -105.15033,
-       38.717093
-      ],
-      [
-       -105.150331,
-       38.716979
-      ],
-      [
-       -105.150337,
-       38.716864
-      ],
-      [
-       -105.150337,
-       38.71675
-      ],
-      [
-       -105.150391,
-       38.716639
-      ],
-      [
-       -105.15051,
-       38.716535
-      ],
-      [
-       -105.150645,
-       38.716503
-      ],
-      [
-       -105.150759,
-       38.716536
-      ],
-      [
-       -105.150779,
-       38.716565
-      ],
-      [
-       -105.150694,
-       38.716503
-      ],
-      [
-       -105.150573,
-       38.716461
-      ],
-      [
-       -105.150564,
-       38.716349
-      ],
-      [
-       -105.150582,
-       38.716235
-      ],
-      [
-       -105.150558,
-       38.71612
-      ],
-      [
-       -105.150558,
-       38.716006
-      ],
-      [
-       -105.150642,
-       38.715892
-      ],
-      [
-       -105.150692,
-       38.715817
-      ],
-      [
-       -105.150566,
-       38.715835
-      ],
-      [
-       -105.15045,
-       38.715767
-      ],
-      [
-       -105.150382,
-       38.715652
-      ],
-      [
-       -105.150337,
-       38.715537
-      ],
-      [
-       -105.150315,
-       38.715423
-      ],
-      [
-       -105.15033,
-       38.715308
-      ],
-      [
-       -105.150335,
-       38.715194
-      ],
-      [
-       -105.150329,
-       38.715079
-      ],
-      [
-       -105.15033,
-       38.714964
-      ],
-      [
-       -105.150354,
-       38.714906
-      ],
-      [
-       -105.150297,
-       38.714975
-      ],
-      [
-       -105.150161,
-       38.714989
-      ],
-      [
-       -105.150073,
-       38.714897
-      ],
-      [
-       -105.150033,
-       38.714782
-      ],
-      [
-       -105.149994,
-       38.714667
-      ],
-      [
-       -105.149944,
-       38.714552
-      ],
-      [
-       -105.149917,
-       38.714438
-      ],
-      [
-       -105.149865,
-       38.714323
-      ],
-      [
-       -105.149932,
-       38.714215
-      ],
-      [
-       -105.149888,
-       38.714188
-      ],
-      [
-       -105.149786,
-       38.714122
-      ],
-      [
-       -105.14973,
-       38.714008
-      ],
-      [
-       -105.149689,
-       38.713894
-      ],
-      [
-       -105.149634,
-       38.713788
-      ],
-      [
-       -105.149583,
-       38.713673
-      ],
-      [
-       -105.149531,
-       38.713558
-      ],
-      [
-       -105.149502,
-       38.713443
-      ],
-      [
-       -105.151405,
-       38.713036
       ]
      ]
     },
@@ -38587,574 +38564,66 @@
     "valid_to": 1949,
     "grade": "inferred",
     "error_ft": 200,
-    "basis": "Mile 4 to 5 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000). On the 1 m lidar 0% of this mile reads as a smooth grade under 4.5 per cent: the map's line is not confirmed by the ground, much of which is now the open-pit mine or has been regraded. Between Anaconda and Elkton and from Eclipse to Victor the map draws several railways side by side and this trace is not told apart from the Florence and Cripple Creek's. The year 1895 for the opening into Cripple Creek is from secondary sources.",
+    "basis": "Mile 3.5 to 4.4 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000) by following the ink between waypoints read by eye. The ground is now mined and the lidar cannot confirm it. Where the map draws railways side by side the trace is not told apart from the Florence and Cripple Creek's.",
     "from_route": "routes/midland-terminal-cripple-creek-to-victor.json"
    },
    {
     "geometry": {
      "type": "LineString",
      "coordinates": [
-      [
-       -105.159803,
-       38.724568
-      ],
-      [
-       -105.159779,
-       38.724683
-      ],
-      [
-       -105.159788,
-       38.724797
-      ],
-      [
-       -105.159765,
-       38.724912
-      ],
-      [
-       -105.159736,
-       38.725026
-      ],
-      [
-       -105.159694,
-       38.725141
-      ],
-      [
-       -105.159634,
-       38.725242
-      ],
-      [
-       -105.159508,
-       38.725199
-      ],
-      [
-       -105.159531,
-       38.725208
-      ],
-      [
-       -105.159637,
-       38.725305
-      ],
-      [
-       -105.159614,
-       38.725417
-      ],
-      [
-       -105.159536,
-       38.725532
-      ],
-      [
-       -105.159446,
-       38.725646
-      ],
-      [
-       -105.159355,
-       38.725758
-      ],
-      [
-       -105.159243,
-       38.725865
-      ],
-      [
-       -105.159121,
-       38.725968
-      ],
-      [
-       -105.15898,
-       38.726043
-      ],
-      [
-       -105.158864,
-       38.726042
-      ],
-      [
-       -105.158738,
-       38.726068
-      ],
       [
        -105.158593,
        38.726095
       ],
       [
-       -105.158448,
-       38.726087
-      ],
-      [
-       -105.158303,
-       38.726054
-      ],
-      [
-       -105.158158,
-       38.726007
-      ],
-      [
-       -105.158013,
-       38.725941
-      ],
-      [
-       -105.157871,
-       38.725876
-      ],
-      [
-       -105.157805,
-       38.725773
-      ],
-      [
-       -105.157797,
-       38.725658
-      ],
-      [
-       -105.157762,
-       38.725543
-      ],
-      [
-       -105.157768,
-       38.725429
-      ],
-      [
-       -105.15781,
-       38.725314
-      ],
-      [
-       -105.157779,
-       38.725241
-      ],
-      [
-       -105.157728,
-       38.725152
-      ],
-      [
-       -105.157712,
-       38.725037
-      ],
-      [
-       -105.157696,
-       38.724922
-      ],
-      [
-       -105.157673,
-       38.724808
-      ],
-      [
-       -105.157676,
-       38.724693
-      ],
-      [
-       -105.157781,
-       38.724627
-      ],
-      [
-       -105.15788,
-       38.724596
-      ],
-      [
-       -105.157819,
-       38.724484
-      ],
-      [
-       -105.157696,
-       38.724396
-      ],
-      [
-       -105.157606,
-       38.724311
-      ],
-      [
-       -105.157513,
-       38.724196
-      ],
-      [
-       -105.157374,
-       38.724092
+       -105.158066,
+       38.726088
       ],
       [
        -105.157266,
-       38.724047
+       38.725698
       ],
       [
-       -105.157223,
-       38.723947
+       -105.156465,
+       38.725363
       ],
       [
-       -105.157085,
-       38.723868
+       -105.155386,
+       38.725191
       ],
       [
-       -105.156941,
-       38.7238
+       -105.154445,
+       38.725073
       ],
       [
-       -105.156801,
-       38.723715
+       -105.153643,
+       38.724847
       ],
       [
-       -105.156665,
-       38.723671
+       -105.152843,
+       38.724403
       ],
       [
-       -105.15653,
-       38.723734
-      ],
-      [
-       -105.156449,
-       38.723733
-      ],
-      [
-       -105.156406,
-       38.723623
-      ],
-      [
-       -105.156289,
-       38.723559
-      ],
-      [
-       -105.156144,
-       38.723577
-      ],
-      [
-       -105.155999,
-       38.723588
-      ],
-      [
-       -105.155854,
-       38.723604
-      ],
-      [
-       -105.155708,
-       38.723627
-      ],
-      [
-       -105.155563,
-       38.723625
-      ],
-      [
-       -105.155418,
-       38.723624
-      ],
-      [
-       -105.155273,
-       38.723631
-      ],
-      [
-       -105.155128,
-       38.723615
-      ],
-      [
-       -105.154983,
-       38.723596
-      ],
-      [
-       -105.154838,
-       38.72358
-      ],
-      [
-       -105.154698,
-       38.723547
-      ],
-      [
-       -105.154573,
-       38.723469
-      ],
-      [
-       -105.154428,
-       38.72342
-      ],
-      [
-       -105.154283,
-       38.723338
-      ],
-      [
-       -105.154139,
-       38.723242
-      ],
-      [
-       -105.153994,
-       38.723158
-      ],
-      [
-       -105.15385,
-       38.723083
-      ],
-      [
-       -105.153731,
-       38.722985
-      ],
-      [
-       -105.153616,
-       38.722872
-      ],
-      [
-       -105.15355,
-       38.722765
-      ],
-      [
-       -105.153454,
-       38.722714
-      ],
-      [
-       -105.153356,
-       38.722632
-      ],
-      [
-       -105.153315,
-       38.722593
-      ],
-      [
-       -105.153188,
-       38.722648
-      ],
-      [
-       -105.153042,
-       38.722683
-      ],
-      [
-       -105.152897,
-       38.722728
-      ],
-      [
-       -105.15277,
-       38.722823
-      ],
-      [
-       -105.15263,
-       38.722882
-      ],
-      [
-       -105.152514,
-       38.722935
-      ],
-      [
-       -105.152399,
-       38.722999
-      ],
-      [
-       -105.152254,
-       38.722997
-      ],
-      [
-       -105.152109,
-       38.723022
-      ],
-      [
-       -105.151972,
-       38.723092
-      ],
-      [
-       -105.15191,
-       38.723192
-      ],
-      [
-       -105.15178,
-       38.723243
-      ],
-      [
-       -105.151635,
-       38.723304
+       -105.152043,
+       38.723904
       ],
       [
        -105.15152,
        38.723406
-      ],
-      [
-       -105.151459,
-       38.723388
-      ],
-      [
-       -105.15135,
-       38.723292
-      ],
-      [
-       -105.151258,
-       38.723195
-      ],
-      [
-       -105.151121,
-       38.723115
-      ],
-      [
-       -105.15099,
-       38.723005
-      ],
-      [
-       -105.150925,
-       38.72289
-      ],
-      [
-       -105.15084,
-       38.722791
-      ],
-      [
-       -105.150698,
-       38.722689
-      ],
-      [
-       -105.150627,
-       38.722574
-      ],
-      [
-       -105.150641,
-       38.722459
-      ],
-      [
-       -105.150685,
-       38.722345
-      ],
-      [
-       -105.150687,
-       38.722336
-      ],
-      [
-       -105.150626,
-       38.722448
-      ],
-      [
-       -105.150492,
-       38.72248
-      ],
-      [
-       -105.150347,
-       38.722437
-      ],
-      [
-       -105.150213,
-       38.722345
-      ],
-      [
-       -105.15007,
-       38.722253
-      ],
-      [
-       -105.149926,
-       38.72217
-      ],
-      [
-       -105.149783,
-       38.722087
-      ],
-      [
-       -105.149649,
-       38.722009
-      ],
-      [
-       -105.14952,
-       38.721955
-      ],
-      [
-       -105.149383,
-       38.721946
-      ],
-      [
-       -105.149238,
-       38.721906
-      ],
-      [
-       -105.149093,
-       38.721893
-      ],
-      [
-       -105.148948,
-       38.721909
-      ],
-      [
-       -105.148803,
-       38.721938
-      ],
-      [
-       -105.148657,
-       38.721965
-      ],
-      [
-       -105.148512,
-       38.721991
-      ],
-      [
-       -105.148405,
-       38.721993
-      ],
-      [
-       -105.148294,
-       38.72206
-      ],
-      [
-       -105.148148,
-       38.722111
-      ],
-      [
-       -105.148003,
-       38.722134
-      ],
-      [
-       -105.147858,
-       38.722103
-      ],
-      [
-       -105.147713,
-       38.722119
-      ],
-      [
-       -105.147567,
-       38.722189
-      ],
-      [
-       -105.147422,
-       38.722221
       ]
      ]
     },
     "valid_from": 1895,
     "valid_to": 1949,
     "grade": "inferred",
-    "error_ft": 200,
-    "basis": "Mile 3 to 4 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000). On the 1 m lidar 4% of this mile reads as a smooth grade under 4.5 per cent: the map's line is not confirmed by the ground, much of which is now the open-pit mine or has been regraded. Between Anaconda and Elkton and from Eclipse to Victor the map draws several railways side by side and this trace is not told apart from the Florence and Cripple Creek's. The year 1895 for the opening into Cripple Creek is from secondary sources.",
+    "error_ft": 400,
+    "basis": "Mile 3.1 to 3.5, from the bend south of Guyot Hill east to Elkton. Read by hand on 25 Nov 2026 from the USGS map of 1895 (surveyed 1894), which draws only two railways here: this is the northern one; the southern one swings through the loop that the 1903 map letters Florence and Cripple Creek. Fitted at each end to the trace it joins. It replaces a stretch where the first trace had followed the southern railway and then jumped across a mine. The ground is now mined.",
     "from_route": "routes/midland-terminal-cripple-creek-to-victor.json"
    },
    {
     "geometry": {
      "type": "LineString",
      "coordinates": [
-      [
-       -105.160729,
-       38.731183
-      ],
-      [
-       -105.160829,
-       38.731101
-      ],
-      [
-       -105.160839,
-       38.730989
-      ],
-      [
-       -105.160846,
-       38.730875
-      ],
-      [
-       -105.160941,
-       38.730814
-      ],
-      [
-       -105.161031,
-       38.730744
-      ],
-      [
-       -105.161103,
-       38.730637
-      ],
-      [
-       -105.161185,
-       38.730523
-      ],
-      [
-       -105.161221,
-       38.730408
-      ],
-      [
-       -105.16123,
-       38.730294
-      ],
-      [
-       -105.161235,
-       38.730179
-      ],
       [
        -105.161236,
        38.730064
@@ -39182,10 +38651,6 @@
       [
        -105.161573,
        38.729379
-      ],
-      [
-       -105.16158,
-       38.72933
       ],
       [
        -105.161713,
@@ -39240,10 +38705,6 @@
        38.72821
       ],
       [
-       -105.163061,
-       38.728121
-      ],
-      [
        -105.163198,
        38.728087
       ],
@@ -39288,10 +38749,6 @@
        38.727114
       ],
       [
-       -105.164336,
-       38.727043
-      ],
-      [
        -105.16446,
        38.726975
       ],
@@ -39326,10 +38783,6 @@
       [
        -105.165616,
        38.726614
-      ],
-      [
-       -105.165681,
-       38.726521
       ],
       [
        -105.165713,
@@ -39396,10 +38849,6 @@
        38.724943
       ],
       [
-       -105.164902,
-       38.724876
-      ],
-      [
        -105.164758,
        38.724935
       ],
@@ -39436,18 +38885,6 @@
        38.724231
       ],
       [
-       -105.163844,
-       38.724166
-      ],
-      [
-       -105.163866,
-       38.724165
-      ],
-      [
-       -105.163723,
-       38.72418
-      ],
-      [
        -105.163623,
        38.724097
       ],
@@ -39462,10 +38899,6 @@
       [
        -105.16333,
        38.723762
-      ],
-      [
-       -105.163219,
-       38.723704
       ],
       [
        -105.163074,
@@ -39486,10 +38919,6 @@
       [
        -105.162531,
        38.723437
-      ],
-      [
-       -105.162396,
-       38.723421
       ],
       [
        -105.162265,
@@ -39528,10 +38957,6 @@
        38.723145
       ],
       [
-       -105.161052,
-       38.723113
-      ],
-      [
        -105.160937,
        38.723165
       ],
@@ -39558,10 +38983,6 @@
       [
        -105.160097,
        38.723544
-      ],
-      [
-       -105.160038,
-       38.723587
       ],
       [
        -105.159972,
@@ -39592,16 +39013,68 @@
        38.724387
       ],
       [
-       -105.159759,
-       38.724464
-      ],
-      [
        -105.159803,
        38.724568
       ],
       [
        -105.159779,
        38.724683
+      ],
+      [
+       -105.159788,
+       38.724797
+      ],
+      [
+       -105.159765,
+       38.724912
+      ],
+      [
+       -105.159736,
+       38.725026
+      ],
+      [
+       -105.159694,
+       38.725141
+      ],
+      [
+       -105.159634,
+       38.725242
+      ],
+      [
+       -105.159614,
+       38.725417
+      ],
+      [
+       -105.159536,
+       38.725532
+      ],
+      [
+       -105.159446,
+       38.725646
+      ],
+      [
+       -105.159355,
+       38.725758
+      ],
+      [
+       -105.159243,
+       38.725865
+      ],
+      [
+       -105.159121,
+       38.725968
+      ],
+      [
+       -105.15898,
+       38.726043
+      ],
+      [
+       -105.158738,
+       38.726068
+      ],
+      [
+       -105.158593,
+       38.726095
       ]
      ]
     },
@@ -39609,37 +39082,13 @@
     "valid_to": 1949,
     "grade": "inferred",
     "error_ft": 200,
-    "basis": "Mile 2 to 3 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000). On the 1 m lidar 0% of this mile reads as a smooth grade under 4.5 per cent: the map's line is not confirmed by the ground, much of which is now the open-pit mine or has been regraded. Between Anaconda and Elkton and from Eclipse to Victor the map draws several railways side by side and this trace is not told apart from the Florence and Cripple Creek's. The year 1895 for the opening into Cripple Creek is from secondary sources.",
+    "basis": "Mile 2.1 to 3.1 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000) by following the ink between waypoints read by eye. The ground is now mined and the lidar cannot confirm it. Where the map draws railways side by side the trace is not told apart from the Florence and Cripple Creek's.",
     "from_route": "routes/midland-terminal-cripple-creek-to-victor.json"
    },
    {
     "geometry": {
      "type": "LineString",
      "coordinates": [
-      [
-       -105.169334,
-       38.733766
-      ],
-      [
-       -105.16934,
-       38.733651
-      ],
-      [
-       -105.169343,
-       38.733537
-      ],
-      [
-       -105.169341,
-       38.733422
-      ],
-      [
-       -105.169336,
-       38.733328
-      ],
-      [
-       -105.169374,
-       38.733222
-      ],
       [
        -105.169374,
        38.733107
@@ -39681,10 +39130,6 @@
        38.732075
       ],
       [
-       -105.169174,
-       38.731999
-      ],
-      [
        -105.169159,
        38.731922
       ],
@@ -39719,10 +39164,6 @@
       [
        -105.168205,
        38.731183
-      ],
-      [
-       -105.168165,
-       38.731108
       ],
       [
        -105.16806,
@@ -39797,10 +39238,6 @@
        38.730104
       ],
       [
-       -105.165662,
-       38.730132
-      ],
-      [
        -105.165554,
        38.730114
       ],
@@ -39815,10 +39252,6 @@
       [
        -105.165118,
        38.730254
-      ],
-      [
-       -105.165055,
-       38.730325
       ],
       [
        -105.164935,
@@ -39849,10 +39282,6 @@
        38.731059
       ],
       [
-       -105.164512,
-       38.731157
-      ],
-      [
        -105.164484,
        38.731272
       ],
@@ -39873,10 +39302,6 @@
        38.731706
       ],
       [
-       -105.163945,
-       38.731738
-      ],
-      [
        -105.1638,
        38.731789
       ],
@@ -39893,20 +39318,12 @@
        38.731993
       ],
       [
-       -105.163429,
-       38.732086
-      ],
-      [
        -105.163308,
        38.732141
       ],
       [
        -105.163204,
        38.732219
-      ],
-      [
-       -105.163084,
-       38.732173
       ],
       [
        -105.162992,
@@ -39937,14 +39354,6 @@
        38.732494
       ],
       [
-       -105.162216,
-       38.732556
-      ],
-      [
-       -105.162114,
-       38.732546
-      ],
-      [
        -105.162027,
        38.732646
       ],
@@ -39963,10 +39372,6 @@
       [
        -105.161589,
        38.733044
-      ],
-      [
-       -105.161457,
-       38.73303
       ],
       [
        -105.161398,
@@ -40009,10 +39414,6 @@
        38.732966
       ],
       [
-       -105.16015,
-       38.732939
-      ],
-      [
        -105.160005,
        38.732956
       ],
@@ -40031,10 +39432,6 @@
       [
        -105.159498,
        38.732673
-      ],
-      [
-       -105.159473,
-       38.732572
       ],
       [
        -105.159597,
@@ -40065,20 +39462,12 @@
        38.732336
       ],
       [
-       -105.160519,
-       38.732301
-      ],
-      [
        -105.160429,
        38.73219
       ],
       [
        -105.160387,
        38.732076
-      ],
-      [
-       -105.160329,
-       38.732017
       ],
       [
        -105.160251,
@@ -40119,6 +39508,38 @@
       [
        -105.160839,
        38.730989
+      ],
+      [
+       -105.160846,
+       38.730875
+      ],
+      [
+       -105.161031,
+       38.730744
+      ],
+      [
+       -105.161103,
+       38.730637
+      ],
+      [
+       -105.161185,
+       38.730523
+      ],
+      [
+       -105.161221,
+       38.730408
+      ],
+      [
+       -105.16123,
+       38.730294
+      ],
+      [
+       -105.161235,
+       38.730179
+      ],
+      [
+       -105.161236,
+       38.730064
       ]
      ]
     },
@@ -40126,7 +39547,7 @@
     "valid_to": 1949,
     "grade": "inferred",
     "error_ft": 200,
-    "basis": "Mile 1 to 2 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000). On the 1 m lidar 0% of this mile reads as a smooth grade under 4.5 per cent: the map's line is not confirmed by the ground, much of which is now the open-pit mine or has been regraded. Between Anaconda and Elkton and from Eclipse to Victor the map draws several railways side by side and this trace is not told apart from the Florence and Cripple Creek's. The year 1895 for the opening into Cripple Creek is from secondary sources.",
+    "basis": "Mile 1.0 to 2.1 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000) by following the ink between waypoints read by eye. The ground is now mined and the lidar cannot confirm it. Where the map draws railways side by side the trace is not told apart from the Florence and Cripple Creek's.",
     "from_route": "routes/midland-terminal-cripple-creek-to-victor.json"
    },
    {
@@ -40136,10 +39557,6 @@
       [
        -105.172037,
        38.746786
-      ],
-      [
-       -105.172039,
-       38.7467
       ],
       [
        -105.172033,
@@ -40184,10 +39601,6 @@
       [
        -105.171837,
        38.745448
-      ],
-      [
-       -105.171786,
-       38.745357
       ],
       [
        -105.171661,
@@ -40330,10 +39743,6 @@
        38.741526
       ],
       [
-       -105.170261,
-       38.741459
-      ],
-      [
        -105.170224,
        38.741362
       ],
@@ -40366,10 +39775,6 @@
        38.740593
       ],
       [
-       -105.169588,
-       38.740609
-      ],
-      [
        -105.169561,
        38.740509
       ],
@@ -40392,10 +39797,6 @@
       [
        -105.168946,
        38.740091
-      ],
-      [
-       -105.168912,
-       38.739991
       ],
       [
        -105.168845,
@@ -40562,10 +39963,6 @@
        38.735367
       ],
       [
-       -105.168542,
-       38.735263
-      ],
-      [
        -105.168574,
        38.735195
       ],
@@ -40602,10 +39999,6 @@
        38.7343
       ],
       [
-       -105.169232,
-       38.73421
-      ],
-      [
        -105.16927,
        38.734102
       ],
@@ -40624,6 +40017,22 @@
       [
        -105.16934,
        38.733651
+      ],
+      [
+       -105.169343,
+       38.733537
+      ],
+      [
+       -105.169341,
+       38.733422
+      ],
+      [
+       -105.169374,
+       38.733222
+      ],
+      [
+       -105.169374,
+       38.733107
       ]
      ]
     },
@@ -40631,7 +40040,7 @@
     "valid_to": 1949,
     "grade": "inferred",
     "error_ft": 200,
-    "basis": "Mile 0 to 1 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000). On the 1 m lidar 0% of this mile reads as a smooth grade under 4.5 per cent: the map's line is not confirmed by the ground, much of which is now the open-pit mine or has been regraded. Between Anaconda and Elkton and from Eclipse to Victor the map draws several railways side by side and this trace is not told apart from the Florence and Cripple Creek's. The year 1895 for the opening into Cripple Creek is from secondary sources.",
+    "basis": "Mile 0.0 to 1.0 from the Cripple Creek end. Traced from the USGS map of the district surveyed 1894 and revised 1902-1903 (Professional Paper 54, plate 1, 1:25,000) by following the ink between waypoints read by eye. The ground is now mined and the lidar cannot confirm it. Where the map draws railways side by side the trace is not told apart from the Florence and Cripple Creek's.",
     "from_route": "routes/midland-terminal-cripple-creek-to-victor.json"
    },
    {
