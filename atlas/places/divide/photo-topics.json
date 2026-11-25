@@ -1,0 +1,27 @@
+[
+ {
+  "tag": "depot",
+  "label": "Depot and railway",
+  "model": null
+ },
+ {
+  "tag": "street",
+  "label": "Streets and stores",
+  "model": null
+ },
+ {
+  "tag": "panorama",
+  "label": "Town views",
+  "model": null
+ },
+ {
+  "tag": "later",
+  "label": "Later years",
+  "model": null
+ },
+ {
+  "tag": "other",
+  "label": "Other",
+  "model": null
+ }
+]
