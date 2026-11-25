@@ -3084,5 +3084,527 @@
   "h": 1200,
   "image": "img/collection/s-l1600.jpg",
   "thumb": "img/collection/t/s-l1600.jpg"
+ },
+ {
+  "id": "photo:region:dpl-mcc-91",
+  "name": "View from Tunnel No. 4 on the Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: taken from inside Tunnel Number Four looking out, with the push car McClure used on the track. Seen: the bore's rough arch frames a rocky ridge; two people on the push car at the mouth.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-91",
+  "url": "https://digital.denverlibrary.org/nodes/view/1052652",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-91",
+  "image": "img/collection/dpl-mcc-91.jpg",
+  "thumb": "img/collection/t/dpl-mcc-91.jpg",
+  "w": 1771,
+  "h": 2200,
+  "shows": [
+   "place:short-line-tunnel-4"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-91.jpg",
+   "places": [
+    {
+     "place": "place:short-line-tunnel-4",
+     "name": "Short Line Tunnel No. 4 (the Granite Tunnel)",
+     "how": "named",
+     "note": "Taken from inside the tunnel, looking out."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-105",
+  "name": "Coasting party at Tunnel No. 8, Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: a coasting party of eight men and women on a push car posed at Tunnel Number Eight. Seen: an untimbered portal in a rock cut, timbering visible inside the bore, pines on top.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-105",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121384",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-105",
+  "image": "img/collection/dpl-mcc-105.jpg",
+  "thumb": "img/collection/t/dpl-mcc-105.jpg",
+  "w": 1758,
+  "h": 2200,
+  "shows": [
+   "place:cscc-tunnel-c"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-105.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-c",
+     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "how": "probable",
+     "note": "Captioned Tunnel No. 8. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-76",
+  "name": "East from Tunnel No. 8 on the Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Seen: a wide view east over wooded foothills to the plains, the grade winding below and a timber trestle at the lower right.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-76",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121396",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-76",
+  "image": "img/collection/dpl-mcc-76.jpg",
+  "thumb": "img/collection/t/dpl-mcc-76.jpg",
+  "w": 1999,
+  "h": 1609,
+  "shows": [
+   "place:cscc-tunnel-c"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-76.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-c",
+     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "how": "probable",
+     "note": "Captioned 'East from Tunnel No. 8'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-1620",
+  "name": "Looking west from tunnel eight, Colorado Springs and Cripple Creek District Railway",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: two elevations of track winding through the foothills, with a passenger train drawn in on the upper one. Seen: the grade curving through forest in the foreground, a second level across the valley.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-1620",
+  "url": "https://digital.denverlibrary.org/nodes/view/1019650",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-1620",
+  "image": "img/collection/dpl-mcc-1620.jpg",
+  "thumb": "img/collection/t/dpl-mcc-1620.jpg",
+  "w": 2000,
+  "h": 1617,
+  "shows": [
+   "place:cscc-tunnel-c"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-1620.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-c",
+     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "how": "probable",
+     "note": "Captioned 'Looking west from tunnel eight'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-748",
+  "name": "North from Tunnel 8 on the Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: a passenger train steaming toward tunnel number 8; view north to the plains and Colorado Springs; the Duffield stop and shelter in the centre; part of the Rock Creek loop; two elevations of track.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-748",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123428",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-748",
+  "image": "img/collection/dpl-mcc-748.jpg",
+  "thumb": "img/collection/t/dpl-mcc-748.jpg",
+  "w": 1999,
+  "h": 1567,
+  "shows": [
+   "place:cscc-tunnel-c",
+   "place:duffield"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-748.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-c",
+     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "how": "probable",
+     "note": "Captioned 'North from Tunnel 8'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+    },
+    {
+     "place": "place:duffield",
+     "name": "Duffields (Duffield on modern maps)",
+     "how": "named",
+     "note": "The library's description names the Duffield stop and shelter in the middle of the view."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-745",
+  "name": "Tunnels 8 and 9 on the Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: passenger trains leaving both tunnels. Seen: smoke on a wooded ridge at the upper right and a cut on the hillside below it; the two tunnels are close together.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-745",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123461",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-745",
+  "image": "img/collection/dpl-mcc-745.jpg",
+  "thumb": "img/collection/t/dpl-mcc-745.jpg",
+  "w": 2000,
+  "h": 1604,
+  "shows": [
+   "place:cscc-tunnel-c"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-745.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-c",
+     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "how": "probable",
+     "note": "Captioned 'Tunnels 8 and 9'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled. No. 9 has no pin: it is not yet found."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-745a",
+  "name": "Tunnels 8 and 6 on the Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: the portal at the upper right is the west portal of tunnel 8; tunnel 6 is hidden by smoke at the left above a short straight; both tunnels have since been blasted shut at both ends by the Forest Service.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-745A",
+  "url": "https://digital.denverlibrary.org/nodes/view/1031137",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-745A",
+  "image": "img/collection/dpl-mcc-745a.jpg",
+  "thumb": "img/collection/t/dpl-mcc-745a.jpg",
+  "w": 2000,
+  "h": 1612,
+  "shows": [
+   "place:cscc-tunnel-c",
+   "place:cscc-tunnel-lidar-6"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-745a.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-c",
+     "name": "Short Line tunnel, eighth from Colorado Springs (probably No. 8)",
+     "how": "probable",
+     "note": "Captioned 'Tunnels 8 and 6'. The eighth tunnel found on the lidar; numbers after the fourth are probable, not settled."
+    },
+    {
+     "place": "place:cscc-tunnel-lidar-6",
+     "name": "Possible Short Line tunnel, sixth from Colorado Springs (No. 6 if the sixth is a tunnel and none is missed)",
+     "how": "probable",
+     "note": "The library's description says Tunnel 6 is hidden by smoke at the left."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-114",
+  "name": "At Tunnel No. 9 on the Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: a freight train steaming out of Tunnel Number Nine, with a side track; the last of nine tunnels on the line, 2,404 ft in all, little of it timbered, the rock being solid granite. Seen: open, lightly wooded country with a rock knob behind the train; the portal itself is hidden by the engine's steam.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-114",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121375",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "circa 1905",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-114",
+  "image": "img/collection/dpl-mcc-114.jpg",
+  "thumb": "img/collection/t/dpl-mcc-114.jpg",
+  "w": 2000,
+  "h": 1614,
+  "shows": [],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-114.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-115",
+  "name": "Colo. Springs and Tunnel No. 6",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Seen: the grade cut along a steep rocky mountainside, with the plains far below to the right.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-115",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121387",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, MCC-115",
+  "image": "img/collection/dpl-mcc-115.jpg",
+  "thumb": "img/collection/t/dpl-mcc-115.jpg",
+  "w": 1999,
+  "h": 1614,
+  "shows": [
+   "place:cscc-tunnel-lidar-6"
+  ],
+  "topics": [
+   "Short Line",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-mcc-115.jpg",
+   "places": [
+    {
+     "place": "place:cscc-tunnel-lidar-6",
+     "name": "Possible Short Line tunnel, sixth from Colorado Springs (No. 6 if the sixth is a tunnel and none is missed)",
+     "how": "probable",
+     "note": "Captioned 'Colo. Springs and Tunnel No. 6'. The sixth tunnel found on the lidar."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-whj-369",
+  "name": "Cameron's Cone from Tunnel 3, Col. Midland R.R.",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Library: Cameron Cone with the Colorado Midland's track, from Tunnel 3. Seen: taken from inside a tunnel mouth; the track curves ahead into the portal of the next tunnel, a short way on, with the cone above.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "WHJ-369",
+  "url": "https://digital.denverlibrary.org/nodes/view/1044395",
+  "photographer": "Jackson, William Henry, 1843-1942",
+  "date": "1889-1900",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, WHJ-369",
+  "image": "img/collection/dpl-whj-369.jpg",
+  "thumb": "img/collection/t/dpl-whj-369.jpg",
+  "w": 1337,
+  "h": 2200,
+  "shows": [
+   "place:cm-tunnel-c"
+  ],
+  "topics": [
+   "Colorado Midland",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-whj-369.jpg",
+   "places": [
+    {
+     "place": "place:cm-tunnel-c",
+     "name": "Colorado Midland Tunnel 3 (as numbered on a supplied map)",
+     "how": "probable",
+     "note": "Captioned 'Cameron's Cone from Tunnel 3'; this pin is Tunnel 3 by a supplied map's numbering. Another print of the same view in the owner's collection is lettered 'Tunnel 4'."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-whj-751",
+  "name": "Tunnels of the Midland, Ute Pass",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-tunnel-photographs"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-24",
+  "notes": "Seen: taken from inside one tunnel looking along the track to the portal of the next, cut through a rock spur a short way ahead: two tunnels in line. Jackson's number 3482 and his title are on the negative.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "WHJ-751",
+  "url": "https://digital.denverlibrary.org/nodes/view/1069151",
+  "photographer": "Jackson, William Henry, 1843-1942",
+  "date": "not given by the library",
+  "date_basis": "the library's catalogue",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the photographer's own caption.",
+  "credit": "Denver Public Library, Western History Collection, WHJ-751",
+  "image": "img/collection/dpl-whj-751.jpg",
+  "thumb": "img/collection/t/dpl-whj-751.jpg",
+  "w": 1276,
+  "h": 2200,
+  "shows": [],
+  "topics": [
+   "Colorado Midland",
+   "tunnel"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Colorado Midland",
+   "form": "photograph",
+   "library": true,
+   "source_file": "research/library/tunnels/dpl-whj-751.jpg"
+  }
  }
 ]

@@ -164,5 +164,13 @@
   "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
   "date": "1909-1948",
   "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:dpl-tunnel-photographs",
+  "kind": "photograph catalogue records",
+  "title": "Denver Public Library, Western History Collection: L. C. McClure's views of the Short Line's tunnels (MCC-76, 91, 105, 114, 115, 745, 745A, 748, 1620) and W. H. Jackson's of the Colorado Midland's in Ute Pass (WHJ-369, 751)",
+  "holder": "Denver Public Library, Western History Collection",
+  "url": "https://digital.denverlibrary.org/",
+  "accessed": "2026-11-25"
  }
 ]
