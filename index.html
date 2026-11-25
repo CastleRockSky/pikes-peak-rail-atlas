@@ -48,7 +48,7 @@
 if (location.protocol === 'file:') document.getElementById('warn').style.display = 'block';
 const get = (u, fb) => fetch(u, { cache: 'no-store' }).then(r => r.ok ? r.json() : fb).catch(() => fb);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#b91c1c', 'line:cs-and-cc-district': '#15803d', 'line:florence-and-cripple-creek': '#a16207' };
+const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#b91c1c', 'line:cs-and-cc-district': '#15803d', 'line:florence-and-cripple-creek': '#a16207', 'line:rio-grande-junction': '#7c3aed' };
 const map = L.map('map').setView([38.83, -105.05], 11);
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Map: Esri and contributors' }).addTo(map);
 Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] })]).then(([lines, places]) => {
@@ -94,6 +94,13 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
       : open.size ? open.size + ' of ' + lines.length + ' railways running.' : 'No railway running in this year.';
   }
   slider.oninput = () => { allBox.checked = false; show(); }; allBox.onchange = show; show();
+  // the atlas now reaches far beyond the first view: two buttons to see all of it, or to come back
+  const whole = L.featureGroup(segLayers.map(s => s.layer)).getBounds(), home = map.getBounds();
+  const zb = document.createElement('p'); zb.className = 'note'; zb.style.margin = '6px 0 0';
+  zb.innerHTML = '<a href="#" id="zoomall">Zoom out to the whole atlas</a> · <a href="#" id="zoomhome">Back to the Pikes Peak region</a>';
+  document.getElementById('yearnote').after(zb);
+  document.getElementById('zoomall').onclick = e => { e.preventDefault(); map.fitBounds(whole, { padding: [20, 20] }); };
+  document.getElementById('zoomhome').onclick = e => { e.preventDefault(); map.fitBounds(home); };
   window.atlasRegion = { map, lines, places, show };
 });
 </script>
