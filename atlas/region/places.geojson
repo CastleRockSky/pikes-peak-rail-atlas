@@ -1990,8 +1990,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.087158,
-     38.563322
+     -105.087344,
+     38.568841
     ]
    },
    "properties": {
@@ -1999,7 +1999,7 @@
     "name": "Adelaide",
     "grade": "inferred",
     "error_ft": 1800,
-    "basis": "Placed by its printed mileage: 17.4 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Counted back 17.2 miles from the Victor depot along the atlas's route up Phantom Canyon, which ends about 0.4 mile short of the depot (a straight-line figure). With one anchor and that allowance the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 17.4 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.1 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -2021,8 +2021,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.114585,
-     38.632251
+     -105.107743,
+     38.634099
     ]
    },
    "properties": {
@@ -2030,7 +2030,7 @@
     "name": "Wilbur",
     "grade": "inferred",
     "error_ft": 1800,
-    "basis": "Placed by its printed mileage: 25.3 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Counted back 9.3 miles from the Victor depot along the atlas's route up Phantom Canyon, which ends about 0.4 mile short of the depot (a straight-line figure). With one anchor and that allowance the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 25.3 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.1 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],

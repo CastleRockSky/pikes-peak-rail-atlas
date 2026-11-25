@@ -156,5 +156,13 @@
   "holder": "Library of Congress, Geography and Map Division (sanborn00995_003 and _004); reduced copies in research/maps/sanborn/florence/",
   "date": "1900-1906",
   "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:usgs-topo-colorado-springs",
+  "kind": "map",
+  "title": "USGS Colorado Springs sheets: 1:125,000, edition of 1909, which draws the Short Line from the city yards west to Bear Creek; 1:24,000, 1948, which has a road on the same line",
+  "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
+  "date": "1909-1948",
+  "accessed": "2026-11-24"
  }
 ]
