@@ -79,6 +79,74 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.1783,
+     38.7467
+    ]
+   },
+   "properties": {
+    "id": "place:cripple-creek",
+    "name": "Cripple Creek",
+    "grade": "inferred",
+    "error_ft": 1000,
+    "basis": "The point lies on Bennett Avenue near Second Street, in the street grid that the USGS plate surveyed in 1894 and revised in 1902-1903 letters 'Cripple Creek'; that plate's streets fall on the present streets within about 15 m here (by eye against the 1 m lidar). It stands for the town, not for a station: the Midland Terminal depot is a separate record about 530 m east, at the end of Bennett Avenue.",
+    "sources": [
+     "source:sanborn-cripple-creek",
+     "source:dpl-x-746-record",
+     "source:dpl-x-744-record",
+     "source:cc-district-museum",
+     "source:osm-cripple-creek-buildings",
+     "source:usgs-pp54-plate1",
+     "source:official-guide-timetables",
+     "source:lidar-3dep"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "town",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": null
+     },
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     },
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "Cripple Creek is the main town of the district. The Sanborn insurance maps of September 1900 and December 1908 show two railway stations. The Midland Terminal's depot, two storeys of brick on a stone basement, stands across the east end of Bennett Avenue beside the tracks; a sign on it reads 'C S & C C D and M T Ry Union Depot', so the Colorado Springs and Cripple Creek District (the Short Line) used it too. It is the building that houses the Cripple Creek District Museum, which the Denver Public Library records as opening there in 1953. The Florence and Cripple Creek's narrow-gauge depot, a long frame building, stood on Xenia Street about 150 m south of Warren Avenue, on the same lots on both maps; nothing of it is visible on the ground now. Fourteen library photographs are held, of 1894 to 1969; four made after 1930 are linked only. The Denver library's catalogue dates the brick depot to 1896, and the museum gives 1895; neither date has been checked.",
+    "open_questions": [
+     "The Florence and Cripple Creek depot rests on two Sanborn sheets placed on the present streets by counting lots; nothing of it shows on the ground. The 1903 USGS plate draws tracks ending about 120 m further north, near Warren Avenue and Xenia Street, and no depot: not reconciled. Sanborn 1908 sheet 22 (its freight depot) and 23 were not read.",
+     "When the Short Line began to use the Midland Terminal depot, and whether the Florence and Cripple Creek ever did (the Denver cataloguer says so; the sign in X-744 does not), is not established.",
+     "The depot's building date (1895 or 1896 in secondary sources) has not been checked against a period source. The Sanborn sheets show it from 1900.",
+     "The Short Line's own approach and any station of its own in Cripple Creek are not located; research/26 traces its main line only to the east edge of town.",
+     "The Midland Terminal wye in Poverty Gulch (Poley's P-1710, 1896), its engine house (RR-1371) and the yards are not located.",
+     "The tourist railway's ticket office is said, in sources not checked, to be a Midland Terminal depot from Anaconda and Bull Hill, moved here in 1968.",
+     "Photographs: the catalogue of research/26 plus page 2 of the Denver search 'Midland Terminal Cripple Creek' (40 of its 123 results read) and one Pikes Peak search. Not fetched: X-839 (1947, from the right of way south of the depot), Z-11102 (1949), X-847 (1969), and the town views P-669, P-275, X-814, X-879. Four fetched photographs were made after 1930 (X-745, RR-1371, X-746, and the undated postcard 537-101): link only until the owner decides.",
+     "The town itself (founding, the fires of 1896, incorporation) has not been researched: nothing about it is stated here."
+    ],
+    "local": {
+     "tier": 2,
+     "pages": [
+      {
+       "title": "Photograph library: 14 library photographs of Cripple Creek",
+       "href": "photos.html?place=cripple-creek"
+      }
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "notes": "Entered as a DRAFT on 24 Nov 2026. The lidar box is 1,400 m square. The open-pit mine and the Short Line's route lie east and north-east of it."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -105.150269,
      38.944789
     ]
@@ -306,6 +374,62 @@
     },
     "valid_from": 1893,
     "elevation_ft": 8972
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.167601,
+     38.900816
+    ]
+   },
+   "properties": {
+    "id": "place:murphy",
+    "name": "Murphy",
+    "grade": "inferred",
+    "error_ft": 1300,
+    "basis": "The point is where the printed mileage falls: 30.4 miles from Colorado Springs in the Midland Terminal's timetables of 1920 to 1945, that is 3.5 miles beyond Divide (26.9), measured along the atlas's checked route (as corrected by once_route_mt_murphy.py) stretched by 0.8 per cent to fit Divide and the Gillett depot (route mile 3.53). It has not been moved from that: no map held prints the name, and nothing on the ground marks a station, so neither gives a better position. It lies on the old grade, which here is a side-hill bench seen on the 1 m lidar and named 'OLD RAILROAD GRADE' on the 1954 USGS sheet, so it is good across the track to about 20 ft; along the track it is good to about a quarter of a mile (0.1 mile of timetable rounding and 0.1 to 0.2 mile of route uncertainty: judgement, as for the other timetable pins). If Midland's 6.2 miles from Divide were taken to mean the settlement (6.88 route miles), the scale would change and the point would move about 0.36 mile south along the line, round the bend and over the summit; this is the larger risk and it runs one way. A newspaper of 1901 puts Murphy 'three miles south of Divide', which agrees within its rounding. Elevation is the ground at the point.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:lidar-3dep",
+     "source:usgs-topo",
+     "source:usgs-divide-1954",
+     "source:usgs-divide-1994",
+     "source:usgs-pikes-peak-1894",
+     "source:usgs-pikes-peak-1901",
+     "source:victor-record-1900-06-29",
+     "source:rmn-1901-08-14-wreck-at-murphy",
+     "source:rmn-1907-07-08-hail-at-murphy"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 30.4
+     }
+    ],
+    "summary": "Murphy was a small station on the Midland Terminal Railway between Divide and Midland. The Midland Terminal's public timetables of September 1920 to January 1945 print it 30.4 miles from Colorado Springs (3.5 miles beyond Divide, 2.7 short of Midland), with no altitude and no telegraph or coupon sign; those of 1935 and 1940 mark its trains 'f', stops on signal. The 1909 table does not list it, nor does that of March 1948. It was older than the tables show: newspapers report a freight train derailed 'at Murphy' in June 1900, a passenger train running into the rear of a standing ore train 'at Murphy, three miles south of Divide' in August 1901, and hail 'at Murphy, a small station on the Midland Terminal road' in July 1907. At the printed mileage the old grade, named 'OLD RAILROAD GRADE' on the 1954 USGS map and now partly a trail in Mueller State Park, runs as a narrow side-hill bench up the west side of a valley; about 0.1 mile further on it swings round a sharp bend on a fill below Tracy Hill and passes through a cut over the summit of the line between Divide and Midland, about 9,390 ft on the lidar. No siding, platform, building site or other trace of a station has been found on the ground, and no map held prints the name. What the stop served is not known.",
+    "open_questions": [
+     "Where exactly the stop was. The point is the printed mileage only. Midland's own mileage is in dispute (6.2 printed against 6.88 to the settlement along the route); if 6.2 marks the settlement, Murphy falls about 0.36 mile further south, beyond the summit. The summit of the line (0.17 mile past the point) and the bend where a road came in on the 1954 map are the obvious candidates, but nothing confirms either.",
+     "Whether Murphy had a siding. The 1901 wreck, with an ore train standing at Murphy, suggests trains waited there, but the side-hill bench read 3 to 6 m wide from about 0.2 mile before the point to 0.3 mile beyond it, and no widening was found. The bench west of the creek further north has not been measured across for one. A railway track chart, a valuation map (Interstate Commerce Commission, about 1917 to 1920) or an employee timetable would settle it.",
+     "What Murphy served and why it was named: ranch, timber, ice, a section house, or simply the summit. No post office of the name is listed in Colorado (Wikipedia's list), no Murphy feature was found near here in a web search of gazetteer listings, and the library catalogues returned nothing. The 1954 sheet marks a well and three buildings near the grade; their use and date are not known.",
+     "The 1900 Victor Record calls Murphy 'the next station north of Gillett', which does not fit the later tables (Midland and, until 1933, Waters lie between). Midland had lost its post office in 1895; whether it was still a station in 1900 is not known.",
+     "When Murphy opened and closed. First seen in June 1900 (newspaper); printed in public timetables from September 1920 (no table between 1909 and 1920 is held) to January 1945; gone by March 1948. The September 1909 table, which lists only Midland between Divide and Gillett, omits it, although the 1907 newspaper calls it a station: public tables evidently left minor stops out.",
+     "The route through this stretch was corrected on 24 Nov 2026 at the owner's request (once_route_mt_murphy.py): between about 2.25 and 3.31 route miles it had lain on the creek's flat floor, with a kink, and now follows the bench west of the creek; that stretch and the bench on to the summit cut are graded measured. The route north of 2.25, on or beside the present highway, is still inferred: which side of the highway the rails ran is not settled.",
+     "Searches that found nothing (24 Nov 2026): Denver Public Library digital collections ('Murphy Midland Terminal', 'Murphy Divide Colo', 'Murphy siding railroad', 'Murphy Teller County', 'Place Names Colorado Murphy', 'Tracy Hill Teller', 'MT train Murphy', 'Perry MT train near Divide'; results are swamped by city directories and people called Murphy); Pikes Peak Library District ('Murphy Divide', 'Murphy Midland Terminal', 'Murphy Teller'; the only lead, photographs of a ranch homesteaded by a Patrick Murphy, is the Pettigrew Ranch on the Palmer Divide in El Paso County, not this place); Colorado Historic Newspapers ('Murphy siding', 'Murphy spur', 'Murphy switch', 'Murphy station' Divide: other places). Otto Perry's photographs 'near Divide' of January 1949 (DPL OP-12726 and others) have not been placed and may or may not show this stretch."
+    ],
+    "local": {
+     "tier": 2
+    },
+    "elevation_ft": 9372,
+    "valid_from": 1900,
+    "valid_to": 1945,
+    "notes": "Started on 24 Nov 2026 from the timetable pin. The ground service (fetch_terrain.py) returned HTTP 502; the 1 m lidar box (3,600 m square, both surveys of the tile, nothing empty) replaced it. The Divide 7.5-minute sheets of 1954 and 1994 were fetched for this place; five other 1954 scans of that sheet are listed by the USGS and not held."
    }
   },
   {
@@ -1556,39 +1680,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.167056,
-     38.901181
-    ]
-   },
-   "properties": {
-    "id": "place:murphy",
-    "name": "Murphy",
-    "grade": "inferred",
-    "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 30.4 miles from Colorado Springs in the Midland Terminal's public timetables (printed 1920 to 1945), measured along the atlas's checked route from Divide. The timetable rounds to a tenth of a mile and the route's length is uncertain by 0.1 to 0.2 mile, so the point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. ",
-    "sources": [
-     "source:official-guide-timetables"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-24",
-    "kind": "stop",
-    "on_lines": [
-     {
-      "line": "line:midland-terminal",
-      "milepost": 3.5
-     }
-    ],
-    "summary": "A station in the railway's public timetables, 1920 to 1945. Pinned from its printed mileage; not worked up yet."
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -105.137691,
-     38.834374
+     -105.137609,
+     38.834173
     ]
    },
    "properties": {
@@ -1618,8 +1711,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.120362,
-     38.729276
+     -105.119997,
+     38.729498
     ]
    },
    "properties": {

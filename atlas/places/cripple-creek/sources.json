@@ -1,0 +1,54 @@
+[
+ {
+  "id": "source:sanborn-cripple-creek",
+  "kind": "map",
+  "title": "Sanborn-Perris Map Co., Insurance Maps of Cripple Creek, Colorado, September 1900 (20 sheets), and Sanborn Map Co., December 1908 (32 sheets), 50 ft to an inch",
+  "holder": "Library of Congress, Geography and Map Division",
+  "url": "https://www.loc.gov/resource/g4314cm.g009811900/?sp=1",
+  "accessed": "2026-11-24",
+  "quote": "1900 index: 'F. & C. C. R. R. Depot ... 3'; 'Midland Terminal R'y Depot ... 12'. 1908 index: 'F. & C. C. R. R. Depot ... 18'; 'Freight Depot ... 22'; 'M. T. R. R. Depot ... 19'; 'Freight House ... 13'. [Atlas note: sheets 1, 3 and 12 of 1900 and 1, 18 and 19 of 1908 were read; 22 and 13 of 1908 were not.]"
+ },
+ {
+  "id": "source:dpl-x-746-record",
+  "kind": "library catalogue record",
+  "title": "Midland Terminal Station, Cripple Creek (X-746, Howard Brock, 17 December 1969): the library's summary",
+  "holder": "Denver Public Library, Western History Collection",
+  "url": "https://digital.denverlibrary.org/nodes/view/1017140",
+  "accessed": "2026-11-24",
+  "quote": "Exterior view of Cripple Creek District Museum (formerly Midland Terminal Railway Station), Cripple Creek, Colorado; building was constructed in 1896, closed in 1949 after railroad halted operations, and reopened in 1953 as a private nonprofit museum"
+ },
+ {
+  "id": "source:dpl-x-744-record",
+  "kind": "library catalogue record",
+  "title": "Midland Terminal Railway station, Cripple Creek (X-744): the library's summary",
+  "holder": "Denver Public Library, Western History Collection",
+  "url": "https://digital.denverlibrary.org/nodes/view/1016949",
+  "accessed": "2026-11-24",
+  "quote": "partial view of station that is also called Cripple Creek Central Depot or Union Depot when used by Colorado Springs Cripple Creek District Railway and Florence Cripple Creek Railway; center side gable with signs: \"M. T. Ry. - C. S. C. C. D., Union Depot\""
+ },
+ {
+  "id": "source:cc-district-museum",
+  "kind": "web page (secondary)",
+  "title": "Cripple Creek District Museum: its own page on its campus",
+  "holder": "Cripple Creek District Museum",
+  "accessed": "2026-11-24",
+  "quote": "[Atlas note, not the source's words: read by a search agent on 24 Nov 2026 (research/26): the campus includes the Midland Terminal depot, which 'operated from 1895 to 1949', at 5th and Bennett Avenue. The page was not read in this session.]"
+ },
+ {
+  "id": "source:osm-cripple-creek-buildings",
+  "kind": "map (modern)",
+  "title": "OpenStreetMap: building outlines tagged Cripple Creek District Museum (500, 504 and 510 E. Bennett Avenue) and Cripple Creek and Victor Narrow Gauge Railroad (520 E. Carr Avenue)",
+  "holder": "OpenStreetMap contributors",
+  "url": "https://www.openstreetmap.org/way/95047337",
+  "accessed": "2026-11-24",
+  "quote": "[Atlas note: way 95047337, 510 E. Bennett Avenue, an outline about 10 m east-west by 20 m north-south; way 95047197, 520 E. Carr Avenue. Fetched from the Overpass service on 24 Nov 2026.]"
+ },
+ {
+  "id": "source:cccv-ticket-office-claim",
+  "kind": "web page (secondary)",
+  "title": "Claim that the tourist railway's ticket office is a Midland Terminal depot from Anaconda, later Bull Hill, moved to Cripple Creek in 1968",
+  "holder": "Wikipedia and a roadside marker, as search snippets",
+  "accessed": "2026-11-24",
+  "quote": "[Atlas note: read only as search-result snippets by an earlier session (research/26). Not checked.]"
+ }
+]

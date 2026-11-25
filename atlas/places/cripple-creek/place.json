@@ -1,0 +1,65 @@
+{
+ "id": "place:cripple-creek",
+ "name": "Cripple Creek",
+ "grade": "inferred",
+ "error_ft": 1000,
+ "basis": "The point lies on Bennett Avenue near Second Street, in the street grid that the USGS plate surveyed in 1894 and revised in 1902-1903 letters 'Cripple Creek'; that plate's streets fall on the present streets within about 15 m here (by eye against the 1 m lidar). It stands for the town, not for a station: the Midland Terminal depot is a separate record about 530 m east, at the end of Bennett Avenue.",
+ "sources": [
+  "source:sanborn-cripple-creek",
+  "source:dpl-x-746-record",
+  "source:dpl-x-744-record",
+  "source:cc-district-museum",
+  "source:osm-cripple-creek-buildings",
+  "source:usgs-pp54-plate1",
+  "source:official-guide-timetables",
+  "source:lidar-3dep"
+ ],
+ "status": "reviewed",
+ "contributor": "project",
+ "updated": "2026-11-24",
+ "kind": "town",
+ "on_lines": [
+  {
+   "line": "line:midland-terminal",
+   "milepost": null
+  },
+  {
+   "line": "line:florence-and-cripple-creek",
+   "milepost": null
+  },
+  {
+   "line": "line:cs-and-cc-district",
+   "milepost": null
+  }
+ ],
+ "summary": "Cripple Creek is the main town of the district. The Sanborn insurance maps of September 1900 and December 1908 show two railway stations. The Midland Terminal's depot, two storeys of brick on a stone basement, stands across the east end of Bennett Avenue beside the tracks; a sign on it reads 'C S & C C D and M T Ry Union Depot', so the Colorado Springs and Cripple Creek District (the Short Line) used it too. It is the building that houses the Cripple Creek District Museum, which the Denver Public Library records as opening there in 1953. The Florence and Cripple Creek's narrow-gauge depot, a long frame building, stood on Xenia Street about 150 m south of Warren Avenue, on the same lots on both maps; nothing of it is visible on the ground now. Fourteen library photographs are held, of 1894 to 1969; four made after 1930 are linked only. The Denver library's catalogue dates the brick depot to 1896, and the museum gives 1895; neither date has been checked.",
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   -105.1783,
+   38.7467
+  ]
+ },
+ "open_questions": [
+  "The Florence and Cripple Creek depot rests on two Sanborn sheets placed on the present streets by counting lots; nothing of it shows on the ground. The 1903 USGS plate draws tracks ending about 120 m further north, near Warren Avenue and Xenia Street, and no depot: not reconciled. Sanborn 1908 sheet 22 (its freight depot) and 23 were not read.",
+  "When the Short Line began to use the Midland Terminal depot, and whether the Florence and Cripple Creek ever did (the Denver cataloguer says so; the sign in X-744 does not), is not established.",
+  "The depot's building date (1895 or 1896 in secondary sources) has not been checked against a period source. The Sanborn sheets show it from 1900.",
+  "The Short Line's own approach and any station of its own in Cripple Creek are not located; research/26 traces its main line only to the east edge of town.",
+  "The Midland Terminal wye in Poverty Gulch (Poley's P-1710, 1896), its engine house (RR-1371) and the yards are not located.",
+  "The tourist railway's ticket office is said, in sources not checked, to be a Midland Terminal depot from Anaconda and Bull Hill, moved here in 1968.",
+  "Photographs: the catalogue of research/26 plus page 2 of the Denver search 'Midland Terminal Cripple Creek' (40 of its 123 results read) and one Pikes Peak search. Not fetched: X-839 (1947, from the right of way south of the depot), Z-11102 (1949), X-847 (1969), and the town views P-669, P-275, X-814, X-879. Four fetched photographs were made after 1930 (X-745, RR-1371, X-746, and the undated postcard 537-101): link only until the owner decides.",
+  "The town itself (founding, the fires of 1896, incorporation) has not been researched: nothing about it is stated here."
+ ],
+ "local": {
+  "tier": 2,
+  "pages": [
+   {
+    "title": "Photograph library: 14 library photographs of Cripple Creek",
+    "href": "photos.html?place=cripple-creek"
+   }
+  ]
+ },
+ "valid_from": 1894,
+ "valid_to": 1949,
+ "notes": "Entered as a DRAFT on 24 Nov 2026. The lidar box is 1,400 m square. The open-pit mine and the Short Line's route lie east and north-east of it."
+}

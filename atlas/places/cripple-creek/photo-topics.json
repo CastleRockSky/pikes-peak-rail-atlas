@@ -1,0 +1,27 @@
+[
+ {
+  "tag": "depot",
+  "label": "Depot and railway",
+  "model": null
+ },
+ {
+  "tag": "train",
+  "label": "Trains",
+  "model": null
+ },
+ {
+  "tag": "yard",
+  "label": "Yards and engine houses",
+  "model": null
+ },
+ {
+  "tag": "panorama",
+  "label": "Town views",
+  "model": null
+ },
+ {
+  "tag": "later",
+  "label": "Later years",
+  "model": null
+ }
+]

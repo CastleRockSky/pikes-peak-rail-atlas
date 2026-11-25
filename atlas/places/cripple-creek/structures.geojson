@@ -1,0 +1,151 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.172159,
+     38.74685
+    ]
+   },
+   "properties": {
+    "id": "structure:cripple-creek:mt-depot",
+    "name": "Midland Terminal depot (brick, two storeys on a stone basement; the Cripple Creek District Museum since 1953 according to the Denver library)",
+    "valid_from": 1900,
+    "grade": "inferred",
+    "error_ft": 30,
+    "basis": "Both Sanborn editions draw the 'M. T. R. R. Depot' (1900, sheet 12) and 'Depot' (1908, sheet 19) at the east end of Bennett Avenue, standing in the line of the 80 ft avenue just west of the tracks, where a bridge (1900) or viaduct (1908) carried the street on over them: two storeys, brick, a main block 24 ft by about 60 ft with a short wing on the west and a rounded bay on the east marked 'Ticket Off.' (1900). Read off the whole sheets, its middle is about 62 m (1900) and 65 m (1908) east of the middle of Fifth Street. OpenStreetMap has a building outline of about 10 m by 20 m tagged Cripple Creek District Museum at 510 E. Bennett Avenue, centred 63 m east of Fifth Street on the line of Bennett Avenue: the point is the middle of that outline. Shape, size and place agree with both sheets, and the Denver library's 1969 view (X-746) shows the same brick building on its stone basement as the museum, 'formerly Midland Terminal Railway Station'. Error a judgement: the sheets' scale over a block was found to be off by up to 15 per cent against the present streets, and the outline's own accuracy is not known. Bare-earth lidar does not show buildings.",
+    "sources": [
+     "source:sanborn-cripple-creek",
+     "source:osm-cripple-creek-buildings",
+     "source:dpl-x-746-record",
+     "source:dpl-x-744-record",
+     "source:cc-district-museum"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "valid_from is the first sheet that shows it. 'Constructed in 1896' is the Denver cataloguer's statement and the museum page says the depot 'operated from 1895': neither has been checked against a period source. A sign on the building in X-744 (undated) reads 'C S & C C D and M T Ry Union Depot', so the Short Line used it too at some date; the library's summary adds the Florence and Cripple Creek, which the sign does not show.",
+    "place": "place:cripple-creek",
+    "placeholder": false,
+    "kind": "depot"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.177356,
+     38.743383
+    ]
+   },
+   "properties": {
+    "id": "structure:cripple-creek:fcc-depot",
+    "name": "Florence and Cripple Creek depot (frame)",
+    "valid_from": 1900,
+    "valid_to": 1908,
+    "grade": "inferred",
+    "error_ft": 80,
+    "basis": "Both Sanborn editions draw the Florence and Cripple Creek's depot on the same two lots, 41 and 42, of the block east of Xenia Street, with its long side east-west beside the tracks: in 1900 (sheet 3) 'F. & C. C. R. R. Depot', frame, one storey with a two-storey middle, baggage room, ticket office and waiting room, about 105 ft by 22 ft with a platform on the north; in 1908 (sheet 18) 'Depot', frame, about 88 ft by 19 ft, the track lettered 'Florence & Cripple Creek R. R. (Narrow Gauge)'. Counting lots (25 ft each) from Warren Avenue puts it about 155 m south of the middle of Warren Avenue, and the sheets put its middle about 25 m east of Xenia Street. On the present streets (OpenStreetMap) that is the point given. Error a judgement, from the lot count, the width of the street and the sheets' scale. The ground there is now flat and reworked; the lidar shows nothing of it.",
+    "sources": [
+     "source:sanborn-cripple-creek"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "The years are the two sheets that show it, not when it was built or removed. The 1903 USGS plate draws railway tracks running west from the yard about 25 to 50 m south of Warren Avenue and ending near Xenia Street, some 120 m north of this point, and no depot: not reconciled. The Denver library's X-742 (1894-1900) and the Pikes Peak library's 192-4440 (about 1895) show a frame station signed 'Cripple Creek', with 'Ticket Office' and 'Freight Office' signs; that it is this building is the libraries' attribution and fits the 1900 sheet's two-storey middle, not a measurement.",
+    "place": "place:cripple-creek",
+    "placeholder": false,
+    "kind": "depot"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.177966,
+     38.743383
+    ]
+   },
+   "properties": {
+    "id": "structure:cripple-creek:fcc-freight-house",
+    "name": "Florence and Cripple Creek freight house (1900)",
+    "valid_from": 1900,
+    "valid_to": 1900,
+    "grade": "inferred",
+    "error_ft": 100,
+    "basis": "Sanborn, September 1900, sheet 3: 'Freight Ho.', corrugated iron clad, open under 6 to 12 ft, with platforms on both sides, on lots 19 and 20 just west of Xenia Street, across the street from the depot and in the same band of lots. Placed by the same lot count as the depot, about 28 m west of Xenia Street. The 1908 sheet 18 shows nothing there; the 1908 index puts a freight depot on sheet 22, which was not read.",
+    "sources": [
+     "source:sanborn-cripple-creek"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "place": "place:cripple-creek",
+    "placeholder": false,
+    "kind": "building"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.171884,
+     38.747493
+    ]
+   },
+   "properties": {
+    "id": "structure:cripple-creek:mt-freight-house",
+    "name": "Midland Terminal freight house (1900)",
+    "valid_from": 1900,
+    "valid_to": 1900,
+    "grade": "inferred",
+    "error_ft": 120,
+    "basis": "Sanborn, September 1900, sheet 12: 'M. T. R. R. Cos. Freight Ho.', corrugated iron clad, with a platform, east of the Midland Terminal's tracks and north of the depot, between Bennett and Carr Avenues. Read off the whole sheet only (no full-size crop): about 20 to 28 m east and 50 to 90 m north of the depot. The 1908 index lists a 'Freight House' on sheet 13, not read.",
+    "sources": [
+     "source:sanborn-cripple-creek"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "The present tourist railway's ticket office (520 E. Carr Avenue) stands about 25 m west of this point.",
+    "place": "place:cripple-creek",
+    "placeholder": false,
+    "kind": "building"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.172166,
+     38.74748
+    ]
+   },
+   "properties": {
+    "id": "structure:cripple-creek:cccv-ticket-office",
+    "name": "Tourist railway ticket office (said to be a depot moved from Anaconda and Bull Hill)",
+    "grade": "conjecture",
+    "error_ft": 30,
+    "basis": "A present building, from its OpenStreetMap outline at 520 E. Carr Avenue, tagged Cripple Creek and Victor Narrow Gauge Railroad. That it is a Midland Terminal depot built at Anaconda, moved to Bull Hill and then here in 1968 is a claim read only in search-result snippets (Wikipedia and a roadside marker). Neither the building's history nor the claim has been checked, so the record is conjecture; the position of the present building is good to about 30 ft.",
+    "sources": [
+     "source:osm-cripple-creek-buildings",
+     "source:cccv-ticket-office-claim"
+    ],
+    "status": "reviewed",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "notes": "Outside the atlas's years if the 1968 move is right; recorded because the owner asked about it. The Denver library's 'Bull Hill station' (X-7368, 1960) may show it before the move: not opened.",
+    "place": "place:cripple-creek",
+    "placeholder": false,
+    "kind": "depot"
+   }
+  }
+ ]
+}

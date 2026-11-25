@@ -21672,7 +21672,7 @@
   "valid_to": 1949,
   "grade": "measured",
   "error_ft": 40,
-  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.76 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line goes on by the routes below. An OpenStreetMap piece running 2.85 miles south-west from Gillett, once shown as part of this line, is removed: the USGS district map of 1903 draws no railway there and it follows the present Highway 67. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 5.4 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. It now stops where it reaches Victor, 12 m from the west end of the switchback leg drawn on the Sanborn sheets, which carries it into the town. Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor goes on in the next route (see atlas/tools/once_route_mt_victor_side.py and once_route_victor_sanborn.py). Through Victor the line is 0.89 miles of pieces taken from the Sanborn fire insurance sheets of December 1908 (sheets 2 and 3, fitted to the present street corners to 2 to 4 m RMS), with the 1903 map above the town (42 per cent smooth on the 1 m lidar, weighted by length). The sheets of 1896, 1900 and 1908 agree: the main track passes the north-west corner of the town, and the depot at 4th Street and Granite Avenue stands on a leg lettered 'Switchback', entered by reversing (Moody's of 1917 describes a branch to Victor). The main track past the town and the track by the depot lie on surviving smooth ground and are measured; the leg is inferred, good to about 25 ft. Where the leg left the main track is not on any sheet read: at the sheet's west edge the two are 29 m apart in height on the present ground, so they met further west, perhaps at the 'Switchback' the timetables put 1.1 miles before Victor; the join drawn between them is conjecture, there only to keep the line continuous on the map. Above the town, from the rim of the open pit down, the line follows the 1903 map through ground the pit and its dumps have replaced (see atlas/tools/once_route_victor_sanborn.py).",
+  "basis": "From Divide to the end of the surviving trace near Independence the line is one continuous route of 21.82 miles, tested against the 1 m lidar mile by mile: 94 per cent of it lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_mt.py). It is the OpenStreetMap pieces put in order, with two gaps between Divide and Midland crossed by a line found from the lidar. The timetables put Gillett 14.4 and Cameron 19.7 miles from Divide; the route puts them at 14.6 and 19.8. Beyond Independence the line goes on by the routes below. An OpenStreetMap piece running 2.85 miles south-west from Gillett, once shown as part of this line, is removed: the USGS district map of 1903 draws no railway there and it follows the present Highway 67. Between Cripple Creek and Victor (by Anaconda, Beacon Hill, Elkton and Eclipse) the line is a trace of 5.4 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), inferred and good to about 200 ft at best: only 1 per cent of it reads as a smooth grade on the 1 m lidar, because most of that ground is now the open-pit mine. The timetable of 1920 gives 5.3 miles for the same run. Where the map draws several railways side by side the trace is not told apart from the Florence and Cripple Creek's (see atlas/tools/once_route_district.py). Into Victor the upper of the map's two lines is taken as this railway's: the key maps of the Sanborn sheets of August 1900 and December 1908 letter the upper line Midland Terminal, with a switchback, and the lower Florence and Cripple Creek. It now stops where it reaches Victor, 12 m from the west end of the switchback leg drawn on the Sanborn sheets, which carries it into the town. Below Independence the line is carried 1.87 miles toward Victor (26 per cent of it on a smooth grade on the 1 m lidar, all of that in the first half mile). The first half mile, a horseshoe, is a surviving bench that the Divide route meets within 2 m, and the USGS map surveyed in 1894 letters the Midland Terminal on a line of that shape: bench measured, attribution inferred. Beyond it, along the east foot of Battle Mountain and west past the Portland mine, only the corridor is drawn, good to about 300 ft: the 1903 map has three to five unnamed tracks side by side there and the ground is reworked. The descent into Victor goes on in the next route (see atlas/tools/once_route_mt_victor_side.py and once_route_victor_sanborn.py). Through Victor the line is 0.89 miles of pieces taken from the Sanborn fire insurance sheets of December 1908 (sheets 2 and 3, fitted to the present street corners to 2 to 4 m RMS), with the 1903 map above the town (42 per cent smooth on the 1 m lidar, weighted by length). The sheets of 1896, 1900 and 1908 agree: the main track passes the north-west corner of the town, and the depot at 4th Street and Granite Avenue stands on a leg lettered 'Switchback', entered by reversing (Moody's of 1917 describes a branch to Victor). The main track past the town and the track by the depot lie on surviving smooth ground and are measured; the leg is inferred, good to about 25 ft. Where the leg left the main track is not on any sheet read: at the sheet's west edge the two are 29 m apart in height on the present ground, so they met further west, perhaps at the 'Switchback' the timetables put 1.1 miles before Victor; the join drawn between them is conjecture, there only to keep the line continuous on the map. Above the town, from the rim of the open pit down, the line follows the 1903 map through ground the pit and its dumps have replaced (see atlas/tools/once_route_victor_sanborn.py).",
   "sources": [
    "source:osm-railways",
    "source:wikipedia-midland-terminal",
@@ -28304,167 +28304,199 @@
       ],
       [
        -105.158858,
-       38.91624
+       38.916349
       ],
       [
-       -105.158904,
-       38.915975
+       -105.15887,
+       38.916252
       ],
       [
-       -105.158903,
-       38.915705
+       -105.158869,
+       38.916144
       ],
       [
-       -105.158902,
-       38.915435
+       -105.158869,
+       38.916035
       ],
       [
-       -105.158948,
+       -105.158915,
+       38.915927
+      ],
+      [
+       -105.158915,
+       38.915819
+      ],
+      [
+       -105.158914,
+       38.915711
+      ],
+      [
+       -105.158914,
+       38.915603
+      ],
+      [
+       -105.158914,
+       38.915495
+      ],
+      [
+       -105.158914,
+       38.915386
+      ],
+      [
+       -105.158914,
+       38.915278
+      ],
+      [
+       -105.158959,
        38.91517
       ],
       [
-       -105.158947,
-       38.9149
+       -105.158959,
+       38.915062
       ],
       [
-       -105.158947,
+       -105.158959,
+       38.914954
+      ],
+      [
+       -105.158959,
+       38.914846
+      ],
+      [
+       -105.158958,
+       38.914738
+      ],
+      [
+       -105.158958,
        38.914629
       ],
       [
-       -105.158992,
-       38.914365
+       -105.158958,
+       38.914521
       ],
       [
-       -105.158992,
-       38.914094
+       -105.158958,
+       38.914413
+      ],
+      [
+       -105.159004,
+       38.914305
       ],
       [
        -105.159003,
-       38.913826
+       38.914197
       ],
       [
-       -105.159024,
-       38.913583
+       -105.159003,
+       38.914089
       ],
       [
-       -105.159036,
-       38.913334
+       -105.159003,
+       38.913981
       ],
       [
-       -105.159066,
-       38.913097
+       -105.159003,
+       38.913872
       ],
       [
-       -105.15907,
-       38.912835
+       -105.159002,
+       38.913764
       ],
       [
-       -105.159081,
-       38.912566
+       -105.159002,
+       38.913656
       ],
       [
-       -105.15908,
-       38.912296
+       -105.159048,
+       38.913548
       ],
       [
-       -105.159125,
-       38.912031
+       -105.159002,
+       38.91344
       ],
       [
-       -105.159125,
-       38.911761
+       -105.159001,
+       38.913332
       ],
       [
-       -105.159124,
-       38.91149
+       -105.159001,
+       38.913224
       ],
       [
-       -105.159219,
-       38.911237
+       -105.159001,
+       38.913115
       ],
       [
-       -105.159354,
-       38.911007
+       -105.159001,
+       38.913007
       ],
       [
-       -105.159598,
-       38.910815
+       -105.159,
+       38.912899
       ],
       [
-       -105.159826,
-       38.910616
+       -105.159,
+       38.912791
       ],
       [
-       -105.160004,
-       38.910388
+       -105.159046,
+       38.912755
       ],
       [
-       -105.16016,
-       38.910155
+       -105.159092,
+       38.912647
       ],
       [
-       -105.160226,
-       38.909893
+       -105.159092,
+       38.912539
       ],
       [
-       -105.160366,
-       38.909732
+       -105.159092,
+       38.91243
       ],
       [
-       -105.160365,
-       38.909462
+       -105.159091,
+       38.912322
       ],
       [
-       -105.160321,
-       38.909198
+       -105.159091,
+       38.912214
       ],
       [
-       -105.160299,
-       38.908941
+       -105.159091,
+       38.912106
       ],
       [
-       -105.160354,
-       38.908685
+       -105.159137,
+       38.911998
       ],
       [
-       -105.160334,
-       38.908426
+       -105.159137,
+       38.91189
       ],
       [
-       -105.160547,
-       38.908217
+       -105.159136,
+       38.911782
       ],
       [
-       -105.160568,
-       38.907956
+       -105.159136,
+       38.911673
       ],
       [
-       -105.160647,
-       38.907704
+       -105.159136,
+       38.911565
       ],
       [
-       -105.160795,
-       38.907462
+       -105.159136,
+       38.911457
       ],
       [
-       -105.160822,
-       38.907195
+       -105.159182,
+       38.911349
       ],
       [
-       -105.160893,
-       38.906937
-      ],
-      [
-       -105.161005,
-       38.906688
-      ],
-      [
-       -105.160922,
-       38.906438
-      ],
-      [
-       -105.161041,
-       38.906199
+       -105.159227,
+       38.911241
       ]
      ]
     },
@@ -28472,7 +28504,13 @@
     "valid_to": 1949,
     "grade": "inferred",
     "error_ft": 100,
-    "basis": "Mile 2 to 3 from Divide. On the 1 m lidar 100% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). Part of this mile had no trace: the line across the gap was found from the lidar as a gently graded bench, and is taken to be the railway's (much of it may be under the present highway); not confirmed by a map.",
+    "basis": "Mile 2 to about 2.6 from Divide (split from the mile-2 segment on 24 Nov 2026). Here the route runs on or beside the present highway, where the 1954 USGS Divide sheet draws the old railroad grade alongside it; which side of the highway the rails were on is not settled. The last 0.35 mile was redrawn by once_route_mt_murphy.py along the highway's west side.",
+    "murphy_fix": "before-D",
+    "original_basis": "Mile 2 to 3 from Divide. On the 1 m lidar 100% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). Part of this mile had no trace: the line across the gap was found from the lidar as a gently graded bench, and is taken to be the railway's (much of it may be under the present highway); not confirmed by a map.",
+    "original_grade": [
+     "inferred",
+     100
+    ],
     "from_route": "routes/midland-terminal-divide-to-independence.json"
    },
    {
@@ -28946,6 +28984,616 @@
      "type": "LineString",
      "coordinates": [
       [
+       -105.159227,
+       38.911241
+      ],
+      [
+       -105.159227,
+       38.911133
+      ],
+      [
+       -105.159319,
+       38.911024
+      ],
+      [
+       -105.159457,
+       38.910916
+      ],
+      [
+       -105.159596,
+       38.910808
+      ],
+      [
+       -105.159734,
+       38.910699
+      ],
+      [
+       -105.159872,
+       38.910591
+      ],
+      [
+       -105.159918,
+       38.910483
+      ],
+      [
+       -105.159964,
+       38.910375
+      ],
+      [
+       -105.160102,
+       38.910266
+      ],
+      [
+       -105.160148,
+       38.910158
+      ],
+      [
+       -105.160194,
+       38.91005
+      ],
+      [
+       -105.16024,
+       38.909942
+      ],
+      [
+       -105.160286,
+       38.90987
+      ],
+      [
+       -105.160285,
+       38.909834
+      ],
+      [
+       -105.160378,
+       38.909833
+      ],
+      [
+       -105.160377,
+       38.909725
+      ],
+      [
+       -105.160377,
+       38.909617
+      ],
+      [
+       -105.160377,
+       38.909509
+      ],
+      [
+       -105.160377,
+       38.909401
+      ],
+      [
+       -105.16033,
+       38.909293
+      ],
+      [
+       -105.160376,
+       38.909185
+      ],
+      [
+       -105.160376,
+       38.909076
+      ],
+      [
+       -105.16033,
+       38.908968
+      ],
+      [
+       -105.160329,
+       38.90886
+      ],
+      [
+       -105.160329,
+       38.908752
+      ],
+      [
+       -105.160375,
+       38.908644
+      ],
+      [
+       -105.160467,
+       38.908644
+      ],
+      [
+       -105.160468,
+       38.908752
+      ],
+      [
+       -105.160468,
+       38.90886
+      ],
+      [
+       -105.160468,
+       38.908968
+      ],
+      [
+       -105.160514,
+       38.909076
+      ],
+      [
+       -105.160561,
+       38.909184
+      ],
+      [
+       -105.160561,
+       38.909292
+      ],
+      [
+       -105.160515,
+       38.909401
+      ],
+      [
+       -105.160515,
+       38.909473
+      ],
+      [
+       -105.160531,
+       38.9094
+      ],
+      [
+       -105.160526,
+       38.909312
+      ],
+      [
+       -105.160535,
+       38.909224
+      ],
+      [
+       -105.160532,
+       38.909133
+      ],
+      [
+       -105.160546,
+       38.909043
+      ],
+      [
+       -105.160516,
+       38.90894
+      ],
+      [
+       -105.160552,
+       38.908855
+      ],
+      [
+       -105.160589,
+       38.908769
+      ],
+      [
+       -105.160625,
+       38.908684
+      ],
+      [
+       -105.160661,
+       38.908598
+      ],
+      [
+       -105.160697,
+       38.908513
+      ],
+      [
+       -105.160731,
+       38.908428
+      ],
+      [
+       -105.160807,
+       38.908352
+      ],
+      [
+       -105.160907,
+       38.908281
+      ],
+      [
+       -105.160939,
+       38.908194
+      ],
+      [
+       -105.160972,
+       38.908108
+      ],
+      [
+       -105.161005,
+       38.908022
+      ],
+      [
+       -105.161038,
+       38.907935
+      ],
+      [
+       -105.16107,
+       38.907849
+      ],
+      [
+       -105.161103,
+       38.907762
+      ],
+      [
+       -105.161136,
+       38.907676
+      ],
+      [
+       -105.161169,
+       38.90759
+      ],
+      [
+       -105.161201,
+       38.907503
+      ],
+      [
+       -105.161234,
+       38.907417
+      ],
+      [
+       -105.161267,
+       38.907329
+      ],
+      [
+       -105.161294,
+       38.907238
+      ],
+      [
+       -105.161302,
+       38.907145
+      ],
+      [
+       -105.16131,
+       38.907055
+      ],
+      [
+       -105.161318,
+       38.906966
+      ],
+      [
+       -105.161326,
+       38.906876
+      ],
+      [
+       -105.161311,
+       38.906784
+      ],
+      [
+       -105.161342,
+       38.906696
+      ],
+      [
+       -105.161373,
+       38.906607
+      ],
+      [
+       -105.161381,
+       38.906517
+      ],
+      [
+       -105.161389,
+       38.906427
+      ],
+      [
+       -105.161397,
+       38.906338
+      ],
+      [
+       -105.161405,
+       38.906248
+      ],
+      [
+       -105.161413,
+       38.906158
+      ],
+      [
+       -105.161398,
+       38.906067
+      ],
+      [
+       -105.161406,
+       38.905977
+      ],
+      [
+       -105.161414,
+       38.905887
+      ],
+      [
+       -105.161427,
+       38.905799
+      ],
+      [
+       -105.161442,
+       38.90571
+      ],
+      [
+       -105.161457,
+       38.905621
+      ],
+      [
+       -105.161472,
+       38.905532
+      ],
+      [
+       -105.161491,
+       38.905447
+      ],
+      [
+       -105.161527,
+       38.905365
+      ],
+      [
+       -105.161564,
+       38.90528
+      ],
+      [
+       -105.161602,
+       38.9052
+      ],
+      [
+       -105.161683,
+       38.90514
+      ],
+      [
+       -105.161749,
+       38.905066
+      ],
+      [
+       -105.161815,
+       38.904992
+      ],
+      [
+       -105.161881,
+       38.904918
+      ],
+      [
+       -105.161945,
+       38.904846
+      ],
+      [
+       -105.162014,
+       38.904783
+      ],
+      [
+       -105.162096,
+       38.904725
+      ],
+      [
+       -105.162181,
+       38.904664
+      ],
+      [
+       -105.162267,
+       38.904604
+      ],
+      [
+       -105.162321,
+       38.904516
+      ],
+      [
+       -105.162407,
+       38.904456
+      ],
+      [
+       -105.162492,
+       38.904395
+      ],
+      [
+       -105.162577,
+       38.904335
+      ],
+      [
+       -105.162647,
+       38.904261
+      ],
+      [
+       -105.162733,
+       38.9042
+      ],
+      [
+       -105.162818,
+       38.90414
+      ],
+      [
+       -105.162904,
+       38.904079
+      ],
+      [
+       -105.162989,
+       38.904019
+      ],
+      [
+       -105.163074,
+       38.903958
+      ],
+      [
+       -105.16316,
+       38.903898
+      ],
+      [
+       -105.163245,
+       38.903837
+      ],
+      [
+       -105.163331,
+       38.903777
+      ],
+      [
+       -105.163416,
+       38.903716
+      ],
+      [
+       -105.163502,
+       38.903655
+      ],
+      [
+       -105.163618,
+       38.903622
+      ],
+      [
+       -105.163719,
+       38.903574
+      ],
+      [
+       -105.163804,
+       38.903514
+      ],
+      [
+       -105.16389,
+       38.903453
+      ],
+      [
+       -105.163975,
+       38.903393
+      ],
+      [
+       -105.164061,
+       38.903332
+      ],
+      [
+       -105.164146,
+       38.903272
+      ],
+      [
+       -105.164231,
+       38.903211
+      ],
+      [
+       -105.164317,
+       38.903151
+      ],
+      [
+       -105.164402,
+       38.90309
+      ],
+      [
+       -105.164488,
+       38.90303
+      ],
+      [
+       -105.164573,
+       38.902969
+      ],
+      [
+       -105.164577,
+       38.902833
+      ],
+      [
+       -105.164799,
+       38.902558
+      ],
+      [
+       -105.164975,
+       38.902332
+      ],
+      [
+       -105.165173,
+       38.90211
+      ],
+      [
+       -105.165417,
+       38.901919
+      ],
+      [
+       -105.165687,
+       38.901752
+      ],
+      [
+       -105.166,
+       38.901643
+      ],
+      [
+       -105.166296,
+       38.901506
+      ],
+      [
+       -105.166617,
+       38.901409
+      ],
+      [
+       -105.166905,
+       38.901259
+      ],
+      [
+       -105.167193,
+       38.901109
+      ],
+      [
+       -105.167455,
+       38.900934
+      ],
+      [
+       -105.167695,
+       38.90074
+      ],
+      [
+       -105.167913,
+       38.900533
+      ],
+      [
+       -105.168072,
+       38.900296
+      ],
+      [
+       -105.168211,
+       38.90005
+      ],
+      [
+       -105.16832,
+       38.899794
+      ],
+      [
+       -105.168306,
+       38.899526
+      ],
+      [
+       -105.168212,
+       38.899313
+      ],
+      [
+       -105.168124,
+       38.899051
+      ],
+      [
+       -105.167948,
+       38.898823
+      ],
+      [
+       -105.167734,
+       38.898612
+      ],
+      [
+       -105.167462,
+       38.898444
+      ],
+      [
+       -105.16719,
+       38.898277
+      ],
+      [
+       -105.166919,
+       38.89811
+      ],
+      [
+       -105.166647,
+       38.897942
+      ],
+      [
+       -105.166375,
+       38.897775
+      ],
+      [
+       -105.166104,
+       38.897608
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "measured",
+    "error_ft": 20,
+    "basis": "About 2.6 to 3.8 miles from Divide, past Murphy to the south end of the summit cut. The railway's bench seen on the 1 m lidar: a low embankment leaving the highway's side south-westward past a small pond, then a bench along the hillside west of the creek (the Cheesman Ranch and Elk Meadow trails of Mueller State Park run on it), a side-hill bench with a fill on its east side, a sharp bend on a fill below Tracy Hill and a cut through the summit (about 9,390 ft). The 1954 USGS Divide sheet prints 'OLD RAILROAD GRADE' along it. Redrawn on 24 Nov 2026 by once_route_mt_murphy.py between about 2.25 and 3.3 miles, where the earlier line lay on the creek's flat floor 30 to 65 m to the east and had a small kink. The redrawn piece reads 100% on a smooth grade under 4.5 per cent (94 of 94 points), climbing from 9227 to 9344 ft; the piece it replaced read 100% but was not on the bench.",
+    "murphy_fix": "D-to-C",
+    "from_route": "routes/midland-terminal-divide-to-independence.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
        -105.159808,
        38.860202
       ],
@@ -29179,239 +29827,6 @@
      "type": "LineString",
      "coordinates": [
       [
-       -105.161019,
-       38.906283
-      ],
-      [
-       -105.160957,
-       38.906039
-      ],
-      [
-       -105.161029,
-       38.905783
-      ],
-      [
-       -105.161095,
-       38.905528
-      ],
-      [
-       -105.161146,
-       38.905294
-      ],
-      [
-       -105.16114,
-       38.905035
-      ],
-      [
-       -105.161264,
-       38.904804
-      ],
-      [
-       -105.161508,
-       38.904693
-      ],
-      [
-       -105.161666,
-       38.90448
-      ],
-      [
-       -105.161911,
-       38.904293
-      ],
-      [
-       -105.162206,
-       38.9042
-      ],
-      [
-       -105.162422,
-       38.903999
-      ],
-      [
-       -105.16263,
-       38.903788
-      ],
-      [
-       -105.162782,
-       38.903552
-      ],
-      [
-       -105.162952,
-       38.903327
-      ],
-      [
-       -105.163215,
-       38.903153
-      ],
-      [
-       -105.163526,
-       38.903063
-      ],
-      [
-       -105.16383,
-       38.903056
-      ],
-      [
-       -105.163903,
-       38.903213
-      ],
-      [
-       -105.163923,
-       38.903379
-      ],
-      [
-       -105.164168,
-       38.903188
-      ],
-      [
-       -105.164411,
-       38.902996
-      ],
-      [
-       -105.164622,
-       38.902788
-      ],
-      [
-       -105.164799,
-       38.902558
-      ],
-      [
-       -105.164975,
-       38.902332
-      ],
-      [
-       -105.165173,
-       38.90211
-      ],
-      [
-       -105.165417,
-       38.901919
-      ],
-      [
-       -105.165687,
-       38.901752
-      ],
-      [
-       -105.166,
-       38.901643
-      ],
-      [
-       -105.166296,
-       38.901506
-      ],
-      [
-       -105.166617,
-       38.901409
-      ],
-      [
-       -105.166905,
-       38.901259
-      ],
-      [
-       -105.167193,
-       38.901109
-      ],
-      [
-       -105.167455,
-       38.900934
-      ],
-      [
-       -105.167695,
-       38.90074
-      ],
-      [
-       -105.167913,
-       38.900533
-      ],
-      [
-       -105.168072,
-       38.900296
-      ],
-      [
-       -105.168211,
-       38.90005
-      ],
-      [
-       -105.16832,
-       38.899794
-      ],
-      [
-       -105.168306,
-       38.899526
-      ],
-      [
-       -105.168212,
-       38.899313
-      ],
-      [
-       -105.168124,
-       38.899051
-      ],
-      [
-       -105.167948,
-       38.898823
-      ],
-      [
-       -105.167734,
-       38.898612
-      ],
-      [
-       -105.167462,
-       38.898444
-      ],
-      [
-       -105.16719,
-       38.898277
-      ],
-      [
-       -105.166919,
-       38.89811
-      ],
-      [
-       -105.166647,
-       38.897942
-      ],
-      [
-       -105.166375,
-       38.897775
-      ],
-      [
-       -105.166104,
-       38.897608
-      ],
-      [
-       -105.165832,
-       38.89744
-      ],
-      [
-       -105.16556,
-       38.897273
-      ],
-      [
-       -105.165289,
-       38.897105
-      ],
-      [
-       -105.165017,
-       38.896938
-      ],
-      [
-       -105.164764,
-       38.896754
-      ]
-     ]
-    },
-    "valid_from": 1894,
-    "valid_to": 1949,
-    "grade": "inferred",
-    "error_ft": 100,
-    "basis": "Mile 3 to 4 from Divide. On the 1 m lidar 100% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.3 ft). Part of this mile had no trace: the line across the gap was found from the lidar as a gently graded bench, and is taken to be the railway's (much of it may be under the present highway); not confirmed by a map.",
-    "from_route": "routes/midland-terminal-divide-to-independence.json"
-   },
-   {
-    "geometry": {
-     "type": "LineString",
-     "coordinates": [
-      [
        -105.164847,
        38.896817
       ],
@@ -29638,6 +30053,49 @@
     "grade": "inferred",
     "error_ft": 100,
     "basis": "Mile 4 to 5 from Divide. On the 1 m lidar 78% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.8 ft). Part of this mile had no trace: the line across the gap was found from the lidar as a gently graded bench, and is taken to be the railway's (much of it may be under the present highway); not confirmed by a map.",
+    "from_route": "routes/midland-terminal-divide-to-independence.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.166104,
+       38.897608
+      ],
+      [
+       -105.165832,
+       38.89744
+      ],
+      [
+       -105.16556,
+       38.897273
+      ],
+      [
+       -105.165289,
+       38.897105
+      ],
+      [
+       -105.165017,
+       38.896938
+      ],
+      [
+       -105.164764,
+       38.896754
+      ]
+     ]
+    },
+    "valid_from": 1894,
+    "valid_to": 1949,
+    "grade": "inferred",
+    "error_ft": 100,
+    "basis": "About 3.8 to 4 miles from Divide (split from the mile-3 segment on 24 Nov 2026; unchanged). Mile 3 to 4 from Divide. On the 1 m lidar 100% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.3 ft). Part of this mile had no trace: the line across the gap was found from the lidar as a gently graded bench, and is taken to be the railway's (much of it may be under the present highway); not confirmed by a map.",
+    "murphy_fix": "after-C",
+    "original_basis": "Mile 3 to 4 from Divide. On the 1 m lidar 100% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.3 ft). Part of this mile had no trace: the line across the gap was found from the lidar as a gently graded bench, and is taken to be the railway's (much of it may be under the present highway); not confirmed by a map.",
+    "original_grade": [
+     "inferred",
+     100
+    ],
     "from_route": "routes/midland-terminal-divide-to-independence.json"
    },
    {
