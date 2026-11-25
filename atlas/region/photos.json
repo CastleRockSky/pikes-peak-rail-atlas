@@ -51,7 +51,10 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:buena-vista",
+   "place:leadville"
+  ],
   "topics": [
    "Colorado Midland",
    "engraving"
@@ -63,7 +66,21 @@
    "form": "engraving",
    "place_as_stated": "Buena Vista; Tunnel 13; Leadville from Carbonate Hill",
    "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/BUENA VISTA - OUT OF TUNNEL 13 - LEADVILLE.jpg",
-   "multi": true
+   "multi": true,
+   "places": [
+    {
+     "place": "place:buena-vista",
+     "name": "Buena Vista",
+     "how": "named",
+     "note": null
+    },
+    {
+     "place": "place:leadville",
+     "name": "Leadville",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 1600,
   "h": 1304,
@@ -434,7 +451,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:glenwood-springs"
+  ],
   "topics": [
    "Colorado Midland",
    "postcard"
@@ -445,7 +464,15 @@
    "railway": "Colorado Midland",
    "form": "postcard",
    "place_as_stated": "Glenwood Springs",
-   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/GLENWOOD SPRINGS.jpg"
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/GLENWOOD SPRINGS.jpg",
+   "places": [
+    {
+     "place": "place:glenwood-springs",
+     "name": "Glenwood Springs",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 1101,
   "h": 698,
@@ -469,7 +496,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:green-mountain-falls"
+  ],
   "topics": [
    "Colorado Midland",
    "engraving"
@@ -481,7 +510,15 @@
    "form": "engraving",
    "place_as_stated": "Green Mountain Falls; Manitou Park Sta.; Granite Canon",
    "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/GREEN MTN FALLS - PIKE PEAK - GRANITE CANYON.jpg",
-   "multi": true
+   "multi": true,
+   "places": [
+    {
+     "place": "place:green-mountain-falls",
+     "name": "Green Mountain Falls",
+     "how": "named",
+     "note": "One of three views on the page."
+    }
+   ]
   },
   "w": 1600,
   "h": 1302,
@@ -752,7 +789,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:cm-tunnel-c"
+  ],
   "topics": [
    "Colorado Midland",
    "engraving"
@@ -764,7 +803,15 @@
    "form": "engraving",
    "place_as_stated": "Timber-line; Windy Point; Cameron's Cone from Tunnel 3",
    "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/MANITOU & PIKE PEAK - CAMERONS CONE.jpg",
-   "multi": true
+   "multi": true,
+   "places": [
+    {
+     "place": "place:cm-tunnel-c",
+     "name": "Colorado Midland Tunnel 3 (as numbered on a supplied map)",
+     "how": "probable",
+     "note": "The third view is captioned 'Cameron's Cone from Tunnel 3'; this pin is 'Tunnel 3' by a supplied map's numbering. Jackson's photograph of the same view says 'Tunnel 4', so one of the two is wrong."
+    }
+   ]
   },
   "w": 1600,
   "h": 1317,
@@ -788,7 +835,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:buena-vista"
+  ],
   "topics": [
    "Colorado Midland",
    "postcard"
@@ -799,7 +848,15 @@
    "railway": "Colorado Midland",
    "form": "postcard",
    "place_as_stated": "Buena Vista",
-   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/MTS PRINCETON YALE & HARVARD AT BUENA VISTA.jpg"
+   "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/MTS PRINCETON YALE & HARVARD AT BUENA VISTA.jpg",
+   "places": [
+    {
+     "place": "place:buena-vista",
+     "name": "Buena Vista",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 1600,
   "h": 1054,
@@ -999,7 +1056,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:aspen"
+  ],
   "topics": [
    "Colorado Midland",
    "engraving"
@@ -1011,7 +1070,15 @@
    "form": "engraving",
    "place_as_stated": "Seven Castles; Aspen",
    "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/SEVEN CASTLES AND ASPEN.jpg",
-   "multi": true
+   "multi": true,
+   "places": [
+    {
+     "place": "place:aspen",
+     "name": "Aspen",
+     "how": "named",
+     "note": "One of two views on the page."
+    }
+   ]
   },
   "w": 1296,
   "h": 1600,
@@ -1107,7 +1174,10 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:hagerman",
+   "place:ivanhoe"
+  ],
   "topics": [
    "Colorado Midland",
    "engraving"
@@ -1119,7 +1189,21 @@
    "form": "engraving",
    "place_as_stated": "Hagerman Tunnel; Ivanhoe",
    "source_file": "Ebay Documents/COLORADO MIDLAND/PHOTOS/THE GREAT LOOP & IVANHOE.jpg",
-   "multi": true
+   "multi": true,
+   "places": [
+    {
+     "place": "place:hagerman",
+     "name": "Hagerman",
+     "how": "probable",
+     "note": "The view is captioned 'near Hagerman Tunnel'; Hagerman is the timetable station."
+    },
+    {
+     "place": "place:ivanhoe",
+     "name": "Ivanhoe",
+     "how": "named",
+     "note": "The second view is a snow plough at Ivanhoe."
+    }
+   ]
   },
   "w": 1298,
   "h": 1600,
@@ -1356,7 +1440,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:sublime"
+  ],
   "topics": [
    "Florence and Cripple Creek",
    "postcard"
@@ -1367,7 +1453,15 @@
    "railway": "Florence and Cripple Creek",
    "form": "postcard",
    "place_as_stated": "Point Sublime",
-   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/POINT SUBLIME.jpg"
+   "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/POINT SUBLIME.jpg",
+   "places": [
+    {
+     "place": "place:sublime",
+     "name": "Sublime",
+     "how": "probable",
+     "note": "Captioned 'Near Point Sublime'; the Short Line's station Sublime is taken to be named for it."
+    }
+   ]
   },
   "w": 780,
   "h": 1184,
@@ -1426,7 +1520,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:st-peters"
+  ],
   "topics": [
    "Florence and Cripple Creek",
    "postcard"
@@ -1438,7 +1534,15 @@
    "form": "postcard",
    "place_as_stated": "St. Peter's Dome",
    "source_file": "Ebay Documents/FLORENCE & CRIPPLE CREEK/POSTCARD FOLDER/ST PETERS DOME - 3 ELEVATIONS OF TRACK.jpg",
-   "multi": true
+   "multi": true,
+   "places": [
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
+     "note": "Captioned 'St. Peter's Dome'; the Short Line's station St. Peter's is taken to be named for it."
+    }
+   ]
   },
   "w": 1600,
   "h": 561,
@@ -1534,7 +1638,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:glenwood-springs"
+  ],
   "topics": [
    "Colorado Midland",
    "postcard"
@@ -1545,7 +1651,15 @@
    "railway": "Colorado Midland",
    "form": "postcard",
    "place_as_stated": "Glenwood Springs; Hotel Colorado, Glenwood Springs, Colo.",
-   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_23.jpg"
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_23.jpg",
+   "places": [
+    {
+     "place": "place:glenwood-springs",
+     "name": "Glenwood Springs",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 1600,
   "h": 1028,
@@ -1741,7 +1855,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:glenwood-springs"
+  ],
   "topics": [
    "Colorado Midland",
    "postcard"
@@ -1752,7 +1868,15 @@
    "railway": "Colorado Midland",
    "form": "postcard",
    "place_as_stated": "Glenwood Springs",
-   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_50.jpg"
+   "source_file": "Ebay Documents/POSTCARDS/POSTCARDS_Page_50.jpg",
+   "places": [
+    {
+     "place": "place:glenwood-springs",
+     "name": "Glenwood Springs",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 800,
   "h": 490,
@@ -1847,7 +1971,9 @@
   "rights": "public-domain",
   "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
   "credit": "U.S. National Archives (NARA id 7867151 in the file name; number '97268' stamped at lower right; file map no. 9269)",
-  "shows": [],
+  "shows": [
+   "place:manitou-springs"
+  ],
   "topics": [
    "Colorado Midland",
    "map"
@@ -1858,7 +1984,15 @@
    "railway": "Colorado Midland",
    "form": "map",
    "place_as_stated": "Manitou Springs, El Paso Co., Colo.",
-   "source_file": "High Res Scans/1950_Census_Enumeration_District_Maps_-_Colorado_(CO)_-_El_Paso_County_-_Manitou_Springs_-_ED_21-88_to_92_-_NARA_-_7867151.jpg"
+   "source_file": "High Res Scans/1950_Census_Enumeration_District_Maps_-_Colorado_(CO)_-_El_Paso_County_-_Manitou_Springs_-_ED_21-88_to_92_-_NARA_-_7867151.jpg",
+   "places": [
+    {
+     "place": "place:manitou-springs",
+     "name": "Manitou (depot site as marked on a supplied map)",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 2200,
   "h": 1671,
@@ -1882,7 +2016,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:hagerman"
+  ],
   "topics": [
    "photograph"
   ],
@@ -1891,7 +2027,15 @@
   "local": {
    "form": "photograph",
    "place_as_stated": "Hagerman Tunnel",
-   "source_file": "High Res Scans/1_58dd8d3015e4077784c8f4fc856d6923.jpg"
+   "source_file": "High Res Scans/1_58dd8d3015e4077784c8f4fc856d6923.jpg",
+   "places": [
+    {
+     "place": "place:hagerman",
+     "name": "Hagerman",
+     "how": "probable",
+     "note": "Captioned 'near Hagerman Tunnel'; Hagerman is the timetable station."
+    }
+   ]
   },
   "w": 1600,
   "h": 1019,
@@ -1948,7 +2092,9 @@
   "rights": "public-domain",
   "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
   "credit": "Library of Congress (LCCN 93505884 in the file name; a number scratched in the black negative border at the rig)",
-  "shows": [],
+  "shows": [
+   "place:manitou-springs"
+  ],
   "topics": [
    "Manitou and Pike's Peak",
    "photograph"
@@ -1959,7 +2105,15 @@
    "railway": "Manitou and Pike's Peak",
    "form": "photograph",
    "place_as_stated": "Manitou",
-   "source_file": "High Res Scans/Cog_Road_Depot,_Manitou_LCCN93505884.jpg"
+   "source_file": "High Res Scans/Cog_Road_Depot,_Manitou_LCCN93505884.jpg",
+   "places": [
+    {
+     "place": "place:manitou-springs",
+     "name": "Manitou (depot site as marked on a supplied map)",
+     "how": "named",
+     "note": "The cog railway's depot at Manitou, not the Colorado Midland's."
+    }
+   ]
   },
   "w": 2200,
   "h": 1769,
@@ -1984,7 +2138,9 @@
   "rights": "public-domain",
   "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
   "credit": "U.S. National Archives (NARA id 17443770 (page 901) in the file name; black microfilm frame around the sheet.)",
-  "shows": [],
+  "shows": [
+   "place:manitou-springs"
+  ],
   "topics": [
    "Colorado Midland",
    "map"
@@ -1995,7 +2151,15 @@
    "railway": "Colorado Midland",
    "form": "map",
    "place_as_stated": "Manitou Springs, Colorado",
-   "source_file": "High Res Scans/Colorado_-Adams_County_-_Las_Animas_County_(part)-_-_NARA_-_17443770_(page_901).jpg"
+   "source_file": "High Res Scans/Colorado_-Adams_County_-_Las_Animas_County_(part)-_-_NARA_-_17443770_(page_901).jpg",
+   "places": [
+    {
+     "place": "place:manitou-springs",
+     "name": "Manitou (depot site as marked on a supplied map)",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 2200,
   "h": 1159,
@@ -2054,7 +2218,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:hagerman"
+  ],
   "topics": [
    "photograph"
   ],
@@ -2062,7 +2228,15 @@
   "local": {
    "form": "photograph",
    "place_as_stated": "Hagerman Tunnel (file name only)",
-   "source_file": "High Res Scans/Entrance to Hagerman Tunnel.jpg"
+   "source_file": "High Res Scans/Entrance to Hagerman Tunnel.jpg",
+   "places": [
+    {
+     "place": "place:hagerman",
+     "name": "Hagerman",
+     "how": "probable",
+     "note": "Title from the file name only; Hagerman is the timetable station."
+    }
+   ]
   },
   "w": 1262,
   "h": 2200,
@@ -2087,7 +2261,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:hagerman"
+  ],
   "topics": [
    "Colorado Midland",
    "engraving"
@@ -2098,7 +2274,15 @@
    "railway": "Colorado Midland",
    "form": "engraving",
    "place_as_stated": "near Hagerman's",
-   "source_file": "High Res Scans/Great Loop engraving.jpg"
+   "source_file": "High Res Scans/Great Loop engraving.jpg",
+   "places": [
+    {
+     "place": "place:hagerman",
+     "name": "Hagerman",
+     "how": "probable",
+     "note": "Captioned 'near Hagerman's'."
+    }
+   ]
   },
   "w": 2200,
   "h": 1427,
@@ -2156,7 +2340,9 @@
   "rights": "public-domain",
   "rights_note": "Public domain in the United States by age (dated 1915 on the item or by its catalogue name).",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:hagerman"
+  ],
   "topics": [
    "Colorado Midland",
    "photograph"
@@ -2167,7 +2353,15 @@
    "railway": "Colorado Midland",
    "form": "photograph",
    "place_as_stated": "Hagerman Pass",
-   "source_file": "High Res Scans/iqa_H1829_-BXueszMo5O.png"
+   "source_file": "High Res Scans/iqa_H1829_-BXueszMo5O.png",
+   "places": [
+    {
+     "place": "place:hagerman",
+     "name": "Hagerman",
+     "how": "probable",
+     "note": "Captioned 'Hagerman Pass'."
+    }
+   ]
   },
   "w": 1600,
   "h": 693,
@@ -2228,7 +2422,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:hagerman"
+  ],
   "topics": [
    "photograph"
   ],
@@ -2237,7 +2433,15 @@
   "local": {
    "form": "photograph",
    "place_as_stated": "Hagerman Tunnel",
-   "source_file": "High Res Scans/Loop Near Hagerman Tunnel.jpg"
+   "source_file": "High Res Scans/Loop Near Hagerman Tunnel.jpg",
+   "places": [
+    {
+     "place": "place:hagerman",
+     "name": "Hagerman",
+     "how": "probable",
+     "note": "Captioned 'near Hagerman Tunnel'."
+    }
+   ]
   },
   "w": 2200,
   "h": 1334,
@@ -2298,7 +2502,9 @@
   "rights": "public-domain",
   "rights_note": "Public domain in the United States by age (dated 1913 on the item or by its catalogue name).",
   "credit": "Library of Congress (LCCN 2007661977 in the file name.)",
-  "shows": [],
+  "shows": [
+   "place:manitou-springs"
+  ],
   "topics": [
    "photograph"
   ],
@@ -2307,7 +2513,15 @@
   "local": {
    "form": "photograph",
    "place_as_stated": "Manitou, Colo.",
-   "source_file": "High Res Scans/Manitou,_Colo_LCCN2007661977.tif"
+   "source_file": "High Res Scans/Manitou,_Colo_LCCN2007661977.tif",
+   "places": [
+    {
+     "place": "place:manitou-springs",
+     "name": "Manitou (depot site as marked on a supplied map)",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 2200,
   "h": 498,
@@ -2332,7 +2546,9 @@
   "rights": "public-domain",
   "rights_note": "Public domain in the United States by age (dated 1902 on the item or by its catalogue name).",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:manitou-springs"
+  ],
   "topics": [
    "photograph"
   ],
@@ -2340,7 +2556,15 @@
   "local": {
    "form": "photograph",
    "place_as_stated": "Manitou Springs, Colorado (file name only)",
-   "source_file": "High Res Scans/Manitou_Springs,_Colorado,_1902.jpg"
+   "source_file": "High Res Scans/Manitou_Springs,_Colorado,_1902.jpg",
+   "places": [
+    {
+     "place": "place:manitou-springs",
+     "name": "Manitou (depot site as marked on a supplied map)",
+     "how": "named",
+     "note": "Title from the file name only."
+    }
+   ]
   },
   "w": 2200,
   "h": 1158,
@@ -2401,7 +2625,10 @@
   "rights": "public-domain",
   "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
   "credit": "Digital Public Library of America (contributing institution not recorded) (DPLA id fdcb626386fc8e89171ff29887fa392b in the file name; number '1106' in white at lower)",
-  "shows": [],
+  "shows": [
+   "place:cripple-creek",
+   "place:victor"
+  ],
   "topics": [
    "map"
   ],
@@ -2410,7 +2637,21 @@
   "local": {
    "form": "map",
    "place_as_stated": "Cripple Creek; Victor (labels; district title from file name)",
-   "source_file": "High Res Scans/Map_of_Cripple_Creek_and_Victor_mining_districts_-_DPLA_-_fdcb626386fc8e89171ff29887fa392b.jpg"
+   "source_file": "High Res Scans/Map_of_Cripple_Creek_and_Victor_mining_districts_-_DPLA_-_fdcb626386fc8e89171ff29887fa392b.jpg",
+   "places": [
+    {
+     "place": "place:cripple-creek",
+     "name": "Cripple Creek",
+     "how": "named",
+     "note": null
+    },
+    {
+     "place": "place:victor",
+     "name": "Victor",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 2200,
   "h": 1661,
@@ -2435,7 +2676,9 @@
   "rights": "public-domain",
   "rights_note": "From the public collection named; taken as public domain there. Its date is not printed on the item.",
   "credit": "Library of Congress (File name 'master-pnp-det-4a20000-4a26000-4a26800-4a26880a' is a Library of Congress Print)",
-  "shows": [],
+  "shows": [
+   "place:buena-vista"
+  ],
   "topics": [
    "Colorado Midland",
    "photograph"
@@ -2446,7 +2689,15 @@
    "railway": "Colorado Midland",
    "form": "photograph",
    "place_as_stated": "near Buena Vista",
-   "source_file": "High Res Scans/master-pnp-det-4a20000-4a26000-4a26800-4a26880a.tif"
+   "source_file": "High Res Scans/master-pnp-det-4a20000-4a26000-4a26800-4a26880a.tif",
+   "places": [
+    {
+     "place": "place:buena-vista",
+     "name": "Buena Vista",
+     "how": "named",
+     "note": "The caption says 'near Buena Vista'."
+    }
+   ]
   },
   "w": 2200,
   "h": 1435,
@@ -2472,7 +2723,9 @@
   "rights": "public-domain",
   "rights_note": "Public domain in the United States by age (dated 1911 on the item or by its catalogue name).",
   "credit": "Library of Congress (File name 'master-pnp-pan-6a02000-6a02500-6a02594u' is a Library of Congress Prints & Phot)",
-  "shows": [],
+  "shows": [
+   "place:buena-vista"
+  ],
   "topics": [
    "Colorado Midland",
    "photograph"
@@ -2483,7 +2736,15 @@
    "railway": "Colorado Midland",
    "form": "photograph",
    "place_as_stated": "Buena Vista and Collegiate Range",
-   "source_file": "High Res Scans/master-pnp-pan-6a02000-6a02500-6a02594u.tif"
+   "source_file": "High Res Scans/master-pnp-pan-6a02000-6a02500-6a02594u.tif",
+   "places": [
+    {
+     "place": "place:buena-vista",
+     "name": "Buena Vista",
+     "how": "named",
+     "note": null
+    }
+   ]
   },
   "w": 2200,
   "h": 389,
@@ -2615,7 +2876,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:hagerman"
+  ],
   "topics": [
    "Colorado Midland",
    "photograph"
@@ -2626,7 +2889,15 @@
    "railway": "Colorado Midland",
    "form": "photograph",
    "place_as_stated": "Hagerman Tunnel",
-   "source_file": "High Res Scans/The_Great_Loop_Near_Hagerman_Tunnel,_Col._Midland_R.R._(-6023)_(7096852183).jpg"
+   "source_file": "High Res Scans/The_Great_Loop_Near_Hagerman_Tunnel,_Col._Midland_R.R._(-6023)_(7096852183).jpg",
+   "places": [
+    {
+     "place": "place:hagerman",
+     "name": "Hagerman",
+     "how": "probable",
+     "note": "Captioned 'near Hagerman Tunnel'."
+    }
+   ]
   },
   "w": 2000,
   "h": 1202,
@@ -2651,7 +2922,9 @@
   "rights": "licensed",
   "rights_note": "Shown on the statement of the atlas's owner (24 Nov 2026) that the supplied pictures may be used. Its date is not printed on the item, so public domain by age is not claimed.",
   "credit": "Collection of the atlas's owner",
-  "shows": [],
+  "shows": [
+   "place:cm-tunnel-a"
+  ],
   "topics": [
    "Colorado Midland",
    "photograph"
@@ -2662,7 +2935,15 @@
    "railway": "Colorado Midland",
    "form": "photograph",
    "place_as_stated": "Cameron's Cone from \"Tunnel 4\"; Denver, Col. (photographer's address)",
-   "source_file": "High Res Scans/Tunnel 4 Camerons Cone.jpg"
+   "source_file": "High Res Scans/Tunnel 4 Camerons Cone.jpg",
+   "places": [
+    {
+     "place": "place:cm-tunnel-a",
+     "name": "Colorado Midland Tunnel 4, with Tunnel 5 close by (as numbered on a supplied map)",
+     "how": "probable",
+     "note": "Captioned 'Cameron's Cone from \"Tunnel 4\"'; this pin is 'Tunnel 4' by a supplied map's numbering. An album engraving of the same view says 'Tunnel 3', so one of the two is wrong."
+    }
+   ]
   },
   "w": 1806,
   "h": 2200,

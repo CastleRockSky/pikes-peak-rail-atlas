@@ -51,7 +51,10 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&am
 const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#b91c1c', 'line:cs-and-cc-district': '#15803d', 'line:florence-and-cripple-creek': '#a16207', 'line:rio-grande-junction': '#7c3aed' };
 const map = L.map('map').setView([38.83, -105.05], 11);
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Map: Esri and contributors' }).addTo(map);
-Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] })]).then(([lines, places]) => {
+Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] }), get('atlas/region/photos.json', [])]).then(([lines, places, pics]) => {
+  const picsAt = {}; for (const q of pics) if (q.image) for (const id of (q.shows || [])) (picsAt[id] = picsAt[id] || []).push(q);        // collection pictures tied to each place
+  const picLink = id => { const a = picsAt[id]; if (!a) return ''; const s = id.split(':')[1];
+    return '<br><a href="collection.html?place=' + s + '"><img src="' + esc(a[0].thumb || a[0].image) + '" alt="" style="width:120px;height:80px;object-fit:cover;display:block;margin:6px 0 2px;border:1px solid #cfc7b3">' + a.length + ' picture' + (a.length === 1 ? '' : 's') + ' in the collection</a>'; };
   const segLayers = [];            // {layer, from, to, line}
   for (const l of lines) for (const s of l.segments) {
     const layer = L.geoJSON(s.geometry, { style: { color: COLOUR[l.id] || '#111', weight: 4, opacity: 0.9 } })
@@ -72,7 +75,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
     const layer = L.circleMarker([lat, lon], { radius: isWorked ? 9 : 5, color: '#fff', weight: 2, fillColor: col, fillOpacity: 1 })
       .bindPopup('<b>' + esc(p.name) + '</b><br>' + esc(p.kind) + (p.valid_from ? ', ' + p.valid_from + (p.valid_to ? ' to ' + p.valid_to : ' on') : '') +
         '<br><span class="pill" style="background:' + ({ measured: '#15803d', inferred: '#d97706', conjecture: '#6b7280' }[p.grade]) + '">' + p.grade + '</span> ' + (p.error_ft == null ? '' : 'good to ' + p.error_ft + ' ft') +
-        '<br>' + esc(isWorked ? p.summary : p.basis) + (isWorked ? '<br><a href="' + (window.ATLAS_LANDING ? slug + '/' : 'place.html?place=' + slug) + '"><b>Open this place</b></a>' : '<br><span class="note">A pin only: not worked up yet.</span>'));
+        '<br>' + esc(isWorked ? p.summary : p.basis) + (isWorked ? '<br><a href="' + (window.ATLAS_LANDING ? slug + '/' : 'place.html?place=' + slug) + '"><b>Open this place</b></a>' : '<br><span class="note">A pin only: not worked up yet.</span>') + picLink(p.id));
     placeLayers.push({ layer, from: p.valid_from || 0, to: p.valid_to || 9999, worked: isWorked });
   }
   const href = slug => window.ATLAS_LANDING ? slug + '/' : 'place.html?place=' + slug;        // the public copy gives each worked place its own address

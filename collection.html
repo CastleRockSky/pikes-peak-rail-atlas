@@ -49,6 +49,8 @@ fetch('atlas/region/photos.json', { cache: 'no-store' }).then(r => r.ok ? r.json
   const shown = all.filter(p => p.image), held = all.length - shown.length;
   const L = p => p.local || {}, rail = p => L(p).railway || 'Other';
   let fr = 'All', fk = 'All', list = [], at = 0;
+  let fp = new URLSearchParams(location.search).get('place');                       // ?place=<slug>: only the pictures tied to that place
+  const placesOf = p => (L(p).places || []), atPlace = p => !fp || placesOf(p).some(x => x.place === 'place:' + fp);
   const count = (a, f) => a.reduce((m, p) => (m[f(p)] = (m[f(p)] || 0) + 1, m), {});
   const bar = (el, counts, cur, set) => { el.innerHTML = ['All'].concat(Object.keys(counts).sort((a, b) => counts[b] - counts[a])).map(k =>
     '<button class="' + (k === cur ? 'on' : '') + '" data-k="' + esc(k) + '">' + esc(k) + (k === 'All' ? '' : ' (' + counts[k] + ')') + '</button>').join('');
@@ -57,9 +59,11 @@ fetch('atlas/region/photos.json', { cache: 'no-store' }).then(r => r.ok ? r.json
     const q = document.getElementById('q').value.trim().toLowerCase();
     bar(document.getElementById('rail'), count(shown, rail), fr, v => fr = v);
     bar(document.getElementById('kinds'), count(shown, p => L(p).form || p.kind), fk, v => fk = v);
-    list = shown.filter(p => (fr === 'All' || rail(p) === fr) && (fk === 'All' || (L(p).form || p.kind) === fk) &&
+    list = shown.filter(p => atPlace(p) && (fr === 'All' || rail(p) === fr) && (fk === 'All' || (L(p).form || p.kind) === fk) &&
       (!q || [p.name, p.notes, p.transcription, L(p).place_as_stated, p.date].join(' ').toLowerCase().includes(q)));
-    document.getElementById('count').textContent = list.length + ' of ' + shown.length + ' shown' + (held ? '; ' + held + ' more are listed but not shown' : '') + '.';
+    const pn = fp && (shown.map(placesOf).flat().find(x => x.place === 'place:' + fp) || {}).name;
+    document.getElementById('count').innerHTML = (fp ? 'Pictures tied to <b>' + esc(pn || fp) + '</b>: ' : '') + list.length + ' of ' + shown.length + ' shown' + (held ? '; ' + held + ' more are listed but not shown' : '') + '.' +
+      (fp ? ' <a href="collection.html">Show the whole collection</a>' : '');
     document.getElementById('grid').innerHTML = list.map((p, i) => '<div class="card" data-i="' + i + '" tabindex="0"><img loading="lazy" src="' + esc(p.thumb || p.image) + '" alt="' + esc(p.name) +
       '"><div>' + esc(p.name) + '<small>' + esc([p.date, rail(p) === 'Other' ? '' : rail(p)].filter(Boolean).join(' · ')) + '</small></div></div>').join('');
     document.querySelectorAll('.card').forEach(c => { c.onclick = () => open(+c.dataset.i); c.onkeydown = e => { if (e.key === 'Enter') open(+c.dataset.i); }; });
@@ -70,6 +74,7 @@ fetch('atlas/region/photos.json', { cache: 'no-store' }).then(r => r.ok ? r.json
     document.getElementById('vd').innerHTML = [
       p.notes ? '<p>' + esc(p.notes) + '</p>' : '',
       p.transcription ? '<p class="note">On the item: &ldquo;' + esc(p.transcription) + '&rdquo;</p>' : '',
+      placesOf(p).length ? '<p class="note">On the map: ' + placesOf(p).map(x => '<a href="collection.html?place=' + x.place.split(':')[1] + '">' + esc(x.name) + '</a>' + (x.how === 'probable' ? ' (probably)' : '') + (x.note ? ' <span>' + esc(x.note) + '</span>' : '')).join('; ') + '</p>' : '',
       '<p class="note">' + esc(['Date: ' + (p.date || 'not given') + (p.date_basis ? ' (' + p.date_basis + ')' : ''), p.photographer ? 'By: ' + p.photographer : '', L(p).form || p.kind].filter(Boolean).join(' · ')) + '</p>',
       '<p class="note">' + esc(p.credit || p.holder) + (p.rights_note ? ' ' + esc(p.rights_note) : '') + '</p>'].join('');
     document.getElementById('view').classList.add('on'); document.getElementById('view').scrollTop = 0;
