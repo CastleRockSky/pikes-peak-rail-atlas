@@ -5366,5 +5366,879 @@
     }
    ]
   }
+ },
+ {
+  "id": "photo:region:en1903-fig1-dam",
+  "name": "FIG. 1. STEEL-FACED ROCK-FILLED DAM, PIKE'S PEAK POWER CO., COLORADO. (Water is being stored prior to the completion of the dam. The railway was used to bring stone from the quarry shown in Fig. 2.)",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 1 January 1903, p. 2; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:hardesty-1903"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: The dam seen from below its downstream face, which is a long slope of loose broken rock; the reservoir lies behind it in a shallow valley of rounded, thinly timbered hills. A steel truss trestle of the construction railway runs out from the right over the dam to the middle of the crest, with a stepped timber structure under it on the face. Printed caption: 'FIG. 1. STEEL-FACED ROCK-FILLED DAM, PIKE'S PEAK POWER CO., COLORADO. (Water is being stored prior to the completion of the dam. The railway was used to bring stone from the quarry shown in Fig. 2.)' (Fig. 1). The same photograph is printed, smaller, in Electrical World and Engineer, 26 July 1902, p. 119 (Fig. 2) and in the Journal of Electricity, Power and Gas, September 1902, p. 166 ('Dam during construction').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-a-journ_1903-01-01_49_1/page/n1/",
+  "photographer": "not credited",
+  "date": "1903",
+  "date_basis": "published in Engineering News, 1 January 1903, p. 2",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1903: public domain by age.",
+  "credit": "Engineering News, 1 January 1903 (Internet Archive)",
+  "image": "img/collection/en1903-fig1-dam.jpg",
+  "thumb": "img/collection/t/en1903-fig1-dam.jpg",
+  "w": 2105,
+  "h": 1425,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1903-fig1-dam.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1903-fig2-dam-from-above",
+  "name": "FIG. 2. THE PARTIALLY COMPLETED DAM FROM ABOVE, WITH THE QUARRY AND RAILWAY AT THE LEFT.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 1 January 1903, p. 2; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:hardesty-1903"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Looking across the reservoir to the dam, which shows as a dark line where the water meets the far shore. On the left a steep hill of broken, blasted rock with a few trees (the quarry); a small building on the slope at the right. A spit of land runs into the water in the right foreground. Printed caption: 'FIG. 2. THE PARTIALLY COMPLETED DAM FROM ABOVE, WITH THE QUARRY AND RAILWAY AT THE LEFT.' (Fig. 2).",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-a-journ_1903-01-01_49_1/page/n1/",
+  "photographer": "not credited",
+  "date": "1903",
+  "date_basis": "published in Engineering News, 1 January 1903, p. 2",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1903: public domain by age.",
+  "credit": "Engineering News, 1 January 1903 (Internet Archive)",
+  "image": "img/collection/en1903-fig2-dam-from-above.jpg",
+  "thumb": "img/collection/t/en1903-fig2-dam-from-above.jpg",
+  "w": 2100,
+  "h": 1235,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1903-fig2-dam-from-above.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1903-fig3-dam-steel-joints",
+  "name": "Fig. 3. View Showing Joints in Steel Plates and Concrete Foot Wall, Rock Fill and Steel Dam.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 1 January 1903, p. 3; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:hardesty-1903"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Close view along the foot of the dam's upstream steel face: the riveted plates rise to the right, set on a concrete foot wall bedded on broken rock; a plank walk on the left, a rope and a pipe along the face. Printed caption: 'Fig. 3. View Showing Joints in Steel Plates and Concrete Foot Wall, Rock Fill and Steel Dam.' (Fig. 3). The same photograph is printed in the Journal of Electricity, Power and Gas, September 1902, p. 166 ('Steel face of dam showing concrete connection with bed-rock').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-a-journ_1903-01-01_49_1/page/n2/",
+  "photographer": "not credited",
+  "date": "1903",
+  "date_basis": "published in Engineering News, 1 January 1903, p. 3",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1903: public domain by age.",
+  "credit": "Engineering News, 1 January 1903 (Internet Archive)",
+  "image": "img/collection/en1903-fig3-dam-steel-joints.jpg",
+  "thumb": "img/collection/t/en1903-fig3-dam-steel-joints.jpg",
+  "w": 1045,
+  "h": 1580,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1903-fig3-dam-steel-joints.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1903-fig4-stave-pipe",
+  "name": "FIG. 4. 30-IN. WOOD STAVE PIPE LINE, PIKE'S PEAK POWER CO.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 1 January 1903, p. 3; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:hardesty-1903"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: The banded wood-stave pipe in the foreground curves round a granite outcrop beside a graded path of fine rock, with a man standing on the path for scale. Behind, across a steep side gully, the pipe is seen again running along the opposite slope, partly on light timber supports, before swinging back toward the camera. Printed caption: 'FIG. 4. 30-IN. WOOD STAVE PIPE LINE, PIKE'S PEAK POWER CO.' (Fig. 4). The same photograph is printed in Electrical World and Engineer, 26 July 1902, p. 119 (Fig. 3, 'A section of the stave pipe line') and in the Journal of Electricity, Power and Gas, September 1902, p. 165 ('Thirty-inch wood stave pipe, 23,000 feet long').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-a-journ_1903-01-01_49_1/page/n2/",
+  "photographer": "not credited",
+  "date": "1903",
+  "date_basis": "published in Engineering News, 1 January 1903, p. 3",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1903: public domain by age.",
+  "credit": "Engineering News, 1 January 1903 (Internet Archive)",
+  "image": "img/collection/en1903-fig4-stave-pipe.jpg",
+  "thumb": "img/collection/t/en1903-fig4-stave-pipe.jpg",
+  "w": 2030,
+  "h": 1600,
+  "shows": [
+   "place:skaguay-pipeline"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1903-fig4-stave-pipe.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-pipeline",
+     "name": "Skaguay pipeline: wood-stave pipe seen here",
+     "how": "named",
+     "note": "A view on the pipe line; where on its 23,200 ft this was taken is not known."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1903-fig6-power-station-sections",
+  "name": "FIG. 6. SECTIONAL ELEVATIONS OF POWER STATION, PIKE'S PEAK POWER CO.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 1 January 1903, p. 4; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:hardesty-1903"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Line drawing: a longitudinal section of the power station (97 ft 3 in inside, gravel roof, ten-ton hand crane, four main generator sets and two exciters, the supply pipe running beneath) and a transverse section (28 ft 4 in central bay with side wings). The page's body text set beside the transverse section has been whited out. Printed caption: 'FIG. 6. SECTIONAL ELEVATIONS OF POWER STATION, PIKE'S PEAK POWER CO.' (Fig. 6). The longitudinal section is also drawn in Electrical World and Engineer, 26 July 1902, p. 122 (Fig. 8).",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-a-journ_1903-01-01_49_1/page/n3/",
+  "photographer": "not credited",
+  "date": "1903",
+  "date_basis": "published in Engineering News, 1 January 1903, p. 4",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1903: public domain by age.",
+  "credit": "Engineering News, 1 January 1903 (Internet Archive)",
+  "image": "img/collection/en1903-fig6-power-station-sections.jpg",
+  "thumb": "img/collection/t/en1903-fig6-power-station-sections.jpg",
+  "w": 2200,
+  "h": 1340,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "engraving"
+  ],
+  "kind": "document",
+  "local": {
+   "form": "line drawing in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1903-fig6-power-station-sections.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:joe1902-power-house",
+  "name": "POWER HOUSE, STATION A AND R. M. JONES' RESIDENCE ON THE LEFT.",
+  "grade": "measured",
+  "basis": "Printed in the Journal of Electricity, Power and Gas, September 1902, p. 163; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:journal-of-electricity-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: The brick power house, with tall round-headed windows, stands on a levelled spur of bare granite above the canyon floor, with a waste slope of broken rock below it to the right. Higher on the steep, partly timbered slope to the left are three or four small frame buildings (the caption's residence). Steep timbered canyon walls fill the background. Printed caption: 'POWER HOUSE, STATION A AND R. M. JONES' RESIDENCE ON THE LEFT.' (no figure number). The same photograph is printed in Electrical World and Engineer, 26 July 1902, p. 120 (Fig. 5, 'General view of power house and mountains').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-west_1902-09_12_9/page/n12/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in the Journal of Electricity, Power and Gas, September 1902, p. 163",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "The Journal of Electricity, Power and Gas, September 1902 (Internet Archive)",
+  "image": "img/collection/joe1902-power-house.jpg",
+  "thumb": "img/collection/t/joe1902-power-house.jpg",
+  "w": 2200,
+  "h": 1709,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/joe1902-power-house.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:joe1902-masons-peak",
+  "name": "MASON'S PEAK AND POWER HOUSE.",
+  "grade": "measured",
+  "basis": "Printed in the Journal of Electricity, Power and Gas, September 1902, p. 164; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:journal-of-electricity-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: From the yard beside the power house: the brick end wall of the building, with an arched doorway, at the right; a tall pole carrying three cross-arms of insulators in the middle; covered machinery, a pipe section and rails in the yard; a dog. Behind rises a steep, pointed granite peak (the caption's Mason's Peak) above timbered slopes. Printed caption: 'MASON'S PEAK AND POWER HOUSE.' (no figure number). The same photograph is printed in Electrical World and Engineer, 26 July 1902, p. 120 (Fig. 6, 'Mason's peak and power house').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-west_1902-09_12_9/page/n13/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in the Journal of Electricity, Power and Gas, September 1902, p. 164",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "The Journal of Electricity, Power and Gas, September 1902 (Internet Archive)",
+  "image": "img/collection/joe1902-masons-peak.jpg",
+  "thumb": "img/collection/t/joe1902-masons-peak.jpg",
+  "w": 2010,
+  "h": 1605,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/joe1902-masons-peak.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:joe1902-tunnel-north-end",
+  "name": "WOOD STAVE PIPE, SHOWING NORTH END OF SKAGUAY TUNNEL.",
+  "grade": "measured",
+  "basis": "Printed in the Journal of Electricity, Power and Gas, September 1902, p. 165; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:journal-of-electricity-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: The banded stave pipe runs away from the camera along the right of the picture on a narrow graded bench at the foot of a steep, rocky, timbered slope, and passes into dark trees and rock in the middle distance, where the tunnel's mouth is taken to be; the mouth itself cannot be made out in this reproduction. To the left the ground falls steeply into a deep valley; on the skyline beyond is a ridge with a cliffed knob. No trestle is seen. The half-tone is dark and coarse. Printed caption: 'WOOD STAVE PIPE, SHOWING NORTH END OF SKAGUAY TUNNEL.' (no figure number). Printed only in this journal among the sources seen.",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-west_1902-09_12_9/page/n14/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in the Journal of Electricity, Power and Gas, September 1902, p. 165",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "The Journal of Electricity, Power and Gas, September 1902 (Internet Archive)",
+  "image": "img/collection/joe1902-tunnel-north-end.jpg",
+  "thumb": "img/collection/t/joe1902-tunnel-north-end.jpg",
+  "w": 1390,
+  "h": 1190,
+  "shows": [
+   "place:skaguay-pipeline"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/joe1902-tunnel-north-end.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-pipeline",
+     "name": "Skaguay pipeline: wood-stave pipe seen here",
+     "how": "named",
+     "note": "The north end of the Skaguay tunnel, about 21,000 ft along the pipe from the dam by Jones (1902); where the portal is on the ground has not been found."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:joe1902-dam-steel-face",
+  "name": "STEEL FACE OF DAM DURING CONSTRUCTION.",
+  "grade": "measured",
+  "basis": "Printed in the Journal of Electricity, Power and Gas, September 1902, p. 166; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:journal-of-electricity-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Along the upstream face of the dam: riveted steel plates in long sloping courses, with vertical angle-bar joints, run away to the right; the construction railway's timber trestle crosses above the left end; open hills behind. Printed caption: 'STEEL FACE OF DAM DURING CONSTRUCTION.' (no figure number). The same photograph is printed in Electrical World and Engineer, 26 July 1902, p. 119 (Fig. 1).",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-west_1902-09_12_9/page/n15/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in the Journal of Electricity, Power and Gas, September 1902, p. 166",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "The Journal of Electricity, Power and Gas, September 1902 (Internet Archive)",
+  "image": "img/collection/joe1902-dam-steel-face.jpg",
+  "thumb": "img/collection/t/joe1902-dam-steel-face.jpg",
+  "w": 1030,
+  "h": 930,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/joe1902-dam-steel-face.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:joe1902-steel-pipe-trestle",
+  "name": "STEEL PIPE AND RAILWAY BRIDGE ON FORTY PER CENT. GRADIENT.",
+  "grade": "measured",
+  "basis": "Printed in the Journal of Electricity, Power and Gas, September 1902, p. 167; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:journal-of-electricity-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Looking up at a tall timber trestle that carries the inclined railway and the steel pipe steeply up across a gap beside a granite cliff, with a pointed rock pinnacle behind; a pole with a cross-arm above. The bents are braced in several tiers and stand on a rocky slope that falls away to the lower left. Printed caption: 'STEEL PIPE AND RAILWAY BRIDGE ON FORTY PER CENT. GRADIENT.' (no figure number). The same photograph is printed in Engineering News, 1 January 1903, p. 3 (Fig. 5, 'View of Steel Pipe Line Carried on Railway Trestle, on 40% Grade') and in Electrical World and Engineer, 26 July 1902, p. 119 (Fig. 4, 'Forty per cent. trestle').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-west_1902-09_12_9/page/n16/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in the Journal of Electricity, Power and Gas, September 1902, p. 167",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "The Journal of Electricity, Power and Gas, September 1902 (Internet Archive)",
+  "image": "img/collection/joe1902-steel-pipe-trestle.jpg",
+  "thumb": "img/collection/t/joe1902-steel-pipe-trestle.jpg",
+  "w": 1430,
+  "h": 2045,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/joe1902-steel-pipe-trestle.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "probable",
+     "note": "On the inclined railway above the plant; Hardesty (1903) gives a 70 ft trestle on the 40 per cent grade below the tunnel's lower end. Where on the incline it stood is not established."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ew1902-fig7-8-plan-elevation",
+  "name": "Figs. 7 and 8.—Plan and Elevation, Pike's Peak Plant.",
+  "grade": "measured",
+  "basis": "Printed in Electrical World and Engineer, 26 July 1902, p. 122; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:jones-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Line drawings: the ground plan of the power station (a long hall with four main generator sets and two exciters, a front wing with three transformers and a rear wing with a further machine) and its longitudinal elevation (97 ft 3 in, roof falling 3/4 in per foot, ten-ton hand crane, tail race for the lighting machines). Printed caption: 'Figs. 7 and 8.—Plan and Elevation, Pike's Peak Plant.' (Figs. 7 and 8). The elevation is also drawn in Engineering News, 1 January 1903, p. 4 (Fig. 6), which adds a transverse section.",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-world_1902-07-26_40_4/page/n7/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in Electrical World and Engineer, 26 July 1902, p. 122",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "Electrical World and Engineer, 26 July 1902 (Internet Archive)",
+  "image": "img/collection/ew1902-fig7-8-plan-elevation.jpg",
+  "thumb": "img/collection/t/ew1902-fig7-8-plan-elevation.jpg",
+  "w": 2200,
+  "h": 2154,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "engraving"
+  ],
+  "kind": "document",
+  "local": {
+   "form": "line drawing in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/ew1902-fig7-8-plan-elevation.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ew1902-fig9-interior",
+  "name": "Fig. 9.—Interior View, Pike's Peak Power House.",
+  "grade": "measured",
+  "basis": "Printed in Electrical World and Engineer, 26 July 1902, p. 121; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:jones-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Inside the station: a row of large generators on heavy bed-plates runs away down the hall, the nearest with governor columns beside it; arched windows along the far wall, a corrugated ceiling on steel beams. Printed caption: 'Fig. 9.—Interior View, Pike's Peak Power House.' (Fig. 9). The same photograph is printed in Engineering News, 1 January 1903, p. 5 (Fig. 7, 'Interior view of station of Pike's Peak Power Co., before all machinery was placed') and, smaller, in the Journal of Electricity, Power and Gas, September 1902, p. 168 ('Interior Station A before completion').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-world_1902-07-26_40_4/page/n6/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in Electrical World and Engineer, 26 July 1902, p. 121",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "Electrical World and Engineer, 26 July 1902 (Internet Archive)",
+  "image": "img/collection/ew1902-fig9-interior.jpg",
+  "thumb": "img/collection/t/ew1902-fig9-interior.jpg",
+  "w": 2200,
+  "h": 1393,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/ew1902-fig9-interior.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ew1902-fig10-generators",
+  "name": "Fig. 10.—Generators, Switchboard and Transformers, Pike's Peak Plant.",
+  "grade": "measured",
+  "basis": "Printed in Electrical World and Engineer, 26 July 1902, p. 123; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:jones-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: View down the length of the station hall: generators and water-wheel housings in the middle, the switchboard on the left, an arched window and door at the far end, tall arched windows along the right wall, and a ceiling of shallow arches on steel beams. Printed caption: 'Fig. 10.—Generators, Switchboard and Transformers, Pike's Peak Plant.' (Fig. 10). The same photograph is printed in the Journal of Electricity, Power and Gas, September 1902, p. 168 ('Interior Station A').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-world_1902-07-26_40_4/page/n8/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in Electrical World and Engineer, 26 July 1902, p. 123",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "Electrical World and Engineer, 26 July 1902 (Internet Archive)",
+  "image": "img/collection/ew1902-fig10-generators.jpg",
+  "thumb": "img/collection/t/ew1902-fig10-generators.jpg",
+  "w": 1530,
+  "h": 1440,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/ew1902-fig10-generators.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ew1902-fig11-switchboard",
+  "name": "Fig. 11.—View of Switchboard and Governors.",
+  "grade": "measured",
+  "basis": "Printed in Electrical World and Engineer, 26 July 1902, p. 123; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:jones-1902"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: The marble switchboard panels with meters and switches across the station's end wall, four governor stands with handwheels in front of it, a small table and a man seated in a chair. Printed caption: 'Fig. 11.—View of Switchboard and Governors.' (Fig. 11). The same photograph is printed in the Journal of Electricity, Power and Gas, September 1902, p. 168 ('Switchboard, Station A').",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_electrical-world_1902-07-26_40_4/page/n8/",
+  "photographer": "not credited",
+  "date": "1902",
+  "date_basis": "published in Electrical World and Engineer, 26 July 1902, p. 123",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1902: public domain by age.",
+  "credit": "Electrical World and Engineer, 26 July 1902 (Internet Archive)",
+  "image": "img/collection/ew1902-fig11-switchboard.jpg",
+  "thumb": "img/collection/t/ew1902-fig11-switchboard.jpg",
+  "w": 1530,
+  "h": 1280,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/ew1902-fig11-switchboard.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1900-fig1-blast-tunnel-plan",
+  "name": "Fig. 1.—Plan and Profiles of Tunnel for Blowing Up Vesuvius Butte. R. M. Jones, Engineer Pike's Peak Power Co.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 17 May 1900, p. 314; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:engineering-news-1900"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: Line drawing: two vertical sections of the butte showing the tunnel's floor line, and a contour plan of the butte with the tunnel driven in from one side and ending in a T-shaped cross-cut under the summit; scale bar 0-100 ft. Printed caption: 'Fig. 1.—Plan and Profiles of Tunnel for Blowing Up Vesuvius Butte. R. M. Jones, Engineer Pike's Peak Power Co.' (Fig. 1).",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-record-_1900-05-17_43_20/page/n1/",
+  "photographer": "R. M. Jones (credited in print for the drawing)",
+  "date": "1900",
+  "date_basis": "published in Engineering News, 17 May 1900, p. 314",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1900: public domain by age.",
+  "credit": "Engineering News, 17 May 1900 (Internet Archive)",
+  "image": "img/collection/en1900-fig1-blast-tunnel-plan.jpg",
+  "thumb": "img/collection/t/en1900-fig1-blast-tunnel-plan.jpg",
+  "w": 1050,
+  "h": 1852,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "engraving"
+  ],
+  "kind": "document",
+  "local": {
+   "form": "line drawing in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1900-fig1-blast-tunnel-plan.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "probable",
+     "note": "Vesuvius Butte, blasted in December 1899 to quarry the dam's rock fill; Hardesty (1903) puts it at the south-east end of the dam-site. Not pinned separately."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1900-fig3-dam-site",
+  "name": "FIG. 3.—VIEW OF DAM SITE, WITH VESUVIUS BUTTE, BEFORE EXPLOSION, IN BACKGROUND.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 17 May 1900, p. 314; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:engineering-news-1900"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: A small stream in a rocky, open valley floor in the foreground, with a timber flume or walk crossing it and a figure standing by the water; behind, a rounded butte of broken granite and scattered trees rising to the right, with a timbered ridge on the left. Printed caption: 'FIG. 3.—VIEW OF DAM SITE, WITH VESUVIUS BUTTE, BEFORE EXPLOSION, IN BACKGROUND.' (Fig. 3).",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-record-_1900-05-17_43_20/page/n1/",
+  "photographer": "not credited",
+  "date": "1900",
+  "date_basis": "published in Engineering News, 17 May 1900, p. 314",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1900: public domain by age.",
+  "credit": "Engineering News, 17 May 1900 (Internet Archive)",
+  "image": "img/collection/en1900-fig3-dam-site.jpg",
+  "thumb": "img/collection/t/en1900-fig3-dam-site.jpg",
+  "w": 1485,
+  "h": 1310,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1900-fig3-dam-site.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "named",
+     "note": "The dam site before building, December 1899 or earlier."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1900-fig4-crater",
+  "name": "FIG. 4.—INTERIOR OF CRATER OF VESUVIUS BUTTE AFTER BLAST.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 17 May 1900, p. 314; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:engineering-news-1900"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: A field of broken granite blocks filling the foreground, with four or five men standing on the rim of the broken rock; a smooth, bare hill rises beyond. Printed caption: 'FIG. 4.—INTERIOR OF CRATER OF VESUVIUS BUTTE AFTER BLAST.' (Fig. 4).",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-record-_1900-05-17_43_20/page/n1/",
+  "photographer": "not credited",
+  "date": "1900",
+  "date_basis": "published in Engineering News, 17 May 1900, p. 314",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1900: public domain by age.",
+  "credit": "Engineering News, 17 May 1900 (Internet Archive)",
+  "image": "img/collection/en1900-fig4-crater.jpg",
+  "thumb": "img/collection/t/en1900-fig4-crater.jpg",
+  "w": 1480,
+  "h": 1260,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1900-fig4-crater.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "probable",
+     "note": "Vesuvius Butte, blasted in December 1899 to quarry the dam's rock fill; Hardesty (1903) puts it at the south-east end of the dam-site. Not pinned separately."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:en1900-fig5-butte-after",
+  "name": "FIG. 5.—VIEW OF VESUVIUS BUTTE, AFTER EXPLOSION, AS SEEN FROM FIRING STATION.",
+  "grade": "measured",
+  "basis": "Printed in Engineering News, 17 May 1900, p. 315; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:engineering-news-1900"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: An engraved drawing, not a photograph (signed 'R.'): the butte in the middle distance, its top broken open into a shallow crater, among rolling timbered hills; a small box (the firing station) and a stump in the foreground. Printed caption: 'FIG. 5.—VIEW OF VESUVIUS BUTTE, AFTER EXPLOSION, AS SEEN FROM FIRING STATION.' (Fig. 5).",
+  "holder": "Internet Archive (scan of the printed journal)",
+  "url": "https://archive.org/details/sim_enr_engineering-news-record-_1900-05-17_43_20/page/n2/",
+  "photographer": "not credited",
+  "date": "1900",
+  "date_basis": "published in Engineering News, 17 May 1900, p. 315",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1900: public domain by age.",
+  "credit": "Engineering News, 17 May 1900 (Internet Archive)",
+  "image": "img/collection/en1900-fig5-butte-after.jpg",
+  "thumb": "img/collection/t/en1900-fig5-butte-after.jpg",
+  "w": 1952,
+  "h": 1070,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "engraving"
+  ],
+  "kind": "document",
+  "local": {
+   "form": "engraved drawing in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/en1900-fig5-butte-after.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "probable",
+     "note": "Vesuvius Butte, blasted in December 1899 to quarry the dam's rock fill; Hardesty (1903) puts it at the south-east end of the dam-site. Not pinned separately."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:wsp487-pl4b-dam-spillway",
+  "name": "B. SKAGUAY RESERVOIR, WITH DAM (IN FOREGROUND) AND SPILLWAY (IN CENTER).",
+  "grade": "measured",
+  "basis": "Printed in U.S. Geological Survey Water-Supply Paper 487, 1922, plate IV, facing p. 19; the Internet Archive's scan of the page read on 2026-11-25 and the picture itself looked at before use. What it shows is from its printed caption and the article; where it was taken has not been solved.",
+  "sources": [
+   "source:usgs-wsp-487"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Seen: A wide view: the dam's slope of broken rock fills the foreground, its crest running from the middle toward the water on the right, with a line of posts beside it; two small buildings stand near the middle, where the caption puts the spillway; the reservoir lies to the right among rounded, thinly timbered hills. Bare trees at the left edge. When the photograph was taken is not printed. Printed caption: 'B. SKAGUAY RESERVOIR, WITH DAM (IN FOREGROUND) AND SPILLWAY (IN CENTER).' (Plate IV, B).",
+  "holder": "Internet Archive (scan of the printed report)",
+  "url": "https://archive.org/details/arkansasriverflo00foll/page/n27/",
+  "photographer": "not credited",
+  "date": "1922",
+  "date_basis": "published in U.S. Geological Survey Water-Supply Paper 487, 1922, plate IV, facing p. 19",
+  "rights": "public-domain",
+  "rights_note": "Published in the United States in 1922: public domain by age.",
+  "credit": "U.S. Geological Survey Water-Supply Paper 487, 1922 (Internet Archive)",
+  "image": "img/collection/wsp487-pl4b-dam-spillway.jpg",
+  "thumb": "img/collection/t/wsp487-pl4b-dam-spillway.jpg",
+  "w": 2200,
+  "h": 655,
+  "shows": [
+   "place:skaguay-dam"
+  ],
+  "topics": [
+   "water works",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "half-tone in a printed journal",
+   "library": true,
+   "source_file": "research/library/skaguay/wsp487-pl4b-dam-spillway.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-dam",
+     "name": "Skaguay Dam and Reservoir",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
  }
 ]

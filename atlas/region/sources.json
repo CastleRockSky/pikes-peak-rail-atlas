@@ -280,5 +280,23 @@
   "url": "https://archive.org/details/arkansasriverflo00foll",
   "date": "1922",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:journal-of-electricity-1902",
+  "kind": "engineering article",
+  "title": "R. M. Jones, 'The Pikes Peak Power Transmission', The Journal of Electricity, Power and Gas (San Francisco), vol. 12, no. 9, September 1902, pp. 163-168, with ten half-tone views",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/sim_electrical-west_1902-09_12_9",
+  "date": "1902",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:engineering-news-1900",
+  "kind": "engineering article",
+  "title": "W. M., 'The Big Blast and Power Development of the Pike's Peak Power Co.', Engineering News, vol. 43, 17 May 1900, pp. 314-315: the blasting of Vesuvius Butte for the dam's rock fill, with a plan and profiles by R. M. Jones and three views",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/sim_enr_engineering-news-record-_1900-05-17_43_20",
+  "date": "1900",
+  "accessed": "2026-11-25"
  }
 ]
