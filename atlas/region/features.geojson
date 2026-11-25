@@ -419,6 +419,37 @@
      [
       -105.058118,
       38.65278
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-d",
+    "name": "Skaguay pipeline, the level run continued",
+    "kind": "pipeline",
+    "grade": "inferred",
+    "error_ft": 30,
+    "length_ft": 1103,
+    "basis": "The thin line is seen again here on fine-relief pictures of the lidar, curving along the hillside at 8,785 to 8,794 ft for about 1,050 ft. Found on a second pass over ground first drawn only as a computed level line; the computed points were within 30 ft of it.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:owner-field-photographs",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.058118,
+      38.65278
      ],
      [
       -105.05814,
@@ -575,13 +606,119 @@
     ]
    },
    "properties": {
-    "id": "feature:skaguay-pipeline-d",
+    "id": "feature:skaguay-pipeline-d2",
     "name": "Skaguay pipeline, continued as a level line (computed, not seen)",
     "kind": "pipeline",
     "grade": "conjecture",
     "error_ft": 150,
-    "length_ft": 4173,
-    "basis": "Beyond the last point where the line can be seen, this is the 8,792 ft level followed along the hillside by calculation, with one gully of 400 ft jumped. A cut shelf was detected along most of it, which is some support, but the thin line itself could not be picked out among the cliffs here. It ends where it meets a straight track climbing to the plateau. Conjecture.",
+    "length_ft": 3070,
+    "basis": "Beyond the last point where the line can be seen, this is the 8,792 ft level followed along the hillside by calculation, with one gully of 400 ft jumped. A cut shelf was detected along most of it, but two passes failed to pick out the pipe's bed here. A straight line does cross that gully, dipping about 150 ft: a sag in the pipe or a road, and it cannot be told which. Conjecture.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:owner-field-photographs",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.05609,
+      38.64604
+     ],
+     [
+      -105.053848,
+      38.645564
+     ],
+     [
+      -105.053056,
+      38.645708
+     ],
+     [
+      -105.052653,
+      38.644573
+     ],
+     [
+      -105.051905,
+      38.644114
+     ],
+     [
+      -105.051973,
+      38.642978
+     ],
+     [
+      -105.052524,
+      38.641852
+     ],
+     [
+      -105.053144,
+      38.641166
+     ],
+     [
+      -105.054729,
+      38.640192
+     ],
+     [
+      -105.055556,
+      38.639786
+     ],
+     [
+      -105.055096,
+      38.638696
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-e",
+    "name": "Skaguay pipeline, the last stretch to the head of the pressure pipe (not found; a level line only)",
+    "kind": "pipeline",
+    "grade": "conjecture",
+    "error_ft": 400,
+    "length_ft": 4026,
+    "basis": "Nothing of the pipe was found on this ground in two searches. The line drawn is only the 8,800 ft level carried round the spur and along the cliffs to where the straight incline above the plant, produced upward, reaches that level: it shows where a pipe kept at grade would have to go, not where this one went. The accounts give the line a tunnel of 1,535 ft. The only ridge here that a level bore of that length would cut is this spur, from about 38.6456, -105.0538 to 38.6412, -105.0530 (1,605 ft); no portal, cut or spoil was seen at either end, so the tunnel is not drawn. The lengths do not settle it: with or without the tunnel the whole comes within about 1,200 ft of the 23,200 ft given.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:owner-field-photographs",
+     "source:skaguay-secondary"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.055096,
+      38.638696
+     ],
+     [
+      -105.053935,
+      38.638057
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-head",
+    "name": "Skaguay power plant: pressure pipe above the incline's cut (conjecture)",
+    "kind": "incline",
+    "grade": "conjecture",
+    "error_ft": 150,
+    "length_ft": 405,
+    "basis": "The straight incline above the plant, produced up the slope on its own bearing, reaches the pipe's level (about 8,780 ft) here, on a short near-level stretch; above this the ground rises steeply past 8,870 ft. Taken to be about where the wood-stave line ended and the steel pressure pipe began, the pressure pipe then running straight down the incline to the plant, about 2,440 ft on the slope. No trace of a pipe was seen on the ground between here and the top of the cut.",
     "sources": [
      "source:lidar-3dep",
      "source:owner-field-photographs",
