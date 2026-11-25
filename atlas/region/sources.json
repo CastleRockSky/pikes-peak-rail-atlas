@@ -227,5 +227,58 @@
   "title": "Accounts of the Midland Terminal tunnel on Colorado Highway 67 ('Little Ike Tunnel'): Wikipedia's articles on the Midland Terminal Railway and on State Highway 67 (both uncited at this point), a photographer's web log of August 2010, the Colorado Mountain Club's trail page, and a geotagged Wikimedia Commons photograph of the south portal (2022). None is a railway or highway record",
   "holder": "Various",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:cdss-gould-creek",
+  "kind": "official record",
+  "title": "Colorado Division of Water Resources, water-right and structure records for structure 1200578, 'Gould Creek Diversion' (appropriated 1 July 1950, adjudicated 13 March 1954, case CA6913, 10 cfs; comment 'DIVERSION INTO ROSEMONT RESERVIOR THROUGH RODGERS TUNNEL & P/L'), and for 1201118 'Tutt Diversion Dam'; diversion records to 2025",
+  "holder": "Colorado Division of Water Resources (CDSS)",
+  "url": "https://dwr.state.co.us/Tools/Structures/1200578",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:arkdss-csu-2019",
+  "kind": "official report",
+  "title": "Wilson Water Group, 'ArkDSS Memorandum, Task 2.1: Colorado Springs Utilities Operating Memorandum', April 2019, for the Colorado Division of Water Resources, pp. 13-14",
+  "holder": "Colorado Water Conservation Board",
+  "url": "https://dnrweblink.state.co.us/cwcb/0/edoc/210268/ArkDSS_ColoradoSpringsUtilities_Final.pdf",
+  "date": "2019",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:hardesty-1903",
+  "kind": "engineering article",
+  "title": "W. P. Hardesty, 'The Water and Electric Power System of the Pike's Peak Power Co., Colorado', Engineering News, vol. 49, 1 January 1903, pp. 2-5",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/sim_enr_engineering-news-a-journ_1903-01-01_49_1",
+  "date": "1903",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:jones-1902",
+  "kind": "engineering article",
+  "title": "R. M. Jones (the company's engineer), 'Power Transmission in the Pike's Peak Region', Electrical World and Engineer, vol. 40, 26 July 1902, pp. 119-123; reprinted in the Journal of Electricity, Power and Gas, September 1902",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/sim_electrical-world_1902-07-26_40_4",
+  "date": "1902",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:electrical-review-1907",
+  "kind": "engineering article",
+  "title": "Electrical Review, vol. 50, 26 January 1907, about pp. 143-145: the Skaguay plant",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/sim_factory_1907-01-26_50_4",
+  "date": "1907",
+  "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:usgs-wsp-487",
+  "kind": "official report",
+  "title": "R. Follansbee and E. E. Jones, 'The Arkansas River Flood of June 3-5, 1921', U.S. Geological Survey Water-Supply Paper 487, 1922, pp. 21-22 and plate IV-B",
+  "holder": "U.S. Geological Survey; Internet Archive",
+  "url": "https://archive.org/details/arkansasriverflo00foll",
+  "date": "1922",
+  "accessed": "2026-11-25"
  }
 ]

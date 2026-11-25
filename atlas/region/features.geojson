@@ -8,6 +8,26 @@
     "type": "LineString",
     "coordinates": [
      [
+      -105.052431,
+      38.686776
+     ],
+     [
+      -105.051901,
+      38.685451
+     ],
+     [
+      -105.05052,
+      38.684253
+     ],
+     [
+      -105.049439,
+      38.684074
+     ],
+     [
+      -105.047462,
+      38.685327
+     ],
+     [
       -105.046704,
       38.685589
      ],
@@ -79,16 +99,228 @@
    },
    "properties": {
     "id": "feature:skaguay-pipeline-a",
-    "name": "Skaguay pipeline, from the pipe seen near the dam to the first side valley",
+    "name": "Skaguay pipeline, from the dam to the first side valley",
     "kind": "pipeline",
     "grade": "inferred",
     "error_ft": 30,
-    "length_ft": 3234,
-    "basis": "A thin raised line shows on the 1 m lidar from the place where the owner photographed the wood-stave pipe, running south along the west side of the valley. Over its last 1,500 ft the ground on it reads 8,849 to 8,856 ft at twelve points: level to within a few feet while the creek beside it falls away. A path or a road would not hold a level so closely; a water line would. Taken to be the pipe's bed on that ground: inferred, not seen on any map.",
+    "length_ft": 5604,
+    "basis": "A thin continuous line on fine-relief pictures of the 1 m lidar, from the gorge below the dam's spillway, round the spur and south along the west side of the valley, through the place where the owner photographed the wood-stave pipe. The ground on it reads 8,847 to 8,856 ft at nearly every point for over a mile. Hardesty's account of 1903 says the pipe was laid on a grade of 1 in 2,000 from a head at 9,018 ft by the company's levels, which are about 168 ft above the lidar's (spillway 9,081 against 8,912.5): so the pipe should stand at about 8,850 ft here, and it does. Taken to be the pipe's bed, with a later trail on it.",
     "sources": [
      "source:lidar-3dep",
      "source:owner-field-photographs",
-     "source:skaguay-secondary"
+     "source:skaguay-secondary",
+     "source:hardesty-1903",
+     "source:jones-1902",
+     "source:electrical-review-1907"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.049434,
+      38.67718
+     ],
+     [
+      -105.049836,
+      38.67644
+     ],
+     [
+      -105.052927,
+      38.674123
+     ],
+     [
+      -105.053659,
+      38.668661
+     ],
+     [
+      -105.05323,
+      38.66421
+     ],
+     [
+      -105.055984,
+      38.658459
+     ],
+     [
+      -105.057612,
+      38.653538
+     ],
+     [
+      -105.059289,
+      38.651491
+     ],
+     [
+      -105.057483,
+      38.649897
+     ],
+     [
+      -105.05763,
+      38.647067
+     ],
+     [
+      -105.055491,
+      38.645275
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-pipeline-grade",
+    "name": "Skaguay pipeline, on its grade to the tunnel (drawn from the 1903 figures; not seen on the ground)",
+    "kind": "pipeline",
+    "grade": "conjecture",
+    "error_ft": 200,
+    "length_ft": 12811,
+    "basis": "Not seen. This is the level the pipe must have kept by the published figures (a fall of 1 in 2,000: about 8,846 ft here, 8,839 ft at the tunnel), followed along the west side of the canyon, which is the side Hardesty names. No bench or line shows on the lidar at this level, even on smooth slopes where the trail 50 ft below shows plainly; the pipe was taken up after 1965 and seems to have left little mark. How it crossed the side valleys is not known. By this line the tunnel's north end comes at about 20,200 to 21,600 ft from the dam, against 20,000 to 21,000 in the sources.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:hardesty-1903",
+     "source:jones-1902",
+     "source:electrical-review-1907"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.055491,
+      38.645275
+     ],
+     [
+      -105.055547,
+      38.643229
+     ],
+     [
+      -105.054558,
+      38.641265
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-tunnel",
+    "name": "The Skaguay tunnel (placed from the 1903 figures; portals not seen)",
+    "kind": "tunnel",
+    "grade": "conjecture",
+    "error_ft": 200,
+    "length_ft": 1514,
+    "basis": "Hardesty, 1903: 'nearly vertical cliffs form a bold projection... Through this projection the Skaguay tunnel is run. This is 1,536 ft. long', its north heading turning 'about 23 degrees to the right'; a standpipe stood 'just outside the lower end of the tunnel', and the inclined railway's upper end was there too. Drawn to fit: south end on a ledge at pipe level (8,846 ft) just below a terrace at 8,916 ft where the incline tops out, which is the height the standpipe's top works out to; north end at a small hollow at 8,844 ft on the far side of the spur; two legs of 768 ft with a turn of 23 degrees between, 1,535 ft in all, under about 225 ft of rock. Neither portal shows as a clear cut on the lidar, and no pipe bed leads to the north end. A fit to the sources, not a finding.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:hardesty-1903",
+     "source:jones-1902",
+     "source:electrical-review-1907"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.048808,
+      38.635157
+     ],
+     [
+      -105.050371,
+      38.635625
+     ],
+     [
+      -105.051406,
+      38.636346
+     ],
+     [
+      -105.052555,
+      38.637111
+     ],
+     [
+      -105.053935,
+      38.638057
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-incline",
+    "name": "Inclined railway to the Skaguay power plant, lower part",
+    "kind": "incline",
+    "grade": "measured",
+    "error_ft": 20,
+    "length_ft": 1826,
+    "basis": "A dead-straight cut up the slope from the plant's pad, plain on the 1 m lidar and drawn on the 1951 USGS map. The engineering press of 1902-1907 describes an inclined railway from the tunnel's lower end to the power house, rising 1,165 ft in 3,100 ft, with the steel pressure pipe beside it; its steepest part, 56.6 per cent, is this lower stretch (56 per cent on the lidar).",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-big-bull-mountain-1951",
+     "source:hardesty-1903",
+     "source:jones-1902",
+     "source:electrical-review-1907"
+    ],
+    "valid_from": 1901,
+    "valid_to": 1965,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.053935,
+      38.638057
+     ],
+     [
+      -105.054395,
+      38.639138
+     ],
+     [
+      -105.054763,
+      38.640039
+     ],
+     [
+      -105.054971,
+      38.64058
+     ],
+     [
+      -105.054868,
+      38.641517
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:skaguay-incline-upper",
+    "name": "Inclined railway to the Skaguay power plant, upper part (through its tunnel)",
+    "kind": "incline",
+    "grade": "inferred",
+    "error_ft": 80,
+    "length_ft": 1307,
+    "basis": "Above the straight cut the line is rough, then meets a cliff where the ground jumps 260 ft in 170 ft: too steep for open track, and taken to be the inclined tunnel the sources give as 335 or 363 ft long, whose exact line is not found. It comes out on the plateau and ends at a terrace at 8,916 ft. Measured along this course the incline is about 3,130 ft on the level and rises 1,168 ft, against 3,100 and 1,165 in the sources.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:hardesty-1903",
+     "source:jones-1902",
+     "source:electrical-review-1907"
     ],
     "valid_from": 1901,
     "valid_to": 1965,
@@ -181,19 +413,18 @@
     ]
    },
    "properties": {
-    "id": "feature:skaguay-pipeline-b",
-    "name": "Skaguay pipeline, across the side valley (line followed, less sure)",
-    "kind": "pipeline",
+    "id": "feature:skaguay-trail-b",
+    "name": "Trail from the dam to the power plant, across the side valley",
+    "kind": "trail",
     "grade": "inferred",
-    "error_ft": 80,
+    "error_ft": 30,
     "length_ft": 3787,
-    "basis": "The same thin line continues, but here it drops about 100 ft to the floor of a side valley, runs along its edge at about 8,750 ft, and climbs again to about 8,790 ft. A stave pipe under pressure could cross a valley so, as a sag; a footpath would also look like this. The line is continuous with the stretches either side, which is the reason for taking it as the pipe. Less sure than those.",
+    "basis": "A line plain on the lidar that leaves the pipe's bed, falls at about 10 per cent to the floor of a side valley and climbs out again. First taken for the pipe; it is 100 ft below the pipe's published grade here. The Electrical Review of January 1907 says a horse trail from the dam to the power house 'had just been completed': taken to be that trail.",
     "sources": [
      "source:lidar-3dep",
-     "source:owner-field-photographs",
-     "source:skaguay-secondary"
+     "source:electrical-review-1907"
     ],
-    "valid_from": 1901,
+    "valid_from": 1907,
     "valid_to": 1965,
     "status": "draft",
     "contributor": "project",
@@ -328,37 +559,6 @@
      [
       -105.057005,
       38.655457
-     ]
-    ]
-   },
-   "properties": {
-    "id": "feature:skaguay-pipeline-c",
-    "name": "Skaguay pipeline, the level run above Beaver Creek",
-    "kind": "pipeline",
-    "grade": "inferred",
-    "error_ft": 30,
-    "length_ft": 5166,
-    "basis": "The line holds 8,789 to 8,803 ft at nearly every point read over about a mile, while the creek drops well below it and the line leaves the creek for the hillside to the south-west. It dips once into a small gully for about 300 ft (taken to have been bridged) and is level again beyond. Taken to be the pipe's bed on the strength of that level: inferred.",
-    "sources": [
-     "source:lidar-3dep",
-     "source:owner-field-photographs",
-     "source:skaguay-secondary"
-    ],
-    "valid_from": 1901,
-    "valid_to": 1965,
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      -105.057005,
-      38.655457
      ],
      [
       -105.057074,
@@ -423,355 +623,18 @@
     ]
    },
    "properties": {
-    "id": "feature:skaguay-pipeline-d",
-    "name": "Skaguay pipeline, the level run continued",
-    "kind": "pipeline",
+    "id": "feature:skaguay-trail-c",
+    "name": "Trail from the dam to the power plant, along the canyon side",
+    "kind": "trail",
     "grade": "inferred",
     "error_ft": 30,
-    "length_ft": 1103,
-    "basis": "The thin line is seen again here on fine-relief pictures of the lidar, curving along the hillside at 8,785 to 8,794 ft for about 1,050 ft. Found on a second pass over ground first drawn only as a computed level line; the computed points were within 30 ft of it.",
+    "length_ft": 6268,
+    "basis": "A thin line plain on the lidar, holding 8,785 to 8,803 ft for over a mile and dropping straight through the gullies it meets. First taken for the pipe; it runs about 50 ft below the pipe's published grade, and by it the tunnel would come 2,000 ft too soon. Taken to be the horse trail of 1907; it goes on by a track to the top of the incline.",
     "sources": [
      "source:lidar-3dep",
-     "source:owner-field-photographs",
-     "source:skaguay-secondary"
+     "source:electrical-review-1907"
     ],
-    "valid_from": 1901,
-    "valid_to": 1965,
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      -105.058118,
-      38.65278
-     ],
-     [
-      -105.05814,
-      38.652582
-     ],
-     [
-      -105.058336,
-      38.652447
-     ],
-     [
-      -105.058542,
-      38.652348
-     ],
-     [
-      -105.058542,
-      38.652176
-     ],
-     [
-      -105.058737,
-      38.652041
-     ],
-     [
-      -105.058956,
-      38.651924
-     ],
-     [
-      -105.059151,
-      38.651771
-     ],
-     [
-      -105.059036,
-      38.65159
-     ],
-     [
-      -105.058829,
-      38.651455
-     ],
-     [
-      -105.058576,
-      38.651392
-     ],
-     [
-      -105.058335,
-      38.651293
-     ],
-     [
-      -105.058105,
-      38.651176
-     ],
-     [
-      -105.057852,
-      38.651077
-     ],
-     [
-      -105.05761,
-      38.650978
-     ],
-     [
-      -105.057438,
-      38.650816
-     ],
-     [
-      -105.057438,
-      38.650618
-     ],
-     [
-      -105.057415,
-      38.65042
-     ],
-     [
-      -105.057426,
-      38.650239
-     ],
-     [
-      -105.057495,
-      38.650032
-     ],
-     [
-      -105.057345,
-      38.64987
-     ],
-     [
-      -105.057425,
-      38.649672
-     ],
-     [
-      -105.057402,
-      38.649482
-     ],
-     [
-      -105.057299,
-      38.649347
-     ],
-     [
-      -105.057264,
-      38.649149
-     ],
-     [
-      -105.057448,
-      38.648996
-     ],
-     [
-      -105.057436,
-      38.648779
-     ],
-     [
-      -105.057298,
-      38.648599
-     ],
-     [
-      -105.057068,
-      38.648482
-     ],
-     [
-      -105.056999,
-      38.648311
-     ],
-     [
-      -105.056907,
-      38.648131
-     ],
-     [
-      -105.056746,
-      38.648023
-     ],
-     [
-      -105.05655,
-      38.64686
-     ],
-     [
-      -105.056435,
-      38.646806
-     ],
-     [
-      -105.056423,
-      38.646608
-     ],
-     [
-      -105.056527,
-      38.64641
-     ],
-     [
-      -105.056343,
-      38.646275
-     ],
-     [
-      -105.056136,
-      38.64614
-     ],
-     [
-      -105.05609,
-      38.64604
-     ]
-    ]
-   },
-   "properties": {
-    "id": "feature:skaguay-pipeline-d2",
-    "name": "Skaguay pipeline, continued as a level line (computed, not seen)",
-    "kind": "pipeline",
-    "grade": "conjecture",
-    "error_ft": 150,
-    "length_ft": 3070,
-    "basis": "Beyond the last point where the line can be seen, this is the 8,792 ft level followed along the hillside by calculation, with one gully of 400 ft jumped. A cut shelf was detected along most of it, but two passes failed to pick out the pipe's bed here. A straight line does cross that gully, dipping about 150 ft: a sag in the pipe or a road, and it cannot be told which. Conjecture.",
-    "sources": [
-     "source:lidar-3dep",
-     "source:owner-field-photographs",
-     "source:skaguay-secondary"
-    ],
-    "valid_from": 1901,
-    "valid_to": 1965,
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      -105.05609,
-      38.64604
-     ],
-     [
-      -105.053848,
-      38.645564
-     ],
-     [
-      -105.053056,
-      38.645708
-     ],
-     [
-      -105.052653,
-      38.644573
-     ],
-     [
-      -105.051905,
-      38.644114
-     ],
-     [
-      -105.051973,
-      38.642978
-     ],
-     [
-      -105.052524,
-      38.641852
-     ],
-     [
-      -105.053144,
-      38.641166
-     ],
-     [
-      -105.054729,
-      38.640192
-     ],
-     [
-      -105.055556,
-      38.639786
-     ],
-     [
-      -105.055096,
-      38.638696
-     ]
-    ]
-   },
-   "properties": {
-    "id": "feature:skaguay-pipeline-e",
-    "name": "Skaguay pipeline, the last stretch to the head of the pressure pipe (not found; a level line only)",
-    "kind": "pipeline",
-    "grade": "conjecture",
-    "error_ft": 400,
-    "length_ft": 4026,
-    "basis": "Nothing of the pipe was found on this ground in two searches. The line drawn is only the 8,800 ft level carried round the spur and along the cliffs to where the straight incline above the plant, produced upward, reaches that level: it shows where a pipe kept at grade would have to go, not where this one went. The accounts give the line a tunnel of 1,535 ft. The only ridge here that a level bore of that length would cut is this spur, from about 38.6456, -105.0538 to 38.6412, -105.0530 (1,605 ft); no portal, cut or spoil was seen at either end, so the tunnel is not drawn. The lengths do not settle it: with or without the tunnel the whole comes within about 1,200 ft of the 23,200 ft given.",
-    "sources": [
-     "source:lidar-3dep",
-     "source:owner-field-photographs",
-     "source:skaguay-secondary"
-    ],
-    "valid_from": 1901,
-    "valid_to": 1965,
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      -105.055096,
-      38.638696
-     ],
-     [
-      -105.053935,
-      38.638057
-     ]
-    ]
-   },
-   "properties": {
-    "id": "feature:skaguay-pipeline-head",
-    "name": "Skaguay power plant: pressure pipe above the incline's cut (conjecture)",
-    "kind": "incline",
-    "grade": "conjecture",
-    "error_ft": 150,
-    "length_ft": 405,
-    "basis": "The straight incline above the plant, produced up the slope on its own bearing, reaches the pipe's level (about 8,780 ft) here, on a short near-level stretch; above this the ground rises steeply past 8,870 ft. Taken to be about where the wood-stave line ended and the steel pressure pipe began, the pressure pipe then running straight down the incline to the plant, about 2,440 ft on the slope. No trace of a pipe was seen on the ground between here and the top of the cut.",
-    "sources": [
-     "source:lidar-3dep",
-     "source:owner-field-photographs",
-     "source:skaguay-secondary"
-    ],
-    "valid_from": 1901,
-    "valid_to": 1965,
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      -105.048808,
-      38.635157
-     ],
-     [
-      -105.050371,
-      38.635625
-     ],
-     [
-      -105.051406,
-      38.636346
-     ],
-     [
-      -105.052555,
-      38.637111
-     ],
-     [
-      -105.053935,
-      38.638057
-     ]
-    ]
-   },
-   "properties": {
-    "id": "feature:skaguay-incline",
-    "name": "Incline above the Skaguay power plant (lower part)",
-    "kind": "incline",
-    "grade": "measured",
-    "error_ft": 20,
-    "length_ft": 1826,
-    "basis": "A dead-straight cut up the slope from the plant's pad, plain on the 1 m lidar for 1,800 ft and drawn on the 1951 USGS map as a double-dashed line. The accounts say the plant was reached by a cable car. Whether the pressure pipe to the plant ran down the same cut is not established. Above this point the line passes a cliff and goes on to the plateau as a track.",
-    "sources": [
-     "source:lidar-3dep",
-     "source:usgs-big-bull-mountain-1951",
-     "source:skaguay-secondary"
-    ],
-    "valid_from": 1901,
+    "valid_from": 1907,
     "valid_to": 1965,
     "status": "draft",
     "contributor": "project",

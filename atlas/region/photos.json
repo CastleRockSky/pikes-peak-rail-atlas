@@ -3618,53 +3618,6 @@
   }
  },
  {
-  "id": "photo:region:dpl-z-6286",
-  "name": "High trestle, Skaguay, Colorado",
-  "grade": "measured",
-  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
-  "sources": [
-   "source:dpl-skaguay-photograph"
-  ],
-  "status": "reviewed",
-  "contributor": "project",
-  "updated": "2026-11-25",
-  "notes": "Library: cliffs and a Southern Colorado Power Company trestle near Skaguay Reservoir; the tracks were part of the electrical supply plant for the Cripple Creek district; subject heading 'Inclined railroads'. Seen: a tall timber trestle carrying a single track steeply up across the foot of a granite cliff, with pole lines beside it. Lettered on the print 'HIGH TRESTLE SKAGUAY COLO'.",
-  "holder": "Denver Public Library, Western History Collection",
-  "call_number": "Z-6286",
-  "url": "https://digital.denverlibrary.org/nodes/view/1117852",
-  "photographer": "Lehr, Bill",
-  "date": "1890-1910",
-  "date_basis": "the library's catalogue; the plant is said to date from 1901",
-  "rights": "licensed",
-  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the lettering on the print.",
-  "credit": "Denver Public Library, Western History Collection, Z-6286",
-  "image": "img/collection/dpl-z-6286.jpg",
-  "thumb": "img/collection/t/dpl-z-6286.jpg",
-  "w": 1377,
-  "h": 2200,
-  "shows": [
-   "place:skaguay-power-plant"
-  ],
-  "topics": [
-   "water works",
-   "postcard"
-  ],
-  "kind": "photograph",
-  "local": {
-   "form": "postcard",
-   "library": true,
-   "source_file": "research/library/skaguay/dpl-z-6286.jpg",
-   "places": [
-    {
-     "place": "place:skaguay-power-plant",
-     "name": "Skaguay power plant (Pikes Peak Power Company), site",
-     "how": "probable",
-     "note": "An inclined track on a trestle at Skaguay; the plant was reached by a cable incline, and the lidar shows a straight incline above the plant site. Where on it this trestle stood is not established."
-    }
-   ]
-  }
- },
- {
   "id": "photo:region:field-img-6368",
   "name": "Inside the third Short Line tunnel, looking through",
   "grade": "measured",
@@ -4917,7 +4870,7 @@
    "places": [
     {
      "place": "place:platt-rogers-tunnel-west",
-     "name": "Platt Rogers Tunnel, lettered portal (west end)",
+     "name": "Platt Rogers Tunnel, intake portal on Gould Creek (west end)",
      "how": "position",
      "note": "Taken at the portal."
     }
@@ -4968,7 +4921,7 @@
    "places": [
     {
      "place": "place:platt-rogers-tunnel-west",
-     "name": "Platt Rogers Tunnel, lettered portal (west end)",
+     "name": "Platt Rogers Tunnel, intake portal on Gould Creek (west end)",
      "how": "position",
      "note": "Taken at the portal."
     }
@@ -5019,7 +4972,7 @@
    "places": [
     {
      "place": "place:platt-rogers-tunnel-west",
-     "name": "Platt Rogers Tunnel, lettered portal (west end)",
+     "name": "Platt Rogers Tunnel, intake portal on Gould Creek (west end)",
      "how": "position",
      "note": "Taken at the portal."
     }
@@ -5070,7 +5023,7 @@
    "places": [
     {
      "place": "place:platt-rogers-tunnel-east",
-     "name": "Platt Rogers Tunnel, east end (inferred)",
+     "name": "Platt Rogers Tunnel, outlet end (inferred)",
      "how": "position",
      "note": "Taken at the headwall."
     }
@@ -5121,7 +5074,7 @@
    "places": [
     {
      "place": "place:platt-rogers-tunnel-east",
-     "name": "Platt Rogers Tunnel, east end (inferred)",
+     "name": "Platt Rogers Tunnel, outlet end (inferred)",
      "how": "position",
      "note": "Taken at the headwall."
     }
@@ -5365,6 +5318,53 @@
    "form": "field photograph",
    "field": true,
    "source_file": "New Photos/icloud/IMG_4517.JPG"
+  }
+ },
+ {
+  "id": "photo:region:dpl-z-6286",
+  "name": "High trestle, Skaguay, Colorado",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-25; the picture itself looked at before use.",
+  "sources": [
+   "source:dpl-skaguay-photograph"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-25",
+  "notes": "Library: cliffs and a Southern Colorado Power Company trestle near Skaguay Reservoir; the tracks were part of the electrical supply plant for the Cripple Creek district; subject heading 'Inclined railroads'. Seen: a tall timber trestle carrying a single track steeply up across the foot of a granite cliff, with pole lines beside it. Lettered on the print 'HIGH TRESTLE SKAGUAY COLO'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "Z-6286",
+  "url": "https://digital.denverlibrary.org/nodes/view/1117852",
+  "photographer": "Lehr, Bill",
+  "date": "1890-1910",
+  "date_basis": "the library's catalogue; the plant is said to date from 1901",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's 'On Screen Image', looked at on 2026-11-25: no mark on it but the lettering on the print.",
+  "credit": "Denver Public Library, Western History Collection, Z-6286",
+  "image": "img/collection/dpl-z-6286.jpg",
+  "thumb": "img/collection/t/dpl-z-6286.jpg",
+  "w": 1377,
+  "h": 2200,
+  "shows": [
+   "place:skaguay-power-plant"
+  ],
+  "topics": [
+   "water works",
+   "postcard"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "postcard",
+   "library": true,
+   "source_file": "research/library/skaguay/dpl-z-6286.jpg",
+   "places": [
+    {
+     "place": "place:skaguay-power-plant",
+     "name": "Skaguay power plant (Pikes Peak Power Company), site",
+     "how": "probable",
+     "note": "An inclined track on a trestle at Skaguay; the plant was reached by a cable incline, and the lidar shows a straight incline above the plant site. Where on it this trestle stood is not established."
+    }
+   ]
   }
  }
 ]

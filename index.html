@@ -80,7 +80,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
   }
   for (const f of feats.features) {          // lines that are not railways (a pipeline, an incline): teal, dashed; dotted where conjecture
     const p = f.properties;
-    const layer = L.geoJSON(f.geometry, { style: { color: '#0e7490', weight: 3, opacity: 0.9, dashArray: p.grade === 'conjecture' ? '2 7' : p.kind === 'incline' ? null : '8 6' } })
+    const layer = L.geoJSON(f.geometry, { style: { color: p.kind === 'trail' ? '#78716c' : '#0e7490', weight: p.kind === 'trail' ? 2 : 3, opacity: 0.9, dashArray: p.grade === 'conjecture' ? '2 7' : p.kind === 'incline' ? null : p.kind === 'trail' ? '4 5' : '8 6' } })
       .bindPopup('<b>' + esc(p.name) + '</b><br>' + esc(p.kind) + ', ' + esc(p.valid_from) + ' to ' + esc(p.valid_to) + ', about ' + Math.round(p.length_ft / 100) * 100 + ' ft' +
         '<br><span class="pill" style="background:' + ({ measured: '#15803d', inferred: '#d97706', conjecture: '#6b7280' }[p.grade]) + '">' + p.grade + '</span> good to ' + p.error_ft + ' ft<br>' + esc(p.basis));
     placeLayers.push({ layer, from: p.valid_from || 0, to: p.valid_to || 9999, worked: false });
