@@ -168,6 +168,10 @@
      [
       -105.055491,
       38.645275
+     ],
+     [
+      -105.05386,
+      38.645555
      ]
     ]
    },
@@ -177,7 +181,7 @@
     "kind": "pipeline",
     "grade": "conjecture",
     "error_ft": 200,
-    "length_ft": 12811,
+    "length_ft": 13288,
     "basis": "Not seen. This is the level the pipe must have kept by the published figures (a fall of 1 in 2,000: about 8,846 ft here, 8,839 ft at the tunnel), followed along the west side of the canyon, which is the side Hardesty names. No bench or line shows on the lidar at this level, even on smooth slopes where the trail 50 ft below shows plainly; the pipe was taken up after 1965 and seems to have left little mark. How it crossed the side valleys is not known. By this line the tunnel's north end comes at about 20,200 to 21,600 ft from the dam, against 20,000 to 21,000 in the sources.",
     "sources": [
      "source:lidar-3dep",
@@ -198,29 +202,30 @@
     "type": "LineString",
     "coordinates": [
      [
-      -105.055491,
-      38.645275
+      -105.05386,
+      38.645555
      ],
      [
-      -105.055547,
-      38.643229
+      -105.053824,
+      38.643446
      ],
      [
-      -105.054558,
-      38.641265
+      -105.054834,
+      38.641535
      ]
     ]
    },
    "properties": {
     "id": "feature:skaguay-tunnel",
-    "name": "The Skaguay tunnel (placed from the 1903 figures; portals not seen)",
+    "name": "The Skaguay tunnel (placed from the 1903 figures and a 1902 photograph; portals not seen)",
     "kind": "tunnel",
     "grade": "conjecture",
-    "error_ft": 200,
-    "length_ft": 1514,
-    "basis": "Hardesty, 1903: 'nearly vertical cliffs form a bold projection... Through this projection the Skaguay tunnel is run. This is 1,536 ft. long', its north heading turning 'about 23 degrees to the right'; a standpipe stood 'just outside the lower end of the tunnel', and the inclined railway's upper end was there too. Drawn to fit: south end on a ledge at pipe level (8,846 ft) just below a terrace at 8,916 ft where the incline tops out, which is the height the standpipe's top works out to; north end at a small hollow at 8,844 ft on the far side of the spur; two legs of 768 ft with a turn of 23 degrees between, 1,535 ft in all, under about 225 ft of rock. Neither portal shows as a clear cut on the lidar, and no pipe bed leads to the north end. A fit to the sources, not a finding.",
+    "error_ft": 400,
+    "length_ft": 1521,
+    "basis": "Hardesty, 1903: 'nearly vertical cliffs form a bold projection... Through this projection the Skaguay tunnel is run. This is 1,536 ft. long', its north heading turning 'about 23 degrees to the right'; a standpipe stood 'just outside the lower end of the tunnel', and the inclined railway's upper end was there too. Drawn to fit: the south end under the terrace at 8,916 ft where the incline tops out; the north end at the foot of the projection's cliffs on the south wall of the side valley, at the pipe's level (8,840 ft); two legs of about 760 ft, the second turned 23 degrees to the right as one goes in from the north, 1,521 ft in all. The north end is put there, and not at a hollow about 480 ft further west that also fits the length, for two reasons, neither strong: the skyline in a photograph of 1902 captioned 'Wood Stave Pipe, Showing North End of Skaguay Tunnel' matches the lidar best from a camera at the head of the side valley looking south-east toward those cliffs (a moderate fit at best: the print is coarse and the lens unknown); and with the western point the published turn would be to the left. No portal, and no bench for the pipe, shows on the lidar at either place, though the photograph shows the pipe on a cut bench. A fit to the sources, not a finding.",
     "sources": [
      "source:lidar-3dep",
+     "source:journal-of-electricity-1902",
      "source:hardesty-1903",
      "source:jones-1902",
      "source:electrical-review-1907"
