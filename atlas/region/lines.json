@@ -47177,7 +47177,7 @@
   "valid_to": 1915,
   "grade": "inferred",
   "error_ft": 60,
-  "basis": "Between Cripple Creek and Victor the line is 5.33 miles drawn from the railway's own survey of 1894 (H. A. Sumner's amended-route map), carried onto the ground through its section ties: inferred, good to 150 to 400 ft, and resting on the plat alone where the ground is mined (lidar test: not yet tested). It measures 5.67 miles depot to depot against 5.7 in the timetables. Through Victor the line is 0.45 miles from the Sanborn sheets of December 1908 (sheets 2 and 3; 58 per cent smooth on the 1 m lidar, weighted by length): from west of 7th Street east along the south side of Diamond Avenue, across 4th Street and north-east past its own frame depot west of 3rd Street, then east between Granite and Diamond Avenues. Good to about 15 to 25 ft in the town; the short join to the 1903 trace west of the town is inferred (see atlas/tools/once_route_victor_sanborn.py). East of the Sanborn sheet the line is carried 0.74 miles to Phantom Canyon Road (85 per cent of it smooth, nearly level ground on the 1 m lidar). The USGS district map of 1903 draws the railway leaving its yard eastward, turning through a hairpin and going south; that map lies 150 to 200 m off on this side, so the line is laid on banks and a road curve on the lidar that match its shape. Inferred, good to about 300 ft, and not confirmed by any large-scale map (see atlas/tools/once_route_victor_joins.py). Through Phantom Canyon the line is one continuous route of 27.81 miles, from where the old grade from Florence runs into Phantom Canyon Road (1.4 miles north of US 50) to the edge of Victor (its last 0.15 mile, where the road cuts a corner, is taken off), following the road, which by all accounts (secondary) is built on the railway's bed: 89 per cent of the road from US 50 lies on a smooth, gently graded bench on the 1 m lidar, and the two tunnels already in the atlas lie on it. Marked inferred throughout, since the test shows a graded bench under the road and not who made it (see atlas/tools/once_route_fcc.py). The road's first 1.4 miles north of US 50, shown at first as part of this route, are a section-line road and were cut off: the USGS sheets of 1959 and the lidar put the railway up to a third of a mile west of it there. From Florence to the canyon road the line is 5.35 miles (82 per cent smooth on the 1 m lidar, weighted by length). Its northern 3.6 miles are an embankment that still stands across the open mesa, read off the lidar and lettered 'OLD RAILROAD GRADE' on the USGS sheets of 1959: about 80 per cent of it tests as a smooth grade, the breaks being where gullies have cut through it. At Florence the track through the railway's own ground (round house, and an 'Old R.R. Depot' used as a warehouse by then) is from the Sanborn sheet of September 1906, fitted to four present street corners to about 5 m; north of it to the river the line follows a straight ditch and field edge that continues the Sanborn track's bearing, inferred. The bridge over the Arkansas and the 0.7 mile north of it are not located: that piece is drawn straight and is conjecture. Yard to the Victor depot comes to 34.0 miles by these routes against the 34.6 of the timetable of 2 June 1895 (35.0 in that of 1907); the timetable's Florence was probably the Denver and Rio Grande station east of the yard (not located), which may account for part of the difference (see atlas/tools/once_route_fcc_florence.py). A branch of 1.26 miles leaves the main line 1.1 miles north of the Arkansas and climbs east to the top of the bluff above Florence (99 per cent smooth on the 1 m lidar; lettered 'OLD RR GRADE' on the USGS Florence sheet of 1959). That it served the reduction works is inferred from Poor's Manual of 1899, which lists a branch from Cyanide Junction to Vesta, 1.5 miles; no map read names it.",
+  "basis": "Between Cripple Creek and Victor the line is 5.33 miles drawn from the railway's own survey of 1894 (H. A. Sumner's amended-route map), carried onto the ground through its section ties: inferred, good to 150 to 400 ft, and resting on the plat alone where the ground is mined (lidar test: not yet tested). It measures 5.67 miles depot to depot against 5.7 in the timetables. Through Victor the line is 0.45 miles from the Sanborn sheets of December 1908 (sheets 2 and 3; 58 per cent smooth on the 1 m lidar, weighted by length): from west of 7th Street east along the south side of Diamond Avenue, across 4th Street and north-east past its own frame depot west of 3rd Street, then east between Granite and Diamond Avenues. Good to about 15 to 25 ft in the town; the short join to the 1903 trace west of the town is inferred (see atlas/tools/once_route_victor_sanborn.py). East of the Sanborn sheet the line is carried 0.74 miles to Phantom Canyon Road (85 per cent of it smooth, nearly level ground on the 1 m lidar). The USGS district map of 1903 draws the railway leaving its yard eastward, turning through a hairpin and going south; that map lies 150 to 200 m off on this side, so the line is laid on banks and a road curve on the lidar that match its shape. Inferred, good to about 300 ft, and not confirmed by any large-scale map (see atlas/tools/once_route_victor_joins.py). Through Phantom Canyon the line is one continuous route of 27.81 miles, from where the old grade from Florence runs into Phantom Canyon Road (1.4 miles north of US 50) to the edge of Victor (its last 0.15 mile, where the road cuts a corner, is taken off), following the road, which by all accounts (secondary) is built on the railway's bed: 89 per cent of the road from US 50 lies on a smooth, gently graded bench on the 1 m lidar, and the two tunnels already in the atlas lie on it. Marked inferred throughout, since the test shows a graded bench under the road and not who made it (see atlas/tools/once_route_fcc.py). The road's first 1.4 miles north of US 50, shown at first as part of this route, are a section-line road and were cut off: the USGS sheets of 1959 and the lidar put the railway up to a third of a mile west of it there. The railway's field notes of 1894 were rebuilt and laid over this route (research/fcc-1894-survey/): where they can be fitted to it they take its shape closely (5 to 20 ft over two miles at a time, for about ten miles), which bears out that the road is on the railway's bed there; over about nine miles in the middle of the canyon they are held only by section ties and lie 100 to 300 ft from the road, which is not settled either way. From Florence to the canyon road the line is 5.38 miles (82 per cent smooth on the 1 m lidar, weighted by length). Its northern 3.6 miles are an embankment that still stands across the open mesa, read off the lidar and lettered 'OLD RAILROAD GRADE' on the USGS sheets of 1959: about 80 per cent of it tests as a smooth grade, the breaks being where gullies have cut through it. At Florence the track through the railway's own ground (round house, and an 'Old R.R. Depot' used as a warehouse by then) is from the Sanborn sheet of September 1906, fitted to four present street corners to about 5 m; north of it to the river the line follows a straight ditch and field edge that continues the Sanborn track's bearing, inferred. Over the Arkansas and for 0.7 mile north of it the line is from the railway's own field notes of 1894, set on the ground by the survey's section ties: inferred, good to about 100 ft; the notes name no bridge, and nothing on the ground has been matched to it. The same notes, placed by ties alone, run within about 30 ft of the rest of this route at the median. Yard to the Victor depot came to 34.0 miles by these routes as first drawn against the 34.6 of the timetable of 2 June 1895 (35.0 in that of 1907); the timetable's Florence was probably the Denver and Rio Grande station east of the yard (not located), which may account for part of the difference (see atlas/tools/once_route_fcc_florence.py). The 1894 notes begin 210 ft south of the yard piece, where the plat draws the line running into the Denver and Rio Grande, and measure 34.56 miles by their stationing from there to the Victor depot. A branch of 1.26 miles leaves the main line 1.1 miles north of the Arkansas and climbs east to the top of the bluff above Florence (99 per cent smooth on the 1 m lidar; lettered 'OLD RR GRADE' on the USGS Florence sheet of 1959). That it served the reduction works is inferred from Poor's Manual of 1899, which lists a branch from Cyanide Junction to Vesta, 1.5 miles; no map read names it.",
   "sources": [
    "source:osm-railways",
    "source:wikipedia-fcc",
@@ -49844,7 +49844,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "Mile 3 to 4 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it. On the 1 m lidar 80% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.7 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 85% on smooth ground.",
+    "basis": "Mile 3 to 4 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it. On the 1 m lidar 80% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.7 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 85% on smooth ground. Checked against the railway's field notes of 1894, placed here by the plat's section ties alone and so independent of this line: the two lie 16 ft apart at the median and 38 ft at the worst.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -49856,6 +49856,302 @@
        38.403296
       ],
       [
+       -105.121358,
+       38.403383
+      ],
+      [
+       -105.121358,
+       38.40352
+      ],
+      [
+       -105.121358,
+       38.403658
+      ],
+      [
+       -105.121358,
+       38.403795
+      ],
+      [
+       -105.121359,
+       38.403933
+      ],
+      [
+       -105.121359,
+       38.40407
+      ],
+      [
+       -105.121359,
+       38.404207
+      ],
+      [
+       -105.121359,
+       38.404345
+      ],
+      [
+       -105.12136,
+       38.404482
+      ],
+      [
+       -105.121367,
+       38.404619
+      ],
+      [
+       -105.121385,
+       38.404756
+      ],
+      [
+       -105.121414,
+       38.404891
+      ],
+      [
+       -105.121456,
+       38.405025
+      ],
+      [
+       -105.121509,
+       38.405155
+      ],
+      [
+       -105.121574,
+       38.405283
+      ],
+      [
+       -105.121645,
+       38.405408
+      ],
+      [
+       -105.121721,
+       38.405532
+      ],
+      [
+       -105.121799,
+       38.405655
+      ],
+      [
+       -105.12188,
+       38.405776
+      ],
+      [
+       -105.121965,
+       38.405896
+      ],
+      [
+       -105.122053,
+       38.406015
+      ],
+      [
+       -105.122143,
+       38.406133
+      ],
+      [
+       -105.122234,
+       38.40625
+      ],
+      [
+       -105.122324,
+       38.406367
+      ],
+      [
+       -105.122415,
+       38.406485
+      ],
+      [
+       -105.122505,
+       38.406602
+      ],
+      [
+       -105.122596,
+       38.40672
+      ],
+      [
+       -105.122686,
+       38.406837
+      ],
+      [
+       -105.122777,
+       38.406955
+      ],
+      [
+       -105.122867,
+       38.407072
+      ],
+      [
+       -105.122958,
+       38.407189
+      ],
+      [
+       -105.123049,
+       38.407307
+      ],
+      [
+       -105.123143,
+       38.407422
+      ],
+      [
+       -105.123246,
+       38.407533
+      ],
+      [
+       -105.123359,
+       38.407638
+      ],
+      [
+       -105.123481,
+       38.407737
+      ],
+      [
+       -105.123611,
+       38.407828
+      ],
+      [
+       -105.123748,
+       38.407913
+      ],
+      [
+       -105.123888,
+       38.407995
+      ],
+      [
+       -105.124032,
+       38.408073
+      ],
+      [
+       -105.124178,
+       38.408148
+      ],
+      [
+       -105.124328,
+       38.408219
+      ],
+      [
+       -105.12448,
+       38.408286
+      ],
+      [
+       -105.124634,
+       38.40835
+      ],
+      [
+       -105.124791,
+       38.408411
+      ],
+      [
+       -105.124946,
+       38.408474
+      ],
+      [
+       -105.125097,
+       38.408542
+      ],
+      [
+       -105.125245,
+       38.408616
+      ],
+      [
+       -105.125389,
+       38.408694
+      ],
+      [
+       -105.125528,
+       38.408777
+      ],
+      [
+       -105.125664,
+       38.408863
+      ],
+      [
+       -105.1258,
+       38.408949
+      ],
+      [
+       -105.125936,
+       38.409035
+      ],
+      [
+       -105.126072,
+       38.409121
+      ],
+      [
+       -105.126208,
+       38.409208
+      ],
+      [
+       -105.126343,
+       38.409294
+      ],
+      [
+       -105.126477,
+       38.409383
+      ],
+      [
+       -105.126602,
+       38.409479
+      ],
+      [
+       -105.126716,
+       38.409583
+      ],
+      [
+       -105.126818,
+       38.409694
+      ],
+      [
+       -105.126907,
+       38.409813
+      ],
+      [
+       -105.126983,
+       38.409936
+      ],
+      [
+       -105.127044,
+       38.410065
+      ],
+      [
+       -105.127092,
+       38.410197
+      ],
+      [
+       -105.127124,
+       38.410332
+      ],
+      [
+       -105.127145,
+       38.410469
+      ],
+      [
+       -105.127162,
+       38.410605
+      ],
+      [
+       -105.127179,
+       38.410742
+      ],
+      [
+       -105.127195,
+       38.410879
+      ],
+      [
+       -105.127212,
+       38.411016
+      ],
+      [
+       -105.127229,
+       38.411152
+      ],
+      [
+       -105.127246,
+       38.411289
+      ],
+      [
+       -105.127263,
+       38.411426
+      ],
+      [
+       -105.127279,
+       38.411562
+      ],
+      [
        -105.127313,
        38.411671
       ]
@@ -49863,9 +50159,9 @@
     },
     "valid_from": 1894,
     "valid_to": 1912,
-    "grade": "conjecture",
-    "error_ft": 500,
-    "basis": "0.66 mile, drawn straight only to keep the line continuous. The bridge over the Arkansas is not located: no map read draws the railway between the river and the south end of the grade mapped in 1959, the river has moved across its flood plain since, and the lidar shows no embankment.",
+    "grade": "inferred",
+    "error_ft": 100,
+    "basis": "0.71 mile over the Arkansas, from the railway's own survey. The railway's own field notes of 1894 (H. A. Sumner's amended-route map, Pikes Peak Library District: every tangent and curve from the county line to Florence, typed; every written bearing closes when the curves are added up) carry the line due north up the town on one straight of 2,900 ft, over the river, and 480 ft beyond it, then round to the left on easy curves (8 degrees at most) to the south end of the old grade. The notes give no meridian, so the line was put on the ground by the plat's stationed crossings of section lines, set on the Bureau of Land Management's section corners: the six crossings between Florence and three miles out fall 16 to 54 ft from it, and its two ends meet the pieces either side, which were drawn from other evidence, within 27 and 11 ft. Taken as good to about 100 ft. It replaces a straight line drawn only to keep the route continuous, from which it stands up to 296 ft to the east. Doubts: the notes are the location of March to May 1894, sworn in August 1895 to show the road as built; they name no bridge and give no bridge length, the river has moved across its plain since, and nothing on the ground has been matched to this piece.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -49990,7 +50286,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "Mile 2 to 3 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it, slid onto the bench. On the 1 m lidar 77% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.0 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 34% on smooth ground.",
+    "basis": "Mile 2 to 3 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it, slid onto the bench. On the 1 m lidar 77% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.0 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 34% on smooth ground. Checked against the railway's field notes of 1894, placed here by the plat's section ties alone and so independent of this line: the two lie 19 ft apart at the median and 73 ft at the worst.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -50046,8 +50342,8 @@
     "valid_from": 1894,
     "valid_to": 1912,
     "grade": "inferred",
-    "error_ft": 150,
-    "basis": "0.74 mile from West 2nd Street north to the south bank of the Arkansas. The Sanborn key maps of January 1900 and September 1906 draw the railway running north up the west side of the town to a river crossing, without detail. The line drawn follows a straight run of ditch and field edge on the 1 m lidar that continues the Sanborn track on its bearing; that it is the old grade is an inference (the USGS sheet of 1959 draws a ditch there and no railway). 100% of it reads as smooth ground, which in a flood plain proves little.",
+    "error_ft": 100,
+    "basis": "0.74 mile from West 2nd Street north to the south bank of the Arkansas. The Sanborn key maps of January 1900 and September 1906 draw the railway running north up the west side of the town to a river crossing, without detail. The line drawn follows a straight run of ditch and field edge on the 1 m lidar that continues the Sanborn track on its bearing; that it is the old grade is an inference (the USGS sheet of 1959 draws a ditch there and no railway). 100% of it reads as smooth ground, which in a flood plain proves little. Checked against the railway's field notes of 1894, placed here by the plat's section ties alone and so independent of this line: the two lie 28 ft apart at the median and 75 ft at the worst. On that evidence this piece, taken before as good to 150 ft, is taken as good to 100 ft.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -50088,7 +50384,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "0.14 mile through the railway's own ground at Florence, as the Sanborn sheet of September 1906 (sheet 2) draws the track lettered 'Florence & Cripple Creek R.R.': in beside the Denver and Rio Grande south of West Main Street, past the round house and the 'Old R.R. Depot' (then a storage warehouse), and out north-north-east across West 2nd Street. The sheet is put on the ground by four present street corners (fit 5 m RMS, worst 7 m), read from a reduced image, so good to about 60 ft. The ground is built over; the lidar shows nothing of it.",
+    "basis": "0.14 mile through the railway's own ground at Florence, as the Sanborn sheet of September 1906 (sheet 2) draws the track lettered 'Florence & Cripple Creek R.R.': in beside the Denver and Rio Grande south of West Main Street, past the round house and the 'Old R.R. Depot' (then a storage warehouse), and out north-north-east across West 2nd Street. The sheet is put on the ground by four present street corners (fit 5 m RMS, worst 7 m), read from a reduced image, so good to about 60 ft. The ground is built over; the lidar shows nothing of it. Checked against the railway's field notes of 1894, placed here by the plat's section ties alone and so independent of this line: the two lie 42 ft apart at the median and 56 ft at the worst.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -50301,7 +50597,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "Mile 1 to 2 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it. On the 1 m lidar 85% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.5 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 97% on smooth ground.",
+    "basis": "Mile 1 to 2 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it. On the 1 m lidar 85% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.5 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 97% on smooth ground. Checked against the railway's field notes of 1894, placed here by the plat's section ties alone and so independent of this line: the two lie 26 ft apart at the median and 45 ft at the worst.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -50334,7 +50630,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 100,
-    "basis": "0.21 mile at the south end of the line the USGS Canon City sheet of 1959 letters 'OLD RAILROAD GRADE', east of Sixmile Creek; a farm road runs on or beside it now. 100% smooth on the 1 m lidar.",
+    "basis": "0.21 mile at the south end of the line the USGS Canon City sheet of 1959 letters 'OLD RAILROAD GRADE', east of Sixmile Creek; a farm road runs on or beside it now. 100% smooth on the 1 m lidar. Checked against the railway's field notes of 1894, placed here by the plat's section ties alone and so independent of this line: the two lie 8 ft apart at the median and 19 ft at the worst.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -50539,7 +50835,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "Mile 0 to 1 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it, slid onto the bench. On the 1 m lidar 78% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.6 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 75% on smooth ground.",
+    "basis": "Mile 0 to 1 from the south end of the embankment (1.1 miles north of the Arkansas), going north. The USGS sheets of 1959 letter this line 'OLD RAILROAD GRADE'; it was read off the 1 m lidar, where it stands as an embankment over open ground with no road on it, slid onto the bench. On the 1 m lidar 78% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.6 ft). The embankment is plain on the lidar but broken where gullies have cut through it (the rough readings are at those crossings). Re-read on review (25 Nov 2026): north of US 50 the centre line was taken again from a local-relief picture of the lidar, where the first reading lay up to about 150 ft off the embankment; this piece now reads 75% on smooth ground. Checked against the railway's field notes of 1894, placed here by the plat's section ties alone and so independent of this line: the two lie 20 ft apart at the median and 125 ft at the worst.",
     "from_route": "routes/florence-and-cripple-creek-florence-to-canyon.json"
    },
    {
@@ -51238,7 +51534,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "Mile 12 to 13 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 86% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). The road follows the canyon; parts read rough: rock cuts, tunnels, bridges or a road line that leaves the old bed. Not settled.",
+    "basis": "Mile 12 to 13 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 86% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). The road follows the canyon; parts read rough: rock cuts, tunnels, bridges or a road line that leaves the old bed. Not settled. Caution: the railway's field notes of 1894, placed on the ground here by section ties and not by this line, lie 101 ft from it at the median and 248 ft at the worst. The ties in this part are few and some share one section corner, so the survey's place is good only to about 250 ft and the difference does not show which is wrong; the line is left as it was.",
     "from_route": "routes/florence-and-cripple-creek-phantom-canyon.json"
    },
    {
@@ -51700,7 +51996,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 40,
-    "basis": "Mile 11 to 12 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 99% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). The road here lies on a smooth, gently graded bench, taken to be the railway's.",
+    "basis": "Mile 11 to 12 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 99% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). The road here lies on a smooth, gently graded bench, taken to be the railway's. Caution: the railway's field notes of 1894, placed on the ground here by section ties and not by this line, lie 167 ft from it at the median and 263 ft at the worst. The ties in this part are few and some share one section corner, so the survey's place is good only to about 250 ft and the difference does not show which is wrong; the line is left as it was.",
     "from_route": "routes/florence-and-cripple-creek-phantom-canyon.json"
    },
    {
@@ -53215,7 +53511,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 150,
-    "basis": "Mile 10 to 11 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 69% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). Mostly not on a readable grade here. Only as good as the road's line, which may leave the railway's.",
+    "basis": "Mile 10 to 11 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 69% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.5 ft). Mostly not on a readable grade here. Only as good as the road's line, which may leave the railway's. Caution: the railway's field notes of 1894, placed on the ground here by section ties and not by this line, lie 130 ft from it at the median and 256 ft at the worst. The ties in this part are few and some share one section corner, so the survey's place is good only to about 250 ft and the difference does not show which is wrong; the line is left as it was.",
     "from_route": "routes/florence-and-cripple-creek-phantom-canyon.json"
    },
    {
@@ -54613,7 +54909,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 60,
-    "basis": "Mile 17 to 18 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 73% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.2 ft). The road follows the canyon; parts read rough: rock cuts, tunnels, bridges or a road line that leaves the old bed. Not settled.",
+    "basis": "Mile 17 to 18 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 73% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 1.2 ft). The road follows the canyon; parts read rough: rock cuts, tunnels, bridges or a road line that leaves the old bed. Not settled. Caution: the railway's field notes of 1894, placed on the ground here by section ties and not by this line, lie 191 ft from it at the median and 360 ft at the worst. The ties in this part are few and some share one section corner, so the survey's place is good only to about 250 ft and the difference does not show which is wrong; the line is left as it was.",
     "from_route": "routes/florence-and-cripple-creek-phantom-canyon.json"
    },
    {
@@ -56011,7 +56307,7 @@
     "valid_to": 1912,
     "grade": "inferred",
     "error_ft": 40,
-    "basis": "Mile 9 to 10 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 90% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.3 ft). The road here lies on a smooth, gently graded bench, taken to be the railway's.",
+    "basis": "Mile 9 to 10 from the canyon mouth at US 50, going north along Phantom Canyon Road. On the 1 m lidar 90% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.3 ft). The road here lies on a smooth, gently graded bench, taken to be the railway's. Caution: the railway's field notes of 1894, placed on the ground here by section ties and not by this line, lie 144 ft from it at the median and 308 ft at the worst. The ties in this part are few and some share one section corner, so the survey's place is good only to about 250 ft and the difference does not show which is wrong; the line is left as it was.",
     "from_route": "routes/florence-and-cripple-creek-phantom-canyon.json"
    },
    {

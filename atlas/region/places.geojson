@@ -1017,10 +1017,11 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, do not pass through here: near station 782 from Florence they loop round the south of the spur this tunnel pierces, 264 ft away. Either the line was first located round the spur and the tunnel was made in building or later, or the survey is misplaced here by some 200 ft (it is held in this part only by two section ties on one corner, and is good to about 250 ft). Not settled. The notes mention no tunnel anywhere.",
     "sources": [
      "source:osm-railways",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:fcc-survey-1894"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1051,10 +1052,11 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, about 11.0 miles out. Neither the notes nor the plat mentions a tunnel anywhere on the line, so they give no number, length or date.",
     "sources": [
      "source:osm-railways",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:fcc-survey-1894"
     ],
     "status": "draft",
     "contributor": "project",
@@ -2243,8 +2245,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.087344,
-     38.568841
+     -105.087725,
+     38.568773
     ]
    },
    "properties": {
@@ -2252,7 +2254,7 @@
     "name": "Adelaide",
     "grade": "inferred",
     "error_ft": 1800,
-    "basis": "Placed by its printed mileage: 17.4 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.1 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 17.4 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.2 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -2274,8 +2276,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.107743,
-     38.634099
+     -105.107904,
+     38.633993
     ]
    },
    "properties": {
@@ -2283,7 +2285,7 @@
     "name": "Wilbur",
     "grade": "inferred",
     "error_ft": 1800,
-    "basis": "Placed by its printed mileage: 25.3 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.1 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 25.3 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.2 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
