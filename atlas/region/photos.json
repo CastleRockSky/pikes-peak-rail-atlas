@@ -4611,7 +4611,7 @@
    "places": [
     {
      "place": "place:mt-tunnel-waters",
-     "name": "Midland Terminal tunnel at Waters (later a highway tunnel, now shut)",
+     "name": "Waters Tunnel, Midland Terminal (later a highway tunnel, now shut)",
      "how": "position",
      "note": "Taken about 50 ft from the portal found on the lidar."
     }
@@ -4664,7 +4664,7 @@
    "places": [
     {
      "place": "place:mt-tunnel-waters",
-     "name": "Midland Terminal tunnel at Waters (later a highway tunnel, now shut)",
+     "name": "Waters Tunnel, Midland Terminal (later a highway tunnel, now shut)",
      "how": "position",
      "note": "Taken about 50 ft from the south-west portal, looking away from it."
     }

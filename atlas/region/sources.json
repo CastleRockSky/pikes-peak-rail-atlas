@@ -298,5 +298,13 @@
   "url": "https://archive.org/details/sim_enr_engineering-news-record-_1900-05-17_43_20",
   "date": "1900",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:haley-mt-map",
+  "kind": "map",
+  "title": "E. J. Haley, 'Map of the Midland Terminal Railway', 1:88,704, catalogued 1917-1921 (call number 385.097885 H168M 1917); read from the library's scan, downloaded for study; not reproduced",
+  "holder": "Pikes Peak Library District, Regional History and Genealogy",
+  "url": "https://digitalcollections.ppld.org/nodes/view/871699",
+  "accessed": "2026-11-25"
  }
 ]
