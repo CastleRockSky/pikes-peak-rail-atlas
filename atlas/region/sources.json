@@ -140,5 +140,21 @@
   "holder": "Library of Congress, Geography and Map Division (sanborn01085_001, _002, _003); 30 per cent copies and full-size crops in research/maps/sanborn/victor/",
   "date": "1896-1908",
   "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:usgs-topo-1959-florence",
+  "kind": "map",
+  "title": "USGS 1:24,000 topographic sheets Florence and Canon City, Colorado, 1959, which letter 'OLD RAILROAD GRADE' north of Florence; and the 1:125,000 Canon City sheet of 1892, which predates the railway and draws none",
+  "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
+  "date": "1892-1959",
+  "accessed": "2026-11-24"
+ },
+ {
+  "id": "source:sanborn-florence",
+  "kind": "map",
+  "title": "Sanborn fire insurance maps of Florence, Colorado: January 1900 sheet 1 (key map); September 1906 sheets 1 (key map), 2 (Florence and Cripple Creek ground and round house) and 5",
+  "holder": "Library of Congress, Geography and Map Division (sanborn00995_003 and _004); reduced copies in research/maps/sanborn/florence/",
+  "date": "1900-1906",
+  "accessed": "2026-11-24"
  }
 ]
