@@ -3454,6 +3454,192 @@
     ],
     "summary": "A station in the Colorado Midland's public timetables (1888 to 1909). Pinned from its printed mileage; not worked up yet."
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.160353,
+     38.73204
+    ]
+   },
+   "properties": {
+    "id": "place:anaconda",
+    "name": "Anaconda",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed by its printed mileage: 55.0 miles from Colorado Springs in the Midland Terminal's timetable of 7 September 1920, that is 1.9 miles from Cripple Creek, measured from the Cripple Creek depot along the atlas's trace toward Victor Junction (a map trace of 1895 and 1903, corrected on 25 Nov 2026). The trace is good to 200 to 400 ft across and the mileage to about a quarter of a mile along. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, most of which is now mined.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 28.1
+     }
+    ],
+    "summary": "A station in the Midland Terminal's public timetables (1920; also 1909 to 1948). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.1642,
+     38.724639
+    ]
+   },
+   "properties": {
+    "id": "place:beacon-hill",
+    "name": "Beacon Hill",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed by its printed mileage: 54.3 miles from Colorado Springs in the Midland Terminal's timetable of 7 September 1920, that is 2.6 miles from Cripple Creek, measured from the Cripple Creek depot along the atlas's trace toward Victor Junction (a map trace of 1895 and 1903, corrected on 25 Nov 2026). The trace is good to 200 to 400 ft across and the mileage to about a quarter of a mile along. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, most of which is now mined.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 27.4
+     }
+    ],
+    "summary": "A station in the Midland Terminal's public timetables (1920; 1920 only). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.151766,
+     38.72364
+    ]
+   },
+   "properties": {
+    "id": "place:elkton",
+    "name": "Elkton",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed by its printed mileage: 53.4 miles from Colorado Springs in the Midland Terminal's timetable of 7 September 1920, that is 3.5 miles from Cripple Creek, measured from the Cripple Creek depot along the atlas's trace toward Victor Junction (a map trace of 1895 and 1903, corrected on 25 Nov 2026). The trace is good to 200 to 400 ft across and the mileage to about a quarter of a mile along. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, most of which is now mined.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 26.5
+     }
+    ],
+    "summary": "A station in the Midland Terminal's public timetables (1920; also 1909 to 1948). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.147586,
+     38.72218
+    ]
+   },
+   "properties": {
+    "id": "place:eclipse",
+    "name": "Eclipse",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed by its printed mileage: 53.1 miles from Colorado Springs in the Midland Terminal's timetable of 7 September 1920, that is 3.8 miles from Cripple Creek, measured from the Cripple Creek depot along the atlas's trace toward Victor Junction (a map trace of 1895 and 1903, corrected on 25 Nov 2026). The trace is good to 200 to 400 ft across and the mileage to about a quarter of a mile along. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, most of which is now mined.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 26.2
+     }
+    ],
+    "summary": "A station in the Midland Terminal's public timetables (1920; 1920 to 1945). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.149121,
+     38.711069
+    ]
+   },
+   "properties": {
+    "id": "place:victor-junction",
+    "name": "Victor Junction",
+    "grade": "inferred",
+    "error_ft": 100,
+    "basis": "Placed where two railway benches meet on the 1 m lidar at the foot of Squaw Mountain west of Victor (routes/midland-terminal-victor-junction.json), not by mileage: the Midland Terminal's main track and the leg to the Victor depot. The timetable of 1920 prints Victor Junction 0.6 mile from Victor; the junction found is 0.56 mile from the depot. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, most of which is now mined.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 25.3
+     }
+    ],
+    "summary": "A station in the Midland Terminal's public timetables (1920 to 1945). Pinned from its printed mileage; not worked up yet."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.129556,
+     38.725608
+    ]
+   },
+   "properties": {
+    "id": "place:independence",
+    "name": "Independence",
+    "grade": "inferred",
+    "error_ft": 1500,
+    "basis": "Placed by its printed mileage: 49.1 miles from Colorado Springs in the Midland Terminal's timetables of 1920 to 1945, that is 22.2 miles from Divide, measured along the atlas's route from Divide, stretched by 0.7 per cent so that the Gillett depot falls at its printed mile. Beyond Cameron the route is in mine-disturbed ground and its last part is a corridor from the 1903 map, so the pin is good to about a quarter of a mile along the line and 300 ft across. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground, most of which is now mined.",
+    "sources": [
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-24",
+    "kind": "stop",
+    "on_lines": [
+     {
+      "line": "line:midland-terminal",
+      "milepost": 22.2
+     }
+    ],
+    "summary": "A station in the Midland Terminal's public timetables (1895 to 1945). Pinned from its printed mileage; not worked up yet."
+   }
   }
  ]
 }
