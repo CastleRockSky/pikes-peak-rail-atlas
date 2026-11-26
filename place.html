@@ -15,7 +15,7 @@
   label { display: block; margin: 3px 0; } a { color: #7a4a16; } .pill { display: inline-block; padding: 0 7px; border-radius: 9px; font-size: 12px; color: #fff; }
   .leaflet-popup-content { font: 13px/1.4 Georgia, serif; max-width: 300px; } .leaflet-popup-content img { max-width: 100%; display: block; margin: 6px 0; }
   #warn { display: none; background: #7c2d12; color: #fff; padding: 10px; margin-bottom: 10px; }
-  @media (max-width: 760px) { #side { position: static; width: auto; border-right: 0; } #map { position: static; height: 70vh; } }
+  @media (max-width: 760px) { html, body { height: auto; } body { display: flex; flex-direction: column; } #side { position: static; width: auto; border-right: 0; } #map { position: relative; inset: auto; height: 65vh; order: -1; } }   /* phone: map first, full width (Leaflet makes the map relative, so the desktop inset must be cleared) */
 </style>
 </head>
 <body>
@@ -101,7 +101,7 @@ Promise.all([get(base + 'place.json', null), get(base + 'structures.geojson', { 
   if (photos.length > 40) { const m = document.createElement('p'); m.className = 'note'; m.textContent = 'and ' + (photos.length - 40) + ' more.'; pbox.appendChild(m); }
   if (!photos.length) pbox.innerHTML = '<p class="note">None yet.</p>';
   document.getElementById('open').innerHTML = (place.open_questions || []).map(q => '<li>' + esc(q) + '</li>').join('') || '<li class="note">Nothing recorded.</li>';
-  document.getElementById('places').innerHTML = places.features.map(f => '<p>' + (f.properties.id === place.id ? '<b>' + esc(f.properties.name) + '</b>' : '<a href="place.html?place=' + f.properties.id.split(':')[1] + '">' + esc(f.properties.name) + '</a>') + ' <span class="note">' + f.properties.kind + '</span></p>').join('');
+  document.getElementById('places').innerHTML = places.features.filter(f => f.properties.status !== 'draft').map(f =>'<p>' + (f.properties.id === place.id ? '<b>' + esc(f.properties.name) + '</b>' : '<a href="place.html?place=' + f.properties.id.split(':')[1] + '">' + esc(f.properties.name) + '</a>') + ' <span class="note">' + f.properties.kind + '</span></p>').join('');
   document.getElementById('pages').innerHTML = ((place.local || {}).pages || []).map(q => '<p><a href="' + q.href + '"><b>' + esc(q.title) + '</b></a></p>').join('');
   window.atlasPlacePage = { map, place, structures: st, stations, photos, overlays };
 });

@@ -4,114 +4,304 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pikes Peak Rail Atlas</title>
+<meta name="description" content="The railways and gold-camp towns of the Pikes Peak region, about 1887 to 1949, on a map by year. Every stretch of line and every place says how it is known, to how many feet, and from what source.">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
   html, body { margin: 0; height: 100%; font: 14px/1.45 Georgia, 'Times New Roman', serif; color: #2b2620; background: #f4f1e8; }
-  #map { position: absolute; inset: 0 0 0 360px; }
-  #side { position: absolute; inset: 0 auto 0 0; width: 360px; box-sizing: border-box; padding: 16px 16px 30px; overflow-y: auto; border-right: 1px solid #cfc7b3; }
-  h1 { font-size: 21px; margin: 0 0 6px; } h2 { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #8a5a2b; margin: 18px 0 6px; border-bottom: 1px solid #d8d0bd; padding-bottom: 3px; }
-  p { margin: 0 0 8px; } .note { color: #6b6253; font-size: 12.5px; } a { color: #7a4a16; }
-  #year { width: 100%; } #yearlabel { font-size: 30px; font-variant-numeric: tabular-nums; }
-  .line { display: block; margin: 5px 0; } .sw { display: inline-block; width: 22px; height: 0; border-top: 4px solid; margin-right: 7px; vertical-align: middle; }
-  .off { opacity: .38; } .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; border: 2px solid #fff; box-shadow: 0 0 0 1px #555; }
-  .leaflet-popup-content { font: 13px/1.4 Georgia, serif; max-width: 290px; } .pill { display: inline-block; padding: 0 7px; border-radius: 9px; font-size: 12px; color: #fff; }
+  #map { position: absolute; inset: 0 0 0 380px; }
+  #side { position: absolute; inset: 0 auto 0 0; width: 380px; box-sizing: border-box; padding: 16px 16px 30px; overflow-y: auto; border-right: 1px solid #cfc7b3; }
+  h1 { font-size: 21px; margin: 0 0 6px; }
+  h2, summary.h { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #8a5a2b; margin: 18px 0 6px; border-bottom: 1px solid #d8d0bd; padding-bottom: 3px; font-weight: bold; }
+  summary.h { cursor: pointer; } details > *:not(summary) { margin-top: 6px; }
+  h3 { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: #6b6253; margin: 16px 0 5px; }
+  p { margin: 0 0 8px; } .note { color: #5f5749; font-size: 12.5px; } a { color: #7a4a16; }
+  ol.start { margin: 4px 0 10px; padding-left: 20px; } ol.start li { margin: 2px 0; }
+  button, input[type=search] { font: inherit; color: inherit; }
+  .btn { background: #fffdf7; border: 1px solid #b9ae95; border-radius: 4px; padding: 3px 9px; cursor: pointer; } .btn:hover, .btn:focus { background: #efe7d2; } .btn.on { background: #7a4a16; color: #fff; border-color: #7a4a16; }
+  #q { width: 100%; box-sizing: border-box; padding: 6px 8px; border: 1px solid #b9ae95; border-radius: 4px; background: #fffdf7; }
+  #results button { display: block; width: 100%; text-align: left; background: #fffdf7; border: 1px solid #d8d0bd; border-top: 0; padding: 5px 8px; cursor: pointer; } #results button:hover, #results button:focus { background: #efe7d2; }
+  #yearrow { display: flex; align-items: baseline; gap: 8px; } #yearlabel { font-size: 30px; font-variant-numeric: tabular-nums; flex: 1; }
+  #year { width: 100%; margin: 4px 0; }
+  #events { display: flex; flex-wrap: wrap; gap: 4px; margin: 2px 0 6px; } #events .btn { padding: 1px 7px; font-size: 12.5px; font-variant-numeric: tabular-nums; }
+  .line { display: block; margin: 6px 0; cursor: pointer; } .line:hover b, .line:focus b { text-decoration: underline; } .off { opacity: .42; }
+  .sw { display: inline-block; width: 22px; height: 0; border-top: 4px solid; margin-right: 7px; vertical-align: middle; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: middle; border: 2px solid #fff; box-shadow: 0 0 0 1px #555; }
+  .key { display: flex; align-items: center; gap: 8px; margin: 3px 0; } .key svg { flex: none; }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; } .cards a { display: block; background: #fffdf7; border: 1px solid #d8d0bd; border-radius: 4px; padding: 5px 8px; text-decoration: none; } .cards a:hover { background: #efe7d2; } .cards span { display: block; }
+  #detail { display: none; } body.sel #detail { display: block; } body.sel #home { display: none; }
+  .kicker { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #8a5a2b; margin: 12px 0 2px; }
+  #detail h2.t { font-size: 19px; letter-spacing: 0; text-transform: none; color: #2b2620; border: 0; margin: 0 0 4px; padding: 0; }
+  .grade { border: 1px solid #b9ae95; background: #fffdf7; border-radius: 4px; padding: 7px 9px; margin: 10px 0; } .grade b { text-transform: capitalize; }
+  #detail .basis p { margin-bottom: 9px; } #detail ul.src { padding-left: 18px; margin: 4px 0; } #detail ul.src li { margin: 0 0 7px; }
+  #detail img.pic { width: 150px; height: 100px; object-fit: cover; display: block; margin: 6px 0 2px; border: 1px solid #cfc7b3; }
+  .open { display: inline-block; background: #7a4a16; color: #fff; padding: 6px 12px; border-radius: 4px; text-decoration: none; margin: 4px 0 8px; }
+  .leaflet-tooltip.lbl { background: rgba(255,253,247,.9); border: 0; box-shadow: none; padding: 0 4px; font: 12.5px Georgia, serif; color: #2b2620; } .leaflet-tooltip.lbl::before { display: none; }
+  .leaflet-tooltip.pinlbl { display: none; font-size: 11.5px; } #map.near .leaflet-tooltip.pinlbl { display: block; }
   #warn { display: none; background: #7c2d12; color: #fff; padding: 10px; margin-bottom: 10px; }
-  @media (max-width: 760px) { #side { position: static; width: auto; border-right: 0; } #map { position: static; height: 70vh; } }
+  @media (max-width: 760px) { html, body { height: auto; } body { display: flex; flex-direction: column; } #side { position: static; width: auto; border-right: 0; } #map { position: relative; inset: auto; height: 58vh; order: -1; } }   /* phone: map first, full width (Leaflet makes the map relative, so the desktop inset must be cleared) */
 </style>
 </head>
 <body>
 <div id="side">
+ <div id="home">
   <div id="warn">This page must be opened from the local server (http://localhost:8765/region.html), not as a file.</div>
   <h1>Pikes Peak Rail Atlas</h1>
-  <p><b>Railways of the Pikes Peak region</b></p>
-  <p class="note">The lines into the Cripple Creek district as they stood in a chosen year, and the places along them. Click a place to open it.</p>
-  <p class="note"><a href="collection.html">Photographs, postcards and maps of the railways</a>: the atlas's collection for the whole region.</p>
-<h2>Year</h2>
-  <div id="yearlabel">1900</div>
+  <p>The railways into the Cripple Creek gold district and the places along them, as they stood in any year from 1887 to 1949.</p>
+  <p class="note">Every stretch of line and every place says how it is known: measured, inferred or conjecture, to how many feet, and from what source.</p>
+  <ol class="start">
+    <li>Pick a year, or one of the marked years.</li>
+    <li>Click a line or a place on the map to see how it is known.</li>
+    <li>Open one of the eight places worked up in full, below.</li>
+  </ol>
+  <input id="q" type="search" placeholder="Find a place, station or railway" aria-label="Find a place, station or railway" autocomplete="off">
+  <div id="results"></div>
+  <h2><label for="year">Year</label></h2>
+  <div id="yearrow"><span id="yearlabel">1900</span>
+    <button class="btn" id="prev" aria-label="One year earlier">‹</button><button class="btn" id="next" aria-label="One year later">›</button>
+    <button class="btn" id="allyears" aria-pressed="false" title="Every line and place, whatever the year">All years</button></div>
   <input id="year" type="range" min="1885" max="1950" value="1900" step="1">
-  <label id="alllabel" style="display:flex;align-items:center;gap:7px;margin:6px 0 2px;font-size:14.5px;cursor:pointer"><input id="allyears" type="checkbox"> See everything: every line and place, whatever the year</label>
+  <div id="events"></div>
   <p class="note" id="yearnote"></p>
-  <h2>Railways</h2><div id="lines"></div>
-  <h2>Places</h2>
-  <p><span class="dot" style="background:#b45309;width:14px;height:14px"></span>Worked up: has its own page</p>
-  <p><span class="dot" style="background:#475569"></span>Tunnel, pinned from the map</p>
-  <p><span class="dot" style="background:#94a3b8"></span>Settlement beside a line, pinned from the map</p>
-  <div id="places"></div>
-  <h2>What this is not, yet</h2>
-  <p class="note" id="caveat"></p>
-  <p class="note" id="attribution">Railway lines and place names: © OpenStreetMap contributors (Open Database Licence). Base maps and imagery: Esri. Elevation, historical maps and aerial photographs: U.S. Geological Survey. Insurance maps: Sanborn Map Company, 1896 to 1908, from the University of Colorado Boulder. Photographs are held by the institutions named with each and are shown by their permission; those not cleared for publication are linked, not shown. The atlas's own work (positions, camera stations, footprints, models and notes) is © Pikes Peak Rail Atlas, free to reuse with credit under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+  <p class="note"><a href="#" id="zoomall">The whole atlas</a> · <a href="#" id="zoomhome">The Pikes Peak region</a></p>
+  <h2>Places worked up</h2>
+  <div id="places" class="cards"></div>
+  <p class="note" id="placenote"></p>
+  <p class="note"><a href="collection.html">Photographs, postcards and maps of the railways</a>: the collection for the whole region.</p>
+  <details open><summary class="h">Railways</summary><div id="lines"></div><p class="note">Click a railway to see all of it and how it is drawn.</p></details>
+  <details open><summary class="h">Map key</summary><div id="key"></div></details>
+  <details><summary class="h">Lately</summary>
+  <p class="note"><b>Phantom Canyon, 1894 and 1896.</b> The Florence and Cripple Creek's first line on the canyon floor, wrecked by the cloudburst of 30 July 1895, and the 'high line' that replaced it on 27 June 1896 are now both drawn, each in its years; the northern tunnel belongs to the second. From newspapers of the time and the lidar. Use the 1895 and 1896 buttons under the year.</p>
+  <p class="note"><b>Sixteen of that railway's stations</b> pinned by the stationing of its own survey of 1894, from Florence to Anaconda.</p>
+  <p class="note"><b>Cripple Creek to Victor and the Arkansas crossing at Florence</b> redrawn from the same survey: 5.67 miles depot to depot against the timetables' 5.7.</p>
+  </details>
+  <details><summary class="h">What this is not, yet</summary><p class="note" id="caveat"></p></details>
+  <details><summary class="h">Credits and reuse</summary>
+  <p class="note" id="attribution">Railway lines: the atlas's own routes, drawn from lidar, the railways' surveys, insurance maps and government maps as each stretch says; some pieces, and most place names, are from © OpenStreetMap contributors (Open Database Licence). Base maps and imagery: Esri. Elevation, historical maps and aerial photographs: U.S. Geological Survey. Insurance maps: Sanborn Map Company, 1896 to 1908, from the University of Colorado Boulder. Photographs are held by the institutions named with each and are shown by their permission; those not cleared for publication are linked, not shown. The atlas's own work (positions, camera stations, footprints, models and notes) is © Pikes Peak Rail Atlas, free to reuse with credit under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+  </details>
+ </div>
+ <div id="detail" aria-live="polite"></div>
 </div>
 <div id="map"></div>
 <script>window.ATLAS_LANDING = true;</script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 if (location.protocol === 'file:') document.getElementById('warn').style.display = 'block';
+const $ = id => document.getElementById(id);
 const get = (u, fb) => fetch(u, { cache: 'no-store' }).then(r => r.ok ? r.json() : fb).catch(() => fb);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#b91c1c', 'line:cs-and-cc-district': '#15803d', 'line:florence-and-cripple-creek': '#a16207', 'line:rio-grande-junction': '#7c3aed' };
+// how sure: shown by the stroke, never by colour (colour is the railway)
+const GRADE = { measured: { dash: null, what: 'Taken from the ground itself, a surveyed map or a photograph, and tested.' },
+                inferred: { dash: '10 6', what: 'Reasoned from evidence that bears on it but does not fix it directly.' },
+                conjecture: { dash: '2 7', what: 'Illustrative: drawn to keep the picture whole, without direct evidence.' } };
+const PIN = { worked: '#b45309', tunnel: '#475569', 'water works': '#0e7490', other: '#94a3b8' };
+const sample = (col, dash, w) => '<svg width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke="' + col + '" stroke-width="' + (w || 4) + '"' + (dash ? ' stroke-dasharray="' + dash + '"' : '') + '/></svg>';
+const years = (a, b) => a ? a + (b ? ' to ' + b : ' on') : '';
+// a long basis, broken into paragraphs at its own turns of argument; the words are not changed
+const ABBR = /^(?:[A-Z]|Mrs|Mr|Dr|No|Nos|Co|St|Mt|Jct|Col|Colo|Feb|Sept|Oct|Nov|Dec|Jan|Aug|p|m|a|ft|mi|pp|vol|e\.g|i\.e|c)\.$/;
+const TURN = /^(?:Doubts?:|Caution:|Checked against|Tested on|In its favour|Newspapers of the time|Not settled|Length:|A bridge stood|This part is on|N\. D\. Holmes|The high line:|From Florence|Through Phantom|Through Victor|East of|Over the Arkansas|A branch|The first line|Still open|That it )/;
+function paras(text) {
+  const w = String(text || '').split(/\s+/), out = []; let cur = [], sent = [];
+  const flush = () => { if (cur.length) { out.push(cur.join(' ')); cur = []; } };
+  for (let i = 0; i < w.length; i++) {
+    sent.push(w[i]);
+    if (/[.!?]['")]?$/.test(w[i]) && !ABBR.test(w[i]) && (i + 1 === w.length || /^['"(A-Z0-9]/.test(w[i + 1]))) {
+      const s = sent.join(' '); sent = [];
+      if (cur.length && (TURN.test(s) || cur.join(' ').length > 420)) flush();
+      cur.push(s);
+    }
+  }
+  if (sent.length) cur.push(sent.join(' ')); flush();
+  return '<div class="basis">' + out.map(p => '<p>' + esc(p) + '</p>').join('') + '</div>';
+}
+const gradeBox = (g, err) => '<div class="grade">' + sample('#2b2620', (GRADE[g] || {}).dash) + ' <b>' + esc(g) + '</b>' + (err == null ? '' : ', good to about ' + esc(err) + ' ft') + '<br><span class="note">' + esc((GRADE[g] || {}).what || '') + '</span></div>';
+
 const map = L.map('map').setView([38.83, -105.05], 11);
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Map: Esri and contributors' }).addTo(map);
-Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] }), get('atlas/region/photos.json', []), get('atlas/region/features.geojson', { features: [] })]).then(([lines, places, pics, feats]) => {
-  const picsAt = {}; for (const q of pics) if (q.image) for (const id of (q.shows || [])) (picsAt[id] = picsAt[id] || []).push(q);        // collection pictures tied to each place
-  const picLink = id => { const a = picsAt[id]; if (!a) return ''; const s = id.split(':')[1];
-    return '<br><a href="collection.html?place=' + s + '"><img src="' + esc(a[0].thumb || a[0].image) + '" alt="" style="width:120px;height:80px;object-fit:cover;display:block;margin:6px 0 2px;border:1px solid #cfc7b3">' + a.length + ' picture' + (a.length === 1 ? '' : 's') + ' in the collection</a>'; };
-  const segLayers = [];            // {layer, from, to, line}
-  for (const l of lines) for (const s of l.segments) {
-    const layer = L.geoJSON(s.geometry, { style: { color: COLOUR[l.id] || '#111', weight: 4, opacity: 0.9 } })
-      .bindPopup('<b>' + esc(l.name) + '</b><br>' + esc(s.valid_from || '?') + ' to ' + esc(s.valid_to || '?') + '<br><i>' + esc(s.grade) + ', good to ' + esc(s.error_ft) + ' ft</i><br>' + esc(s.basis));
-    segLayers.push({ layer, from: s.valid_from || 0, to: s.valid_to || 9999, line: l.id });
-  }
-  const lineBox = document.getElementById('lines'); const rows = {};
-  for (const l of lines) {
-    const d = document.createElement('div'); d.className = 'line';
-    d.innerHTML = '<span class="sw" style="border-color:' + (COLOUR[l.id] || '#111') + '"></span><b>' + esc(l.name) + '</b><br><span class="note">' + esc(l.valid_from) + ' to ' + esc(l.valid_to) + ' · ' + esc(l.gauge) + ' gauge · ' + esc(l.notes || '') + '</span>';
-    lineBox.appendChild(d); rows[l.id] = d;
-  }
-  const placeLayers = [];
-  const pbox = document.getElementById('places'); const worked = places.features.filter(f => f.properties.status !== 'draft');
-  for (const f of places.features) {
-    const p = f.properties, slug = p.id.split(':')[1], isWorked = p.status !== 'draft', [lon, lat] = f.geometry.coordinates;
-    const col = isWorked ? '#b45309' : (p.kind === 'tunnel' ? '#475569' : p.kind === 'water works' ? '#0e7490' : '#94a3b8');
-    const layer = L.circleMarker([lat, lon], { radius: isWorked ? 9 : 5, color: '#fff', weight: 2, fillColor: col, fillOpacity: 1 })
-      .bindPopup('<b>' + esc(p.name) + '</b><br>' + esc(p.kind) + (p.valid_from ? ', ' + p.valid_from + (p.valid_to ? ' to ' + p.valid_to : ' on') : '') +
-        '<br><span class="pill" style="background:' + ({ measured: '#15803d', inferred: '#d97706', conjecture: '#6b7280' }[p.grade]) + '">' + p.grade + '</span> ' + (p.error_ft == null ? '' : 'good to ' + p.error_ft + ' ft') +
-        '<br>' + esc(isWorked ? p.summary : p.basis) + (isWorked ? '<br><a href="' + (window.ATLAS_LANDING ? slug + '/' : 'place.html?place=' + slug) + '"><b>Open this place</b></a>' : '<br><span class="note">A pin only: not worked up yet.</span>') + picLink(p.id));
-    placeLayers.push({ layer, from: p.valid_from || 0, to: p.valid_to || 9999, worked: isWorked });
-  }
-  for (const f of feats.features) {          // lines that are not railways (a pipeline, an incline): teal, dashed; dotted where conjecture
-    const p = f.properties;
-    const layer = L.geoJSON(f.geometry, { style: { color: p.kind === 'trail' ? '#78716c' : '#0e7490', weight: p.kind === 'trail' ? 2 : 3, opacity: 0.9, dashArray: p.grade === 'conjecture' ? '2 7' : p.kind === 'incline' ? null : p.kind === 'trail' ? '4 5' : '8 6' } })
-      .bindPopup('<b>' + esc(p.name) + '</b><br>' + esc(p.kind) + ', ' + esc(p.valid_from) + ' to ' + esc(p.valid_to) + ', about ' + Math.round(p.length_ft / 100) * 100 + ' ft' +
-        '<br><span class="pill" style="background:' + ({ measured: '#15803d', inferred: '#d97706', conjecture: '#6b7280' }[p.grade]) + '">' + p.grade + '</span> good to ' + p.error_ft + ' ft<br>' + esc(p.basis));
-    placeLayers.push({ layer, from: p.valid_from || 0, to: p.valid_to || 9999, worked: false });
-  }
+Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] }), get('atlas/region/photos.json', []), get('atlas/region/features.geojson', { features: [] }), get('atlas/region/sources.json', [])]).then(([lines, places, pics, feats, srcs]) => {
+  const SRC = {}; for (const s of srcs) SRC[s.id] = s;
+  const LINE = {}; for (const l of lines) LINE[l.id] = l;
   const href = slug => window.ATLAS_LANDING ? slug + '/' : 'place.html?place=' + slug;        // the public copy gives each worked place its own address
-  pbox.innerHTML = worked.map(f => '<p><a href="' + href(f.properties.id.split(':')[1]) + '"><b>' + esc(f.properties.name) + '</b></a> <span class="note">' + f.properties.kind + '</span></p>').join('') +
-    '<p class="note">' + worked.length + ' place' + (worked.length === 1 ? ' is' : 's are') + ' worked up so far. The ' + (places.features.length - worked.length) + ' pins are places still to be done; more are added as each is worked up.</p>';
-  const km = lines.map(l => l.segments.length).reduce((a, b) => a + b, 0);
-  document.getElementById('caveat').textContent = 'The lines are drawn in ' + km + ' pieces, each with its own grade and error: click a line to see how that stretch is known. Most are continuous routes tested against 1 m lidar; ' +
-    'inside the mining district they are traced from a map of 1903 and are inferred, because the ground is now an open-pit mine. A few short stretches are still not traced (Florence to Phantom Canyon, the Short Line inside Colorado Springs). ' +
-    'A grey pin is a station placed by its timetable mileage, or a place taken from the modern map, and has not been worked up. ' +
-    (places.features.length - worked.length) + ' of ' + places.features.length + ' places are pins.';
-  const slider = document.getElementById('year'), allBox = document.getElementById('allyears');
-  function show() {
-    const all = allBox.checked, y = +slider.value; const open = new Set();
-    document.getElementById('yearlabel').textContent = all ? 'All years' : y; slider.style.opacity = all ? 0.4 : 1;
-    for (const s of segLayers) { const on = all || (s.from <= y && y <= s.to); if (on) { open.add(s.line); if (!map.hasLayer(s.layer)) s.layer.addTo(map); } else if (map.hasLayer(s.layer)) map.removeLayer(s.layer); }
-    for (const p of placeLayers) { const on = all || p.worked ? true : (p.from <= y && y <= p.to); if (on) { if (!map.hasLayer(p.layer)) p.layer.addTo(map); } else if (map.hasLayer(p.layer)) map.removeLayer(p.layer); }
-    for (const id in rows) rows[id].classList.toggle('off', !open.has(id));
-    document.getElementById('yearnote').textContent = all ? 'Every railway and place in the atlas, from every year at once. They did not all exist together: move the slider to see a single year.'
-      : open.size ? open.size + ' of ' + lines.length + ' railways running.' : 'No railway running in this year.';
+  const picsAt = {}; for (const q of pics) if (q.image) for (const id of (q.shows || [])) (picsAt[id] = picsAt[id] || []).push(q);        // collection pictures tied to each place
+  const slider = $('year'), allBtn = $('allyears'); let all = false, sel = null;
+  const srcList = (ids, extra) => { ids = ids || []; if (!ids.length) return '<p class="note">No source is recorded.</p>';
+    return '<ul class="src">' + ids.map(id => { const s = SRC[id] || (extra || {})[id];
+      return s ? '<li>' + esc(s.title) + '<br><span class="note">' + [s.author, s.holder, s.date, s.kind].filter(Boolean).map(esc).join(' · ') + (s.url ? ' · <a href="' + esc(s.url) + '" target="_blank" rel="noopener">open the source</a>' : '') + '</span></li>'
+               : '<li class="note">' + esc(id.replace(/^source:/, '')) + ' (described on the place\'s own page)</li>'; }).join('') + '</ul>'; };
+  // who ran a piece of track in a given year: the Colorado Midland's line east of Divide passed to the Midland Terminal
+  const owner = (l, y) => (!all && y > l.valid_to && (l.successors || []).length && LINE[l.successors[0]]) || l;
+
+  // ---- lines: one drawn stroke and one wide unseen stroke to click, for each dated piece
+  const segs = [];
+  for (const l of lines) l.segments.forEach((s, i) => {
+    const vis = L.geoJSON(s.geometry, { interactive: false, style: { color: COLOUR[l.id] || '#111', weight: 4, opacity: 0.95, dashArray: (GRADE[s.grade] || {}).dash, lineCap: 'butt' } });
+    const hit = L.geoJSON(s.geometry, { style: { color: '#000', weight: 20, opacity: 0 } });
+    const o = { kind: 'seg', id: l.id + '~' + i, line: l, s, i, vis, hit, from: s.valid_from || 0, to: s.valid_to || 9999 };
+    hit.on('click', e => { L.DomEvent.stopPropagation(e); select(o); }); hit.on('mouseover', () => { if (sel !== o) vis.setStyle({ weight: 6 }); }); hit.on('mouseout', () => { if (sel !== o) vis.setStyle({ weight: 4 }); });
+    segs.push(o);
+  });
+  // ---- places
+  const pins = [];
+  for (const f of places.features) {
+    const p = f.properties, slug = p.id.split(':')[1], worked = p.status !== 'draft', [lon, lat] = f.geometry.coordinates, dated = !!p.valid_from;
+    const layer = L.circleMarker([lat, lon], { radius: worked ? 9 : 5, color: '#fff', weight: 2, fillColor: worked ? PIN.worked : PIN[p.kind] || PIN.other, fillOpacity: worked || dated ? 1 : 0.45 })
+      .bindTooltip(esc(p.name), { permanent: true, direction: 'right', offset: [worked ? 9 : 6, 0], className: 'lbl' + (worked ? '' : ' pinlbl') });
+    const o = { kind: 'place', id: p.id, p, slug, worked, dated, lat, lon, layer, from: p.valid_from || 0, to: p.valid_to || 9999 };
+    layer.on('click', e => { L.DomEvent.stopPropagation(e); select(o); }); pins.push(o);
   }
-  slider.oninput = () => { allBox.checked = false; show(); }; allBox.onchange = show; show();
-  // the atlas now reaches far beyond the first view: two buttons to see all of it, or to come back
-  const whole = L.featureGroup(segLayers.map(s => s.layer)).getBounds(), home = map.getBounds();
-  const zb = document.createElement('p'); zb.className = 'note'; zb.style.margin = '6px 0 0';
-  zb.innerHTML = '<a href="#" id="zoomall">Zoom out to the whole atlas</a> · <a href="#" id="zoomhome">Back to the Pikes Peak region</a>';
-  document.getElementById('yearnote').after(zb);
-  document.getElementById('zoomall').onclick = e => { e.preventDefault(); map.fitBounds(whole, { padding: [20, 20], animate: false }); };
-  document.getElementById('zoomhome').onclick = e => { e.preventDefault(); map.fitBounds(home, { animate: false }); };
-  window.atlasRegion = { map, lines, places, show };
+  // ---- works that are not railways (a pipeline, an incline, a trail): teal or grey, dotted where conjecture
+  const others = [];
+  for (const f of feats.features) {
+    const p = f.properties, col = p.kind === 'trail' ? '#78716c' : '#0e7490';
+    const layer = L.geoJSON(f.geometry, { style: { color: col, weight: p.kind === 'trail' ? 2 : 3, opacity: 0.9, dashArray: p.grade === 'conjecture' ? '2 7' : p.kind === 'incline' ? null : p.kind === 'trail' ? '4 5' : '8 6' } });
+    const hit = L.geoJSON(f.geometry, { style: { color: '#000', weight: 18, opacity: 0 } });
+    const o = { kind: 'feat', id: p.id, p, layer, hit, from: p.valid_from || 0, to: p.valid_to || 9999 };
+    hit.on('click', e => { L.DomEvent.stopPropagation(e); select(o); }); others.push(o);
+  }
+  const BY = {}; for (const o of [...segs, ...pins, ...others]) BY[o.id] = o;
+
+  // ---- the side lists
+  const rows = {};
+  for (const l of lines) {
+    const d = document.createElement('div'); d.className = 'line'; d.tabIndex = 0; d.setAttribute('role', 'button');
+    d.innerHTML = '<span class="sw" style="border-color:' + (COLOUR[l.id] || '#111') + '"></span><b>' + esc(l.name) + '</b><br><span class="note">' + esc(l.valid_from) + ' to ' + esc(l.valid_to) + ' · ' + esc(l.gauge) + ' gauge · ' + l.segments.length + ' pieces</span>';
+    const go = () => select({ kind: 'line', id: l.id, line: l }, { fit: true }); d.onclick = go; d.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } };
+    $('lines').appendChild(d); rows[l.id] = d;
+  }
+  const worked = pins.filter(o => o.worked);
+  $('places').innerHTML = worked.map(o => '<a href="' + href(o.slug) + '"><b>' + esc(o.p.name) + '</b><span class="note">' + esc(o.p.kind) + '</span></a>').join('');
+  $('placenote').textContent = worked.length + ' places are worked up so far, each with its own map, pictures and account. The other ' + (pins.length - worked.length) + ' are pins: click one on the map to see how it was placed.';
+  $('key').innerHTML = Object.keys(GRADE).map(g => '<div class="key">' + sample('#2b2620', GRADE[g].dash) + '<span><b>' + g[0].toUpperCase() + g.slice(1) + '.</b> <span class="note">' + GRADE[g].what + '</span></span></div>').join('') +
+    '<p class="note" style="margin-top:6px">The colour of a line is the railway; its stroke is how well that stretch is known.</p>' +
+    '<div class="key"><span class="dot" style="background:' + PIN.worked + ';width:14px;height:14px"></span>Worked up: has its own page (always shown)</div>' +
+    '<div class="key"><span class="dot" style="background:' + PIN.tunnel + '"></span>Tunnel</div>' +
+    '<div class="key"><span class="dot" style="background:' + PIN.other + '"></span>Station, siding, junction or settlement: a pin</div>' +
+    '<div class="key"><span class="dot" style="background:' + PIN['water works'] + '"></span>Water works</div>' +
+    '<div class="key"><span class="dot" style="background:' + PIN.other + ';opacity:.5"></span>Faint pin: its years are not established, so it shows in every year</div>' +
+    '<div class="key">' + sample('#0e7490', '8 6', 3) + 'Pipeline (solid: incline)</div><div class="key">' + sample('#78716c', '4 5', 2) + 'Trail</div>' +
+    '<p class="note">Names of pins appear when you zoom in.</p>';
+  const count = g => segs.filter(o => o.s.grade === g).length;
+  $('caveat').textContent = 'The lines are drawn in ' + segs.length + ' pieces, each with its own years, grade and error. ' + count('measured') + ' pieces are measured, ' + count('inferred') + ' inferred and ' + count('conjecture') + ' conjecture. ' +
+    'Most are continuous routes tested against 1 m lidar. Inside the mining district the ground is now an open-pit mine, so the lines there rest on paper alone: a government map of 1903, insurance maps, and for the Florence and Cripple Creek the railway\'s own survey of 1894; they are inferred, some good only to 300 or 400 ft. ' +
+    'Nothing has been found on the ground of the Florence and Cripple Creek\'s first line in Phantom Canyon or of its bridge over the Arkansas. Dates and figures from later books are labelled as secondary where they are used. ' +
+    'A pin is a station placed by its timetable mileage or the railway\'s stationing, or a place taken from the modern map, and has not been worked up; ' + pins.filter(o => !o.dated && !o.worked).length + ' pins have no years recorded. ' +
+    (pins.length - worked.length) + ' of ' + pins.length + ' places are pins.';
+
+  // ---- years
+  const EVENTS = {};        // year -> [{text, go}]
+  const ev = (y, text, go) => (EVENTS[y] = EVENTS[y] || []).push({ text, go });
+  for (const l of lines) if (l.id !== 'line:rio-grande-junction') {
+    const fit = () => map.fitBounds(L.featureGroup(segs.filter(o => o.line === l).map(o => o.hit)).getBounds(), { padding: [20, 20], animate: false });
+    ev(l.valid_from, l.name + ' begins', fit); ev(l.valid_to, 'last year of the ' + l.name, fit);
+  }
+  const canyon = () => map.setView([38.5475, -105.1045], 15, { animate: false });
+  ev(1895, 'a cloudburst on 30 July wrecks the Florence and Cripple Creek\'s first line on the floor of Phantom Canyon', canyon);
+  ev(1896, 'the Florence and Cripple Creek\'s high line, with a new tunnel, opens in Phantom Canyon on 27 June; the first line is taken up', canyon);
+  ev(1912, 'last year of the Florence and Cripple Creek through Phantom Canyon, closed by the flood of July', canyon);
+  $('events').innerHTML = Object.keys(EVENTS).sort().map(y => '<button class="btn" data-y="' + y + '" title="' + esc(EVENTS[y].map(e => e.text).join('; ')) + '">' + y + '</button>').join('');
+  $('events').onclick = e => { const y = e.target.dataset && e.target.dataset.y; if (!y) return; all = false; slider.value = y; show(); EVENTS[y][EVENTS[y].length - 1].go(); };
+  const vis = o => all || (o.kind === 'place' && (o.worked || !o.dated)) || (o.from <= +slider.value && +slider.value <= o.to);
+  const put = (layer, on) => { if (on) { if (!map.hasLayer(layer)) layer.addTo(map); } else if (map.hasLayer(layer)) map.removeLayer(layer); };
+  function show() {
+    const y = +slider.value, running = new Set();
+    $('yearlabel').textContent = all ? 'All years' : y; slider.style.opacity = all ? 0.4 : 1; allBtn.classList.toggle('on', all); allBtn.setAttribute('aria-pressed', all); slider.setAttribute('aria-valuetext', all ? 'all years' : y);
+    for (const o of segs) { const on = vis(o), ow = owner(o.line, y); put(o.vis, on); put(o.hit, on); if (on) { running.add(ow.id); o.vis.setStyle({ color: COLOUR[ow.id] || '#111' }); } }
+    for (const o of pins) put(o.layer, vis(o));
+    for (const o of others) { put(o.layer, vis(o)); put(o.hit, vis(o)); }
+    for (const id in rows) rows[id].classList.toggle('off', !running.has(id));
+    for (const b of $('events').children) b.classList.toggle('on', !all && +b.dataset.y === y);
+    $('yearnote').innerHTML = all ? 'Every railway and place in the atlas, from every year at once. They did not all exist together: move the slider to see a single year.'
+      : (running.size ? running.size + ' of ' + lines.length + ' railways running.' : 'No railway running in this year.') + (EVENTS[y] ? ' <b>' + y + ':</b> ' + esc(EVENTS[y].map(e => e.text).join('; ')) + '.' : '');
+    if (sel && sel.kind === 'seg' && vis(sel)) panel(sel);          // the owner shown in the panel follows the year
+    hash();
+  }
+  slider.oninput = () => { all = false; show(); }; allBtn.onclick = () => { all = !all; show(); };
+  $('prev').onclick = () => { all = false; slider.value = +slider.value - 1; show(); }; $('next').onclick = () => { all = false; slider.value = +slider.value + 1; show(); };
+  map.on('zoomend', () => $('map').classList.toggle('near', map.getZoom() >= 13));
+
+  // ---- the panel: what was clicked, and how it is known
+  const head = (kicker, title, sub) => '<button class="btn" id="back">← Back to the atlas</button><div class="kicker">' + esc(kicker) + '</div><h2 class="t">' + title + '</h2>' + (sub ? '<p>' + sub + '</p>' : '');
+  const foot = () => '<p style="margin-top:14px"><button class="btn" id="copy">Copy a link to this</button> <span class="note" id="copied"></span></p>';
+  const picLink = id => { const a = picsAt[id]; if (!a) return ''; return '<h3>Pictures</h3><a href="collection.html?place=' + id.split(':')[1] + '"><img class="pic" src="' + esc(a[0].thumb || a[0].image) + '" alt="">' + a.length + ' picture' + (a.length === 1 ? '' : 's') + ' in the collection</a>'; };
+  function panel(o) {
+    const y = +slider.value; let h = '';
+    if (o.kind === 'seg') {
+      const l = o.line, ow = owner(l, y), n = l.segments.length, s = o.s;
+      h = head('Stretch of railway', '<span class="sw" style="border-color:' + (COLOUR[ow.id] || '#111') + '"></span>' + esc(ow.name),
+            (ow !== l ? 'Built as part of the ' + esc(l.name) + '; worked by the ' + esc(ow.name) + ' after ' + l.valid_to + '.<br>' : '') + 'This stretch: ' + esc(years(s.valid_from, s.valid_to)) + ' · piece ' + (o.i + 1) + ' of ' + n) +
+          gradeBox(s.grade, s.error_ft) + '<h3>How this stretch is known</h3>' + paras(s.basis) +
+          '<p>' + (o.i > 0 ? '<button class="btn" data-go="' + l.id + '~' + (o.i - 1) + '">‹ Piece before</button> ' : '') + (o.i < n - 1 ? '<button class="btn" data-go="' + l.id + '~' + (o.i + 1) + '">Piece after ›</button> ' : '') +
+          '<button class="btn" data-line="' + l.id + '">The whole railway</button></p>' +
+          '<h3>Sources cited for this railway</h3>' + srcList(l.sources) + foot();
+    } else if (o.kind === 'line') {
+      const l = o.line, mine = segs.filter(x => x.line === l), c = g => mine.filter(x => x.s.grade === g).length;
+      h = head('Railway', '<span class="sw" style="border-color:' + (COLOUR[l.id] || '#111') + '"></span>' + esc(l.name), esc(years(l.valid_from, l.valid_to)) + ' · ' + esc(l.gauge) + ' gauge') +
+          '<p>Drawn in ' + mine.length + ' pieces: ' + c('measured') + ' measured, ' + c('inferred') + ' inferred, ' + c('conjecture') + ' conjecture. Click any stretch on the map for its own account.</p>' +
+          (l.notes ? '<h3>The railway</h3>' + paras(l.notes) : '') + (l.basis ? '<h3>How the line is drawn</h3>' + paras(l.basis) : '') + '<h3>Sources</h3>' + srcList(l.sources) + foot();
+    } else if (o.kind === 'place') {
+      const p = o.p, on = (p.on_lines || []).filter(x => LINE[x.line]);
+      h = head(p.kind + (o.worked ? ', worked up' : ', a pin'), esc(p.name), p.valid_from ? esc(years(p.valid_from, p.valid_to)) : 'Years not established in the atlas' + (o.worked ? '' : ', so it is shown in every year')) +
+          (o.worked ? '<a class="open" href="' + href(o.slug) + '">Open this place: map, pictures and account</a>' : '') + gradeBox(p.grade, p.error_ft) +
+          (on.length ? '<p class="note">On the ' + on.map(x => esc(LINE[x.line].name) + (x.milepost != null ? ', mile ' + x.milepost : '')).join('; ') + '.</p>' : '') +
+          (o.worked ? '<h3>In brief</h3>' + paras(p.summary) : (p.summary ? '<p>' + esc(p.summary) + '</p>' : '') + '<h3>How it was placed</h3>' + paras(p.basis) + '<p class="note">A pin only: this place has not been worked up yet.</p>') +
+          picLink(p.id) + '<h3>Sources</h3><div id="psrc">' + srcList(p.sources) + '</div>' + foot();
+      if (o.worked && (p.sources || []).some(id => !SRC[id])) get('atlas/places/' + o.slug + '/sources.json', []).then(a => { const ex = {}; for (const s of a) ex[s.id] = s; if (sel === o && $('psrc')) $('psrc').innerHTML = srcList(p.sources, ex); });
+    } else {
+      const p = o.p;
+      h = head(p.kind, esc(p.name), esc(years(p.valid_from, p.valid_to)) + (p.length_ft ? ' · about ' + Math.round(p.length_ft / 100) * 100 + ' ft' : '')) + gradeBox(p.grade, p.error_ft) + '<h3>How it is known</h3>' + paras(p.basis) + '<h3>Sources</h3>' + srcList(p.sources) + foot();
+    }
+    $('detail').innerHTML = h; document.body.classList.add('sel'); $('side').scrollTop = 0;
+    $('back').onclick = () => select(null);
+    $('copy').onclick = () => { const u = location.href; (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(() => $('copied').textContent = 'Copied.', () => $('copied').textContent = u); };
+    for (const b of $('detail').querySelectorAll('[data-go]')) b.onclick = () => select(BY[b.dataset.go], { pan: true });
+    for (const b of $('detail').querySelectorAll('[data-line]')) b.onclick = () => select({ kind: 'line', id: b.dataset.line, line: LINE[b.dataset.line] }, { fit: true });
+  }
+  function mark(o, on) {
+    if (!o) return;
+    if (o.kind === 'seg') { o.vis.setStyle({ weight: on ? 9 : 4 }); if (on) o.vis.bringToFront(); }
+    else if (o.kind === 'line') { for (const x of segs) if (x.line === o.line) x.vis.setStyle({ weight: on ? 7 : 4 }); }
+    else if (o.kind === 'place') o.layer.setStyle({ color: on ? '#111' : '#fff', weight: on ? 3 : 2 });
+    else o.layer.setStyle({ weight: on ? 6 : (o.p.kind === 'trail' ? 2 : 3) });
+  }
+  function select(o, opt) {
+    opt = opt || {}; mark(sel, false); sel = o || null;
+    if (!sel) { document.body.classList.remove('sel'); hash(); return; }
+    if (sel.kind !== 'line' && !vis(sel)) { all = false; slider.value = Math.min(1950, Math.max(1885, sel.from)); show(); }       // found by name but not standing in the chosen year: go to its first year
+    mark(sel, true); panel(sel);
+    if (opt.fit && sel.kind === 'line') map.fitBounds(L.featureGroup(segs.filter(x => x.line === sel.line).map(x => x.hit)).getBounds(), { padding: [20, 20], animate: false });
+    if (opt.pan) { if (sel.kind === 'place') map.setView([sel.lat, sel.lon], Math.max(map.getZoom(), 14), { animate: false }); else if (sel.kind !== 'line') map.fitBounds((sel.hit || sel.layer).getBounds(), { padding: [60, 60], maxZoom: 15, animate: false }); }
+    hash();
+  }
+  map.on('click', () => select(null));
+
+  // ---- find by name
+  const INDEX = [...pins.map(o => ({ o, name: o.p.name, sub: o.p.kind + (o.p.valid_from ? ', ' + years(o.p.valid_from, o.p.valid_to) : '') + ((o.p.on_lines || [])[0] && LINE[o.p.on_lines[0].line] ? ' · ' + LINE[o.p.on_lines[0].line].name : '') })),
+                 ...lines.map(l => ({ o: { kind: 'line', id: l.id, line: l }, name: l.name, sub: 'railway, ' + years(l.valid_from, l.valid_to) })),
+                 ...others.map(o => ({ o, name: o.p.name, sub: o.p.kind }))];
+  let found = [];
+  const pick = k => { const r = found[k]; if (!r) return; $('q').value = ''; $('results').innerHTML = ''; select(r.o, { pan: true, fit: true }); };
+  $('q').oninput = () => { const t = $('q').value.trim().toLowerCase();
+    found = t.length < 2 ? [] : INDEX.filter(r => r.name.toLowerCase().includes(t)).sort((a, b) => a.name.toLowerCase().indexOf(t) - b.name.toLowerCase().indexOf(t) || a.name.localeCompare(b.name)).slice(0, 12);
+    $('results').innerHTML = found.map((r, k) => '<button data-k="' + k + '"><b>' + esc(r.name) + '</b> <span class="note">' + esc(r.sub) + '</span></button>').join('') + (t.length >= 2 && !found.length ? '<p class="note" style="margin:4px 0">Nothing in the atlas by that name.</p>' : ''); };
+  $('q').onkeydown = e => { if (e.key === 'Enter') pick(0); }; $('results').onclick = e => { const b = e.target.closest('button'); if (b) pick(+b.dataset.k); };
+
+  // ---- the address keeps the year, the view and what is open, so a view can be sent to someone
+  let ready = false;
+  function hash() { if (!ready) return; const c = map.getCenter();
+    history.replaceState(null, '', '#y=' + (all ? 'all' : slider.value) + '&ll=' + c.lat.toFixed(5) + ',' + c.lng.toFixed(5) + ',' + map.getZoom() + (sel ? '&sel=' + encodeURIComponent(sel.id) : '')); }
+  const whole = L.featureGroup(segs.map(o => o.hit)).getBounds(), homeView = map.getBounds();
+  $('zoomall').onclick = e => { e.preventDefault(); map.fitBounds(whole, { padding: [20, 20], animate: false }); };
+  $('zoomhome').onclick = e => { e.preventDefault(); map.fitBounds(homeView, { animate: false }); };
+  function fromHash() {
+    const h = new URLSearchParams(location.hash.slice(1)); ready = false;
+    if (h.get('y') === 'all') all = true; else if (+h.get('y') >= 1885 && +h.get('y') <= 1950) { all = false; slider.value = +h.get('y'); }
+    const ll = (h.get('ll') || '').split(',').map(Number); if (ll.length === 3 && ll.every(isFinite)) map.setView([ll[0], ll[1]], ll[2], { animate: false });
+    show();
+    const want = h.get('sel'); select(want ? BY[want] || (LINE[want] && { kind: 'line', id: want, line: LINE[want] }) : null);
+    ready = true; $('map').classList.toggle('near', map.getZoom() >= 13);
+  }
+  fromHash(); map.on('moveend', hash); window.addEventListener('hashchange', fromHash);        // a pasted or edited address is followed without reloading
+  window.atlasRegion = { map, lines, places, show, select, BY };
 });
 </script>
 </body>
