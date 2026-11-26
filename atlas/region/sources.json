@@ -406,5 +406,14 @@
   "holder": "Internet Archive; Colorado Historic Newspapers Collection",
   "url": "https://archive.org/",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:usgs-colorado-springs-1893",
+  "kind": "map",
+  "title": "USGS Colorado Springs sheet, 1:125,000, edition of 1893: draws the Cheyenne Mountain road before any railway reached it. Displaced about 900 ft against the ground hereabouts; good for the road's course, not its place",
+  "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
+  "date": "1893",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CO/CO_Colorado%20Springs_232598_1893_125000_geo.tif",
+  "accessed": "2026-11-26"
  }
 ]

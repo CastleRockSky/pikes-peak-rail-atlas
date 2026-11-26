@@ -3483,26 +3483,27 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.879,
-     38.765
+     -104.8805,
+     38.7646
     ]
    },
    "properties": {
     "id": "place:osr-wades-ranch",
     "name": "Wade's ranch on the stage road ('Wade City')",
     "grade": "inferred",
-    "error_ft": 1000,
+    "error_ft": 500,
     "kind": "other",
-    "basis": "The government sheet of 1909 (1:125,000, surveyed 1906-07) prints 'Wade' with a building beside the road here; read off that sheet, good to about 1,000 ft. Newspapers (machine text, not checked on the page) have a coach accident 'two miles from Wade's ranch' in April 1893, the place 'about eight miles above the city on the Cheyenne Mountain road' in 1900, and in 1914 'Dad' Wade, aged 85, as 'founder of Wade City on the stage road'; the earlier papers say ranch or place, and 'Wade City' looks like a nickname. No photograph of it has been found. The years are those of the newspaper mentions, not of the ranch's beginning or end.",
+    "basis": "The government sheet of 1909 (1:125,000, surveyed 1906-07) prints 'Wade' with a building beside the road here; the pin is on the building drawn at the road, where today's road lies on the sheet's road to about 200 ft; good to about 500 ft. The sheet of 1893 names nothing here. Newspapers (machine text, not checked on the page) have a coach accident 'two miles from Wade's ranch' in April 1893, the place 'about eight miles above the city on the Cheyenne Mountain road' in 1900, and in 1914 'Dad' Wade, aged 85, as 'founder of Wade City on the stage road'; the earlier papers say ranch or place, and 'Wade City' looks like a nickname. No photograph of it has been found. The years are those of the newspaper mentions, not of the ranch's beginning or end.",
     "sources": [
      "source:usgs-topo-colorado-springs",
-     "source:old-stage-road-written-record"
+     "source:old-stage-road-written-record",
+     "source:usgs-colorado-springs-1893"
     ],
     "status": "draft",
     "contributor": "project",
     "updated": "2026-11-26",
     "on_lines": [],
-    "summary": "Joel H. Wade's ranch and roadhouse, a stopping place for the Cripple Creek coaches about eight miles up the Cheyenne Mountain road. Placed from a small-scale map; good only to about 1,000 ft.",
+    "summary": "Joel H. Wade's ranch and roadhouse, a stopping place for the Cripple Creek coaches about eight miles up the Cheyenne Mountain road. Placed from the building a small-scale map of 1909 draws at the road; good to about 500 ft.",
     "valid_from": 1893,
     "valid_to": 1914
    }

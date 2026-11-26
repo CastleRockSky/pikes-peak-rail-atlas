@@ -943,16 +943,17 @@
    },
    "properties": {
     "id": "feature:old-stage-road-approach",
-    "name": "Old Stage Road, today's paved approach from the Broadmoor side (probably not the first line)",
+    "name": "Old Stage Road, the lower end from the Broadmoor side",
     "kind": "road",
-    "grade": "conjecture",
-    "error_ft": 400,
+    "grade": "inferred",
+    "error_ft": 300,
     "length_ft": 4021,
-    "basis": "Today's paved road from its lower end up the ravine to the hairpin where the pavement ends, from OpenStreetMap; it lies on the road surface on the 1 m lidar. Whether the stage road came up this way is not settled. The government sheet of 1909 (1:125,000, surveyed 1906-07) brings its road in from the South Cheyenne Canon road below Seven Falls, and is 300 to 400 ft from today's road at the hairpin; at that scale it cannot draw so small a turn, and two readings of the sheet made for this atlas disagree on whether it is the same road. No abandoned bench was seen beside today's road. Drawn so the road can be followed from the bottom; conjecture as the line of the 1890s.",
+    "basis": "Today's paved road from its lower end up the ravine to the hairpin where the pavement ends, from OpenStreetMap; it lies on the road surface on the 1 m lidar. That the stage road came up this way is inferred from two government sheets. The sheet of 1893 (1:125,000) draws the road coming from the north-east, from the Cheyenne Creek side, running south and then turning west up the mountain; it does not touch South Cheyenne Creek. The sheet of 1909 draws a road of the same shape from Broadmoor, and today's road lies on it. The 1893 sheet is displaced about 900 ft against the ground all along this road, so it gives the road's course and not its place; the place is today's road, good to perhaps 300 ft as the line of the 1890s. The 1909 sheet also draws a lesser road north from the hairpin to the South Cheyenne Canon road; that one is not on the 1893 sheet. No abandoned bench was seen beside today's road.",
     "sources": [
      "source:osm-old-stage-road",
      "source:lidar-3dep",
-     "source:usgs-topo-colorado-springs"
+     "source:usgs-topo-colorado-springs",
+     "source:usgs-colorado-springs-1893"
     ],
     "valid_from": 1892,
     "status": "draft",
@@ -3406,12 +3407,13 @@
     "grade": "inferred",
     "error_ft": 60,
     "length_ft": 32687,
-    "basis": "Today's unpaved Old Stage Road from the hairpin where the pavement ends, over the shoulder of Cheyenne Mountain past Wade's, down to Rock Creek and up to Gold Camp Road, from OpenStreetMap; it lies on the road surface on the 1 m lidar throughout. That this is the line of the stage road is inferred: the government sheet of 1909 (1:125,000, surveyed 1906-07) draws its road within about 50 ft of today's at the middle point and within 200 ft at nearly every point, which is as close as that sheet puts the railway here, and the lidar shows no abandoned bench beside it. It rests on that one small sheet; no survey or map of the 1890s has been read for this side of the mountain. About 6.6 miles, climbing from about 6,900 ft to 9,034 ft; one true switchback, at the bottom; no bridge and no large fill. At Rock Creek the road passes through the gap of the Short Line's trestle, about 44 ft below the track, and it meets the railway's grade on the level just west of Tunnel No. 7. The road is older than the Cripple Creek rush: newspapers (machine text, not checked on the page) have a Cheyenne Mountain toll road as a pleasure drive in 1876, to East Beaver Creek by 1878 and to Seven Lakes in 1881. In January 1892 a committee of the Colorado Springs Chamber of Commerce recommended extending it to Cripple Creek as the cheapest route, free of toll; a later account says the county built the extension in four months. Coaches were running by April 1893 and still in 1899; the road fell out of use after the Short Line opened in 1901, was called the old stage road by 1905, and was mended for motor cars from about 1912. No record of its opening day has been found. It is shown here from 1892, the year of the extension; how far the road of the 1870s ran on this same line is not known.",
+    "basis": "Today's unpaved Old Stage Road from the hairpin where the pavement ends, over the shoulder of Cheyenne Mountain past Wade's, down to Rock Creek and up to Gold Camp Road, from OpenStreetMap; it lies on the road surface on the 1 m lidar throughout. That this is the line of the stage road is inferred: the government sheet of 1909 (1:125,000, surveyed 1906-07) draws its road within about 50 ft of today's at the middle point and within 200 ft at nearly every point, which is as close as that sheet puts the railway here, and the lidar shows no abandoned bench beside it. The government sheet of 1893 (1:125,000), read since, draws a road of the same course over the mountain, before any railway; it is displaced about 900 ft against the ground the same way all along, so it confirms the course and places nothing. About 6.6 miles, climbing from about 6,900 ft to 9,034 ft; one true switchback, at the bottom; no bridge and no large fill. At Rock Creek the road passes through the gap of the Short Line's trestle, about 44 ft below the track, and it meets the railway's grade on the level just west of Tunnel No. 7. The road is older than the Cripple Creek rush: newspapers (machine text, not checked on the page) have a Cheyenne Mountain toll road as a pleasure drive in 1876, to East Beaver Creek by 1878 and to Seven Lakes in 1881. In January 1892 a committee of the Colorado Springs Chamber of Commerce recommended extending it to Cripple Creek as the cheapest route, free of toll; a later account says the county built the extension in four months. Coaches were running by April 1893 and still in 1899; the road fell out of use after the Short Line opened in 1901, was called the old stage road by 1905, and was mended for motor cars from about 1912. No record of its opening day has been found. It is shown here from 1892, the year of the extension; how far the road of the 1870s ran on this same line is not known.",
     "sources": [
      "source:osm-old-stage-road",
      "source:lidar-3dep",
      "source:usgs-topo-colorado-springs",
-     "source:old-stage-road-written-record"
+     "source:old-stage-road-written-record",
+     "source:usgs-colorado-springs-1893"
     ],
     "valid_from": 1892,
     "status": "draft",
@@ -3779,10 +3781,11 @@
     "grade": "inferred",
     "error_ft": 40,
     "length_ft": 4199,
-    "basis": "A bench the width of a road along the north edge of the valley floor, read by eye from the 1 m and 0.5 m lidar; it is on no modern map. It climbs at about 9 per cent for 4,200 ft and stops at the foot of the Short Line's embankment at the Summit loop, which stands 55 to 60 ft above it with no opening seen. The bench itself is measured, to about 40 ft. That it is the stage road is inferred: it lies where the sheet of 1909 draws the road west to Summit, within about 550 ft of the drawn line, and the railway's fill of 1900-01 lies across its end. How the road got past the fill afterwards, and its line on to Rosemont, Middle Beaver Creek and Cripple Creek, are not traced: the sheets of 1894 and 1909 draw it, but too coarsely to place.",
+    "basis": "A bench the width of a road along the north edge of the valley floor, read by eye from the 1 m and 0.5 m lidar; it is on no modern map. It climbs at about 9 per cent for 4,200 ft and stops at the foot of the Short Line's embankment at the Summit loop, which stands 55 to 60 ft above it with no opening seen. The bench itself is measured, to about 40 ft. That it is the stage road is inferred: it lies where the sheet of 1909 draws the road west to Summit, within about 550 ft of the drawn line, and the railway's fill of 1900-01 lies across its end. How the road got past the fill afterwards, and its line on to Rosemont, Middle Beaver Creek and Cripple Creek, are not traced: the sheets of 1894 and 1909 draw it, but too coarsely to place. The government sheet of 1893 draws the road running on west up this valley toward Rosemont with no railway on the map, which supports the bench being that road; the sheet is too coarse and too displaced to prove it.",
     "sources": [
      "source:lidar-3dep",
-     "source:usgs-topo-colorado-springs"
+     "source:usgs-topo-colorado-springs",
+     "source:usgs-colorado-springs-1893"
     ],
     "valid_from": 1892,
     "status": "draft",
