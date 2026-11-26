@@ -415,5 +415,20 @@
   "date": "1893",
   "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CO/CO_Colorado%20Springs_232598_1893_125000_geo.tif",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:osm-stage-road-west",
+  "kind": "dataset",
+  "title": "OpenStreetMap: the present roads the stage road is taken to lie on between Summit and Cripple Creek (Gold Camp Road, Forest Road 372, Beaver Valley Road, County Road 81, Bennett Avenue); way numbers in research/old-stage-road/route-west.md",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:old-stage-road-upper-record",
+  "kind": "newspapers",
+  "title": "Distances and stops on the Cripple Creek stage road, 1892 to 1906: the Chamber of Commerce report in the Colorado Springs Gazette of 30 January 1892 and the Kuykendall coach notice of 13 June 1896 (both read on the page); other newspapers read as machine text and not checked on the page; the Gazette-Telegraph of 16 May 1954 and F. W. Cragin's notebooks (later accounts). Set out in research/old-stage-road/upper-road-record.md",
+  "holder": "Internet Archive; Colorado Historic Newspapers Collection",
+  "url": "https://archive.org/details/colorado-springs-gazette-1892-01-30",
+  "accessed": "2026-11-26"
  }
 ]

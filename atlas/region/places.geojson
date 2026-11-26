@@ -3605,7 +3605,7 @@
     "grade": "inferred",
     "error_ft": 40,
     "kind": "other",
-    "basis": "The west end of a road bench read from the 1 m and 0.5 m lidar (see the bench itself). The Short Line's fill lies across it with no opening seen, so the bench is older than the fill of 1900-01; that it is the Cripple Creek stage road rests on the government sheet of 1909, which draws the road hereabouts. Two faint lines west of the fill were not followed.",
+    "basis": "The west end of a road bench read from the 1 m and 0.5 m lidar (see the bench itself). The Short Line's fill lies across it with no opening seen, so the bench is older than the fill of 1900-01; that it is the Cripple Creek stage road rests on the government sheet of 1909, which draws the road hereabouts. Two faint lines west of the fill were not followed. Followed up: one of the two faint lines west of the fill starts exactly opposite this point on the same grade and becomes a plain abandoned road in the valley beyond the loop, so the road did run under where the fill now stands.",
     "sources": [
      "source:lidar-3dep",
      "source:usgs-topo-colorado-springs"
@@ -3616,6 +3616,35 @@
     "on_lines": [],
     "summary": "Where an abandoned road bench coming up the valley from the east runs into the foot of the railway's embankment at the Summit loop and stops, 55 to 60 ft below the track.",
     "valid_from": 1892
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9507,
+     38.7369
+    ]
+   },
+   "properties": {
+    "id": "place:osr-half-way-house",
+    "name": "Half Way house on the stage road (about here; not located)",
+    "grade": "conjecture",
+    "error_ft": 3500,
+    "kind": "other",
+    "summary": "The roadhouse where the Cripple Creek coaches stopped for meals, known from 1894 to 1906. It stood somewhere in East Beaver Park, at or within about a mile of Rosemont; its site has not been found and may be under the reservoir.",
+    "basis": "Not located; the pin marks the neighbourhood only. Four readings fall in East Beaver Park within about a mile and a third of each other along the road: a mining claim of 1894 'six miles below the half-way house' on East Beaver Creek; the Short Line's grading contracts of 1900, which were divided at the Half Way house 17 miles from Cameron, as Rosemont is by the railway's later timetable; a description of the railway's route passing it before the Beaver Creek valley; and half the road's length. A later account of 1954 calls Rosemont the half-way point. All but the last are newspapers read as machine text, not checked on the page. Against: the same contracts' 23 miles from Bear Creek canon falls three miles further west, and Mrs A. B. Love told F. W. Cragin in 1922 that it stood where John Love's ranch had been, on West Beaver Creek. It was offered for rent furnished in 1894; by 1900 it had meals, beds and a telephone; a coach overturned 'three and one-half miles east' of it 'in a steep grade' in 1896, which fits the climb out of Rock Creek. No picture of it has been found.",
+    "sources": [
+     "source:old-stage-road-upper-record",
+     "source:old-stage-road-written-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "valid_from": 1894,
+    "valid_to": 1906
    }
   },
   {
@@ -4128,9 +4157,10 @@
     "name": "Clyde",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. Before the railway this was probably Camp Seward on the Cripple Creek stage road: newspapers of 1897 (machine text) put Camp Seward, with a post office and freighters stopping overnight, two and a half miles beyond the Half Way house and 14 miles from Gillett, and later lists say Seward post office was renamed Clyde in 1899. Inferred; and no stage road from East Beaver valley to Clyde has been found on the ground.",
     "sources": [
-     "source:official-guide-timetables"
+     "source:official-guide-timetables",
+     "source:old-stage-road-upper-record"
     ],
     "status": "draft",
     "contributor": "project",
@@ -4159,9 +4189,10 @@
     "name": "Love",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 34.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 34.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. On the Cripple Creek stage road before the railway: the report of January 1892 (read on the page) has the road run 'directly through Love's ranch'. Newspapers (machine text, not checked on the page) put Love's ranch at the junction of Middle and West Beaver creeks, and have a village of Love with a post office from 1895, stores, a hotel and a school, between the Colorado Springs stamp mill and the Beaver Park stamp mills, the latter running by September 1892.",
     "sources": [
-     "source:official-guide-timetables"
+     "source:official-guide-timetables",
+     "source:old-stage-road-upper-record"
     ],
     "status": "draft",
     "contributor": "project",
