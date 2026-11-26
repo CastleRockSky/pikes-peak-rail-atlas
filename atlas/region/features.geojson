@@ -3871,10 +3871,11 @@
     "grade": "inferred",
     "error_ft": 60,
     "length_ft": 2650,
-    "basis": "West of the railway's fill the road is found again. At the fill's west foot, opposite the buried end of the bench and on the same grade, a faint straight line cut a foot or so into the slope climbs at 11 to 12 per cent across the inside of the Short Line's loop, and beyond the loop it becomes a plain abandoned road on the valley floor for 0.3 mile; all read from the 1 m lidar, and on no modern map. The government sheet of 1909 draws its road within about 65 ft of the valley road. That this is the stage road is inferred from its line and grade matching the bench and from that sheet. The 60 ft under the fill is drawn straight across. Whether the road crossed the loop's west arm at grade is not settled.",
+    "basis": "West of the railway's fill the road is found again. At the fill's west foot, opposite the buried end of the bench and on the same grade, a faint straight line cut a foot or so into the slope climbs at 11 to 12 per cent across the inside of the Short Line's loop, and beyond the loop it becomes a plain abandoned road on the valley floor for 0.3 mile; all read from the 1 m lidar, and on no modern map. The government sheet of 1909 draws its road within about 65 ft of the valley road. That this is the stage road is inferred from its line and grade matching the bench and from that sheet. The 60 ft under the fill is drawn straight across. Whether the road crossed the loop's west arm at grade is not settled. The government sheet of 1948 (Mount Big Chief, 1:24,000) draws a road up Little Fountain Creek and across the floor of the loop to the saddle on this line: a second map for it, though a late one.",
     "sources": [
      "source:lidar-3dep",
-     "source:usgs-topo-colorado-springs"
+     "source:usgs-topo-colorado-springs",
+     "source:usgs-mount-big-chief-1948"
     ],
     "valid_from": 1892,
     "status": "draft",
@@ -3940,12 +3941,13 @@
     "grade": "inferred",
     "error_ft": 100,
     "length_ft": 3857,
-    "basis": "On the government sheet of 1909 the road runs past Summit station, where today's Gold Camp Road on the railway's grade lies 30 to 200 ft from it, and then south-west across the open slope to where the reservoir's south end now is. On the 1 m lidar only faint narrow ruts run that way; there is no bench. The sheet of 1893 draws a different road here, north-west toward Rosemont station and along the north slope; that one was not found on the ground and is not drawn (research/old-stage-road/route-west-alternatives.geojson).",
+    "basis": "On the government sheet of 1909 the road runs past Summit station, where today's Gold Camp Road on the railway's grade lies 30 to 200 ft from it, and then south-west across the open slope to where the reservoir's south end now is. On the 1 m lidar only faint narrow ruts run that way; there is no bench. The sheet of 1893 draws a different road here, north-west toward Rosemont station and along the north slope; that one was not found on the ground and is not drawn (research/old-stage-road/route-west-alternatives.geojson). The sheet of 1948 has no road on this line, nor on the 1893 sheet's north-slope course; a close search of the lidar found neither. Not settled.",
     "sources": [
      "source:usgs-topo-colorado-springs",
      "source:lidar-3dep",
      "source:osm-stage-road-west",
-     "source:usgs-colorado-springs-1893"
+     "source:usgs-colorado-springs-1893",
+     "source:usgs-mount-big-chief-1948"
     ],
     "valid_from": 1892,
     "status": "draft",
@@ -4913,748 +4915,265 @@
       38.728279
      ],
      [
-      -105.007204,
-      38.727808
+      -105.008678,
+      38.728809
+     ],
+     [
+      -105.009054,
+      38.728864
+     ],
+     [
+      -105.009737,
+      38.728991
      ],
      [
-      -105.007435,
-      38.727898
+      -105.010189,
+      38.728921
      ],
      [
-      -105.007665,
-      38.727962
-     ],
-     [
-      -105.007879,
-      38.728039
-     ],
-     [
-      -105.007887,
-      38.728033
-     ],
-     [
-      -105.007838,
-      38.727865
-     ],
-     [
-      -105.007936,
-      38.727685
-     ],
-     [
-      -105.008027,
-      38.727505
-     ],
-     [
-      -105.008109,
-      38.727326
-     ],
-     [
-      -105.0082,
-      38.727146
-     ],
-     [
-      -105.008331,
-      38.726966
-     ],
-     [
-      -105.008529,
-      38.726805
-     ],
-     [
-      -105.008759,
-      38.726651
-     ],
-     [
-      -105.008989,
-      38.726535
-     ],
-     [
-      -105.00922,
-      38.726509
-     ],
-     [
-      -105.00945,
-      38.726445
-     ],
-     [
-      -105.009672,
-      38.726323
-     ],
-     [
-      -105.009796,
-      38.726156
-     ],
-     [
-      -105.009911,
-      38.725976
-     ],
-     [
-      -105.0101,
-      38.725834
-     ],
-     [
-      -105.010314,
-      38.725732
-     ],
-     [
-      -105.010495,
-      38.725571
-     ],
-     [
-      -105.010594,
-      38.725391
-     ],
-     [
-      -105.010651,
-      38.725211
-     ],
-     [
-      -105.010659,
-      38.725031
-     ],
-     [
-      -105.010659,
-      38.724851
-     ],
-     [
-      -105.010659,
-      38.724671
-     ],
-     [
-      -105.010659,
-      38.724491
-     ],
-     [
-      -105.010659,
-      38.724311
-     ],
-     [
-      -105.010659,
-      38.724131
-     ],
-     [
-      -105.010659,
-      38.723951
-     ],
-     [
-      -105.010659,
-      38.723771
-     ],
-     [
-      -105.010618,
-      38.723591
-     ],
-     [
-      -105.010503,
-      38.723418
-     ],
-     [
-      -105.010314,
-      38.723321
-     ],
-     [
-      -105.010125,
-      38.723225
-     ],
-     [
-      -105.010009,
-      38.723051
-     ],
-     [
-      -105.009927,
-      38.722871
-     ],
-     [
-      -105.009911,
-      38.722691
-     ],
-     [
-      -105.009911,
-      38.722511
-     ],
-     [
-      -105.009911,
-      38.722331
-     ],
-     [
-      -105.009911,
-      38.722151
-     ],
-     [
-      -105.009911,
-      38.721972
-     ],
-     [
-      -105.009911,
-      38.721792
-     ],
-     [
-      -105.009952,
-      38.721612
-     ],
-     [
-      -105.010018,
-      38.721432
-     ],
-     [
-      -105.010092,
-      38.721252
-     ],
-     [
-      -105.01019,
-      38.721072
-     ],
-     [
-      -105.010248,
-      38.720892
-     ],
-     [
-      -105.010306,
-      38.720712
-     ],
-     [
-      -105.010355,
-      38.720532
-     ],
-     [
-      -105.010363,
-      38.720352
-     ],
-     [
-      -105.010371,
-      38.720172
-     ],
-     [
-      -105.010371,
-      38.719992
-     ],
-     [
-      -105.010396,
-      38.719812
-     ],
-     [
-      -105.010445,
-      38.719632
-     ],
-     [
-      -105.010561,
-      38.719471
-     ],
-     [
-      -105.010766,
-      38.719368
-     ],
-     [
-      -105.010939,
-      38.719227
-     ],
-     [
-      -105.011054,
-      38.719047
-     ],
-     [
-      -105.011161,
-      38.718867
-     ],
-     [
-      -105.01126,
-      38.718687
-     ],
-     [
-      -105.011375,
-      38.718507
-     ],
-     [
-      -105.011498,
-      38.718327
-     ],
-     [
-      -105.011589,
-      38.718147
-     ],
-     [
-      -105.01172,
-      38.717967
-     ],
-     [
-      -105.011852,
-      38.717787
-     ],
-     [
-      -105.012025,
-      38.717607
-     ],
-     [
-      -105.012222,
-      38.717427
-     ],
-     [
-      -105.012444,
-      38.717247
-     ],
-     [
-      -105.012675,
-      38.717067
-     ],
-     [
-      -105.012905,
-      38.716926
-     ],
-     [
-      -105.013135,
-      38.716868
-     ],
-     [
-      -105.013366,
-      38.716817
-     ],
+      -105.010661,
+      38.728654
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:old-stage-road-west-5a-to-hairpin",
+    "name": "Cripple Creek stage road: Gold Camp Road to the railway's hairpin above the loops",
+    "kind": "road",
+    "grade": "inferred",
+    "error_ft": 100,
+    "length_ft": 1479,
+    "basis": "Gold Camp Road on the Short Line's grade west to the hairpin at the head of the creek that runs south through the railway's loops. The government sheet of 1909 brings its road this far beside the railway. Where the stage road left East Beaver valley is not settled: it may instead have come along the tracks south of the railway, which were not followed.",
+    "sources": [
+     "source:osm-stage-road-west",
+     "source:usgs-topo-colorado-springs",
+     "source:lidar-3dep"
+    ],
+    "valid_from": 1892,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
      [
-      -105.013596,
-      38.716798
+      -105.010661,
+      38.728654
      ],
      [
-      -105.013826,
-      38.716804
-     ],
-     [
-      -105.014057,
-      38.716855
-     ],
-     [
-      -105.014287,
-      38.716932
-     ],
-     [
-      -105.014517,
-      38.717022
-     ],
-     [
-      -105.014748,
-      38.717145
-     ],
-     [
-      -105.014978,
-      38.717209
-     ],
-     [
-      -105.015208,
-      38.717157
-     ],
-     [
-      -105.015439,
-      38.717209
-     ],
-     [
-      -105.015669,
-      38.717382
-     ],
-     [
-      -105.015899,
-      38.717543
-     ],
-     [
-      -105.01613,
-      38.717691
-     ],
-     [
-      -105.01636,
-      38.717845
-     ],
-     [
-      -105.01659,
-      38.717987
-     ],
-     [
-      -105.016821,
-      38.718122
-     ],
-     [
-      -105.017051,
-      38.718263
-     ],
-     [
-      -105.017281,
-      38.718379
-     ],
-     [
-      -105.017512,
-      38.718481
-     ],
-     [
-      -105.017742,
-      38.718597
-     ],
-     [
-      -105.017972,
-      38.718713
-     ],
-     [
-      -105.018203,
-      38.718803
-     ],
-     [
-      -105.018433,
-      38.71888
-     ],
-     [
-      -105.018663,
-      38.718951
-     ],
-     [
-      -105.018894,
-      38.719021
-     ],
-     [
-      -105.019124,
-      38.719086
-     ],
-     [
-      -105.019354,
-      38.719143
-     ],
-     [
-      -105.019585,
-      38.719201
-     ],
-     [
-      -105.019815,
-      38.719246
-     ],
-     [
-      -105.020045,
-      38.719323
-     ],
-     [
-      -105.020276,
-      38.719375
-     ],
-     [
-      -105.020506,
-      38.719394
-     ],
-     [
-      -105.020679,
-      38.719433
-     ],
-     [
-      -105.020851,
-      38.719516
-     ],
-     [
-      -105.021082,
-      38.719574
-     ],
-     [
-      -105.021312,
-      38.719638
-     ],
-     [
-      -105.021518,
-      38.719767
-     ],
-     [
-      -105.021625,
-      38.719947
-     ],
-     [
-      -105.021773,
-      38.720108
-     ],
-     [
-      -105.022003,
-      38.720236
-     ],
-     [
-      -105.022233,
-      38.720397
-     ],
-     [
-      -105.022464,
-      38.720558
-     ],
-     [
-      -105.022694,
-      38.720692
-     ],
-     [
-      -105.022924,
-      38.720821
-     ],
-     [
-      -105.023155,
-      38.720975
-     ],
-     [
-      -105.023385,
-      38.72113
-     ],
-     [
-      -105.023615,
-      38.72129
-     ],
-     [
-      -105.023846,
-      38.721432
-     ],
-     [
-      -105.024076,
-      38.721573
-     ],
-     [
-      -105.024306,
-      38.721727
-     ],
-     [
-      -105.024537,
-      38.721856
-     ],
-     [
-      -105.024767,
-      38.721984
-     ],
-     [
-      -105.024997,
-      38.722081
-     ],
-     [
-      -105.025228,
-      38.722145
-     ],
-     [
-      -105.025458,
-      38.722196
-     ],
-     [
-      -105.025688,
-      38.722241
-     ],
-     [
-      -105.025919,
-      38.722299
-     ],
-     [
-      -105.026149,
-      38.722331
-     ],
-     [
-      -105.026379,
-      38.722364
-     ],
-     [
-      -105.02661,
-      38.722409
-     ],
-     [
-      -105.02684,
-      38.722447
-     ],
-     [
-      -105.02707,
-      38.722505
-     ],
-     [
-      -105.027301,
-      38.72255
-     ],
-     [
-      -105.027531,
-      38.722556
-     ],
-     [
-      -105.027761,
-      38.722556
-     ],
-     [
-      -105.027992,
-      38.722537
-     ],
-     [
-      -105.028222,
-      38.722466
-     ],
-     [
-      -105.028452,
-      38.72237
-     ],
-     [
-      -105.028683,
-      38.722261
-     ],
-     [
-      -105.028913,
-      38.722119
-     ],
+      -105.01208,
+      38.728395
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:old-stage-road-west-5b-join",
+    "name": "Cripple Creek stage road: from the hairpin down to the head of the abandoned road (not found on the ground)",
+    "kind": "road",
+    "grade": "conjecture",
+    "error_ft": 150,
+    "length_ft": 415,
+    "basis": "A short join, 400 ft, dropping about 90 ft from the railway's hairpin to the head of the abandoned road below. No bench was picked out: the railway's cuts and the hairpin take up the ground. Drawn to keep the road whole.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "valid_from": 1892,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
      [
-      -105.029143,
-      38.721965
+      -105.01208,
+      38.728395
      ],
      [
-      -105.029374,
-      38.721811
+      -105.012022,
+      38.727412
      ],
      [
-      -105.029604,
-      38.721682
+      -105.012218,
+      38.726664
      ],
      [
-      -105.029834,
-      38.72156
+      -105.012793,
+      38.725835
      ],
      [
-      -105.030065,
-      38.721464
+      -105.013368,
+      38.725159
      ],
      [
-      -105.030295,
-      38.721348
+      -105.013747,
+      38.724636
      ],
      [
-      -105.030525,
-      38.721213
+      -105.014035,
+      38.723888
      ],
      [
-      -105.030756,
-      38.721097
+      -105.01423,
+      38.723131
      ],
      [
-      -105.030986,
-      38.720995
+      -105.014011,
+      38.722906
      ],
      [
-      -105.031216,
-      38.720911
+      -105.013908,
+      38.722338
      ],
      [
-      -105.031447,
-      38.720834
+      -105.013942,
+      38.721608
      ],
      [
-      -105.031677,
-      38.720744
+      -105.013655,
+      38.721293
      ],
      [
-      -105.031907,
-      38.720692
+      -105.014368,
+      38.721041
      ],
      [
-      -105.032138,
-      38.720615
+      -105.015449,
+      38.720653
      ],
      [
-      -105.032368,
-      38.720558
+      -105.01653,
+      38.72031
      ],
      [
-      -105.032598,
-      38.720506
+      -105.017243,
+      38.720085
      ],
      [
-      -105.032829,
-      38.720474
+      -105.018256,
+      38.720139
      ],
      [
-      -105.033059,
-      38.720397
+      -105.019049,
+      38.720481
      ],
      [
-      -105.033289,
-      38.72032
+      -105.019763,
+      38.720932
      ],
      [
-      -105.03352,
-      38.720268
+      -105.020488,
+      38.721607
      ],
      [
-      -105.03375,
-      38.720223
+      -105.021201,
+      38.722058
      ],
      [
-      -105.03398,
-      38.720217
+      -105.021707,
+      38.722617
      ],
      [
-      -105.034202,
-      38.720236
+      -105.022778,
+      38.723626
      ],
      [
-      -105.034367,
-      38.720352
+      -105.024469,
+      38.724004
      ],
      [
-      -105.034474,
-      38.720403
+      -105.025815,
+      38.724049
      ],
      [
-      -105.034498,
-      38.720262
+      -105.027851,
+      38.724021
      ],
      [
-      -105.034498,
-      38.720082
+      -105.030083,
+      38.724453
      ],
      [
-      -105.034581,
-      38.719921
+      -105.030189,
+      38.724441
      ],
      [
-      -105.034786,
-      38.719857
+      -105.030304,
+      38.724284
      ],
      [
-      -105.035017,
-      38.719857
+      -105.031618,
+      38.723695
      ],
      [
-      -105.035247,
-      38.719857
+      -105.032263,
+      38.723461
      ],
      [
-      -105.035477,
-      38.719831
+      -105.032788,
+      38.723194
      ],
      [
-      -105.035708,
-      38.719838
+      -105.033126,
+      38.722856
      ],
      [
-      -105.035938,
-      38.719857
+      -105.033696,
+      38.722134
      ],
      [
-      -105.036168,
-      38.719889
+      -105.035391,
+      38.721241
      ],
      [
-      -105.036399,
-      38.71994
+      -105.035619,
+      38.721178
      ],
      [
-      -105.036629,
-      38.719966
+      -105.03615,
+      38.721035
      ],
      [
-      -105.036859,
-      38.720037
-     ],
-     [
-      -105.03709,
-      38.720088
-     ],
-     [
-      -105.03732,
-      38.720178
-     ],
-     [
-      -105.03755,
-      38.720352
-     ],
-     [
-      -105.037731,
-      38.720532
-     ],
+      -105.037495,
+      38.720807
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:old-stage-road-west-5c-old-stage-road",
+    "name": "Cripple Creek stage road: the abandoned road through the ground of the railway's loops, marked 'Old Stage Road' on the 1951 map, and Clyde Road",
+    "kind": "road",
+    "grade": "inferred",
+    "error_ft": 100,
+    "length_ft": 10701,
+    "basis": "The government sheet of 1951 (Big Bull Mountain, 1:24,000) letters OLD STAGE ROAD along a dashed trail in the broad valley south of Clyde, drawn apart from Gold Camp Road; it leaves Clyde Road about half way down, runs east up the valley and north-east into the valley enclosed by the Short Line's loops, and stops at the lower loop. Read on the sheet. On the 1 m lidar an abandoned narrow road lies within 30 to 160 ft of that trail: about a mile down the creek inside the loops (falling 5 to 10 per cent) and along the north side of the valley (about 3 per cent), with a fainter line for the last half mile to Clyde Road. From there the piece follows Clyde Road down to Middle Beaver Creek, where the sheet of 1901 also brings its road. That the abandoned road is the stage road rests on the 1951 lettering, which is a map-maker's name sixty years after the fact, and on the road's wagon grade. Where it meets the railway's lower loop the test of age did not decide: on the south side it ends at the foot of the fill, on the north it runs up onto the bank. This replaces a line drawn from the 1894 sheet alone, which lay 500 to 800 ft south on the hillside and climbed and fell 360 ft more. Clyde itself lies half a mile north of this road up Clyde Road; no road from East Beaver valley over the ridge to Clyde was found.",
+    "sources": [
+     "source:usgs-big-bull-mountain-1951",
+     "source:lidar-3dep",
+     "source:usgs-topo",
+     "source:osm-stage-road-west"
+    ],
+    "valid_from": 1892,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
      [
-      -105.037838,
-      38.720712
+      -105.037495,
+      38.720807
      ],
      [
       -105.037896,
@@ -5743,17 +5262,16 @@
     ]
    },
    "properties": {
-    "id": "feature:old-stage-road-west-5-to-middle-beaver",
-    "name": "Cripple Creek stage road: East Beaver to Middle Beaver Creek (from the 1894 map alone; doubtful)",
+    "id": "feature:old-stage-road-west-5d-middle-beaver",
+    "name": "Cripple Creek stage road: from the foot of Clyde Road toward Love (wrong as drawn; from the 1894 map)",
     "kind": "road",
     "grade": "conjecture",
-    "error_ft": 1000,
-    "length_ft": 15155,
-    "basis": "The weakest piece. Drawn from the government sheet of 1894 (1:125,000, surveyed 1892-93, within a year or two of the road's building): south from East Beaver valley down to Middle Beaver Creek, through ground the Short Line's loops later took, then up Middle Beaver. Nothing was found on the lidar, which was not searched closely here, and where the sheets of 1893 and 1894 meet they disagree by more than half a mile. The newspapers point another way: Camp Seward, 'two and one-half miles above the half-way house' on the road in 1897 (machine text), had a post office that later accounts say was renamed Clyde, and the sheet of 1901 takes the road by Clyde. But a ridge stands between East Beaver valley and Clyde and no road over it was found. Not settled. By the line drawn in this atlas the whole road is 30.6 to 31.4 miles from Colorado Springs to Cripple Creek, against 26 miles in the estimate of January 1892 and 28 in a later account, so some of the line is too long; the conjecture pieces are the likeliest. See research/old-stage-road/route-west.md.",
+    "error_ft": 600,
+    "length_ft": 1507,
+    "basis": "Kept from the government sheet of 1894 for want of better, and wrong as drawn: in 0.29 mile it climbs about 380 ft from the foot of Clyde Road to join the next piece on the railway's grade, which no wagon road did. The road more likely kept to the floor of Middle Beaver valley; the 1951 sheet letters a telephone line there, and the telephone line of 1893 followed the road. Not traced.",
     "sources": [
      "source:usgs-topo",
-     "source:lidar-3dep",
-     "source:old-stage-road-upper-record"
+     "source:usgs-big-bull-mountain-1951"
     ],
     "valid_from": 1892,
     "status": "draft",
@@ -8119,7 +7637,7 @@
     "grade": "inferred",
     "error_ft": 60,
     "length_ft": 2780,
-    "basis": "Bennett Avenue to a point between Second and Third Streets, taken here as the end of the road. Newspapers of 1896 (machine text) have the coaches coming into town down Bennett Avenue; where the stage office stood in Cripple Creek has not been found, so the end point is a convention, not a known place. By the line drawn in this atlas the whole road is 30.6 to 31.4 miles from Colorado Springs to Cripple Creek, against 26 miles in the estimate of January 1892 and 28 in a later account, so some of the line is too long; the conjecture pieces are the likeliest. See research/old-stage-road/route-west.md.",
+    "basis": "Bennett Avenue to a point between Second and Third Streets, taken here as the end of the road. Newspapers of 1896 (machine text) have the coaches coming into town down Bennett Avenue; where the stage office stood in Cripple Creek has not been found, so the end point is a convention, not a known place. By the line drawn in this atlas the whole road is 30.4 to 31.2 miles from Colorado Springs to Cripple Creek, against 26 miles in the estimate of January 1892 and 28 in a later account, so some of the line is too long; a close search of the middle stretch took off only a fifth of a mile, so the excess lies elsewhere: in the road out of Colorado Springs, which is not traced, the lower road, or the district end. See research/old-stage-road/route-middle.md.",
     "sources": [
      "source:osm-stage-road-west",
      "source:old-stage-road-upper-record"

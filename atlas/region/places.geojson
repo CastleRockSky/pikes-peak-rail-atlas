@@ -4157,10 +4157,11 @@
     "name": "Clyde",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. Before the railway this was probably Camp Seward on the Cripple Creek stage road: newspapers of 1897 (machine text) put Camp Seward, with a post office and freighters stopping overnight, two and a half miles beyond the Half Way house and 14 miles from Gillett, and later lists say Seward post office was renamed Clyde in 1899. Inferred; and no stage road from East Beaver valley to Clyde has been found on the ground.",
+    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground. Before the railway this was probably Camp Seward on the Cripple Creek stage road: newspapers of 1897 (machine text) put Camp Seward, with a post office and freighters stopping overnight, two and a half miles beyond the Half Way house and 14 miles from Gillett, and later lists say Seward post office was renamed Clyde in 1899. Inferred. The stage road itself is now traced in the broad valley half a mile south, where the map of 1951 letters 'Old Stage Road'; Clyde is reached from it up Clyde Road, and no road from East Beaver valley over the ridge to Clyde was found. Where Camp Seward stood between the two is not known.",
     "sources": [
      "source:official-guide-timetables",
-     "source:old-stage-road-upper-record"
+     "source:old-stage-road-upper-record",
+     "source:usgs-big-bull-mountain-1951"
     ],
     "status": "draft",
     "contributor": "project",

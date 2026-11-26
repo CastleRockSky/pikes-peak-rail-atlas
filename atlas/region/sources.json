@@ -430,5 +430,14 @@
   "holder": "Internet Archive; Colorado Historic Newspapers Collection",
   "url": "https://archive.org/details/colorado-springs-gazette-1892-01-30",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:usgs-mount-big-chief-1948",
+  "kind": "map",
+  "title": "USGS Mount Big Chief quadrangle, 1:24,000, 1948: draws a road up Little Fountain Creek and across the floor of the Summit loop to the saddle; names Rosemont; has no road on the 1909 sheet's line from Summit station to the reservoir",
+  "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copy in research/maps/usgs/",
+  "date": "1948",
+  "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CO/CO_Mount%20Big%20Chief_401642_1948_24000_geo.tif",
+  "accessed": "2026-11-26"
  }
 ]
