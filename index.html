@@ -157,8 +157,8 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
   // ---- works that are not railways (a pipeline, an incline, a trail): teal or grey, dotted where conjecture
   const others = [];
   for (const f of feats.features) {
-    const p = f.properties, col = p.kind === 'trail' ? '#78716c' : '#0e7490';
-    const layer = L.geoJSON(f.geometry, { style: { color: col, weight: p.kind === 'trail' ? 2 : 3, opacity: 0.9, dashArray: p.grade === 'conjecture' ? '2 7' : p.kind === 'incline' ? null : p.kind === 'trail' ? '4 5' : '8 6' } });
+    const p = f.properties, col = p.kind === 'trail' ? '#78716c' : p.kind === 'road' ? '#44403c' : '#0e7490';       // a road: dark grey, its stroke by how sure, as for a railway
+    const layer = L.geoJSON(f.geometry, { style: { color: col, weight: p.kind === 'trail' ? 2 : 3, opacity: 0.9, dashArray: p.grade === 'conjecture' ? '2 7' : p.kind === 'road' ? (GRADE[p.grade] || {}).dash : p.kind === 'incline' ? null : p.kind === 'trail' ? '4 5' : '8 6' } });
     const hit = L.geoJSON(f.geometry, { style: { color: '#000', weight: 18, opacity: 0 } });
     const o = { kind: 'feat', id: p.id, p, layer, hit, from: p.valid_from || 0, to: p.valid_to || 9999 };
     hit.on('click', e => { L.DomEvent.stopPropagation(e); select(o); }); others.push(o);
@@ -184,7 +184,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
     '<div class="key"><span class="dot" style="background:' + PIN.other + '"></span>Station, siding, junction or settlement: a pin</div>' +
     '<div class="key"><span class="dot" style="background:' + PIN['water works'] + '"></span>Water works</div>' +
     '<div class="key"><span class="dot" style="background:' + PIN.other + ';opacity:.5"></span>Faint pin: its years are not established, so it shows in every year</div>' +
-    '<div class="key">' + sample('#0e7490', '8 6', 3) + 'Pipeline (solid: incline)</div><div class="key">' + sample('#78716c', '4 5', 2) + 'Trail</div>' +
+    '<div class="key">' + sample('#0e7490', '8 6', 3) + 'Pipeline (solid: incline)</div><div class="key">' + sample('#78716c', '4 5', 2) + 'Trail</div><div class="key">' + sample('#44403c', '10 6', 3) + 'Stage road</div>' +
     '<p class="note">Names of pins appear when you zoom in.</p>';
   const count = g => segs.filter(o => o.s.grade === g).length;
   $('caveat').textContent = 'The lines are drawn in ' + segs.length + ' pieces, each with its own years, grade and error. ' + count('measured') + ' pieces are measured, ' + count('inferred') + ' inferred and ' + count('conjecture') + ' conjecture. ' +

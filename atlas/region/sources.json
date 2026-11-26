@@ -391,5 +391,20 @@
   "holder": "Internet Archive",
   "url": "https://archive.org/details/colorado-springs-gazette-1901-05-20",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:osm-old-stage-road",
+  "kind": "dataset",
+  "title": "OpenStreetMap: Old Stage Road (ways 232961420, 7677888, 7681020), Gold Camp Road (way 42790754) and Bear Trap Road (way 7672976)",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:old-stage-road-written-record",
+  "kind": "newspapers",
+  "title": "Newspapers on the Cheyenne Mountain road and the Cripple Creek stage road, 1876 to 1926 (Colorado Springs Gazette, Rocky Mountain News, Pueblo Chieftain and others), read as machine text and not checked on the page; and a later account in the Gazette-Telegraph of 16 May 1954, drawn from Francis W. Cragin's papers. Extracts in research/old-stage-road/written-record.md",
+  "holder": "Internet Archive; Colorado Historic Newspapers Collection",
+  "url": "https://archive.org/",
+  "accessed": "2026-11-26"
  }
 ]

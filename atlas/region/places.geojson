@@ -3343,7 +3343,7 @@
     "grade": "inferred",
     "error_ft": 60,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the railway's grade stops at 38.735456, -104.911086 and begins again at 38.735466, -104.911684, 171 ft apart, with the ground up to 42 ft below the grade line between them; the ground is 15 ft or more below grade for about 125 ft, the likelier length of the trestle itself. Nothing stands in the opening. The railway's line here is itself inferred (the loop redrawn on 26 November 2026), so the ends rest on that line. Photographs catalogued as the Rock Creek trestle show seven to nine bents in two storeys under a crag, which is 140 to 180 ft and 35 to 45 ft high: the opening here fits. A photograph also shows a small railway bridge over the stage road beside Tunnel 7's west portal; whether that is this structure or another is not settled. Moderately well identified; good only to about 60 ft because the line is inferred. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-16). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "basis": "On the 1 m lidar the railway's grade stops at 38.735456, -104.911086 and begins again at 38.735466, -104.911684, 171 ft apart, with the ground up to 42 ft below the grade line between them; the ground is 15 ft or more below grade for about 125 ft, the likelier length of the trestle itself. Nothing stands in the opening. The railway's line here is itself inferred (the loop redrawn on 26 November 2026), so the ends rest on that line. Photographs catalogued as the Rock Creek trestle show seven to nine bents in two storeys under a crag, which is 140 to 180 ft and 35 to 45 ft high: the opening here fits. A photograph also shows a small railway bridge over the stage road beside Tunnel 7's west portal; whether that is this structure or another is not settled. Moderately well identified; good only to about 60 ft because the line is inferred. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-16). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. The Cripple Creek stage road (today's Old Stage Road) passes through this gap: on the 1 m lidar the road is at 8,962 ft and the railway's banks end at 8,997 and 9,007 ft, so the road went about 44 ft under the track. It is the only place near Tunnel No. 7 where the road passes under the railway, so the photograph catalogued as a railway bridge over the stage road by the tunnel's west portal is very likely this trestle (inferred).",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
@@ -3476,6 +3476,145 @@
      "height_ft": 78,
      "opening_ft": 387
     }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.879,
+     38.765
+    ]
+   },
+   "properties": {
+    "id": "place:osr-wades-ranch",
+    "name": "Wade's ranch on the stage road ('Wade City')",
+    "grade": "inferred",
+    "error_ft": 1000,
+    "kind": "other",
+    "basis": "The government sheet of 1909 (1:125,000, surveyed 1906-07) prints 'Wade' with a building beside the road here; read off that sheet, good to about 1,000 ft. Newspapers (machine text, not checked on the page) have a coach accident 'two miles from Wade's ranch' in April 1893, the place 'about eight miles above the city on the Cheyenne Mountain road' in 1900, and in 1914 'Dad' Wade, aged 85, as 'founder of Wade City on the stage road'; the earlier papers say ranch or place, and 'Wade City' looks like a nickname. No photograph of it has been found. The years are those of the newspaper mentions, not of the ranch's beginning or end.",
+    "sources": [
+     "source:usgs-topo-colorado-springs",
+     "source:old-stage-road-written-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "summary": "Joel H. Wade's ranch and roadhouse, a stopping place for the Cripple Creek coaches about eight miles up the Cheyenne Mountain road. Placed from a small-scale map; good only to about 1,000 ft.",
+    "valid_from": 1893,
+    "valid_to": 1914
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.91,
+     38.728
+    ]
+   },
+   "properties": {
+    "id": "place:osr-cather-springs",
+    "name": "Cather Springs",
+    "grade": "inferred",
+    "error_ft": 1000,
+    "kind": "other",
+    "basis": "Named on the government sheet of 1909 (1:125,000, surveyed 1906-07) and read off it, good to about 1,000 ft. Whether there was a house or resort is not established; nothing written about it has been read.",
+    "sources": [
+     "source:usgs-topo-colorado-springs"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "summary": "A spring named on the government map of 1909, beside the road that leaves the stage road at Rock Creek and runs south (today's Emerald Valley Road). Nothing more is known of it here."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.004,
+     38.78
+    ]
+   },
+   "properties": {
+    "id": "place:osr-seven-lakes",
+    "name": "Seven Lakes (hotel, and a branch road of 1881)",
+    "grade": "inferred",
+    "error_ft": 1000,
+    "kind": "other",
+    "basis": "The lakes are read off the government sheet of 1894 (1:125,000, surveyed 1892-93), good to about 1,000 ft; the hotel's own site is not fixed. A newspaper of August 1881 (machine text, not checked on the page) has the toll road extended from Beaver Park to Seven Lakes; the hotel of 1878 is from a later account of 1954. Off the stage road by some miles, and not on any railway.",
+    "sources": [
+     "source:usgs-topo",
+     "source:old-stage-road-written-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "summary": "The lakes below Pikes Peak that the Cheyenne Mountain road was built to reach before there was a Cripple Creek: a hotel is said to have been built in 1878 and a branch road came up from East Beaver Park in 1881.",
+    "valid_from": 1881
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.912234,
+     38.737265
+    ]
+   },
+   "properties": {
+    "id": "place:osr-gold-camp-junction",
+    "name": "Where the Old Stage Road meets Gold Camp Road (the Short Line's grade)",
+    "grade": "measured",
+    "error_ft": 20,
+    "kind": "other",
+    "basis": "The end of OpenStreetMap's Old Stage Road on Gold Camp Road; on the 1 m lidar both stand at about 9,034 ft, so the road met the railway on the level. That it crossed the track at grade here in the railway's time is inferred. The government sheet of 1909 draws its road through the railway's loop at this place.",
+    "sources": [
+     "source:osm-old-stage-road",
+     "source:lidar-3dep",
+     "source:usgs-topo-colorado-springs"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "summary": "The top of today's Old Stage Road, on the Short Line's loop over Rock Creek just west of Tunnel No. 7 and about a mile and a half south of St. Peter's Dome. Road and railway grade are level here."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.934941,
+     38.731163
+    ]
+   },
+   "properties": {
+    "id": "place:osr-buried-at-summit",
+    "name": "Stage road buried under the Short Line's fill at Summit",
+    "grade": "inferred",
+    "error_ft": 40,
+    "kind": "other",
+    "basis": "The west end of a road bench read from the 1 m and 0.5 m lidar (see the bench itself). The Short Line's fill lies across it with no opening seen, so the bench is older than the fill of 1900-01; that it is the Cripple Creek stage road rests on the government sheet of 1909, which draws the road hereabouts. Two faint lines west of the fill were not followed.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-topo-colorado-springs"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "summary": "Where an abandoned road bench coming up the valley from the east runs into the foot of the railway's embankment at the Summit loop and stops, 55 to 60 ft below the track.",
+    "valid_from": 1892
    }
   },
   {
