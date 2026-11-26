@@ -2430,10 +2430,11 @@
     "grade": "inferred",
     "error_ft": 20,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the grade stops at 38.746554, -105.097863 and begins again at 38.746272, -105.099400, 545 ft apart, with the ground up to 81 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-10). Low mounds stand on the valley floor under the line, which may be footings; not examined. Engineering News of 1 May 1902 (machine text, not yet checked on the page) calls the trestle over West Beaver Creek, two and a half miles east of Cameron, the longest and highest on the line, 500 ft long and 84 ft high, of timber on concrete piers, and says its piers were washed out in May 1901. That the opening here is that trestle is inferred from the creek's name, the distance from Cameron and the size; no map or photograph has been matched to it. The present road leaves the railway's line and goes round the head of the valley.",
+    "basis": "On the 1 m lidar the grade stops at 38.746554, -105.097863 and begins again at 38.746272, -105.099400, 545 ft apart, with the ground up to 81 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-10). Low mounds stand on the valley floor under the line, which may be footings; not examined. Engineering News of 1 May 1902 (read on the page) calls the trestle over West Beaver Creek, two and a half miles east of Cameron, the longest and highest on the line, 500 ft long and 84 ft high, of timber on concrete piers, and says its piers were washed out in May 1901. That the opening here is that trestle is inferred from the creek's name, the distance from Cameron and the size; no map or photograph has been matched to it. The present road leaves the railway's line and goes round the head of the valley. Looked at again: the trestle ran crest to crest between benches with no approach fills, 486 ft against the 500 printed (a later writer gives 491); two low mounds 112 ft apart on the valley floor may be what is left of the concrete piers, not settled. No photograph of it has been found.",
     "sources": [
      "source:lidar-3dep",
-     "source:engineering-news-1902-short-line"
+     "source:engineering-news-1902-short-line",
+     "source:short-line-trestle-pictures"
     ],
     "status": "draft",
     "contributor": "project",
@@ -2478,10 +2479,11 @@
     "grade": "inferred",
     "error_ft": 20,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the grade stops at 38.821437, -104.890923 and begins again at 38.820643, -104.889939, 427 ft apart, with the ground up to 72 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-02). The written lengths are shorter than the opening: 336 ft in the National Register form for the Gold Camp Road, citing a newspaper of 1900 (secondary), and 340 ft in newspapers of 1910 (headlines and machine text only). The difference is not explained; approach fills since removed would account for it, but none is shown. The same accounts, not read on the page, say it burned about 2 April 1910 and was rebuilt in wood, and was burned again on 14 May 1918. That this opening is that trestle is inferred from the creek's name.",
+    "basis": "On the 1 m lidar the grade stops at 38.821437, -104.890923 and begins again at 38.820643, -104.889939, 427 ft apart, with the ground up to 72 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-02). The written lengths are shorter than the opening: 336 ft in the National Register form for the Gold Camp Road, citing a newspaper of 1900 (secondary), and 340 ft in newspapers of 1910 (headlines and machine text only). The same accounts, not read on the page, say it burned about 2 April 1910 and was rebuilt in wood, and was burned again on 14 May 1918. That this opening is that trestle is inferred from the creek's name. Looked at again: the bench ends are slumped, and where the ground is 25 ft below grade the span is 337 ft, which is the written length; so the trestle probably ended about 45 ft inside each crest. It was curved (a later account), it crossed over the Bear Creek Canyon road, and the USGS sheet of 1948 draws a bridge here. By an eyewitness's letter of 1941 this and the Silver Cascade bridge were the only two left in 1938.",
     "sources": [
      "source:lidar-3dep",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:short-line-trestle-pictures"
     ],
     "status": "draft",
     "contributor": "project",
@@ -2492,7 +2494,7 @@
       "milepost": null
      }
     ],
-    "summary": "The Short Line's timber trestle over Bear Creek at the edge of Colorado Springs: 336 to 340 ft in later accounts; the opening on the ground is 427 ft long and 72 ft deep. Burned and rebuilt more than once; a road bridge stood here as late as 1947 by a library photograph's caption.",
+    "summary": "The Short Line's curved timber trestle over Bear Creek and its road at the edge of Colorado Springs: 336 to 340 ft in the written accounts, which fits the ground once the slumped bench ends are allowed for. Burned and rebuilt more than once; one of the last two standing, a road bridge as late as 1947.",
     "valid_from": 1901,
     "valid_to": 1920,
     "local": {
@@ -3079,6 +3081,406 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -104.906385,
+     38.785899
+    ]
+   },
+   "properties": {
+    "id": "place:sl-silver-cascade-trestle",
+    "name": "Silver Cascade trestle, at Tunnel 3 (Short Line)",
+    "grade": "inferred",
+    "error_ft": 60,
+    "kind": "trestle",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 22 ft below the railway's grade line; it is below grade for 253 ft, between 38.786046, -104.906743 and 38.785752, -104.906028, and 15 ft or more below it for about 200 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. About ten photographs show one trestle running straight out of a portal of Tunnel 3 onto bare rock directly above Silver Cascade Falls, of about seven bents and about 40 ft at the deep end. On the lidar it is the south-east portal that opens onto a bare rock bowl falling 50 to 65 ft within 130 ft; the north-west portal opens onto a plain bench. So the trestle began at the south-east portal face (measured, 15 ft) and ran to where the pad ends (inferred, 60 ft). A library caption says 'west portal', which the ground does not bear out, and another says 'over North Cheyenne Creek': it crosses a side gulch. The fill pad hides the floor, so the lidar's 22 ft is less than the photographs' height. Firmly identified. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-10). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "The trestle the photographers liked best: straight out of the south-east portal of Tunnel 3 onto bare granite above Silver Cascade Falls. About 200 ft; the road now crosses on a fill pad. One of the last two standing, by-passed about 1941.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.906743,
+       38.786046
+      ],
+      [
+       -104.906028,
+       38.785752
+      ]
+     ],
+     "length_ft": 200,
+     "height_ft": 22,
+     "opening_ft": 253
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.897819,
+     38.791048
+    ]
+   },
+   "properties": {
+    "id": "place:sl-trestle-8a",
+    "name": "Trestle 8A, at mile board CS 8 (Short Line)",
+    "grade": "inferred",
+    "error_ft": 50,
+    "kind": "trestle",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 68 ft below the railway's grade line; it is below grade for 420 ft, between 38.791490, -104.897387 and 38.790606, -104.898251, and 15 ft or more below it for about 322 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. A photograph of the time (Harlan; Pikes Peak Library District 402-109) shows a curved trestle with guard rails over a deep gulch, the bridge board '8A' and the mile board 'CS 8' legible, and the High Drive road meeting the track at its upper end. This is the first deep gulch up the line from Tunnel 2, 8.05 miles from the Denver and Rio Grande depot by the atlas's line, and the High Drive joins the road just above it on the USGS sheet of 1948. Well identified; that bridges were numbered by the mile is a guess from this one board. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-08). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A curved trestle over a deep gulch, the first above Tunnel 2: the railway's own boards '8A' and 'CS 8' can be read in a photograph of the time. About 320 ft and 68 ft high on the ground; now a road fill.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.897387,
+       38.79149
+      ],
+      [
+       -104.898251,
+       38.790606
+      ]
+     ],
+     "length_ft": 322,
+     "height_ft": 68,
+     "opening_ft": 420
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.883927,
+     38.798811
+    ]
+   },
+   "properties": {
+    "id": "place:sl-tunnel-1-high-trestle",
+    "name": "High trestle at Tunnel 1 (Short Line)",
+    "grade": "inferred",
+    "error_ft": 50,
+    "kind": "trestle",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 50 ft below the railway's grade line; it is below grade for 453 ft, between 38.798800, -104.883196 and 38.798822, -104.884658, and 15 ft or more below it for about 262 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. The Rocky Mountain News of 28 March 1901 prints an engraving captioned 'Tunnel No. 1 and High Trestle': a high curved trestle running into a portal of Tunnel 1. This hollow is beside that tunnel and the fill in it now stands about 50 ft high, where Engineering News says the largest fill on the line in 1902 was 50 ft high and 300 ft long. Identified from the engraving and the height of the fill: good, not certain. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-05). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "A high curved trestle running into Tunnel 1, drawn in a newspaper engraving of March 1901. About 260 ft and 50 ft high on the ground; now a road fill.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.883196,
+       38.7988
+      ],
+      [
+       -104.884658,
+       38.798822
+      ]
+     ],
+     "length_ft": 262,
+     "height_ft": 50,
+     "opening_ft": 453
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.032349,
+     38.73514
+    ]
+   },
+   "properties": {
+    "id": "place:sl-cathedral-park-trestle",
+    "name": "Cathedral Park trestle, Bison Creek (Short Line)",
+    "grade": "inferred",
+    "error_ft": 50,
+    "kind": "trestle",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 57 ft below the railway's grade line; it is below grade for 755 ft, between 38.735487, -105.031260 and 38.734793, -105.033437, and 15 ft or more below it for about 413 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. Photographs (McClure and others) show a curved trestle of nine or ten bents at Cathedral Park, and a later account puts a trestle over Bison Creek just past Tunnel 9, since filled. The hollow here, just beyond Tunnel 9, is below grade for 755 ft, far more than nine or ten 20 ft spans: the trestle (about 180 to 200 ft by the photographs) stood somewhere within it, with fills either side, and its own ends are not fixed. The ends given are those of the whole hollow. The place is firmly identified; the trestle's ends within it are not. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-37). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "The curved trestle just past Tunnel 9 at Cathedral Park. Photographs show nine or ten bents, so about 180 to 200 ft; the hollow is below grade for much longer, so the fill now there is partly the railway's own approaches. Now a road fill.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -105.03126,
+       38.735487
+      ],
+      [
+       -105.033437,
+       38.734793
+      ]
+     ],
+     "length_ft": 413,
+     "height_ft": 57,
+     "opening_ft": 755
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.935393,
+     38.731179
+    ]
+   },
+   "properties": {
+    "id": "place:sl-double-horseshoe-trestle",
+    "name": "Double Horseshoe trestle, Little Fountain Creek (Short Line; one of two)",
+    "grade": "inferred",
+    "error_ft": 50,
+    "kind": "trestle",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 62 ft below the railway's grade line; it is below grade for 755 ft, between 38.731871, -104.934418 and 38.730488, -104.936368, and 15 ft or more below it for about 558 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. The National Register form for the road (a later account) says two trestles at the Double Horseshoe on Little Fountain Creek are buried in the present fills. This is the largest fill there, up to 62 ft high over the creek, higher than any fill the railway had in 1902 by Engineering News. Which of the two trestles it is, and where the other was, is not known; no photograph has been matched. Probable, from the fill's height and the later account. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-19). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "One of the two trestles of the Double Horseshoe on Little Fountain Creek, said in a later account to lie buried in the fills. A fill up to 62 ft high; no photograph of it has been found.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.934418,
+       38.731871
+      ],
+      [
+       -104.936368,
+       38.730488
+      ]
+     ],
+     "length_ft": 558,
+     "height_ft": 62,
+     "opening_ft": 755
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.911385,
+     38.735461
+    ]
+   },
+   "properties": {
+    "id": "place:sl-rock-creek-trestle",
+    "name": "Rock Creek trestle, on the loop below Tunnel 7 (Short Line)",
+    "grade": "inferred",
+    "error_ft": 60,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the railway's grade stops at 38.735456, -104.911086 and begins again at 38.735466, -104.911684, 171 ft apart, with the ground up to 42 ft below the grade line between them; the ground is 15 ft or more below grade for about 125 ft, the likelier length of the trestle itself. Nothing stands in the opening. The railway's line here is itself inferred (the loop redrawn on 26 November 2026), so the ends rest on that line. Photographs catalogued as the Rock Creek trestle show seven to nine bents in two storeys under a crag, which is 140 to 180 ft and 35 to 45 ft high: the opening here fits. A photograph also shows a small railway bridge over the stage road beside Tunnel 7's west portal; whether that is this structure or another is not settled. Moderately well identified; good only to about 60 ft because the line is inferred. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-16). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "Where the loop north-west of Tunnel No. 7 crossed Rock Creek: an opening of 171 ft, up to 42 ft deep. Photographs show a trestle of seven to nine bents under the crag called The Castles, which fits. The loop itself is inferred.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.911086,
+       38.735456
+      ],
+      [
+       -104.911684,
+       38.735466
+      ]
+     ],
+     "length_ft": 125,
+     "height_ft": 42,
+     "opening_ft": 171
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.913213,
+     38.786293
+    ]
+   },
+   "properties": {
+    "id": "place:sl-north-cheyenne-trestle",
+    "name": "Trestle at the North Cheyenne hairpin (Short Line)",
+    "grade": "inferred",
+    "error_ft": 80,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the railway's grade stops at 38.786699, -104.913388 and begins again at 38.785888, -104.913039, 312 ft apart, with the ground up to 64 ft below the grade line between them; the ground is 15 ft or more below grade for about 224 ft, the likelier length of the trestle itself. Nothing stands in the opening. The road's hairpin here has a radius of about 90 ft, which a train could not take, and a stub of bench points across the hollow from the lower end. Engineering News calls the trestles of North Cheyenne Canyon noteworthy. A straight line between the two ends meets the road's upper arm nearly at right angles, so the railway's true curve across is not found and the upper end is weak. It is a different structure from the Silver Cascade trestle. A real crossing, moderately sure; the ends are good only to 60 to 80 ft and the atlas's line here is still the road's. The ends are good to about 80 ft (research/structures/shortline-trestles.md, site sl-t-09). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "Where the road now doubles back round the head of a hollow by North Cheyenne Creek on a curve no train could take; a stub of the railway's bench points across it. About 220 ft and 64 ft high. The railway's curve across is not worked out.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.913388,
+       38.786699
+      ],
+      [
+       -104.913039,
+       38.785888
+      ]
+     ],
+     "length_ft": 224,
+     "height_ft": 64,
+     "opening_ft": 312
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.90553,
+     38.742286
+    ]
+   },
+   "properties": {
+    "id": "place:sl-trestle-near-tunnel-6",
+    "name": "Trestle site near Tunnel 6 (Short Line)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the railway's grade stops at 38.742693, -104.905902 and begins again at 38.741878, -104.905159, 387 ft apart, with the ground up to 78 ft below the grade line between them; the ground is 15 ft or more below grade for about 259 ft, the likelier length of the trestle itself. Nothing stands in the opening. The drawn line crosses a deep gulch obliquely between a plain bench at one end and a short fill face at the other, while the road goes round the head. No photograph or written record has been matched to this site. Probable on the ground alone; unnamed. The ends are good to about 20 ft (research/structures/shortline-trestles.md, site sl-t-13). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-pictures",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "An opening in the grade near Tunnel 6 where the road goes round the head of a gulch: 387 ft at grade, up to 78 ft deep. No photograph or record has been matched to it.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.905902,
+       38.742693
+      ],
+      [
+       -104.905159,
+       38.741878
+      ]
+     ],
+     "length_ft": 259,
+     "height_ft": 78,
+     "opening_ft": 387
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.834603,
      38.828288
     ]
@@ -3420,8 +3822,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.883281,
-     38.798841
+     -104.885188,
+     38.798413
     ]
    },
    "properties": {
@@ -3429,7 +3831,7 @@
     "name": "Sublime",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 6.6 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 6.6 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3451,8 +3853,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.901493,
-     38.776035
+     -104.90319,
+     38.775058
     ]
    },
    "properties": {
@@ -3460,7 +3862,7 @@
     "name": "Fairview",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 10.7 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 10.7 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3482,8 +3884,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.904258,
-     38.748417
+     -104.905768,
+     38.747319
     ]
    },
    "properties": {
@@ -3491,7 +3893,7 @@
     "name": "St. Peter's",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 14.9 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 14.9 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3522,7 +3924,7 @@
     "name": "Summit",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 21.4 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 21.4 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3553,7 +3955,7 @@
     "name": "Saderlind",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 24.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 24.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3584,7 +3986,7 @@
     "name": "Clyde",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3615,7 +4017,7 @@
     "name": "Love",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 34.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 34.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3646,7 +4048,7 @@
     "name": "Grassy",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 38.8 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.8 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 38.8 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],

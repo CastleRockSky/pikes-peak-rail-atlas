@@ -336,7 +336,7 @@
  {
   "id": "source:engineering-news-1902-short-line",
   "kind": "engineering article",
-  "title": "W. P. Hardesty, 'The Colorado Springs & Cripple Creek District Railway', Engineering News, vol. 47 no. 18, 1 May 1902, pp. 347-348. Read from the Internet Archive's machine text, not yet checked on the page; extracts in research/structures/written-record.md",
+  "title": "W. P. Hardesty, 'The Colorado Springs & Cripple Creek District Railway', Engineering News, vol. 47 no. 18, 1 May 1902, pp. 346-348. Read on the page images; exact transcription in research/structures/shortline-trestle-pictures.md",
   "holder": "Internet Archive",
   "url": "https://archive.org/details/sim_enr_engineering-news-record-_1902-05-01_47_18",
   "date": "1902",
@@ -365,6 +365,14 @@
   "title": "Catalogue records of photographs of the Colorado Midland's bridge at Manitou Iron Springs: 'Iron Springs Bridge' under construction, about 1886 (001-390), and the wreck on the Ruxton Avenue bridge of 10 September 1909 (001-384, 001-8333, 411-41). Captions only; the pictures are not reproduced. Listed in research/structures/written-record.md",
   "holder": "Pikes Peak Library District, Regional History and Genealogy",
   "url": "https://digitalcollections.ppld.org/nodes/view/14972",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:short-line-trestle-pictures",
+  "kind": "photograph catalogue records",
+  "title": "Photographs and engravings of the Short Line's trestles, viewed in the libraries' catalogues and not reproduced: Denver Public Library MCC-76, 87, 88, 88A, 89, 90, 119, 119A, 279, 813, 886, 990B, 1638, 1640, 1911, P-394, P-467, P-1266, OP-7277; Pikes Peak Library District 402-109, 013-6572, 013-6574, 013-8463, 195-4235, 175-3755, 007-46, 001-3355, 537-128; the Rocky Mountain News engravings of 28 March 1901; and later accounts in Trains (June 1941, 1942). What each shows is set out in research/structures/shortline-trestle-pictures.md",
+  "holder": "Denver Public Library; Pikes Peak Library District",
+  "url": "https://digital.denverlibrary.org/",
   "accessed": "2026-11-26"
  }
 ]
