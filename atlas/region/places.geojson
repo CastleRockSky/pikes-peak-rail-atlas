@@ -2430,11 +2430,12 @@
     "grade": "inferred",
     "error_ft": 20,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the grade stops at 38.746554, -105.097863 and begins again at 38.746272, -105.099400, 545 ft apart, with the ground up to 81 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-10). Low mounds stand on the valley floor under the line, which may be footings; not examined. Engineering News of 1 May 1902 (read on the page) calls the trestle over West Beaver Creek, two and a half miles east of Cameron, the longest and highest on the line, 500 ft long and 84 ft high, of timber on concrete piers, and says its piers were washed out in May 1901. That the opening here is that trestle is inferred from the creek's name, the distance from Cameron and the size; no map or photograph has been matched to it. The present road leaves the railway's line and goes round the head of the valley. Looked at again: the trestle ran crest to crest between benches with no approach fills, 486 ft against the 500 printed (a later writer gives 491); two low mounds 112 ft apart on the valley floor may be what is left of the concrete piers, not settled. No photograph of it has been found.",
+    "basis": "On the 1 m lidar the grade stops at 38.746554, -105.097863 and begins again at 38.746272, -105.099400, 545 ft apart, with the ground up to 81 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-10). Low mounds stand on the valley floor under the line, which may be footings; not examined. Engineering News of 1 May 1902 (read on the page) calls the trestle over West Beaver Creek, two and a half miles east of Cameron, the longest and highest on the line, 500 ft long and 84 ft high, of timber on concrete piers, and says its piers were washed out in May 1901. That the opening here is that trestle is inferred from the creek's name, the distance from Cameron and the size; no map or photograph has been matched to it. The present road leaves the railway's line and goes round the head of the valley. Looked at again: the trestle ran crest to crest between benches with no approach fills, 486 ft against the 500 printed (a later writer gives 491); two low mounds 112 ft apart on the valley floor may be what is left of the concrete piers, not settled. No photograph of it has been found. Colorado Springs newspapers of 20 and 22 May 1901 (machine text, not checked on the page) say the flood took out the middle bent and three of the concrete piers and stopped traffic for about two days.",
     "sources": [
      "source:lidar-3dep",
      "source:engineering-news-1902-short-line",
-     "source:short-line-trestle-pictures"
+     "source:short-line-trestle-pictures",
+     "source:colorado-springs-gazette-1901-1909-short-line"
     ],
     "status": "draft",
     "contributor": "project",
@@ -2479,11 +2480,12 @@
     "grade": "inferred",
     "error_ft": 20,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the grade stops at 38.821437, -104.890923 and begins again at 38.820643, -104.889939, 427 ft apart, with the ground up to 72 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-02). The written lengths are shorter than the opening: 336 ft in the National Register form for the Gold Camp Road, citing a newspaper of 1900 (secondary), and 340 ft in newspapers of 1910 (headlines and machine text only). The same accounts, not read on the page, say it burned about 2 April 1910 and was rebuilt in wood, and was burned again on 14 May 1918. That this opening is that trestle is inferred from the creek's name. Looked at again: the bench ends are slumped, and where the ground is 25 ft below grade the span is 337 ft, which is the written length; so the trestle probably ended about 45 ft inside each crest. It was curved (a later account), it crossed over the Bear Creek Canyon road, and the USGS sheet of 1948 draws a bridge here. By an eyewitness's letter of 1941 this and the Silver Cascade bridge were the only two left in 1938.",
+    "basis": "On the 1 m lidar the grade stops at 38.821437, -104.890923 and begins again at 38.820643, -104.889939, 427 ft apart, with the ground up to 72 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-02). The written lengths are shorter than the opening: 336 ft in the National Register form for the Gold Camp Road, citing a newspaper of 1900 (secondary), and 340 ft in newspapers of 1910 (headlines and machine text only). The same accounts, not read on the page, say it burned about 2 April 1910 and was rebuilt in wood, and was burned again on 14 May 1918. That this opening is that trestle is inferred from the creek's name. Looked at again: the bench ends are slumped, and where the ground is 25 ft below grade the span is 337 ft, which is the written length; so the trestle probably ended about 45 ft inside each crest. It was curved (a later account), it crossed over the Bear Creek Canyon road, and the USGS sheet of 1948 draws a bridge here. By an eyewitness's letter of 1941 this and the Silver Cascade bridge were the only two left in 1938. A later account (Westside Pioneer, 2014; secondary) calls this the railway's bridge 3-A, 60 ft high and 340 ft long. With the board '8A' photographed at mile board CS 8, that suggests bridges were numbered by the mile from Colorado Springs with a letter; inferred from two numbers only.",
     "sources": [
      "source:lidar-3dep",
      "source:nrhp-cscc-1999",
-     "source:short-line-trestle-pictures"
+     "source:short-line-trestle-pictures",
+     "source:westside-pioneer-2014-cobweb-corners"
     ],
     "status": "draft",
     "contributor": "project",
@@ -3241,7 +3243,7 @@
     "grade": "inferred",
     "error_ft": 50,
     "kind": "trestle",
-    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 57 ft below the railway's grade line; it is below grade for 755 ft, between 38.735487, -105.031260 and 38.734793, -105.033437, and 15 ft or more below it for about 413 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. Photographs (McClure and others) show a curved trestle of nine or ten bents at Cathedral Park, and a later account puts a trestle over Bison Creek just past Tunnel 9, since filled. The hollow here, just beyond Tunnel 9, is below grade for 755 ft, far more than nine or ten 20 ft spans: the trestle (about 180 to 200 ft by the photographs) stood somewhere within it, with fills either side, and its own ends are not fixed. The ends given are those of the whole hollow. The place is firmly identified; the trestle's ends within it are not. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-37). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 57 ft below the railway's grade line; it is below grade for 755 ft, between 38.735487, -105.031260 and 38.734793, -105.033437, and 15 ft or more below it for about 413 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. Photographs (McClure and others) show a curved trestle of nine or ten bents at Cathedral Park, and a later account puts a trestle over Bison Creek just past Tunnel 9, since filled. The hollow here, just beyond Tunnel 9, is below grade for 755 ft, far more than nine or ten 20 ft spans: the trestle (about 180 to 200 ft by the photographs) stood somewhere within it, with fills either side, and its own ends are not fixed. The ends given are those of the whole hollow. The place is firmly identified; the trestle's ends within it are not. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-37). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. Caution (26 November 2026): the height given here was read from a fitted grade line since found to stand 10 ft or more above the road hereabouts, so it is probably too great by about that much. Not re-measured.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
@@ -3381,8 +3383,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.913213,
-     38.786293
+     -104.913392,
+     38.78627
     ]
    },
    "properties": {
@@ -3391,7 +3393,7 @@
     "grade": "inferred",
     "error_ft": 80,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the railway's grade stops at 38.786699, -104.913388 and begins again at 38.785888, -104.913039, 312 ft apart, with the ground up to 64 ft below the grade line between them; the ground is 15 ft or more below grade for about 224 ft, the likelier length of the trestle itself. Nothing stands in the opening. The road's hairpin here has a radius of about 90 ft, which a train could not take, and a stub of bench points across the hollow from the lower end. Engineering News calls the trestles of North Cheyenne Canyon noteworthy. A straight line between the two ends meets the road's upper arm nearly at right angles, so the railway's true curve across is not found and the upper end is weak. It is a different structure from the Silver Cascade trestle. A real crossing, moderately sure; the ends are good only to 60 to 80 ft and the atlas's line here is still the road's. The ends are good to about 80 ft (research/structures/shortline-trestles.md, site sl-t-09). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "basis": "The road's hairpin here has a radius of about 90 ft, which a train could not take, and on the 1 m lidar a flat-topped stub of bench at grade, about 65 ft long, points south across the hollow from the road's upper arm. So the railway crossed the hollow; that is inferred from the ground. Where exactly is conjecture. One curve of 236 ft radius drawn tangent to the bench either side runs along the stub and climbs at 3.0 per cent; on it the trestle is about 239 ft at grade, between 38.786572, -104.913499 and 38.785967, -104.913284, and up to 51 ft above today's ground. But that curve is about 24 degrees, and Engineering News of 1902 gives 16 degrees as the sharpest on the line. A 16 degree curve misses the stub by 75 ft, needs 3.8 per cent and a trestle of 419 ft, and lies up to 90 ft to the east. Neither fits everything, so the ends are good only to about 80 ft. An earlier reading here gave 224 ft and 64 ft from a straight line between the bench ends; the 64 ft was measured to the lowest ground under that line. Engineering News calls the trestles of North Cheyenne Canyon noteworthy. It is a different structure from the Silver Cascade trestle. No photograph has been matched to it (research/structures/shortline-trestles-2.md; shortline-hairpin-retrace.png). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
@@ -3406,22 +3408,22 @@
       "milepost": null
      }
     ],
-    "summary": "Where the road now doubles back round the head of a hollow by North Cheyenne Creek on a curve no train could take; a stub of the railway's bench points across it. About 220 ft and 64 ft high. The railway's curve across is not worked out.",
+    "summary": "Where the road now doubles back round the head of a hollow by North Cheyenne Creek on a curve no train could take; a stub of the railway's bench points across it. The crossing is real; the trestle's line is conjecture: about 240 ft long and 50 ft high on the curve that fits the stub.",
     "valid_from": 1901,
     "valid_to": 1920,
     "local": {
      "ends": [
       [
-       -104.913388,
-       38.786699
+       -104.913499,
+       38.786572
       ],
       [
-       -104.913039,
-       38.785888
+       -104.913284,
+       38.785967
       ]
      ],
-     "length_ft": 224,
-     "height_ft": 64,
+     "length_ft": 239,
+     "height_ft": 51,
      "opening_ft": 312
     }
    }
@@ -3822,8 +3824,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.885188,
-     38.798413
+     -104.882612,
+     38.798003
     ]
    },
    "properties": {
@@ -3831,7 +3833,7 @@
     "name": "Sublime",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 6.6 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 6.6 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3853,8 +3855,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.90319,
-     38.775058
+     -104.901695,
+     38.775733
     ]
    },
    "properties": {
@@ -3862,7 +3864,7 @@
     "name": "Fairview",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 10.7 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 10.7 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3884,8 +3886,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.905768,
-     38.747319
+     -104.904686,
+     38.74836
     ]
    },
    "properties": {
@@ -3893,7 +3895,7 @@
     "name": "St. Peter's",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 14.9 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 14.9 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3915,8 +3917,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.94589,
-     38.729857
+     -104.946624,
+     38.729456
     ]
    },
    "properties": {
@@ -3924,7 +3926,7 @@
     "name": "Summit",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 21.4 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 21.4 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3946,8 +3948,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.970674,
-     38.729609
+     -104.971556,
+     38.729483
     ]
    },
    "properties": {
@@ -3955,7 +3957,7 @@
     "name": "Saderlind",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 24.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 24.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -3977,8 +3979,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.01991,
-     38.731901
+     -105.019773,
+     38.732593
     ]
    },
    "properties": {
@@ -3986,7 +3988,7 @@
     "name": "Clyde",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 30.1 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -4008,8 +4010,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.06158,
-     38.733515
+     -105.061641,
+     38.734211
     ]
    },
    "properties": {
@@ -4017,7 +4019,7 @@
     "name": "Love",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 34.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 34.2 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],
@@ -4039,8 +4041,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.123252,
-     38.744639
+     -105.123455,
+     38.745327
     ]
    },
    "properties": {
@@ -4048,7 +4050,7 @@
     "name": "Grassy",
     "grade": "inferred",
     "error_ft": 1300,
-    "basis": "Placed by its printed mileage: 38.8 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.7 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
+    "basis": "Placed by its printed mileage: 38.8 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
      "source:official-guide-timetables"
     ],

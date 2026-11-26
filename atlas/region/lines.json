@@ -28165,7 +28165,7 @@
   "valid_to": 1920,
   "grade": "measured",
   "error_ft": 40,
-  "basis": "From the edge of Colorado Springs to Cameron the line is one continuous route of 37.07 miles, tested against the 1 m lidar mile by mile: 90 per cent of what could be tested lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_shortline.py). It is the OpenStreetMap pieces put in order, with two gaps (1.1 and 6.2 miles) followed along Gold Camp Road, which runs on the grade. Against the timetable of 26 September 1909, Duffields, Rosemont and Cameron Junction each fall 2.9 to 3.0 miles later on the route than their printed miles from Colorado Springs Yard, so the route's length agrees with the timetable to a tenth of a mile over 21 miles, and it begins about 3 miles out from the yard (that first stretch is the next route). Part of the route has no 1 m lidar and is untested. West of Cameron the pieces are as OpenStreetMap has them. Inside Colorado Springs the line is 2.79 miles from the yards south of the city centre to the start of the route above (63 per cent smooth on the 1 m lidar, weighted by length). The only map read that draws the railway here is the USGS sheet of 1909 at 1:125,000, good to about 400 ft. West of 8th Street a road on the USGS sheet of 1948 lies along that line: a long S-curve, a section-line road and diagonal now built over, and Lower Gold Camp Road, whose bench tests 80 per cent smooth. All of it is inferred. The drawn length is 2.79 miles against the 2.95 the timetable of 1909 implies; the yard itself is not located, and the branch to the Colorado City mills, which the 1909 sheet draws leaving near Colorado City Junction, is not traced (see atlas/tools/once_route_shortline_colorado_springs.py). West of Cameron the main line into Cripple Creek (by Hoosier Pass, Fairview and Poverty Gulch) is a trace of 4.12 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), which letters it with the railway's name. It is inferred and good to about 200 ft at best: 8 per cent of it reads as a smooth grade on the 1 m lidar, because east of Poverty Gulch all of it is now inside the open-pit mine. Its length has no clean check: Poor's 1902 gives 45.82 miles from Colorado Springs to Cripple Creek and the 1909 timetable puts Cameron Junction 39.5 miles from the yard, which would make this run about 6.3 miles against roughly 4.6 traced; the two figures are counted from different points and the difference is not explained (see atlas/tools/once_route_district.py). The branch from Cameron to Victor and the electric lines are not traced. Other pieces west of Cameron are as OpenStreetMap has them. Through Goldfield a surviving bench of 1.67 miles is entered as part of the branch from Cameron to Victor: 96 per cent of it reads as a smooth grade on the 1 m lidar, so the bench is measured. That it was this railway's is inferred from the Sanborn sheet of December 1908, which letters a track 'C. S. & C. C. D. R.R. Short Line' where the bench crosses the town, and from the USGS map surveyed in 1894, which has the Midland Terminal west of Goldfield and no railway here (see atlas/tools/once_route_goldfield.py). Its top is where it meets the Midland Terminal's line below Independence; this railway's own track from Cameron down to that point, and the last 0.6 mile into Victor, are not traced.",
+  "basis": "From the edge of Colorado Springs to Cameron the line is one continuous route of 36.83 miles, tested against the 1 m lidar mile by mile: 90 per cent of what could be tested lies on smooth ground under 4.5 per cent, and each mile carries its own grade and error (see atlas/tools/once_route_shortline.py). It is the OpenStreetMap pieces put in order, with two gaps (1.1 and 6.2 miles) followed along Gold Camp Road, which runs on the grade. Against the timetable of 26 September 1909, Duffields, Rosemont and Cameron Junction each fall 2.9 to 3.0 miles later on the route than their printed miles from Colorado Springs Yard, so the route's length agrees with the timetable to a tenth of a mile over 21 miles, and it begins about 3 miles out from the yard (that first stretch is the next route). Part of the route has no 1 m lidar and is untested. West of Cameron the pieces are as OpenStreetMap has them. Inside Colorado Springs the line is 2.79 miles from the yards south of the city centre to the start of the route above (63 per cent smooth on the 1 m lidar, weighted by length). The only map read that draws the railway here is the USGS sheet of 1909 at 1:125,000, good to about 400 ft. West of 8th Street a road on the USGS sheet of 1948 lies along that line: a long S-curve, a section-line road and diagonal now built over, and Lower Gold Camp Road, whose bench tests 80 per cent smooth. All of it is inferred. The drawn length is 2.79 miles against the 2.95 the timetable of 1909 implies; the yard itself is not located, and the branch to the Colorado City mills, which the 1909 sheet draws leaving near Colorado City Junction, is not traced (see atlas/tools/once_route_shortline_colorado_springs.py). West of Cameron the main line into Cripple Creek (by Hoosier Pass, Fairview and Poverty Gulch) is a trace of 4.12 miles from the USGS district map surveyed in 1894 and revised in 1902-1903 (Professional Paper 54, plate 1), which letters it with the railway's name. It is inferred and good to about 200 ft at best: 8 per cent of it reads as a smooth grade on the 1 m lidar, because east of Poverty Gulch all of it is now inside the open-pit mine. Its length has no clean check: Poor's 1902 gives 45.82 miles from Colorado Springs to Cripple Creek and the 1909 timetable puts Cameron Junction 39.5 miles from the yard, which would make this run about 6.3 miles against roughly 4.6 traced; the two figures are counted from different points and the difference is not explained (see atlas/tools/once_route_district.py). The branch from Cameron to Victor and the electric lines are not traced. Other pieces west of Cameron are as OpenStreetMap has them. Through Goldfield a surviving bench of 1.67 miles is entered as part of the branch from Cameron to Victor: 96 per cent of it reads as a smooth grade on the 1 m lidar, so the bench is measured. That it was this railway's is inferred from the Sanborn sheet of December 1908, which letters a track 'C. S. & C. C. D. R.R. Short Line' where the bench crosses the town, and from the USGS map surveyed in 1894, which has the Midland Terminal west of Goldfield and no railway here (see atlas/tools/once_route_goldfield.py). Its top is where it meets the Midland Terminal's line below Independence; this railway's own track from Cameron down to that point, and the last 0.6 mile into Victor, are not traced.",
   "sources": [
    "source:osm-railways",
    "source:wikipedia-cscc",
@@ -32247,186 +32247,6 @@
       [
        -104.913156,
        38.786929
-      ],
-      [
-       -104.913448,
-       38.786787
-      ],
-      [
-       -104.913796,
-       38.786804
-      ],
-      [
-       -104.914139,
-       38.78678
-      ],
-      [
-       -104.914451,
-       38.786675
-      ],
-      [
-       -104.914598,
-       38.786469
-      ],
-      [
-       -104.91441,
-       38.786263
-      ],
-      [
-       -104.914108,
-       38.786138
-      ],
-      [
-       -104.913777,
-       38.786069
-      ],
-      [
-       -104.913446,
-       38.785993
-      ],
-      [
-       -104.913134,
-       38.785877
-      ],
-      [
-       -104.912832,
-       38.785745
-      ],
-      [
-       -104.912518,
-       38.785655
-      ],
-      [
-       -104.912179,
-       38.785689
-      ],
-      [
-       -104.911844,
-       38.785756
-      ],
-      [
-       -104.911509,
-       38.78582
-      ],
-      [
-       -104.911179,
-       38.785902
-      ],
-      [
-       -104.910842,
-       38.785982
-      ],
-      [
-       -104.91057,
-       38.786146
-      ],
-      [
-       -104.910306,
-       38.786321
-      ],
-      [
-       -104.910003,
-       38.786445
-      ],
-      [
-       -104.909672,
-       38.786524
-      ],
-      [
-       -104.909331,
-       38.78657
-      ],
-      [
-       -104.908996,
-       38.786639
-      ],
-      [
-       -104.908669,
-       38.786725
-      ],
-      [
-       -104.908338,
-       38.7868
-      ],
-      [
-       -104.908008,
-       38.786875
-      ],
-      [
-       -104.90766,
-       38.786893
-      ],
-      [
-       -104.907258,
-       38.786858
-      ],
-      [
-       -104.907044,
-       38.786622
-      ],
-      [
-       -104.906891,
-       38.786331
-      ],
-      [
-       -104.90674,
-       38.786039
-      ],
-      [
-       -104.906534,
-       38.785805
-      ],
-      [
-       -104.906147,
-       38.785757
-      ],
-      [
-       -104.905728,
-       38.78574
-      ],
-      [
-       -104.905429,
-       38.785601
-      ],
-      [
-       -104.905074,
-       38.785581
-      ],
-      [
-       -104.904731,
-       38.785542
-      ],
-      [
-       -104.904393,
-       38.785485
-      ],
-      [
-       -104.904074,
-       38.785359
-      ],
-      [
-       -104.903845,
-       38.78515
-      ],
-      [
-       -104.903587,
-       38.78497
-      ],
-      [
-       -104.903328,
-       38.78479
-      ],
-      [
-       -104.903039,
-       38.78464
-      ],
-      [
-       -104.902706,
-       38.784594
-      ],
-      [
-       -104.902362,
-       38.784619
       ]
      ]
     },
@@ -33655,6 +33475,436 @@
      "type": "LineString",
      "coordinates": [
       [
+       -104.912832,
+       38.785745
+      ],
+      [
+       -104.912518,
+       38.785655
+      ],
+      [
+       -104.912179,
+       38.785689
+      ],
+      [
+       -104.911844,
+       38.785756
+      ],
+      [
+       -104.911509,
+       38.78582
+      ],
+      [
+       -104.911179,
+       38.785902
+      ],
+      [
+       -104.910842,
+       38.785982
+      ],
+      [
+       -104.91057,
+       38.786146
+      ],
+      [
+       -104.910306,
+       38.786321
+      ],
+      [
+       -104.910003,
+       38.786445
+      ],
+      [
+       -104.909672,
+       38.786524
+      ],
+      [
+       -104.909331,
+       38.78657
+      ],
+      [
+       -104.908996,
+       38.786639
+      ],
+      [
+       -104.908669,
+       38.786725
+      ],
+      [
+       -104.908338,
+       38.7868
+      ],
+      [
+       -104.908008,
+       38.786875
+      ],
+      [
+       -104.90766,
+       38.786893
+      ],
+      [
+       -104.907258,
+       38.786858
+      ],
+      [
+       -104.907044,
+       38.786622
+      ],
+      [
+       -104.906891,
+       38.786331
+      ],
+      [
+       -104.90674,
+       38.786039
+      ],
+      [
+       -104.906534,
+       38.785805
+      ],
+      [
+       -104.906147,
+       38.785757
+      ],
+      [
+       -104.905728,
+       38.78574
+      ],
+      [
+       -104.905429,
+       38.785601
+      ],
+      [
+       -104.905074,
+       38.785581
+      ],
+      [
+       -104.904731,
+       38.785542
+      ],
+      [
+       -104.904393,
+       38.785485
+      ],
+      [
+       -104.904074,
+       38.785359
+      ],
+      [
+       -104.903845,
+       38.78515
+      ],
+      [
+       -104.903587,
+       38.78497
+      ],
+      [
+       -104.903328,
+       38.78479
+      ],
+      [
+       -104.903039,
+       38.78464
+      ],
+      [
+       -104.902706,
+       38.784594
+      ],
+      [
+       -104.902362,
+       38.784619
+      ]
+     ]
+    },
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "inferred",
+    "error_ft": 60,
+    "basis": "Mile 6 to 7 from the east end of the trace at the edge of Colorado Springs, going west, slid onto the bench. On the 1 m lidar 79% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.7 ft). From the OpenStreetMap trace; parts are off the grade, in tunnel or disturbed. Not settled.",
+    "from_route": "routes/short-line-colorado-springs-to-cameron.json"
+   },
+   {
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 20,
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.913028,
+       38.785828
+      ],
+      [
+       -104.912832,
+       38.785745
+      ]
+     ]
+    },
+    "basis": "On the road's arm, which is on the railway's bench on the 1 m lidar. Second pass, 26 November 2026 (research/structures/shortline-hairpin-retrace.png).",
+    "from_route": "routes/short-line-colorado-springs-to-cameron.json"
+   },
+   {
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "measured",
+    "error_ft": 20,
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.913156,
+       38.786929
+      ],
+      [
+       -104.913281,
+       38.786878
+      ]
+     ]
+    },
+    "basis": "On the road's arm, which is on the railway's bench on the 1 m lidar. Second pass, 26 November 2026 (research/structures/shortline-hairpin-retrace.png).",
+    "from_route": "routes/short-line-colorado-springs-to-cameron.json"
+   },
+   {
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "inferred",
+    "error_ft": 30,
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.913281,
+       38.786878
+      ],
+      [
+       -104.913305,
+       38.786858
+      ],
+      [
+       -104.913328,
+       38.786838
+      ],
+      [
+       -104.91335,
+       38.786817
+      ],
+      [
+       -104.913371,
+       38.786795
+      ],
+      [
+       -104.91339,
+       38.786772
+      ],
+      [
+       -104.913408,
+       38.786749
+      ],
+      [
+       -104.913425,
+       38.786725
+      ],
+      [
+       -104.913441,
+       38.7867
+      ],
+      [
+       -104.913455,
+       38.786676
+      ],
+      [
+       -104.913468,
+       38.78665
+      ],
+      [
+       -104.91348,
+       38.786624
+      ],
+      [
+       -104.91349,
+       38.786598
+      ],
+      [
+       -104.913499,
+       38.786572
+      ]
+     ]
+    },
+    "basis": "On ground at grade on a single curve of 236 ft radius drawn tangent to the bench either side of the hollow; it runs along a flat-topped stub of bench, about 65 ft long, that points across the hollow. Second pass, 26 November 2026 (research/structures/shortline-hairpin-retrace.png).",
+    "from_route": "routes/short-line-colorado-springs-to-cameron.json"
+   },
+   {
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "inferred",
+    "error_ft": 30,
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.913284,
+       38.785967
+      ],
+      [
+       -104.913259,
+       38.785948
+      ],
+      [
+       -104.913233,
+       38.78593
+      ],
+      [
+       -104.913207,
+       38.785912
+      ],
+      [
+       -104.913179,
+       38.785896
+      ],
+      [
+       -104.91315,
+       38.78588
+      ],
+      [
+       -104.913121,
+       38.785866
+      ],
+      [
+       -104.91309,
+       38.785852
+      ],
+      [
+       -104.913059,
+       38.785839
+      ],
+      [
+       -104.913028,
+       38.785828
+      ]
+     ]
+    },
+    "basis": "On ground at grade on a single curve of 236 ft radius drawn tangent to the bench either side of the hollow; it runs along a flat-topped stub of bench, about 65 ft long, that points across the hollow. Second pass, 26 November 2026 (research/structures/shortline-hairpin-retrace.png).",
+    "from_route": "routes/short-line-colorado-springs-to-cameron.json"
+   },
+   {
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "grade": "conjecture",
+    "error_ft": 60,
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.913499,
+       38.786572
+      ],
+      [
+       -104.913506,
+       38.786545
+      ],
+      [
+       -104.913512,
+       38.786518
+      ],
+      [
+       -104.913517,
+       38.786491
+      ],
+      [
+       -104.91352,
+       38.786464
+      ],
+      [
+       -104.913521,
+       38.786437
+      ],
+      [
+       -104.913522,
+       38.786409
+      ],
+      [
+       -104.91352,
+       38.786382
+      ],
+      [
+       -104.913517,
+       38.786355
+      ],
+      [
+       -104.913513,
+       38.786328
+      ],
+      [
+       -104.913507,
+       38.786301
+      ],
+      [
+       -104.9135,
+       38.786274
+      ],
+      [
+       -104.913491,
+       38.786248
+      ],
+      [
+       -104.913481,
+       38.786222
+      ],
+      [
+       -104.91347,
+       38.786196
+      ],
+      [
+       -104.913457,
+       38.78617
+      ],
+      [
+       -104.913443,
+       38.786145
+      ],
+      [
+       -104.913428,
+       38.786121
+      ],
+      [
+       -104.913411,
+       38.786097
+      ],
+      [
+       -104.913393,
+       38.786074
+      ],
+      [
+       -104.913373,
+       38.786051
+      ],
+      [
+       -104.913353,
+       38.786029
+      ],
+      [
+       -104.913331,
+       38.786007
+      ],
+      [
+       -104.913308,
+       38.785987
+      ],
+      [
+       -104.913284,
+       38.785967
+      ]
+     ]
+    },
+    "basis": "On a trestle, gone: about 239 ft across the hollow, up to 51 ft above today's ground. Conjecture. The road's loop round the head of the hollow (about 90 ft radius) cannot be the railway's. The curve drawn fits the stub of bench and climbs at 3.0 per cent, but at 236 ft radius it is about 24 degrees, sharper than the 16 degrees Engineering News of 1902 gives as the sharpest on the line; a 16 degree curve misses the stub by 75 ft, needs 3.8 per cent and a trestle of 419 ft, and lies up to 90 ft east of this one. Neither fits everything; not settled. Second pass, 26 November 2026 (research/structures/shortline-hairpin-retrace.png).",
+    "from_route": "routes/short-line-colorado-springs-to-cameron.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
        -104.914955,
        38.756821
       ],
@@ -34269,42 +34519,6 @@
        38.73695
       ],
       [
-       -104.93975,
-       38.736972
-      ],
-      [
-       -104.94009,
-       38.737018
-      ],
-      [
-       -104.94043,
-       38.737064
-      ],
-      [
-       -104.94077,
-       38.73711
-      ],
-      [
-       -104.940877,
-       38.737081
-      ],
-      [
-       -104.940593,
-       38.73693
-      ],
-      [
-       -104.940254,
-       38.736877
-      ],
-      [
-       -104.93991,
-       38.736868
-      ],
-      [
-       -104.939572,
-       38.736917
-      ],
-      [
        -104.939669,
        38.736809
       ],
@@ -34346,7 +34560,7 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 20,
-    "basis": "Mile 17 to 18 from the east end of the trace at the edge of Colorado Springs, going west. On the 1 m lidar 95% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.7 ft). From the OpenStreetMap trace; taken as the railway grade.",
+    "basis": "Mile 17 to 18 from the east end of the trace at the edge of Colorado Springs, going west. On the 1 m lidar 95% of this mile lies on smooth ground under 4.5 per cent (roughness about the grade typically 0.7 ft). From the OpenStreetMap trace; taken as the railway grade. Second pass, 26 November 2026: the drawn line here ran out along the tail of the summit wye and back again, 775 ft that the main line never ran; nine points are cut out and the line now runs straight along the main line's bench, which the 1 m lidar shows between the two points joined (research/structures/shortline-summit-fix.png).",
     "from_route": "routes/short-line-colorado-springs-to-cameron.json"
    },
    {

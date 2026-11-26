@@ -374,5 +374,22 @@
   "holder": "Denver Public Library; Pikes Peak Library District",
   "url": "https://digital.denverlibrary.org/",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:westside-pioneer-2014-cobweb-corners",
+  "kind": "secondary accounts",
+  "title": "Mel McFarland, 'Cobweb Corners', Westside Pioneer, 22 January 2014: a later account naming the Short Line's Bear Creek trestle 'bridge 3-A'. Secondary",
+  "holder": "Westside Pioneer",
+  "url": "https://westsidepioneer.com/Articles/012014/CobwebCorners.html",
+  "date": "2014-01-22",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:colorado-springs-gazette-1901-1909-short-line",
+  "kind": "newspapers",
+  "title": "Colorado Springs Gazette, 20 May 1901, and Weekly Gazette, 22 May 1901, on the flood at the West Beaver Creek trestle (read as machine text, not checked on the page); Gazette, 5 May 1909, on a trestle fire near St. Peter's Dome (read on the page image). Extracts in research/structures/shortline-bridge-list-search.md",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/colorado-springs-gazette-1901-05-20",
+  "accessed": "2026-11-26"
  }
 ]
