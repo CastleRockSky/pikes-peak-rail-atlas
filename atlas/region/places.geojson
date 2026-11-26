@@ -1017,11 +1017,12 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, do not pass through here: near station 782 from Florence they loop round the south of the spur this tunnel pierces, 264 ft away. Either the line was first located round the spur and the tunnel was made in building or later, or the survey is misplaced here by some 200 ft (it is held in this part only by two section ties on one corner, and is good to about 250 ft). Not settled. The notes mention no tunnel anywhere.",
+    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, do not pass through here: near station 782 from Florence they loop round the south of the spur this tunnel pierces, 264 ft away. Either the line was first located round the spur and the tunnel was made in building or later, or the survey is misplaced here by some 200 ft (it is held in this part only by two section ties on one corner, and is good to about 250 ft). Not settled. The notes mention no tunnel anywhere. N. D. Holmes's guide to the line (2013, secondary) calls this Tunnel 2 and says the line between mileposts 12 and 18 was rebuilt higher up after the flood of July 1895 and opened in 1896. The survey's loop round this spur is at about mile 14.7, inside that stretch. If he is right, the tunnel belongs to the rebuilding and the survey shows the first line of 1894, which would settle the doubt above; no record of the rebuilding has been read. He gives this tunnel as 215 ft, against about 290 ft on the modern map and 230 ft under cover on the lidar.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
-     "source:fcc-survey-1894"
+     "source:fcc-survey-1894",
+     "source:rmrc-fcc-guide"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1052,11 +1053,12 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, about 11.0 miles out. Neither the notes nor the plat mentions a tunnel anywhere on the line, so they give no number, length or date.",
+    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, about 11.0 miles out. Neither the notes nor the plat mentions a tunnel anywhere on the line, so they give no number, length or date. N. D. Holmes's guide to the line (2013, secondary) calls this Tunnel 1 and gives it as 314 ft, against about 190 ft on the modern map and 131 ft under cover on the lidar; his two lengths look to be the other way round from the atlas's. Not settled.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
-     "source:fcc-survey-1894"
+     "source:fcc-survey-1894",
+     "source:rmrc-fcc-guide"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1656,6 +1658,564 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -105.12272,
+     38.391028
+    ]
+   },
+   "properties": {
+    "id": "place:florence-fcc-depot",
+    "name": "Florence, Florence and Cripple Creek depot and yard",
+    "grade": "inferred",
+    "error_ft": 60,
+    "kind": "stop",
+    "basis": "The Sanborn sheet of September 1906 draws the 'Florence & Cripple Creek R.R. Ground' beside the Denver and Rio Grande, with a round house and an 'Old R.R. Depot' by then used as a warehouse; the pin is that depot, from the sheet fitted to four street corners. It lies 35 ft from the railway's 1894 survey line, 350 ft along it from the survey's starting point, where the plat draws the line running into the Denver and Rio Grande. Whether the timetable's mile 0 was here, at that junction, or at the Denver and Rio Grande's passenger station is not known.",
+    "sources": [
+     "source:sanborn-florence",
+     "source:fcc-survey-1894",
+     "source:official-guide-timetables"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 0.0
+     }
+    ],
+    "summary": "The Florence and Cripple Creek's own depot and yard at Florence, the south end of the line; from the Sanborn map of 1906.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.127627,
+     38.414374
+    ]
+   },
+   "properties": {
+    "id": "place:vesta-junction",
+    "name": "Vesta Junction (Cyanide Junction)",
+    "grade": "inferred",
+    "error_ft": 300,
+    "kind": "junction",
+    "basis": "Where the branch to the mills on the bluff leaves the main line, as the atlas draws it from the USGS sheet of 1959 ('OLD RR GRADE') and the lidar: 1.81 miles from the survey's starting point at Florence. Poor's Manual of 1895 has a branch from 'Reduction Works Junc.' and that of 1899 'Cyanide Jct. to Vesta, 1.5 m.'; N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, calls it Vesta Junction at milepost 2.1. That this is the junction those names mean is inferred; the names and the branch's length (1.26 miles drawn against 1.5 to 1.85 in the sources) do not agree.",
+    "sources": [
+     "source:poors-moodys-manuals",
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894",
+     "source:usgs-topo-1959-florence"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "The junction of the Florence and Cripple Creek's branch to the reduction mills above Florence. The place is from the old grade; the name is from secondary sources.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.118882,
+     38.473997
+    ]
+   },
+   "properties": {
+    "id": "place:oro-junta",
+    "name": "Oro Junta",
+    "grade": "inferred",
+    "error_ft": 400,
+    "kind": "junction",
+    "basis": "The junction with the line from Canon City, opened in 1900. The timetable of December 1907 prints Oro Junta 7.3 miles from Canon City. On the 1 m lidar a dead-straight embankment, cut through at the creek, runs north-east across the flats to the main line at the mouth of Phantom Canyon just here, and benches fork from the main line: taken to be the Canon City line and its junction. The exact place along the line is from the driving distances in N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, checked against the two tunnels; his milepost (6.8 from Florence) would put it 1,650 ft further up the canyon.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:rmrc-fcc-guide",
+     "source:lidar-3dep",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "Junction of the Florence and Cripple Creek with its line from Canon City, at the mouth of Phantom Canyon; from an embankment on the lidar and a secondary guide.",
+    "valid_from": 1900,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.111593,
+     38.488169
+    ]
+   },
+   "properties": {
+    "id": "place:cramer",
+    "name": "Cramer",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "siding",
+    "basis": "A helper-engine base built in 1902 with a siding, wye and telegraph office, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance, checked against the two tunnels, which agrees with his milepost to 50 ft once his mileposts' unexplained 0.24 mile excess over the survey south of Adelaide is taken off. The bench along the line is two to three times its usual width for half a mile here, which may be the yard or only the open canyon mouth.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:lidar-3dep",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 7.9
+     }
+    ],
+    "summary": "A siding and helper base of 1902 near the foot of Phantom Canyon, from a secondary guide.",
+    "valid_from": 1902,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.110405,
+     38.495016
+    ]
+   },
+   "properties": {
+    "id": "place:russell",
+    "name": "Russell (Alabaster until 1895)",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "siding",
+    "basis": "A water tank and short siding for helper engines at the foot of the canyon, given up for Cramer in 1902, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance and his milepost, which agree to 10 ft but are both his. A short wide bench stands at the spot on the lidar.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:lidar-3dep",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 8.4
+     }
+    ],
+    "summary": "A water tank and siding at the foot of Phantom Canyon to 1902, from a secondary guide.",
+    "valid_from": 1894,
+    "valid_to": 1902
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.090987,
+     38.567129
+    ]
+   },
+   "properties": {
+    "id": "place:adelaide",
+    "name": "Adelaide (first site, to the flood of 1895)",
+    "grade": "inferred",
+    "error_ft": 300,
+    "kind": "stop",
+    "basis": "The Florence and Cripple Creek's timetable of 2 June 1895 prints Adelaide, a telegraph station, 17.4 miles from Florence. The pin is at 17.4 miles by the stationing of the railway's own survey of 1894, which the timetable's miles match (the Victor depot is 34.56 miles by stationing and 34.6 in the timetable). That falls on the surveyed line on the valley floor, 325 ft from the present road, and 124 ft from the mouth of East Fork Eightmile Creek. N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, says this first Adelaide was destroyed by the flood of 30 July 1895 and the station rebuilt down the canyon. The pin stood 1,100 ft from here before, measured along the atlas's line, which is shorter than the surveyed one.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:fcc-survey-1894",
+     "source:usgs-gnis",
+     "source:rmrc-fcc-guide"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 17.4
+     }
+    ],
+    "summary": "The first Adelaide, a telegraph station in the timetable of June 1895; by a secondary account destroyed in the flood of July 1895.",
+    "valid_from": 1894,
+    "valid_to": 1895
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.091227,
+     38.559807
+    ]
+   },
+   "properties": {
+    "id": "place:adelaide-second",
+    "name": "Adelaide (second site, 1895 to 1912)",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "stop",
+    "basis": "The USGS names list puts 'Adelaide' here (a name from a 1950s map, not a survey of the station), and the driving distance in N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, comes to within 200 ft of it; the pin is between the two, on the line, about half a mile down the canyon from the first site. He describes a depot, section house, tank and a siding of 1,192 ft, with foundations beside the road. His mileposts for this place do not fit (half a mile out). The bench is no wider here than elsewhere on the lidar.",
+    "sources": [
+     "source:usgs-gnis",
+     "source:rmrc-fcc-guide",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "Adelaide as rebuilt after the flood of 1895, by a secondary account; placed from the name on the government map.",
+    "valid_from": 1895,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.10981,
+     38.58954
+    ]
+   },
+   "properties": {
+    "id": "place:dale",
+    "name": "Dale",
+    "grade": "inferred",
+    "error_ft": 600,
+    "kind": "siding",
+    "basis": "A siding of 852 ft, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed at his milepost 20.4 on the 1894 survey's stationing, brought onto the atlas's line; his driving distance agrees to 300 ft. The survey here is itself good only to about 250 ft. It rests on that one secondary source: nothing on the lidar or any map held picks the place out.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 20.4
+     }
+    ],
+    "summary": "A siding in Phantom Canyon, from a secondary guide.",
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.13075,
+     38.608592
+    ]
+   },
+   "properties": {
+    "id": "place:glenbrook",
+    "name": "Glenbrook (Collins until 1895)",
+    "grade": "inferred",
+    "error_ft": 400,
+    "kind": "siding",
+    "basis": "A siding of 1,051 ft, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed at his milepost 22.4 on the 1894 survey's stationing; his driving distance, a separate measure, comes to within 44 ft of it. A side canyon comes in from the west 450 ft to the north, where the bench widens; at the pin itself it does not.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 22.4
+     }
+    ],
+    "summary": "A siding in Phantom Canyon, from a secondary guide; two of its figures agree.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.108159,
+     38.63326
+    ]
+   },
+   "properties": {
+    "id": "place:wilbur",
+    "name": "Wilbur",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "stop",
+    "basis": "The Florence and Cripple Creek's timetable of 2 June 1895 prints Wilbur, a telegraph station, 25.3 miles from Florence. The pin is at 25.3 miles by the stationing of the railway's own survey of 1894, which the timetable's miles match, on the bench the present road follows on the south side of the valley. N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, describes a depot, siding, tank and coaling dock with foundations north-west of the road, and his driving distance puts it 650 ft down the valley, where the floor is wide; the station is taken to lie between the two. The pin stood about 280 ft from here before, measured along the atlas's line. Note: the atlas's line here runs on the creek floor up to 100 ft from the surveyed bench.",
+    "sources": [
+     "source:official-guide-timetables",
+     "source:fcc-survey-1894",
+     "source:rmrc-fcc-guide",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 25.3
+     }
+    ],
+    "summary": "A telegraph station in the Florence and Cripple Creek's timetable of 1895, in Phantom Canyon; placed by the railway's survey stationing.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.113422,
+     38.651075
+    ]
+   },
+   "properties": {
+    "id": "place:loop",
+    "name": "Loop",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "siding",
+    "basis": "A siding of 909 ft between the two horseshoe curves, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed at his milepost 27.6 on the 1894 survey's stationing; his driving distance agrees to 400 ft. It does lie between the line's two horseshoes. It rests on that one secondary source: nothing on the lidar or any map held picks the place out.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 27.6
+     }
+    ],
+    "summary": "A siding between the two horseshoe curves in upper Phantom Canyon, from a secondary guide.",
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.128334,
+     38.680577
+    ]
+   },
+   "properties": {
+    "id": "place:alta-vista",
+    "name": "Alta Vista",
+    "grade": "inferred",
+    "error_ft": 800,
+    "kind": "stop",
+    "basis": "On the 1 m lidar the line climbs at 3.5 to 3.8 per cent to this point and is level for the next 1.6 miles; benches join and leave the line just beyond, and the bench is up to 120 ft wide. N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, calls Alta Vista the top of the four per cent grade and the end of the helper district, with yard tracks, a wye, depot and tank, and his driving distance falls here. His milepost (31.4) would put it 3,200 ft further on, where the bench is narrow and nothing joins it: not settled, hence the wide margin.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "The head of the long climb out of Phantom Canyon, where helper engines were cut off; placed at the top of the grade on the lidar.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.132475,
+     38.711096
+    ]
+   },
+   "properties": {
+    "id": "place:hollywood",
+    "name": "Hollywood (South Victor)",
+    "grade": "inferred",
+    "error_ft": 400,
+    "kind": "siding",
+    "basis": "A siding of 925 ft below a townsite also called South Victor, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed at his milepost 34.1 on the 1894 survey's stationing, which falls in a stretch of nearly half a mile where the bench is about 120 ft wide on the lidar. The USGS names list has 'Hollywood' 412 ft off the line a little further on.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894",
+     "source:usgs-gnis",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 34.1
+     }
+    ],
+    "summary": "A siding on the approach to Victor from Phantom Canyon, from a secondary guide; the bench is wide here.",
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.147729,
+     38.720696
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-eclipse",
+    "name": "Eclipse (Florence and Cripple Creek)",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "stop",
+    "basis": "The Florence and Cripple Creek's stopping place and the junction of its spur to the Elkton mine, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed at his milepost 36.1 on the 1894 survey's stationing, measured from both the Victor and the Cripple Creek depots (the two differ by 158 ft; the mean is used). It falls within 250 ft of the head of the survey's hairpin. The ground here has been mined away or buried, so nothing can be tested on it. The Midland Terminal had its own stopping place of this name on its own line, pinned separately 544 ft away; that pin is not moved.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 36.1
+     }
+    ],
+    "summary": "The Florence and Cripple Creek's own stop at Eclipse, apart from the Midland Terminal's; from a secondary guide's milepost.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.156159,
+     38.722893
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-elkton",
+    "name": "Elkton (Florence and Cripple Creek; Arequa until 1895)",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "stop",
+    "basis": "The Florence and Cripple Creek's station and two sidings, first called Arequa, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed at his milepost 36.9 on the 1894 survey's stationing, measured from both the Victor and the Cripple Creek depots (the two differ by 173 ft; the mean is used). The ground here has been mined away or buried, so nothing can be tested on it. The Midland Terminal had its own stopping place of this name on its own line, pinned separately 1,287 ft away; that pin is not moved.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 36.9
+     }
+    ],
+    "summary": "The Florence and Cripple Creek's own station at Elkton, apart from the Midland Terminal's; from a secondary guide's milepost.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.164074,
+     38.731802
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-anaconda",
+    "name": "Anaconda (Florence and Cripple Creek)",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "stop",
+    "basis": "A small depot and a loading place for the Mary McKinney mine, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed at his milepost 38.4 on the 1894 survey's stationing, measured from both the Victor and the Cripple Creek depots (the two differ by 148 ft; the mean is used). The USGS names list has 'Anaconda (historical)' 144 ft off the line about 200 ft further along. The ground here has been mined away or buried, so nothing can be tested on it. The Midland Terminal had its own stopping place of this name on its own line, pinned separately 1,066 ft away; that pin is not moved.",
+    "sources": [
+     "source:rmrc-fcc-guide",
+     "source:fcc-survey-1894",
+     "source:usgs-gnis"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-25",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": 38.4
+     }
+    ],
+    "summary": "The Florence and Cripple Creek's own stop at Anaconda, apart from the Midland Terminal's; from a secondary guide's milepost.",
+    "valid_from": 1894,
+    "valid_to": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.83465,
      38.828292
     ]
@@ -2238,68 +2798,6 @@
      }
     ],
     "summary": "A station in the Short Line's public timetable of 1909. Pinned from its printed mileage; not worked up yet."
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -105.087725,
-     38.568773
-    ]
-   },
-   "properties": {
-    "id": "place:adelaide",
-    "name": "Adelaide",
-    "grade": "inferred",
-    "error_ft": 1800,
-    "basis": "Placed by its printed mileage: 17.4 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.2 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
-    "sources": [
-     "source:official-guide-timetables"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25",
-    "kind": "stop",
-    "on_lines": [
-     {
-      "line": "line:florence-and-cripple-creek",
-      "milepost": 17.4
-     }
-    ],
-    "summary": "A telegraph station in the Florence and Cripple Creek's public timetable of 1895, in Phantom Canyon. Pinned from its printed mileage; not worked up yet."
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -105.107904,
-     38.633993
-    ]
-   },
-   "properties": {
-    "id": "place:wilbur",
-    "name": "Wilbur",
-    "grade": "inferred",
-    "error_ft": 1800,
-    "basis": "Placed by its printed mileage: 25.3 miles from Florence in the Florence and Cripple Creek's public timetable of 2 June 1895, where Victor is 34.6. Measured along the atlas's line from the railway's yard at Florence to its Victor depot, which is 34.2 miles as drawn and is fitted to the printed 34.6. The drawn line is shorter than the timetable by about half a mile, not explained, so the point is good to about a third of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
-    "sources": [
-     "source:official-guide-timetables"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25",
-    "kind": "stop",
-    "on_lines": [
-     {
-      "line": "line:florence-and-cripple-creek",
-      "milepost": 25.3
-     }
-    ],
-    "summary": "A telegraph station in the Florence and Cripple Creek's public timetable of 1895, in Phantom Canyon. Pinned from its printed mileage; not worked up yet."
    }
   },
   {

@@ -315,5 +315,13 @@
   "url": "https://digitalcollections.ppld.org/nodes/view/1046103",
   "date": "1894",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:usgs-gnis",
+  "kind": "gazetteer",
+  "title": "U.S. Geological Survey, Geographic Names Information System (names and points taken from USGS maps), through The National Map's gazetteer service",
+  "holder": "U.S. Geological Survey",
+  "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer",
+  "accessed": "2026-11-25"
  }
 ]
