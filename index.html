@@ -94,7 +94,7 @@ const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#
 const GRADE = { measured: { dash: null, what: 'Taken from the ground itself, a surveyed map or a photograph, and tested.' },
                 inferred: { dash: '10 6', what: 'Reasoned from evidence that bears on it but does not fix it directly.' },
                 conjecture: { dash: '2 7', what: 'Illustrative: drawn to keep the picture whole, without direct evidence.' } };
-const PIN = { worked: '#b45309', tunnel: '#475569', 'water works': '#0e7490', other: '#94a3b8' };
+const PIN = { worked: '#b45309', tunnel: '#475569', trestle: '#7e22ce', bridge: '#7e22ce', 'water works': '#0e7490', other: '#94a3b8' };
 const sample = (col, dash, w) => '<svg width="34" height="10" aria-hidden="true"><line x1="1" y1="5" x2="33" y2="5" stroke="' + col + '" stroke-width="' + (w || 4) + '"' + (dash ? ' stroke-dasharray="' + dash + '"' : '') + '/></svg>';
 const years = (a, b) => a ? a + (b ? ' to ' + b : ' on') : '';
 // a long basis, broken into paragraphs at its own turns of argument; the words are not changed
@@ -148,6 +148,11 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
       .bindTooltip(esc(p.name), { permanent: true, direction: 'right', offset: [worked ? 9 : 6, 0], className: 'lbl' + (worked ? '' : ' pinlbl') });
     const o = { kind: 'place', id: p.id, p, slug, worked, dated, lat, lon, layer, from: p.valid_from || 0, to: p.valid_to || 9999 };
     layer.on('click', e => { L.DomEvent.stopPropagation(e); select(o); }); pins.push(o);
+    if (p.local && p.local.ends) {          // a trestle, bridge or tunnel known by both ends: the span itself is drawn, with a tick at each end
+      const e = p.local.ends.map(q => [q[1], q[0]]);
+      o.span = L.layerGroup([L.polyline(e, { color: '#fff', weight: 9, opacity: 0.9, interactive: false }), L.polyline(e, { color: PIN[p.kind] || PIN.other, weight: 5, opacity: 1, interactive: false }),
+        ...e.map(q => L.circleMarker(q, { radius: 3, color: '#fff', weight: 1, fillColor: PIN[p.kind] || PIN.other, fillOpacity: 1, interactive: false }))]);
+    }
   }
   // ---- works that are not railways (a pipeline, an incline, a trail): teal or grey, dotted where conjecture
   const others = [];
@@ -175,6 +180,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
     '<p class="note" style="margin-top:6px">The colour of a line is the railway; its stroke is how well that stretch is known.</p>' +
     '<div class="key"><span class="dot" style="background:' + PIN.worked + ';width:14px;height:14px"></span>Worked up: has its own page (always shown)</div>' +
     '<div class="key"><span class="dot" style="background:' + PIN.tunnel + '"></span>Tunnel</div>' +
+    '<div class="key"><span class="dot" style="background:' + PIN.trestle + '"></span>Trestle or bridge; where both ends are known the span is drawn</div>' +
     '<div class="key"><span class="dot" style="background:' + PIN.other + '"></span>Station, siding, junction or settlement: a pin</div>' +
     '<div class="key"><span class="dot" style="background:' + PIN['water works'] + '"></span>Water works</div>' +
     '<div class="key"><span class="dot" style="background:' + PIN.other + ';opacity:.5"></span>Faint pin: its years are not established, so it shows in every year</div>' +
@@ -206,7 +212,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
     const y = +slider.value, running = new Set();
     $('yearlabel').textContent = all ? 'All years' : y; slider.style.opacity = all ? 0.4 : 1; allBtn.classList.toggle('on', all); allBtn.setAttribute('aria-pressed', all); slider.setAttribute('aria-valuetext', all ? 'all years' : y);
     for (const o of segs) { const on = vis(o), ow = owner(o.line, y); put(o.vis, on); put(o.hit, on); if (on) { running.add(ow.id); o.vis.setStyle({ color: COLOUR[ow.id] || '#111' }); } }
-    for (const o of pins) put(o.layer, vis(o));
+    for (const o of pins) { if (o.span) put(o.span, vis(o)); put(o.layer, vis(o)); }
     for (const o of others) { put(o.layer, vis(o)); put(o.hit, vis(o)); }
     for (const id in rows) rows[id].classList.toggle('off', !running.has(id));
     for (const b of $('events').children) b.classList.toggle('on', !all && +b.dataset.y === y);
@@ -242,6 +248,8 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
       const p = o.p, on = (p.on_lines || []).filter(x => LINE[x.line]);
       h = head(p.kind + (o.worked ? ', worked up' : ', a pin'), esc(p.name), p.valid_from ? esc(years(p.valid_from, p.valid_to)) : 'Years not established in the atlas' + (o.worked ? '' : ', so it is shown in every year')) +
           (o.worked ? '<a class="open" href="' + href(o.slug) + '">Open this place: map, pictures and account</a>' : '') + gradeBox(p.grade, p.error_ft) +
+          (p.local && p.local.ends ? '<p><b>' + (p.local.length_ft ? p.local.length_ft + ' ft between the ends' + (p.local.height_ft ? ', up to ' + p.local.height_ft + ' ft above the ground' : '') + '.</b><br>' : '') +
+             '<span class="note">Ends: ' + p.local.ends.map(q => q[1].toFixed(6) + ', ' + q[0].toFixed(6)).join(' and ') + '</span></p>' : '') +
           (on.length ? '<p class="note">On the ' + on.map(x => esc(LINE[x.line].name) + (x.milepost != null ? ', mile ' + x.milepost : '')).join('; ') + '.</p>' : '') +
           (o.worked ? '<h3>In brief</h3>' + paras(p.summary) : (p.summary ? '<p>' + esc(p.summary) + '</p>' : '') + '<h3>How it was placed</h3>' + paras(p.basis) + '<p class="note">A pin only: this place has not been worked up yet.</p>') +
           picLink(p.id) + '<h3>Sources</h3><div id="psrc">' + srcList(p.sources) + '</div>' + foot();

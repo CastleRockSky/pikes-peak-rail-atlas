@@ -332,5 +332,39 @@
   "url": "https://www.coloradohistoricnewspapers.org/",
   "date": "1894-1897",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:engineering-news-1902-short-line",
+  "kind": "engineering article",
+  "title": "W. P. Hardesty, 'The Colorado Springs & Cripple Creek District Railway', Engineering News, vol. 47 no. 18, 1 May 1902, pp. 347-348. Read from the Internet Archive's machine text, not yet checked on the page; extracts in research/structures/written-record.md",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/sim_enr_engineering-news-record-_1902-05-01_47_18",
+  "date": "1902",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:haer-adelaide-bridge-1984",
+  "kind": "register nomination",
+  "title": "Adelaide Bridge (Bridge No. 10, site 5FN.48), Colorado bridge inventory form by C. Fraser and others, 1984, in the National Register file 85000208: a later account from a field inspection of 1983. Read on the page",
+  "holder": "National Park Service",
+  "url": "https://npgallery.nps.gov/NRHP/GetAsset/NRHP/85000208_text",
+  "date": "1984",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:rlhs-bulletin-36-1935",
+  "kind": "secondary accounts",
+  "title": "Railway and Locomotive Historical Society Bulletin 36 (1935), on the Colorado Midland: a later account. Read as machine text; extracts in research/structures/written-record.md",
+  "holder": "Railway and Locomotive Historical Society",
+  "date": "1935",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:ppld-iron-springs-bridge-records",
+  "kind": "photograph catalogue records",
+  "title": "Catalogue records of photographs of the Colorado Midland's bridge at Manitou Iron Springs: 'Iron Springs Bridge' under construction, about 1886 (001-390), and the wreck on the Ruxton Avenue bridge of 10 September 1909 (001-384, 001-8333, 411-41). Captions only; the pictures are not reproduced. Listed in research/structures/written-record.md",
+  "holder": "Pikes Peak Library District, Regional History and Genealogy",
+  "url": "https://digitalcollections.ppld.org/nodes/view/14972",
+  "accessed": "2026-11-26"
  }
 ]

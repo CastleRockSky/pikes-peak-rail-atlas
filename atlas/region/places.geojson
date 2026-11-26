@@ -549,8 +549,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.928562,
-     38.870974
+     -104.928312,
+     38.870781
     ]
    },
    "properties": {
@@ -559,8 +559,8 @@
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99249992: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded. On the 1 m lidar the route passes under cover here for about 246 ft (up to 64 ft of ground above the grade line), from 38.87180, -104.92933 to 38.87140, -104.92874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the 1 m lidar the route passes under cover here for about 492 ft (up to 96 ft of ground above the grade line), from 38.87131, -104.92871 to 38.87024, -104.92863: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "error_ft": 20,
+    "basis": "OpenStreetMap way 99249992: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded. A Google Earth file supplied by the owner marks 'Tunnel 4' 140 ft from this pin and 'Tunnel 5' 260 ft from it. OpenStreetMap draws one tunnel here, about 680 ft; whether that is two tunnels run together has not been checked on the ground. Who numbered them is not recorded. On the 1 m lidar the route passes under cover here for about 246 ft (up to 64 ft of ground above the grade line), from 38.87180, -104.92933 to 38.87140, -104.92874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the 1 m lidar the route passes under cover here for about 492 ft (up to 96 ft of ground above the grade line), from 38.87131, -104.92871 to 38.87024, -104.92863: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Portals read from the 1 m lidar (26 November 2026): 38.870163, -104.928295 and 38.871399, -104.928328, 471 ft apart along the bore, good to about 20 and 10 ft. South face rises over about 12 m (talus), north face sharp; an open cut separates this bore from the short bore to the north (new-1): about 60 ft between the faces, the middle 25 ft at grade: two tunnels, as the supplied map numbers them (4 and 5) and as research/30 found. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
     "sources": [
      "source:osm-railways",
      "source:owner-supplied-google-earth",
@@ -568,7 +568,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -576,7 +576,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland Railway, about 680 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+    "summary": "A tunnel on the Colorado Midland Railway, about 680 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established.",
+    "local": {
+     "ends": [
+      [
+       -104.928295,
+       38.870163
+      ],
+      [
+       -104.928328,
+       38.871399
+      ]
+     ],
+     "length_ft": 471
+    }
    }
   },
   {
@@ -584,42 +597,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.929374,
-     38.867575
-    ]
-   },
-   "properties": {
-    "id": "place:cm-tunnel-b",
-    "name": "Colorado Midland tunnel, about 210 ft (number not established)",
-    "valid_from": 1887,
-    "valid_to": 1921,
-    "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 89496969: a tunnel on the grade. Its length is the map trace's. The supplied Google Earth file marks no separate tunnel here; its 'Tunnel 3' point is 250 ft to the north. This may be part of Tunnel 3 or a mapping duplicate.",
-    "sources": [
-     "source:osm-railways",
-     "source:owner-supplied-google-earth"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-25",
-    "kind": "tunnel",
-    "on_lines": [
-     {
-      "line": "line:colorado-midland",
-      "milepost": null
-     }
-    ],
-    "summary": "A tunnel on the Colorado Midland Railway, about 210 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -104.92956,
-     38.868247
+     -104.929386,
+     38.868006
     ]
    },
    "properties": {
@@ -628,8 +607,8 @@
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 89570001: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin. On the 1 m lidar the route passes under cover here for about 755 ft (up to 99 ft of ground above the grade line), from 38.86882, -104.92956 to 38.86727, -104.92873: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 89570001: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 3' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 10 ft from this pin. On the 1 m lidar the route passes under cover here for about 755 ft (up to 99 ft of ground above the grade line), from 38.86882, -104.92956 to 38.86727, -104.92873: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Portals read from the 1 m lidar (26 November 2026): 38.867367, -104.929203 and 38.868644, -104.929569, 509 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; one continuous curved bore (no gap at grade) where openstreetmap draws two ways (cm-tunnel-b and cm-tunnel-c). A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026. One curved bore 509 ft long; the pin cm-tunnel-b, which stood 31 ft from the same bore, has been withdrawn as a second pin on it. The Engineering and Mining Journal of 19 March 1887 (machine text, not checked on the page) gives 'Tunnel No. 5' as 515 ft, which is this bore's length and not that of the short bore the supplied map numbers 5: the supplied map's numbers may not be the railway's. Not settled.",
     "sources": [
      "source:osm-railways",
      "source:owner-supplied-google-earth",
@@ -637,7 +616,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -645,7 +624,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland Railway, about 330 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+    "summary": "A tunnel on the Colorado Midland Railway, about 330 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established.",
+    "local": {
+     "ends": [
+      [
+       -104.929203,
+       38.867367
+      ],
+      [
+       -104.929569,
+       38.868644
+      ]
+     ],
+     "length_ft": 509
+    }
    }
   },
   {
@@ -653,8 +645,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.930311,
-     38.875164
+     -104.930324,
+     38.875193
     ]
    },
    "properties": {
@@ -663,8 +655,8 @@
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. On the 1 m lidar the route passes under cover here for about 148 ft (up to 36 ft of ground above the grade line), from 38.87530, -104.93023 to 38.87496, -104.93009: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 May 2025, taken about 45 ft from the portal found on the lidar, look out of an unlined bore through an open mouth.",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 89570000: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 7' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 33 ft from this pin. On the 1 m lidar the route passes under cover here for about 148 ft (up to 36 ft of ground above the grade line), from 38.87530, -104.93023 to 38.87496, -104.93009: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 May 2025, taken about 45 ft from the portal found on the lidar, look out of an unlined bore through an open mouth. Portals read from the 1 m lidar (26 November 2026): 38.875079, -104.930278 and 38.875307, -104.930370, 87 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp and near vertical: a short bore through a rock nose; the bench continues either side. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
     "sources": [
      "source:osm-railways",
      "source:owner-supplied-google-earth",
@@ -673,7 +665,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -681,7 +673,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland Railway, about 140 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+    "summary": "A tunnel on the Colorado Midland Railway, about 140 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established.",
+    "local": {
+     "ends": [
+      [
+       -104.930278,
+       38.875079
+      ],
+      [
+       -104.93037,
+       38.875307
+      ]
+     ],
+     "length_ft": 87
+    }
    }
   },
   {
@@ -689,8 +694,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.930282,
-     38.873721
+     -104.930283,
+     38.873705
     ]
    },
    "properties": {
@@ -699,8 +704,8 @@
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 89569998: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin. On the 1 m lidar the route passes under cover here for about 164 ft (up to 38 ft of ground above the grade line), from 38.87392, -104.93013 to 38.87354, -104.93008: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 89569998: a tunnel on the grade. Its length is the map trace's. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin. A Google Earth file supplied by the owner marks 'Tunnel 6' at this spot. Who numbered it, and from what, is not recorded, so the number is a secondary attribution. The marked point is 23 ft from this pin. On the 1 m lidar the route passes under cover here for about 164 ft (up to 38 ft of ground above the grade line), from 38.87392, -104.93013 to 38.87354, -104.93008: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Portals read from the 1 m lidar (26 November 2026): 38.873536, -104.930298 and 38.873875, -104.930268, 124 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
     "sources": [
      "source:osm-railways",
      "source:owner-supplied-google-earth",
@@ -708,7 +713,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -716,7 +721,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland Railway, about 170 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+    "summary": "A tunnel on the Colorado Midland Railway, about 170 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established.",
+    "local": {
+     "ends": [
+      [
+       -104.930298,
+       38.873536
+      ],
+      [
+       -104.930268,
+       38.873875
+      ]
+     ],
+     "length_ft": 124
+    }
    }
   },
   {
@@ -724,8 +742,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.933962,
-     38.875985
+     -104.933943,
+     38.875962
     ]
    },
    "properties": {
@@ -734,8 +752,8 @@
     "valid_from": 1887,
     "valid_to": 1921,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 89569990: a tunnel on the grade. Its length is the map trace's. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there. On the 1 m lidar the route passes under cover here for about 623 ft (up to 36 ft of ground above the grade line), from 38.87625, -104.93372 to 38.87580, -104.93162: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "error_ft": 15,
+    "basis": "OpenStreetMap way 89569990: a tunnel on the grade. Its length is the map trace's. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there. The supplied Google Earth file numbers seven tunnels and stops at Tunnel 7, 1,000 ft down the line from here. By position this would be an eighth; it is not numbered there. On the 1 m lidar the route passes under cover here for about 623 ft (up to 36 ft of ground above the grade line), from 38.87625, -104.93372 to 38.87580, -104.93162: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Portals read from the 1 m lidar (26 November 2026): 38.875877, -104.934331 and 38.876048, -104.933556, 229 ft apart along the bore, good to about 15 and 15 ft. Both faces sharp, but the approach floors stand 5-7 m above the grade read from the benches 40-60 m away (fill or fallen rock in the cuts, or a misread grade). A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
     "sources": [
      "source:osm-railways",
      "source:owner-supplied-google-earth",
@@ -743,7 +761,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -751,7 +769,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland Railway, about 240 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+    "summary": "A tunnel on the Colorado Midland Railway, about 240 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established.",
+    "local": {
+     "ends": [
+      [
+       -104.934331,
+       38.875877
+      ],
+      [
+       -104.933556,
+       38.876048
+      ]
+     ],
+     "length_ft": 229
+    }
    }
   },
   {
@@ -759,8 +790,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.885671,
-     38.797874
+     -104.885338,
+     38.798239
     ]
    },
    "properties": {
@@ -769,8 +800,8 @@
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 117996143: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 1 at milepost 0.6 from Point Sublime, 325 ft long.",
+    "error_ft": 30,
+    "basis": "OpenStreetMap way 117996143: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 1 at milepost 0.6 from Point Sublime, 325 ft long. Portals read from the 1 m lidar (26 November 2026): 38.798649, -104.884941 and 38.797830, -104.885736, 390 ft apart along the bore, good to about 10 and 30 ft. North-east face sharp; south-west end rises gradually over about 18 m (talus, fill or a long cut end), so that portal is the weaker of the two. road grade continuous through both ends. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -778,7 +809,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -786,7 +817,20 @@
       "milepost": null
      }
     ],
-    "summary": "Tunnel No. 1 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 325 ft long by the National Register nomination of 1999, a secondary source. Not worked up."
+    "summary": "Tunnel No. 1 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 325 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
+    "local": {
+     "ends": [
+      [
+       -104.884941,
+       38.798649
+      ],
+      [
+       -104.885736,
+       38.79783
+      ]
+     ],
+     "length_ft": 390
+    }
    }
   },
   {
@@ -794,8 +838,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.898111,
-     38.794321
+     -104.898098,
+     38.79433
     ]
    },
    "properties": {
@@ -804,8 +848,8 @@
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99568977: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 2 at milepost 1.5 from Point Sublime, 185 ft long.",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 99568977: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 2 at milepost 1.5 from Point Sublime, 185 ft long. Portals read from the 1 m lidar (26 November 2026): 38.794523, -104.897954 and 38.794137, -104.898242, 165 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; approach floors clear; road grade continuous. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -813,7 +857,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -821,7 +865,20 @@
       "milepost": null
      }
     ],
-    "summary": "Tunnel No. 2 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 185 ft long by the National Register nomination of 1999, a secondary source. Not worked up."
+    "summary": "Tunnel No. 2 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 185 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
+    "local": {
+     "ends": [
+      [
+       -104.897954,
+       38.794523
+      ],
+      [
+       -104.898242,
+       38.794137
+      ]
+     ],
+     "length_ft": 165
+    }
    }
   },
   {
@@ -829,8 +886,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.904041,
-     38.73957
+     -104.904143,
+     38.73961
     ]
    },
    "properties": {
@@ -839,8 +896,8 @@
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photograph of 29 November 2025, taken about 15 ft from the western portal found on the lidar, shows the inside by torchlight: timber sets standing along one wall and the floor deep in fallen rock. McClure's 'Tunnel No. 8' also shows timbering inside the bore, which agrees with the number without proving it. The nomination gives Tunnel No. 8 at milepost 11.5 from Point Sublime, 170 ft long.",
+    "error_ft": 15,
+    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photograph of 29 November 2025, taken about 15 ft from the western portal found on the lidar, shows the inside by torchlight: timber sets standing along one wall and the floor deep in fallen rock. McClure's 'Tunnel No. 8' also shows timbering inside the bore, which agrees with the number without proving it. The nomination gives Tunnel No. 8 at milepost 11.5 from Point Sublime, 170 ft long. Portals read from the 1 m lidar (26 November 2026): 38.739573, -104.903873 and 38.739648, -104.904413, 157 ft apart along the bore, good to about 15 and 10 ft. South-east face rises over about 10 m, north-west face sharp; the present road goes round the spur's nose (the green bench in the picture), the bore cuts its base. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -849,7 +906,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -857,7 +914,20 @@
       "milepost": null
      }
     ],
-    "summary": "Tunnel No. 8 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 170 ft long by the National Register nomination of 1999, a secondary source. Not worked up."
+    "summary": "Tunnel No. 8 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 170 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
+    "local": {
+     "ends": [
+      [
+       -104.903873,
+       38.739573
+      ],
+      [
+       -104.904413,
+       38.739648
+      ]
+     ],
+     "length_ft": 157
+    }
    }
   },
   {
@@ -865,8 +935,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.907648,
-     38.752827
+     -104.907654,
+     38.752823
     ]
    },
    "properties": {
@@ -875,8 +945,8 @@
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99569027: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 5 at milepost 8.3 from Point Sublime, 263 ft long.",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 99569027: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 5 at milepost 8.3 from Point Sublime, 263 ft long. Portals read from the 1 m lidar (26 November 2026): 38.752832, -104.908082 and 38.752815, -104.907226, 246 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; approach floors clear. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -884,7 +954,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -892,7 +962,20 @@
       "milepost": null
      }
     ],
-    "summary": "Tunnel No. 5 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 263 ft long by the National Register nomination of 1999, a secondary source. Not worked up."
+    "summary": "Tunnel No. 5 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 263 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
+    "local": {
+     "ends": [
+      [
+       -104.908082,
+       38.752832
+      ],
+      [
+       -104.907226,
+       38.752815
+      ]
+     ],
+     "length_ft": 246
+    }
    }
   },
   {
@@ -900,8 +983,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.907039,
-     38.786478
+     -104.907078,
+     38.786458
     ]
    },
    "properties": {
@@ -910,8 +993,8 @@
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken about 45 ft from this pin, show an unlined bore in granite, open from end to end, with a steel bar gate across one mouth. The nomination gives Tunnel No. 3 at milepost 3.4 from Point Sublime, 278 ft long. It also says this tunnel 'finally collapsed in 1988'; the owner's photographs of November 2025, taken at this pin, show a bore open from end to end behind a gate. The two do not agree and the reason is not known. The owner, who has been inside, believes it collapsed in part and that the road was then built round it (said 25 November 2026). That would square the two: a fall that closed the tunnel to traffic while leaving daylight through it. Not checked against a record.",
+    "error_ft": 25,
+    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken about 45 ft from this pin, show an unlined bore in granite, open from end to end, with a steel bar gate across one mouth. The nomination gives Tunnel No. 3 at milepost 3.4 from Point Sublime, 278 ft long. It also says this tunnel 'finally collapsed in 1988'; the owner's photographs of November 2025, taken at this pin, show a bore open from end to end behind a gate. The two do not agree and the reason is not known. The owner, who has been inside, believes it collapsed in part and that the road was then built round it (said 25 November 2026). That would square the two: a fall that closed the tunnel to traffic while leaving daylight through it. Not checked against a record. Portals read from the 1 m lidar (26 November 2026): 38.786871, -104.907413 and 38.786046, -104.906743, 376 ft apart along the bore, good to about 25 and 25 ft. Both ends rise gradually (rise width about 14 m), so the faces are buried or the cut ends are long; a narrow trench 4-8 m above grade runs about 100 ft north from the south portal along the axis (measured shape; read as a fall or an open cut at the south end, conjecture). A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -920,7 +1003,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -928,7 +1011,20 @@
       "milepost": null
      }
     ],
-    "summary": "Tunnel No. 3 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 278 ft long by the National Register nomination of 1999, a secondary source. Not worked up."
+    "summary": "Tunnel No. 3 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 278 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
+    "local": {
+     "ends": [
+      [
+       -104.907413,
+       38.786871
+      ],
+      [
+       -104.906743,
+       38.786046
+      ]
+     ],
+     "length_ft": 376
+    }
    }
   },
   {
@@ -936,8 +1032,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.909454,
-     38.736582
+     -104.909997,
+     38.736597
     ]
    },
    "properties": {
@@ -946,8 +1042,8 @@
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken 110 to 200 ft from this pin, show one open mouth in a granite face and a low hole at the foot of another; a third picture, placed here only by its time, shows the inside heaped with fallen rock. The nomination gives Tunnel No. 7 at milepost 11.0 from Point Sublime, 270 ft long.",
+    "error_ft": 15,
+    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken 110 to 200 ft from this pin, show one open mouth in a granite face and a low hole at the foot of another; a third picture, placed here only by its time, shows the inside heaped with fallen rock. The nomination gives Tunnel No. 7 at milepost 11.0 from Point Sublime, 270 ft long. Portals read from the 1 m lidar (26 November 2026): 38.736842, -104.910306 and 38.736351, -104.909687, 251 ft apart along the bore, good to about 15 and 15 ft. Both faces fairly sharp (4-6 m rise) on the axis of the openstreetmap tunnel; the checked route does not follow this axis: it crosses the hill 55-70 ft away and the drawn line with it. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -956,7 +1052,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -964,7 +1060,20 @@
       "milepost": null
      }
     ],
-    "summary": "Tunnel No. 7 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 270 ft long by the National Register nomination of 1999, a secondary source. Not worked up."
+    "summary": "Tunnel No. 7 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 270 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
+    "local": {
+     "ends": [
+      [
+       -104.910306,
+       38.736842
+      ],
+      [
+       -104.909687,
+       38.736351
+      ]
+     ],
+     "length_ft": 251
+    }
    }
   },
   {
@@ -972,8 +1081,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.025806,
-     38.731856
+     -105.025769,
+     38.73187
     ]
    },
    "properties": {
@@ -982,15 +1091,16 @@
     "valid_from": 1901,
     "valid_to": 1920,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 99569089: a tunnel on the grade. Its length is the map trace's. The westernmost tunnel OpenStreetMap marks on the Short Line, and the ninth counting those found on the lidar east of it. No 1 m lidar is published here, so it has not been tested. The westernmost tunnel OpenStreetMap marks on the Short Line, about 1,700 ft west of the Clyde pin. The National Register nomination of 1999 says: 'Immediately west of Clyde the road enters Tunnel No. 9 (milepost 24.6), which is 268' long, curved, and heavily timbered', and its map labels the tunnel there. An interpretive sign at Clyde, photographed by the owner, says the same and gives about 245 ft and a restoration in 2010-11; the State Historical Fund lists a grant of $200,000 to Teller County for 'Short Line Tunnel #9 - Gold Camp Road Tunnel'. So this is No. 9, the last of the nine. The position is OpenStreetMap's: no 1 m lidar is published here, so it is not tested against the ground. The three lengths given (268 ft, 245 ft, and about 220 ft on the modern map) do not agree. All of this is from secondary sources. The nomination gives Tunnel No. 9 at milepost 24.6 from Point Sublime, 268 ft long.",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 99569089: a tunnel on the grade. Its length is the map trace's. The westernmost tunnel OpenStreetMap marks on the Short Line, and the ninth counting those found on the lidar east of it. No 1 m lidar is published here, so it has not been tested. The westernmost tunnel OpenStreetMap marks on the Short Line, about 1,700 ft west of the Clyde pin. The National Register nomination of 1999 says: 'Immediately west of Clyde the road enters Tunnel No. 9 (milepost 24.6), which is 268' long, curved, and heavily timbered', and its map labels the tunnel there. An interpretive sign at Clyde, photographed by the owner, says the same and gives about 245 ft and a restoration in 2010-11; the State Historical Fund lists a grant of $200,000 to Teller County for 'Short Line Tunnel #9 - Gold Camp Road Tunnel'. So this is No. 9, the last of the nine. The position is OpenStreetMap's: no 1 m lidar is published here, so it is not tested against the ground. The three lengths given (268 ft, 245 ft, and about 220 ft on the modern map) do not agree. All of this is from secondary sources. The nomination gives Tunnel No. 9 at milepost 24.6 from Point Sublime, 268 ft long. Portals read from the 1 m lidar (26 November 2026): 38.731923, -105.025383 and 38.731816, -105.026156, 225 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road grade continuous through: consistent with the open, restored road tunnel the sign describes. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -998,7 +1108,20 @@
       "milepost": null
      }
     ],
-    "summary": "Tunnel No. 9 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 268 ft long by the National Register nomination of 1999, a secondary source. Not worked up."
+    "summary": "Tunnel No. 9 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 268 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
+    "local": {
+     "ends": [
+      [
+       -105.025383,
+       38.731923
+      ],
+      [
+       -105.026156,
+       38.731816
+      ]
+     ],
+     "length_ft": 225
+    }
    }
   },
   {
@@ -1006,18 +1129,18 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.104881,
-     38.547588
+     -105.104916,
+     38.547553
     ]
    },
    "properties": {
     "id": "place:fcc-tunnel-a",
-    "name": "Florence and Cripple Creek tunnel, about 290 ft (number not established)",
+    "name": "Florence and Cripple Creek tunnel of 1896 (northern, on the high line)",
     "valid_from": 1896,
     "valid_to": 1915,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This tunnel was not on the line as first built: it was driven in 1896 for the 'high line' that replaced the first line on the canyon floor after the cloudburst of 30 July 1895. Newspapers of the time, read on the page images: 'A start has also been made on the north end of the tunnel at mile post 15. This tunnel will be 275 feet in length' (Colorado Daily Chieftain, 23 March 1896); a blast 'on the tunnel between Adelaide and McCourt' on the night of 9 April 1896 killed one man, P. McGinnis (Rocky Mountain News, 10 and 11 April 1896); the contractors 'have let daylight through the new tunnel near Adelaide' (Colorado Weekly Chieftain, 21 May 1896); and the high line opened on 27 June 1896. That the tunnel of those reports is this one is inferred: it is 14.8 miles from Florence by the survey's stationing, and the other tunnel is at 11.0. The railway's field notes of 1894 (Sumner's amended-route map) agree: near station 782 from Florence they go 1,800 ft round the creek's bend south of the spur, on the valley floor, where the road goes 970 ft through it. No grade round the bend survives on the lidar that can be told from the creek's own deposits. Length: 275 ft as planned in 1896; about 290 ft on the modern map; 230 ft under cover on the lidar; 215 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 2. No length as built has been found in a record of the time. Holmes dates its start to February 1894, which the newspapers contradict: that was the other tunnel.",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This tunnel was not on the line as first built: it was driven in 1896 for the 'high line' that replaced the first line on the canyon floor after the cloudburst of 30 July 1895. Newspapers of the time, read on the page images: 'A start has also been made on the north end of the tunnel at mile post 15. This tunnel will be 275 feet in length' (Colorado Daily Chieftain, 23 March 1896); a blast 'on the tunnel between Adelaide and McCourt' on the night of 9 April 1896 killed one man, P. McGinnis (Rocky Mountain News, 10 and 11 April 1896); the contractors 'have let daylight through the new tunnel near Adelaide' (Colorado Weekly Chieftain, 21 May 1896); and the high line opened on 27 June 1896. That the tunnel of those reports is this one is inferred: it is 14.8 miles from Florence by the survey's stationing, and the other tunnel is at 11.0. The railway's field notes of 1894 (Sumner's amended-route map) agree: near station 782 from Florence they go 1,800 ft round the creek's bend south of the spur, on the valley floor, where the road goes 970 ft through it. No grade round the bend survives on the lidar that can be told from the creek's own deposits. Length: 275 ft as planned in 1896; about 290 ft on the modern map; 230 ft under cover on the lidar; 215 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 2. No length as built has been found in a record of the time. Holmes dates its start to February 1894, which the newspapers contradict: that was the other tunnel. Portals read from the 1 m lidar (26 November 2026): 38.547305, -105.105164 and 38.547800, -105.104667, 230 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road (phantom canyon road) runs through: consistent with an open road tunnel. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -1027,7 +1150,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1035,7 +1158,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Florence and Cripple Creek Railroad, about 290 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+    "summary": "The northern tunnel in Phantom Canyon, driven in the spring of 1896 for the high line; the road runs through it. 230 ft between the portals on the lidar; 275 ft as planned in 1896. Its number on the railway is not established.",
+    "local": {
+     "ends": [
+      [
+       -105.105164,
+       38.547305
+      ],
+      [
+       -105.104667,
+       38.5478
+      ]
+     ],
+     "length_ft": 230
+    }
    }
   },
   {
@@ -1043,18 +1179,18 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.12489,
-     38.519581
+     -105.124859,
+     38.51958
     ]
    },
    "properties": {
     "id": "place:fcc-tunnel-b",
-    "name": "Florence and Cripple Creek tunnel, about 190 ft (number not established)",
+    "name": "Florence and Cripple Creek tunnel of 1894 (southern)",
     "valid_from": 1894,
     "valid_to": 1915,
     "grade": "measured",
-    "error_ft": 40,
-    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This was the only tunnel on the line as first built. 'The 165-foot tunnel on the Florence and Cripple Creek railroad in Eight Mile canon, eleven miles from this city, was cut through the rock yesterday' (Rocky Mountain News, dated Florence 18 February 1894, read on the page image): so holed through on 17 February 1894. In the flood of 30 July 1895 'the water in the tunnel was 6 feet high' (Florence Chronicle, quoted in the Colorado Daily Chieftain, 3 August 1895). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, 11.0 miles out, which agrees with the newspaper's eleven miles. The notes mention no tunnel anywhere. Length: 165 ft in the newspaper of 1894; about 190 ft on the modern map; 131 ft under cover on the lidar; 314 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 1. Not settled.",
+    "error_ft": 10,
+    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This was the only tunnel on the line as first built. 'The 165-foot tunnel on the Florence and Cripple Creek railroad in Eight Mile canon, eleven miles from this city, was cut through the rock yesterday' (Rocky Mountain News, dated Florence 18 February 1894, read on the page image): so holed through on 17 February 1894. In the flood of 30 July 1895 'the water in the tunnel was 6 feet high' (Florence Chronicle, quoted in the Colorado Daily Chieftain, 3 August 1895). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, 11.0 miles out, which agrees with the newspaper's eleven miles. The notes mention no tunnel anywhere. Length: 165 ft in the newspaper of 1894; about 190 ft on the modern map; 131 ft under cover on the lidar; 314 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 1. Not settled. Portals read from the 1 m lidar (26 November 2026): 38.519567, -105.124594 and 38.519592, -105.125123, 151 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road runs through: consistent with an open road tunnel. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
@@ -1064,7 +1200,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1072,7 +1208,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Florence and Cripple Creek Railroad, about 190 ft long by the map. Lettered here from the east end of the line only to tell the tunnels apart; its number on the railway has not been established."
+    "summary": "The southern tunnel in Phantom Canyon, holed through on 17 February 1894 and the only one on the line as first built; the road runs through it. 151 ft between the portals on the lidar; 165 ft in a newspaper of 1894. Its number on the railway is not established.",
+    "local": {
+     "ends": [
+      [
+       -105.124594,
+       38.519567
+      ],
+      [
+       -105.125123,
+       38.519592
+      ]
+     ],
+     "length_ft": 151
+    }
    }
   },
   {
@@ -1096,7 +1245,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "town",
     "on_lines": [
      {
@@ -1128,7 +1277,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "other",
     "on_lines": [
      {
@@ -1160,7 +1309,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "other",
     "on_lines": [
      {
@@ -1192,7 +1341,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "town",
     "on_lines": [
      {
@@ -1224,7 +1373,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "other",
     "on_lines": [
      {
@@ -1256,7 +1405,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -1288,7 +1437,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -1320,7 +1469,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -1353,7 +1502,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "town",
     "on_lines": [
      {
@@ -1369,23 +1518,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.923413,
-     38.857512
+     -104.923463,
+     38.857457
     ]
    },
    "properties": {
     "id": "place:cm-tunnel-1",
     "name": "Colorado Midland Tunnel 1 (as numbered on a supplied map)",
     "grade": "inferred",
-    "error_ft": 150,
-    "basis": "Marked 'Tunnel 1' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded, and it has not been checked on the lidar or the ground. On the 1 m lidar the route passes under cover here for about 213 ft (up to 41 ft of ground above the grade line), from 38.85765, -104.92395 to 38.85777, -104.92326: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py).",
+    "error_ft": 40,
+    "basis": "Marked 'Tunnel 1' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded, and it has not been checked on the lidar or the ground. On the 1 m lidar the route passes under cover here for about 213 ft (up to 41 ft of ground above the grade line), from 38.85765, -104.92395 to 38.85777, -104.92326: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Portals read from the 1 m lidar (26 November 2026): 38.857458, -104.923663 and 38.857456, -104.923263, 114 ft apart along the bore, good to about 30 and 40 ft. No sharp faces: the ground rises gradually at both ends over 15-20 m; the east end meets a steep scarp. portals buried or the bore line is not exactly this one. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
     "sources": [
      "source:owner-supplied-google-earth",
      "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1393,7 +1542,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland above Manitou, pinned from a supplied map; nothing here has been worked up yet."
+    "summary": "A tunnel on the Colorado Midland above Manitou, pinned from a supplied map; nothing here has been worked up yet.",
+    "local": {
+     "ends": [
+      [
+       -104.923663,
+       38.857458
+      ],
+      [
+       -104.923263,
+       38.857456
+      ]
+     ],
+     "length_ft": 114
+    }
    }
   },
   {
@@ -1401,23 +1563,24 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.926251,
-     38.857131
+     -104.926247,
+     38.857084
     ]
    },
    "properties": {
     "id": "place:cm-tunnel-2",
     "name": "Colorado Midland Tunnel 2 (as numbered on a supplied map)",
     "grade": "inferred",
-    "error_ft": 150,
-    "basis": "Marked 'Tunnel 2' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded. On the ground: the owner's photographs of 9 August 2025, taken 30 to 140 ft from this pin, show a short bore through a spur of red rock, open from end to end, with timber posts along one wall. The search of the lidar did not find a tunnel here; the photographs show there is one. Its number is still the supplied map's.",
+    "error_ft": 20,
+    "basis": "Marked 'Tunnel 2' in a Google Earth file supplied by the owner; the point lies about 120 ft from the checked route. OpenStreetMap draws no tunnel here. Who marked and numbered it is not recorded. On the ground: the owner's photographs of 9 August 2025, taken 30 to 140 ft from this pin, show a short bore through a spur of red rock, open from end to end, with timber posts along one wall. The search of the lidar did not find a tunnel here; the photographs show there is one. Its number is still the supplied map's. Portals read from the 1 m lidar (26 November 2026): 38.857071, -104.926335 and 38.857098, -104.926159, 51 ft apart along the bore, good to about 20 and 15 ft. A small rock knob about 50 ft through, standing up to 52 ft over a bench at about 1986 m on either side; the present path goes round its north side. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
     "sources": [
      "source:owner-supplied-google-earth",
-     "source:owner-field-photographs"
+     "source:owner-field-photographs",
+     "source:lidar-3dep"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1425,7 +1588,20 @@
       "milepost": null
      }
     ],
-    "summary": "A tunnel on the Colorado Midland near Iron Springs, pinned from a supplied map and seen on the ground: a short open bore in red rock."
+    "summary": "A tunnel on the Colorado Midland near Iron Springs, pinned from a supplied map and seen on the ground: a short open bore in red rock.",
+    "local": {
+     "ends": [
+      [
+       -104.926335,
+       38.857071
+      ],
+      [
+       -104.926159,
+       38.857098
+      ]
+     ],
+     "length_ft": 51
+    }
    }
   },
   {
@@ -1433,16 +1609,16 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.901747,
-     38.741489
+     -104.901736,
+     38.741496
     ]
    },
    "properties": {
     "id": "place:cscc-tunnel-lidar-6",
     "name": "Short Line Tunnel No. 6 (shut; found on the lidar)",
     "grade": "inferred",
-    "error_ft": 60,
-    "basis": "Not on any map held. Found on the lidar only: Counted along the line from Colorado Springs this is the sixth tunnel, at about 15.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 197 ft (up to 121 ft of ground above the grade line), from 38.74169, -104.90197 to 38.74128, -104.90153: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 13 June 2026, taken about 25 ft from the north-west portal found on the lidar, show a low hole under broken granite, choked with fallen rock: a tunnel is here and its mouth is shut, as the library's note says. The nomination gives Tunnel No. 6 at milepost 10.0 from Point Sublime, 200 ft long. It calls this one collapsed and bypassed.",
+    "error_ft": 15,
+    "basis": "Not on any map held. Found on the lidar only: Counted along the line from Colorado Springs this is the sixth tunnel, at about 15.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 197 ft (up to 121 ft of ground above the grade line), from 38.74169, -104.90197 to 38.74128, -104.90153: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 13 June 2026, taken about 25 ft from the north-west portal found on the lidar, show a low hole under broken granite, choked with fallen rock: a tunnel is here and its mouth is shut, as the library's note says. The nomination gives Tunnel No. 6 at milepost 10.0 from Point Sublime, 200 ft long. It calls this one collapsed and bypassed. Portals read from the 1 m lidar (26 November 2026): 38.741648, -104.901905 and 38.741344, -104.901568, 147 ft apart along the bore, good to about 15 and 10 ft. Ramps of loose ground at both ends: on the north-west the ground rises gradually to about 10 m over some 60 m before the face, on the south-east a 12 m step is followed by a ramp of about 25 m; the present road bench goes round the spur's nose and does not pass through. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:lidar-3dep",
      "source:owner-field-photographs",
@@ -1450,7 +1626,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "tunnel",
     "on_lines": [
      {
@@ -1460,7 +1636,18 @@
     ],
     "summary": "Tunnel No. 6 of the Colorado Springs and Cripple Creek District Railway (the Short Line): 200 ft long by the National Register nomination of 1999, a secondary source. Not worked up.",
     "local": {
-     "from": "find_tunnels"
+     "from": "find_tunnels",
+     "ends": [
+      [
+       -104.901905,
+       38.741648
+      ],
+      [
+       -104.901568,
+       38.741344
+      ]
+     ],
+     "length_ft": 147
     }
    }
   },
@@ -1624,17 +1811,17 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.136769,
-     38.835073
+     -105.136777,
+     38.835065
     ]
    },
    "properties": {
     "id": "place:mt-tunnel-waters",
     "name": "Waters Tunnel, Midland Terminal (later a highway tunnel, now shut)",
     "grade": "inferred",
-    "error_ft": 60,
+    "error_ft": 20,
     "kind": "tunnel",
-    "basis": "The 1951 USGS map draws the road here through a tunnel symbol; the 1994 edition draws the road round the hill with no tunnel. On the 1 m lidar a dead-end cut runs north-east from the present car park to the foot of a hill, and a notch opens on the hill's far side at the same level, with about 108 ft of ground over the line between: taken to be the two portals, at 38.83466, -105.13725 and 38.83548, -105.13629, about 405 ft apart (the far one may have been cut back when the bypass was dug). On the ground: the owner's photographs of 3 July 2026, taken about 50 ft from the south-west portal, show a mouth faced with timber, half buried by heaps of spoil, at the head of a cut in red gravel. That it was the Midland Terminal's tunnel, used by Highway 67 as a one-lane tunnel until it was closed in 1993 or bypassed in 1994 after a partial collapse, is from secondary accounts that give no source; the name 'Little Ike Tunnel' is theirs and may be modern. E. J. Haley's 'Map of the Midland Terminal Railway' (Pikes Peak Library District, catalogued 1917-1921; it shows the line as it was after 1918, and when it was drawn is not stated) letters 'WATERS TUNNEL' against a short dashed stretch of the line just north-west of Waters station, and marks no other tunnel between Divide and Cripple Creek: so the railway-era name was Waters Tunnel. No date of building has been found: the railway reached Gillett in July 1894, so the tunnel is taken to be of that year. No timetable held mentions it. The atlas's traced route used to follow the highway's bypass here, up to about 170 ft from the bore; it now runs straight between the two portals.",
+    "basis": "The 1951 USGS map draws the road here through a tunnel symbol; the 1994 edition draws the road round the hill with no tunnel. On the 1 m lidar a dead-end cut runs north-east from the present car park to the foot of a hill, and a notch opens on the hill's far side at the same level, with about 108 ft of ground over the line between: taken to be the two portals, at 38.83466, -105.13725 and 38.83548, -105.13629, about 405 ft apart (the far one may have been cut back when the bypass was dug). On the ground: the owner's photographs of 3 July 2026, taken about 50 ft from the south-west portal, show a mouth faced with timber, half buried by heaps of spoil, at the head of a cut in red gravel. That it was the Midland Terminal's tunnel, used by Highway 67 as a one-lane tunnel until it was closed in 1993 or bypassed in 1994 after a partial collapse, is from secondary accounts that give no source; the name 'Little Ike Tunnel' is theirs and may be modern. E. J. Haley's 'Map of the Midland Terminal Railway' (Pikes Peak Library District, catalogued 1917-1921; it shows the line as it was after 1918, and when it was drawn is not stated) letters 'WATERS TUNNEL' against a short dashed stretch of the line just north-west of Waters station, and marks no other tunnel between Divide and Cripple Creek: so the railway-era name was Waters Tunnel. No date of building has been found: the railway reached Gillett in July 1894, so the tunnel is taken to be of that year. No timetable held mentions it. The atlas's traced route used to follow the highway's bypass here, up to about 170 ft from the bore; it now runs straight between the two portals. Portals read from the 1 m lidar (26 November 2026): 38.835456, -105.136322 and 38.834673, -105.137233, 385 ft apart along the bore, good to about 20 and 10 ft. South-west face sharp; north-east end rises over about 12 m (spoil, or the face cut back by the 1994 bypass, as the pin already suggests). A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:usgs-cripple-creek-north-1951",
      "source:lidar-3dep",
@@ -1644,7 +1831,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "valid_from": 1894,
     "on_lines": [
      {
@@ -1652,7 +1839,20 @@
       "milepost": null
      }
     ],
-    "summary": "The one tunnel on the Midland Terminal between Divide and Cripple Creek, about 400 ft long, beside Waters; a highway tunnel after the railway closed and shut since the 1990s. Found on a 1951 map, the lidar and the ground; its history is from secondary accounts."
+    "summary": "The one tunnel on the Midland Terminal between Divide and Cripple Creek, about 400 ft long, beside Waters; a highway tunnel after the railway closed and shut since the 1990s. Found on a 1951 map, the lidar and the ground; its history is from secondary accounts.",
+    "local": {
+     "ends": [
+      [
+       -105.136322,
+       38.835456
+      ],
+      [
+       -105.137233,
+       38.834673
+      ]
+     ],
+     "length_ft": 385
+    }
    }
   },
   {
@@ -2220,8 +2420,667 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.83465,
-     38.828292
+     -105.098632,
+     38.746413
+    ]
+   },
+   "properties": {
+    "id": "place:sl-west-beaver-creek-trestle",
+    "name": "West Beaver Creek trestle (Short Line)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the grade stops at 38.746554, -105.097863 and begins again at 38.746272, -105.099400, 545 ft apart, with the ground up to 81 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-10). Low mounds stand on the valley floor under the line, which may be footings; not examined. Engineering News of 1 May 1902 (machine text, not yet checked on the page) calls the trestle over West Beaver Creek, two and a half miles east of Cameron, the longest and highest on the line, 500 ft long and 84 ft high, of timber on concrete piers, and says its piers were washed out in May 1901. That the opening here is that trestle is inferred from the creek's name, the distance from Cameron and the size; no map or photograph has been matched to it. The present road leaves the railway's line and goes round the head of the valley.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "The Short Line's longest and highest trestle, across West Beaver Creek east of Cameron: 500 ft long and 84 ft high in the engineering press of 1902; the opening on the ground is 545 ft and 81 ft. Gone; the road goes round the head of the valley.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -105.097863,
+       38.746554
+      ],
+      [
+       -105.0994,
+       38.746272
+      ]
+     ],
+     "length_ft": 545,
+     "height_ft": 81
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.890431,
+     38.82104
+    ]
+   },
+   "properties": {
+    "id": "place:sl-bear-creek-trestle",
+    "name": "Bear Creek trestle (Short Line)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the grade stops at 38.821437, -104.890923 and begins again at 38.820643, -104.889939, 427 ft apart, with the ground up to 72 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-02). The written lengths are shorter than the opening: 336 ft in the National Register form for the Gold Camp Road, citing a newspaper of 1900 (secondary), and 340 ft in newspapers of 1910 (headlines and machine text only). The difference is not explained; approach fills since removed would account for it, but none is shown. The same accounts, not read on the page, say it burned about 2 April 1910 and was rebuilt in wood, and was burned again on 14 May 1918. That this opening is that trestle is inferred from the creek's name.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:nrhp-cscc-1999"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "The Short Line's timber trestle over Bear Creek at the edge of Colorado Springs: 336 to 340 ft in later accounts; the opening on the ground is 427 ft long and 72 ft deep. Burned and rebuilt more than once; a road bridge stood here as late as 1947 by a library photograph's caption.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.890923,
+       38.821437
+      ],
+      [
+       -104.889939,
+       38.820643
+      ]
+     ],
+     "length_ft": 427,
+     "height_ft": 72
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.086716,
+     38.571078
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-adelaide-bridge",
+    "name": "Adelaide Bridge (Florence and Cripple Creek Bridge No. 10)",
+    "grade": "measured",
+    "error_ft": 30,
+    "kind": "bridge",
+    "basis": "The bridge stands and carries Phantom Canyon Road; its ends are taken from the modern map (OpenStreetMap way 42789435, 224 ft long), each good to about 30 ft, and on the 1 m lidar the creek is 57 ft below the grade here. The Colorado bridge inventory form of 1984 (a later account, from a field inspection in 1983; read on the page) describes a steel deck girder bridge of three 69 ft spans on two laced steel towers, 210 ft overall, calls it the railway's Bridge No. 10, gives its completion as April 1894, and places it in the south-west quarter of section 14, township 17 south, range 69 west, which is here. Doubt: the atlas takes the road hereabouts to be the high line of 1896 and puts the first line of 1894 on the valley floor, with the split between them unsure just here; a bridge of April 1894 at this height bears on that and has not been worked out. The date is the form's, not a record of the time.",
+    "sources": [
+     "source:osm-railways",
+     "source:lidar-3dep",
+     "source:haer-adelaide-bridge-1984"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "The one railway bridge still standing in Phantom Canyon: a steel deck girder on two steel towers over East Fork Eightmile Creek, three spans of 69 ft, 210 ft overall, now carrying the road. Dated April 1894 by a later inventory form.",
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "local": {
+     "ends": [
+      [
+       -105.08659,
+       38.571357
+      ],
+      [
+       -105.086843,
+       38.570799
+      ]
+     ],
+     "length_ft": 224,
+     "height_ft": 57
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.136331,
+     38.864407
+    ]
+   },
+   "properties": {
+    "id": "place:cm-bridge-site-39",
+    "name": "Removed trestle or bridge, Colorado Midland, above Buena Vista (394 ft)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the grade stops at 38.864924, -106.136511 and begins again at 38.863891, -106.136152, 394 ft apart, with the ground up to 79 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-cm-39). A side valley 80 ft deep crossed straight between two graded approaches; opening natural ground. A high trestle is likely. No map, photograph or written record has been matched to this opening, so what stood in it, and when, is not known; the place name given is only a rough guide.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "An opening in the Colorado Midland's grade 394 ft long and up to 79 ft deep, where a trestle or bridge has been removed. Found on the lidar; no record has been matched to it, and it has no name here.",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "local": {
+     "ends": [
+      [
+       -106.136511,
+       38.864924
+      ],
+      [
+       -106.136152,
+       38.863891
+      ]
+     ],
+     "length_ft": 394,
+     "height_ft": 79
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.055577,
+     38.8337
+    ]
+   },
+   "properties": {
+    "id": "place:cm-bridge-site-42",
+    "name": "Removed trestle or bridge, Colorado Midland, east of Buena Vista (269 ft)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the grade stops at 38.833896, -106.055977 and begins again at 38.833504, -106.055177, 269 ft apart, with the ground up to 45 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-cm-42). Two embankments end either side of a creek; the line crosses straight; opening natural ground. No map, photograph or written record has been matched to this opening, so what stood in it, and when, is not known; the place name given is only a rough guide.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "An opening in the Colorado Midland's grade 269 ft long and up to 45 ft deep, where a trestle or bridge has been removed. Found on the lidar; no record has been matched to it, and it has no name here.",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "local": {
+     "ends": [
+      [
+       -106.055977,
+       38.833896
+      ],
+      [
+       -106.055177,
+       38.833504
+      ]
+     ],
+     "length_ft": 269,
+     "height_ft": 45
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.046242,
+     38.834385
+    ]
+   },
+   "properties": {
+    "id": "place:cm-bridge-site-44",
+    "name": "Removed trestle or bridge, Colorado Midland, east of Buena Vista (453 ft)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the grade stops at 38.834544, -106.046999 and begins again at 38.834227, -106.045484, 453 ft apart, with the ground up to 50 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-cm-44). A fill runs out to a sharp end at A over a valley; the other side climbs to a graded bench at B; opening natural ground. A removed trestle. No map, photograph or written record has been matched to this opening, so what stood in it, and when, is not known; the place name given is only a rough guide.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "An opening in the Colorado Midland's grade 453 ft long and up to 50 ft deep, where a trestle or bridge has been removed. Found on the lidar; no record has been matched to it, and it has no name here.",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "local": {
+     "ends": [
+      [
+       -106.046999,
+       38.834544
+      ],
+      [
+       -106.045484,
+       38.834227
+      ]
+     ],
+     "length_ft": 453,
+     "height_ft": 50
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.304754,
+     39.232639
+    ]
+   },
+   "properties": {
+    "id": "place:cm-bridge-site-16",
+    "name": "Removed trestle or bridge, Colorado Midland, near Leadville (295 ft)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the grade stops at 39.232931, -106.304393 and begins again at 39.232346, -106.305115, 295 ft apart, with the ground up to 35 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-cm-16). Two embankments end sharply either side of a gulch; the opening is natural ground. A removed trestle or bridge. No map, photograph or written record has been matched to this opening, so what stood in it, and when, is not known; the place name given is only a rough guide.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "An opening in the Colorado Midland's grade 295 ft long and up to 35 ft deep, where a trestle or bridge has been removed. Found on the lidar; no record has been matched to it, and it has no name here.",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "local": {
+     "ends": [
+      [
+       -106.304393,
+       39.232931
+      ],
+      [
+       -106.305115,
+       39.232346
+      ]
+     ],
+     "length_ft": 295,
+     "height_ft": 35
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.469394,
+     39.257072
+    ]
+   },
+   "properties": {
+    "id": "place:cm-bridge-site-81",
+    "name": "Removed trestle or bridge, Colorado Midland, east side of Hagerman Pass (400 ft)",
+    "grade": "inferred",
+    "error_ft": 20,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the grade stops at 39.257503, -106.469012 and begins again at 39.256642, -106.469777, 400 ft apart, with the ground up to 38 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-cm-81). On the east side of Hagerman Pass: an embankment runs out to a sharp end at A on a curve; the line crosses a hollow on the curve to a cut at B. A removed curved trestle. Whether this is the trestle remembered as the great curved one is not tested. No map, photograph or written record has been matched to this opening, so what stood in it, and when, is not known; the place name given is only a rough guide. Whether this is the curved trestle remembered below Hagerman Pass (1,084 ft in later accounts) is not established: this opening is far shorter.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "An opening in the Colorado Midland's grade 400 ft long and up to 38 ft deep, where a trestle or bridge has been removed. Found on the lidar; no record has been matched to it, and it has no name here.",
+    "valid_from": 1887,
+    "valid_to": 1921,
+    "local": {
+     "ends": [
+      [
+       -106.469012,
+       39.257503
+      ],
+      [
+       -106.469777,
+       39.256642
+      ]
+     ],
+     "length_ft": 400,
+     "height_ft": 38
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.928602,
+     38.871651
+    ]
+   },
+   "properties": {
+    "id": "place:cm-tunnel-5",
+    "name": "Colorado Midland short tunnel north of Tunnel 4 (Tunnel 5 on a supplied map)",
+    "grade": "measured",
+    "error_ft": 10,
+    "kind": "tunnel",
+    "basis": "Portals read from the 1 m lidar (26 November 2026): 38.871538, -104.928452 and 38.871763, -104.928752, 119 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; open cut of about 60 ft between its south face and the long bore's north face, 25 ft of it at grade. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026. The number 5 is from a supplied Google Earth file whose maker is not known; a journal of 1887 gives 'Tunnel No. 5' as 515 ft, which this is not, so the number is doubtful. What is measured is the bore.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A short bore, 119 ft between the portals, a few yards north of the long tunnel the supplied map numbers 4. It had no pin of its own before.",
+    "local": {
+     "ends": [
+      [
+       -104.928452,
+       38.871538
+      ],
+      [
+       -104.928752,
+       38.871763
+      ]
+     ],
+     "length_ft": 119
+    },
+    "valid_from": 1887,
+    "valid_to": 1921
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.487009,
+     39.25391
+    ]
+   },
+   "properties": {
+    "id": "place:cm-hagerman-tunnel",
+    "name": "Hagerman Tunnel (Colorado Midland)",
+    "grade": "measured",
+    "error_ft": 40,
+    "kind": "tunnel",
+    "basis": "Portals read from the 1 m lidar (26 November 2026): 39.252363, -106.484100 and 39.255456, -106.489918, 1,995 ft apart along the bore, good to about 40 and 35 ft. Both ends rise gradually (16-19 m): portals buried or collapsed; no open cut at grade at either end on the lidar. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line as drawn passes up to 79 ft from the bore here and has still to be redrawn through the portals. The bore's line is OpenStreetMap's; the name is the map's. Its length is given as 2,164 ft in a later account (Railway and Locomotive Historical Society, 1935; other later figures run from 2,061 to 2,200). The years it was used are not entered: no record of the time has been read.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:rlhs-bulletin-36-1935"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "The Colorado Midland's first tunnel under the Continental Divide. 1,995 ft between the portals on the lidar, both ends buried or fallen in; 2,164 ft in a later account.",
+    "local": {
+     "ends": [
+      [
+       -106.4841,
+       39.252363
+      ],
+      [
+       -106.489918,
+       39.255456
+      ]
+     ],
+     "length_ft": 1995
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.484827,
+     39.25627
+    ]
+   },
+   "properties": {
+    "id": "place:cm-busk-ivanhoe-tunnel",
+    "name": "Busk-Ivanhoe Tunnel (Colorado Midland; later the Carlton Tunnel)",
+    "grade": "measured",
+    "error_ft": 35,
+    "kind": "tunnel",
+    "basis": "Portals read from the 1 m lidar (26 November 2026): 39.263734, -106.498237 and 39.248805, -106.471417, 9,339 ft apart along the bore, good to about 35 and 35 ft. East (busk) end rises over about 10 m, west (ivanhoe) face fairly sharp; both ends meet approach cuts. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The bore's line is OpenStreetMap's; the name is the map's. Its length is given as 9,398 ft in a later account (Railway and Locomotive Historical Society, 1935). The years it was used are not entered: no record of the time has been read.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways",
+     "source:rlhs-bulletin-36-1935"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "The long tunnel that replaced the line over Hagerman Pass. 9,339 ft between the portals on the lidar; 9,398 ft in a later account.",
+    "local": {
+     "ends": [
+      [
+       -106.498237,
+       39.263734
+      ],
+      [
+       -106.471417,
+       39.248805
+      ]
+     ],
+     "length_ft": 9339
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.44962,
+     38.915858
+    ]
+   },
+   "properties": {
+    "id": "place:cm-elevenmile-tunnel-west",
+    "name": "Eleven Mile Canyon tunnel, western of two (Colorado Midland)",
+    "grade": "measured",
+    "error_ft": 15,
+    "kind": "tunnel",
+    "basis": "Portals read from the 1 m lidar (26 November 2026): 38.915857, -105.449819 and 38.915859, -105.449421, 113 ft apart along the bore, good to about 15 and 15 ft. Both faces sharp; the road (forest road 96) runs through: consistent with an open road tunnel. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The canyon road runs through it. No record of the time has been matched to it, and it has no number here.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:osm-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A tunnel on the Colorado Midland's grade in Eleven Mile Canyon, now a road tunnel: 113 ft between the portals.",
+    "local": {
+     "ends": [
+      [
+       -105.449819,
+       38.915857
+      ],
+      [
+       -105.449421,
+       38.915859
+      ]
+     ],
+     "length_ft": 113
+    },
+    "valid_from": 1887,
+    "valid_to": 1921
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.448155,
+     38.915901
+    ]
+   },
+   "properties": {
+    "id": "place:cm-elevenmile-tunnel-east",
+    "name": "Eleven Mile Canyon tunnel, eastern of two (Colorado Midland)",
+    "grade": "measured",
+    "error_ft": 20,
+    "kind": "tunnel",
+    "basis": "Portals read from the 1 m lidar (26 November 2026): 38.915866, -105.448475 and 38.915936, -105.447836, 184 ft apart along the bore, good to about 20 and 20 ft. Both faces sharp; the road passes through (bench continuous). A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The canyon road runs through it. Its portal heights read an implausibly steep grade, so one approach floor is misread; the positions are not affected. No record of the time has been matched to it. A third tunnel is remembered in this canyon and has not been found.",
+    "sources": [
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "A second tunnel 400 ft east of the first in Eleven Mile Canyon, now a road tunnel: 184 ft between the portals. It was on no map held when found.",
+    "local": {
+     "ends": [
+      [
+       -105.448475,
+       38.915866
+      ],
+      [
+       -105.447836,
+       38.915936
+      ]
+     ],
+     "length_ft": 184
+    },
+    "valid_from": 1887,
+    "valid_to": 1921
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.927317,
+     38.857241
+    ]
+   },
+   "properties": {
+    "id": "place:cm-iron-springs-bridge",
+    "name": "Iron Springs bridge over Ruxton Creek (Colorado Midland)",
+    "grade": "inferred",
+    "error_ft": 30,
+    "kind": "bridge",
+    "basis": "On the 1 m lidar the Colorado Midland's grade, coming down from Tunnel 3, turns onto a level terrace beside Ruxton Creek, and the bore of Tunnel 2 stands on the far bank; between the terrace's edge at 38.857442, -104.927886 and the bank below Tunnel 2 at 38.857040, -104.926748 there is no ground at grade for 371 ft, on a curve of about 280 ft radius, and today's ground is up to 53 ft below the grade line (the valley floor is built up, so the drop was probably greater). Each end is good to about 30 ft. Nothing of the bridge is seen on the lidar. Library catalogue records (captions only) have a steel 'Iron Springs Bridge' under construction about 1886 and a freight wreck on the 'Ruxton Avenue bridge' on 10 September 1909 with the ground '75 feet below'; Ruxton Avenue runs under this crossing, and the ground shows only one crossing hereabouts, so the two names are taken to be one bridge. That is inference. A later account says the bridge was cut up in 1964 (secondary, not checked). The lidar scan first put this crossing between Tunnels 2 and 1 (candidate br-cm-07), 790 ft east of here; the ground between those two bores is at grade and that was wrong.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:ppld-iron-springs-bridge-records"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:colorado-midland",
+      "milepost": null
+     }
+    ],
+    "summary": "The Colorado Midland's high steel bridge over Ruxton Creek at Manitou Iron Springs, on a curve between the terrace west of the creek and Tunnel 2: 371 ft between the ends, about 53 ft above today's ground. Gone.",
+    "valid_from": 1887,
+    "valid_to": 1949,
+    "local": {
+     "ends": [
+      [
+       -104.927886,
+       38.857442
+      ],
+      [
+       -104.926748,
+       38.85704
+      ]
+     ],
+     "length_ft": 371,
+     "height_ft": 53
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.834603,
+     38.828288
     ]
    },
    "properties": {
@@ -2235,7 +3094,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2251,8 +3110,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.865142,
-     38.844499
+     -104.865047,
+     38.844415
     ]
    },
    "properties": {
@@ -2266,7 +3125,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2282,8 +3141,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.927337,
-     38.857182
+     -104.927481,
+     38.857162
     ]
    },
    "properties": {
@@ -2297,7 +3156,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2313,8 +3172,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.92731,
-     38.865787
+     -104.927459,
+     38.865936
     ]
    },
    "properties": {
@@ -2328,7 +3187,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2344,8 +3203,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.950031,
-     38.881083
+     -104.950274,
+     38.881498
     ]
    },
    "properties": {
@@ -2359,7 +3218,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2375,8 +3234,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.980809,
-     38.913547
+     -104.981277,
+     38.913911
     ]
    },
    "properties": {
@@ -2390,7 +3249,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2406,8 +3265,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.034906,
-     38.967245
+     -105.035233,
+     38.96746
     ]
    },
    "properties": {
@@ -2421,7 +3280,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2437,8 +3296,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.055042,
-     38.994125
+     -105.055353,
+     38.994098
     ]
    },
    "properties": {
@@ -2452,7 +3311,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2468,8 +3327,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.088022,
-     38.960758
+     -105.088141,
+     38.96068
     ]
    },
    "properties": {
@@ -2483,7 +3342,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2514,7 +3373,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2545,7 +3404,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2561,8 +3420,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.883664,
-     38.798971
+     -104.883281,
+     38.798841
     ]
    },
    "properties": {
@@ -2576,7 +3435,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2592,8 +3451,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.901685,
-     38.775745
+     -104.901493,
+     38.776035
     ]
    },
    "properties": {
@@ -2607,7 +3466,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2623,8 +3482,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.904669,
-     38.748365
+     -104.904258,
+     38.748417
     ]
    },
    "properties": {
@@ -2638,7 +3497,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2669,7 +3528,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2700,7 +3559,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2731,7 +3590,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2762,7 +3621,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -2793,7 +3652,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -4232,7 +5091,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -4263,7 +5122,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -4294,7 +5153,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -4325,7 +5184,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -4356,7 +5215,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
@@ -4387,7 +5246,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-26",
     "kind": "stop",
     "on_lines": [
      {
