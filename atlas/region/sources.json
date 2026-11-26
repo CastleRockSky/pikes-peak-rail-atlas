@@ -323,5 +323,14 @@
   "holder": "U.S. Geological Survey",
   "url": "https://carto.nationalmap.gov/arcgis/rest/services/geonames/MapServer",
   "accessed": "2026-11-25"
+ },
+ {
+  "id": "source:colorado-newspapers-fcc-1894-96",
+  "kind": "newspapers",
+  "title": "Colorado newspapers of 1894 to 1896 on the Florence and Cripple Creek in Phantom Canyon: Rocky Mountain News (19 February and 7 June 1894; 1 August, 4 and 7 September, 30 October 1895; 10 and 11 April, 28 June, 25 and 26 July 1896; 1 January 1897), Colorado Daily Chieftain (1 and 3 August, 29 October 1895; 23 March 1896), Colorado Weekly Chieftain (5 September 1895; 12 March, 21 May 1896). Read in the Colorado Historic Newspapers Collection; the passages used were checked on the page images. Transcriptions in research/fcc-1894-survey/flood-1895-sources.md",
+  "holder": "Colorado State Library, Colorado Historic Newspapers Collection",
+  "url": "https://www.coloradohistoricnewspapers.org/",
+  "date": "1894-1897",
+  "accessed": "2026-11-25"
  }
 ]

@@ -1013,16 +1013,17 @@
    "properties": {
     "id": "place:fcc-tunnel-a",
     "name": "Florence and Cripple Creek tunnel, about 290 ft (number not established)",
-    "valid_from": 1894,
+    "valid_from": 1896,
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, do not pass through here: near station 782 from Florence they loop round the south of the spur this tunnel pierces, 264 ft away. Either the line was first located round the spur and the tunnel was made in building or later, or the survey is misplaced here by some 200 ft (it is held in this part only by two section ties on one corner, and is good to about 250 ft). Not settled. The notes mention no tunnel anywhere. N. D. Holmes's guide to the line (2013, secondary) calls this Tunnel 2 and says the line between mileposts 12 and 18 was rebuilt higher up after the flood of July 1895 and opened in 1896. The survey's loop round this spur is at about mile 14.7, inside that stretch. If he is right, the tunnel belongs to the rebuilding and the survey shows the first line of 1894, which would settle the doubt above; no record of the rebuilding has been read. He gives this tunnel as 215 ft, against about 290 ft on the modern map and 230 ft under cover on the lidar.",
+    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This tunnel was not on the line as first built: it was driven in 1896 for the 'high line' that replaced the first line on the canyon floor after the cloudburst of 30 July 1895. Newspapers of the time, read on the page images: 'A start has also been made on the north end of the tunnel at mile post 15. This tunnel will be 275 feet in length' (Colorado Daily Chieftain, 23 March 1896); a blast 'on the tunnel between Adelaide and McCourt' on the night of 9 April 1896 killed one man, P. McGinnis (Rocky Mountain News, 10 and 11 April 1896); the contractors 'have let daylight through the new tunnel near Adelaide' (Colorado Weekly Chieftain, 21 May 1896); and the high line opened on 27 June 1896. That the tunnel of those reports is this one is inferred: it is 14.8 miles from Florence by the survey's stationing, and the other tunnel is at 11.0. The railway's field notes of 1894 (Sumner's amended-route map) agree: near station 782 from Florence they go 1,800 ft round the creek's bend south of the spur, on the valley floor, where the road goes 970 ft through it. No grade round the bend survives on the lidar that can be told from the creek's own deposits. Length: 275 ft as planned in 1896; about 290 ft on the modern map; 230 ft under cover on the lidar; 215 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 2. No length as built has been found in a record of the time. Holmes dates its start to February 1894, which the newspapers contradict: that was the other tunnel.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
      "source:fcc-survey-1894",
-     "source:rmrc-fcc-guide"
+     "source:rmrc-fcc-guide",
+     "source:colorado-newspapers-fcc-1894-96"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1053,12 +1054,13 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 40,
-    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, about 11.0 miles out. Neither the notes nor the plat mentions a tunnel anywhere on the line, so they give no number, length or date. N. D. Holmes's guide to the line (2013, secondary) calls this Tunnel 1 and gives it as 314 ft, against about 190 ft on the modern map and 131 ft under cover on the lidar; his two lengths look to be the other way round from the atlas's. Not settled.",
+    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This was the only tunnel on the line as first built. 'The 165-foot tunnel on the Florence and Cripple Creek railroad in Eight Mile canon, eleven miles from this city, was cut through the rock yesterday' (Rocky Mountain News, dated Florence 18 February 1894, read on the page image): so holed through on 17 February 1894. In the flood of 30 July 1895 'the water in the tunnel was 6 feet high' (Florence Chronicle, quoted in the Colorado Daily Chieftain, 3 August 1895). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, 11.0 miles out, which agrees with the newspaper's eleven miles. The notes mention no tunnel anywhere. Length: 165 ft in the newspaper of 1894; about 190 ft on the modern map; 131 ft under cover on the lidar; 314 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 1. Not settled.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
      "source:fcc-survey-1894",
-     "source:rmrc-fcc-guide"
+     "source:rmrc-fcc-guide",
+     "source:colorado-newspapers-fcc-1894-96"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1845,12 +1847,13 @@
     "grade": "inferred",
     "error_ft": 300,
     "kind": "stop",
-    "basis": "The Florence and Cripple Creek's timetable of 2 June 1895 prints Adelaide, a telegraph station, 17.4 miles from Florence. The pin is at 17.4 miles by the stationing of the railway's own survey of 1894, which the timetable's miles match (the Victor depot is 34.56 miles by stationing and 34.6 in the timetable). That falls on the surveyed line on the valley floor, 325 ft from the present road, and 124 ft from the mouth of East Fork Eightmile Creek. N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, says this first Adelaide was destroyed by the flood of 30 July 1895 and the station rebuilt down the canyon. The pin stood 1,100 ft from here before, measured along the atlas's line, which is shorter than the surveyed one.",
+    "basis": "The Florence and Cripple Creek's timetable of 2 June 1895 prints Adelaide, a telegraph station, 17.4 miles from Florence. The pin is at 17.4 miles by the stationing of the railway's own survey of 1894, which the timetable's miles match (the Victor depot is 34.56 miles by stationing and 34.6 in the timetable). That falls on the surveyed line on the valley floor, 325 ft from the present road, and 124 ft from the mouth of East Fork Eightmile Creek. N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, says this first Adelaide was destroyed by the flood of 30 July 1895 and the station rebuilt down the canyon. The pin stood 1,100 ft from here before, measured along the atlas's line, which is shorter than the surveyed one. Newspapers of the time (read on the page images) bear out the flood: on the evening of 30 July 1895 a cloudburst carried away the hotel at Adelaide and drowned three people in it, Mrs. Carr the landlady, Lee Tracy and a man named Watson (Rocky Mountain News and Colorado Daily Chieftain, 1 August 1895). None found says the station was moved; that still rests on Holmes. The first line here was patched and used until the high line opened on 27 June 1896, so the move, if there was one, may belong to 1896 and not 1895.",
     "sources": [
      "source:official-guide-timetables",
      "source:fcc-survey-1894",
      "source:usgs-gnis",
-     "source:rmrc-fcc-guide"
+     "source:rmrc-fcc-guide",
+     "source:colorado-newspapers-fcc-1894-96"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1861,7 +1864,7 @@
       "milepost": 17.4
      }
     ],
-    "summary": "The first Adelaide, a telegraph station in the timetable of June 1895; by a secondary account destroyed in the flood of July 1895.",
+    "summary": "The first Adelaide, a telegraph station in the timetable of June 1895. The flood of 30 July 1895 carried away the hotel here and drowned three (newspapers of the time); that the station was then moved is from a secondary account.",
     "valid_from": 1894,
     "valid_to": 1895
    }
@@ -1881,11 +1884,12 @@
     "grade": "inferred",
     "error_ft": 500,
     "kind": "stop",
-    "basis": "The USGS names list puts 'Adelaide' here (a name from a 1950s map, not a survey of the station), and the driving distance in N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, comes to within 200 ft of it; the pin is between the two, on the line, about half a mile down the canyon from the first site. He describes a depot, section house, tank and a siding of 1,192 ft, with foundations beside the road. His mileposts for this place do not fit (half a mile out). The bench is no wider here than elsewhere on the lidar.",
+    "basis": "The USGS names list puts 'Adelaide' here (a name from a 1950s map, not a survey of the station), and the driving distance in N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found, comes to within 200 ft of it; the pin is between the two, on the line, about half a mile down the canyon from the first site. He describes a depot, section house, tank and a siding of 1,192 ft, with foundations beside the road. His mileposts for this place do not fit (half a mile out). The bench is no wider here than elsewhere on the lidar. Newspapers of the time (read on the page images) bear out the flood: on the evening of 30 July 1895 a cloudburst carried away the hotel at Adelaide and drowned three people in it, Mrs. Carr the landlady, Lee Tracy and a man named Watson (Rocky Mountain News and Colorado Daily Chieftain, 1 August 1895). None found says the station was moved; that still rests on Holmes. The first line here was patched and used until the high line opened on 27 June 1896, so the move, if there was one, may belong to 1896 and not 1895.",
     "sources": [
      "source:usgs-gnis",
      "source:rmrc-fcc-guide",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:colorado-newspapers-fcc-1894-96"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1896,7 +1900,7 @@
       "milepost": null
      }
     ],
-    "summary": "Adelaide as rebuilt after the flood of 1895, by a secondary account; placed from the name on the government map.",
+    "summary": "Adelaide as rebuilt after the flood of 1895, by a secondary account; placed from the name on the government map. Whether it moved in 1895 or with the high line in 1896 is not known.",
     "valid_from": 1895,
     "valid_to": 1912
    }
