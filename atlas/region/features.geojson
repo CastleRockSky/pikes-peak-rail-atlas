@@ -3407,18 +3407,19 @@
     "grade": "inferred",
     "error_ft": 60,
     "length_ft": 32687,
-    "basis": "Today's unpaved Old Stage Road from the hairpin where the pavement ends, over the shoulder of Cheyenne Mountain past Wade's, down to Rock Creek and up to Gold Camp Road, from OpenStreetMap; it lies on the road surface on the 1 m lidar throughout. That this is the line of the stage road is inferred: the government sheet of 1909 (1:125,000, surveyed 1906-07) draws its road within about 50 ft of today's at the middle point and within 200 ft at nearly every point, which is as close as that sheet puts the railway here, and the lidar shows no abandoned bench beside it. The government sheet of 1893 (1:125,000), read since, draws a road of the same course over the mountain, before any railway; it is displaced about 900 ft against the ground the same way all along, so it confirms the course and places nothing. About 6.6 miles, climbing from about 6,900 ft to 9,034 ft; one true switchback, at the bottom; no bridge and no large fill. At Rock Creek the road passes through the gap of the Short Line's trestle, about 44 ft below the track, and it meets the railway's grade on the level just west of Tunnel No. 7. The road is older than the Cripple Creek rush: newspapers (machine text, not checked on the page) have a Cheyenne Mountain toll road as a pleasure drive in 1876, to East Beaver Creek by 1878 and to Seven Lakes in 1881. In January 1892 a committee of the Colorado Springs Chamber of Commerce recommended extending it to Cripple Creek as the cheapest route, free of toll; a later account says the county built the extension in four months. Coaches were running by April 1893 and still in 1899; the road fell out of use after the Short Line opened in 1901, was called the old stage road by 1905, and was mended for motor cars from about 1912. No record of its opening day has been found. It is shown here from 1892, the year of the extension; how far the road of the 1870s ran on this same line is not known.",
+    "basis": "Today's unpaved Old Stage Road from the hairpin where the pavement ends, over the shoulder of Cheyenne Mountain past Wade's, down to Rock Creek and up to Gold Camp Road, from OpenStreetMap; it lies on the road surface on the 1 m lidar throughout. That this is the line of the stage road is inferred: the government sheet of 1909 (1:125,000, surveyed 1906-07) draws its road within about 50 ft of today's at the middle point and within 200 ft at nearly every point, which is as close as that sheet puts the railway here, and the lidar shows no abandoned bench beside it. The government sheet of 1893 (1:125,000), read since, draws a road of the same course over the mountain, before any railway; it is displaced about 900 ft against the ground the same way all along, so it confirms the course and places nothing. About 6.6 miles, climbing from about 6,900 ft to 9,034 ft; one true switchback, at the bottom; no bridge and no large fill. At Rock Creek the road passes through the gap of the Short Line's trestle, about 44 ft below the track, and it meets the railway's grade on the level just west of Tunnel No. 7. The road is older than the Cripple Creek rush: newspapers (machine text, not checked on the page) have a Cheyenne Mountain toll road as a pleasure drive in 1876, to East Beaver Creek by 1878 and to Seven Lakes in 1881. In January 1892 a committee of the Colorado Springs Chamber of Commerce recommended extending it to Cripple Creek as the cheapest route, free of toll; a later account says the county built the extension in four months. Coaches were running by April 1893 and still in 1899; the road fell out of use after the Short Line opened in 1901, was called the old stage road by 1905, and was mended for motor cars from about 1912. No record of its opening day has been found. It is shown here from 1892, the year of the extension; how far the road of the 1870s ran on this same line is not known. A guide of 1984 reproduces a ticket of the 'Colorado Springs and Cripple Creek Stage Line', 'via Cheyenne Canon', W. H. Gumm, proprietor, printed for 1900 (the reproduction looked at by me): a stage still ran over this road in the year before the Short Line opened. The guide's mile-by-mile account, its mileages corrected for an odometer reading about 7 per cent short, agrees with this line at nine known points to about 400 ft.",
     "sources": [
      "source:osm-old-stage-road",
      "source:lidar-3dep",
      "source:usgs-topo-colorado-springs",
      "source:old-stage-road-written-record",
-     "source:usgs-colorado-springs-1893"
+     "source:usgs-colorado-springs-1893",
+     "source:conte-old-stage-road-1984"
     ],
     "valid_from": 1892,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -3607,16 +3608,17 @@
     "grade": "inferred",
     "error_ft": 150,
     "length_ft": 5052,
-    "basis": "Beyond the meeting with the railway the government sheet of 1909 draws the road north-west to a hairpin with two buildings, then down into the valley of Rock Creek. Today's Gold Camp Road and Bear Trap Road (Forest Road 370.A) lie on that line to about 150 ft, and are drawn here from OpenStreetMap. This is the road as it stood after the railway was built; where it ran through the ground of the railway's loop before 1900 is not known.",
+    "basis": "Beyond the meeting with the railway the government sheet of 1909 draws the road north-west to a hairpin with two buildings, then down into the valley of Rock Creek. Today's Gold Camp Road and Bear Trap Road (Forest Road 370.A) lie on that line to about 150 ft, and are drawn here from OpenStreetMap. This is the road as it stood after the railway was built; where it ran through the ground of the railway's loop before 1900 is not known. A guide of 1984 describes a short stretch of old road cutting inside the railway's curl here (its 'Segment I', 0.2 mile). The helper reports a bench of 1,000 ft on the lidar that would be it; I could not make it out on the picture supplied, and it is not drawn.",
     "sources": [
      "source:osm-old-stage-road",
      "source:usgs-topo-colorado-springs",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:conte-old-stage-road-1984"
     ],
     "valid_from": 1892,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -5268,15 +5270,16 @@
     "grade": "conjecture",
     "error_ft": 600,
     "length_ft": 1507,
-    "basis": "Kept from the government sheet of 1894 for want of better, and wrong as drawn: in 0.29 mile it climbs about 380 ft from the foot of Clyde Road to join the next piece on the railway's grade, which no wagon road did. The road more likely kept to the floor of Middle Beaver valley; the 1951 sheet letters a telephone line there, and the telephone line of 1893 followed the road. Not traced.",
+    "basis": "Kept from the government sheet of 1894 for want of better, and wrong as drawn: in 0.29 mile it climbs about 380 ft from the foot of Clyde Road to join the next piece on the railway's grade, which no wagon road did. The road more likely kept to the floor of Middle Beaver valley; the 1951 sheet letters a telephone line there, and the telephone line of 1893 followed the road. Not traced. A guide of 1984 has the old road rejoin today's Gold Camp Road about half a mile further west than this piece, up a side valley from Middle Beaver Creek. A line shows on the lidar there but may be a creek bank; not drawn.",
     "sources": [
      "source:usgs-topo",
-     "source:usgs-big-bull-mountain-1951"
+     "source:usgs-big-bull-mountain-1951",
+     "source:conte-old-stage-road-1984"
     ],
     "valid_from": 1892,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {

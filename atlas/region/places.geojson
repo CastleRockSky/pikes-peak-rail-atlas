@@ -3493,15 +3493,16 @@
     "grade": "inferred",
     "error_ft": 500,
     "kind": "other",
-    "basis": "The government sheet of 1909 (1:125,000, surveyed 1906-07) prints 'Wade' with a building beside the road here; the pin is on the building drawn at the road, where today's road lies on the sheet's road to about 200 ft; good to about 500 ft. The sheet of 1893 names nothing here. Newspapers (machine text, not checked on the page) have a coach accident 'two miles from Wade's ranch' in April 1893, the place 'about eight miles above the city on the Cheyenne Mountain road' in 1900, and in 1914 'Dad' Wade, aged 85, as 'founder of Wade City on the stage road'; the earlier papers say ranch or place, and 'Wade City' looks like a nickname. No photograph of it has been found. The years are those of the newspaper mentions, not of the ranch's beginning or end.",
+    "basis": "The government sheet of 1909 (1:125,000, surveyed 1906-07) prints 'Wade' with a building beside the road here; the pin is on the building drawn at the road, where today's road lies on the sheet's road to about 200 ft; good to about 500 ft. The sheet of 1893 names nothing here. Newspapers (machine text, not checked on the page) have a coach accident 'two miles from Wade's ranch' in April 1893, the place 'about eight miles above the city on the Cheyenne Mountain road' in 1900, and in 1914 'Dad' Wade, aged 85, as 'founder of Wade City on the stage road'; the earlier papers say ranch or place, and 'Wade City' looks like a nickname. No photograph of it has been found. The years are those of the newspaper mentions, not of the ranch's beginning or end. A guide of 1984 gives 'Wade's Camp' at 3.7 miles; corrected for its odometer, that point falls 360 ft from this pin, which bears the pin out. The book describes a clearing west of the road with about a dozen buildings (the helper's reading); nothing of it was made out on the lidar.",
     "sources": [
      "source:usgs-topo-colorado-springs",
      "source:old-stage-road-written-record",
-     "source:usgs-colorado-springs-1893"
+     "source:usgs-colorado-springs-1893",
+     "source:conte-old-stage-road-1984"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "on_lines": [],
     "summary": "Joel H. Wade's ranch and roadhouse, a stopping place for the Cripple Creek coaches about eight miles up the Cheyenne Mountain road. Placed from the building a small-scale map of 1909 draws at the road; good to about 500 ft.",
     "valid_from": 1893,
@@ -3640,14 +3641,15 @@
     "error_ft": 3500,
     "kind": "other",
     "summary": "The roadhouse where the Cripple Creek coaches stopped for meals, known from 1894 to 1906. It stood somewhere in East Beaver Park, at or within about a mile of Rosemont; its site has not been found and may be under the reservoir.",
-    "basis": "Not located; the pin marks the neighbourhood only. Four readings fall in East Beaver Park within about a mile and a third of each other along the road: a mining claim of 1894 'six miles below the half-way house' on East Beaver Creek; the Short Line's grading contracts of 1900, which were divided at the Half Way house 17 miles from Cameron, as Rosemont is by the railway's later timetable; a description of the railway's route passing it before the Beaver Creek valley; and half the road's length. A later account of 1954 calls Rosemont the half-way point. All but the last are newspapers read as machine text, not checked on the page. Against: the same contracts' 23 miles from Bear Creek canon falls three miles further west, and Mrs A. B. Love told F. W. Cragin in 1922 that it stood where John Love's ranch had been, on West Beaver Creek. It was offered for rent furnished in 1894; by 1900 it had meals, beds and a telephone; a coach overturned 'three and one-half miles east' of it 'in a steep grade' in 1896, which fits the climb out of Rock Creek. No picture of it has been found.",
+    "basis": "Not located; the pin marks the neighbourhood only. Four readings fall in East Beaver Park within about a mile and a third of each other along the road: a mining claim of 1894 'six miles below the half-way house' on East Beaver Creek; the Short Line's grading contracts of 1900, which were divided at the Half Way house 17 miles from Cameron, as Rosemont is by the railway's later timetable; a description of the railway's route passing it before the Beaver Creek valley; and half the road's length. A later account of 1954 calls Rosemont the half-way point. All but the last are newspapers read as machine text, not checked on the page. Against: the same contracts' 23 miles from Bear Creek canon falls three miles further west, and Mrs A. B. Love told F. W. Cragin in 1922 that it stood where John Love's ranch had been, on West Beaver Creek. It was offered for rent furnished in 1894; by 1900 it had meals, beds and a telephone; a coach overturned 'three and one-half miles east' of it 'in a steep grade' in 1896, which fits the climb out of Rock Creek. No picture of it has been found. A guide of 1984 calls it Charlie Hancock's Halfway House, at Rosemont: one of its walks begins 'in the open meadow below where Charlie Hancock's Halfway House was located' (read on the page by me), and it says the house stood within some five hundred yards of today's Gold Camp Road (the helper's reading). That fits the neighbourhood of this pin and does not narrow it; the keeper's name is from that book alone, and a notice of 1900 names Mrs E. Hollenbeck.",
     "sources": [
      "source:old-stage-road-upper-record",
-     "source:old-stage-road-written-record"
+     "source:old-stage-road-written-record",
+     "source:conte-old-stage-road-1984"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "on_lines": [],
     "valid_from": 1894,
     "valid_to": 1906
@@ -4664,6 +4666,87 @@
     "updated": "2026-11-27",
     "valid_from": 1888,
     "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.872887,
+     38.773326
+    ]
+   },
+   "properties": {
+    "id": "place:osr-horseshoe-bend",
+    "name": "The Horseshoe Bend on the stage road",
+    "grade": "inferred",
+    "error_ft": 300,
+    "kind": "other",
+    "basis": "A guide of 1984 gives 'The Horseshoe Bend' at 2.8 miles from its starting point: 'a bend in the Old Stage Road which is literally the shape of a horseshoe', a shelf cut in the gravel, with a spring at each end (read on the page by me). The book's mile figures are a car's odometer of 1983; corrected for reading about 7 per cent short, they fall within about 400 ft of nine points whose places are known independently. At the corrected mileage the 1 m lidar shows the road turning back on itself round the head of a gully (the helper's picture looked at by me); the pin is at the mileage point, on the bend. Inferred, good to about 300 ft: the name is not on any map read, and rests on the one book. The same book puts the stage overturn of 1899 half a mile below this bend, not on it.",
+    "sources": [
+     "source:conte-old-stage-road-1984",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "A bend of the stage road on Cheyenne Mountain shaped like a horseshoe, a landmark and the goal of walkers from Broadmoor. Named and placed from a guide of 1984."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.86105,
+     38.78814
+    ]
+   },
+   "properties": {
+    "id": "place:osr-dixons-place",
+    "name": "Dixon's Place and the toll gate (about here)",
+    "grade": "conjecture",
+    "error_ft": 400,
+    "kind": "other",
+    "basis": "A guide of 1984 starts its mileage at 'Dixon's Place (Alta Vista at Penrose Boulevard)': two houses, the northern one the original, with the toll gate 'near the house', its 'exact site ... unknown' (read on the page by me). The pin is on that street corner as today's street map has it, not on any building. The same page says Clark and Gould had an earlier toll gate at the junction nine-tenths of a mile on, where today's Old Stage Road begins. All of this is the book's account, without a source named; no toll gate has been found in a record of the time.",
+    "sources": [
+     "source:conte-old-stage-road-1984",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "Where the toll for the Cheyenne Mountain stage road was taken, at Dixon's house below the mountain, according to a guide of 1984. The gate's own spot is not known."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.88646,
+     38.75608
+    ]
+   },
+   "properties": {
+    "id": "place:osr-the-chimney",
+    "name": "The Chimney: the Voss place and Dr Smith's sawmill (about here)",
+    "grade": "conjecture",
+    "error_ft": 500,
+    "kind": "other",
+    "basis": "A guide of 1984 gives 'The Chimney' at 4.5 miles, 'to the east of the Stage Road': the last remnant of the Voss place, 'also the location of Dr. Smith's sawmill', since pulled down (read on the page by me). The book's mile figures are a car's odometer of 1983; corrected for reading about 7 per cent short, they fall within about 400 ft of nine points whose places are known independently. The pin is at the corrected mileage on the road; the site lay to its east and was not found on the lidar. The book dates the sawmill to 1882-83 (the helper's reading of its chronology). Whether this Dr Smith is the Dr M. G. Smith of the Seven Lakes hotel and toll road is likely but not established. The book also reports a belief, which its author doubts, that the first road crossed Mill Brook here and went another way to St. Peter's Dome.",
+    "sources": [
+     "source:conte-old-stage-road-1984",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "The site of a stone chimney that long stood east of the stage road, the last of the Voss place and, by a guide of 1984, where a Dr Smith had a sawmill. The chimney has been pulled down."
    }
   },
   {

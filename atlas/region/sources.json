@@ -649,5 +649,13 @@
   "url": "https://naip-usdaonline.hub.arcgis.com/",
   "date": "2011-2023",
   "accessed": "2026-11-27"
+ },
+ {
+  "id": "source:conte-old-stage-road-1984",
+  "kind": "book (secondary source)",
+  "title": "William R. Conte, The Old Cripple Creek Stage Road: A History and a Guide (Colorado Springs: Little London Press, 1984); research by Suzanne K. Conte. A history, a chronology, a map and a mile-by-mile guide as the road was driven in 1983. Largely local memory; its footnotes cite no sources. In copyright: read from the atlas owner's copy, not reproduced here.",
+  "holder": "Little London Press; copy in the atlas owner's collection",
+  "date": "1984",
+  "accessed": "2026-11-27"
  }
 ]
