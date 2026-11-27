@@ -4944,6 +4944,32 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -104.943912,
+     38.747189
+    ]
+   },
+   "properties": {
+    "id": "place:pikes-cave",
+    "name": "Pikes Cave",
+    "grade": "inferred",
+    "error_ft": 150,
+    "kind": "other",
+    "basis": "The name and the position are the atlas's owner's, given on 27 November 2026 as UTM zone 13S, 504874 E, 4288724 N, here converted to latitude and longitude (datum taken as WGS84). How the coordinate was taken, on the spot or from a map, is not recorded, so the error of 150 ft is a guess and not a measurement. Nothing written about the cave has been read, and it has not been looked for on the lidar: no tile is held for this ground.",
+    "sources": [
+     "source:owner-supplied-coordinates"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "A cave on the mountainside north of Rosemont, named and placed by the atlas's owner."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.834603,
      38.828288
     ]

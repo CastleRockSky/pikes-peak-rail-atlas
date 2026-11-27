@@ -665,5 +665,13 @@
   "holder": "The author; copy in the atlas owner's collection",
   "date": "1988",
   "accessed": "2026-11-27"
+ },
+ {
+  "id": "source:owner-supplied-coordinates",
+  "kind": "owner's information",
+  "title": "Coordinates and names of places supplied by the atlas's owner in the course of the work. How each was taken (on the ground, or read from a map) is recorded with the place where it is known.",
+  "holder": "Atlas owner",
+  "date": "2026",
+  "accessed": "2026-11-27"
  }
 ]
