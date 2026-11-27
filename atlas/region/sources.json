@@ -480,5 +480,14 @@
   "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
   "date": "1948-1951",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:mpp-richardson-plate-1894",
+  "kind": "engineering press",
+  "title": "T. F. Richardson, 'The Manitou and Pike's Peak Railway', Journal of the Association of Engineering Societies, vol. 13 (1894): p. 419, the plan and profile (Fig. 1A and 1B, stations in feet from the summit) and the photograph captions, read on the page images; with the Railroad Gazette of 4 April 1890, p. 227, read on the page image. Notes and page pictures in research/manitou-mountain-railways/bridges.md",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/journalofassocia13asso",
+  "date": "1890-1894",
+  "accessed": "2026-11-26"
  }
 ]

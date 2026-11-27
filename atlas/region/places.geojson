@@ -3722,21 +3722,21 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.974361,
-     38.842232
+     -104.971767,
+     38.84404
     ]
    },
    "properties": {
     "id": "place:mpp-half-way-house",
     "name": "Half-Way House (Pikes Peak cog road)",
     "grade": "inferred",
-    "error_ft": 100,
+    "error_ft": 300,
     "kind": "stop",
-    "basis": "The 1948 sheet letters 'Midway' and 'Water' on the line at Ruxton Park, BM 9010 beside it; point on the line under the lettering. That this is the Half Way House stop is inference (the other helper is checking the record). Track 9032 ft. The time card of 1915 (read on the page) gives the Half-Way House as 6.27 miles from the summit, 8,913 ft. That the 1948 sheet's 'Midway' is the Half-Way House is inferred from the name, the water tank and the elevation. The railway's elevations of that day read about 100 to 140 ft above the lidar's all along the line. Scientific American of January 1891 (machine text) has trains running this far in the autumn of 1890.",
+    "basis": "Three things put the Half-Way House here, within about 350 ft of one another along the line. A photograph in Richardson's paper of 1894 is captioned 'Hell-Gate, from Half-Way House. Station 324. Siding on the left' (read on the page); stations are feet from the summit on the level, and station 324 falls here when the 1894 profile is laid on the drawn line, a fit tested against the lidar to about 30 ft. The profile's 12.23 per cent grade, the steepest on which Richardson says switches were laid (machine text), runs from station 321+25 to 326+00, around this point. The time card of 1915 (read on the page) gives the Half-Way House as 6.27 miles from the summit, which is 2.63 miles of rail from Manitou and comes out 150 to 350 ft below this point; and its elevation, 8,913 ft, is on the profile at about station 327. The pin is at station 324. Until 27 Nov 2026 the pin stood 1,000 ft further up, where the map of 1948 letters 'Midway' and 'Water'; the track there is 120 ft higher than the time card's figure allows once the railway's datum is taken off, so 'Midway' is a later or a different stop. The profile letters 'Halfway Ho.' between the two, over stations 316+50 to 321+25: lettering, not a mark. Scientific American of January 1891 (machine text) has trains running this far in the autumn of 1890. No building was looked for on the ground.",
     "sources": [
-     "source:osm-manitou-mountain-railways",
-     "source:usgs-manitou-pikes-peak-1948-51",
+     "source:mpp-richardson-plate-1894",
      "source:mpp-folder-1915",
+     "source:usgs-manitou-pikes-peak-1948-51",
      "source:lidar-3dep"
     ],
     "status": "draft",
@@ -3748,7 +3748,7 @@
       "milepost": null
      }
     ],
-    "summary": "The stop the first trains ran to in the autumn of 1890, 6.27 miles from the summit; 'Midway' on the map of 1948. Not the Half Way house of the Cripple Creek stage road.",
+    "summary": "The stop the first trains ran to in the autumn of 1890, 6.27 miles from the summit, with a siding. Placed at Station 324 of the 1894 survey. Not the Half Way house of the Cripple Creek stage road.",
     "valid_from": 1891
    }
   },
@@ -3872,7 +3872,7 @@
     "grade": "inferred",
     "error_ft": 30,
     "kind": "stop",
-    "basis": "Centre of OpenStreetMap platform 1013894005 at the end of track (summit house of 2021); the 1951 sheet's Summit House 55 ft from the line's end. End of track 14,079 ft on the lidar. The time card of 1915 (read on the page) gives the summit as 14,109 ft; the railway's table of 1904 has 14,147. The railway's elevations of that day read about 100 to 140 ft above the lidar's all along the line. In 1891 the old signal station served as the dining hall (machine text). The time cards also list Saddle House (1.77 miles from the summit), Timber Line (2.87) and Butterworth Flat (7.74), which are not placed here.",
+    "basis": "Centre of OpenStreetMap platform 1013894005 at the end of track (summit house of 2021); the 1951 sheet's Summit House 55 ft from the line's end. End of track 14,079 ft on the lidar. The time card of 1915 (read on the page) gives the summit as 14,109 ft; the railway's table of 1904 has 14,147. The railway's elevations of that day read about 100 to 140 ft above the lidar's all along the line. In 1891 the old signal station served as the dining hall (machine text). The time cards also list Saddle House (1.77 miles from the summit) and Butterworth Flat (7.74), which are not placed; Timber Line (2.87) has its own pin.",
     "sources": [
      "source:osm-manitou-mountain-railways",
      "source:usgs-manitou-pikes-peak-1948-51",
@@ -3907,11 +3907,12 @@
     "grade": "inferred",
     "error_ft": 10,
     "kind": "bridge",
-    "basis": "OpenStreetMap tags this piece as a bridge (way 488256105, 27 ft) where the line crosses Ruxton Creek; the lidar shows the creek channel 10 ft below the grade under it, 39 ft between the banks. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.849237, -104.955833 and 38.849201, -104.955963, good to about 10 ft each. The surest of the four: the modern map marks a bridge here. Engineering News of October 1890 and T. F. Richardson's paper of 1894 (machine text, not checked on the page) say the line has four iron bridges, 'two of 20 ft and two of 30 ft span', on masonry abutments, and no trestle; no source of the time says where they stand. Four openings under the track were found on the lidar and all four are pinned; that these are the four bridges is inferred from the count. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
+    "basis": "OpenStreetMap tags this piece as a bridge (way 488256105, 27 ft) where the line crosses Ruxton Creek; the lidar shows the creek channel 10 ft below the grade under it, 39 ft between the banks. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.849237, -104.955833 and 38.849201, -104.955963, good to about 10 ft each. The surest of the four: the modern map marks a bridge here. Richardson's paper of 1894, p. 419 (read on the page), has 'four iron bridges, two of 20 feet and two of 30 feet span' on granite masonry, and culverts 'all built of red spruce logs'; the Railroad Gazette of 4 April 1890 (read on the page) says the short bridges 'are all plate girders on masonry abutments' and that some stand on steep grades. No source found says where any of the four stands: Richardson's plan and profile, examined whole, draw no bridge, culvert or stream. One book of 1890, written before the line was finished, counts three bridges, not four (machine text, not checked on the page). This crossing falls at about station 376+46 of the 1894 profile (feet from the summit), on its 15.33 per cent grade. Ruxton Creek is the one stream the line crosses in the open, and it does so three times; these three open crossings are inferred to be three of the four iron bridges. Which are the 20 ft spans and which the 30 ft is not known. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
     "sources": [
      "source:lidar-3dep",
      "source:osm-manitou-mountain-railways",
-     "source:mpp-engineering-press-1890-94"
+     "source:mpp-engineering-press-1890-94",
+     "source:mpp-richardson-plate-1894"
     ],
     "status": "draft",
     "contributor": "project",
@@ -3951,15 +3952,16 @@
    },
    "properties": {
     "id": "place:mpp-opening-above-depot",
-    "name": "Opening under the cog road a tenth of a mile above the depot (bridge or open culvert)",
+    "name": "Opening under the cog road a tenth of a mile above the depot (a candidate for the fourth bridge)",
     "grade": "inferred",
     "error_ft": 10,
     "kind": "bridge",
-    "basis": "A 7 ft deep, 33 ft gap in the ground under the track where a side gully from the south-east crosses; no stream is mapped through it and OSM tags no bridge. The bare-earth lidar shows an open channel, so the track spans it on a short bridge or an open-ended culvert: cannot tell which. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.855325, -104.932347 and 38.855246, -104.932403, good to about 10 ft each. Bridge or open culvert: not told apart. Engineering News of October 1890 and T. F. Richardson's paper of 1894 (machine text, not checked on the page) say the line has four iron bridges, 'two of 20 ft and two of 30 ft span', on masonry abutments, and no trestle; no source of the time says where they stand. Four openings under the track were found on the lidar and all four are pinned; that these are the four bridges is inferred from the count. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
+    "basis": "A 7 ft deep, 33 ft gap in the ground under the track where a side gully from the south-east crosses; no stream is mapped through it and OSM tags no bridge. The bare-earth lidar shows an open channel, so the track spans it on a short bridge or an open-ended culvert: cannot tell which. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.855325, -104.932347 and 38.855246, -104.932403, good to about 10 ft each. Bridge or open culvert: not told apart. Richardson's paper of 1894, p. 419 (read on the page), has 'four iron bridges, two of 20 feet and two of 30 feet span' on granite masonry, and culverts 'all built of red spruce logs'; the Railroad Gazette of 4 April 1890 (read on the page) says the short bridges 'are all plate girders on masonry abutments' and that some stand on steep grades. No source found says where any of the four stands: Richardson's plan and profile, examined whole, draw no bridge, culvert or stream. One book of 1890, written before the line was finished, counts three bridges, not four (machine text, not checked on the page). This opening falls at about station 455+53 of the 1894 profile, on its 7.80 per cent grade. The three open crossings of Ruxton Creek are inferred to be three of the four bridges; the fourth is not known. This opening is one candidate, and where the line crosses Ruxton Creek in the lower canyon, under fill today, is the other. That this was a bridge of 1890 is conjecture; the opening itself is where the pin says. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
     "sources": [
      "source:lidar-3dep",
      "source:osm-manitou-mountain-railways",
-     "source:mpp-engineering-press-1890-94"
+     "source:mpp-engineering-press-1890-94",
+     "source:mpp-richardson-plate-1894"
     ],
     "status": "draft",
     "contributor": "project",
@@ -3970,7 +3972,7 @@
       "milepost": null
      }
     ],
-    "summary": "A 33 ft opening under the cog road's track where a side gully crosses, 6 ft deep. A short bridge or an open culvert; the ground cannot say which.",
+    "summary": "A 33 ft opening under the track over a dry side gully. One of two candidates for the cog road's fourth iron bridge; no source decides.",
     "valid_from": 1891,
     "local": {
      "ends": [
@@ -3999,15 +4001,16 @@
    },
    "properties": {
     "id": "place:mpp-opening-below-ruxton-park",
-    "name": "Ruxton Creek crossing on the cog road above Minnehaha, lower (bridge or open culvert)",
+    "name": "Ruxton Creek crossing on the cog road below the Half-Way House, lower (bridge or open culvert)",
     "grade": "inferred",
     "error_ft": 10,
     "kind": "bridge",
-    "basis": "An 8 ft deep, 33 ft gap in the ground under the track 40 ft from where OSM draws Ruxton Creek through a culvert (way 1360370147). The ground is open under the line, which a buried culvert under fill would not show; a short bridge or a large open culvert. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.846593, -104.968581 and 38.846564, -104.968690, good to about 10 ft each. Bridge or open culvert: not told apart. Engineering News of October 1890 and T. F. Richardson's paper of 1894 (machine text, not checked on the page) say the line has four iron bridges, 'two of 20 ft and two of 30 ft span', on masonry abutments, and no trestle; no source of the time says where they stand. Four openings under the track were found on the lidar and all four are pinned; that these are the four bridges is inferred from the count. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
+    "basis": "An 8 ft deep, 33 ft gap in the ground under the track 40 ft from where OSM draws Ruxton Creek through a culvert (way 1360370147). The ground is open under the line, which a buried culvert under fill would not show; a short bridge or a large open culvert. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.846593, -104.968581 and 38.846564, -104.968690, good to about 10 ft each. Bridge or open culvert: not told apart. Richardson's paper of 1894, p. 419 (read on the page), has 'four iron bridges, two of 20 feet and two of 30 feet span' on granite masonry, and culverts 'all built of red spruce logs'; the Railroad Gazette of 4 April 1890 (read on the page) says the short bridges 'are all plate girders on masonry abutments' and that some stand on steep grades. No source found says where any of the four stands: Richardson's plan and profile, examined whole, draw no bridge, culvert or stream. One book of 1890, written before the line was finished, counts three bridges, not four (machine text, not checked on the page). This crossing falls at about station 337+02 of the 1894 profile (feet from the summit), on its 7.50 per cent grade, some 1,300 ft below the Half-Way House. Ruxton Creek is the one stream the line crosses in the open, and it does so three times; these three open crossings are inferred to be three of the four iron bridges. Which are the 20 ft spans and which the 30 ft is not known. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
     "sources": [
      "source:lidar-3dep",
      "source:osm-manitou-mountain-railways",
-     "source:mpp-engineering-press-1890-94"
+     "source:mpp-engineering-press-1890-94",
+     "source:mpp-richardson-plate-1894"
     ],
     "status": "draft",
     "contributor": "project",
@@ -4047,15 +4050,16 @@
    },
    "properties": {
     "id": "place:mpp-opening-ruxton-creek-upper",
-    "name": "Ruxton Creek crossing on the cog road above Minnehaha, upper (bridge or open culvert)",
+    "name": "Ruxton Creek crossing on the cog road below the Half-Way House, upper (bridge or open culvert)",
     "grade": "inferred",
     "error_ft": 10,
     "kind": "bridge",
-    "basis": "A 7 ft deep, 33 ft gap under the track where OSM draws Ruxton Creek crossing the line (way 1360370144, no culvert tag). Short bridge or open culvert: cannot tell. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.845382, -104.970442 and 38.845310, -104.970512, good to about 10 ft each. Bridge or open culvert: not told apart. Engineering News of October 1890 and T. F. Richardson's paper of 1894 (machine text, not checked on the page) say the line has four iron bridges, 'two of 20 ft and two of 30 ft span', on masonry abutments, and no trestle; no source of the time says where they stand. Four openings under the track were found on the lidar and all four are pinned; that these are the four bridges is inferred from the count. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
+    "basis": "A 7 ft deep, 33 ft gap under the track where OSM draws Ruxton Creek crossing the line (way 1360370144, no culvert tag). Short bridge or open culvert: cannot tell. The ends, where the ground comes back to the grade line on the 1 m lidar, are at 38.845382, -104.970442 and 38.845310, -104.970512, good to about 10 ft each. Bridge or open culvert: not told apart. Richardson's paper of 1894, p. 419 (read on the page), has 'four iron bridges, two of 20 feet and two of 30 feet span' on granite masonry, and culverts 'all built of red spruce logs'; the Railroad Gazette of 4 April 1890 (read on the page) says the short bridges 'are all plate girders on masonry abutments' and that some stand on steep grades. No source found says where any of the four stands: Richardson's plan and profile, examined whole, draw no bridge, culvert or stream. One book of 1890, written before the line was finished, counts three bridges, not four (machine text, not checked on the page). This crossing falls at about station 329+94 of the 1894 profile (feet from the summit), on its 15.64 per cent grade, some 600 ft below the Half-Way House. Ruxton Creek is the one stream the line crosses in the open, and it does so three times; these three open crossings are inferred to be three of the four iron bridges. Which are the 20 ft spans and which the 30 ft is not known. The line was rebuilt in 2018 to 2021, so what spans each opening today may not be what was built in 1890.",
     "sources": [
      "source:lidar-3dep",
      "source:osm-manitou-mountain-railways",
-     "source:mpp-engineering-press-1890-94"
+     "source:mpp-engineering-press-1890-94",
+     "source:mpp-richardson-plate-1894"
     ],
     "status": "draft",
     "contributor": "project",
@@ -4290,6 +4294,74 @@
      "length_ft": 177,
      "height_ft": 24
     }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.935494,
+     38.853164
+    ]
+   },
+   "properties": {
+    "id": "place:mpp-ruxton-creek-lower-canyon",
+    "name": "Ruxton Creek under the cog road in the lower canyon (a candidate for the fourth bridge; under fill today)",
+    "grade": "conjecture",
+    "error_ft": 30,
+    "kind": "bridge",
+    "basis": "The drawn line crosses Ruxton Creek here, about 1,720 ft above the depot (station 443+41 of the 1894 profile, on its 15.80 per cent grade); OpenStreetMap carries the creek under the line as a culvert, and on the 1 m lidar the ground is whole over it, so there is no opening to pin by its ends. Richardson's paper of 1894, p. 419 (read on the page), has 'four iron bridges, two of 20 feet and two of 30 feet span' on granite masonry, and culverts 'all built of red spruce logs'; the Railroad Gazette of 4 April 1890 (read on the page) says the short bridges 'are all plate girders on masonry abutments' and that some stand on steep grades. No source found says where any of the four stands: Richardson's plan and profile, examined whole, draw no bridge, culvert or stream. One book of 1890, written before the line was finished, counts three bridges, not four (machine text, not checked on the page). The three open crossings of Ruxton Creek higher up are inferred to be three of the four bridges. This is the main creek, and the line of 1890 had to cross it here by a bridge or a log culvert; that it was the fourth iron bridge, later buried in fill, is conjecture. The other candidate is the open gap over a dry gully a tenth of a mile above the depot. The line was rebuilt in 2018 to 2021.",
+    "sources": [
+     "source:osm-manitou-mountain-railways",
+     "source:lidar-3dep",
+     "source:mpp-richardson-plate-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:manitou-and-pikes-peak",
+      "milepost": null
+     }
+    ],
+    "summary": "Where the line first crosses Ruxton Creek, a third of a mile above the depot. A culvert under fill today; one of two candidates for the fourth iron bridge of 1890.",
+    "valid_from": 1891
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.014551,
+     38.818667
+    ]
+   },
+   "properties": {
+    "id": "place:mpp-timber-line",
+    "name": "Timber Line (Pikes Peak cog road)",
+    "grade": "inferred",
+    "error_ft": 300,
+    "kind": "stop",
+    "basis": "Richardson's profile of 1894 letters 'Timber Line' between stations 139+00 and 144+00 (read on the page), and his text puts timber line 14,700 ft from the top at 11,630 ft (machine text, not checked on the page). The time cards give Timber Line as 2.87 miles of rail from the summit, which is about 14,700 ft on the level: the two agree. The point is 14,700 ft from the summit along the drawn line. Above about 10,500 ft the profile and the drawn line fit less well, to 100 ft or more, hence the wide error. Whether there was a platform or only a name is not known.",
+    "sources": [
+     "source:mpp-richardson-plate-1894",
+     "source:mpp-folder-1915",
+     "source:osm-manitou-mountain-railways"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [
+     {
+      "line": "line:manitou-and-pikes-peak",
+      "milepost": null
+     }
+    ],
+    "summary": "A stop on the railway's time cards, 2.87 miles from the summit, where the trees end.",
+    "valid_from": 1891
    }
   },
   {
