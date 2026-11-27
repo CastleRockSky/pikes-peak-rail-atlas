@@ -3539,27 +3539,31 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.004,
-     38.78
+     -105.0083,
+     38.7811
     ]
    },
    "properties": {
     "id": "place:osr-seven-lakes",
-    "name": "Seven Lakes (hotel, and a branch road of 1881)",
+    "name": "Seven Lakes House (hotel site)",
     "grade": "inferred",
-    "error_ft": 1000,
+    "error_ft": 400,
     "kind": "other",
-    "basis": "The lakes are read off the government sheet of 1894 (1:125,000, surveyed 1892-93), good to about 1,000 ft; the hotel's own site is not fixed. A newspaper of August 1881 (machine text, not checked on the page) has the toll road extended from Beaver Park to Seven Lakes; the hotel of 1878 is from a later account of 1954. Off the stage road by some miles, and not on any railway.",
+    "basis": "Three maps put the hotel within 430 ft of one another: the 'Hotel' on Ellis's map of 1883, the building marks on the government sheet of 1901, and 'Seven Lakes Ruins' on the sheet of 1951. The pin is their mean. On the lidar the 1951 point is a small terrace on dry ground 230 to 400 ft west of McReynolds Reservoir's shore; Ellis's point falls just inside the water, within that map's error. So the site is most likely dry ground at the reservoir's edge: not proved, and not visited. Jackson's undated photograph of the basin (Denver Public Library WHJ-215, looked at by me) shows a white gabled building of two or more storeys with lower buildings beside it, at the foot of a burned hill, and a wagon road running to it between the lakes: taken to be the hotel, the only building in the view. The camera's place was not worked out. A newspaper of August 1881 (machine text) has the toll road opened to the lakes for carriages; the toll road company's advertisement of 1882 (read on the page) calls it 'the highest carriage road in the world'. Guidebooks of 1883 and 1886 (read on the page) end the carriage road here, with a trail on to the peak. The city bought the lakes in 1901-02 for its water supply; the last notice of the hotel found is of 1892. The lakes themselves are now largely under the two reservoirs. Sources give the elevation as anything from 10,350 to 11,800 ft; the lidar has the terrace at about 10,930.",
     "sources": [
+     "source:ellis-pikes-peak-railway-map-1883",
      "source:usgs-topo",
-     "source:old-stage-road-written-record"
+     "source:usgs-manitou-pikes-peak-1948-51",
+     "source:lidar-3dep",
+     "source:dpl-jackson-seven-lakes",
+     "source:seven-lakes-record"
     ],
     "status": "draft",
     "contributor": "project",
     "updated": "2026-11-26",
     "on_lines": [],
-    "summary": "The lakes below Pikes Peak that the Cheyenne Mountain road was built to reach before there was a Cripple Creek: a hotel is said to have been built in 1878 and a branch road came up from East Beaver Park in 1881.",
-    "valid_from": 1881
+    "summary": "The hotel at Seven Lakes, from 1878, where the carriage road from the south ended and the bridle trail to the summit began. Its site lies between today's McReynolds and Mason reservoirs.",
+    "valid_from": 1878
    }
   },
   {
@@ -4536,6 +4540,36 @@
     "updated": "2026-11-26",
     "valid_from": 1888,
     "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9948,
+     38.8162
+    ]
+   },
+   "properties": {
+    "id": "place:lake-moraine-lake-house",
+    "name": "Lake Moraine (the Lake House, and the end of the Bear Creek road)",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "other",
+    "basis": "The pin is on the building marks the government sheets of 1909 and 1948 show at the lake's north-west end; no sheet names them, and whether the Lake House of the 1870s stood there is not known. The Lake House, also called the Halfway House, stood on the Bear Creek trail and burned in August 1881 (index entry). A stereoview by Joseph Collier (Denver Public Library C-20, looked at by me) shows a low log building on the lake's far shore, which may be it. The wagon road up Bear Creek is said to have reached the lake by 1891-92 (machine text), and the road from Seven Lakes ends here on the sheet of 1894. The lake has since been raised as a reservoir; its outline has barely changed since 1909.",
+    "sources": [
+     "source:usgs-topo-colorado-springs",
+     "source:usgs-manitou-pikes-peak-1948-51",
+     "source:seven-lakes-record",
+     "source:dpl-jackson-seven-lakes"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "summary": "A lake at 10,200 ft on the old Bear Creek trail to the summit, with a 'Lake House' or half-way house that burned in 1881. A wagon road reached it about 1891.",
+    "valid_from": 1873
    }
   },
   {

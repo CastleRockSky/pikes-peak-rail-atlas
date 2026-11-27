@@ -522,5 +522,38 @@
   "title": "OpenStreetMap: the Pikes Peak Highway and Prairie Street, Cascade, on which most of the carriage road is drawn; way numbers in research/pikes-peak-carriage-road/route.md",
   "holder": "OpenStreetMap contributors",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:seven-lakes-record",
+  "kind": "newspapers and guidebooks",
+  "title": "Seven Lakes, Lake Moraine and the trails to Pikes Peak from the south, 1878 to 1913: Colorado Springs Gazette (the toll road company's advertisement of 6 July 1882 read on the page; other issues as machine text); S. E. Solly, 1883, and The Story of Manitou, 1886 (read on the page); Appalachia, 1888, and a Short Line booklet of 1908. Extracts in research/pikes-peak-south-routes/written-record.md",
+  "holder": "Internet Archive; Pikes Peak Library District index",
+  "date": "1878-1913",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:ellis-pikes-peak-railway-map-1883",
+  "kind": "map",
+  "title": "W. F. Ellis Jr., Map of the Pikes Peak Railway, 1883: a promoter's map that draws the Seven Lakes hotel, the road arriving from the south and the bridle trails above the lakes, on section lines. Fitted to the ground by six points, good to about 500 ft at Seven Lakes and 1,300 ft to the north-east. Working copy not published",
+  "holder": "Pikes Peak Library District, item 013-11499",
+  "url": "https://digitalcollections.ppld.org/nodes/view/77263",
+  "date": "1883",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:dpl-jackson-seven-lakes",
+  "kind": "photograph",
+  "title": "William Henry Jackson, 'Seven Lakes' (WHJ-215), undated, 1880s by estimate: a general view of the basin with a wagon road winding between the lakes to a white building; and his views of Lake Moraine (WHJ-206, 207). Looked at; the camera's place not worked out",
+  "holder": "Denver Public Library Special Collections",
+  "url": "https://digital.denverlibrary.org/nodes/view/1057574",
+  "date": "1880s",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:osm-south-slope-roads",
+  "kind": "dataset",
+  "title": "OpenStreetMap: Frosty Park Road and Seven Lakes Road, on which the roads from Rosemont and Clyde are drawn; way numbers in research/pikes-peak-south-routes/routes.md",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-26"
  }
 ]
