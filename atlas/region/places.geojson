@@ -3545,11 +3545,11 @@
    },
    "properties": {
     "id": "place:osr-seven-lakes",
-    "name": "Seven Lakes House (hotel; site in dispute between two places)",
+    "name": "Seven Lakes House (hotel site)",
     "grade": "inferred",
-    "error_ft": 2000,
+    "error_ft": 400,
     "kind": "other",
-    "basis": "Two sets of sources put the hotel in two places 2,000 ft apart. For the pin, the western site: the 'Hotel' on Ellis's map of 1883, the building marks on the government sheet of 1901 and 'Seven Lakes Ruins' on the sheet of 1951 fall within 430 ft of one another, on a small terrace on dry ground west of McReynolds Reservoir. For an eastern site: the land office surveyor of June 1882, working while the hotel stood, noted 'Dr Smith's Hotel in about the NW 1/4 of the NE 1/4 of Sec 4' (read on the page by me), and his plat draws the hotel east of all seven lakes at the end of the toll road. That quarter-quarter is centred near 38.7814, -105.0016; its west half is under the reservoir and no terrace shows on the dry part. He measured nothing to the building and says 'in about'; but Ellis's map is fitted only to about 500 ft, and the ruins of 1951 may be of a later building. Not settled: the pin is left on the western site with an error wide enough to take in both. The land patent for the tract, or the city's deed of 1901-02, should decide it. Jackson's undated photograph of the basin (Denver Public Library WHJ-215, looked at by me) shows a white gabled building of two or more storeys with lower buildings beside it, at the foot of a burned hill, and a wagon road running to it between the lakes: taken to be the hotel, the only building in the view. The camera's place was not worked out. A newspaper of August 1881 (machine text) has the toll road opened to the lakes for carriages; the toll road company's advertisement of 1882 (read on the page) calls it 'the highest carriage road in the world'. Guidebooks of 1883 and 1886 (read on the page) end the carriage road here, with a trail on to the peak. The city bought the lakes in 1901-02 for its water supply; the last notice of the hotel found is of 1892. The lakes themselves are now largely under the two reservoirs. Sources give the elevation as anything from 10,350 to 11,800 ft; the lidar has the terrace at about 10,930. The surveyor of 1882 calls the lakes 'quite small' and says Dr Smith 'has erected a Hotel in the N 1/2 of Sec 4 near these lakes'.",
+    "basis": "The hotel is placed by three maps and a land title that agree. The 'Hotel' on Ellis's map of 1883, the building marks on the government sheet of 1901 and 'Seven Lakes Ruins' on the sheet of 1951 fall within 430 ft of one another, on a level bench about 30 ft above today's McReynolds Reservoir; the pin is their mean. All of them lie inside the 153.68 acres that Mayo G. Smith of El Paso County bought from the United States, patented 15 March 1888: 'the south half of the north west quarter and the lots numbered three and four of the north west quarter of section four' (read on the page by me). The resurvey of 1938 draws a row of small structures on the same bench and nothing east of the water. That this Smith is the Dr M. G. Smith of the toll road is inferred from the initials, the county and the surveyor's 'Dr Smith's Hotel'. Against it stands one note: the land surveyor of June 1882 wrote 'Dr Smith's Hotel in about the NW 1/4 of the NE 1/4 of Sec 4' (read on the page by me) and drew the hotel east of the lakes, 2,000 ft from here. He wrote it at a corner half a mile off and measured nothing to the building; that forty was patented to another man, Paul Curtis, in 1894, and its dry part is a bouldery slope with no level ground. It is taken for a slip of a quarter-quarter. Jackson's photograph was tried against the lidar from 756 camera positions: with an ordinary lens seven of them put this site on the white building and none puts the eastern one there, but the skyline alone fits both sides, so the picture leans this way without deciding. Inferred, good to about 400 ft: no record found gives the building's own position. Smith's entry papers, the city's deed of 1901-02 in the Teller County records, or the resurvey's field notes might. Jackson's undated photograph of the basin (Denver Public Library WHJ-215, looked at by me) shows a white gabled building of two or more storeys with lower buildings beside it, at the foot of a burned hill, and a wagon road running to it between the lakes: taken to be the hotel, the only building in the view. The camera's place was not worked out. A newspaper of August 1881 (machine text) has the toll road opened to the lakes for carriages; the toll road company's advertisement of 1882 (read on the page) calls it 'the highest carriage road in the world'. Guidebooks of 1883 and 1886 (read on the page) end the carriage road here, with a trail on to the peak. The city bought the lakes in 1901-02 for its water supply; the last notice of the hotel found is of 1892. The lakes themselves are now largely under the two reservoirs. Sources give the elevation as anything from 10,350 to 11,800 ft; the lidar has the terrace at about 10,930. The surveyor of 1882 calls the lakes 'quite small' and says Dr Smith 'has erected a Hotel in the N 1/2 of Sec 4 near these lakes'.",
     "sources": [
      "source:ellis-pikes-peak-railway-map-1883",
      "source:usgs-topo",
@@ -3557,13 +3557,14 @@
      "source:lidar-3dep",
      "source:dpl-jackson-seven-lakes",
      "source:seven-lakes-record",
-     "source:glo-t15s-r68w-1882"
+     "source:glo-t15s-r68w-1882",
+     "source:glo-patents-seven-lakes"
     ],
     "status": "draft",
     "contributor": "project",
     "updated": "2026-11-27",
     "on_lines": [],
-    "summary": "The hotel at Seven Lakes, from 1878, where the carriage road from the south ended and the bridle trail to the summit began. Three maps put it west of today's McReynolds Reservoir; the land surveyor of 1882 puts it 2,000 ft east.",
+    "summary": "The hotel at Seven Lakes, from 1878, where the carriage road from the south ended and the bridle trail to the summit began. It stood on Mayo G. Smith's own land, on a bench just west of today's McReynolds Reservoir.",
     "valid_from": 1878
    }
   },

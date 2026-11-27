@@ -14636,12 +14636,12 @@
    },
    "properties": {
     "id": "feature:seven-lakes-road-2-to-hotel",
-    "name": "Seven Lakes road: the last mile north to the hotel (from old maps; contradicted by the survey of 1882)",
+    "name": "Seven Lakes road: the last mile north to the hotel (from old maps; drawn too far east)",
     "kind": "road",
     "grade": "conjecture",
     "error_ft": 1300,
     "length_ft": 4992,
-    "basis": "Ellis's map of 1883 and the government sheet of 1893 draw a road here, and the sheet of 1894 a trail; the three agree within about 500 ft. No bench was found on the lidar and the north end is under McReynolds Reservoir. Jackson's photograph of the basin (looked at by me) shows a wagon road with two wheel tracks winding between the lakes to a white building; it could not be matched to this line, the old lake shores being under water. Against this line: the surveyor of June 1882 crossed the toll road on the line between sections 4 and 9 at 30.00 chains, 1,260 ft west of where this piece crosses it, and his plat carries the road on north-east to a hotel east of the lakes. The piece is kept until the hotel's site is settled, as conjecture.",
+    "basis": "Ellis's map of 1883 and the government sheet of 1893 draw a road here, and the sheet of 1894 a trail; the three agree within about 500 ft. No bench was found on the lidar and the north end is under McReynolds Reservoir. Jackson's photograph of the basin (looked at by me) shows a wagon road with two wheel tracks winding between the lakes to a white building; it could not be matched to this line, the old lake shores being under water. Against this line: the surveyor of June 1882 crossed the toll road on the line between sections 4 and 9 at 30.00 chains, 1,260 ft west of where this piece crosses it, and his plat carries the road on north-east to a hotel east of the lakes. The piece is kept until the hotel's site is settled, as conjecture. Later the same day the hotel's site was settled on the western bench by the land patents; the surveyor's crossing of 1882, 1,260 ft west of this piece, is then on the direct way to the hotel, and this piece is known to lie too far east. It wants redrawing through that crossing; left as conjecture until that is done.",
     "sources": [
      "source:ellis-pikes-peak-railway-map-1883",
      "source:usgs-topo",
