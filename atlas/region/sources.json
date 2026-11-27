@@ -555,5 +555,45 @@
   "title": "OpenStreetMap: Frosty Park Road and Seven Lakes Road, on which the roads from Rosemont and Clyde are drawn; way numbers in research/pikes-peak-south-routes/routes.md",
   "holder": "OpenStreetMap contributors",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:glo-t13s-r68w-1872",
+  "kind": "survey",
+  "title": "General Land Office survey of Township 13 South, Range 68 West: plat approved 9 November 1872 and the field notes of the subdivision lines (vol. R0012, pp. 590-591, October 1872), which record at 78.00 chains on the line between sections 35 and 36 the 'Old Road from Colorado City to South Park', apart from the canyon road. Read on the page images; screenshots in research/ute-pass-trail/maps/",
+  "holder": "Bureau of Land Management, General Land Office Records",
+  "url": "https://glorecords.blm.gov/",
+  "date": "1872",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:ute-pass-trail-record",
+  "kind": "books and newspapers",
+  "title": "The Ute Pass trail described: Irving Howbert, The Indians of the Pike's Peak Region (1914), pp. 27-28 (read on the page); Edwin James's account of Long's expedition, 1820, and George F. Ruxton, 1847 (machine text). All are settlers' and travellers' accounts; no Ute account of the trail's course was found. Extracts in research/ute-pass-trail/written-record.md",
+  "holder": "Internet Archive",
+  "date": "1820-1914",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:ute-pass-trail-marking-1912",
+  "kind": "newspapers, photographs and marker lists",
+  "title": "The marking of the Ute Pass trail by the El Paso County Pioneers' Association with Southern Ute riders, 29 August 1912: Rocky Mountain News, 30 August 1912 (read on the page); H. S. Poley's photographs (Denver Public Library and Pikes Peak Library District, catalogue entries); the Historical Marker Database, entry 282616, for the boulder's present place (a secondary source); later Gazette notices by index headline. Table in research/ute-pass-trail/markers.json",
+  "holder": "Colorado Historic Newspapers Collection; Denver Public Library; Pikes Peak Library District; hmdb.org",
+  "date": "1912-2025",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:usgs-cascade-manitou-1948",
+  "kind": "map",
+  "title": "USGS Cascade and Manitou Springs quadrangles, 1:24,000, 1948: a dashed trail over the hills south of Fountain Creek lettered INDIAN TRAIL in section 36 and PIPE LINE TRAIL in section 6",
+  "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
+  "date": "1948",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:osm-ute-pass-trail",
+  "kind": "dataset",
+  "title": "OpenStreetMap: the path mapped as the Ute Pass Trail between Manitou Springs and Crags (the county's Ute Indian Trail of 2014), and US 24, on which the joins are drawn",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-26"
  }
 ]

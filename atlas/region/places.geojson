@@ -4577,6 +4577,62 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -104.91818,
+     38.85895
+    ]
+   },
+   "properties": {
+    "id": "place:upt-eastern-end-boulder",
+    "name": "Boulder marking the eastern end of the Ute Pass trail (1912; since moved)",
+    "grade": "inferred",
+    "error_ft": 150,
+    "kind": "other",
+    "summary": "The inscribed boulder set on 29 August 1912 by the El Paso County Pioneers' Association with Buckskin Charlie and his band of Southern Utes. It has been moved at least once and is not where the trail began to climb.",
+    "basis": "The point is the Historical Marker Database's for the boulder as it stands today, at 932 Manitou Avenue: a secondary figure, not checked on the ground. The Rocky Mountain News of 30 August 1912 (read on the page) has 'a large boulder ... planted at the end of the historic trail' with a metal box beneath it to be opened in fifty years; photographs of 1947 to 1976 have it in front of the Manitou Spa, and an index headline of 1962 has the box found in Soda Springs Park. So it has moved, and where it stood in 1912 is not fixed. It is about half a mile east of where Howbert says the trail left Ruxton Creek. The same day the Association set white marble posts lettered 'U.P.T.' along the trail between Cascade and Manitou, about 75 to 80 Southern Utes from Ignacio riding the line. Later writers count fifteen; no account of 1912 gives a number or says where any post stood, and none is pinned in the atlas. A newspaper of 2020 says the originals were stolen and replaced; one of 2014 calls a caged one original.",
+    "sources": [
+     "source:ute-pass-trail-marking-1912",
+     "source:ute-pass-trail-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": [],
+    "valid_from": 1912
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.956325,
+     38.882313
+    ]
+   },
+   "properties": {
+    "id": "place:upt-old-road-crossing-1872",
+    "name": "Where the surveyor crossed the 'Old Road from Colorado City to South Park' (1872)",
+    "grade": "inferred",
+    "error_ft": 100,
+    "kind": "other",
+    "summary": "The one point on the Ute Pass trail fixed by a survey: a land office surveyor's note of October 1872, taken where the old road over the hills crossed a section line above Cascade.",
+    "basis": "The field notes of the subdivision of Township 13 South, Range 68 West (read on the page by me) record at 78.00 chains north on the line between sections 35 and 36: 'Old Road from Colorado City to South Park bears NW and SE'; the corner was set at 80.00. The point is 2 chains south of that corner as the modern land survey has it, good to about 100 ft. The same notes name the canyon road separately, a quarter mile east. The old road is taken to be the wagon road of 1860 that Howbert says followed the old trail over the hills; the map of 1948 letters INDIAN TRAIL on a trail through this point. No marker stands here that is known of, and nothing has been looked for on the ground.",
+    "sources": [
+     "source:glo-t13s-r68w-1872",
+     "source:usgs-cascade-manitou-1948",
+     "source:ute-pass-trail-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.834603,
      38.828288
     ]

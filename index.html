@@ -256,7 +256,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
       if (o.worked && (p.sources || []).some(id => !SRC[id])) get('atlas/places/' + o.slug + '/sources.json', []).then(a => { const ex = {}; for (const s of a) ex[s.id] = s; if (sel === o && $('psrc')) $('psrc').innerHTML = srcList(p.sources, ex); });
     } else {
       const p = o.p;
-      h = head(p.kind, esc(p.name), esc(years(p.valid_from, p.valid_to)) + (p.length_ft ? ' · about ' + Math.round(p.length_ft / 100) * 100 + ' ft' : '')) + gradeBox(p.grade, p.error_ft) + '<h3>How it is known</h3>' + paras(p.basis) + '<h3>Sources</h3>' + srcList(p.sources) + foot();
+      h = head(p.kind, esc(p.name), (p.valid_from ? esc(years(p.valid_from, p.valid_to)) : 'In use before written record') + (p.length_ft ? ' · about ' + Math.round(p.length_ft / 100) * 100 + ' ft' : '')) + gradeBox(p.grade, p.error_ft) + '<h3>How it is known</h3>' + paras(p.basis) + '<h3>Sources</h3>' + srcList(p.sources) + foot();
     }
     $('detail').innerHTML = h; document.body.classList.add('sel'); $('side').scrollTop = 0;
     $('back').onclick = () => select(null);
