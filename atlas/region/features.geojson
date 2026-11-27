@@ -14594,7 +14594,7 @@
     "grade": "inferred",
     "error_ft": 250,
     "length_ft": 32516,
-    "basis": "The carriage branch of the Cheyenne Mountain toll road, opened to Seven Lakes in August 1881 (newspaper, machine text). Drawn on today's Frosty Park Road, 6.2 miles climbing from 9,800 to 11,030 ft at under 4 per cent. The government sheet of 1909 draws a road on this line within 300 to 800 ft; the sheet of 1893 has the same shape, displaced. Whether today's road keeps the bed of 1881 throughout was not tested. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine. The land office surveyor of June 1882 crossed the 'Toll Road to Seven Lakes' seven times on section lines between Rosemont and the lakes (read on the page); his crossings lie from 3 to 1,030 ft from this line, most within a few hundred. So this is the toll road of 1881, and where today's road strays from it the old bed lies near by.",
+    "basis": "The carriage branch of the Cheyenne Mountain toll road, opened to Seven Lakes in August 1881 (newspaper, machine text). Drawn on today's Frosty Park Road, 6.2 miles climbing from 9,800 to 11,030 ft at under 4 per cent. The government sheet of 1909 draws a road on this line within 300 to 800 ft; the sheet of 1893 has the same shape, displaced. Whether today's road keeps the bed of 1881 throughout was not tested. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine. The land office surveyor of June 1882 crossed the 'Toll Road to Seven Lakes' seven times on section lines between Rosemont and the lakes (read on the page); his crossings lie from 3 to 1,030 ft from this line, most within a few hundred. So this is the toll road of 1881, and where today's road strays from it the old bed lies near by. Its last half mile, to the 105th meridian, is on today's road; the surveyor's crossing of 1882 on the next section line lies 1,250 ft west of where this piece ends, so the old road probably left today's line somewhere short of the end.",
     "sources": [
      "source:osm-south-slope-roads",
      "source:usgs-topo-colorado-springs",
@@ -14613,41 +14613,150 @@
     "type": "LineString",
     "coordinates": [
      [
-      -105.001271,
-      38.768668
+      -105.0013,
+      38.7687
      ],
      [
-      -105.0018,
-      38.7719
+      -105.00567,
+      38.76823
      ],
      [
-      -105.0027,
-      38.7748
-     ],
-     [
-      -105.005,
-      38.777
-     ],
-     [
-      -105.0055,
-      38.7816
+      -105.004472,
+      38.770119
      ]
     ]
    },
    "properties": {
-    "id": "feature:seven-lakes-road-2-to-hotel",
-    "name": "Seven Lakes road: the last mile north to the hotel (from old maps; drawn too far east)",
+    "id": "feature:seven-lakes-road-2a-through-the-crossing",
+    "name": "Seven Lakes road: through the surveyor's crossing of 1882 to the crest (a join)",
     "kind": "road",
     "grade": "conjecture",
-    "error_ft": 1300,
-    "length_ft": 4992,
-    "basis": "Ellis's map of 1883 and the government sheet of 1893 draw a road here, and the sheet of 1894 a trail; the three agree within about 500 ft. No bench was found on the lidar and the north end is under McReynolds Reservoir. Jackson's photograph of the basin (looked at by me) shows a wagon road with two wheel tracks winding between the lakes to a white building; it could not be matched to this line, the old lake shores being under water. Against this line: the surveyor of June 1882 crossed the toll road on the line between sections 4 and 9 at 30.00 chains, 1,260 ft west of where this piece crosses it, and his plat carries the road on north-east to a hotel east of the lakes. The piece is kept until the hotel's site is settled, as conjecture. Later the same day the hotel's site was settled on the western bench by the land patents; the surveyor's crossing of 1882, 1,260 ft west of this piece, is then on the direct way to the hotel, and this piece is known to lie too far east. It wants redrawing through that crossing; left as conjecture until that is done.",
+    "error_ft": 300,
+    "length_ft": 2021,
+    "basis": "A join. The land surveyor of June 1882 crossed the 'Toll Road to Seven Lakes' at 30.00 chains on the line between sections 4 and 9, bearing north and south (read on the page by the helper); that crossing, good to about 150 ft, is the one fixed point. The line runs to it from the end of the Rosemont road and on to the foot of the old track on the crest, 660 ft north. Nothing was picked out on the ground: the slope below the crest is cut by gullies. How the road reached the crossing from the south is not known, and the Rosemont road's own last half mile may be off its line of 1882.",
     "sources": [
-     "source:ellis-pikes-peak-railway-map-1883",
-     "source:usgs-topo",
-     "source:usgs-topo-colorado-springs",
+     "source:glo-t15s-r68w-1882",
+     "source:lidar-3dep"
+    ],
+    "valid_from": 1881,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.004472,
+      38.770119
+     ],
+     [
+      -105.004241,
+      38.770659
+     ],
+     [
+      -105.004259,
+      38.771134
+     ],
+     [
+      -105.004403,
+      38.771494
+     ],
+     [
+      -105.004501,
+      38.771945
+     ],
+     [
+      -105.004478,
+      38.772395
+     ],
+     [
+      -105.004317,
+      38.772756
+     ],
+     [
+      -105.004029,
+      38.773116
+     ],
+     [
+      -105.003902,
+      38.773387
+     ],
+     [
+      -105.003971,
+      38.773567
+     ],
+     [
+      -105.004201,
+      38.773882
+     ],
+     [
+      -105.004432,
+      38.774288
+     ],
+     [
+      -105.004604,
+      38.774648
+     ],
+     [
+      -105.004708,
+      38.774919
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:seven-lakes-road-2b-old-track",
+    "name": "Seven Lakes road: the old track from the crest down toward the lakes",
+    "kind": "road",
+    "grade": "inferred",
+    "error_ft": 30,
+    "length_ft": 1854,
+    "basis": "A sunken track 6 to 10 ft wide, followed on the 1 m lidar for a third of a mile from the crest at 11,200 ft down to the south shore of today's McReynolds Reservoir, falling about 9 per cent. It is on no present map. It heads from the surveyor's crossing of 1882 toward the hotel, gullies have formed where it sheds water at its upper end, and the resurvey of 1938 draws a road down this slope to the lake. That it is the toll road of 1881 is inferred from those; the track itself is where the line says, to about 30 ft. It replaces a line drawn from old maps alone, which lay 1,000 ft and more to the east.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:glo-t15s-r68w-1882",
+     "source:glo-patents-seven-lakes"
+    ],
+    "valid_from": 1881,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.004708,
+      38.774919
+     ],
+     [
+      -105.0068,
+      38.7775
+     ],
+     [
+      -105.0083,
+      38.7811
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:seven-lakes-road-2c-to-the-hotel",
+    "name": "Seven Lakes road: from the reservoir's south shore to the hotel (drowned or rebuilt; a straight line)",
+    "kind": "road",
+    "grade": "conjecture",
+    "error_ft": 600,
+    "length_ft": 2492,
+    "basis": "The last half mile to the hotel lies under McReynolds Reservoir, its dam and the roads built for it; a straight line is drawn to the hotel's site. Jackson's photograph of the 1880s (looked at by me) shows what is lost: a wagon road with two wheel tracks winding between the lakes to the hotel. Ellis's map of 1883 brings the road to the hotel from the south-south-east, as this does.",
+    "sources": [
      "source:dpl-jackson-seven-lakes",
-     "source:glo-t15s-r68w-1882"
+     "source:ellis-pikes-peak-railway-map-1883",
+     "source:glo-patents-seven-lakes"
     ],
     "valid_from": 1881,
     "status": "draft",
