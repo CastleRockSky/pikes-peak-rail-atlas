@@ -36,6 +36,8 @@
   #detail img.pic { width: 150px; height: 100px; object-fit: cover; display: block; margin: 6px 0 2px; border: 1px solid #cfc7b3; }
   .open { display: inline-block; background: #7a4a16; color: #fff; padding: 6px 12px; border-radius: 4px; text-decoration: none; margin: 4px 0 8px; }
   .leaflet-tooltip.lbl { background: rgba(255,253,247,.9); border: 0; box-shadow: none; padding: 0 4px; font: 12.5px Georgia, serif; color: #2b2620; } .leaflet-tooltip.lbl::before { display: none; }
+  .leaflet-control-layers { font: 13px system-ui, sans-serif; } .leaflet-control-layers-base label { padding: 2px 2px; cursor: pointer; }
+  #map.sat .leaflet-overlay-pane svg path { filter: drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1.5px #fff); }   /* dark lines stay readable on photographs */
   .leaflet-tooltip.pinlbl { display: none; font-size: 11.5px; } #map.near .leaflet-tooltip.pinlbl { display: block; }
   #warn { display: none; background: #7c2d12; color: #fff; padding: 10px; margin-bottom: 10px; }
   @media (max-width: 760px) { html, body { height: auto; } body { display: flex; flex-direction: column; } #side { position: static; width: auto; border-right: 0; } #map { position: relative; inset: auto; height: 58vh; order: -1; } }   /* phone: map first, full width (Leaflet makes the map relative, so the desktop inset must be cleared) */
@@ -117,7 +119,15 @@ function paras(text) {
 const gradeBox = (g, err) => '<div class="grade">' + sample('#2b2620', (GRADE[g] || {}).dash) + ' <b>' + esc(g) + '</b>' + (err == null ? '' : ', good to about ' + esc(err) + ' ft') + '<br><span class="note">' + esc((GRADE[g] || {}).what || '') + '</span></div>';
 
 const map = L.map('map').setView([38.83, -105.05], 11);
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Map: Esri and contributors' }).addTo(map);
+// two backgrounds, chosen with the switch at the map's lower left; the choice is remembered on this device
+const BASE = {
+  'Topographic': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Map: Esri and contributors' }),
+  'Satellite': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Imagery: Esri, Maxar, Earthstar Geographics' })
+};
+let baseName = 'Topographic'; try { if (BASE[localStorage.getItem('atlas-base')]) baseName = localStorage.getItem('atlas-base'); } catch (e) {}
+BASE[baseName].addTo(map); document.getElementById('map').classList.toggle('sat', baseName === 'Satellite');
+L.control.layers(BASE, null, { collapsed: false, position: 'bottomleft' }).addTo(map);
+map.on('baselayerchange', e => { document.getElementById('map').classList.toggle('sat', e.name === 'Satellite'); try { localStorage.setItem('atlas-base', e.name); } catch (err) {} });
 Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojson', { features: [] }), get('atlas/region/photos.json', []), get('atlas/region/features.geojson', { features: [] }), get('atlas/region/sources.json', [])]).then(([lines, places, pics, feats, srcs]) => {
   const SRC = {}; for (const s of srcs) SRC[s.id] = s;
   const LINE = {}; for (const l of lines) LINE[l.id] = l;
