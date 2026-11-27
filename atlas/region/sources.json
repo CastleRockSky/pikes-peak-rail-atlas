@@ -640,5 +640,14 @@
   "url": "https://glorecords.blm.gov/",
   "date": "1888-1940",
   "accessed": "2026-11-27"
+ },
+ {
+  "id": "source:naip-air-photographs",
+  "kind": "air photographs",
+  "title": "National Agriculture Imagery Program air photographs of Colorado, 2011 to 2023 (flown in 2011, 2013, 2015, 2017, 2019, 2021 and 2023; the frame of 12 September 2019 from the USGS National Map service, the others through the Microsoft Planetary Computer). Public domain. Looked at beside the lidar; lists of the frames used in research/pikes-peak-south-routes/south-a-sources.json and south-b-sources.json",
+  "holder": "United States Department of Agriculture, Farm Service Agency; served by the U.S. Geological Survey",
+  "url": "https://naip-usdaonline.hub.arcgis.com/",
+  "date": "2011-2023",
+  "accessed": "2026-11-27"
  }
 ]

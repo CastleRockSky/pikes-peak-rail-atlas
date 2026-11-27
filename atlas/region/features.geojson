@@ -14594,7 +14594,7 @@
     "grade": "inferred",
     "error_ft": 250,
     "length_ft": 32516,
-    "basis": "The carriage branch of the Cheyenne Mountain toll road, opened to Seven Lakes in August 1881 (newspaper, machine text). Drawn on today's Frosty Park Road, 6.2 miles climbing from 9,800 to 11,030 ft at under 4 per cent. The government sheet of 1909 draws a road on this line within 300 to 800 ft; the sheet of 1893 has the same shape, displaced. Whether today's road keeps the bed of 1881 throughout was not tested. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine. The land office surveyor of June 1882 crossed the 'Toll Road to Seven Lakes' seven times on section lines between Rosemont and the lakes (read on the page); his crossings lie from 3 to 1,030 ft from this line, most within a few hundred. So this is the toll road of 1881, and where today's road strays from it the old bed lies near by. Its last half mile, to the 105th meridian, is on today's road; the surveyor's crossing of 1882 on the next section line lies 1,250 ft west of where this piece ends, so the old road probably left today's line somewhere short of the end.",
+    "basis": "The carriage branch of the Cheyenne Mountain toll road, opened to Seven Lakes in August 1881 (newspaper, machine text). Drawn on today's Frosty Park Road, 6.2 miles climbing from 9,800 to 11,030 ft at under 4 per cent. The government sheet of 1909 draws a road on this line within 300 to 800 ft; the sheet of 1893 has the same shape, displaced. Whether today's road keeps the bed of 1881 throughout was not tested. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine. The land office surveyor of June 1882 crossed the 'Toll Road to Seven Lakes' seven times on section lines between Rosemont and the lakes (read on the page); his crossings lie from 3 to 1,030 ft from this line, most within a few hundred. So this is the toll road of 1881, and where today's road strays from it the old bed lies near by. Its last half mile, to the 105th meridian, is on today's road; the surveyor's crossing of 1882 on the next section line lies 1,250 ft west of where this piece ends, so the old road probably left today's line somewhere short of the end. Looked for on the lidar and air photographs, 27 Nov 2026: four of the surveyor's crossings of 1882 lie 370 to 935 ft off today's road in dense forest, and no bed could be followed at any of them; the line stays on today's road. The old road is now taken to leave today's line in the long meadow, about 1,300 ft short of this piece's end; the end beyond that is today's road only.",
     "sources": [
      "source:osm-south-slope-roads",
      "source:usgs-topo-colorado-springs",
@@ -14613,12 +14613,152 @@
     "type": "LineString",
     "coordinates": [
      [
-      -105.0013,
-      38.7687
+      -104.999357,
+      38.765799
      ],
      [
-      -105.00567,
-      38.76823
+      -105.0033,
+      38.7646
+     ],
+     [
+      -105.0052,
+      38.7643
+     ],
+     [
+      -105.0064,
+      38.765
+     ],
+     [
+      -105.007,
+      38.7662
+     ],
+     [
+      -105.00706,
+      38.76693
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:seven-lakes-road-2a-approach-from-the-meadow",
+    "name": "Seven Lakes road: from the long meadow round the knoll to the foot of the old band (a join)",
+    "kind": "road",
+    "grade": "conjecture",
+    "error_ft": 500,
+    "length_ft": 2915,
+    "basis": "A join; the road is not seen here. The old band through the surveyor's crossing of 1882 comes up from the south-west, not from where today's Frosty Park Road ends, so the toll road must have left today's line somewhere in the long meadow. This line leaves it at the nearest point, crosses the meadow straight (a guess), and follows the easiest ground on the lidar round the west side of the knoll to the foot of the band. A present-day two-track runs over the same ground. The straight join it replaces climbed 14 per cent over gullies, which no carriage road would. An air photograph from before the reservoirs were enlarged would be the best test.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:naip-air-photographs",
+     "source:glo-t15s-r68w-1882"
+    ],
+    "valid_from": 1881,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.00706,
+      38.76693
+     ],
+     [
+      -105.00688,
+      38.76705
+     ],
+     [
+      -105.00677,
+      38.76722
+     ],
+     [
+      -105.0066,
+      38.76734
+     ],
+     [
+      -105.006485,
+      38.767432
+     ],
+     [
+      -105.006363,
+      38.767527
+     ],
+     [
+      -105.006249,
+      38.767629
+     ],
+     [
+      -105.006114,
+      38.767715
+     ],
+     [
+      -105.00599,
+      38.76781
+     ],
+     [
+      -105.005853,
+      38.767891
+     ],
+     [
+      -105.005717,
+      38.768041
+     ],
+     [
+      -105.005587,
+      38.768131
+     ],
+     [
+      -105.005497,
+      38.768247
+     ],
+     [
+      -105.00543,
+      38.768321
+     ],
+     [
+      -105.005313,
+      38.76842
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:seven-lakes-road-2a-through-the-crossing",
+    "name": "Seven Lakes road: the old sunken band through the surveyor's crossing of 1882",
+    "kind": "road",
+    "grade": "inferred",
+    "error_ft": 40,
+    "length_ft": 743,
+    "basis": "A shallow sunken band followed on the 1 m lidar for 740 ft, climbing north-east at a steady 5 per cent slantwise across a steeper slope, so it is not a watercourse. On the air photographs of 2011, 2017 and 2023 it is a strip clear of trees through the forest (lidar and photographs looked at by me). The land surveyor's crossing of the 'Toll Road to Seven Lakes' in June 1882, at 30.00 chains on the line between sections 4 and 9, falls 39 ft from it, and it points at the head of the old track beyond the saddle. That it is the toll road of 1881 is inferred from those. Two things sit awkwardly: the band is 25 to 55 ft wide, broad for a wagon road unless long use and wash spread it; and the surveyor gave the road's bearing as north and south, where the band runs about north 35 east. Nothing on the ground dates it.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:naip-air-photographs",
+     "source:glo-t15s-r68w-1882"
+    ],
+    "valid_from": 1881,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.005313,
+      38.76842
+     ],
+     [
+      -105.00495,
+      38.76905
+     ],
+     [
+      -105.0045,
+      38.76989
      ],
      [
       -105.004472,
@@ -14627,15 +14767,14 @@
     ]
    },
    "properties": {
-    "id": "feature:seven-lakes-road-2a-through-the-crossing",
-    "name": "Seven Lakes road: through the surveyor's crossing of 1882 to the crest (a join)",
+    "id": "feature:seven-lakes-road-2a-over-the-saddle",
+    "name": "Seven Lakes road: over the level saddle to the head of the old track (a join)",
     "kind": "road",
     "grade": "conjecture",
-    "error_ft": 300,
-    "length_ft": 2021,
-    "basis": "A join. The land surveyor of June 1882 crossed the 'Toll Road to Seven Lakes' at 30.00 chains on the line between sections 4 and 9, bearing north and south (read on the page by the helper); that crossing, good to about 150 ft, is the one fixed point. The line runs to it from the end of the Rosemont road and on to the foot of the old track on the crest, 660 ft north. Nothing was picked out on the ground: the slope below the crest is cut by gullies. How the road reached the crossing from the south is not known, and the Rosemont road's own last half mile may be off its line of 1882.",
+    "error_ft": 100,
+    "length_ft": 667,
+    "basis": "A straight join of 670 ft over the level saddle at about 11,200 ft, from where the band fades to the head of the old track. Nothing shows on the lidar: level ground keeps no rut.",
     "sources": [
-     "source:glo-t15s-r68w-1882",
      "source:lidar-3dep"
     ],
     "valid_from": 1881,
@@ -14714,7 +14853,7 @@
     "grade": "inferred",
     "error_ft": 30,
     "length_ft": 1854,
-    "basis": "A sunken track 6 to 10 ft wide, followed on the 1 m lidar for a third of a mile from the crest at 11,200 ft down to the south shore of today's McReynolds Reservoir, falling about 9 per cent. It is on no present map. It heads from the surveyor's crossing of 1882 toward the hotel, gullies have formed where it sheds water at its upper end, and the resurvey of 1938 draws a road down this slope to the lake. That it is the toll road of 1881 is inferred from those; the track itself is where the line says, to about 30 ft. It replaces a line drawn from old maps alone, which lay 1,000 ft and more to the east.",
+    "basis": "A sunken track 6 to 10 ft wide, followed on the 1 m lidar for a third of a mile from the crest at 11,200 ft down to the south shore of today's McReynolds Reservoir, falling about 9 per cent. It is on no present map. It heads from the surveyor's crossing of 1882 toward the hotel, gullies have formed where it sheds water at its upper end, and the resurvey of 1938 draws a road down this slope to the lake. That it is the toll road of 1881 is inferred from those; the track itself is where the line says, to about 30 ft. It replaces a line drawn from old maps alone, which lay 1,000 ft and more to the east. Looked for on the air photographs of 2011 to 2023 and not seen: it lies under conifers. A faint, steep continuation at its north end, 450 ft long, shows on the lidar and is not drawn.",
     "sources": [
      "source:lidar-3dep",
      "source:glo-t15s-r68w-1882",
@@ -14752,11 +14891,12 @@
     "grade": "conjecture",
     "error_ft": 600,
     "length_ft": 2492,
-    "basis": "The last half mile to the hotel lies under McReynolds Reservoir, its dam and the roads built for it; a straight line is drawn to the hotel's site. Jackson's photograph of the 1880s (looked at by me) shows what is lost: a wagon road with two wheel tracks winding between the lakes to the hotel. Ellis's map of 1883 brings the road to the hotel from the south-south-east, as this does.",
+    "basis": "The last half mile to the hotel lies under McReynolds Reservoir, its dam and the roads built for it; a straight line is drawn to the hotel's site. Jackson's photograph of the 1880s (looked at by me) shows what is lost: a wagon road with two wheel tracks winding between the lakes to the hotel. Ellis's map of 1883 brings the road to the hotel from the south-south-east, as this does. The air photographs taken at low water in 2011 and 2013 were searched for an old road on the exposed bed and margins: only shore terraces, channels and water-works fills show. Still a straight line.",
     "sources": [
      "source:dpl-jackson-seven-lakes",
      "source:ellis-pikes-peak-railway-map-1883",
-     "source:glo-patents-seven-lakes"
+     "source:glo-patents-seven-lakes",
+     "source:naip-air-photographs"
     ],
     "valid_from": 1881,
     "status": "draft",
@@ -15056,20 +15196,100 @@
       38.781346
      ],
      [
-      -105.01132,
-      38.78094
+      -105.0094,
+      38.78138
      ],
      [
-      -105.011838,
-      38.779588
+      -105.01,
+      38.78132
      ],
      [
-      -105.012011,
-      38.778237
+      -105.01062,
+      38.78122
      ],
      [
-      -105.012356,
-      38.775128
+      -105.0112,
+      38.78116
+     ],
+     [
+      -105.01144,
+      38.781136
+     ],
+     [
+      -105.011388,
+      38.78079
+     ],
+     [
+      -105.011566,
+      38.780363
+     ],
+     [
+      -105.012047,
+      38.779792
+     ],
+     [
+      -105.012276,
+      38.779359
+     ],
+     [
+      -105.012513,
+      38.778759
+     ],
+     [
+      -105.012572,
+      38.778396
+     ],
+     [
+      -105.012565,
+      38.778101
+     ],
+     [
+      -105.012284,
+      38.77779
+     ],
+     [
+      -105.01215,
+      38.77764
+     ],
+     [
+      -105.012113,
+      38.777374
+     ],
+     [
+      -105.012059,
+      38.776833
+     ],
+     [
+      -105.013054,
+      38.776262
+     ],
+     [
+      -105.013417,
+      38.775842
+     ],
+     [
+      -105.013473,
+      38.775778
+     ],
+     [
+      -105.013505,
+      38.775741
+     ],
+     [
+      -105.013548,
+      38.77569
+     ],
+     [
+      -105.014148,
+      38.774736
+     ],
+     [
+      -105.015194,
+      38.774244
+     ],
+     [
+      -105.016792,
+      38.772976
      ],
      [
       -105.017595,
@@ -15082,17 +15302,20 @@
     "name": "Seven Lakes road from Clyde: the last stretch to the hotel site",
     "kind": "road",
     "grade": "inferred",
-    "error_ft": 300,
-    "length_ft": 4794,
-    "basis": "Read off the government sheet of 1951, with which the sheet of 1901 agrees in its pattern of roads. The ground here was reworked for the reservoirs.",
+    "error_ft": 100,
+    "length_ft": 4896,
+    "basis": "Laid on the roads seen on the 1 m lidar and the air photographs (looked at by me): today's Seven Lakes Road to the water-works junction, the water-works road north past the dam, and a straight embanked bench road east to the hotel's site. The line read off the government sheet of 1951, which this replaces, lay 30 to 200 ft off these roads and in places crossed forest with no road in it. The roads are where the line says to about 30 ft. That the road of 1901 ran on these beds is inferred from the sheets of 1901 and 1951, which draw the same pattern; the beds have been regraded for the reservoirs, so the old road may lie up to 100 ft off.",
     "sources": [
+     "source:lidar-3dep",
+     "source:naip-air-photographs",
+     "source:osm-south-slope-roads",
      "source:usgs-manitou-pikes-peak-1948-51",
      "source:usgs-topo"
     ],
     "valid_from": 1901,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -15105,32 +15328,92 @@
       38.781346
      ],
      [
-      -105.011321,
-      38.781751
+      -105.0094,
+      38.78138
      ],
      [
-      -105.012012,
-      38.783103
+      -105.01,
+      38.78132
      ],
      [
-      -105.013048,
-      38.784184
+      -105.01062,
+      38.78122
      ],
      [
-      -105.013394,
-      38.785536
+      -105.0112,
+      38.78116
      ],
      [
-      -105.012703,
-      38.787429
+      -105.01144,
+      38.781136
      ],
      [
-      -105.01184,
-      38.789051
+      -105.011645,
+      38.781134
      ],
      [
-      -105.010286,
-      38.790538
+      -105.011992,
+      38.781417
+     ],
+     [
+      -105.012144,
+      38.781736
+     ],
+     [
+      -105.011647,
+      38.783414
+     ],
+     [
+      -105.011647,
+      38.783641
+     ],
+     [
+      -105.011849,
+      38.783821
+     ],
+     [
+      -105.012887,
+      38.784633
+     ],
+     [
+      -105.013559,
+      38.784975
+     ],
+     [
+      -105.013749,
+      38.785565
+     ],
+     [
+      -105.01371,
+      38.786092
+     ],
+     [
+      -105.013421,
+      38.786554
+     ],
+     [
+      -105.012834,
+      38.786955
+     ],
+     [
+      -105.011991,
+      38.788738
+     ],
+     [
+      -105.0117,
+      38.789388
+     ],
+     [
+      -105.011469,
+      38.789552
+     ],
+     [
+      -105.01128,
+      38.790151
+     ],
+     [
+      -105.010277,
+      38.790679
      ]
     ]
    },
@@ -15139,17 +15422,20 @@
     "name": "Seven Lakes to Lake Moraine road: from the hotel site north to Dead Lake",
     "kind": "road",
     "grade": "inferred",
-    "error_ft": 300,
-    "length_ft": 4332,
-    "basis": "Read off the government sheet of 1951; the sheets of 1894 and 1901 draw the same road. A road shows on the lidar along here but this piece was not fitted to it. The highest ground reached by any road from the south, about 11,000 ft.",
+    "error_ft": 100,
+    "length_ft": 4970,
+    "basis": "Laid on the water-works road along the east shore of Mason Reservoir, sharp on the 1 m lidar, with a join of 340 ft at its north end to the old bench toward Lake Moraine. The line read off the government sheet of 1951, which this replaces, lay up to 200 ft west, partly in the water. The sheets of 1894 and 1901 draw a road here; that it ran on this bed is inferred, and the bed has been regraded, so the old road may lie up to 100 ft off. The highest ground reached by any road from the south, about 11,000 ft.",
     "sources": [
+     "source:lidar-3dep",
+     "source:naip-air-photographs",
+     "source:osm-south-slope-roads",
      "source:usgs-manitou-pikes-peak-1948-51",
      "source:usgs-topo"
     ],
     "valid_from": 1894,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -16962,83 +17248,1274 @@
     "type": "LineString",
     "coordinates": [
      [
-      -105.008275,
-      38.780449
+      -105.0083,
+      38.7804
      ],
      [
-      -105.019164,
-      38.782124
+      -105.01916,
+      38.78212
      ],
      [
-      -105.022205,
-      38.787731
+      -105.0222,
+      38.78773
      ],
      [
-      -105.021993,
-      38.793802
+      -105.022638,
+      38.794843
      ],
      [
-      -105.020056,
-      38.799195
+      -105.022649,
+      38.795198
      ],
      [
-      -105.017649,
-      38.805167
+      -105.022348,
+      38.795583
      ],
      [
-      -105.02002,
-      38.807538
+      -105.021959,
+      38.796006
      ],
      [
-      -105.021867,
-      38.811846
+      -105.021896,
+      38.796283
      ],
      [
-      -105.025042,
-      38.815597
+      -105.020287,
+      38.796699
      ],
      [
-      -105.029326,
-      38.82051
+      -105.01988,
+      38.796875
      ],
      [
-      -105.033775,
-      38.824383
+      -105.019584,
+      38.797383
      ],
      [
-      -105.038144,
-      38.828754
+      -105.019487,
+      38.797737
      ],
      [
-      -105.042514,
-      38.833124
+      -105.019565,
+      38.79813
      ],
      [
-      -105.045092,
-      38.836906
+      -105.019846,
+      38.798736
      ],
      [
-      -105.045,
-      38.839851
+      -105.020212,
+      38.798945
+     ],
+     [
+      -105.020258,
+      38.799293
+     ],
+     [
+      -105.020111,
+      38.799434
+     ],
+     [
+      -105.020316,
+      38.800302
+     ],
+     [
+      -105.020499,
+      38.800471
+     ],
+     [
+      -105.02065,
+      38.800916
+     ],
+     [
+      -105.020664,
+      38.801047
+     ],
+     [
+      -105.020625,
+      38.80112
+     ],
+     [
+      -105.020598,
+      38.801171
+     ],
+     [
+      -105.020645,
+      38.801454
+     ],
+     [
+      -105.020612,
+      38.801697
+     ],
+     [
+      -105.0213,
+      38.802519
+     ],
+     [
+      -105.021394,
+      38.803378
+     ],
+     [
+      -105.021641,
+      38.803496
+     ],
+     [
+      -105.022147,
+      38.803641
+     ],
+     [
+      -105.021988,
+      38.804288
+     ],
+     [
+      -105.022023,
+      38.80527
+     ],
+     [
+      -105.021959,
+      38.806588
+     ],
+     [
+      -105.021976,
+      38.807935
+     ],
+     [
+      -105.02231,
+      38.808644
+     ],
+     [
+      -105.022443,
+      38.808982
+     ],
+     [
+      -105.022728,
+      38.808962
+     ],
+     [
+      -105.023271,
+      38.808555
+     ],
+     [
+      -105.023828,
+      38.808627
+     ],
+     [
+      -105.024211,
+      38.808947
+     ],
+     [
+      -105.024086,
+      38.809436
+     ],
+     [
+      -105.023973,
+      38.810032
+     ],
+     [
+      -105.024456,
+      38.810387
+     ],
+     [
+      -105.024687,
+      38.810851
+     ],
+     [
+      -105.024728,
+      38.811285
+     ],
+     [
+      -105.02451,
+      38.811811
+     ],
+     [
+      -105.023938,
+      38.812011
+     ],
+     [
+      -105.024128,
+      38.812249
+     ],
+     [
+      -105.025317,
+      38.812315
+     ],
+     [
+      -105.026143,
+      38.81234
      ]
     ]
    },
    "properties": {
-    "id": "feature:seven-lakes-trail-1-to-summit",
-    "name": "Seven Lakes Trail to the summit (from the 1883 map; not found on the ground)",
+    "id": "feature:seven-lakes-trail-1a-hotel-to-timberline",
+    "name": "Seven Lakes Trail: from the hotel up the valley to timberline (not found on the ground)",
     "kind": "trail",
     "grade": "conjecture",
-    "error_ft": 800,
-    "length_ft": 27033,
-    "basis": "Lettered 'Seven Lakes Trail' on Ellis's map: from the hotel up the valley west of the lakes and north-west to the summit, about five miles. A bridle trail for horses and burros, not a road. It is drawn only on Ellis's map of 1883, a railway promoter's map, laid on the ground by a fit good to 500 ft at best; no government sheet draws it and no tread was looked for on the lidar. The line shows roughly where the trail went and nothing more. Guidebooks of 1883 and 1886 (read on the page) say the carriage road ended at the lakes and the peak was reached from there by trail.",
+    "error_ft": 600,
+    "length_ft": 16544,
+    "basis": "Lettered 'Seven Lakes Trail' on Ellis's map of 1883, a railway promoter's map laid on the ground by a fit good to 500 ft at best. A bridle trail for horses and burros, not a road; guidebooks of 1883 and 1886 (read on the page) say the carriage road ended at the lakes and the peak was reached from there by trail. Looked for on the 1 m lidar and the air photograph of 2019 and not found. Round the lakes the ground is under Mason Reservoir or was reworked for the dams, and the line is Ellis's. Up the narrow valley above, the only track is today's water-works track, which first appears on the government sheet of 1951; the line is drawn on it because the valley leaves little room for another, and the old trail may lie under it or beside it.",
     "sources": [
      "source:ellis-pikes-peak-railway-map-1883",
-     "source:seven-lakes-record"
+     "source:seven-lakes-record",
+     "source:lidar-3dep",
+     "source:naip-air-photographs",
+     "source:osm-south-slope-roads"
     ],
     "valid_from": 1883,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.026143,
+      38.81234
+     ],
+     [
+      -105.026157,
+      38.812366
+     ],
+     [
+      -105.026195,
+      38.812416
+     ],
+     [
+      -105.026233,
+      38.812463
+     ],
+     [
+      -105.026257,
+      38.812515
+     ],
+     [
+      -105.026268,
+      38.812572
+     ],
+     [
+      -105.02629,
+      38.812627
+     ],
+     [
+      -105.026338,
+      38.81267
+     ],
+     [
+      -105.026397,
+      38.812726
+     ],
+     [
+      -105.026419,
+      38.81278
+     ],
+     [
+      -105.026422,
+      38.81285
+     ],
+     [
+      -105.026408,
+      38.812907
+     ],
+     [
+      -105.026439,
+      38.81296
+     ],
+     [
+      -105.026492,
+      38.813007
+     ],
+     [
+      -105.026536,
+      38.813057
+     ],
+     [
+      -105.026563,
+      38.813111
+     ],
+     [
+      -105.026577,
+      38.813166
+     ],
+     [
+      -105.026572,
+      38.813224
+     ],
+     [
+      -105.026544,
+      38.813281
+     ],
+     [
+      -105.026519,
+      38.81334
+     ],
+     [
+      -105.02652,
+      38.813405
+     ],
+     [
+      -105.026538,
+      38.813465
+     ],
+     [
+      -105.02656,
+      38.813518
+     ],
+     [
+      -105.026549,
+      38.813572
+     ],
+     [
+      -105.026549,
+      38.813627
+     ],
+     [
+      -105.026562,
+      38.813683
+     ],
+     [
+      -105.026564,
+      38.813738
+     ],
+     [
+      -105.026568,
+      38.813793
+     ],
+     [
+      -105.026574,
+      38.813848
+     ],
+     [
+      -105.026574,
+      38.813904
+     ],
+     [
+      -105.026559,
+      38.813958
+     ],
+     [
+      -105.02654,
+      38.814021
+     ],
+     [
+      -105.026564,
+      38.814084
+     ],
+     [
+      -105.026559,
+      38.814139
+     ],
+     [
+      -105.026539,
+      38.814195
+     ],
+     [
+      -105.026555,
+      38.81425
+     ],
+     [
+      -105.026571,
+      38.814304
+     ],
+     [
+      -105.026564,
+      38.81436
+     ],
+     [
+      -105.026577,
+      38.814415
+     ],
+     [
+      -105.026586,
+      38.81447
+     ],
+     [
+      -105.026577,
+      38.814526
+     ],
+     [
+      -105.026583,
+      38.814581
+     ],
+     [
+      -105.026618,
+      38.814634
+     ],
+     [
+      -105.026624,
+      38.81469
+     ],
+     [
+      -105.026597,
+      38.814747
+     ],
+     [
+      -105.026579,
+      38.814806
+     ],
+     [
+      -105.026597,
+      38.814861
+     ],
+     [
+      -105.026642,
+      38.814908
+     ],
+     [
+      -105.026663,
+      38.81496
+     ],
+     [
+      -105.026675,
+      38.815015
+     ],
+     [
+      -105.026699,
+      38.815067
+     ],
+     [
+      -105.026745,
+      38.815112
+     ],
+     [
+      -105.026775,
+      38.815163
+     ],
+     [
+      -105.026776,
+      38.81522
+     ],
+     [
+      -105.026795,
+      38.815273
+     ],
+     [
+      -105.026843,
+      38.815318
+     ],
+     [
+      -105.026887,
+      38.815365
+     ],
+     [
+      -105.026912,
+      38.815418
+     ],
+     [
+      -105.026897,
+      38.815477
+     ],
+     [
+      -105.026873,
+      38.815538
+     ],
+     [
+      -105.026899,
+      38.815591
+     ],
+     [
+      -105.026955,
+      38.815634
+     ],
+     [
+      -105.027003,
+      38.815679
+     ],
+     [
+      -105.027026,
+      38.815731
+     ],
+     [
+      -105.027037,
+      38.815787
+     ],
+     [
+      -105.027054,
+      38.815841
+     ],
+     [
+      -105.027069,
+      38.815896
+     ],
+     [
+      -105.027093,
+      38.815948
+     ],
+     [
+      -105.027128,
+      38.815996
+     ],
+     [
+      -105.027152,
+      38.816049
+     ],
+     [
+      -105.027195,
+      38.816093
+     ],
+     [
+      -105.027251,
+      38.816132
+     ],
+     [
+      -105.027283,
+      38.816181
+     ],
+     [
+      -105.027292,
+      38.816238
+     ],
+     [
+      -105.027314,
+      38.816291
+     ],
+     [
+      -105.027343,
+      38.816342
+     ],
+     [
+      -105.027378,
+      38.816389
+     ],
+     [
+      -105.027417,
+      38.816436
+     ],
+     [
+      -105.027437,
+      38.816489
+     ],
+     [
+      -105.027443,
+      38.816548
+     ],
+     [
+      -105.027475,
+      38.816598
+     ],
+     [
+      -105.02754,
+      38.81663
+     ],
+     [
+      -105.027597,
+      38.816667
+     ],
+     [
+      -105.027631,
+      38.816715
+     ],
+     [
+      -105.02765,
+      38.816771
+     ],
+     [
+      -105.027685,
+      38.816818
+     ],
+     [
+      -105.027739,
+      38.816854
+     ],
+     [
+      -105.027763,
+      38.816907
+     ],
+     [
+      -105.027783,
+      38.816962
+     ],
+     [
+      -105.02781,
+      38.817015
+     ],
+     [
+      -105.027847,
+      38.817064
+     ],
+     [
+      -105.027917,
+      38.81709
+     ],
+     [
+      -105.027979,
+      38.817122
+     ],
+     [
+      -105.028005,
+      38.817175
+     ],
+     [
+      -105.02803,
+      38.817227
+     ],
+     [
+      -105.028074,
+      38.81727
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:seven-lakes-trail-1b-above-the-forest",
+    "name": "Seven Lakes Trail: a narrow groove straight up the open slope above the forest",
+    "kind": "trail",
+    "grade": "conjecture",
+    "error_ft": 100,
+    "length_ft": 1984,
+    "basis": "Lettered 'Seven Lakes Trail' on Ellis's map of 1883, a railway promoter's map laid on the ground by a fit good to 500 ft at best. A bridle trail for horses and burros, not a road; guidebooks of 1883 and 1886 (read on the page) say the carriage road ended at the lakes and the peak was reached from there by trail. A narrow groove 3 to 6 ft wide followed on the 1 m lidar for 0.4 mile, from 11,730 to 11,990 ft, straight up the slope at 13 per cent where the later road zigzags; faint on the air photograph of 2019 (both looked at by me). It leads into the plainer tread above and has a pack trail's form. Its lower end could be a rill or a game trail, so it is entered as conjecture.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:naip-air-photographs",
+     "source:ellis-pikes-peak-railway-map-1883"
+    ],
+    "valid_from": 1883,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.028088,
+      38.817344
+     ],
+     [
+      -105.028101,
+      38.817361
+     ],
+     [
+      -105.028154,
+      38.817402
+     ],
+     [
+      -105.02823,
+      38.81743
+     ],
+     [
+      -105.028295,
+      38.81747
+     ],
+     [
+      -105.028296,
+      38.817531
+     ],
+     [
+      -105.02828,
+      38.817595
+     ],
+     [
+      -105.028288,
+      38.817654
+     ],
+     [
+      -105.028319,
+      38.817706
+     ],
+     [
+      -105.028361,
+      38.817752
+     ],
+     [
+      -105.028408,
+      38.817794
+     ],
+     [
+      -105.028474,
+      38.817826
+     ],
+     [
+      -105.028531,
+      38.817866
+     ],
+     [
+      -105.028558,
+      38.817922
+     ],
+     [
+      -105.028542,
+      38.817984
+     ],
+     [
+      -105.028536,
+      38.818043
+     ],
+     [
+      -105.028562,
+      38.818095
+     ],
+     [
+      -105.028601,
+      38.818143
+     ],
+     [
+      -105.028639,
+      38.818189
+     ],
+     [
+      -105.028671,
+      38.818239
+     ],
+     [
+      -105.028707,
+      38.818287
+     ],
+     [
+      -105.028753,
+      38.818332
+     ],
+     [
+      -105.028785,
+      38.818382
+     ],
+     [
+      -105.028777,
+      38.818441
+     ],
+     [
+      -105.028781,
+      38.818498
+     ],
+     [
+      -105.028825,
+      38.818543
+     ],
+     [
+      -105.028874,
+      38.818587
+     ],
+     [
+      -105.028912,
+      38.818634
+     ],
+     [
+      -105.028928,
+      38.818688
+     ],
+     [
+      -105.028933,
+      38.818745
+     ],
+     [
+      -105.028935,
+      38.818803
+     ],
+     [
+      -105.028952,
+      38.818857
+     ],
+     [
+      -105.028988,
+      38.818905
+     ],
+     [
+      -105.029014,
+      38.818956
+     ],
+     [
+      -105.02904,
+      38.819008
+     ],
+     [
+      -105.029077,
+      38.819055
+     ],
+     [
+      -105.029131,
+      38.819094
+     ],
+     [
+      -105.029173,
+      38.819138
+     ],
+     [
+      -105.029194,
+      38.819191
+     ],
+     [
+      -105.029208,
+      38.819247
+     ],
+     [
+      -105.029244,
+      38.819296
+     ],
+     [
+      -105.029303,
+      38.819331
+     ],
+     [
+      -105.029352,
+      38.819373
+     ],
+     [
+      -105.029363,
+      38.819429
+     ],
+     [
+      -105.029384,
+      38.819482
+     ],
+     [
+      -105.029428,
+      38.819527
+     ],
+     [
+      -105.029477,
+      38.819567
+     ],
+     [
+      -105.029535,
+      38.819602
+     ],
+     [
+      -105.029589,
+      38.819642
+     ],
+     [
+      -105.02963,
+      38.819688
+     ],
+     [
+      -105.029661,
+      38.819738
+     ],
+     [
+      -105.029688,
+      38.819789
+     ],
+     [
+      -105.02972,
+      38.819838
+     ],
+     [
+      -105.029748,
+      38.819888
+     ],
+     [
+      -105.029776,
+      38.819939
+     ],
+     [
+      -105.029807,
+      38.819988
+     ],
+     [
+      -105.029837,
+      38.820037
+     ],
+     [
+      -105.029865,
+      38.820088
+     ],
+     [
+      -105.029893,
+      38.820138
+     ],
+     [
+      -105.02992,
+      38.820189
+     ],
+     [
+      -105.029945,
+      38.82024
+     ],
+     [
+      -105.029973,
+      38.820291
+     ],
+     [
+      -105.030012,
+      38.820336
+     ],
+     [
+      -105.030051,
+      38.820382
+     ],
+     [
+      -105.030083,
+      38.820431
+     ],
+     [
+      -105.030116,
+      38.820479
+     ],
+     [
+      -105.030153,
+      38.820525
+     ],
+     [
+      -105.030193,
+      38.82057
+     ],
+     [
+      -105.030228,
+      38.820618
+     ],
+     [
+      -105.030268,
+      38.820663
+     ],
+     [
+      -105.030312,
+      38.820706
+     ],
+     [
+      -105.030353,
+      38.820751
+     ],
+     [
+      -105.030396,
+      38.820795
+     ],
+     [
+      -105.03043,
+      38.820843
+     ],
+     [
+      -105.030459,
+      38.820893
+     ],
+     [
+      -105.030479,
+      38.820947
+     ],
+     [
+      -105.030486,
+      38.821007
+     ],
+     [
+      -105.03051,
+      38.821062
+     ],
+     [
+      -105.030578,
+      38.821087
+     ],
+     [
+      -105.030652,
+      38.821112
+     ],
+     [
+      -105.030708,
+      38.821153
+     ],
+     [
+      -105.030755,
+      38.8212
+     ],
+     [
+      -105.030783,
+      38.821253
+     ],
+     [
+      -105.030783,
+      38.821316
+     ],
+     [
+      -105.030802,
+      38.82137
+     ],
+     [
+      -105.03086,
+      38.821391
+     ],
+     [
+      -105.03092,
+      38.821413
+     ],
+     [
+      -105.030945,
+      38.821471
+     ],
+     [
+      -105.030961,
+      38.821527
+     ],
+     [
+      -105.031024,
+      38.821556
+     ],
+     [
+      -105.031081,
+      38.821593
+     ],
+     [
+      -105.031113,
+      38.821644
+     ],
+     [
+      -105.031146,
+      38.821692
+     ],
+     [
+      -105.031196,
+      38.821731
+     ],
+     [
+      -105.031248,
+      38.82177
+     ],
+     [
+      -105.031295,
+      38.821812
+     ],
+     [
+      -105.031334,
+      38.821859
+     ],
+     [
+      -105.031352,
+      38.821917
+     ],
+     [
+      -105.031373,
+      38.821969
+     ],
+     [
+      -105.031441,
+      38.821992
+     ],
+     [
+      -105.031498,
+      38.822031
+     ],
+     [
+      -105.031524,
+      38.822086
+     ],
+     [
+      -105.031558,
+      38.822133
+     ],
+     [
+      -105.031606,
+      38.822173
+     ],
+     [
+      -105.031656,
+      38.822211
+     ],
+     [
+      -105.031697,
+      38.822255
+     ],
+     [
+      -105.031734,
+      38.822304
+     ],
+     [
+      -105.031767,
+      38.822353
+     ],
+     [
+      -105.031784,
+      38.82241
+     ],
+     [
+      -105.031812,
+      38.82246
+     ],
+     [
+      -105.031852,
+      38.822507
+     ],
+     [
+      -105.031897,
+      38.822549
+     ],
+     [
+      -105.031959,
+      38.822579
+     ],
+     [
+      -105.032013,
+      38.822615
+     ],
+     [
+      -105.032061,
+      38.822655
+     ],
+     [
+      -105.032101,
+      38.822699
+     ],
+     [
+      -105.032136,
+      38.822746
+     ],
+     [
+      -105.032159,
+      38.822799
+     ],
+     [
+      -105.032173,
+      38.822859
+     ],
+     [
+      -105.032212,
+      38.822908
+     ],
+     [
+      -105.032268,
+      38.822947
+     ],
+     [
+      -105.032328,
+      38.82299
+     ],
+     [
+      -105.032383,
+      38.823044
+     ],
+     [
+      -105.032441,
+      38.823088
+     ],
+     [
+      -105.032485,
+      38.823132
+     ],
+     [
+      -105.032511,
+      38.823193
+     ],
+     [
+      -105.032566,
+      38.823241
+     ],
+     [
+      -105.032617,
+      38.823283
+     ],
+     [
+      -105.032651,
+      38.823334
+     ],
+     [
+      -105.032665,
+      38.823391
+     ],
+     [
+      -105.032666,
+      38.823451
+     ],
+     [
+      -105.03267,
+      38.823511
+     ],
+     [
+      -105.032698,
+      38.823566
+     ],
+     [
+      -105.032753,
+      38.823606
+     ],
+     [
+      -105.032815,
+      38.823639
+     ],
+     [
+      -105.032847,
+      38.823689
+     ],
+     [
+      -105.03289,
+      38.823733
+     ],
+     [
+      -105.032941,
+      38.823773
+     ],
+     [
+      -105.032953,
+      38.823831
+     ],
+     [
+      -105.032985,
+      38.823882
+     ],
+     [
+      -105.033034,
+      38.823923
+     ],
+     [
+      -105.033064,
+      38.823974
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:seven-lakes-trail-1c-tundra-tread",
+    "name": "Seven Lakes Trail: the tread across the tundra south of Windy Point",
+    "kind": "trail",
+    "grade": "inferred",
+    "error_ft": 40,
+    "length_ft": 2921,
+    "basis": "Lettered 'Seven Lakes Trail' on Ellis's map of 1883, a railway promoter's map laid on the ground by a fit good to 500 ft at best. A bridle trail for horses and burros, not a road; guidebooks of 1883 and 1886 (read on the page) say the carriage road ended at the lakes and the peak was reached from there by trail. A worn, braided tread followed for 0.55 mile across the open tundra from 11,990 to 12,410 ft, climbing north-west at 14 per cent with no bench: plain on the air photograph of 12 September 2019 as a light line with fainter lines beside it, and a groove on the 1 m lidar (both looked at by me). It runs on the bearing of Ellis's line and 300 to 500 ft south-west of it, inside that map's error. The tread is where the line says, to about 40 ft. That it is the bridle trail of the 1880s is inferred from its place, bearing and form, and is not proved: nothing on the ground dates it, part of it is mapped today as an unnamed track, and some of the lines beside it run in pairs like wheel marks, so it has had later use. It is not the road of the 1951 sheet, which zigzags 300 to 650 ft to the east. An air photograph of the 1930s to 1950s would test its age; none was got.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:naip-air-photographs",
+     "source:ellis-pikes-peak-railway-map-1883",
+     "source:osm-south-slope-roads"
+    ],
+    "valid_from": 1883,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.033064,
+      38.823974
+     ],
+     [
+      -105.03814,
+      38.82875
+     ],
+     [
+      -105.04251,
+      38.83312
+     ],
+     [
+      -105.04509,
+      38.83691
+     ],
+     [
+      -105.045,
+      38.83985
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:seven-lakes-trail-1d-to-the-summit",
+    "name": "Seven Lakes Trail: from the tundra to the summit (not found on the ground)",
+    "kind": "trail",
+    "grade": "conjecture",
+    "error_ft": 600,
+    "length_ft": 6916,
+    "basis": "Lettered 'Seven Lakes Trail' on Ellis's map of 1883, a railway promoter's map laid on the ground by a fit good to 500 ft at best. A bridle trail for horses and burros, not a road; guidebooks of 1883 and 1886 (read on the page) say the carriage road ended at the lakes and the peak was reached from there by trail. Above 12,410 ft the tread fades into blocky rock, and neither the lidar nor the air photograph shows any trail south-west of the cog railway, which was built over this ground in 1889-90. The line is Ellis's, straight to the summit; as drawn it climbs 24 per cent, so the real trail must have zigzagged, and may lie under the railway.",
+    "sources": [
+     "source:ellis-pikes-peak-railway-map-1883",
+     "source:seven-lakes-record",
+     "source:lidar-3dep",
+     "source:naip-air-photographs"
+    ],
+    "valid_from": 1883,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
    }
   },
   {
