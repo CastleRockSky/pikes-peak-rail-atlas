@@ -595,5 +595,41 @@
   "title": "OpenStreetMap: the path mapped as the Ute Pass Trail between Manitou Springs and Crags (the county's Ute Indian Trail of 2014), and US 24, on which the joins are drawn",
   "holder": "OpenStreetMap contributors",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:glo-t13s-r69w-r70w-1879",
+  "kind": "survey",
+  "title": "General Land Office surveys of Township 13 South, Ranges 69 and 70 West, by D. C. Oakes, June 1879: plats and field notes (vol. R0075), recording the road over the divide ('Road bears E. to Colorado Spgs') and two roads west of it, with 'Corral, Hayden's house'. Read on the page images; screenshots in research/ute-pass-trail/maps/",
+  "holder": "Bureau of Land Management, General Land Office Records",
+  "url": "https://glorecords.blm.gov/",
+  "date": "1879",
+  "accessed": "2026-11-27"
+ },
+ {
+  "id": "source:ppcr-photographs",
+  "kind": "photographs",
+  "title": "Photographs of the Pikes Peak carriage road, about 1888 to 1900: William Henry Jackson's toll gate (Pikes Peak Library District 013-7334; Denver Public Library WHJ-563, WHJ-1319), Half Way House (DPL WHJ-1323; PPLD 001-590; H. S. Poley, DPL Z-3504), 'The W' (DPL WHJ-1729) and 'On the brink of the Bottomless Pit' (DPL WHJ-568). Looked at; four placed by matching their skylines to the lidar. List in research/pikes-peak-carriage-road/photographs-studied.json",
+  "holder": "Denver Public Library Special Collections; Pikes Peak Library District",
+  "url": "https://digital.denverlibrary.org/",
+  "date": "1888-1900",
+  "accessed": "2026-11-27"
+ },
+ {
+  "id": "source:glo-t15s-r68w-1882",
+  "kind": "survey",
+  "title": "General Land Office survey of Township 15 South, Range 68 West, by A. M. Welles, 26 May to 10 June 1882: plat and field notes (vol. R0194), recording the 'Toll Road to Seven Lakes' at seven section-line crossings, the lake shore, and 'Dr Smith's Hotel in about the NW 1/4 of the NE 1/4 of Sec 4'. Read on the page images; screenshots in research/pikes-peak-south-routes/maps/",
+  "holder": "Bureau of Land Management, General Land Office Records",
+  "url": "https://glorecords.blm.gov/",
+  "date": "1882",
+  "accessed": "2026-11-27"
+ },
+ {
+  "id": "source:glo-t14s-r68w-1874",
+  "kind": "survey",
+  "title": "General Land Office survey of Township 14 South, Range 68 West, by E. H. Kellogg, September and October 1874: plat and field notes (vol. R0034), recording 'Mystic Lake', the 'Lake Hotel' and the 'Trail to Pike's Peak'. Most of the township lay in the military reservation on Pikes Peak and was not subdivided. Read on the page images; copies in research/pikes-peak-south-routes/maps/",
+  "holder": "Bureau of Land Management, General Land Office Records",
+  "url": "https://glorecords.blm.gov/",
+  "date": "1874",
+  "accessed": "2026-11-27"
  }
 ]

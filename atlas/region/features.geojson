@@ -14594,16 +14594,17 @@
     "grade": "inferred",
     "error_ft": 250,
     "length_ft": 32516,
-    "basis": "The carriage branch of the Cheyenne Mountain toll road, opened to Seven Lakes in August 1881 (newspaper, machine text). Drawn on today's Frosty Park Road, 6.2 miles climbing from 9,800 to 11,030 ft at under 4 per cent. The government sheet of 1909 draws a road on this line within 300 to 800 ft; the sheet of 1893 has the same shape, displaced. Whether today's road keeps the bed of 1881 throughout was not tested. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine.",
+    "basis": "The carriage branch of the Cheyenne Mountain toll road, opened to Seven Lakes in August 1881 (newspaper, machine text). Drawn on today's Frosty Park Road, 6.2 miles climbing from 9,800 to 11,030 ft at under 4 per cent. The government sheet of 1909 draws a road on this line within 300 to 800 ft; the sheet of 1893 has the same shape, displaced. Whether today's road keeps the bed of 1881 throughout was not tested. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine. The land office surveyor of June 1882 crossed the 'Toll Road to Seven Lakes' seven times on section lines between Rosemont and the lakes (read on the page); his crossings lie from 3 to 1,030 ft from this line, most within a few hundred. So this is the toll road of 1881, and where today's road strays from it the old bed lies near by.",
     "sources": [
      "source:osm-south-slope-roads",
      "source:usgs-topo-colorado-springs",
-     "source:seven-lakes-record"
+     "source:seven-lakes-record",
+     "source:glo-t15s-r68w-1882"
     ],
     "valid_from": 1881,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -14635,22 +14636,23 @@
    },
    "properties": {
     "id": "feature:seven-lakes-road-2-to-hotel",
-    "name": "Seven Lakes road: the last mile north to the hotel (from old maps; partly under McReynolds Reservoir)",
+    "name": "Seven Lakes road: the last mile north to the hotel (from old maps; contradicted by the survey of 1882)",
     "kind": "road",
-    "grade": "inferred",
-    "error_ft": 400,
+    "grade": "conjecture",
+    "error_ft": 1300,
     "length_ft": 4992,
-    "basis": "Ellis's map of 1883 and the government sheet of 1893 draw a road here, and the sheet of 1894 a trail; the three agree within about 500 ft. No bench was found on the lidar and the north end is under McReynolds Reservoir. Jackson's photograph of the basin (looked at by me) shows a wagon road with two wheel tracks winding between the lakes to a white building; it could not be matched to this line, the old lake shores being under water.",
+    "basis": "Ellis's map of 1883 and the government sheet of 1893 draw a road here, and the sheet of 1894 a trail; the three agree within about 500 ft. No bench was found on the lidar and the north end is under McReynolds Reservoir. Jackson's photograph of the basin (looked at by me) shows a wagon road with two wheel tracks winding between the lakes to a white building; it could not be matched to this line, the old lake shores being under water. Against this line: the surveyor of June 1882 crossed the toll road on the line between sections 4 and 9 at 30.00 chains, 1,260 ft west of where this piece crosses it, and his plat carries the road on north-east to a hotel east of the lakes. The piece is kept until the hotel's site is settled, as conjecture.",
     "sources": [
      "source:ellis-pikes-peak-railway-map-1883",
      "source:usgs-topo",
      "source:usgs-topo-colorado-springs",
-     "source:dpl-jackson-seven-lakes"
+     "source:dpl-jackson-seven-lakes",
+     "source:glo-t15s-r68w-1882"
     ],
     "valid_from": 1881,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -16707,16 +16709,17 @@
     "grade": "inferred",
     "error_ft": 30,
     "length_ft": 12082,
-    "basis": "A road bench followed on the 1 m lidar for 2.3 miles, falling from 11,010 to 10,200 ft at under 7 per cent; it is on no present-day map. The government sheet of 1894 draws a road within 330 to 650 ft of it, and Ellis's map of 1883 a trail, the 'Seven Lakes & Manitou Trail'. The bench is where the line says, to about 30 ft; that it is the road of 1894, and not a later waterworks road on the same ground, is inferred from the sheet. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine.",
+    "basis": "A road bench followed on the 1 m lidar for 2.3 miles, falling from 11,010 to 10,200 ft at under 7 per cent; it is on no present-day map. The government sheet of 1894 draws a road within 330 to 650 ft of it, and Ellis's map of 1883 a trail, the 'Seven Lakes & Manitou Trail'. The bench is where the line says, to about 30 ft; that it is the road of 1894, and not a later waterworks road on the same ground, is inferred from the sheet. No wheeled road reached the summit of Pikes Peak from this side: every map from 1883 to 1909 ends the roads at Seven Lakes and Lake Moraine. The land office surveyor of 1874 crossed a 'Trail to Pike's Peak' on the line between sections 22 and 27 at 23.32 chains, 33 ft from this bench, and an 'old trail in gulch' 210 ft from it (read on the page by the helper): the way from the lakes to Lake Moraine was a trail by 1874, and the road was laid on it.",
     "sources": [
      "source:lidar-3dep",
      "source:usgs-topo",
-     "source:ellis-pikes-peak-railway-map-1883"
+     "source:ellis-pikes-peak-railway-map-1883",
+     "source:glo-t14s-r68w-1874"
     ],
     "valid_from": 1894,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -17055,15 +17058,16 @@
     "grade": "conjecture",
     "error_ft": 1300,
     "length_ft": 22312,
-    "basis": "Lettered 'Bear Creek Trail to Col. Springs' on Ellis's map, passing north of Lake Moraine. A bridle trail for horses and burros, not a road. It is drawn only on Ellis's map of 1883, a railway promoter's map, laid on the ground by a fit good to 500 ft at best; no government sheet draws it and no tread was looked for on the lidar. The line shows roughly where the trail went and nothing more. Taken to be the old trail up Bear Creek by Jones Park and the Lake House, in use by the early 1870s: stereoviews of 1870-76 are titled 'from Bear Creek Canon to the summit, 14 miles'. That the Signal Service cut it in 1873 is said only by later books. The fit of the 1883 map is at its worst here.",
+    "basis": "Lettered 'Bear Creek Trail to Col. Springs' on Ellis's map, passing north of Lake Moraine. A bridle trail for horses and burros, not a road. It is drawn only on Ellis's map of 1883, a railway promoter's map, laid on the ground by a fit good to 500 ft at best; no government sheet draws it and no tread was looked for on the lidar. The line shows roughly where the trail went and nothing more. Taken to be the old trail up Bear Creek by Jones Park and the Lake House, in use by the early 1870s: stereoviews of 1870-76 are titled 'from Bear Creek Canon to the summit, 14 miles'. That the Signal Service cut it in 1873 is said only by later books. The fit of the 1883 map is at its worst here. The land office survey of 1874 records a 'Trail to Pikes Peak' beside the Lake Hotel at Lake Moraine, within about 650 ft of this line: the one point where a survey bears it out. The high ground beyond was military reservation and never subdivided, so no survey shows the trail to the summit.",
     "sources": [
      "source:ellis-pikes-peak-railway-map-1883",
-     "source:seven-lakes-record"
+     "source:seven-lakes-record",
+     "source:glo-t14s-r68w-1874"
     ],
     "valid_from": 1873,
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -18253,6 +18257,10 @@
       38.890127
      ],
      [
+      -104.962006,
+      38.889058
+     ],
+     [
       -104.962417,
       38.888899
      ],
@@ -18413,6 +18421,86 @@
       38.896456
      ],
      [
+      -104.971038,
+      38.89658
+     ],
+     [
+      -104.970987,
+      38.896639
+     ],
+     [
+      -104.970963,
+      38.896634
+     ],
+     [
+      -104.970941,
+      38.896632
+     ],
+     [
+      -104.970923,
+      38.896636
+     ],
+     [
+      -104.97099,
+      38.896786
+     ],
+     [
+      -104.971011,
+      38.896859
+     ],
+     [
+      -104.971097,
+      38.897217
+     ],
+     [
+      -104.97071,
+      38.897385
+     ],
+     [
+      -104.970959,
+      38.897776
+     ],
+     [
+      -104.970987,
+      38.897806
+     ],
+     [
+      -104.970959,
+      38.897776
+     ],
+     [
+      -104.97071,
+      38.897385
+     ],
+     [
+      -104.971097,
+      38.897217
+     ],
+     [
+      -104.971011,
+      38.896859
+     ],
+     [
+      -104.97099,
+      38.896786
+     ],
+     [
+      -104.970923,
+      38.896636
+     ],
+     [
+      -104.970941,
+      38.896632
+     ],
+     [
+      -104.970963,
+      38.896634
+     ],
+     [
+      -104.970987,
+      38.896639
+     ],
+     [
       -104.971195,
       38.896715
      ],
@@ -18421,176 +18509,426 @@
       38.896752
      ],
      [
-      -104.971531,
-      38.897403
+      -104.971625,
+      38.896905
      ],
      [
-      -104.971572,
-      38.897535
+      -104.971686,
+      38.896938
      ],
      [
-      -104.971747,
-      38.898224
+      -104.971979,
+      38.89706
      ],
      [
-      -104.971878,
-      38.898836
+      -104.972395,
+      38.897246
      ],
      [
-      -104.971926,
-      38.899446
+      -104.97262,
+      38.897428
      ],
      [
-      -104.971916,
-      38.899783
+      -104.972718,
+      38.897533
      ],
      [
-      -104.971881,
-      38.900177
+      -104.972769,
+      38.897593
      ],
      [
-      -104.971853,
-      38.900459
+      -104.972907,
+      38.897757
      ],
      [
-      -104.971797,
-      38.900704
+      -104.97332,
+      38.898523
      ],
      [
-      -104.971538,
-      38.901507
+      -104.973434,
+      38.898819
      ],
      [
-      -104.971451,
-      38.901659
+      -104.973518,
+      38.89913
      ],
      [
-      -104.971022,
-      38.902612
+      -104.973525,
+      38.899539
      ],
      [
-      -104.970904,
-      38.902839
+      -104.973495,
+      38.899769
      ],
      [
-      -104.970859,
-      38.902951
+      -104.973431,
+      38.900117
      ],
      [
-      -104.970666,
-      38.903393
+      -104.973383,
+      38.900371
      ],
      [
-      -104.970443,
-      38.904009
+      -104.973349,
+      38.900636
      ],
      [
-      -104.970402,
-      38.904194
+      -104.973234,
+      38.901115
      ],
      [
-      -104.970334,
-      38.904676
+      -104.973156,
+      38.901263
      ],
      [
-      -104.970357,
-      38.905222
+      -104.973105,
+      38.901623
      ],
      [
-      -104.970399,
-      38.905521
+      -104.97305,
+      38.90204
      ],
      [
-      -104.970518,
-      38.90594
+      -104.972889,
+      38.902459
      ],
      [
-      -104.970572,
-      38.90613
+      -104.972648,
+      38.902805
      ],
      [
-      -104.97082,
-      38.906685
+      -104.972474,
+      38.903151
      ],
      [
-      -104.970875,
-      38.906759
+      -104.972294,
+      38.90351
      ],
      [
-      -104.971393,
-      38.907469
+      -104.972273,
+      38.903836
      ],
      [
-      -104.971954,
-      38.908002
+      -104.972525,
+      38.904549
      ],
      [
-      -104.972185,
-      38.9082
+      -104.972566,
+      38.904682
      ],
      [
-      -104.972322,
-      38.908312
+      -104.972585,
+      38.904847
      ],
      [
-      -104.973277,
-      38.909097
+      -104.972562,
+      38.905552
      ],
      [
-      -104.974415,
-      38.909975
+      -104.97269,
+      38.90585
      ],
      [
-      -104.97516,
-      38.910585
+      -104.973061,
+      38.906491
      ],
      [
-      -104.975968,
-      38.911254
+      -104.972998,
+      38.906393
      ],
      [
-      -104.978334,
-      38.913236
+      -104.973061,
+      38.906491
      ],
      [
-      -104.980688,
-      38.915188
+      -104.973673,
+      38.907151
      ],
      [
-      -104.981458,
-      38.915829
+      -104.974,
+      38.907721
      ],
      [
-      -104.982114,
-      38.916354
+      -104.974276,
+      38.908072
      ],
      [
-      -104.982431,
-      38.916638
+      -104.974595,
+      38.908329
      ],
      [
-      -104.982618,
-      38.916792
+      -104.974853,
+      38.908504
      ],
      [
-      -104.984498,
-      38.918347
+      -104.975505,
+      38.909041
      ],
      [
-      -104.98535,
-      38.918972
+      -104.976146,
+      38.909597
      ],
      [
-      -104.985606,
-      38.919118
+      -104.976403,
+      38.909804
      ],
      [
-      -104.986274,
-      38.919497
+      -104.976973,
+      38.910158
      ],
      [
-      -104.987008,
-      38.919862
+      -104.977059,
+      38.910203
+     ],
+     [
+      -104.977905,
+      38.910695
+     ],
+     [
+      -104.978393,
+      38.911112
+     ],
+     [
+      -104.978654,
+      38.911305
+     ],
+     [
+      -104.978944,
+      38.911479
+     ],
+     [
+      -104.979075,
+      38.91155
+     ],
+     [
+      -104.979541,
+      38.911776
+     ],
+     [
+      -104.979639,
+      38.911841
+     ],
+     [
+      -104.980346,
+      38.912306
+     ],
+     [
+      -104.980566,
+      38.91222
+     ],
+     [
+      -104.980947,
+      38.912244
+     ],
+     [
+      -104.980864,
+      38.912361
+     ],
+     [
+      -104.980947,
+      38.912244
+     ],
+     [
+      -104.980566,
+      38.91222
+     ],
+     [
+      -104.980346,
+      38.912306
+     ],
+     [
+      -104.981194,
+      38.912911
+     ],
+     [
+      -104.982073,
+      38.913537
+     ],
+     [
+      -104.982636,
+      38.914026
+     ],
+     [
+      -104.983047,
+      38.914681
+     ],
+     [
+      -104.983286,
+      38.915061
+     ],
+     [
+      -104.983584,
+      38.915325
+     ],
+     [
+      -104.983762,
+      38.915453
+     ],
+     [
+      -104.984071,
+      38.915619
+     ],
+     [
+      -104.985357,
+      38.916274
+     ],
+     [
+      -104.986228,
+      38.916709
+     ],
+     [
+      -104.98648,
+      38.916847
+     ],
+     [
+      -104.98673,
+      38.916956
+     ],
+     [
+      -104.987315,
+      38.917276
+     ],
+     [
+      -104.987786,
+      38.917464
+     ],
+     [
+      -104.988412,
+      38.917672
+     ],
+     [
+      -104.988675,
+      38.91776
+     ],
+     [
+      -104.988852,
+      38.917839
+     ],
+     [
+      -104.989546,
+      38.918179
+     ],
+     [
+      -104.989717,
+      38.918329
+     ],
+     [
+      -104.989862,
+      38.918454
+     ],
+     [
+      -104.990173,
+      38.918705
+     ],
+     [
+      -104.990377,
+      38.918834
+     ],
+     [
+      -104.990493,
+      38.918896
+     ],
+     [
+      -104.990586,
+      38.918966
+     ],
+     [
+      -104.990721,
+      38.919109
+     ],
+     [
+      -104.990774,
+      38.919256
+     ],
+     [
+      -104.99082,
+      38.919359
+     ],
+     [
+      -104.990889,
+      38.919699
+     ],
+     [
+      -104.990895,
+      38.919776
+     ],
+     [
+      -104.990891,
+      38.919848
+     ],
+     [
+      -104.990874,
+      38.919919
+     ],
+     [
+      -104.990848,
+      38.91998
+     ],
+     [
+      -104.991125,
+      38.920138
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:ute-pass-trail-5-cascade-to-chipita-park",
+    "name": "Ute Pass trail: Cascade to Chipita Park, on the old road west of the Fountain (surveyed 1872)",
+    "kind": "trail",
+    "grade": "inferred",
+    "error_ft": 250,
+    "length_ft": 17462,
+    "basis": "Drawn through four places where the surveyor of October 1872 crossed the 'Road from Colorado City to South Park' on section lines: at 10.90 chains on the line between sections 23 and 26; at 47.30 on the line between 22 and 23, 'foot of hill', with the Fountain at 49.50 (read on the page by me); and on the lines between 15 and 22 and between 15 and 16. Each is good to about 150 ft; between them the line follows today's Chipita Park Road. The road ran on the south-west side of the creek, 500 to 750 ft from today's highway, where this piece was first drawn. No survey, and neither of the trail maps of 1916 and 1925, draws or names an Indian trail here apart from this road. That the road lay on the Ute trail is inferred: Howbert (1914) says the trail went up the Fountain to its head, and the valley leaves little room for two ways. It is the road that is placed; the trail is taken to have been under or beside it.",
+    "sources": [
+     "source:glo-t13s-r68w-1872",
+     "source:usgs-cascade-manitou-1948",
+     "source:osm-ute-pass-trail",
+     "source:ute-pass-trail-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -104.991125,
+      38.920138
+     ],
+     [
+      -104.990848,
+      38.91998
+     ],
+     [
+      -104.990809,
+      38.920033
+     ],
+     [
+      -104.990669,
+      38.920206
+     ],
+     [
+      -104.990653,
+      38.92025
+     ],
+     [
+      -104.990647,
+      38.920305
+     ],
+     [
+      -104.988586,
+      38.920153
+     ],
+     [
+      -104.988328,
+      38.920203
+     ],
+     [
+      -104.988161,
+      38.92033
      ],
      [
       -104.98809,
@@ -18613,100 +18951,160 @@
       38.924883
      ],
      [
-      -104.995606,
-      38.924374
-     ]
-    ]
-   },
-   "properties": {
-    "id": "feature:ute-pass-trail-5-cascade-to-chipita-park",
-    "name": "Ute Pass trail: Cascade to Chipita Park (a join on the highway)",
-    "kind": "trail",
-    "grade": "conjecture",
-    "error_ft": 300,
-    "length_ft": 18287,
-    "basis": "A join, drawn on US 24 to keep the trail whole. No source read gives the trail's own course here: the government sheets of 1894 and 1901 draw only the wagon road, and the highway, the railway and the towns have taken the valley floor. Howbert (1914) says only that above Cascade the trail went up the Fountain to its head, where it 'branched off in various directions'. The highway here lies on the canyon road of 1872.",
-    "sources": [
-     "source:osm-ute-pass-trail",
-     "source:glo-t13s-r68w-1872",
-     "source:ute-pass-trail-record"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-26"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      -104.995606,
-      38.924374
+      -104.997541,
+      38.926014
      ],
      [
-      -104.997386,
-      38.926585
+      -104.998226,
+      38.926881
      ],
      [
-      -104.999635,
-      38.928763
+      -104.999405,
+      38.926916
      ],
      [
-      -105.001911,
-      38.930336
+      -104.998226,
+      38.926881
      ],
      [
-      -105.004179,
-      38.932187
+      -104.998994,
+      38.928196
      ],
      [
-      -105.006473,
-      38.934026
+      -104.999436,
+      38.928923
      ],
      [
-      -105.00898,
-      38.935857
+      -105.000051,
+      38.929905
      ],
      [
-      -105.01146,
-      38.937676
+      -105.000619,
+      38.930633
      ],
      [
-      -105.013744,
-      38.93954
+      -105.001455,
+      38.9314
      ],
      [
-      -105.016016,
-      38.941411
-     ]
-    ]
-   },
-   "properties": {
-    "id": "feature:ute-pass-trail-6-chipita-park-to-green-mountain-falls",
-    "name": "Ute Pass trail: Chipita Park to Green Mountain Falls (an old road on the 1872 plat)",
-    "kind": "trail",
-    "grade": "inferred",
-    "error_ft": 400,
-    "length_ft": 8520,
-    "basis": "The 1872 plat draws an unlabelled road here in the same fine-dotted symbol as the 'old road' of section 36, straight up the valley 150 to 250 ft from today's highway. That it is the same old road, and that the old road kept to the trail, is inference: the plat does not name it and the field notes for these sections were not read.",
-    "sources": [
-     "source:glo-t13s-r68w-1872"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-26"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
+      -105.001789,
+      38.931597
+     ],
      [
-      -105.016016,
-      38.941411
+      -105.00237,
+      38.931949
+     ],
+     [
+      -105.003086,
+      38.932336
+     ],
+     [
+      -105.005224,
+      38.933433
+     ],
+     [
+      -105.006832,
+      38.934285
+     ],
+     [
+      -105.00727,
+      38.934578
+     ],
+     [
+      -105.008302,
+      38.93531
+     ],
+     [
+      -105.008657,
+      38.935547
+     ],
+     [
+      -105.009174,
+      38.935937
+     ],
+     [
+      -105.008974,
+      38.936035
+     ],
+     [
+      -105.009174,
+      38.935937
+     ],
+     [
+      -105.009931,
+      38.936538
+     ],
+     [
+      -105.010348,
+      38.936971
+     ],
+     [
+      -105.010955,
+      38.937722
+     ],
+     [
+      -105.011281,
+      38.938129
+     ],
+     [
+      -105.011652,
+      38.938534
+     ],
+     [
+      -105.01205,
+      38.938944
+     ],
+     [
+      -105.012328,
+      38.939169
+     ],
+     [
+      -105.012967,
+      38.939616
+     ],
+     [
+      -105.01381,
+      38.940143
+     ],
+     [
+      -105.014258,
+      38.940422
+     ],
+     [
+      -105.015203,
+      38.940964
+     ],
+     [
+      -105.016756,
+      38.941908
+     ],
+     [
+      -105.016917,
+      38.941717
+     ],
+     [
+      -105.016942,
+      38.941599
+     ],
+     [
+      -105.016784,
+      38.941428
+     ],
+     [
+      -105.016607,
+      38.941531
+     ],
+     [
+      -105.016784,
+      38.941428
+     ],
+     [
+      -105.016942,
+      38.941599
+     ],
+     [
+      -105.016917,
+      38.941717
      ],
      [
       -105.016756,
@@ -18789,32 +19187,74 @@
       38.953234
      ],
      [
-      -105.026716,
-      38.953958
+      -105.026622,
+      38.953545
      ],
      [
-      -105.026785,
-      38.954166
+      -105.026659,
+      38.95362
      ],
      [
-      -105.02698,
-      38.954665
+      -105.027027,
+      38.9543
      ],
      [
-      -105.027467,
-      38.955897
+      -105.027147,
+      38.954091
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:ute-pass-trail-6-chipita-park-to-crystola",
+    "name": "Ute Pass trail: Chipita Park through Green Mountain Falls to Crystola, on the old road (surveyed 1872)",
+    "kind": "trail",
+    "grade": "inferred",
+    "error_ft": 250,
+    "length_ft": 19445,
+    "basis": "Drawn through four more crossings of the same road in the notes of 1872: on the lines between sections 9 and 16 (43.10 chains), 8 and 9 (50.00), 5 and 8 (46.00, with 'door on west side of house of Sherman' at 44.35) and 5 and 6 (67.50). The road was within 50 to 100 ft of today's highway at the last three. The plat's dotted road, used before, agrees with the notes to a chain at one line and seven chains at another; the notes are followed. No survey, and neither of the trail maps of 1916 and 1925, draws or names an Indian trail here apart from this road. That the road lay on the Ute trail is inferred: Howbert (1914) says the trail went up the Fountain to its head, and the valley leaves little room for two ways. It is the road that is placed; the trail is taken to have been under or beside it.",
+    "sources": [
+     "source:glo-t13s-r68w-1872",
+     "source:usgs-cascade-woodland-park-1948-54",
+     "source:osm-ute-pass-trail",
+     "source:ute-pass-trail-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.027147,
+      38.954091
      ],
      [
-      -105.027556,
-      38.956149
+      -105.027027,
+      38.9543
      ],
      [
-      -105.02768,
-      38.956469
+      -105.027331,
+      38.954806
      ],
      [
-      -105.027819,
-      38.956802
+      -105.027535,
+      38.955216
+     ],
+     [
+      -105.027748,
+      38.955767
+     ],
+     [
+      -105.028159,
+      38.95693
+     ],
+     [
+      -105.028047,
+      38.956978
      ],
      [
       -105.027899,
@@ -19251,21 +19691,20 @@
     ]
    },
    "properties": {
-    "id": "feature:ute-pass-trail-7-green-mountain-falls-to-woodland-park",
-    "name": "Ute Pass trail: Green Mountain Falls to Woodland Park (a join on the highway)",
+    "id": "feature:ute-pass-trail-7-crystola-to-woodland-park",
+    "name": "Ute Pass trail: Crystola to Woodland Park (a join on the highway)",
     "kind": "trail",
     "grade": "conjecture",
     "error_ft": 500,
-    "length_ft": 23834,
-    "basis": "A join, drawn on US 24 to keep the trail whole. No source read gives the trail's own course here: the government sheets of 1894 and 1901 draw only the wagon road, and the highway, the railway and the towns have taken the valley floor. Howbert (1914) says only that above Cascade the trail went up the Fountain to its head, where it 'branched off in various directions'.",
+    "length_ft": 18160,
+    "basis": "A join, drawn on US 24 to keep the trail whole: the field notes for these townships were not read (one original survey was not found, one tab failed), and no map draws a trail. The government sheets of 1894 and 1901 draw only the wagon road.",
     "sources": [
      "source:osm-ute-pass-trail",
-     "source:usgs-topo",
-     "source:ute-pass-trail-record"
+     "source:usgs-topo"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
    }
   },
   {
@@ -19818,6 +20257,43 @@
       38.949525
      ],
      [
+      -105.138694,
+      38.949025
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:ute-pass-trail-8-woodland-park-to-divide",
+    "name": "Ute Pass trail: Woodland Park toward Divide (a join on the highway)",
+    "kind": "trail",
+    "grade": "conjecture",
+    "error_ft": 800,
+    "length_ft": 30757,
+    "basis": "A join, drawn on US 24 to keep the trail whole: the field notes for these townships were not read (one original survey was not found, one tab failed), and no map draws a trail. Only its western end is fixed, by the surveyor's crossing of 1879.",
+    "sources": [
+     "source:osm-ute-pass-trail",
+     "source:usgs-topo",
+     "source:glo-t13s-r69w-r70w-1879"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.138694,
+      38.949025
+     ],
+     [
+      -105.138742,
+      38.949525
+     ],
+     [
       -105.142967,
       38.948529
      ],
@@ -19918,6 +20394,14 @@
       38.941992
      ],
      [
+      -105.156526,
+      38.942117
+     ],
+     [
+      -105.156502,
+      38.941992
+     ],
+     [
       -105.156754,
       38.941924
      ],
@@ -19952,21 +20436,276 @@
     ]
    },
    "properties": {
-    "id": "feature:ute-pass-trail-8-woodland-park-to-the-pass",
-    "name": "Ute Pass trail: Woodland Park to the pass east of Divide (a join on the highway)",
+    "id": "feature:ute-pass-trail-9-over-the-pass",
+    "name": "Ute Pass trail: over the pass at Divide, on the road of 1879",
     "kind": "trail",
-    "grade": "conjecture",
-    "error_ft": 1000,
-    "length_ft": 36775,
-    "basis": "A join, drawn on US 24 to keep the trail whole. No source read gives the trail's own course here: the government sheets of 1894 and 1901 draw only the wagon road, and the highway, the railway and the towns have taken the valley floor. Howbert (1914) says only that above Cascade the trail went up the Fountain to its head, where it 'branched off in various directions'. The survey plats for these townships were not opened.",
+    "grade": "inferred",
+    "error_ft": 250,
+    "length_ft": 6449,
+    "basis": "The surveyor of June 1879 crossed a road on the line between sections 5 and 6 at 38.00 chains, 'Road bears E. to Colorado Spgs', and on the line between 6 and 7 at 76.00, 'Road bears N. 60 E.' Drawn through both on today's highway to the saddle that maps name Ute Pass. No survey, and neither of the trail maps of 1916 and 1925, draws or names an Indian trail here apart from this road. That the road lay on the Ute trail is inferred: Howbert (1914) says the trail went up the Fountain to its head, and the valley leaves little room for two ways. It is the road that is placed; the trail is taken to have been under or beside it.",
     "sources": [
+     "source:glo-t13s-r69w-r70w-1879",
+     "source:usgs-cascade-woodland-park-1948-54",
      "source:osm-ute-pass-trail",
-     "source:usgs-topo",
      "source:ute-pass-trail-record"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26"
+    "updated": "2026-11-27"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.15761,
+      38.941623
+     ],
+     [
+      -105.157651,
+      38.941655
+     ],
+     [
+      -105.157835,
+      38.941615
+     ],
+     [
+      -105.158276,
+      38.941518
+     ],
+     [
+      -105.15835,
+      38.941502
+     ],
+     [
+      -105.159699,
+      38.941205
+     ],
+     [
+      -105.159941,
+      38.941152
+     ],
+     [
+      -105.16143,
+      38.940827
+     ],
+     [
+      -105.161993,
+      38.940688
+     ],
+     [
+      -105.170546,
+      38.938788
+     ],
+     [
+      -105.171754,
+      38.938489
+     ],
+     [
+      -105.172261,
+      38.938382
+     ],
+     [
+      -105.175757,
+      38.937582
+     ],
+     [
+      -105.176034,
+      38.937519
+     ],
+     [
+      -105.176375,
+      38.937443
+     ],
+     [
+      -105.176497,
+      38.937415
+     ],
+     [
+      -105.177446,
+      38.937203
+     ],
+     [
+      -105.181293,
+      38.936342
+     ],
+     [
+      -105.182846,
+      38.935991
+     ],
+     [
+      -105.185737,
+      38.93534
+     ],
+     [
+      -105.185775,
+      38.935229
+     ],
+     [
+      -105.185855,
+      38.935118
+     ],
+     [
+      -105.186692,
+      38.934644
+     ],
+     [
+      -105.187218,
+      38.934356
+     ],
+     [
+      -105.187638,
+      38.934115
+     ],
+     [
+      -105.188474,
+      38.933725
+     ],
+     [
+      -105.188816,
+      38.933626
+     ],
+     [
+      -105.189192,
+      38.933589
+     ],
+     [
+      -105.193143,
+      38.933425
+     ],
+     [
+      -105.194271,
+      38.933378
+     ],
+     [
+      -105.194683,
+      38.93331
+     ],
+     [
+      -105.194966,
+      38.933219
+     ],
+     [
+      -105.195133,
+      38.933279
+     ],
+     [
+      -105.213704,
+      38.927005
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:ute-pass-road-west-a-twin-rock",
+    "name": "Road west of the pass toward Twin Creek, past Hayden's house (surveyed 1879)",
+    "kind": "road",
+    "grade": "inferred",
+    "error_ft": 300,
+    "length_ft": 16943,
+    "basis": "One of two roads the surveyor of 1879 found west of the divide: 'Road bears E' at 32.00 and 34.00 chains on the line between sections 10 and 11, with 'Corral, Hayden's house 2 chs E.' at 35.00, and 'Road bears N.W.' on the line between 9 and 10. Drawn through them on today's Twin Rock Road. Which of the two roads was the older way toward South Park is not known, and neither is claimed as the Ute trail. Not followed further west.",
+    "sources": [
+     "source:glo-t13s-r69w-r70w-1879",
+     "source:usgs-cascade-woodland-park-1948-54"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "valid_from": 1879
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.15761,
+      38.941623
+     ],
+     [
+      -105.157651,
+      38.941655
+     ],
+     [
+      -105.157835,
+      38.941615
+     ],
+     [
+      -105.158276,
+      38.941518
+     ],
+     [
+      -105.15835,
+      38.941502
+     ],
+     [
+      -105.159699,
+      38.941205
+     ],
+     [
+      -105.159941,
+      38.941152
+     ],
+     [
+      -105.16143,
+      38.940827
+     ],
+     [
+      -105.161993,
+      38.940688
+     ],
+     [
+      -105.170546,
+      38.938788
+     ],
+     [
+      -105.171754,
+      38.938489
+     ],
+     [
+      -105.172261,
+      38.938382
+     ],
+     [
+      -105.175757,
+      38.937582
+     ],
+     [
+      -105.176034,
+      38.937519
+     ],
+     [
+      -105.176375,
+      38.937443
+     ],
+     [
+      -105.176497,
+      38.937415
+     ],
+     [
+      -105.176526,
+      38.937378
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:ute-pass-road-west-b-twin-creek",
+    "name": "Road west of the pass along Twin Creek (surveyed 1879)",
+    "kind": "road",
+    "grade": "inferred",
+    "error_ft": 300,
+    "length_ft": 5594,
+    "basis": "The other road of 1879: 'Road bears E & W' at 54.00 chains on the line between sections 11 and 12, within 10 ft of today's highway; drawn on the highway from the pass to that crossing and no further. A second note on the same line at 38.00 chains fits neither road and is not drawn.",
+    "sources": [
+     "source:glo-t13s-r69w-r70w-1879",
+     "source:usgs-cascade-woodland-park-1948-54"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "valid_from": 1879
    }
   }
  ]
