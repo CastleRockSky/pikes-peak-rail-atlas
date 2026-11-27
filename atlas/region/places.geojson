@@ -801,11 +801,12 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 30,
-    "basis": "OpenStreetMap way 117996143: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 1 at milepost 0.6 from Point Sublime, 325 ft long. Portals read from the 1 m lidar (26 November 2026): 38.798649, -104.884941 and 38.797830, -104.885736, 390 ft apart along the bore, good to about 10 and 30 ft. North-east face sharp; south-west end rises gradually over about 18 m (talus, fill or a long cut end), so that portal is the weaker of the two. road grade continuous through both ends. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 117996143: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the first tunnel, at about 6.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 98 ft (up to 67 ft of ground above the grade line), from 38.79793, -104.88552 to 38.79782, -104.88582: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 1 at milepost 0.6 from Point Sublime, 325 ft long. Portals read from the 1 m lidar (26 November 2026): 38.798649, -104.884941 and 38.797830, -104.885736, 390 ft apart along the bore, good to about 10 and 30 ft. North-east face sharp; south-west end rises gradually over about 18 m (talus, fill or a long cut end), so that portal is the weaker of the two. road grade continuous through both ends. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). A photo-guide of 1988 numbers this 'Tunnel #1' by its place along the road, in the same order as the atlas (secondary source; the helper's reading). The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -849,11 +850,12 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 10,
-    "basis": "OpenStreetMap way 99568977: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 2 at milepost 1.5 from Point Sublime, 185 ft long. Portals read from the 1 m lidar (26 November 2026): 38.794523, -104.897954 and 38.794137, -104.898242, 165 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; approach floors clear; road grade continuous. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 99568977: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the second tunnel, at about 7.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 148 ft (up to 88 ft of ground above the grade line), from 38.79449, -104.89798 to 38.79415, -104.89824: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 2 at milepost 1.5 from Point Sublime, 185 ft long. Portals read from the 1 m lidar (26 November 2026): 38.794523, -104.897954 and 38.794137, -104.898242, 165 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; approach floors clear; road grade continuous. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). A photo-guide of 1988 numbers this 'Tunnel #2' by its place along the road, in the same order as the atlas (secondary source; the helper's reading). The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -897,12 +899,13 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 15,
-    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photograph of 29 November 2025, taken about 15 ft from the western portal found on the lidar, shows the inside by torchlight: timber sets standing along one wall and the floor deep in fallen rock. McClure's 'Tunnel No. 8' also shows timbering inside the bore, which agrees with the number without proving it. The nomination gives Tunnel No. 8 at milepost 11.5 from Point Sublime, 170 ft long. Portals read from the 1 m lidar (26 November 2026): 38.739573, -104.903873 and 38.739648, -104.904413, 157 ft apart along the bore, good to about 15 and 10 ft. South-east face rises over about 10 m, north-west face sharp; the present road goes round the spur's nose (the green bench in the picture), the bore cuts its base. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 99568970: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the eighth tunnel, at about 17.5 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 90 ft of ground above the grade line), from 38.73949, -104.90366 to 38.73965, -104.90442: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photograph of 29 November 2025, taken about 15 ft from the western portal found on the lidar, shows the inside by torchlight: timber sets standing along one wall and the floor deep in fallen rock. McClure's 'Tunnel No. 8' also shows timbering inside the bore, which agrees with the number without proving it. The nomination gives Tunnel No. 8 at milepost 11.5 from Point Sublime, 170 ft long. Portals read from the 1 m lidar (26 November 2026): 38.739573, -104.903873 and 38.739648, -104.904413, 157 ft apart along the bore, good to about 15 and 10 ft. South-east face rises over about 10 m, north-west face sharp; the present road goes round the spur's nose (the green bench in the picture), the bore cuts its base. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). A photo-guide of 1988 numbers this 'Tunnel #8' by its place along the road, in the same order as the atlas (secondary source; read on the page by me). It says tunnels 6, 7 and 8 'are now caved-in and are by-passed'; the road of 1988 leaves out this arm of the loop altogether, so the book gives it no mileage. The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
      "source:owner-field-photographs",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -946,11 +949,12 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 10,
-    "basis": "OpenStreetMap way 99569027: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 5 at milepost 8.3 from Point Sublime, 263 ft long. Portals read from the 1 m lidar (26 November 2026): 38.752832, -104.908082 and 38.752815, -104.907226, 246 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; approach floors clear. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 99569027: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the fifth tunnel, at about 14.0 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 230 ft (up to 93 ft of ground above the grade line), from 38.75284, -104.90805 to 38.75282, -104.90725: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). The nomination gives Tunnel No. 5 at milepost 8.3 from Point Sublime, 263 ft long. Portals read from the 1 m lidar (26 November 2026): 38.752832, -104.908082 and 38.752815, -104.907226, 246 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; approach floors clear. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). A photo-guide of 1988 numbers this 'Tunnel #5' by its place along the road, in the same order as the atlas (secondary source; the helper's reading). The National Register's milepost for this tunnel is the book's viewing place, about 1,500 ft beyond the tunnel, not the portal. The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -994,12 +998,13 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 25,
-    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken about 45 ft from this pin, show an unlined bore in granite, open from end to end, with a steel bar gate across one mouth. The nomination gives Tunnel No. 3 at milepost 3.4 from Point Sublime, 278 ft long. It also says this tunnel 'finally collapsed in 1988'; the owner's photographs of November 2025, taken at this pin, show a bore open from end to end behind a gate. The two do not agree and the reason is not known. The owner, who has been inside, believes it collapsed in part and that the road was then built round it (said 25 November 2026). That would square the two: a fall that closed the tunnel to traffic while leaving daylight through it. Not checked against a record. Portals read from the 1 m lidar (26 November 2026): 38.786871, -104.907413 and 38.786046, -104.906743, 376 ft apart along the bore, good to about 25 and 25 ft. Both ends rise gradually (rise width about 14 m), so the faces are buried or the cut ends are long; a narrow trench 4-8 m above grade runs about 100 ft north from the south portal along the axis (measured shape; read as a fall or an open cut at the south end, conjecture). A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 99569121: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the third tunnel, at about 9.7 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 328 ft (up to 54 ft of ground above the grade line), from 38.78686, -104.90731 to 38.78609, -104.90677: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken about 45 ft from this pin, show an unlined bore in granite, open from end to end, with a steel bar gate across one mouth. The nomination gives Tunnel No. 3 at milepost 3.4 from Point Sublime, 278 ft long. It also says this tunnel 'finally collapsed in 1988'; the owner's photographs of November 2025, taken at this pin, show a bore open from end to end behind a gate. The two do not agree and the reason is not known. The owner, who has been inside, believes it collapsed in part and that the road was then built round it (said 25 November 2026). That would square the two: a fall that closed the tunnel to traffic while leaving daylight through it. Not checked against a record. Portals read from the 1 m lidar (26 November 2026): 38.786871, -104.907413 and 38.786046, -104.906743, 376 ft apart along the bore, good to about 25 and 25 ft. Both ends rise gradually (rise width about 14 m), so the faces are buried or the cut ends are long; a narrow trench 4-8 m above grade runs about 100 ft north from the south portal along the axis (measured shape; read as a fall or an open cut at the south end, conjecture). A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). A photo-guide of 1988 numbers this 'Tunnel #3' by its place along the road, in the same order as the atlas (secondary source; read on the page by me). It gives the length as 278 ft, says the loose granite was partly timbered against cave-ins, and prints a photograph of a timbered portal with a road through it. The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
      "source:owner-field-photographs",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1043,12 +1048,13 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 15,
-    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken 110 to 200 ft from this pin, show one open mouth in a granite face and a low hole at the foot of another; a third picture, placed here only by its time, shows the inside heaped with fallen rock. The nomination gives Tunnel No. 7 at milepost 11.0 from Point Sublime, 270 ft long. Portals read from the 1 m lidar (26 November 2026): 38.736842, -104.910306 and 38.736351, -104.909687, 251 ft apart along the bore, good to about 15 and 15 ft. Both faces fairly sharp (4-6 m rise) on the axis of the openstreetmap tunnel; the checked route does not follow this axis: it crosses the hill 55-70 ft away and the drawn line with it. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026.",
+    "basis": "OpenStreetMap way 99569148: a tunnel on the grade. Its length is the map trace's. Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). Counted along the line from Colorado Springs this is the seventh tunnel, at about 16.9 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 591 ft (up to 86 ft of ground above the grade line), from 38.73705, -104.91016 to 38.73611, -104.90874: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 29 November 2025, taken 110 to 200 ft from this pin, show one open mouth in a granite face and a low hole at the foot of another; a third picture, placed here only by its time, shows the inside heaped with fallen rock. The nomination gives Tunnel No. 7 at milepost 11.0 from Point Sublime, 270 ft long. Portals read from the 1 m lidar (26 November 2026): 38.736842, -104.910306 and 38.736351, -104.909687, 251 ft apart along the bore, good to about 15 and 15 ft. Both faces fairly sharp (4-6 m rise) on the axis of the openstreetmap tunnel; the checked route does not follow this axis: it crosses the hill 55-70 ft away and the drawn line with it. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). The line was redrawn through these portals on 26 November 2026. A photo-guide of 1988 numbers this 'Tunnel #7' by its place along the road, in the same order as the atlas (secondary source; read on the page by me). It says tunnels 6, 7 and 8 'are now caved-in and are by-passed', with the north-west portal of this one still to be seen in 1988; the road passes about 300 ft away. The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
      "source:owner-field-photographs",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1092,11 +1098,12 @@
     "valid_to": 1920,
     "grade": "measured",
     "error_ft": 10,
-    "basis": "OpenStreetMap way 99569089: a tunnel on the grade. Its length is the map trace's. The westernmost tunnel OpenStreetMap marks on the Short Line, and the ninth counting those found on the lidar east of it. No 1 m lidar is published here, so it has not been tested. The westernmost tunnel OpenStreetMap marks on the Short Line, about 1,700 ft west of the Clyde pin. The National Register nomination of 1999 says: 'Immediately west of Clyde the road enters Tunnel No. 9 (milepost 24.6), which is 268' long, curved, and heavily timbered', and its map labels the tunnel there. An interpretive sign at Clyde, photographed by the owner, says the same and gives about 245 ft and a restoration in 2010-11; the State Historical Fund lists a grant of $200,000 to Teller County for 'Short Line Tunnel #9 - Gold Camp Road Tunnel'. So this is No. 9, the last of the nine. The position is OpenStreetMap's: no 1 m lidar is published here, so it is not tested against the ground. The three lengths given (268 ft, 245 ft, and about 220 ft on the modern map) do not agree. All of this is from secondary sources. The nomination gives Tunnel No. 9 at milepost 24.6 from Point Sublime, 268 ft long. Portals read from the 1 m lidar (26 November 2026): 38.731923, -105.025383 and 38.731816, -105.026156, 225 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road grade continuous through: consistent with the open, restored road tunnel the sign describes. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 99569089: a tunnel on the grade. Its length is the map trace's. The westernmost tunnel OpenStreetMap marks on the Short Line, and the ninth counting those found on the lidar east of it. No 1 m lidar is published here, so it has not been tested. The westernmost tunnel OpenStreetMap marks on the Short Line, about 1,700 ft west of the Clyde pin. The National Register nomination of 1999 says: 'Immediately west of Clyde the road enters Tunnel No. 9 (milepost 24.6), which is 268' long, curved, and heavily timbered', and its map labels the tunnel there. An interpretive sign at Clyde, photographed by the owner, says the same and gives about 245 ft and a restoration in 2010-11; the State Historical Fund lists a grant of $200,000 to Teller County for 'Short Line Tunnel #9 - Gold Camp Road Tunnel'. So this is No. 9, the last of the nine. The position is OpenStreetMap's: no 1 m lidar is published here, so it is not tested against the ground. The three lengths given (268 ft, 245 ft, and about 220 ft on the modern map) do not agree. All of this is from secondary sources. The nomination gives Tunnel No. 9 at milepost 24.6 from Point Sublime, 268 ft long. Portals read from the 1 m lidar (26 November 2026): 38.731923, -105.025383 and 38.731816, -105.026156, 225 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road grade continuous through: consistent with the open, restored road tunnel the sign describes. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). A photo-guide of 1988 numbers this 'Tunnel #9' by its place along the road, in the same order as the atlas (secondary source; read on the page by me). It calls it 'the last of the nine tunnels that were built on The Short Line', timbered and bored on a curve, its west portal opening on Cathedral Park, and quotes Engineering News of 1902 for a total of 2,404 ft of tunnel on the line. The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two.",
     "sources": [
      "source:osm-railways",
      "source:nrhp-cscc-1999",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1618,11 +1625,12 @@
     "name": "Short Line Tunnel No. 6 (shut; found on the lidar)",
     "grade": "inferred",
     "error_ft": 15,
-    "basis": "Not on any map held. Found on the lidar only: Counted along the line from Colorado Springs this is the sixth tunnel, at about 15.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 197 ft (up to 121 ft of ground above the grade line), from 38.74169, -104.90197 to 38.74128, -104.90153: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 13 June 2026, taken about 25 ft from the north-west portal found on the lidar, show a low hole under broken granite, choked with fallen rock: a tunnel is here and its mouth is shut, as the library's note says. The nomination gives Tunnel No. 6 at milepost 10.0 from Point Sublime, 200 ft long. It calls this one collapsed and bypassed. Portals read from the 1 m lidar (26 November 2026): 38.741648, -104.901905 and 38.741344, -104.901568, 147 ft apart along the bore, good to about 15 and 10 ft. Ramps of loose ground at both ends: on the north-west the ground rises gradually to about 10 m over some 60 m before the face, on the south-east a 12 m step is followed by a ramp of about 25 m; the present road bench goes round the spur's nose and does not pass through. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "Not on any map held. Found on the lidar only: Counted along the line from Colorado Springs this is the sixth tunnel, at about 15.8 miles from Colorado Springs Yard by the timetable's reckoning. Counted this way the Granite Tunnel is the fourth, as its library caption numbers it, and nine are found, as that caption says. McClure's photographs at the Denver Public Library bear this out in part: his 'North from Tunnel 8' has the Duffields stop in view (the eighth found is 0.6 mile short of Duffields by the timetable), and the library's note to his 'Tunnels 8 and 6' says both were later blasted shut, which would explain why the sixth is on no map. The National Register nomination of 1999, a secondary source, lists the nine tunnels by number with a milepost and a length for each, in this same order, and puts No. 9 just west of Clyde; the numbers here are taken from it. McClure's caption 'Tunnels 8 and 9' is taken to be a mislabel: the sister print of the same scene is captioned 'Tunnels 8 and 6', and Nos. 8 and 9 are 6.6 miles apart. On the 1 m lidar the route passes under cover here for about 197 ft (up to 121 ft of ground above the grade line), from 38.74169, -104.90197 to 38.74128, -104.90153: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). On the ground: the owner's photographs of 13 June 2026, taken about 25 ft from the north-west portal found on the lidar, show a low hole under broken granite, choked with fallen rock: a tunnel is here and its mouth is shut, as the library's note says. The nomination gives Tunnel No. 6 at milepost 10.0 from Point Sublime, 200 ft long. It calls this one collapsed and bypassed. A photo-guide of 1988 numbers this 'Tunnel #6' by its place along the road, in the same order as the atlas (secondary source; read on the page by me). It says of the Rock Creek Loop that 'These tunnels (#6, #7, and #8) are now caved-in and are by-passed', with both portals of this one still to be seen in 1988. The lidar agrees: rubble at both portals and the road carried round the spur. The National Register's mileposts for the tunnels (1998) prove to be this book's car-mileage figures less 5.6 miles, so the Register and the book are one witness to the numbering, not two. Portals read from the 1 m lidar (26 November 2026): 38.741648, -104.901905 and 38.741344, -104.901568, 147 ft apart along the bore, good to about 15 and 10 ft. Ramps of loose ground at both ends: on the north-west the ground rises gradually to about 10 m over some 60 m before the face, on the south-east a 12 m step is followed by a ramp of about 25 m; the present road bench goes round the spur's nose and does not pass through. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
     "sources": [
      "source:lidar-3dep",
      "source:owner-field-photographs",
-     "source:nrhp-cscc-1999"
+     "source:nrhp-cscc-1999",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -2426,15 +2434,16 @@
    },
    "properties": {
     "id": "place:sl-west-beaver-creek-trestle",
-    "name": "West Beaver Creek trestle (Short Line)",
+    "name": "West Beaver Creek trestle (Trestle 36A, Short Line)",
     "grade": "inferred",
     "error_ft": 20,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the grade stops at 38.746554, -105.097863 and begins again at 38.746272, -105.099400, 545 ft apart, with the ground up to 81 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-10). Low mounds stand on the valley floor under the line, which may be footings; not examined. Engineering News of 1 May 1902 (read on the page) calls the trestle over West Beaver Creek, two and a half miles east of Cameron, the longest and highest on the line, 500 ft long and 84 ft high, of timber on concrete piers, and says its piers were washed out in May 1901. That the opening here is that trestle is inferred from the creek's name, the distance from Cameron and the size; no map or photograph has been matched to it. The present road leaves the railway's line and goes round the head of the valley. Looked at again: the trestle ran crest to crest between benches with no approach fills, 486 ft against the 500 printed (a later writer gives 491); two low mounds 112 ft apart on the valley floor may be what is left of the concrete piers, not settled. No photograph of it has been found. Colorado Springs newspapers of 20 and 22 May 1901 (machine text, not checked on the page) say the flood took out the middle bent and three of the concrete piers and stopped traffic for about two days.",
+    "basis": "On the 1 m lidar the grade stops at 38.746554, -105.097863 and begins again at 38.746272, -105.099400, 545 ft apart, with the ground up to 81 ft below the grade line between them and nothing standing in the opening; the ends are where the ground comes back to the grade line, each good to about 20 ft (research/structures/bridges.md, br-sl-10). Low mounds stand on the valley floor under the line, which may be footings; not examined. Engineering News of 1 May 1902 (read on the page) calls the trestle over West Beaver Creek, two and a half miles east of Cameron, the longest and highest on the line, 500 ft long and 84 ft high, of timber on concrete piers, and says its piers were washed out in May 1901. That the opening here is that trestle is inferred from the creek's name, the distance from Cameron and the size; no map or photograph has been matched to it. The present road leaves the railway's line and goes round the head of the valley. Looked at again: the trestle ran crest to crest between benches with no approach fills, 486 ft against the 500 printed (a later writer gives 491); two low mounds 112 ft apart on the valley floor may be what is left of the concrete piers, not settled. No photograph of it has been found. A photo-guide of 1988 heads it 'Trestle 36A': damaged in the flood of 1901, repaired with temporary timbers, and damaged again in the flood of 1965 after the by-pass road was in use (read on the page by me; secondary). Its photograph shows cross-braced timber bents still standing in the 1980s. The book's road is on the by-pass here, so its mileage does not test this pin. The railway's bridge numbers appear to be the mile from Colorado Springs followed by a letter for the order within that mile: six known numbers (3-A, 8A, 9A, 9B, 13A, 36A) all fall at that mile on the atlas's line. An inference from those six; no list of the railway's bridges has been found. Colorado Springs newspapers of 20 and 22 May 1901 (machine text, not checked on the page) say the flood took out the middle bent and three of the concrete piers and stopped traffic for about two days.",
     "sources": [
      "source:lidar-3dep",
      "source:engineering-news-1902-short-line",
      "source:short-line-trestle-pictures",
+     "source:wolfe-gold-camp-road-1988",
      "source:colorado-springs-gazette-1901-1909-short-line"
     ],
     "status": "draft",
@@ -3089,19 +3098,20 @@
    },
    "properties": {
     "id": "place:sl-silver-cascade-trestle",
-    "name": "Silver Cascade trestle, at Tunnel 3 (Short Line)",
+    "name": "Silver Cascade trestle (Trestle 9B), at Tunnel 3 (Short Line)",
     "grade": "inferred",
     "error_ft": 60,
     "kind": "trestle",
-    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 22 ft below the railway's grade line; it is below grade for 253 ft, between 38.786046, -104.906743 and 38.785752, -104.906028, and 15 ft or more below it for about 200 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. About ten photographs show one trestle running straight out of a portal of Tunnel 3 onto bare rock directly above Silver Cascade Falls, of about seven bents and about 40 ft at the deep end. On the lidar it is the south-east portal that opens onto a bare rock bowl falling 50 to 65 ft within 130 ft; the north-west portal opens onto a plain bench. So the trestle began at the south-east portal face (measured, 15 ft) and ran to where the pad ends (inferred, 60 ft). A library caption says 'west portal', which the ground does not bear out, and another says 'over North Cheyenne Creek': it crosses a side gulch. The fill pad hides the floor, so the lidar's 22 ft is less than the photographs' height. Firmly identified. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-10). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 22 ft below the railway's grade line; it is below grade for 253 ft, between 38.786046, -104.906743 and 38.785752, -104.906028, and 15 ft or more below it for about 200 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. About ten photographs show one trestle running straight out of a portal of Tunnel 3 onto bare rock directly above Silver Cascade Falls, of about seven bents and about 40 ft at the deep end. On the lidar it is the south-east portal that opens onto a bare rock bowl falling 50 to 65 ft within 130 ft; the north-west portal opens onto a plain bench. So the trestle began at the south-east portal face (measured, 15 ft) and ran to where the pad ends (inferred, 60 ft). A library caption says 'west portal', which the ground does not bear out, and another says 'over North Cheyenne Creek': it crosses a side gulch. The fill pad hides the floor, so the lidar's 22 ft is less than the photographs' height. Firmly identified. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-10). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 heads it 'Trestle 9B': 'This trestle was 60 feet in height and it was 215 feet long', spanning the south fork of North Cheyenne Creek at Silver Cascade Falls, with Tunnel 3's east portal opening on to it (read on the page by me; a secondary source, and it does not say where the figures come from). Its mileage falls 74 ft from this pin. The railway's bridge numbers appear to be the mile from Colorado Springs followed by a letter for the order within that mile: six known numbers (3-A, 8A, 9A, 9B, 13A, 36A) all fall at that mile on the atlas's line. An inference from those six; no list of the railway's bridges has been found.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
-     "source:engineering-news-1902-short-line"
+     "source:engineering-news-1902-short-line",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
@@ -3143,15 +3153,16 @@
     "grade": "inferred",
     "error_ft": 50,
     "kind": "trestle",
-    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 68 ft below the railway's grade line; it is below grade for 420 ft, between 38.791490, -104.897387 and 38.790606, -104.898251, and 15 ft or more below it for about 322 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. A photograph of the time (Harlan; Pikes Peak Library District 402-109) shows a curved trestle with guard rails over a deep gulch, the bridge board '8A' and the mile board 'CS 8' legible, and the High Drive road meeting the track at its upper end. This is the first deep gulch up the line from Tunnel 2, 8.05 miles from the Denver and Rio Grande depot by the atlas's line, and the High Drive joins the road just above it on the USGS sheet of 1948. Well identified; that bridges were numbered by the mile is a guess from this one board. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-08). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 68 ft below the railway's grade line; it is below grade for 420 ft, between 38.791490, -104.897387 and 38.790606, -104.898251, and 15 ft or more below it for about 322 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. A photograph of the time (Harlan; Pikes Peak Library District 402-109) shows a curved trestle with guard rails over a deep gulch, the bridge board '8A' and the mile board 'CS 8' legible, and the High Drive road meeting the track at its upper end. This is the first deep gulch up the line from Tunnel 2, 8.05 miles from the Denver and Rio Grande depot by the atlas's line, and the High Drive joins the road just above it on the USGS sheet of 1948. Well identified; that bridges were numbered by the mile is a guess from this one board. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-08). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. The railway's bridge numbers appear to be the mile from Colorado Springs followed by a letter for the order within that mile: six known numbers (3-A, 8A, 9A, 9B, 13A, 36A) all fall at that mile on the atlas's line. An inference from those six; no list of the railway's bridges has been found.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
-     "source:engineering-news-1902-short-line"
+     "source:engineering-news-1902-short-line",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
@@ -3243,11 +3254,12 @@
     "grade": "inferred",
     "error_ft": 50,
     "kind": "trestle",
-    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 57 ft below the railway's grade line; it is below grade for 755 ft, between 38.735487, -105.031260 and 38.734793, -105.033437, and 15 ft or more below it for about 413 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. Photographs (McClure and others) show a curved trestle of nine or ten bents at Cathedral Park, and a later account puts a trestle over Bison Creek just past Tunnel 9, since filled. The hollow here, just beyond Tunnel 9, is below grade for 755 ft, far more than nine or ten 20 ft spans: the trestle (about 180 to 200 ft by the photographs) stood somewhere within it, with fills either side, and its own ends are not fixed. The ends given are those of the whole hollow. The place is firmly identified; the trestle's ends within it are not. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-37). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. Caution (26 November 2026): the height given here was read from a fitted grade line since found to stand 10 ft or more above the road hereabouts, so it is probably too great by about that much. Not re-measured.",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 57 ft below the railway's grade line; it is below grade for 755 ft, between 38.735487, -105.031260 and 38.734793, -105.033437, and 15 ft or more below it for about 413 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. Photographs (McClure and others) show a curved trestle of nine or ten bents at Cathedral Park, and a later account puts a trestle over Bison Creek just past Tunnel 9, since filled. The hollow here, just beyond Tunnel 9, is below grade for 755 ft, far more than nine or ten 20 ft spans: the trestle (about 180 to 200 ft by the photographs) stood somewhere within it, with fills either side, and its own ends are not fixed. The ends given are those of the whole hollow. The place is firmly identified; the trestle's ends within it are not. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-37). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 shows the bridge over Bison Creek here then and now, filled by the 1980s (the helper's reading); its mileage falls 460 ft from this pin. Caution (26 November 2026): the height given here was read from a fitted grade line since found to stand 10 ft or more above the road hereabouts, so it is probably too great by about that much. Not re-measured.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
-     "source:engineering-news-1902-short-line"
+     "source:engineering-news-1902-short-line",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
@@ -3293,15 +3305,16 @@
     "grade": "inferred",
     "error_ft": 50,
     "kind": "trestle",
-    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 62 ft below the railway's grade line; it is below grade for 755 ft, between 38.731871, -104.934418 and 38.730488, -104.936368, and 15 ft or more below it for about 558 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. The National Register form for the road (a later account) says two trestles at the Double Horseshoe on Little Fountain Creek are buried in the present fills. This is the largest fill there, up to 62 ft high over the creek, higher than any fill the railway had in 1902 by Engineering News. Which of the two trestles it is, and where the other was, is not known; no photograph has been matched. Probable, from the fill's height and the later account. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-19). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 62 ft below the railway's grade line; it is below grade for 755 ft, between 38.731871, -104.934418 and 38.730488, -104.936368, and 15 ft or more below it for about 558 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. The National Register form for the road (a later account) says two trestles at the Double Horseshoe on Little Fountain Creek are buried in the present fills. This is the largest fill there, up to 62 ft high over the creek, higher than any fill the railway had in 1902 by Engineering News. Which of the two trestles it is, and where the other was, is not known; no photograph has been matched. Probable, from the fill's height and the later account. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-19). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 prints A. J. Harlan's early photograph of the Double Horseshoe and says it 'shows the two trestles that spanned the creek'; a second photograph shows two timber trestles, and the text speaks of 'the filled-in trestle' as the place to stop (read on the page by me). So there were two trestles here, and one at least was filled; its mileage falls 100 ft from this pin.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
-     "source:engineering-news-1902-short-line"
+     "source:engineering-news-1902-short-line",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
@@ -3393,15 +3406,16 @@
     "grade": "inferred",
     "error_ft": 80,
     "kind": "trestle",
-    "basis": "The road's hairpin here has a radius of about 90 ft, which a train could not take, and on the 1 m lidar a flat-topped stub of bench at grade, about 65 ft long, points south across the hollow from the road's upper arm. So the railway crossed the hollow; that is inferred from the ground. Where exactly is conjecture. One curve of 236 ft radius drawn tangent to the bench either side runs along the stub and climbs at 3.0 per cent; on it the trestle is about 239 ft at grade, between 38.786572, -104.913499 and 38.785967, -104.913284, and up to 51 ft above today's ground. But that curve is about 24 degrees, and Engineering News of 1902 gives 16 degrees as the sharpest on the line. A 16 degree curve misses the stub by 75 ft, needs 3.8 per cent and a trestle of 419 ft, and lies up to 90 ft to the east. Neither fits everything, so the ends are good only to about 80 ft. An earlier reading here gave 224 ft and 64 ft from a straight line between the bench ends; the 64 ft was measured to the lowest ground under that line. Engineering News calls the trestles of North Cheyenne Canyon noteworthy. It is a different structure from the Silver Cascade trestle. No photograph has been matched to it (research/structures/shortline-trestles-2.md; shortline-hairpin-retrace.png). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest.",
+    "basis": "The road's hairpin here has a radius of about 90 ft, which a train could not take, and on the 1 m lidar a flat-topped stub of bench at grade, about 65 ft long, points south across the hollow from the road's upper arm. So the railway crossed the hollow; that is inferred from the ground. Where exactly is conjecture. One curve of 236 ft radius drawn tangent to the bench either side runs along the stub and climbs at 3.0 per cent; on it the trestle is about 239 ft at grade, between 38.786572, -104.913499 and 38.785967, -104.913284, and up to 51 ft above today's ground. But that curve is about 24 degrees, and Engineering News of 1902 gives 16 degrees as the sharpest on the line. A 16 degree curve misses the stub by 75 ft, needs 3.8 per cent and a trestle of 419 ft, and lies up to 90 ft to the east. Neither fits everything, so the ends are good only to about 80 ft. An earlier reading here gave 224 ft and 64 ft from a straight line between the bench ends; the 64 ft was measured to the lowest ground under that line. Engineering News calls the trestles of North Cheyenne Canyon noteworthy. It is a different structure from the Silver Cascade trestle. No photograph has been matched to it (research/structures/shortline-trestles-2.md; shortline-hairpin-retrace.png). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 calls the bridge here 9A, a short way below the water tank whose foundation it photographs (the helper's reading; secondary). The railway's bridge numbers appear to be the mile from Colorado Springs followed by a letter for the order within that mile: six known numbers (3-A, 8A, 9A, 9B, 13A, 36A) all fall at that mile on the atlas's line. An inference from those six; no list of the railway's bridges has been found.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
-     "source:engineering-news-1902-short-line"
+     "source:engineering-news-1902-short-line",
+     "source:wolfe-gold-camp-road-1988"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
@@ -3524,13 +3538,13 @@
     "grade": "inferred",
     "error_ft": 1000,
     "kind": "other",
-    "basis": "Named on the government sheet of 1909 (1:125,000, surveyed 1906-07) and read off it, good to about 1,000 ft. Whether there was a house or resort is not established; nothing written about it has been read.",
+    "basis": "Named on the government sheet of 1909 (1:125,000, surveyed 1906-07) and read off it, good to about 1,000 ft. Whether there was a house or resort is not established; nothing written about it has been read. A photo-guide of 1988 mentions Cather Springs but its author did not know the spot; her mileage for it falls at the Old Stage Road junction, three-fifths of a mile from where the sheet of 1909 prints the name. The pin stays on the sheet.",
     "sources": [
      "source:usgs-topo-colorado-springs"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-27",
     "on_lines": [],
     "summary": "A spring named on the government map of 1909, beside the road that leaves the stage road at Rock Creek and runs south (today's Emerald Valley Road). Nothing more is known of it here."
    }
@@ -4747,6 +4761,182 @@
     "updated": "2026-11-27",
     "on_lines": [],
     "summary": "The site of a stone chimney that long stood east of the stage road, the last of the Voss place and, by a guide of 1984, where a Dr Smith had a sawmill. The chimney has been pulled down."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.91277,
+     38.78733
+    ]
+   },
+   "properties": {
+    "id": "place:sl-north-cheyenne-water-tank",
+    "name": "North Cheyenne Canon water tank (Short Line; foundation)",
+    "grade": "inferred",
+    "error_ft": 300,
+    "kind": "other",
+    "basis": "A photo-guide of 1988 gives 'N. Cheyenne Canon' at 8.4 miles: a siding, 'primarily a stop to check the condition of trains and take on water', and photographs 'the foundation for the water tank' beside the road (read on the page by me; secondary). The book's mileages are a car's odometer along the road of the 1980s; fitted to twelve points known on the lidar they are good to about 250 ft near such a point, more between. The pin is at the mileage on the atlas's line, 425 ft from the trestle at the hairpin; the foundation itself was not picked out on the lidar.",
+    "sources": [
+     "source:wolfe-gold-camp-road-1988",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "Where Short Line trains stopped to be looked over and to take water in North Cheyenne Canon. The tank's concrete foundation was still there in the 1980s."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.91588,
+     38.75596
+    ]
+   },
+   "properties": {
+    "id": "place:sl-south-cheyenne-station",
+    "name": "South Cheyenne station and water tank (Short Line; about here)",
+    "grade": "inferred",
+    "error_ft": 400,
+    "kind": "other",
+    "basis": "A photo-guide of 1988 places a South Cheyenne station and tank at its mileage here, about 950 ft north of Tunnel 4 (the helper's reading; secondary). The book's mileages are a car's odometer along the road of the 1980s; fitted to twelve points known on the lidar they are good to about 250 ft near such a point, more between. Nothing was made out on the lidar, and no timetable read prints the name; the pin is the book's mileage on the atlas's line.",
+    "sources": [
+     "source:wolfe-gold-camp-road-1988",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "A Short Line stopping place and water tank in South Cheyenne Canon, a little north of Tunnel 4, by a guide of 1988."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.88899,
+     38.79503
+    ]
+   },
+   "properties": {
+    "id": "place:sl-sublime-section-house",
+    "name": "Sublime section house (Short Line; about here)",
+    "grade": "inferred",
+    "error_ft": 400,
+    "kind": "other",
+    "basis": "A photo-guide of 1988 gives the 'Sublime Section House' at its mileage here and says no building remains (the helper's reading; secondary). The book's mileages are a car's odometer along the road of the 1980s; fitted to twelve points known on the lidar they are good to about 250 ft near such a point, more between. The atlas's Sublime, placed from timetable mileage and good only to a quarter of a mile, lies 2,100 ft away: the two are not in conflict, and this is the closer fix.",
+    "sources": [
+     "source:wolfe-gold-camp-road-1988",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "The section house at Sublime on the Short Line, of which nothing stood by the 1980s, by a guide of 1988."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.90405,
+     38.79068
+    ]
+   },
+   "properties": {
+    "id": "place:sl-bruin-inn-station",
+    "name": "Bruin Inn station, at the High Drive crossing (Short Line; about here)",
+    "grade": "inferred",
+    "error_ft": 400,
+    "kind": "other",
+    "basis": "A photo-guide of 1988 gives a Bruin Inn stop where the High Drive crosses the line (the helper's reading; secondary). The book's mileages are a car's odometer along the road of the 1980s; fitted to twelve points known on the lidar they are good to about 250 ft near such a point, more between. The High Drive junction itself is a check on the method: the book's mileage falls 206 ft from it.",
+    "sources": [
+     "source:wolfe-gold-camp-road-1988",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "Where the High Drive met the Short Line, a stopping place for Bruin Inn in North Cheyenne Canon, by a guide of 1988."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.98692,
+     38.73391
+    ]
+   },
+   "properties": {
+    "id": "place:sl-heslin",
+    "name": "Heslin (Short Line; about here)",
+    "grade": "inferred",
+    "error_ft": 700,
+    "kind": "other",
+    "basis": "A photo-guide of 1988 names Heslin at its mileage here (the helper's reading; secondary). This stretch is far from any point the mileages were fitted to, so it is good only to about 700 ft. No timetable read prints the name.",
+    "sources": [
+     "source:wolfe-gold-camp-road-1988",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "A named point on the Short Line between Rosemont and Saderlind, by a guide of 1988."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.10688,
+     38.74305
+    ]
+   },
+   "properties": {
+    "id": "place:mt-trestle-over-short-line",
+    "name": "Midland Terminal trestle over the Short Line, near Calf Mountain (about here; not located)",
+    "grade": "conjecture",
+    "error_ft": 800,
+    "kind": "trestle",
+    "basis": "A photo-guide of 1988 photographs the broken bents of a Midland Terminal trestle that carried that line over the Short Line (the helper's reading; secondary). The pin is where the atlas's two lines run closest, 120 to 400 ft apart, near the book's mileage; the trestle itself was not found on the lidar. Conjecture, good to about 800 ft.",
+    "sources": [
+     "source:wolfe-gold-camp-road-1988",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "Where the Midland Terminal crossed above the Short Line on a timber trestle. A guide of 1988 photographs its wrecked bents; the spot has not been found.",
+    "local": {
+     "ends": [
+      [
+       -105.097863,
+       38.746554
+      ],
+      [
+       -105.0994,
+       38.746272
+      ]
+     ],
+     "length_ft": 545,
+     "height_ft": 81
+    }
    }
   },
   {
