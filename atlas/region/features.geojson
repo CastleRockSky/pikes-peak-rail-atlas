@@ -7647,6 +7647,77 @@
     "contributor": "project",
     "updated": "2026-11-26"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -104.931934,
+      38.856851
+     ],
+     [
+      -104.947511,
+      38.858337
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:mount-manitou-incline",
+    "name": "Mount Manitou incline (the Manitou Incline)",
+    "kind": "incline",
+    "grade": "measured",
+    "error_ft": 10,
+    "length_ft": 4464,
+    "basis": "A cable incline, straight from beside the cog road's depot to the shoulder of Mount Manitou. The line is fitted to its cut on the 1 m lidar, on which today's trail of steps lies (the cut holds to the line within about 3 ft): 4,467 ft on the level, 4,941 ft along the slope, rising 1,953 ft from 6,611 to 8,564 ft, 43.7 per cent on average; the steepest 300 ft of today's ground is 69 per cent. The government sheet of 1948 letters it 'Incline Railway'. By a newspaper of November 1907 (machine text, not checked on the page) the Manitou Incline Railway Company bought 'the cable tram road' from Manitou to the summit of Mount Manitou from the Hydro Electric Company and rebuilt it for passengers; the first passenger car ran on 28 June 1908 (machine text). The Gazette of 9 July 1908, read on the page, gives grades of 14 to 68 per cent and says it was 'constructed without any trestle-work whatever'. On the lidar the ground on the line dips up to 27 ft into a gully near the foot, which a cable line must have crossed on an even grade: by that account it was on fill, not a trestle, and none is entered. When the Hydro Electric Company built the first tram, and where the power house stood, were not found. It is shown to 1990, the year later accounts give for its closing; no record of the closing has been read for this atlas.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-manitou-pikes-peak-1948-51",
+     "source:manitou-inclines-newspapers",
+     "source:osm-manitou-mountain-railways"
+    ],
+    "valid_from": 1908,
+    "valid_to": 1990,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -104.923659,
+      38.858619
+     ],
+     [
+      -104.921291,
+      38.851355
+     ]
+    ]
+   },
+   "properties": {
+    "id": "feature:red-mountain-incline",
+    "name": "Red Mountain incline (Red Mountain Scenic Railway; later the Red Peak Incline)",
+    "kind": "incline",
+    "grade": "measured",
+    "error_ft": 15,
+    "length_ft": 2732,
+    "basis": "A cable incline, not a cog railway: the prospectus in the Gazette of 26 May 1911, read on the page, promises a double track worked by electricity with cables, 3,200 ft from Ruxton Avenue to the summit, with a pavilion on top; no source calls it a rack road. Found on the ground: on the 1 m lidar one dead-straight line runs through seven separate cuts, 3 to 14 ft deep, from the level of Ruxton Avenue to the crest of Red Mountain, the cuts holding to the line within 2 ft, and the government sheet of 1948 draws a railway lettered '(Abandoned)' on the same line within about 15 ft. It is 2,729 ft on the level and rises 914 ft, from 6,404 to 7,318 ft: about 48 and 28 per cent at the bottom, a nearly level 400 ft in the middle, and about 49 per cent up the last pitch, twice the cog road's steepest. Why the middle is level is not known; it may have been a passing place. It crossed over the Colorado Midland near its foot and a hollow below the upper pitch (see the two pins). Newspapers (machine text, not checked on the page): built by Richard Clough and Son from January 1912, advertised as running in July 1912, in receivership in 1913, sold by the sheriff in 1917, run again as the 'Red Peak Incline' in 1922, and sold by the sheriff on 21 July 1925 having 'not been operated for several years'. Its opening day was not found. Shown from 1912 to 1922, the last year it is known to have run.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:usgs-manitou-pikes-peak-1948-51",
+     "source:manitou-inclines-newspapers"
+    ],
+    "valid_from": 1912,
+    "valid_to": 1922,
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26"
+   }
   }
  ]
 }

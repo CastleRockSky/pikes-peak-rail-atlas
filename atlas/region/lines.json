@@ -75130,5 +75130,1438 @@
    }
   ],
   "updated": "2026-11-24"
+ },
+ {
+  "id": "line:manitou-and-pikes-peak",
+  "name": "Manitou and Pike's Peak Railway (the Pikes Peak cog road)",
+  "valid_from": 1891,
+  "grade": "measured",
+  "error_ft": 25,
+  "basis": "Today's track from OpenStreetMap, Manitou depot to the summit: 8.72 miles on the level (8.86 along the slope, against 8.90 in the engineering press of 1890). The track was relaid in 2018 to 2021 on the old bed; it lies on the railway drawn by the government sheets of 1948 and 1951 throughout, within those sheets' error, so no realignment shows. On the 1 m lidar the bed can be seen within 10 ft of the line along 44 per cent of it, nearly all below 10,000 ft, and those pieces are graded measured; above timberline and in rock cuts the bed cannot be made out and the line is OpenStreetMap's, inferred to about 25 ft. Steepest 25.5 per cent over 300 ft on the lidar.",
+  "sources": [
+   "source:osm-manitou-mountain-railways",
+   "source:lidar-3dep",
+   "source:usgs-manitou-pikes-peak-1948-51",
+   "source:mpp-engineering-press-1890-94",
+   "source:mpp-folder-1915",
+   "source:manitou-inclines-newspapers"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "railway": "Manitou and Pike's Peak Railway",
+  "gauge": "standard",
+  "successors": [],
+  "notes": "A rack railway on the Abt system from Manitou to the summit of Pikes Peak; standard gauge. By the engineering press of 1890 to 1894 (machine text, not checked on the page): ground broken 25 September 1889, track laid 11 June to 20 October 1890; 46,992 ft (8.90 miles) along the rail, from 6,570 to 14,088 ft; steepest grade 25 per cent, average 16.23; sharpest curve 16 degrees; four iron bridges and no trestle. Trains ran to the Half-Way House in the autumn of 1890. Newspapers (machine text) have the first train reach the summit on 30 June 1891, a church choir's excursion, after the officials' special that morning was stopped by a rockfall. Later: control passed to Spencer Penrose's interests in July 1925; a gasoline car in 1939; the first diesel locomotive on 17 June 1947 (newspapers, machine text). Still running: the line was rebuilt in 2018 to 2021 on the old bed, by later accounts. Shown from 1891 with no last year.",
+  "segments": [
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.930893,
+       38.856041
+      ],
+      [
+       -104.93155,
+       38.855873
+      ],
+      [
+       -104.931679,
+       38.855833
+      ],
+      [
+       -104.9318,
+       38.855781
+      ],
+      [
+       -104.931981,
+       38.85567
+      ],
+      [
+       -104.932128,
+       38.855556
+      ],
+      [
+       -104.932273,
+       38.855416
+      ],
+      [
+       -104.932347,
+       38.855325
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 83% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.932347,
+       38.855325
+      ],
+      [
+       -104.932403,
+       38.855246
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "An opening under the track (see the pin here). Cog: opening 0.1 mile above the depot. Ends where the ground comes back to the grade line on the 1 m lidar.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.932403,
+       38.855246
+      ],
+      [
+       -104.93254,
+       38.855058
+      ],
+      [
+       -104.932695,
+       38.854879
+      ],
+      [
+       -104.9336,
+       38.85411
+      ],
+      [
+       -104.933816,
+       38.853947
+      ],
+      [
+       -104.934014,
+       38.853823
+      ],
+      [
+       -104.934256,
+       38.853685
+      ],
+      [
+       -104.934451,
+       38.85359
+      ],
+      [
+       -104.934937,
+       38.853382
+      ],
+      [
+       -104.935761,
+       38.853059
+      ],
+      [
+       -104.93596,
+       38.852968
+      ],
+      [
+       -104.936074,
+       38.852908
+      ],
+      [
+       -104.938204,
+       38.851735
+      ],
+      [
+       -104.938291,
+       38.851676
+      ],
+      [
+       -104.938402,
+       38.851585
+      ],
+      [
+       -104.938531,
+       38.851435
+      ],
+      [
+       -104.938637,
+       38.851296
+      ],
+      [
+       -104.938738,
+       38.851198
+      ],
+      [
+       -104.938916,
+       38.851057
+      ],
+      [
+       -104.938989,
+       38.851013
+      ],
+      [
+       -104.939124,
+       38.850944
+      ],
+      [
+       -104.940043,
+       38.85053
+      ],
+      [
+       -104.940126,
+       38.850499
+      ],
+      [
+       -104.940234,
+       38.850468
+      ],
+      [
+       -104.940503,
+       38.850418
+      ],
+      [
+       -104.940732,
+       38.8504
+      ],
+      [
+       -104.942229,
+       38.850348
+      ],
+      [
+       -104.942344,
+       38.850351
+      ],
+      [
+       -104.942481,
+       38.850365
+      ],
+      [
+       -104.942571,
+       38.850382
+      ],
+      [
+       -104.942701,
+       38.850418
+      ],
+      [
+       -104.942884,
+       38.850494
+      ],
+      [
+       -104.943229,
+       38.850705
+      ],
+      [
+       -104.943747,
+       38.851035
+      ],
+      [
+       -104.943968,
+       38.851165
+      ],
+      [
+       -104.944186,
+       38.851267
+      ],
+      [
+       -104.944329,
+       38.851325
+      ],
+      [
+       -104.944649,
+       38.851427
+      ],
+      [
+       -104.944826,
+       38.851467
+      ],
+      [
+       -104.945006,
+       38.851496
+      ],
+      [
+       -104.947389,
+       38.851827
+      ],
+      [
+       -104.947572,
+       38.851842
+      ],
+      [
+       -104.947803,
+       38.851839
+      ],
+      [
+       -104.947917,
+       38.851827
+      ],
+      [
+       -104.948029,
+       38.851806
+      ],
+      [
+       -104.948222,
+       38.851747
+      ],
+      [
+       -104.948399,
+       38.851664
+      ],
+      [
+       -104.948472,
+       38.851619
+      ],
+      [
+       -104.948572,
+       38.851545
+      ],
+      [
+       -104.948698,
+       38.851416
+      ],
+      [
+       -104.948779,
+       38.851307
+      ],
+      [
+       -104.948843,
+       38.851211
+      ],
+      [
+       -104.949029,
+       38.850881
+      ],
+      [
+       -104.949148,
+       38.850686
+      ],
+      [
+       -104.949215,
+       38.850592
+      ],
+      [
+       -104.949295,
+       38.850503
+      ],
+      [
+       -104.949472,
+       38.850337
+      ],
+      [
+       -104.950095,
+       38.849782
+      ],
+      [
+       -104.950256,
+       38.84968
+      ],
+      [
+       -104.950356,
+       38.849635
+      ],
+      [
+       -104.950461,
+       38.849599
+      ],
+      [
+       -104.950658,
+       38.849547
+      ],
+      [
+       -104.950794,
+       38.849528
+      ],
+      [
+       -104.950932,
+       38.849517
+      ],
+      [
+       -104.951024,
+       38.849515
+      ],
+      [
+       -104.951645,
+       38.849535
+      ],
+      [
+       -104.951829,
+       38.849529
+      ],
+      [
+       -104.952012,
+       38.849512
+      ],
+      [
+       -104.952147,
+       38.849486
+      ],
+      [
+       -104.952255,
+       38.849455
+      ],
+      [
+       -104.952716,
+       38.84929
+      ],
+      [
+       -104.952802,
+       38.849264
+      ],
+      [
+       -104.95289,
+       38.849243
+      ],
+      [
+       -104.953115,
+       38.849205
+      ],
+      [
+       -104.955252,
+       38.849336
+      ],
+      [
+       -104.955413,
+       38.849328
+      ],
+      [
+       -104.955572,
+       38.849307
+      ],
+      [
+       -104.955833,
+       38.849237
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 78% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.955833,
+       38.849237
+      ],
+      [
+       -104.955963,
+       38.849201
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "An opening under the track (see the pin here). Cog: Ruxton Creek bridge at Minnehaha. Ends where the ground comes back to the grade line on the 1 m lidar.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.955963,
+       38.849201
+      ],
+      [
+       -104.956167,
+       38.849168
+      ],
+      [
+       -104.956374,
+       38.849159
+      ],
+      [
+       -104.956578,
+       38.849184
+      ],
+      [
+       -104.957198,
+       38.849379
+      ],
+      [
+       -104.957551,
+       38.849513
+      ],
+      [
+       -104.957833,
+       38.849592
+      ],
+      [
+       -104.958034,
+       38.849632
+      ],
+      [
+       -104.958333,
+       38.849637
+      ],
+      [
+       -104.958628,
+       38.849598
+      ],
+      [
+       -104.958727,
+       38.849553
+      ],
+      [
+       -104.959173,
+       38.849405
+      ],
+      [
+       -104.959643,
+       38.849316
+      ],
+      [
+       -104.960223,
+       38.849198
+      ],
+      [
+       -104.960744,
+       38.84912
+      ],
+      [
+       -104.961078,
+       38.849051
+      ],
+      [
+       -104.961245,
+       38.848991
+      ],
+      [
+       -104.9614,
+       38.848912
+      ],
+      [
+       -104.961662,
+       38.848736
+      ],
+      [
+       -104.961772,
+       38.848644
+      ],
+      [
+       -104.962752,
+       38.847881
+      ],
+      [
+       -104.962849,
+       38.847833
+      ],
+      [
+       -104.962993,
+       38.847776
+      ],
+      [
+       -104.963213,
+       38.847721
+      ],
+      [
+       -104.963959,
+       38.847606
+      ],
+      [
+       -104.964135,
+       38.847565
+      ],
+      [
+       -104.964462,
+       38.847475
+      ],
+      [
+       -104.965235,
+       38.847241
+      ],
+      [
+       -104.965437,
+       38.847202
+      ],
+      [
+       -104.965989,
+       38.847211
+      ],
+      [
+       -104.966173,
+       38.847208
+      ],
+      [
+       -104.9664,
+       38.847176
+      ],
+      [
+       -104.966622,
+       38.847127
+      ],
+      [
+       -104.968581,
+       38.846593
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 82% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.968581,
+       38.846593
+      ],
+      [
+       -104.96869,
+       38.846564
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "An opening under the track (see the pin here). Cog: Ruxton Creek crossing below Ruxton Park. Ends where the ground comes back to the grade line on the 1 m lidar.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.96869,
+       38.846564
+      ],
+      [
+       -104.969141,
+       38.846429
+      ],
+      [
+       -104.969382,
+       38.846322
+      ],
+      [
+       -104.969626,
+       38.846186
+      ],
+      [
+       -104.969691,
+       38.846135
+      ],
+      [
+       -104.96981,
+       38.846025
+      ],
+      [
+       -104.970442,
+       38.845382
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 62% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.970442,
+       38.845382
+      ],
+      [
+       -104.970512,
+       38.84531
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "An opening under the track (see the pin here). Cog: Ruxton Creek crossing in Ruxton Park. Ends where the ground comes back to the grade line on the 1 m lidar.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.970512,
+       38.84531
+      ],
+      [
+       -104.972189,
+       38.843613
+      ],
+      [
+       -104.972474,
+       38.843431
+      ],
+      [
+       -104.972722,
+       38.843334
+      ],
+      [
+       -104.973155,
+       38.84321
+      ],
+      [
+       -104.973324,
+       38.843154
+      ],
+      [
+       -104.973582,
+       38.843035
+      ],
+      [
+       -104.973803,
+       38.842905
+      ],
+      [
+       -104.973933,
+       38.842803
+      ],
+      [
+       -104.974039,
+       38.842707
+      ],
+      [
+       -104.97415,
+       38.842593
+      ],
+      [
+       -104.974204,
+       38.842513
+      ],
+      [
+       -104.974909,
+       38.841239
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 73% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.974909,
+       38.841239
+      ],
+      [
+       -104.975239,
+       38.840625
+      ],
+      [
+       -104.976066,
+       38.838655
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "inferred",
+    "error_ft": 25,
+    "basis": "OpenStreetMap's track; the bed is not distinct on the 1 m lidar here (a level strip within 3 m at only 54% of stations: steep talus, rock cuts or a siding beside it), so the line rests on OpenStreetMap.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.976066,
+       38.838655
+      ],
+      [
+       -104.976215,
+       38.838296
+      ],
+      [
+       -104.976425,
+       38.837761
+      ],
+      [
+       -104.976537,
+       38.837506
+      ],
+      [
+       -104.976726,
+       38.837237
+      ],
+      [
+       -104.976878,
+       38.837079
+      ],
+      [
+       -104.978248,
+       38.83617
+      ],
+      [
+       -104.978954,
+       38.835828
+      ],
+      [
+       -104.979182,
+       38.835741
+      ],
+      [
+       -104.979458,
+       38.835651
+      ],
+      [
+       -104.980126,
+       38.835512
+      ],
+      [
+       -104.981092,
+       38.835475
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 83% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.981092,
+       38.835475
+      ],
+      [
+       -104.984591,
+       38.835348
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "inferred",
+    "error_ft": 25,
+    "basis": "OpenStreetMap's track; the bed is not distinct on the 1 m lidar here (a level strip within 3 m at only 58% of stations: steep talus, rock cuts or a siding beside it), so the line rests on OpenStreetMap.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.984591,
+       38.835348
+      ],
+      [
+       -104.985696,
+       38.835308
+      ],
+      [
+       -104.986157,
+       38.835297
+      ],
+      [
+       -104.986607,
+       38.835218
+      ],
+      [
+       -104.986991,
+       38.835097
+      ],
+      [
+       -104.987214,
+       38.835002
+      ],
+      [
+       -104.987879,
+       38.834614
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 82% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -104.987879,
+       38.834614
+      ],
+      [
+       -104.988502,
+       38.834214
+      ],
+      [
+       -104.988834,
+       38.834051
+      ],
+      [
+       -104.989197,
+       38.833937
+      ],
+      [
+       -104.989421,
+       38.833894
+      ],
+      [
+       -104.990497,
+       38.8338
+      ],
+      [
+       -104.992218,
+       38.833671
+      ],
+      [
+       -104.993086,
+       38.833582
+      ],
+      [
+       -104.999741,
+       38.83259
+      ],
+      [
+       -105.001734,
+       38.832298
+      ],
+      [
+       -105.004064,
+       38.831946
+      ],
+      [
+       -105.005151,
+       38.831788
+      ],
+      [
+       -105.006869,
+       38.831522
+      ],
+      [
+       -105.00709,
+       38.831471
+      ],
+      [
+       -105.007294,
+       38.831386
+      ],
+      [
+       -105.007512,
+       38.831254
+      ],
+      [
+       -105.007625,
+       38.83114
+      ],
+      [
+       -105.007703,
+       38.831051
+      ],
+      [
+       -105.007777,
+       38.8309
+      ],
+      [
+       -105.007828,
+       38.830761
+      ],
+      [
+       -105.007838,
+       38.830708
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "inferred",
+    "error_ft": 25,
+    "basis": "OpenStreetMap's track; the bed is not distinct on the 1 m lidar here (a level strip within 3 m at only 32% of stations: steep talus, rock cuts or a siding beside it), so the line rests on OpenStreetMap.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.007838,
+       38.830708
+      ],
+      [
+       -105.007854,
+       38.8306
+      ],
+      [
+       -105.007829,
+       38.829754
+      ],
+      [
+       -105.007864,
+       38.829557
+      ],
+      [
+       -105.008359,
+       38.828131
+      ],
+      [
+       -105.008436,
+       38.828021
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 66% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.008436,
+       38.828021
+      ],
+      [
+       -105.008587,
+       38.827818
+      ],
+      [
+       -105.009148,
+       38.827269
+      ],
+      [
+       -105.009373,
+       38.827064
+      ],
+      [
+       -105.009554,
+       38.826877
+      ],
+      [
+       -105.009806,
+       38.826643
+      ],
+      [
+       -105.010148,
+       38.82646
+      ],
+      [
+       -105.010613,
+       38.826354
+      ],
+      [
+       -105.010859,
+       38.826306
+      ],
+      [
+       -105.011047,
+       38.826237
+      ],
+      [
+       -105.011198,
+       38.826155
+      ],
+      [
+       -105.011357,
+       38.826025
+      ],
+      [
+       -105.011529,
+       38.825812
+      ],
+      [
+       -105.011627,
+       38.82559
+      ],
+      [
+       -105.011663,
+       38.825431
+      ],
+      [
+       -105.011678,
+       38.825251
+      ],
+      [
+       -105.011654,
+       38.825163
+      ],
+      [
+       -105.011599,
+       38.825006
+      ],
+      [
+       -105.011529,
+       38.824854
+      ],
+      [
+       -105.011341,
+       38.824564
+      ],
+      [
+       -105.01124,
+       38.824383
+      ],
+      [
+       -105.01109,
+       38.824139
+      ],
+      [
+       -105.010957,
+       38.823851
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "inferred",
+    "error_ft": 25,
+    "basis": "OpenStreetMap's track; the bed is not distinct on the 1 m lidar here (a level strip within 3 m at only 53% of stations: steep talus, rock cuts or a siding beside it), so the line rests on OpenStreetMap.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.010957,
+       38.823851
+      ],
+      [
+       -105.010863,
+       38.823648
+      ],
+      [
+       -105.010828,
+       38.823525
+      ],
+      [
+       -105.01078,
+       38.823293
+      ],
+      [
+       -105.01074,
+       38.823043
+      ],
+      [
+       -105.01073,
+       38.822845
+      ],
+      [
+       -105.010796,
+       38.822325
+      ],
+      [
+       -105.010969,
+       38.821746
+      ],
+      [
+       -105.01108,
+       38.821471
+      ],
+      [
+       -105.011177,
+       38.821268
+      ],
+      [
+       -105.011237,
+       38.821171
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "measured",
+    "error_ft": 10,
+    "basis": "OpenStreetMap's track (relaid 2018-21 on the old bed); a level bed strip shows on the 1 m lidar within 3 m of it at 72% of 2 m stations here.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   },
+   {
+    "geometry": {
+     "type": "LineString",
+     "coordinates": [
+      [
+       -105.011237,
+       38.821171
+      ],
+      [
+       -105.011367,
+       38.82096
+      ],
+      [
+       -105.011542,
+       38.82077
+      ],
+      [
+       -105.012774,
+       38.819901
+      ],
+      [
+       -105.013505,
+       38.819405
+      ],
+      [
+       -105.015028,
+       38.818331
+      ],
+      [
+       -105.015451,
+       38.818025
+      ],
+      [
+       -105.016016,
+       38.817654
+      ],
+      [
+       -105.01638,
+       38.817465
+      ],
+      [
+       -105.01733,
+       38.817097
+      ],
+      [
+       -105.018809,
+       38.816823
+      ],
+      [
+       -105.019232,
+       38.816734
+      ],
+      [
+       -105.019681,
+       38.816593
+      ],
+      [
+       -105.020288,
+       38.816267
+      ],
+      [
+       -105.020953,
+       38.815943
+      ],
+      [
+       -105.021359,
+       38.815814
+      ],
+      [
+       -105.021381,
+       38.815809
+      ],
+      [
+       -105.021749,
+       38.815825
+      ],
+      [
+       -105.02177,
+       38.81583
+      ],
+      [
+       -105.022131,
+       38.81595
+      ],
+      [
+       -105.022416,
+       38.816102
+      ],
+      [
+       -105.022434,
+       38.816114
+      ],
+      [
+       -105.023383,
+       38.817286
+      ],
+      [
+       -105.023845,
+       38.817759
+      ],
+      [
+       -105.024182,
+       38.817976
+      ],
+      [
+       -105.025407,
+       38.818437
+      ],
+      [
+       -105.025738,
+       38.818633
+      ],
+      [
+       -105.025987,
+       38.818792
+      ],
+      [
+       -105.026226,
+       38.818988
+      ],
+      [
+       -105.026313,
+       38.819072
+      ],
+      [
+       -105.026527,
+       38.819307
+      ],
+      [
+       -105.026746,
+       38.819624
+      ],
+      [
+       -105.026999,
+       38.820107
+      ],
+      [
+       -105.027102,
+       38.820422
+      ],
+      [
+       -105.027322,
+       38.821526
+      ],
+      [
+       -105.027341,
+       38.821578
+      ],
+      [
+       -105.02913,
+       38.826163
+      ],
+      [
+       -105.029434,
+       38.826524
+      ],
+      [
+       -105.029803,
+       38.826706
+      ],
+      [
+       -105.030168,
+       38.826817
+      ],
+      [
+       -105.033535,
+       38.827103
+      ],
+      [
+       -105.034142,
+       38.82721
+      ],
+      [
+       -105.034612,
+       38.8275
+      ],
+      [
+       -105.034625,
+       38.827514
+      ],
+      [
+       -105.034836,
+       38.827855
+      ],
+      [
+       -105.035058,
+       38.82861
+      ],
+      [
+       -105.035412,
+       38.829095
+      ],
+      [
+       -105.035872,
+       38.829522
+      ],
+      [
+       -105.036551,
+       38.829925
+      ],
+      [
+       -105.039467,
+       38.830772
+      ],
+      [
+       -105.042912,
+       38.832943
+      ],
+      [
+       -105.043273,
+       38.833221
+      ],
+      [
+       -105.043586,
+       38.833533
+      ],
+      [
+       -105.043881,
+       38.833899
+      ],
+      [
+       -105.044039,
+       38.834159
+      ],
+      [
+       -105.044095,
+       38.834371
+      ],
+      [
+       -105.044107,
+       38.834586
+      ],
+      [
+       -105.044034,
+       38.834851
+      ],
+      [
+       -105.043383,
+       38.836504
+      ],
+      [
+       -105.042294,
+       38.839013
+      ],
+      [
+       -105.042215,
+       38.839239
+      ],
+      [
+       -105.042185,
+       38.839508
+      ],
+      [
+       -105.042184,
+       38.839652
+      ],
+      [
+       -105.042203,
+       38.839958
+      ],
+      [
+       -105.042247,
+       38.840245
+      ]
+     ]
+    },
+    "valid_from": 1891,
+    "grade": "inferred",
+    "error_ft": 25,
+    "basis": "OpenStreetMap's track; the bed is not distinct on the 1 m lidar here (a level strip within 3 m at only 28% of stations: steep talus, rock cuts or a siding beside it), so the line rests on OpenStreetMap.",
+    "from_route": "routes/manitou-and-pikes-peak.json"
+   }
+  ],
+  "updated": "2026-11-26"
  }
 ]

@@ -89,7 +89,7 @@ if (location.protocol === 'file:') document.getElementById('warn').style.display
 const $ = id => document.getElementById(id);
 const get = (u, fb) => fetch(u, { cache: 'no-store' }).then(r => r.ok ? r.json() : fb).catch(() => fb);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#b91c1c', 'line:cs-and-cc-district': '#15803d', 'line:florence-and-cripple-creek': '#a16207', 'line:rio-grande-junction': '#7c3aed' };
+const COLOUR = { 'line:colorado-midland': '#1d4ed8', 'line:midland-terminal': '#b91c1c', 'line:cs-and-cc-district': '#15803d', 'line:florence-and-cripple-creek': '#a16207', 'line:rio-grande-junction': '#7c3aed', 'line:manitou-and-pikes-peak': '#be185d' };
 // how sure: shown by the stroke, never by colour (colour is the railway)
 const GRADE = { measured: { dash: null, what: 'Taken from the ground itself, a surveyed map or a photograph, and tested.' },
                 inferred: { dash: '10 6', what: 'Reasoned from evidence that bears on it but does not fix it directly.' },
@@ -169,7 +169,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
   const rows = {};
   for (const l of lines) {
     const d = document.createElement('div'); d.className = 'line'; d.tabIndex = 0; d.setAttribute('role', 'button');
-    d.innerHTML = '<span class="sw" style="border-color:' + (COLOUR[l.id] || '#111') + '"></span><b>' + esc(l.name) + '</b><br><span class="note">' + esc(l.valid_from) + ' to ' + esc(l.valid_to) + ' · ' + esc(l.gauge) + ' gauge · ' + l.segments.length + ' pieces</span>';
+    d.innerHTML = '<span class="sw" style="border-color:' + (COLOUR[l.id] || '#111') + '"></span><b>' + esc(l.name) + '</b><br><span class="note">' + esc(years(l.valid_from, l.valid_to)) + ' · ' + esc(l.gauge) + ' gauge · ' + l.segments.length + ' pieces</span>';
     const go = () => select({ kind: 'line', id: l.id, line: l }, { fit: true }); d.onclick = go; d.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); } };
     $('lines').appendChild(d); rows[l.id] = d;
   }
@@ -198,7 +198,7 @@ Promise.all([get('atlas/region/lines.json', []), get('atlas/region/places.geojso
   const ev = (y, text, go) => (EVENTS[y] = EVENTS[y] || []).push({ text, go });
   for (const l of lines) if (l.id !== 'line:rio-grande-junction') {
     const fit = () => map.fitBounds(L.featureGroup(segs.filter(o => o.line === l).map(o => o.hit)).getBounds(), { padding: [20, 20], animate: false });
-    ev(l.valid_from, l.name + ' begins', fit); ev(l.valid_to, 'last year of the ' + l.name, fit);
+    ev(l.valid_from, l.name + ' begins', fit); if (l.valid_to) ev(l.valid_to, 'last year of the ' + l.name, fit);      // a railway still running has no last year
   }
   const canyon = () => map.setView([38.5475, -105.1045], 15, { animate: false });
   ev(1895, 'a cloudburst on 30 July wrecks the Florence and Cripple Creek\'s first line on the floor of Phantom Canyon', canyon);

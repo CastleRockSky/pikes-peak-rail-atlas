@@ -439,5 +439,46 @@
   "date": "1948",
   "url": "https://prd-tnm.s3.amazonaws.com/StagedProducts/Maps/HistoricalTopo/GeoTIFF/CO/CO_Mount%20Big%20Chief_401642_1948_24000_geo.tif",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:osm-manitou-mountain-railways",
+  "kind": "dataset",
+  "title": "OpenStreetMap: the Manitou and Pike's Peak Railway's track (ways 1465987778, 1465987779, 1038313989, 1038313990, 488256104, 488256105, 454609908), its sidings and stations, and the Manitou Incline steps",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:mpp-engineering-press-1890-94",
+  "kind": "engineering press",
+  "title": "The building of the Manitou and Pike's Peak Railway: Engineering News, 4 October 1890; Scientific American, 24 January 1891; T. F. Richardson in the Journal of the Association of Engineering Societies, vol. 13 (1894), pp. 413-431. Read as machine text, not checked on the page; extracts in research/manitou-mountain-railways/written-record.md",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/journalofassocia13asso",
+  "date": "1890-1894",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:mpp-folder-1915",
+  "kind": "timetable",
+  "title": "Manitou and Pike's Peak Railway, folder 'Stop at Pike's Peak on your Way to or from the Expositions', 1915: the time card with each station's distance from the summit and elevation. Read on the page image",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/C1002013147",
+  "date": "1915",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:manitou-inclines-newspapers",
+  "kind": "newspapers",
+  "title": "Newspapers on the Manitou mountain railways: Colorado Springs Gazette, 26 May 1911 (the Red Mountain prospectus) and 9 July 1908 (the Mount Manitou incline), both read on the page; other papers of 1891 to 1930 read as machine text and not checked on the page. Extracts in research/manitou-mountain-railways/written-record.md",
+  "holder": "Internet Archive; Colorado Historic Newspapers Collection",
+  "url": "https://archive.org/",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:usgs-manitou-pikes-peak-1948-51",
+  "kind": "map",
+  "title": "USGS Manitou Springs quadrangle, 1:24,000, 1948, and Pikes Peak quadrangle, 1:24,000, 1951: draw the cog railway and its stations, the 'Incline Railway' up Mount Manitou, and a railway lettered '(Abandoned)' up Red Mountain",
+  "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
+  "date": "1948-1951",
+  "accessed": "2026-11-26"
  }
 ]
