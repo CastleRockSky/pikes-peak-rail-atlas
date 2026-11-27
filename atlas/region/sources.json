@@ -489,5 +489,38 @@
   "url": "https://archive.org/details/journalofassocia13asso",
   "date": "1890-1894",
   "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:pikes-peak-carriage-road-record",
+  "kind": "newspapers",
+  "title": "The Cascade and Pike's Peak carriage road in the newspapers of 1888 to 1913: Rocky Mountain News, 8 Sep 1888, 9 Jun and 25 Jul 1889; Pueblo Chieftain, 25 Jun 1889; Colorado Springs Gazette, 27 Apr 1888 and 23 Feb 1913; and others. Read as machine text, not checked on the page; extracts in research/pikes-peak-carriage-road/written-record.md",
+  "holder": "Colorado Historic Newspapers Collection; Internet Archive",
+  "url": "https://www.coloradohistoricnewspapers.org/",
+  "date": "1888-1913",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:pikes-peak-highway-engineering-1915",
+  "kind": "engineering press",
+  "title": "The Pike's Peak automobile highway of 1915 and the old carriage road: Engineering Record, 23 Oct 1915, p. 505 ('Route follows old road'); Engineering News, 23 Dec 1915, p. 1203 (plan and profile); Scientific American, 8 Apr 1916 (photograph at Mile 2). Read on the page images",
+  "holder": "Internet Archive",
+  "url": "https://archive.org/details/sim_enr_engineering-news_1915-12-02_74_23",
+  "date": "1915-1916",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:usgs-cascade-woodland-park-1948-54",
+  "kind": "map",
+  "title": "USGS Cascade quadrangle, 1:24,000, 1948 (letters 'Toll Gate' at the highway's hairpin above Cascade) and Woodland Park quadrangle, 1:24,000, 1954, photorevised 1976 and 1985 (Crystal Creek Reservoir, Halfway Picnic Area, Glen Cove)",
+  "holder": "US Geological Survey, Historical Topographic Map Collection (The National Map); copies in research/maps/usgs/",
+  "date": "1948-1985",
+  "accessed": "2026-11-26"
+ },
+ {
+  "id": "source:osm-pikes-peak-highway",
+  "kind": "dataset",
+  "title": "OpenStreetMap: the Pikes Peak Highway and Prairie Street, Cascade, on which most of the carriage road is drawn; way numbers in research/pikes-peak-carriage-road/route.md",
+  "holder": "OpenStreetMap contributors",
+  "accessed": "2026-11-26"
  }
 ]

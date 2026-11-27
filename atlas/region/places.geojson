@@ -4369,6 +4369,180 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -104.975099,
+     38.897146
+    ]
+   },
+   "properties": {
+    "id": "place:ppcr-cascade-start",
+    "name": "Foot of the Pikes Peak carriage road, Cascade",
+    "grade": "inferred",
+    "error_ft": 300,
+    "kind": "other",
+    "summary": "Where the carriages for the summit set out, on Prairie Avenue near the hotel, from 1888.",
+    "basis": "The north end of today's Prairie Street, where the lane up the hillside begins. The newspapers of 1888 and 1889 (machine text, not checked on the page) start the road on Prairie Avenue near the hotel, a quarter mile from the Midland depot; the sheet of 1909 has the summit road leave the village here. The carriage line met the Midland trains; the fare was $5 from Cascade with the toll, or $2 toll for a private rig. The road was built in 1888 by Carlile, Price and McGavock of Pueblo for the Cascade Town Company and opened with a press excursion on 6 September 1888. The road is drawn 17.2 miles long; the papers of 1888 to 1890 give 16, 17, and 17 miles 400 ft.",
+    "sources": [
+     "source:pikes-peak-carriage-road-record",
+     "source:usgs-topo-colorado-springs",
+     "source:osm-pikes-peak-highway"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "valid_from": 1888,
+    "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.990337,
+     38.900141
+    ]
+   },
+   "properties": {
+    "id": "place:ppcr-toll-gate",
+    "name": "Toll gate of the carriage road (about here; not located)",
+    "grade": "conjecture",
+    "error_ft": 2500,
+    "kind": "other",
+    "summary": "The carriage road's toll house, somewhere in Cascade Canyon. Not found; the sources disagree by two miles.",
+    "basis": "Not located; the pin marks the neighbourhood only. A figure of 1894 puts the toll gate at 8,500 ft, which on the drawn line is about two miles from Cascade, and the Engineering Record of 1915 (read on the page) has a 'Toll Gate Point' near the end of the highway's second mile: the pin is there. Against it, the Rocky Mountain News of 8 September 1888 puts the toll house 3 to 4 miles out, at the top of Cascade Canyon (machine text). The 'Toll Gate' lettered on the map of 1948 at the hairpin above Cascade is the automobile highway's, not this one. William Henry Jackson photographed the gate; a picture may place it.",
+    "sources": [
+     "source:pikes-peak-carriage-road-record",
+     "source:pikes-peak-highway-engineering-1915",
+     "source:usgs-cascade-woodland-park-1948-54"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "valid_from": 1888,
+    "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.064952,
+     38.901426
+    ]
+   },
+   "properties": {
+    "id": "place:ppcr-half-way-house",
+    "name": "Half Way House of the carriage road (about here; not located)",
+    "grade": "conjecture",
+    "error_ft": 4000,
+    "kind": "other",
+    "summary": "Gaynor's Half Way House, the relay station where horses were changed for mules, about eight miles from Cascade. Not found.",
+    "basis": "Not located. The newspapers of 1888 and 1889 (machine text) put the Half Way House about 8 miles from Cascade, two and a half miles after the road leaves the canyon at five. The pin is at today's Halfway picnic ground, 7.5 miles along the drawn line, which fits; but the picnic ground is also half way up the automobile highway and may take its name from that. The record helper inferred Glen Cove instead, which is 10.5 miles along the line and also called '8 miles' in one source. Not to be confused with the Half-Way House of the cog road or the Half Way house of the Cripple Creek stage road.",
+    "sources": [
+     "source:pikes-peak-carriage-road-record",
+     "source:usgs-cascade-woodland-park-1948-54",
+     "source:osm-pikes-peak-highway"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "valid_from": 1888,
+    "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.073364,
+     38.874497
+    ]
+   },
+   "properties": {
+    "id": "place:ppcr-glen-cove",
+    "name": "Glen Cove (Pikes Peak carriage road)",
+    "grade": "inferred",
+    "error_ft": 400,
+    "kind": "other",
+    "summary": "A flat under the crags at the foot of the last climb, named on the map of 1894; a stop on the carriage road and later on the highway.",
+    "basis": "The government sheet of 1894 letters Glen Cove and marks a building beside the road at the foot of the switchbacks; today's Glen Cove is 800 to 1,100 ft east of that mark, the same place within the old sheet's error. The pin is on the road at today's Glen Cove. The Engineering Record of 1915 (read on the page) gives it as the end of the highway's eleventh mile, 11,450 ft, 'the last of the timbered area'.",
+    "sources": [
+     "source:usgs-topo",
+     "source:usgs-cascade-woodland-park-1948-54",
+     "source:pikes-peak-highway-engineering-1915"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "valid_from": 1888,
+    "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.066,
+     38.8668
+    ]
+   },
+   "properties": {
+    "id": "place:ppcr-the-w",
+    "name": "The 'W' switchbacks (Pikes Peak carriage road)",
+    "grade": "inferred",
+    "error_ft": 500,
+    "kind": "other",
+    "summary": "The zigzags above Glen Cove by which the road gains the ridge; photographed from 1888 on.",
+    "basis": "The sheet of 1894 draws a tight set of zigzags here and today's highway has its tightest hairpins at the same place. The Rocky Mountain News of 8 September 1888 (machine text) has the road zigzag in a 'W' with turns widened to 40 ft, at what it guessed was 11,000 ft; these are at 11,500 to 12,000. Which of today's hairpins are the carriage road's own is not known: the highway was relocated throughout.",
+    "sources": [
+     "source:usgs-topo",
+     "source:pikes-peak-carriage-road-record",
+     "source:pikes-peak-highway-engineering-1915",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "valid_from": 1888,
+    "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.043934,
+     38.839951
+    ]
+   },
+   "properties": {
+    "id": "place:ppcr-summit",
+    "name": "Summit end of the Pikes Peak carriage road",
+    "grade": "inferred",
+    "error_ft": 300,
+    "kind": "other",
+    "summary": "Where the carriages ended, by the Signal Station on the summit.",
+    "basis": "The sheet of 1894 ends the road in a small loop on the summit beside the end of the cog railway; the pin is the end of today's road. The first excursion of 6 September 1888 drove to the Signal Station (machine text); in August 1888 the War Department had stopped the work for a time at the boundary of its reservation, within two miles of the top. The best day recorded was 29 July 1890, about 108 people; the cog railway reached the summit on 30 June 1891 and the road was little used after 1893 (machine text).",
+    "sources": [
+     "source:usgs-topo",
+     "source:pikes-peak-carriage-road-record"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-26",
+    "valid_from": 1888,
+    "on_lines": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.834603,
      38.828288
     ]
