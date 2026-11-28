@@ -1978,53 +1978,17 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.111593,
-     38.488169
+     -105.109813,
+     38.498371
     ]
    },
    "properties": {
     "id": "place:cramer",
-    "name": "Cramer",
+    "name": "Cramer (Alabaster to 1895, Russell to 1901 or 1902)",
     "grade": "inferred",
-    "error_ft": 500,
+    "error_ft": 800,
     "kind": "siding",
-    "basis": "A helper-engine base built in 1902 with a siding, wye and telegraph office, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance, checked against the two tunnels, which agrees with his milepost to 50 ft once his mileposts' unexplained 0.24 mile excess over the survey south of Adelaide is taken off. The bench along the line is two to three times its usual width for half a mile here, which may be the yard or only the open canyon mouth. Wilkins's book of 1976 (a later account; station lists read on the page by a helper, pp. 67 and 163) makes this and Russell one station: Alabaster at 8.4 miles from Florence, renamed Russell in 1895 and Cramer in 1901 or 1902. The atlas shows two pins about 3,600 ft apart, placed from timetables; they have not been merged, and by the book the station lay about 38.49837, -105.10981 (good to about 800 ft). Not settled.",
-    "sources": [
-     "source:rmrc-fcc-guide",
-     "source:lidar-3dep",
-     "source:fcc-survey-1894",
-     "source:wilkins-fcc-1976"
-    ],
-    "status": "draft",
-    "contributor": "project",
-    "updated": "2026-11-28",
-    "on_lines": [
-     {
-      "line": "line:florence-and-cripple-creek",
-      "milepost": 7.9
-     }
-    ],
-    "summary": "A siding and helper base of 1902 near the foot of Phantom Canyon, from a secondary guide.",
-    "valid_from": 1902,
-    "valid_to": 1912
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -105.110405,
-     38.495016
-    ]
-   },
-   "properties": {
-    "id": "place:russell",
-    "name": "Russell (Alabaster until 1895)",
-    "grade": "inferred",
-    "error_ft": 500,
-    "kind": "siding",
-    "basis": "A water tank and short siding for helper engines at the foot of the canyon, given up for Cramer in 1902, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance and his milepost, which agree to 10 ft but are both his. A short wide bench stands at the spot on the lidar. Wilkins's book of 1976 (a later account; station lists read on the page by a helper, pp. 67 and 163) makes this and Cramer one station: Alabaster at 8.4 miles from Florence, renamed Russell in 1895 and Cramer in 1901 or 1902. The atlas shows two pins about 3,600 ft apart, placed from timetables; they have not been merged, and by the book the station lay about 38.49837, -105.10981 (good to about 800 ft). Not settled.",
+    "basis": "Wilkins's book of 1976, a later account, prints the railway's roster of 1 October 1895, with Russell at 8.4 miles from Florence, and its track statement of 1 January 1901, with 'Cramer (Russell prior to 1902)' at 8.8 miles from Canon City, which is the same place, every figure in that list being the earlier one plus 0.4; an earlier list has Alabaster at 8.4, renamed Russell in 1895 (pp. 67, 68 and 163, read on the page by a helper, not by the atlas's editor). So these were one station under three names. The pin is at mile 8.4 by the stationing of the 1894 survey, where the line leaves the creek at the canyon's mouth; it is good to about 800 ft, because the mileposts hereabouts read about 0.2 mile above the measured line for a reason not found. Against this: N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation, treats Russell and Cramer as two places half a mile apart, Russell a water tank and short siding given up in 1902 for a new helper base at Cramer; the atlas showed them so until 29 November 2026, Cramer at 38.488169, -105.111593 and Russell at 38.495016, -105.110405. The track statement, a record of the railway printed in a later book, is preferred to the guide; the station may still have been rebuilt or moved a little in 1902, which neither settles. A wide bench on the lidar about 1,000 ft south of the pin, where the Russell pin stood, may be the passing track and wye. The two were made one pin on the decision of the atlas's owner.",
     "sources": [
      "source:rmrc-fcc-guide",
      "source:lidar-3dep",
@@ -2040,9 +2004,9 @@
       "milepost": 8.4
      }
     ],
-    "summary": "A water tank and siding at the foot of Phantom Canyon to 1902, from a secondary guide.",
+    "summary": "The station at the foot of Phantom Canyon, 8.4 miles from Florence: Alabaster when the line opened, Russell from 1895, Cramer from 1901 or 1902, with a water tank, passing track and wye for the helper engines. One station under three names, by a book of 1976.",
     "valid_from": 1894,
-    "valid_to": 1902
+    "valid_to": 1912
    }
   },
   {
