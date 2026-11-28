@@ -689,5 +689,13 @@
   "holder": "Pikes Peak Rail Atlas",
   "date": "2026",
   "accessed": "2026-11-28"
+ },
+ {
+  "id": "source:wilkins-fcc-1976",
+  "kind": "book",
+  "title": "Tivis E. Wilkins, The Florence & Cripple Creek and Golden Circle Railroads (Colorado Rail Annual No. 13, Colorado Railroad Museum, 1976): a later account, without footnotes, drawn from newspapers, company files and Railroad Commission hearings. Read on the page in a borrowed copy, 28-29 November 2026; notes in research/structures/fcc-wilkins-check.md",
+  "holder": "Internet Archive (lending copy)",
+  "date": "1976",
+  "accessed": "2026-11-28"
  }
 ]

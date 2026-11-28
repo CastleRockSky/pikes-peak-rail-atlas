@@ -1147,13 +1147,14 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 10,
-    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This tunnel was not on the line as first built: it was driven in 1896 for the 'high line' that replaced the first line on the canyon floor after the cloudburst of 30 July 1895. Newspapers of the time, read on the page images: 'A start has also been made on the north end of the tunnel at mile post 15. This tunnel will be 275 feet in length' (Colorado Daily Chieftain, 23 March 1896); a blast 'on the tunnel between Adelaide and McCourt' on the night of 9 April 1896 killed one man, P. McGinnis (Rocky Mountain News, 10 and 11 April 1896); the contractors 'have let daylight through the new tunnel near Adelaide' (Colorado Weekly Chieftain, 21 May 1896); and the high line opened on 27 June 1896. That the tunnel of those reports is this one is inferred: it is 14.8 miles from Florence by the survey's stationing, and the other tunnel is at 11.0. The railway's field notes of 1894 (Sumner's amended-route map) agree: near station 782 from Florence they go 1,800 ft round the creek's bend south of the spur, on the valley floor, where the road goes 970 ft through it. No grade round the bend survives on the lidar that can be told from the creek's own deposits. Length: 275 ft as planned in 1896; about 290 ft on the modern map; 230 ft under cover on the lidar; 215 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 2. No length as built has been found in a record of the time. Holmes dates its start to February 1894, which the newspapers contradict: that was the other tunnel. Portals read from the 1 m lidar (26 November 2026): 38.547305, -105.105164 and 38.547800, -105.104667, 230 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road (phantom canyon road) runs through: consistent with an open road tunnel. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 525706316: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 230 ft (up to 139 ft of ground above the grade line), from 38.54731, -105.10516 to 38.54780, -105.10467: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This tunnel was not on the line as first built: it was driven in 1896 for the 'high line' that replaced the first line on the canyon floor after the cloudburst of 30 July 1895. Newspapers of the time, read on the page images: 'A start has also been made on the north end of the tunnel at mile post 15. This tunnel will be 275 feet in length' (Colorado Daily Chieftain, 23 March 1896); a blast 'on the tunnel between Adelaide and McCourt' on the night of 9 April 1896 killed one man, P. McGinnis (Rocky Mountain News, 10 and 11 April 1896); the contractors 'have let daylight through the new tunnel near Adelaide' (Colorado Weekly Chieftain, 21 May 1896); and the high line opened on 27 June 1896. That the tunnel of those reports is this one is inferred: it is 14.8 miles from Florence by the survey's stationing, and the other tunnel is at 11.0. The railway's field notes of 1894 (Sumner's amended-route map) agree: near station 782 from Florence they go 1,800 ft round the creek's bend south of the spur, on the valley floor, where the road goes 970 ft through it. No grade round the bend survives on the lidar that can be told from the creek's own deposits. Length: 275 ft as planned in 1896; about 290 ft on the modern map; 230 ft under cover on the lidar; 215 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 2. No length as built has been found in a record of the time. Holmes dates its start to February 1894, which the newspapers contradict: that was the other tunnel. Portals read from the 1 m lidar (26 November 2026): 38.547305, -105.105164 and 38.547800, -105.104667, 230 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road (phantom canyon road) runs through: consistent with an open road tunnel. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). This is the railway's Tunnel No. 2, on the high line of 1896 below Adelaide: Wilkins's book of 1976 (a later account, read on the page by a helper) shows a photograph of its south portal with a milepost reading 15, and gives the portal as 15 miles and about a hundred feet from Florence. Measured along the atlas's line the south portal is at mile 14.8, about 1,100 ft short of that; the mileposts in the lower canyon read about 0.2 mile above the measured line, which is not explained.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
      "source:fcc-survey-1894",
      "source:rmrc-fcc-guide",
-     "source:colorado-newspapers-fcc-1894-96"
+     "source:colorado-newspapers-fcc-1894-96",
+     "source:wilkins-fcc-1976"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1197,13 +1198,14 @@
     "valid_to": 1915,
     "grade": "measured",
     "error_ft": 10,
-    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This was the only tunnel on the line as first built. 'The 165-foot tunnel on the Florence and Cripple Creek railroad in Eight Mile canon, eleven miles from this city, was cut through the rock yesterday' (Rocky Mountain News, dated Florence 18 February 1894, read on the page image): so holed through on 17 February 1894. In the flood of 30 July 1895 'the water in the tunnel was 6 feet high' (Florence Chronicle, quoted in the Colorado Daily Chieftain, 3 August 1895). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, 11.0 miles out, which agrees with the newspaper's eleven miles. The notes mention no tunnel anywhere. Length: 165 ft in the newspaper of 1894; about 190 ft on the modern map; 131 ft under cover on the lidar; 314 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 1. Not settled. Portals read from the 1 m lidar (26 November 2026): 38.519567, -105.124594 and 38.519592, -105.125123, 151 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road runs through: consistent with an open road tunnel. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md).",
+    "basis": "OpenStreetMap way 525717269: a tunnel on the grade. Its length is the map trace's. On the 1 m lidar the route passes under cover here for about 131 ft (up to 99 ft of ground above the grade line), from 38.51957, -105.12463 to 38.51959, -105.12509: the portals, to about 30 ft; the length is of ground more than 16 ft above the grade, so approach cuttings are not counted (atlas/tools/find_tunnels.py). This was the only tunnel on the line as first built. 'The 165-foot tunnel on the Florence and Cripple Creek railroad in Eight Mile canon, eleven miles from this city, was cut through the rock yesterday' (Rocky Mountain News, dated Florence 18 February 1894, read on the page image): so holed through on 17 February 1894. In the flood of 30 July 1895 'the water in the tunnel was 6 feet high' (Florence Chronicle, quoted in the Colorado Daily Chieftain, 3 August 1895). The railway's field notes of 1894 (Sumner's amended-route map), rebuilt and laid on the ground, pass 8 ft from this pin at survey station 584+73 from Florence, 11.0 miles out, which agrees with the newspaper's eleven miles. The notes mention no tunnel anywhere. Length: 165 ft in the newspaper of 1894; about 190 ft on the modern map; 131 ft under cover on the lidar; 314 ft in N. D. Holmes's guide (2013, secondary), who calls it Tunnel 1. Not settled. Portals read from the 1 m lidar (26 November 2026): 38.519567, -105.124594 and 38.519592, -105.125123, 151 ft apart along the bore, good to about 10 and 10 ft. Both faces sharp; road runs through: consistent with an open road tunnel. A portal is taken where the ground has risen a portal's height above the grade, so the length reads 5 to 15 per cent short of a measured tunnel where the faces are sharp (research/structures/tunnels.md). This is the railway's Tunnel No. 1: Wilkins's book of 1976 (a later account, read on the page by a helper) gives it as a 160 ft tunnel through a rocky shoulder, holed through about 24 February 1894, half filled with debris by the flood of 21 July 1912; the lidar reads 151 ft. It lies at mile 11.0 from Florence, some two miles above the canyon's mouth, though the book says 'just inside' the canyon.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
      "source:fcc-survey-1894",
      "source:rmrc-fcc-guide",
-     "source:colorado-newspapers-fcc-1894-96"
+     "source:colorado-newspapers-fcc-1894-96",
+     "source:wilkins-fcc-1976"
     ],
     "status": "draft",
     "contributor": "project",
@@ -1986,15 +1988,16 @@
     "grade": "inferred",
     "error_ft": 500,
     "kind": "siding",
-    "basis": "A helper-engine base built in 1902 with a siding, wye and telegraph office, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance, checked against the two tunnels, which agrees with his milepost to 50 ft once his mileposts' unexplained 0.24 mile excess over the survey south of Adelaide is taken off. The bench along the line is two to three times its usual width for half a mile here, which may be the yard or only the open canyon mouth.",
+    "basis": "A helper-engine base built in 1902 with a siding, wye and telegraph office, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance, checked against the two tunnels, which agrees with his milepost to 50 ft once his mileposts' unexplained 0.24 mile excess over the survey south of Adelaide is taken off. The bench along the line is two to three times its usual width for half a mile here, which may be the yard or only the open canyon mouth. Wilkins's book of 1976 (a later account; station lists read on the page by a helper, pp. 67 and 163) makes this and Russell one station: Alabaster at 8.4 miles from Florence, renamed Russell in 1895 and Cramer in 1901 or 1902. The atlas shows two pins about 3,600 ft apart, placed from timetables; they have not been merged, and by the book the station lay about 38.49837, -105.10981 (good to about 800 ft). Not settled.",
     "sources": [
      "source:rmrc-fcc-guide",
      "source:lidar-3dep",
-     "source:fcc-survey-1894"
+     "source:fcc-survey-1894",
+     "source:wilkins-fcc-1976"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-28",
     "on_lines": [
      {
       "line": "line:florence-and-cripple-creek",
@@ -2021,15 +2024,16 @@
     "grade": "inferred",
     "error_ft": 500,
     "kind": "siding",
-    "basis": "A water tank and short siding for helper engines at the foot of the canyon, given up for Cramer in 1902, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance and his milepost, which agree to 10 ft but are both his. A short wide bench stands at the spot on the lidar.",
+    "basis": "A water tank and short siding for helper engines at the foot of the canyon, given up for Cramer in 1902, according to N. D. Holmes's guide to the line for the Rocky Mountain Railroad Club (2013), a modern compilation from two books not held here; no company station list has been found. Placed by his driving distance and his milepost, which agree to 10 ft but are both his. A short wide bench stands at the spot on the lidar. Wilkins's book of 1976 (a later account; station lists read on the page by a helper, pp. 67 and 163) makes this and Cramer one station: Alabaster at 8.4 miles from Florence, renamed Russell in 1895 and Cramer in 1901 or 1902. The atlas shows two pins about 3,600 ft apart, placed from timetables; they have not been merged, and by the book the station lay about 38.49837, -105.10981 (good to about 800 ft). Not settled.",
     "sources": [
      "source:rmrc-fcc-guide",
      "source:lidar-3dep",
-     "source:fcc-survey-1894"
+     "source:fcc-survey-1894",
+     "source:wilkins-fcc-1976"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-25",
+    "updated": "2026-11-28",
     "on_lines": [
      {
       "line": "line:florence-and-cripple-creek",
@@ -2540,15 +2544,16 @@
     "grade": "measured",
     "error_ft": 30,
     "kind": "bridge",
-    "basis": "The bridge stands and carries Phantom Canyon Road; its ends are taken from the modern map (OpenStreetMap way 42789435, 224 ft long), each good to about 30 ft, and on the 1 m lidar the creek is 57 ft below the grade here. The Colorado bridge inventory form of 1984 (a later account, from a field inspection in 1983; read on the page) describes a steel deck girder bridge of three 69 ft spans on two laced steel towers, 210 ft overall, calls it the railway's Bridge No. 10, gives its completion as April 1894, and places it in the south-west quarter of section 14, township 17 south, range 69 west, which is here. Doubt: the atlas takes the road hereabouts to be the high line of 1896 and puts the first line of 1894 on the valley floor, with the split between them unsure just here; a bridge of April 1894 at this height bears on that and has not been worked out. The date is the form's, not a record of the time.",
+    "basis": "The bridge stands and carries Phantom Canyon Road; its ends are taken from the modern map (OpenStreetMap way 42789435, 224 ft long), each good to about 30 ft, and on the 1 m lidar the creek is 57 ft below the grade here. The Colorado bridge inventory form of 1984 (a later account, from a field inspection in 1983; read on the page) describes a steel deck girder bridge of three 69 ft spans on two laced steel towers, 210 ft overall, calls it the railway's Bridge No. 10, gives its completion as April 1894, and places it in the south-west quarter of section 14, township 17 south, range 69 west, which is here. Doubt: the atlas takes the road hereabouts to be the high line of 1896 and puts the first line of 1894 on the valley floor, with the split between them unsure just here; a bridge of April 1894 at this height bears on that and has not been worked out. The date is the form's, not a record of the time. Wilkins's book of 1976 (a later account, read on the page by a helper) says the Adelaide loop crossed the canyon on a trestle 56 ft high, half a mile up the fork from the station at 17.4 miles (p. 34); the creek here is 56 to 57 ft below the grade on the lidar and the crossing is at mile 17.98, so that trestle stood where this bridge stands (inferred). The book also says the high line of 1896 rejoined the first track inside the East Fork (p. 80): if so the loop here was the line of 1894 kept in use, which goes some way to answer the doubt above; inferred, from the book alone.",
     "sources": [
      "source:osm-railways",
      "source:lidar-3dep",
-     "source:haer-adelaide-bridge-1984"
+     "source:haer-adelaide-bridge-1984",
+     "source:wilkins-fcc-1976"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-26",
+    "updated": "2026-11-28",
     "on_lines": [
      {
       "line": "line:florence-and-cripple-creek",
@@ -5222,6 +5227,252 @@
      ],
      "height_ft": 27,
      "opening_ft": 295
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.112454,
+     38.643767
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-bridge-north-of-wilbur",
+    "name": "Bridge over Eightmile Creek, a mile north of Wilbur (Florence and Cripple Creek)",
+    "grade": "inferred",
+    "error_ft": 30,
+    "kind": "bridge",
+    "basis": "Wilkins's book of 1976, a later account, says a bridge 110 ft long and 45 ft above Eight Mile Creek, a mile north of Wilbur, burned on 15 April 1904 and was rebuilt with steel girders (p. 131, read on the page by the helper). On the 1 m lidar the line crosses the creek once between Wilbur and Loop, at mile 26.27 by the stationing of the 1894 survey, 0.97 mile past Wilbur: an opening in the grade 246 ft long with its approach slopes and 31 ft deep, where Phantom Canyon Road now crosses on a bridge of about 114 ft. That this is the book's bridge is inferred, and strongly: there is no other crossing in that mile. The ends given are the road bridge's, good to about 30 ft. The book's 45 ft is more than the 31 ft measured; not explained. The length, height and dates are the book's. The book was read and the line measured by a helper; the atlas's editor looked at the pictures of the crossing and did not read the book.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:wilkins-fcc-1976",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-28",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "Where the line crossed Eightmile Creek about a mile above Wilbur. A book of 1976 says the bridge here was 110 ft long and 45 ft above the creek, burned in April 1904 and was rebuilt with steel girders. A road bridge stands on the grade today.",
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "local": {
+     "length_ft": 110,
+     "height_ft": 31,
+     "opening_ft": 246,
+     "ends": [
+      [
+       -105.112387,
+       38.64362
+      ],
+      [
+       -105.112521,
+       38.643915
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.104267,
+     38.580647
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-narrows-crossing-1",
+    "name": "The Narrows, creek crossing 1 of 4 (Florence and Cripple Creek)",
+    "grade": "inferred",
+    "error_ft": 30,
+    "kind": "trestle",
+    "basis": "Wilkins's book of 1976, a later account, says the Narrows began about milepost 19.5 and ran nearly three quarters of a mile, the track crossing the creek on low curving trestles (pp. 34-35, read on the page by the helper). On the 1 m lidar the line crosses the creek four times between miles 19.47 and 20.19 by the stationing of the 1894 survey, which fits the book within 0.05 mile. This crossing is at mile 19.47: an opening 121 ft long and 30 ft deep. That a trestle stood at each crossing is inferred: the line has to cross the creek here, but no photograph or list has been matched to this one, and the creek lines used to find the crossings are coarse, so a crossing may have been missed. The ends are those of the opening, good to about 30 ft. The railway numbered its bridges by mile and letter (the book has 11A and 19D); which number this one bore is not known. The book was read and the line measured by a helper; the atlas's editor looked at the pictures of the crossing and did not read the book.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:wilkins-fcc-1976",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-28",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "One of four places where the line crossed Eightmile Creek in the Narrows of Phantom Canyon, on what a book of 1976 calls low curving trestles. The opening in the grade here is 121 ft long and 30 ft deep.",
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "local": {
+     "length_ft": 121,
+     "height_ft": 30,
+     "ends": [
+      [
+       -105.104216,
+       38.580491
+      ],
+      [
+       -105.104319,
+       38.580804
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.103276,
+     38.581564
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-narrows-crossing-2",
+    "name": "The Narrows, creek crossing 2 of 4 (Florence and Cripple Creek)",
+    "grade": "inferred",
+    "error_ft": 30,
+    "kind": "trestle",
+    "basis": "Wilkins's book of 1976, a later account, says the Narrows began about milepost 19.5 and ran nearly three quarters of a mile, the track crossing the creek on low curving trestles (pp. 34-35, read on the page by the helper). On the 1 m lidar the line crosses the creek four times between miles 19.47 and 20.19 by the stationing of the 1894 survey, which fits the book within 0.05 mile. This crossing is at mile 19.57: an opening 75 ft long and 20 ft deep. That a trestle stood at each crossing is inferred: the line has to cross the creek here, but no photograph or list has been matched to this one, and the creek lines used to find the crossings are coarse, so a crossing may have been missed. The ends are those of the opening, good to about 30 ft. The railway numbered its bridges by mile and letter (the book has 11A and 19D); which number this one bore is not known. The book was read and the line measured by a helper; the atlas's editor looked at the pictures of the crossing and did not read the book.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:wilkins-fcc-1976",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-28",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "One of four places where the line crossed Eightmile Creek in the Narrows of Phantom Canyon, on what a book of 1976 calls low curving trestles. The opening in the grade here is 75 ft long and 20 ft deep.",
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "local": {
+     "length_ft": 75,
+     "height_ft": 20,
+     "ends": [
+      [
+       -105.103359,
+       38.581487
+      ],
+      [
+       -105.103193,
+       38.581642
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.103909,
+     38.583366
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-narrows-crossing-3",
+    "name": "The Narrows, creek crossing 3 of 4 (Florence and Cripple Creek)",
+    "grade": "inferred",
+    "error_ft": 30,
+    "kind": "trestle",
+    "basis": "Wilkins's book of 1976, a later account, says the Narrows began about milepost 19.5 and ran nearly three quarters of a mile, the track crossing the creek on low curving trestles (pp. 34-35, read on the page by the helper). On the 1 m lidar the line crosses the creek four times between miles 19.47 and 20.19 by the stationing of the 1894 survey, which fits the book within 0.05 mile. This crossing is at mile 19.72: an opening 52 ft long and 18 ft deep. That a trestle stood at each crossing is inferred: the line has to cross the creek here, but no photograph or list has been matched to this one, and the creek lines used to find the crossings are coarse, so a crossing may have been missed. The ends are those of the opening, good to about 30 ft. The railway numbered its bridges by mile and letter (the book has 11A and 19D); which number this one bore is not known. The book was read and the line measured by a helper; the atlas's editor looked at the pictures of the crossing and did not read the book.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:wilkins-fcc-1976",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-28",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "One of four places where the line crossed Eightmile Creek in the Narrows of Phantom Canyon, on what a book of 1976 calls low curving trestles. The opening in the grade here is 52 ft long and 18 ft deep.",
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "local": {
+     "length_ft": 52,
+     "height_ft": 18,
+     "ends": [
+      [
+       -105.103819,
+       38.583352
+      ],
+      [
+       -105.103999,
+       38.58338
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.106232,
+     38.587808
+    ]
+   },
+   "properties": {
+    "id": "place:fcc-narrows-crossing-4",
+    "name": "The Narrows, creek crossing 4 of 4 (Florence and Cripple Creek)",
+    "grade": "inferred",
+    "error_ft": 30,
+    "kind": "trestle",
+    "basis": "Wilkins's book of 1976, a later account, says the Narrows began about milepost 19.5 and ran nearly three quarters of a mile, the track crossing the creek on low curving trestles (pp. 34-35, read on the page by the helper). On the 1 m lidar the line crosses the creek four times between miles 19.47 and 20.19 by the stationing of the 1894 survey, which fits the book within 0.05 mile. This crossing is at mile 20.19: an opening 20 to 52 ft long and only 5 to 7 ft deep, at the top of the Narrows. That a trestle stood at each crossing is inferred: the line has to cross the creek here, but no photograph or list has been matched to this one, and the creek lines used to find the crossings are coarse, so a crossing may have been missed. The ends are those of the opening, good to about 30 ft. The railway numbered its bridges by mile and letter (the book has 11A and 19D); which number this one bore is not known. The book was read and the line measured by a helper; the atlas's editor looked at the pictures of the crossing and did not read the book.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:wilkins-fcc-1976",
+     "source:fcc-survey-1894"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-28",
+    "on_lines": [
+     {
+      "line": "line:florence-and-cripple-creek",
+      "milepost": null
+     }
+    ],
+    "summary": "One of four places where the line crossed Eightmile Creek in the Narrows of Phantom Canyon, on what a book of 1976 calls low curving trestles. The opening in the grade here is 20 to 52 ft long and only 5 to 7 ft deep, at the top of the Narrows.",
+    "valid_from": 1894,
+    "valid_to": 1912,
+    "local": {
+     "length_ft": 50,
+     "height_ft": 6,
+     "ends": [
+      [
+       -105.106176,
+       38.587754
+      ],
+      [
+       -105.106288,
+       38.587863
+      ]
+     ]
     }
    }
   },
