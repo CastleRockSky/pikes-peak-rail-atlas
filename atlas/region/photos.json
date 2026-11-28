@@ -3207,7 +3207,8 @@
   "w": 1999,
   "h": 1609,
   "shows": [
-   "place:cscc-tunnel-c"
+   "place:cscc-tunnel-c",
+   "place:sl-trestle-near-tunnel-6"
   ],
   "topics": [
    "Short Line",
@@ -3225,6 +3226,12 @@
      "name": "Short Line Tunnel No. 8",
      "how": "named",
      "note": "Captioned 'East from Tunnel No. 8'. The number is the National Register nomination's."
+    },
+    {
+     "place": "place:sl-trestle-near-tunnel-6",
+     "name": "Trestle above St. Peter's siding, west of Tunnel 6 (Short Line)",
+     "how": "probable",
+     "note": "The trestle at lower right, by the camera's place worked out against the lidar, 28 November 2026."
     }
    ]
   }
@@ -6236,6 +6243,3250 @@
      "place": "place:skaguay-dam",
      "name": "Skaguay Dam and Reservoir",
      "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-c-20",
+  "name": "Lake Moraine",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Scan of a stereo pair: two men sit on boulders at a lake shore, dead standing and fallen trees, a log cabin on the far shore, bare mountain behind. Left half is the cleaner of the two. Marks on the copy: 'C 20' lettered small in the lower-left corner (probably the collection number; at the edge, can be cropped). Heavy emulsion loss: black blotches over both halves, worst on the right half.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "C-20",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121730",
+  "photographer": "Collier, Joseph",
+  "date": "1875-1900",
+  "date_basis": "library date range 1875-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, C-20",
+  "image": "img/collection/dpl-c-20.jpg",
+  "thumb": "img/collection/t/dpl-c-20.jpg",
+  "w": 1999,
+  "h": 1272,
+  "shows": [
+   "place:lake-moraine-lake-house"
+  ],
+  "topics": [
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-c-20-lake-moraine.jpg",
+   "places": [
+    {
+     "place": "place:lake-moraine-lake-house",
+     "name": "Lake Moraine: the Lake Hotel of 1874 ('Mystic Lake')",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-119",
+  "name": "Cathedral Rocks, Clyde Park, Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A curved wooden trestle carries the track across a cut-over hollow below a wall of granite pinnacles. Marks on the copy: Photographer's own title and signature hand-lettered on the glass plate (library note confirms): '119. CATHEDRAL ROCKS CLYDE PARK - CRIPPLE CREEK SHORT LINE. PHOT. BY McCLURE DENVER', lower left.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-119",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121380",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-119",
+  "image": "img/collection/dpl-mcc-119.jpg",
+  "thumb": "img/collection/t/dpl-mcc-119.jpg",
+  "w": 1999,
+  "h": 1613,
+  "shows": [
+   "place:sl-cathedral-park-trestle"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-mcc-119-cathedral-rocks-clyde-park.jpg",
+   "places": [
+    {
+     "place": "place:sl-cathedral-park-trestle",
+     "name": "Cathedral Park trestle, Bison Creek (Short Line)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-1911",
+  "name": "Colorado Springs & Cripple Creek District Railway",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Track in the foreground; across the valley a second level with a tunnel portal at left and a wooden trestle, and a train on the top level near the skyline. Marks on the copy: Plate number '1911' small at lower left. Library: copy glass plate retouched by the photographer, with border masking; original title and signature etched out by him; title supplied by the cataloguer. No later marks over the image.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-1911",
+  "url": "https://digital.denverlibrary.org/nodes/view/1029558",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-1911",
+  "image": "img/collection/dpl-mcc-1911.jpg",
+  "thumb": "img/collection/t/dpl-mcc-1911.jpg",
+  "w": 1999,
+  "h": 1567,
+  "shows": [
+   "place:sl-trestle-near-tunnel-6"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-mcc-1911-three-levels-st-peters.jpg",
+   "places": [
+    {
+     "place": "place:sl-trestle-near-tunnel-6",
+     "name": "Trestle above St. Peter's siding, west of Tunnel 6 (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-81",
+  "name": "Three elevations of track on the Crippl [sic] Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A man sits on a rock pile above the lower track; across the valley a train leaves a tunnel on the middle level and approaches a wooden trestle. Marks on the copy: Photographer's own title and signature hand-lettered on the glass plate (library note confirms): '81. THREE ELEVATIONS OF TRACK ON THE CRIPPLE CREEK SHORT LINE. PHOTO BY McCLURE DENVER', lower left. Library: plate retouched.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-81",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121454",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-81",
+  "image": "img/collection/dpl-mcc-81.jpg",
+  "thumb": "img/collection/t/dpl-mcc-81.jpg",
+  "w": 2000,
+  "h": 1609,
+  "shows": [
+   "place:sl-trestle-near-tunnel-6"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-mcc-81-three-elevations-of-track.jpg",
+   "places": [
+    {
+     "place": "place:sl-trestle-near-tunnel-6",
+     "name": "Trestle above St. Peter's siding, west of Tunnel 6 (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-813",
+  "name": "Stratton Park",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A still pond with a stone edge reflects bare cottonwoods and pines; mountains behind. A small structure on the ridge at upper right is the trestle the library mentions; it is tiny. Marks on the copy: Photographer's own title and signature hand-lettered on the glass plate (library note confirms): '813. STRATTON PARK. PHOTO BY McCLURE DENVER', bottom centre.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-813",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123724",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1902-1910",
+  "date_basis": "library date range 1902-1910 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-813",
+  "image": "img/collection/dpl-mcc-813.jpg",
+  "thumb": "img/collection/t/dpl-mcc-813.jpg",
+  "w": 1999,
+  "h": 1613,
+  "shows": [
+   "place:sl-twin-bridges-north",
+   "place:sl-twin-bridges-south"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-mcc-813-stratton-park.jpg",
+   "places": [
+    {
+     "place": "place:sl-twin-bridges-north",
+     "name": "Twin Bridges, north trestle, on the face above Stratton Park (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    },
+    {
+     "place": "place:sl-twin-bridges-south",
+     "name": "Twin Bridges, south trestle, under the cliff above Stratton Park (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-886",
+  "name": "Broadmoor from Poin [sic] Sublime, Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: From a pine-framed height a wooden trestle crosses the foreground; the Broadmoor, a lake and the plains spread below. Marks on the copy: Photographer's own title and signature hand-lettered on the glass plate (library note confirms): '886. BROADMOOR FROM POINT SUBLIME ON CRIPPLE CREEK SHORT LINE. PHOTO BY McCLURE DENVER', lower right. Library: also a copy negative made from vintage prints.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-886",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123493",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-886",
+  "image": "img/collection/dpl-mcc-886.jpg",
+  "thumb": "img/collection/t/dpl-mcc-886.jpg",
+  "w": 2000,
+  "h": 1615,
+  "shows": [
+   "place:sl-twin-bridges-north"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-mcc-886-broadmoor-from-point-sublime.jpg",
+   "places": [
+    {
+     "place": "place:sl-twin-bridges-north",
+     "name": "Twin Bridges, north trestle, on the face above Stratton Park (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-90",
+  "name": "The Castles, Rock Creek, Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Wide view: a wooden trestle crosses a gulch below a rock tower ('the Castles'); higher levels of track on the slopes, a train in the distance at right. Marks on the copy: Photographer's own title and signature hand-lettered on the glass plate (library note confirms): '90. THE CASTLES, ROCK CREEK, CRIPPLE CREEK SHORT LINE' small at lower right, '90' at bottom. Library: border masking on plate.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-90",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121376",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-90",
+  "image": "img/collection/dpl-mcc-90.jpg",
+  "thumb": "img/collection/t/dpl-mcc-90.jpg",
+  "w": 1999,
+  "h": 963,
+  "shows": [
+   "place:sl-rock-creek-trestle"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-mcc-90-castles-rock-creek.jpg",
+   "places": [
+    {
+     "place": "place:sl-rock-creek-trestle",
+     "name": "Rock Creek trestle, on the loop below Tunnel 7 (Short Line)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-990b",
+  "name": "The Castles, Rock Creek, Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Upright single plate: a push car stands on a wooden trestle below a rock tower; a sign beside the trestle; burned slopes behind. Marks on the copy: No caption on this plate (the library says title and signature are on the right-hand plate MCC-4822). Library: plate shows oxidation; trains retouched on the panorama.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-990B (online record for plate MCC-4823)",
+  "url": "https://digital.denverlibrary.org/nodes/view/1030790",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-990B (online record for plate MCC-4823)",
+  "image": "img/collection/dpl-mcc-990b.jpg",
+  "thumb": "img/collection/t/dpl-mcc-990b.jpg",
+  "w": 1770,
+  "h": 2200,
+  "shows": [
+   "place:sl-rock-creek-trestle"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "panorama",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-mcc-990b-rock-creek-trestle.jpg",
+   "places": [
+    {
+     "place": "place:sl-rock-creek-trestle",
+     "name": "Rock Creek trestle, on the loop below Tunnel 7 (Short Line)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-1730",
+  "name": "Raven Hill. Katherine. Elkton.",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A train of ore cars on a curving track below a mill with stacks; a straggle of houses in the valley at right, cut-over hill behind. Marks on the copy: none over the image; a vertical scratch line at right",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-1730",
+  "url": "https://digital.denverlibrary.org/nodes/view/1046682",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1895",
+  "date_basis": "library date 1895; the same exposure (P-670) carries the lettering 'COPYRIGHT 1895 BY H.S. POLEY'",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-1730",
+  "image": "img/collection/dpl-p-1730.jpg",
+  "thumb": "img/collection/t/dpl-p-1730.jpg",
+  "w": 1942,
+  "h": 2200,
+  "shows": [
+   "place:elkton"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-p-1730-raven-hill-katherine-elkton.jpg",
+   "places": [
+    {
+     "place": "place:elkton",
+     "name": "Elkton",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-394",
+  "name": "Cripple Creek short line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Granite spires above a grassy valley floor; a trestle on tall bents at left, a fence line across the foreground. Marks on the copy: 'P3..' at lower-right corner (collection number, at the edge). Library: emulsion peeling on the negative.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-394",
+  "url": "https://digital.denverlibrary.org/nodes/view/1036449",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1900-1925",
+  "date_basis": "library date range 1900-1925 (record read)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-394",
+  "image": "img/collection/dpl-p-394.jpg",
+  "thumb": "img/collection/t/dpl-p-394.jpg",
+  "w": 1999,
+  "h": 1223,
+  "shows": [
+   "place:sl-cathedral-park-trestle"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-p-394-cripple-creek-short-line.jpg",
+   "places": [
+    {
+     "place": "place:sl-cathedral-park-trestle",
+     "name": "Cathedral Park trestle, Bison Creek (Short Line)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-795",
+  "name": "Anaconda",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Log cabins, frame houses and sheds crowd a gulch; laundry on a line; buildings and dumps on the slope behind. Marks on the copy: Photographer's lettering 'ANACONDA.' at lower left; 'P-795' and a small number lettered at lower right (collection number, at the edge).",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-795",
+  "url": "https://digital.denverlibrary.org/nodes/view/1022326",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1895",
+  "date_basis": "library date 1895",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-795",
+  "image": "img/collection/dpl-p-795.jpg",
+  "thumb": "img/collection/t/dpl-p-795.jpg",
+  "w": 2000,
+  "h": 1366,
+  "shows": [
+   "place:anaconda"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-p-795-anaconda.jpg",
+   "places": [
+    {
+     "place": "place:anaconda",
+     "name": "Anaconda",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-whj-1315",
+  "name": "The W Pikes Peak carriage road",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A man stands by a horse and wagon on a hairpin of the carriage road high on the peak; the road zigzags down the slope at left. Marks on the copy: Photographer's own number and title lettered in the negative and printed in, along the bottom: '3410. THE W. PIKES PEAK CARRIAGE ROAD.'. Albumen print; edges worn.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "WHJ-1315",
+  "url": "https://digital.denverlibrary.org/nodes/view/1092648",
+  "photographer": "Jackson, William Henry, 1843-1942",
+  "date": "1882-1900",
+  "date_basis": "library date range 1882-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, WHJ-1315",
+  "image": "img/collection/dpl-whj-1315.jpg",
+  "thumb": "img/collection/t/dpl-whj-1315.jpg",
+  "w": 1999,
+  "h": 1480,
+  "shows": [
+   "place:ppcr-the-w"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-whj-1315-the-w-pikes-peak-carriage-road.jpg",
+   "places": [
+    {
+     "place": "place:ppcr-the-w",
+     "name": "The 'W' switchbacks (Pikes Peak carriage road)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-whj-1317",
+  "name": "Pikes Peak carriage road near summit",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A mule team and driver come along a narrow road cut between snow walls. Marks on the copy: Photographer's own number and title lettered in the negative and printed in, along the bottom: '3457. PIKES PEAK CARRIAGE ROAD NEAR SUMMIT.'. Albumen print; edges worn.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "WHJ-1317",
+  "url": "https://digital.denverlibrary.org/nodes/view/1092664",
+  "photographer": "Jackson, William Henry, 1843-1942",
+  "date": "1882-1900",
+  "date_basis": "library date range 1882-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, WHJ-1317",
+  "image": "img/collection/dpl-whj-1317.jpg",
+  "thumb": "img/collection/t/dpl-whj-1317.jpg",
+  "w": 2000,
+  "h": 1522,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-whj-1317-pikes-peak-carriage-road-near-summit.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-whj-1320",
+  "name": "[Pik]es Peak carriage road near the toll gate",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A horse and buggy wait under a great boulder on a dirt road among rocks and aspens. Marks on the copy: Photographer's own number and title lettered in the negative and printed in, along the bottom: '3406 [PIK]ES PEAK CARRIAGE ROAD - NEAR THE TOLL GATE.'. Albumen print; edges worn.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "WHJ-1320",
+  "url": "https://digital.denverlibrary.org/nodes/view/1092679",
+  "photographer": "Jackson, William Henry, 1843-1942",
+  "date": "1882-1900",
+  "date_basis": "library date range 1882-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, WHJ-1320",
+  "image": "img/collection/dpl-whj-1320.jpg",
+  "thumb": "img/collection/t/dpl-whj-1320.jpg",
+  "w": 2000,
+  "h": 1505,
+  "shows": [
+   "place:ppcr-toll-gate"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-whj-1320-pikes-peak-carriage-road-near-the-toll-g.jpg",
+   "places": [
+    {
+     "place": "place:ppcr-toll-gate",
+     "name": "Toll gate of the Pikes Peak carriage road, at the head of the narrows",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-whj-1322",
+  "name": "Pikes Peak carriage road near the toll gate",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A wagon on a dirt road climbing between rock outcrops and pines. Marks on the copy: Photographer's own number and title lettered in the negative and printed in, along the bottom: '3407 PIKES PEAK CARRIAGE ROAD, NEAR THE TOLL GATE.'. Albumen print; edges worn.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "WHJ-1322",
+  "url": "https://digital.denverlibrary.org/nodes/view/1092688",
+  "photographer": "Jackson, William Henry, 1843-1942",
+  "date": "1882-1900",
+  "date_basis": "library date range 1882-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, WHJ-1322",
+  "image": "img/collection/dpl-whj-1322.jpg",
+  "thumb": "img/collection/t/dpl-whj-1322.jpg",
+  "w": 2000,
+  "h": 1552,
+  "shows": [
+   "place:ppcr-toll-gate"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-whj-1322-pikes-peak-carriage-road-near-the-toll-g.jpg",
+   "places": [
+    {
+     "place": "place:ppcr-toll-gate",
+     "name": "Toll gate of the Pikes Peak carriage road, at the head of the narrows",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-whj-1324",
+  "name": "The W Pikes Peak carriage road",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Several carriages on the switchbacks below a rock pile, the road climbing the bare summit cone behind. Marks on the copy: Photographer's own number and title lettered in the negative and printed in, along the bottom: '3408. THE \"W\" PIKES PEAK CARRIAGE ROAD.'. Albumen print; edges worn.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "WHJ-1324",
+  "url": "https://digital.denverlibrary.org/nodes/view/1092704",
+  "photographer": "Jackson, William Henry, 1843-1942",
+  "date": "1882-1900",
+  "date_basis": "library date range 1882-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, WHJ-1324",
+  "image": "img/collection/dpl-whj-1324.jpg",
+  "thumb": "img/collection/t/dpl-whj-1324.jpg",
+  "w": 2000,
+  "h": 1547,
+  "shows": [
+   "place:ppcr-the-w"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-whj-1324-the-w-pikes-peak-carriage-road.jpg",
+   "places": [
+    {
+     "place": "place:ppcr-the-w",
+     "name": "The 'W' switchbacks (Pikes Peak carriage road)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-x-18580",
+  "name": "Trail to Pikes Peak, Bear Creek",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Albumen print: a rocky gulch with a small waterfall high up, dead and live trees and a boulder in the foreground. Marks on the copy: Faint pencil writing on the mount along the bottom edge, outside the picture (can be cropped). Nothing over the image.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "X-18580",
+  "url": "https://digital.denverlibrary.org/nodes/view/1058674",
+  "photographer": "Duhem Brothers",
+  "date": "1869-1879",
+  "date_basis": "library date range 1869-1879",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, X-18580",
+  "image": "img/collection/dpl-x-18580.jpg",
+  "thumb": "img/collection/t/dpl-x-18580.jpg",
+  "w": 1924,
+  "h": 2200,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-x-18580-trail-to-pikes-peak-bear-creek.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-x-62439",
+  "name": "Elkton",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Mills with smoking stacks and white dumps on a hill, houses scattered below; a railway curves through the foreground. Marks on the copy: none seen",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "X-62439",
+  "url": "https://digital.denverlibrary.org/nodes/view/1028998",
+  "photographer": "not given on the record",
+  "date": "1901-1910",
+  "date_basis": "library date range 1901-1910",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, X-62439",
+  "image": "img/collection/dpl-x-62439.jpg",
+  "thumb": "img/collection/t/dpl-x-62439.jpg",
+  "w": 1999,
+  "h": 1489,
+  "shows": [
+   "place:elkton"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-x-62439-elkton.jpg",
+   "places": [
+    {
+     "place": "place:elkton",
+     "name": "Elkton",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-x-62466",
+  "name": "Bull Hill, Colorado",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The Taylor & Brunton Sampling Company works, a 'T-B' roofed office and two locomotives on the tracks in front. Marks on the copy: Small handwriting at the lower-right corner (later annotation, at the edge; can be cropped). Copy print shows cracks in the sky.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "X-62466",
+  "url": "https://digital.denverlibrary.org/nodes/view/1029266",
+  "photographer": "not given on the record",
+  "date": "1905",
+  "date_basis": "library date 1905",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, X-62466",
+  "image": "img/collection/dpl-x-62466.jpg",
+  "thumb": "img/collection/t/dpl-x-62466.jpg",
+  "w": 1999,
+  "h": 1374,
+  "shows": [
+   "place:bull-hill"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-x-62466-bull-hill-colorado.jpg",
+   "places": [
+    {
+     "place": "place:bull-hill",
+     "name": "Bull Hill",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-x-62523",
+  "name": "Elkton Mine near Victor Raven Hill",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A frame mill building with tall stacks behind ore piles and an ore bin; a Fairbanks track-scale sign and a Midland car in the foreground. Marks on the copy: small emulsion specks; nothing lettered",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "X-62523",
+  "url": "https://digital.denverlibrary.org/nodes/view/1029048",
+  "photographer": "not given on the record",
+  "date": "1895",
+  "date_basis": "library date 1895",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, X-62523",
+  "image": "img/collection/dpl-x-62523.jpg",
+  "thumb": "img/collection/t/dpl-x-62523.jpg",
+  "w": 2000,
+  "h": 1593,
+  "shows": [
+   "place:elkton"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-x-62523-elkton-mine-near-victor-raven-hill.jpg",
+   "places": [
+    {
+     "place": "place:elkton",
+     "name": "Elkton",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-x-62591",
+  "name": "Cripple Creek District",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Mine dumps, head frames and steam across a hillside, houses and railway cars in the foreground. Marks on the copy: none seen",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "X-62591",
+  "url": "https://digital.denverlibrary.org/nodes/view/1029904",
+  "photographer": "not given on the record",
+  "date": "circa 1900",
+  "date_basis": "library date circa 1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, X-62591",
+  "image": "img/collection/dpl-x-62591.jpg",
+  "thumb": "img/collection/t/dpl-x-62591.jpg",
+  "w": 1999,
+  "h": 1350,
+  "shows": [
+   "place:independence"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-x-62591-cripple-creek-district.jpg",
+   "places": [
+    {
+     "place": "place:independence",
+     "name": "Independence",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-x-9525",
+  "name": "Independence, Colo. (Teller county)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A spread of houses up a bowl-shaped hill, a railway yard and cars at lower left, dumps at right. Marks on the copy: Photographer's lettering on the negative: 'BULL HILL', 'ALTMAN', 'INDEPENDENCE COLO.', 'NO. 16' and a number at lower left.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "X-9525",
+  "url": "https://digital.denverlibrary.org/nodes/view/1031983",
+  "photographer": "not given on the record",
+  "date": "1870-1900",
+  "date_basis": "library date range 1870-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, X-9525",
+  "image": "img/collection/dpl-x-9525.jpg",
+  "thumb": "img/collection/t/dpl-x-9525.jpg",
+  "w": 1999,
+  "h": 1235,
+  "shows": [
+   "place:independence"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-x-9525-independence-colo-teller-county.jpg",
+   "places": [
+    {
+     "place": "place:independence",
+     "name": "Independence",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-z-7161",
+  "name": "Pikes Peak carriage road",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Mounted print: a buggy on a dirt road in a wooded canyon; signs on a tree read 'PIKE'S PEAK TRAIL / THE RESERVOIR' and 'HITCH NO HORSES TO TREES'; a pavilion among the trees beyond. Marks on the copy: Photographer's 'Hook Photo' and a number in the image at lower left/bottom; publisher's imprint 'W. E. HOOK WHOLESALE VIEW COMPANY' printed on the card mount, outside the picture.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "Z-7161",
+  "url": "https://digital.denverlibrary.org/nodes/view/1131806",
+  "photographer": "Hook, W. E. (William Edward), 1833-1908",
+  "date": "1880-1890",
+  "date_basis": "library date range 1880-1890",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, Z-7161",
+  "image": "img/collection/dpl-z-7161.jpg",
+  "thumb": "img/collection/t/dpl-z-7161.jpg",
+  "w": 1999,
+  "h": 1246,
+  "shows": [
+   "place:manitou-iron-springs"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-z-7161-pikes-peak-carriage-road.jpg",
+   "places": [
+    {
+     "place": "place:manitou-iron-springs",
+     "name": "Manitou Iron Springs",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-z-7162",
+  "name": "Pikes Peak carriage road",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A surrey marked 'PIKE'S PEAK OR BUST' climbs the road past a rock pile below the summit cone; people stand on the rocks. Marks on the copy: none over the image; black mount border",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "Z-7162",
+  "url": "https://digital.denverlibrary.org/nodes/view/1131807",
+  "photographer": "unattributed",
+  "date": "1890-1900",
+  "date_basis": "library date range 1890-1900",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, Z-7162",
+  "image": "img/collection/dpl-z-7162.jpg",
+  "thumb": "img/collection/t/dpl-z-7162.jpg",
+  "w": 1999,
+  "h": 1671,
+  "shows": [
+   "place:ppcr-the-w"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/dpl/dpl-z-7162-pikes-peak-carriage-road.jpg",
+   "places": [
+    {
+     "place": "place:ppcr-the-w",
+     "name": "The 'W' switchbacks (Pikes Peak carriage road)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-109",
+  "name": "109. View from St. Peters Dome on the Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: From the summit rocks of the dome, a wide view over forested ridges with the line cut into the slopes and the plains beyond. Marks on the copy: Photographer's own lettering on the plate: '109. VIEW FROM ST. PETERS DOME ON THE CRIPPLE CREEK SHORT LINE. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-109",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121461",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-109",
+  "image": "img/collection/dpl-mcc-109.jpg",
+  "thumb": "img/collection/t/dpl-mcc-109.jpg",
+  "w": 1999,
+  "h": 1602,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-109.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-116",
+  "name": "116. View from the trail to St. Peters Dome on the Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: From the trail, a track curves round a valley with a small trestle and two buildings at the bend; framed by a dead tree. Marks on the copy: Photographer's own lettering on the plate: '116. VIEW FROM THE TRAIL TO ST. PETERS DOME ON THE CRIPPLE CREEK SHORT LINE. PHOTO BY McCLURE DENVER COLO.'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-116",
+  "url": "https://digital.denverlibrary.org/nodes/view/1121462",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-116",
+  "image": "img/collection/dpl-mcc-116.jpg",
+  "thumb": "img/collection/t/dpl-mcc-116.jpg",
+  "w": 1695,
+  "h": 2200,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-116.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-2064",
+  "name": "2064. Cheyenne Mountain from Duffield - Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Cloud lies across Cheyenne Mountain; a train climbs a curve on the slope beyond a granite boulder in the foreground. Marks on the copy: Caption strip '2064. CHEYENNE MOUNTAIN FROM DUFFIELD—CRIPPLE CREEK SHORT LINE' across the bottom (McClure's later titling style, as MCC-2062/2066); not a library mark.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-2064",
+  "url": "https://digital.denverlibrary.org/nodes/view/1019026",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-2064",
+  "image": "img/collection/dpl-mcc-2064.jpg",
+  "thumb": "img/collection/t/dpl-mcc-2064.jpg",
+  "w": 1999,
+  "h": 1476,
+  "shows": [
+   "place:duffield"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-2064.jpg",
+   "places": [
+    {
+     "place": "place:duffield",
+     "name": "Duffields (Duffield on modern maps)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-401",
+  "name": "401. View from trail to St. Peters Dome",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: From the trail beside a cliff, a view down onto the track winding round the valley, ridges and plains beyond. Marks on the copy: Photographer's own lettering on the plate: '401 VIEW FROM TRAIL TO ST. PETERS DOME. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-401",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123255",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-401",
+  "image": "img/collection/dpl-mcc-401.jpg",
+  "thumb": "img/collection/t/dpl-mcc-401.jpg",
+  "w": 1999,
+  "h": 1604,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-401.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-402",
+  "name": "Grand view from top of St. Peters Dome on the Cripple Creek Short Line (402, lettered on plate)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A man in a hat sits on the summit rock looking out over the foothills and plains. Marks on the copy: Photographer's own lettering on the plate: '402. GRAND VIEW FROM TOP OF ST. PETERS DOME ON THE CRIPPLE CREEK SHORT LINE. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-402",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123174",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-402",
+  "image": "img/collection/dpl-mcc-402.jpg",
+  "thumb": "img/collection/t/dpl-mcc-402.jpg",
+  "w": 2000,
+  "h": 1615,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-402.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-403",
+  "name": "403. East from trail to St. Peters Dome on the Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A trail runs along a pine slope with patches of snow; across the valley the line's cuts and fills on the far slopes. Marks on the copy: Photographer's own lettering on the plate: '403. EAST FROM TRAIL TO ST PETERS DOME ON THE SHORT LINE. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-403",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123161",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-403",
+  "image": "img/collection/dpl-mcc-403.jpg",
+  "thumb": "img/collection/t/dpl-mcc-403.jpg",
+  "w": 1766,
+  "h": 2200,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-403.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-404",
+  "name": "404. Picturesque trail to St. Peter's Dome on the Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A man stands on a narrow trail beside a great granite slab among pines, plains glimpsed beyond. Marks on the copy: Photographer's own lettering on the plate: '404. PICTURESQUE TRAIL TO ST. PETERS DOME ON THE CRIPPLE CREEK SHORT LINE. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-404",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123231",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-404",
+  "image": "img/collection/dpl-mcc-404.jpg",
+  "thumb": "img/collection/t/dpl-mcc-404.jpg",
+  "w": 1892,
+  "h": 2200,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-404.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-405",
+  "name": "St. Peter's Dome and Colo. Springs from Duffield on the Short Line (405)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The dome's rocky summit (with a pole on it) at upper left above a forested slope; the plains and Colorado Springs beyond at right. Marks on the copy: Photographer's own lettering on the plate: '405. ST. PETER'S DOME & COLO. SPRINGS FROM DUFFIELD ON THE SHORT LINE. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-405",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123278",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-405",
+  "image": "img/collection/dpl-mcc-405.jpg",
+  "thumb": "img/collection/t/dpl-mcc-405.jpg",
+  "w": 1999,
+  "h": 1613,
+  "shows": [
+   "place:duffield",
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-405.jpg",
+   "places": [
+    {
+     "place": "place:duffield",
+     "name": "Duffields (Duffield on modern maps)",
+     "how": "probable",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-743",
+  "name": "743. St. Peters Dome on the Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The dome with a flagpole on its summit; a train trailing heavy smoke on the grade below. Marks on the copy: Photographer's own lettering on the plate: '743. ST. PETERS DOME ON THE SHORT LINE. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-743",
+  "url": "https://digital.denverlibrary.org/nodes/view/1123453",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "1900-1920",
+  "date_basis": "library date range 1900-1920",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-743",
+  "image": "img/collection/dpl-mcc-743.jpg",
+  "thumb": "img/collection/t/dpl-mcc-743.jpg",
+  "w": 1999,
+  "h": 1612,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-743.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-mcc-82",
+  "name": "82. St. Peters Dome on the Cripple Creek Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A train comes head-on through a rock cut, smoke rising against the dome behind; men stand beside the track. Marks on the copy: Photographer's own lettering on the plate: '82. ST. PETERS DOME ON THE CRIPPLE CREEK SHORT LINE. PHOTO BY McCLURE DENVER'.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "MCC-82",
+  "url": "https://digital.denverlibrary.org/nodes/view/1052474",
+  "photographer": "McClure, Louis Charles, 1867-1957",
+  "date": "circa 1905",
+  "date_basis": "library date circa 1905",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, MCC-82",
+  "image": "img/collection/dpl-mcc-82.jpg",
+  "thumb": "img/collection/t/dpl-mcc-82.jpg",
+  "w": 2000,
+  "h": 1617,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-mcc-82.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-1268",
+  "name": "St. Peter's Dome C. S. & C. C. D. Ry",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A passenger train stands on the grade below the dome, men beside the engine. Marks on the copy: Photographer's own lettering on the negative: 'ST. PETERS DOME C.S.-C.C.D. RY.' at lower right.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-1268",
+  "url": "https://digital.denverlibrary.org/nodes/view/1038622",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1891-1911",
+  "date_basis": "library date range 1891-1911",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-1268",
+  "image": "img/collection/dpl-p-1268.jpg",
+  "thumb": "img/collection/t/dpl-p-1268.jpg",
+  "w": 1883,
+  "h": 2200,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-p-1268.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-390",
+  "name": "The Gateway, St. Peter's Dome, C.S. & C.C.D. R.Y.",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Track runs between granite boulders toward the dome; a woman and a child sit on a rock at right. Marks on the copy: Photographer's own lettering on the negative: 'THE GATEWAY, ST. PETERS DOME, C.S.&C.C.D.RY.' at lower left; collection number 'P3..' at lower-right corner.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-390",
+  "url": "https://digital.denverlibrary.org/nodes/view/1036459",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1897-1925",
+  "date_basis": "library date range 1897-1925",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-390",
+  "image": "img/collection/dpl-p-390.jpg",
+  "thumb": "img/collection/t/dpl-p-390.jpg",
+  "w": 2000,
+  "h": 1230,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-p-390.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-475",
+  "name": "Under the Pines, Saint Peter's Dome, on the Short Line, C. S. & C. C. D. Ry.",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A woman and two children sit on rocks under a big pine, the dome and the track on its slope behind. Marks on the copy: Photographer's own lettering on the negative: 'UNDER THE PINES, SAINT PETERS DOME, ON THE SHORT LINE. C.S.&C.C.D.RY.' at bottom.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-475",
+  "url": "https://digital.denverlibrary.org/nodes/view/1036448",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1897-1925",
+  "date_basis": "library date range 1897-1925",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-475",
+  "image": "img/collection/dpl-p-475.jpg",
+  "thumb": "img/collection/t/dpl-p-475.jpg",
+  "w": 1771,
+  "h": 2200,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/dpl-p-475.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:loc-2006679445",
+  "name": "On the trail to Pike's Peak, from Bear Creek Canon to the summit, 14 miles - lake and Halfway House",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: a boy sits on a log at the edge of a lake; on the far shore a low log building stands among burned, dead trees below a bare mountainside. Marks on the copy: Publisher's printed mount: 'Eugene Brandt's Artistic Series of Famous Rocky Mountain Scenery' on the side margins of the card, outside the image; nothing over the image.",
+  "holder": "Library of Congress, Prints & Photographs Division",
+  "call_number": "LOT 13581, no. 6",
+  "url": "https://www.loc.gov/item/2006679445/",
+  "photographer": "Eugene Brandt (Brandt's Artistic Series, no. 1216)",
+  "date": "between 1870 and 1876",
+  "date_basis": "holder's date range",
+  "rights": "public-domain",
+  "rights_note": "Made before 1931, and the Library of Congress states no known restrictions on publication.",
+  "credit": "Library of Congress, Prints & Photographs Division, LOT 13581, no. 6",
+  "image": "img/collection/loc-2006679445.jpg",
+  "thumb": "img/collection/t/loc-2006679445.jpg",
+  "w": 2200,
+  "h": 1261,
+  "shows": [
+   "place:lake-moraine-lake-house"
+  ],
+  "topics": [
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/loc/loc-2006679445-lake-and-halfway-house.jpg",
+   "places": [
+    {
+     "place": "place:lake-moraine-lake-house",
+     "name": "Lake Moraine: the Lake Hotel of 1874 ('Mystic Lake')",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:loc-2006679447",
+  "name": "On the trail to Pike's Peak, from Bear Creek Canon to the summit, 14 miles - U.S. Signal Station, 14336 feet",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: a stone building with a plank roof among summit boulders; saddled horses and men beside it, a man on the roof by an instrument. Marks on the copy: Publisher's printed mount (Brandt's Artistic Series) on the side margins only.",
+  "holder": "Library of Congress, Prints & Photographs Division",
+  "call_number": "LOT 13581, no. 8",
+  "url": "https://www.loc.gov/item/2006679447/",
+  "photographer": "Eugene Brandt",
+  "date": "between 1870 and 1876",
+  "date_basis": "holder's date range",
+  "rights": "public-domain",
+  "rights_note": "Made before 1931, and the Library of Congress states no known restrictions on publication.",
+  "credit": "Library of Congress, Prints & Photographs Division, LOT 13581, no. 8",
+  "image": "img/collection/loc-2006679447.jpg",
+  "thumb": "img/collection/t/loc-2006679447.jpg",
+  "w": 2200,
+  "h": 1256,
+  "shows": [
+   "place:mpp-summit",
+   "place:ppcr-summit"
+  ],
+  "topics": [
+   "Manitou and Pike's Peak",
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Manitou and Pike's Peak",
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/loc/loc-2006679447-signal-station.jpg",
+   "places": [
+    {
+     "place": "place:mpp-summit",
+     "name": "Summit of Pikes Peak (Pikes Peak cog road)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:ppcr-summit",
+     "name": "Summit end of the Pikes Peak carriage road",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:loc-2016796648",
+  "name": "Cathedral Park near Clyde, C.S.& C.C. [i.e. Colorado Springs & Cripple Creek] Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A curved timber trestle carries the track across a hollow below tall granite spires and knobs; no train. Marks on the copy: Photographer's own lettering on the negative: '013784. Cathedral Park near Clyde, C.S.&C.C. Short Line' and 'Copyright 1901 by Detroit Photographic Co.'; a handling number (looks like 'WA 427') scratched at top-left edge of the plate. Glass-plate scan with black border.",
+  "holder": "Library of Congress, Prints & Photographs Division",
+  "call_number": "LC-D4-13784",
+  "url": "https://www.loc.gov/pictures/item/2016796648/",
+  "photographer": "William Henry Jackson (Detroit Publishing Co.)",
+  "date": "1901",
+  "date_basis": "holder's date, matching 'Copyright 1901' on the negative",
+  "rights": "public-domain",
+  "rights_note": "Made before 1931, and the Library of Congress states no known restrictions on publication.",
+  "credit": "Library of Congress, Prints & Photographs Division, LC-D4-13784",
+  "image": "img/collection/loc-2016796648.jpg",
+  "thumb": "img/collection/t/loc-2016796648.jpg",
+  "w": 2200,
+  "h": 1756,
+  "shows": [
+   "place:sl-cathedral-park-trestle"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/loc/loc-2016796648-cathedral-park-near-clyde.jpg",
+   "places": [
+    {
+     "place": "place:sl-cathedral-park-trestle",
+     "name": "Cathedral Park trestle, Bison Creek (Short Line)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-001-2413",
+  "name": "[The \"W\" Pikes Peak Carriage Road]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A buggy loaded with a trunk and two horses stand at a hairpin of a rough mountain road; a man in a hat looks out over switchbacks and forested ridges below. Marks on the copy: None over the image in the held copy (the holder says Jackson's caption '3410. The W...' is at the bottom of the original; not visible in this crop). The copy is the library's enlargement of part of Jackson's 013-7329.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "001-2413",
+  "url": "https://digitalcollections.ppld.org/nodes/view/14699",
+  "photographer": "Jackson, William H., 1843-1942",
+  "date": "ca. 1890",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 001-2413",
+  "image": "img/collection/ppld-001-2413.jpg",
+  "thumb": "img/collection/t/ppld-001-2413.jpg",
+  "w": 2200,
+  "h": 1780,
+  "shows": [
+   "place:ppcr-the-w"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-001-2413-the-w-pikes-peak-carriage-road.jpg",
+   "places": [
+    {
+     "place": "place:ppcr-the-w",
+     "name": "The 'W' switchbacks (Pikes Peak carriage road)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-001-2515",
+  "name": "Climbing the Foothills Near Broadmoor",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A train crosses a high timber trestle at upper left on a wooded mountainside; a second trestle stands to the right at a similar level. Marks on the copy: Lettering on the negative: 'Climbing the foothills near Broadmoor, C.S. & C.C. Short Line' (holder: printed on bottom of photo). Publisher's/photographer's caption, not over the subject.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "001-2515",
+  "url": "https://digitalcollections.ppld.org/nodes/view/14770",
+  "photographer": "unknown",
+  "date": "ca. 1902",
+  "date_basis": "holder's date (read on record page)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/CNE/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 001-2515",
+  "image": "img/collection/ppld-001-2515.jpg",
+  "thumb": "img/collection/t/ppld-001-2515.jpg",
+  "w": 2200,
+  "h": 1769,
+  "shows": [
+   "place:sl-twin-bridges-north",
+   "place:sl-twin-bridges-south"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-001-2515-climbing-the-foothills-near-broadmoor.jpg",
+   "places": [
+    {
+     "place": "place:sl-twin-bridges-north",
+     "name": "Twin Bridges, north trestle, on the face above Stratton Park (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    },
+    {
+     "place": "place:sl-twin-bridges-south",
+     "name": "Twin Bridges, south trestle, under the cliff above Stratton Park (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-001-3355",
+  "name": "Cathedral Park",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A C.S.&C.C.D. Ry. locomotive and three coaches cross a curved trestle beneath tall granite spires. Marks on the copy: 'Cathedral Park' printed at lower left in the image (holder: title printed on bottom of print). Holder notes the negative was retouched to enhance features. Dealer's stamp is on the back only.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "001-3355",
+  "url": "https://digitalcollections.ppld.org/nodes/view/14892",
+  "photographer": "unknown",
+  "date": "ca. 1902",
+  "date_basis": "holder's date (read on record page)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/CNE/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 001-3355",
+  "image": "img/collection/ppld-001-3355.jpg",
+  "thumb": "img/collection/t/ppld-001-3355.jpg",
+  "w": 2200,
+  "h": 1588,
+  "shows": [
+   "place:sl-cathedral-park-trestle"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-001-3355-cathedral-park.jpg",
+   "places": [
+    {
+     "place": "place:sl-cathedral-park-trestle",
+     "name": "Cathedral Park trestle, Bison Creek (Short Line)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-007-46",
+  "name": "C.S. and C.C. Short Line",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Hand-coloured lantern slide: a train climbs past a red granite crag toward a timber trestle in the foreground; telegraph pole below. Marks on the copy: Photographer's own lettering on the plate: 'Copyright 1904 by W.E. Hook' and '3016 C.S.&C.C. Short L[ine]'. Hand-coloured lantern slide in its rounded mask (colouring is the slide-maker's, not a later mark). Holder says a side note reads 'Near Duffield'; not in this crop.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "007-46",
+  "url": "https://digitalcollections.ppld.org/nodes/view/867",
+  "photographer": "Hook, William E., 1833-1908",
+  "date": "ca. 1904",
+  "date_basis": "holder's date; 'Copyright 1904 by W.E. Hook' on the slide image",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/CNE/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 007-46",
+  "image": "img/collection/ppld-007-46.jpg",
+  "thumb": "img/collection/t/ppld-007-46.jpg",
+  "w": 2130,
+  "h": 2020,
+  "shows": [
+   "place:sl-rock-creek-trestle"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "other",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-007-46-near-duffield.jpg",
+   "places": [
+    {
+     "place": "place:sl-rock-creek-trestle",
+     "name": "Rock Creek trestle, on the loop below Tunnel 7 (Short Line)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-013-10927",
+  "name": "Hotel 7 Lakes",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A long two-storey log hotel with a railed veranda, horses at left, a burned-over slope behind. Marks on the copy: Faint lettering scratched at the bottom of the negative ('Hotel Seven Lakes'); photographer's.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "013-10927",
+  "url": "https://digitalcollections.ppld.org/nodes/view/78755",
+  "photographer": "Stewarts Commercial Photographers",
+  "date": "ca. 1887",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/InC-EDU/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 013-10927",
+  "image": "img/collection/ppld-013-10927.jpg",
+  "thumb": "img/collection/t/ppld-013-10927.jpg",
+  "w": 2200,
+  "h": 1543,
+  "shows": [
+   "place:osr-seven-lakes"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-013-10927-hotel-7-lakes.jpg",
+   "places": [
+    {
+     "place": "place:osr-seven-lakes",
+     "name": "Seven Lakes House (hotel site)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-175-3558",
+  "name": "The Lake House at Moraine Lake",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: two log buildings, saddled horses at hitching rails and a few people below burned-over mountains. Marks on the copy: None over the image; publisher's label is on the back.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "175-3558",
+  "url": "https://digitalcollections.ppld.org/nodes/view/2482",
+  "photographer": "Gurnsey, Byron H., 1833-1880",
+  "date": "ca. 1876",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 175-3558",
+  "image": "img/collection/ppld-175-3558.jpg",
+  "thumb": "img/collection/t/ppld-175-3558.jpg",
+  "w": 2042,
+  "h": 1148,
+  "shows": [
+   "place:lake-moraine-lake-house"
+  ],
+  "topics": [
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-175-3558-the-lake-house-at-moraine-lake.jpg",
+   "places": [
+    {
+     "place": "place:lake-moraine-lake-house",
+     "name": "Lake Moraine: the Lake Hotel of 1874 ('Mystic Lake')",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-175-3562",
+  "name": "Pikes Peak Trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: a log house on the far shore of a still lake among burned, fallen trees, a pine trunk framing the right side. Marks on the copy: Publisher's printed caption on the card below the images ('Pike's Peak Trail - No. 108. The Lake House, elevation 10,275 feet') and '108' on the negative; nothing over the scene.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "175-3562",
+  "url": "https://digitalcollections.ppld.org/nodes/view/2486",
+  "photographer": "Thurlow, James, 1831-1978 [sic, holder's dates]",
+  "date": "ca. 1878",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 175-3562",
+  "image": "img/collection/ppld-175-3562.jpg",
+  "thumb": "img/collection/t/ppld-175-3562.jpg",
+  "w": 2048,
+  "h": 1152,
+  "shows": [
+   "place:lake-moraine-lake-house"
+  ],
+  "topics": [
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-175-3562-pikes-peak-trail.jpg",
+   "places": [
+    {
+     "place": "place:lake-moraine-lake-house",
+     "name": "Lake Moraine: the Lake Hotel of 1874 ('Mystic Lake')",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-175-3740",
+  "name": "Signal Station",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: the low stone signal station with a ladder and instrument box among summit boulders; horses at right. Marks on the copy: '50' on the negative (publisher's number). The holder records a handwritten 1881 note on the bottom of the card; not visible in this crop.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "175-3740",
+  "url": "https://digitalcollections.ppld.org/nodes/view/2657",
+  "photographer": "Oldroyd, L. K.",
+  "date": "ca. 1881",
+  "date_basis": "holder's date; the 1881 purchase note on the card agrees",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 175-3740",
+  "image": "img/collection/ppld-175-3740.jpg",
+  "thumb": "img/collection/t/ppld-175-3740.jpg",
+  "w": 2066,
+  "h": 1168,
+  "shows": [
+   "place:mpp-summit",
+   "place:ppcr-summit"
+  ],
+  "topics": [
+   "Manitou and Pike's Peak",
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Manitou and Pike's Peak",
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-175-3740-signal-station.jpg",
+   "places": [
+    {
+     "place": "place:mpp-summit",
+     "name": "Summit of Pikes Peak (Pikes Peak cog road)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:ppcr-summit",
+     "name": "Summit end of the Pikes Peak carriage road",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-175-3757",
+  "name": "Tracks of C.S. & C.C.D.R.R.",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: track curving through pines in the foreground past a small building, with a trestle and two higher benches of grade on the far hillside. Marks on the copy: Publisher's printed caption below ('3 Tracks of C.S. & C.C.D.R.R. looking west from St. Peters Dome, Colo.') and on the side (Mexican & Indian Curio Co., Made in Germany); nothing over the scene.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "175-3757",
+  "url": "https://digitalcollections.ppld.org/nodes/view/2673",
+  "photographer": "unknown",
+  "date": "ca. 1900",
+  "date_basis": "holder's date (read on record page)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/CNE/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 175-3757",
+  "image": "img/collection/ppld-175-3757.jpg",
+  "thumb": "img/collection/t/ppld-175-3757.jpg",
+  "w": 2030,
+  "h": 1052,
+  "shows": [
+   "place:sl-trestle-near-tunnel-6"
+  ],
+  "topics": [
+   "Short Line",
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-175-3757-three-tracks.jpg",
+   "places": [
+    {
+     "place": "place:sl-trestle-near-tunnel-6",
+     "name": "Trestle above St. Peter's siding, west of Tunnel 6 (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-257-6234",
+  "name": "Windy Point, Pike's Peak, Colorado",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Halftone: a party of men and women on horses and mules on a rocky trail on a steep slope near timberline. Marks on the copy: None over the image; the long printed caption is below the plate and outside this crop.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "257-6234",
+  "url": "https://digitalcollections.ppld.org/nodes/view/477162",
+  "photographer": "unknown",
+  "date": "ca. 1895",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 257-6234",
+  "image": "img/collection/ppld-257-6234.jpg",
+  "thumb": "img/collection/t/ppld-257-6234.jpg",
+  "w": 2200,
+  "h": 1756,
+  "shows": [
+   "place:mpp-windy-point"
+  ],
+  "topics": [
+   "Manitou and Pike's Peak",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Manitou and Pike's Peak",
+   "form": "halftone",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-257-6234-windy-point-pikes-peak-colorado.jpg",
+   "places": [
+    {
+     "place": "place:mpp-windy-point",
+     "name": "Windy Point (Pikes Peak cog road)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-257-6653",
+  "name": "The Carriage Road Up Pike's Peak",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Halftone: wagons and teams on a road winding among boulders, with switchbacks climbing a bare slope to a rocky crest. Marks on the copy: None over the image; printed title below, outside this crop.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "257-6653",
+  "url": "https://digitalcollections.ppld.org/nodes/view/477583",
+  "photographer": "unknown (original attributed by holder to William H. Jackson)",
+  "date": "1894",
+  "date_basis": "holder's date (book printing)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 257-6653",
+  "image": "img/collection/ppld-257-6653.jpg",
+  "thumb": "img/collection/t/ppld-257-6653.jpg",
+  "w": 2200,
+  "h": 1701,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "halftone",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-257-6653-the-carriage-road-up-pikes-peak.jpg"
+  }
+ },
+ {
+  "id": "photo:region:ppld-402-106",
+  "name": "Decending [sic] the Hill",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Six men in suits sit on a hand car on the track; across the valley a tunnel portal and a higher bench of grade, the trestle at its end. Marks on the copy: Photographer's lettering on the negative: '353' and 'Decending the Hill on a Push Car, Short Line Ry. Showing three elevations'.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "402-106",
+  "url": "https://digitalcollections.ppld.org/nodes/view/73590",
+  "photographer": "Harlan, Andrew J., 1859-1926",
+  "date": "ca. 1901",
+  "date_basis": "holder's date (read on record page)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/InC-EDU/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 402-106",
+  "image": "img/collection/ppld-402-106.jpg",
+  "thumb": "img/collection/t/ppld-402-106.jpg",
+  "w": 2200,
+  "h": 1760,
+  "shows": [
+   "place:sl-trestle-near-tunnel-6"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-402-106-decending-the-hill.jpg",
+   "places": [
+    {
+     "place": "place:sl-trestle-near-tunnel-6",
+     "name": "Trestle above St. Peter's siding, west of Tunnel 6 (Short Line)",
+     "how": "probable",
+     "note": "Tied by working out the camera's place against the lidar, 28 November 2026."
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-402-109",
+  "name": "[Railroad tracks]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Track curves away along a mountainside to a trestle in the middle distance, snowy peaks behind; a mile board stands in the foreground. Marks on the copy: None over the image; slight foxing and a torn corner at upper right.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "402-109",
+  "url": "https://digitalcollections.ppld.org/nodes/view/73614",
+  "photographer": "Harlan, Andrew J., 1859-1926",
+  "date": "ca. 1904",
+  "date_basis": "holder's date (read on record page)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/InC-EDU/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 402-109",
+  "image": "img/collection/ppld-402-109.jpg",
+  "thumb": "img/collection/t/ppld-402-109.jpg",
+  "w": 2200,
+  "h": 1738,
+  "shows": [
+   "place:sl-trestle-8a"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/photos/referenced/ppld/ppld-402-109-railroad-tracks.jpg",
+   "places": [
+    {
+     "place": "place:sl-trestle-8a",
+     "name": "Trestle 8A, at mile board CS 8 (Short Line)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:loc-det-4a09163",
+  "name": "St. Peter's dome, Colorado, C.S. & C.C. [Short Line]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A train under a plume of smoke on a fill below the conical rock-topped dome; telegraph pole at right. Marks on the copy: Photographer's lettering on the negative ('013791. St. Peter's Dome, Colorado...' and 'Copyright 1901 by Detroit Photographic Co.'); handling numbers scratched at the top edge of the plate. Study copy is 1024 px only.",
+  "holder": "Library of Congress, Prints & Photographs Division",
+  "call_number": "LC-D4-13791; LC-DIG-det-4a09163",
+  "url": "https://www.loc.gov/pictures/item/2016808844/",
+  "photographer": "William Henry Jackson (Detroit Publishing Co.)",
+  "date": "c1901",
+  "date_basis": "holder's date; 'Copyright 1901' on the negative",
+  "rights": "public-domain",
+  "rights_note": "Made before 1931, and the Library of Congress states no known restrictions on publication.",
+  "credit": "Library of Congress, Prints & Photographs Division, LC-D4-13791; LC-DIG-det-4a09163",
+  "image": "img/collection/loc-det-4a09163.jpg",
+  "thumb": "img/collection/t/loc-det-4a09163.jpg",
+  "w": 1024,
+  "h": 813,
+  "shows": [
+   "place:st-peters-dome",
+   "place:st-peters"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/loc-det-4a09163.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:loc-stereo-1s10929",
+  "name": "St. Peter's Dome towering above the entrance to South Cheyenne Canyon, Colorado (Universal View Co.)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: a locomotive on a trestle at the foot of a wooded slope rising to the dome's rocky top. Marks on the copy: Publisher's printed card (Universal View Co.) with caption below; a later handwritten number '1592' in ink on the card below the left image, not over the picture.",
+  "holder": "Library of Congress, Prints & Photographs Division",
+  "call_number": "LC-DIG-stereo-1s10929",
+  "url": "https://www.loc.gov/pictures/item/2018645638/",
+  "photographer": "Universal View Co. (copyright E. W. Kelley)",
+  "date": "[1906]",
+  "date_basis": "holder's bracketed date; card reads 'Copyright 1906, by E. W. Kelley'",
+  "rights": "public-domain",
+  "rights_note": "Made before 1931, and the Library of Congress states no known restrictions on publication.",
+  "credit": "Library of Congress, Prints & Photographs Division, LC-DIG-stereo-1s10929",
+  "image": "img/collection/loc-stereo-1s10929.jpg",
+  "thumb": "img/collection/t/loc-stereo-1s10929.jpg",
+  "w": 1024,
+  "h": 540,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/loc-stereo-1s10929.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:loc-stereo-1s11273",
+  "name": "N. W. to St. Peter's Dome on the Corley Mountain Highway, near Manitou, Colo. (Keystone 29150)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: a late-1920s car parked on a decked road trestle with a man seated at the rail; road cut and the snowy dome behind. Marks on the copy: Publisher's printed card (Keystone 29150, caption, '14'); nothing over the picture.",
+  "holder": "Library of Congress, Prints & Photographs Division",
+  "call_number": "LC-DIG-stereo-1s11273",
+  "url": "https://www.loc.gov/pictures/item/2018647773/",
+  "photographer": "Keystone View Company",
+  "date": "[1927]",
+  "date_basis": "holder's bracketed date [1927]",
+  "rights": "public-domain",
+  "rights_note": "Made before 1931, and the Library of Congress states no known restrictions on publication.",
+  "credit": "Library of Congress, Prints & Photographs Division, LC-DIG-stereo-1s11273",
+  "image": "img/collection/loc-stereo-1s11273.jpg",
+  "thumb": "img/collection/t/loc-stereo-1s11273.jpg",
+  "w": 1024,
+  "h": 550,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/loc-stereo-1s11273.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-001-392",
+  "name": "Short Line at St. Peters Dome",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A train under heavy smoke on a curving grade at the foot of the dome. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "001-392",
+  "url": "https://digitalcollections.ppld.org/nodes/view/14973",
+  "photographer": "unknown",
+  "date": "ca. 1902",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 001-392",
+  "image": "img/collection/ppld-001-392.jpg",
+  "thumb": "img/collection/t/ppld-001-392.jpg",
+  "w": 2200,
+  "h": 1755,
+  "shows": [
+   "place:st-peters-dome",
+   "place:st-peters"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-001-392.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-005-4201",
+  "name": "[St. Peters Dome]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: An open pine-dotted slope in the foreground, ridges and peaks behind; burros (holder) not made out at the reduced size viewed. Marks on the copy: 'Stevens Photo Colorado Springs' on the negative (photographer's). Identification is on the back.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "005-4201",
+  "url": "https://digitalcollections.ppld.org/nodes/view/347450",
+  "photographer": "Stevens, F. P.",
+  "date": "1899-1901",
+  "date_basis": "holder's date range (read on record page)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: no Rights field shown; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 005-4201",
+  "image": "img/collection/ppld-005-4201.jpg",
+  "thumb": "img/collection/t/ppld-005-4201.jpg",
+  "w": 2200,
+  "h": 1759,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-005-4201.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-007-49",
+  "name": "St. Peters Dome (lantern slide, colorized)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Hand-coloured slide: a train on a snowy grade below the dome, a man standing near the track. Marks on the copy: None over the image; hand-coloured lantern slide in its rounded mask.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "007-49",
+  "url": "https://digitalcollections.ppld.org/nodes/view/896",
+  "photographer": "Hook, William E.",
+  "date": "ca. 1900",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 007-49",
+  "image": "img/collection/ppld-007-49.jpg",
+  "thumb": "img/collection/t/ppld-007-49.jpg",
+  "w": 2136,
+  "h": 2013,
+  "shows": [
+   "place:st-peters-dome",
+   "place:st-peters"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "other",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-007-49.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-013-10936",
+  "name": "St. Peter's Dome",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Straight track through a boulder cut leading toward the dome; small buildings on the slope beneath it. Marks on the copy: A small circled number '20' at the extreme lower-right corner (later handling label; can be cropped off).",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "013-10936",
+  "url": "https://digitalcollections.ppld.org/nodes/view/78846",
+  "photographer": "Stewarts Commercial Photographers (collection)",
+  "date": "ca. 1910",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 013-10936",
+  "image": "img/collection/ppld-013-10936.jpg",
+  "thumb": "img/collection/t/ppld-013-10936.jpg",
+  "w": 2200,
+  "h": 1769,
+  "shows": [
+   "place:st-peters-dome",
+   "place:st-peters"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-013-10936.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-013-8470",
+  "name": "St. Peter's Dome",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Two touring cars stopped on an unpaved road below the dome, two men by the drop-off; cabins on the slope. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "013-8470",
+  "url": "https://digitalcollections.ppld.org/nodes/view/77504",
+  "photographer": "Stewarts Commercial Photographers",
+  "date": "1925",
+  "date_basis": "holder's date; one car bears a 1925 Colorado plate (holder)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/InC-EDU/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 013-8470",
+  "image": "img/collection/ppld-013-8470.jpg",
+  "thumb": "img/collection/t/ppld-013-8470.jpg",
+  "w": 1787,
+  "h": 2200,
+  "shows": [
+   "place:st-peters-dome",
+   "place:st-peters"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-013-8470.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-175-3594",
+  "name": "West View from St. Peter's Dome, Rocky Mts., on C.S. & C.C.D.R.R., Colo. (stereograph)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: a jointed granite cliff at right with a dead tree, the valley and the grade below, peaks behind. Marks on the copy: Publisher's printed caption below and on the side of the card; nothing over the scene.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "175-3594",
+  "url": "https://digitalcollections.ppld.org/nodes/view/2517",
+  "photographer": "Mexican & Indian Curio Co., Denver (publisher)",
+  "date": "ca. 1900",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 175-3594",
+  "image": "img/collection/ppld-175-3594.jpg",
+  "thumb": "img/collection/t/ppld-175-3594.jpg",
+  "w": 2030,
+  "h": 1040,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-175-3594.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-175-3595",
+  "name": "Overlooking Upper Cheyenne Canyon from St. Peters Dome (stereograph)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Stereo pair: from a rock edge down over wooded slopes to a long ridge; a light line of grade in the valley. Marks on the copy: Publisher's printed caption below and on the side of the card; nothing over the scene.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "175-3595",
+  "url": "https://digitalcollections.ppld.org/nodes/view/2518",
+  "photographer": "Mexican & Indian Curio Co., Denver (publisher)",
+  "date": "ca. 1900",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 175-3595",
+  "image": "img/collection/ppld-175-3595.jpg",
+  "thumb": "img/collection/t/ppld-175-3595.jpg",
+  "w": 2030,
+  "h": 1040,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "stereograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "stereo card",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-175-3595.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-207-76",
+  "name": "[St. Peters Dome]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Straight track on a fill leading toward the dome; small buildings on the slope; a lake or reservoir at right. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "207-76",
+  "url": "https://digitalcollections.ppld.org/nodes/view/585478",
+  "photographer": "unknown",
+  "date": "ca. 1906",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 207-76",
+  "image": "img/collection/ppld-207-76.jpg",
+  "thumb": "img/collection/t/ppld-207-76.jpg",
+  "w": 1734,
+  "h": 2200,
+  "shows": [
+   "place:st-peters-dome",
+   "place:st-peters"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-207-76.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-257-6520",
+  "name": "View of Colorado Springs From Top of St. Peter's Dome",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Halftone bird's-eye view down over the line's curves, a tunnel and a train at lower left, the plains and town far right. Marks on the copy: Printed in the plate: 'View of Colorado Springs from top of St. Peters Dome' and 'Stevens Photo Colorado Springs, Colo.' (photographer's caption).",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "257-6520",
+  "url": "https://digitalcollections.ppld.org/nodes/view/477454",
+  "photographer": "Stevens Photo, Colorado Springs",
+  "date": "1899-1901",
+  "date_basis": "holder's date range",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 257-6520",
+  "image": "img/collection/ppld-257-6520.jpg",
+  "thumb": "img/collection/t/ppld-257-6520.jpg",
+  "w": 2200,
+  "h": 1731,
+  "shows": [
+   "place:st-peters-dome"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "halftone",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-257-6520.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-402-107",
+  "name": "St. Peter's Dome (locomotive head-on)",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A locomotive head-on under smoke on curving track through a granite cut, the dome behind. Marks on the copy: Photographer's lettering on the negative: 'St. Peter's Dome. Short Line Ry.' and '430'. The print is creased across the sky at top right.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "402-107",
+  "url": "https://digitalcollections.ppld.org/nodes/view/73589",
+  "photographer": "Harlan, Andrew J., 1859-1926",
+  "date": "ca. 1901",
+  "date_basis": "holder's date (read on page)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Record: http://rightsstatements.org/vocab/InC-EDU/1.0/; site: In Copyright - Educational Use.",
+  "credit": "Pikes Peak Library District, Special Collections, 402-107",
+  "image": "img/collection/ppld-402-107.jpg",
+  "thumb": "img/collection/t/ppld-402-107.jpg",
+  "w": 2200,
+  "h": 1733,
+  "shows": [
+   "place:st-peters-dome",
+   "place:st-peters"
+  ],
+  "topics": [
+   "Short Line",
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "railway": "Short Line",
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29",
+   "source_file": "research/st-peters-dome/photographs/ppld-402-107.jpg",
+   "places": [
+    {
+     "place": "place:st-peters-dome",
+     "name": "St. Peter's Dome (the summit)",
+     "how": "named",
+     "note": ""
+    },
+    {
+     "place": "place:st-peters",
+     "name": "St. Peter's",
+     "how": "probable",
      "note": ""
     }
    ]
