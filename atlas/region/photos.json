@@ -9491,5 +9491,835 @@
     }
    ]
   }
+ },
+ {
+  "id": "photo:region:dpl-p-127",
+  "name": "Mountain passes",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A long line of riders comes down a brushy V-shaped ravine toward the camera, some in feather headdresses, a few men in hats in front. Marks on the copy: 'P127' lettered at the lower-right corner (collection number, at the edge; can be cropped).",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-127",
+  "url": "https://digital.denverlibrary.org/nodes/view/1035788",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1912",
+  "date_basis": "library date 1912",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-127",
+  "image": "img/collection/dpl-p-127.jpg",
+  "thumb": "img/collection/t/dpl-p-127.jpg",
+  "w": 2000,
+  "h": 1605,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-127-mountain-passes.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-1276",
+  "name": "Marking of Ute Pass Trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Ute riders in headdresses and a white man in a hat ride along a fenced trail toward the camera; railway track and spectators behind. Marks on the copy: none seen",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-1276",
+  "url": "https://digital.denverlibrary.org/nodes/view/1038636",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1912 August 29",
+  "date_basis": "library date 1912 August 29",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-1276",
+  "image": "img/collection/dpl-p-1276.jpg",
+  "thumb": "img/collection/t/dpl-p-1276.jpg",
+  "w": 1999,
+  "h": 1822,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-1276-marking-of-ute-pass-trail.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-1277",
+  "name": "Marking of Ute Pass Trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A boy in fringed chaps and a holster sits a horse; behind him cars parked on stone-walled terraces below a large house. Marks on the copy: none seen",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-1277",
+  "url": "https://digital.denverlibrary.org/nodes/view/1038638",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "August 29, 1912",
+  "date_basis": "library date August 29, 1912 (day of the trail dedication)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-1277",
+  "image": "img/collection/dpl-p-1277.jpg",
+  "thumb": "img/collection/t/dpl-p-1277.jpg",
+  "w": 1999,
+  "h": 1710,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-1277-marking-of-ute-pass-trail.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-1280",
+  "name": "Marking of Ute Pass Trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A crowd of riders gathers by a bend of railway track in a valley; spectators and cars on the slope at right. Marks on the copy: none seen",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-1280",
+  "url": "https://digital.denverlibrary.org/nodes/view/1038644",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "August 29, 1912",
+  "date_basis": "library date August 29, 1912 (day of the trail dedication)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-1280",
+  "image": "img/collection/dpl-p-1280.jpg",
+  "thumb": "img/collection/t/dpl-p-1280.jpg",
+  "w": 1999,
+  "h": 1757,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-1280-marking-of-ute-pass-trail.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-1281",
+  "name": "Marking of Ute Pass Trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Ute riders in headdresses and a white rider seen from behind on a trail; more riders, track and spectators in the valley beyond. Marks on the copy: none seen",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-1281",
+  "url": "https://digital.denverlibrary.org/nodes/view/1038646",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "August 29, 1912",
+  "date_basis": "library date August 29, 1912 (day of the trail dedication)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-1281",
+  "image": "img/collection/dpl-p-1281.jpg",
+  "thumb": "img/collection/t/dpl-p-1281.jpg",
+  "w": 2000,
+  "h": 1696,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-1281-marking-of-ute-pass-trail.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-1285",
+  "name": "Marking of U. P. Trail Chief Buckskin Charley in lead",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, read on 2026-11-29; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Ute riders in headdresses ride in file toward the camera, the leader carrying a feathered staff; spectators, track and a large house behind. Marks on the copy: none seen",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-1285",
+  "url": "https://digital.denverlibrary.org/nodes/view/1039033",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "August 26, 1912",
+  "date_basis": "library date August 26, 1912 (record read; three days before the dedication date, but 1912 either way)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-1285",
+  "image": "img/collection/dpl-p-1285.jpg",
+  "thumb": "img/collection/t/dpl-p-1285.jpg",
+  "w": 2000,
+  "h": 1723,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-1285-marking-of-u-p-trail-chief-buckskin-char.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-129",
+  "name": "Showing the old Ute Pass trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The empty brushy ravine with a trail climbing it to a notch on the skyline; no riders visible. Marks on the copy: Collection number scratched at lower right ('P12...'), a small mark at upper right edge; both at the edge.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-129",
+  "url": "https://digital.denverlibrary.org/nodes/view/1035790",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1912",
+  "date_basis": "library date 1912",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-129",
+  "image": "img/collection/dpl-p-129.jpg",
+  "thumb": "img/collection/t/dpl-p-129.jpg",
+  "w": 1999,
+  "h": 1604,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-129-showing-the-old-ute-pass-trail.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-130",
+  "name": "Mounted Utes coming down the trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The procession winds down the brushy ravine in single file toward the camera. Marks on the copy: small mark at the right edge only",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-130",
+  "url": "https://digital.denverlibrary.org/nodes/view/1035795",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1912",
+  "date_basis": "library date 1912",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-130",
+  "image": "img/collection/dpl-p-130.jpg",
+  "thumb": "img/collection/t/dpl-p-130.jpg",
+  "w": 1999,
+  "h": 1611,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-130-mounted-utes-coming-down-the-trail.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-131",
+  "name": "Mountain Passes Ute",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The empty ravine again, trail climbing to the notch; no riders visible. Marks on the copy: 'P13...' at lower-right corner and a mark at upper-right edge.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-131",
+  "url": "https://digital.denverlibrary.org/nodes/view/1035792",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1912",
+  "date_basis": "library date 1912",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-131",
+  "image": "img/collection/dpl-p-131.jpg",
+  "thumb": "img/collection/t/dpl-p-131.jpg",
+  "w": 1999,
+  "h": 1609,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-131-mountain-passes-ute.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-133",
+  "name": "Mounted Utes coming down the trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The procession in the ravine, riders strung out down the trail toward the camera. Marks on the copy: 'P133' at lower-right corner; small mark at right edge.",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-133",
+  "url": "https://digital.denverlibrary.org/nodes/view/1035791",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1912",
+  "date_basis": "library date 1912",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-133",
+  "image": "img/collection/dpl-p-133.jpg",
+  "thumb": "img/collection/t/dpl-p-133.jpg",
+  "w": 1999,
+  "h": 1597,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-133-mounted-utes-coming-down-the-trail.jpg"
+  }
+ },
+ {
+  "id": "photo:region:dpl-p-2022",
+  "name": "Indians, Ute, trail marking",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: The empty ravine with the trail, a soft copy; no riders visible. Marks on the copy: a small mark at the upper-right edge only; soft, low-contrast copy",
+  "holder": "Denver Public Library, Western History Collection",
+  "call_number": "P-2022",
+  "url": "https://digital.denverlibrary.org/nodes/view/1046954",
+  "photographer": "Poley, H. S. (Horace Swartley)",
+  "date": "1912",
+  "date_basis": "library date 1912",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: Copyright Not Evaluated.",
+  "credit": "Denver Public Library, Western History Collection, P-2022",
+  "image": "img/collection/dpl-p-2022.jpg",
+  "thumb": "img/collection/t/dpl-p-2022.jpg",
+  "w": 1999,
+  "h": 1591,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/dpl/dpl-p-2022-indians-ute-trail-marking.jpg"
+  }
+ },
+ {
+  "id": "photo:region:ppld-001-4151",
+  "name": "Buckskin Charley",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: An older Ute man in a feather headdress, fringed buckskin and a large medal raises his right hand; men behind him, one in a suit. Marks on the copy: Held copy is cropped to the print; a faint pencil signature at lower right (holder: 'Tod Powell 1913'). The printed mount caption is outside this crop.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "001-4151",
+  "url": "https://digitalcollections.ppld.org/nodes/view/15020",
+  "photographer": "Powell, Tod",
+  "date": "1913",
+  "date_basis": "holder's date (signature 'Tod Powell 1913'; mount caption says 1912)",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 001-4151",
+  "image": "img/collection/ppld-001-4151.jpg",
+  "thumb": "img/collection/t/ppld-001-4151.jpg",
+  "w": 1778,
+  "h": 2200,
+  "shows": [
+   "place:manitou-springs"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-001-4151-buckskin-charley.jpg",
+   "places": [
+    {
+     "place": "place:manitou-springs",
+     "name": "Manitou (depot site as marked on a supplied map)",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7579",
+  "name": "[Dedicating Ute Pass Indian Trail]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A long line of riders, many in headdresses, descends a brushy ravine between steep slopes; dust rises. Marks on the copy: Emulsion flaking in the sky (damage to the original, not an added mark).",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7579",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784161",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7579",
+  "image": "img/collection/ppld-010-7579.jpg",
+  "thumb": "img/collection/t/ppld-010-7579.jpg",
+  "w": 2200,
+  "h": 1765,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7579-dedicating-ute-pass-indian-trail.jpg"
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7580",
+  "name": "[Dedicating Ute Pass Indian Trail]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A long file of mounted Utes in headdresses descends a narrow trail through scrub oak in a V-shaped ravine. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7580",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784164",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7580",
+  "image": "img/collection/ppld-010-7580.jpg",
+  "thumb": "img/collection/t/ppld-010-7580.jpg",
+  "w": 2200,
+  "h": 1765,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7580-dedicating-ute-pass-indian-trail.jpg"
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7581",
+  "name": "Coming Down Old Ute Trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Closer view of riders and walkers, including women in white dresses and wide hats, on a trail through scrub on a hillside. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7581",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784162",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7581",
+  "image": "img/collection/ppld-010-7581.jpg",
+  "thumb": "img/collection/t/ppld-010-7581.jpg",
+  "w": 2200,
+  "h": 2033,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7581-coming-down-old-ute-trail.jpg"
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7582",
+  "name": "Ute Trail Marking",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A crowd of riders gathered beside a railway track in a narrow wooded valley, a road beyond and spectators at right. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7582",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784168",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7582",
+  "image": "img/collection/ppld-010-7582.jpg",
+  "thumb": "img/collection/t/ppld-010-7582.jpg",
+  "w": 2200,
+  "h": 1742,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7582-ute-trail-marking.jpg"
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7583",
+  "name": "Ute Trail Dedication - Cascade",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Mounted Utes and spectators, among them women in white, line a stone wall below a shingled house among pines and rocks. Marks on the copy: Spots and blemishes in the sky (damage to the original).",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7583",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784165",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7583",
+  "image": "img/collection/ppld-010-7583.jpg",
+  "thumb": "img/collection/t/ppld-010-7583.jpg",
+  "w": 2200,
+  "h": 1755,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7583-ute-trail-dedication-cascade.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7584",
+  "name": "Utes at End of Old Ute Pass Trail",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A rider in a hat and a Ute in a feather headdress face each other on horseback; more mounted Utes and a crowd behind, cars on the road above. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7584",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784167",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7584",
+  "image": "img/collection/ppld-010-7584.jpg",
+  "thumb": "img/collection/t/ppld-010-7584.jpg",
+  "w": 2200,
+  "h": 1979,
+  "shows": [],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7584-utes-at-end-of-old-ute-pass-trail.jpg"
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7586",
+  "name": "Ute Indians Arrive at Cascade - Ute Pass",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: Ute men and women in feather headdresses sit in an open touring car on a dirt road, a frame house behind. Marks on the copy: None.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7586",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784159",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7586",
+  "image": "img/collection/ppld-010-7586.jpg",
+  "thumb": "img/collection/t/ppld-010-7586.jpg",
+  "w": 2200,
+  "h": 1783,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7586-ute-indians-arrive-at-cascade-ute-pass.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "named",
+     "note": ""
+    }
+   ]
+  }
+ },
+ {
+  "id": "photo:region:ppld-010-7589",
+  "name": "[Indians and Car Marking Ute Pass Trail]",
+  "grade": "measured",
+  "basis": "Catalogue record of the holding library, as recorded when the copy was fetched in November 2026; the picture itself looked at before use.",
+  "sources": [
+   "source:library-photographs-checked-2026-11-29"
+  ],
+  "status": "reviewed",
+  "contributor": "project",
+  "updated": "2026-11-28",
+  "notes": "Seen: A man in a bowler and a Ute in a headdress walk past a small stone lettered 'UPT' in the grass; a white horse, cars and a frame house behind. Marks on the copy: A large flaw (damaged emulsion or a hanging object) runs down the right third of the image; not a mark added later.",
+  "holder": "Pikes Peak Library District, Special Collections",
+  "call_number": "010-7589",
+  "url": "https://digitalcollections.ppld.org/nodes/view/784163",
+  "photographer": "Poley, Horace S., 1863-1949",
+  "date": "1912-07-31",
+  "date_basis": "holder's date",
+  "rights": "licensed",
+  "rights_note": "A library copy made before 1931 on the library's own date: shown with a credit line, by the permission the atlas's owner reported on 23 November 2026 (terms not seen). The library's own rights statement for this record: In Copyright - Educational Use (PPLD site statement: free for private study, research and education; other use including publication to be requested through Regional History & Genealogy).",
+  "credit": "Pikes Peak Library District, Special Collections, 010-7589",
+  "image": "img/collection/ppld-010-7589.jpg",
+  "thumb": "img/collection/t/ppld-010-7589.jpg",
+  "w": 2200,
+  "h": 1765,
+  "shows": [
+   "place:cascade"
+  ],
+  "topics": [
+   "photograph"
+  ],
+  "kind": "photograph",
+  "local": {
+   "form": "photograph",
+   "library": true,
+   "library_batch": "2026-11-29-ute-pass",
+   "source_file": "research/photos/referenced/ppld/ppld-010-7589-indians-and-car-marking-ute-pass-trail.jpg",
+   "places": [
+    {
+     "place": "place:cascade",
+     "name": "Cascade",
+     "how": "probable",
+     "note": ""
+    }
+   ]
+  }
  }
 ]
