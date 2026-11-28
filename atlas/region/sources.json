@@ -681,5 +681,13 @@
   "holder": "Pikes Peak Rail Atlas",
   "date": "2026",
   "accessed": "2026-11-27"
+ },
+ {
+  "id": "source:short-line-trestle-photo-match",
+  "kind": "research note",
+  "title": "Short Line trestles placed by fitting photographs of the time to the 1 m lidar ground, 28 November 2026: the camera's position worked out for each photograph from its skyline, tunnel portals and track, and the trestle then read off the ground. Photographs of the Denver Public Library (McClure MCC-81, MCC-116, MCC-813, MCC-886, MCC-1911) and the Pikes Peak Library District (001-2515, 402-106, 402-109), and a plate in Wolfe's guide of 1988. In research/structures/sl3a-photo-match.md and sl3b-photo-match.md",
+  "holder": "Pikes Peak Rail Atlas",
+  "date": "2026",
+  "accessed": "2026-11-28"
  }
 ]
