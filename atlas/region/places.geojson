@@ -4979,20 +4979,21 @@
    },
    "properties": {
     "id": "place:st-peters-dome-stairs",
-    "name": "St. Peter's Dome: where the ladders and the steel stairs stood (about here)",
+    "name": "St. Peter's Dome: where the ladders and the stairs stood (about here)",
     "grade": "inferred",
     "error_ft": 160,
     "kind": "other",
-    "basis": "The Colorado Mountain Club's report of an outing on 12 August 1934 says 'The lower ladder was down', so the top was reached by at least two ladders then (Trail and Timberline, read on the page image by the helper). The Gazette's index has two headlines: 'St. Peter's Dome staircase among forest projects' (15 October 1961) and 'Steps to St. Peter's Dome destroyed' (13 June 1976, indexed under vandalism); neither article has been read. A Gazette trail article of 2010, a secondary source, says wooden ladders were followed by 'a metal staircase', whose 'twisted remnants' lay in the weeds below a 10 ft ledge where a knotted rope hung. That the staircase was the Forest Service's work of 1961 and was wrecked by 1976 is inferred from the headlines. Its size, make and rails are not known, and 'spiral', which is sometimes said, has no source. The pin is where the path traced on the lidar meets the north-east end of the summit block (the lidar picture looked at by me); the ledge itself was not identified, so it is good only to about 160 ft. Of 34 photographs of the dome looked at, none shows a ladder, stairs or a railing.",
+    "basis": "The Colorado Mountain Club's report of an outing on 12 August 1934 says 'The lower ladder was down', so the top was reached by at least two ladders then (Trail and Timberline, read on the page image by a helper). The Gazette-Telegraph of 13 June 1976, 'Vandals Utterly Destroy Dome Steps' (the body read by a helper in a library database; the headline, date and photograph captions checked on a saved copy by the atlas's editor), says: the earlier stairs were '14 wooden steps leading to a landing' and 16 more that 'dog-legged up a sheer cliff', already wrecked by vandals; two soldiers from Fort Carson, Lt. Timothy Savage and Sgt. Robert Jacobson, rebuilt them on weekends through the winter of 1975-76 with Forest Service materials, as '30 thick wooden steps and substantial iron supports' with a platform six feet square, carrying the old iron frame and railings out to the road to be straightened and used again; vandals then pushed boulders off a cliff about 50 ft onto the new stairs, and Vern Schmitt of the Forest Service said they would not be replaced. The article has two photographs, one of the wreckage; they are of 1976 and in copyright, and are not shown. So the stairs were wooden steps on an iron frame, in two flights with a landing, not a steel staircase, and 'spiral', which is sometimes said, has no source. Who first built the stairs, and when, the article does not say. The Gazette's index has a headline of 15 October 1961, 'St. Peter's Dome staircase among forest projects'; that article has not been read (the year is missing from the database), and that the first stairs were the Forest Service's work of about 1961 is inferred from the headline alone. A Gazette trail article of 2010, a secondary source, speaks of 'a metal staircase' whose 'twisted remnants' lay in the weeds below a 10 ft ledge where a knotted rope hung: the iron frame, by the 1976 account. The article does not say which face of the rock the stairs climbed. The pin is where the path traced on the lidar meets the north-east end of the summit block (the lidar picture looked at by the atlas's editor); the cliff itself was not identified, so it is good only to about 160 ft. Of 34 photographs of the dome from the libraries looked at, none shows a ladder, stairs or a railing.",
     "sources": [
      "source:st-peters-dome-record",
-     "source:lidar-3dep"
+     "source:lidar-3dep",
+     "source:gazette-telegraph-1976-06-13-dome-steps"
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-27",
+    "updated": "2026-11-28",
     "on_lines": [],
-    "summary": "The steep ledge on the way to the summit, climbed by wooden ladders in the railway's and the highway's time and by a steel staircase from about 1961, destroyed by 1976. No photograph of the ladders or the stairs has been found."
+    "summary": "The steep rock on the way to the summit, climbed by wooden ladders in the railway's and the highway's time and later by a stairway of wooden steps on an iron frame with railings. The stairway was rebuilt in the winter of 1975-76 and wrecked by vandals within months; the Forest Service did not replace it."
    }
   },
   {
