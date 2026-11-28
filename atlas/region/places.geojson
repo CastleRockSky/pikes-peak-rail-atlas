@@ -1469,10 +1469,11 @@
     "name": "Duffields (Duffield on modern maps)",
     "grade": "inferred",
     "error_ft": 1500,
-    "basis": "An OpenStreetMap hamlet of this name lies 60 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. Named 'Duffields' in the Short Line's timetable of 26 September 1909, 18.1 miles from Colorado Springs Yard.",
+    "basis": "An OpenStreetMap hamlet of this name lies 60 ft from the cs and cc district grade. Whether the railway had a stop here, and where, has not been checked. Named 'Duffields' in the Short Line's timetable of 26 September 1909, 18.1 miles from Colorado Springs Yard. Named 'Duffields' in the Short Line's timetable of 26 September 1909, 18.1 miles from Colorado Springs Yard. Duffield's was the stop for those climbing St. Peter's Dome; today's parking place, overlook and the foot of the summit trail are at the hairpin here. No picnic ground built by the Forest Service or the Civilian Conservation Corps was found in any source.",
     "sources": [
      "source:osm-railways",
-     "source:official-guide-timetables"
+     "source:official-guide-timetables",
+     "source:st-peters-dome-record"
     ],
     "status": "draft",
     "contributor": "project",
@@ -4970,6 +4971,60 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -104.91122,
+     38.74731
+    ]
+   },
+   "properties": {
+    "id": "place:st-peters-dome",
+    "name": "St. Peter's Dome (the summit)",
+    "grade": "measured",
+    "error_ft": 15,
+    "kind": "other",
+    "basis": "The highest point of the rock on the 1 m lidar, 9,668 ft. Railway-era photographs in the Denver Public Library show a flagpole with a flag on the summit, and one of 1925 a bare pole (the helper's reading; the 1925 photograph looked at by me, where the summit is bare rock with buildings on the wooded slope below). The railway's stop named for it lay at the siding below, where Sunday excursion trains set down picnic parties from 1901; a guide of 1988 calls the siding 'one of the choice picnic spots'. No picnic ground with tables or a shelter is named in any source found, at the siding or at today's overlook by Duffield. A J. H. Cameron let a cabin and tents 'at Saint Peter's Dome' from 1906 (newspaper, machine text, not checked on the page); that the buildings in the 1925 photograph are his is not established.",
+    "sources": [
+     "source:st-peters-dome-record",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "The granite dome that gave the Short Line's stop its name, 9,668 ft, climbed by excursionists from the railway and later from the road. A flagpole stood on it in the railway's time."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.9104,
+     38.748
+    ]
+   },
+   "properties": {
+    "id": "place:st-peters-dome-stairs",
+    "name": "St. Peter's Dome: where the ladders and the steel stairs stood (about here)",
+    "grade": "inferred",
+    "error_ft": 160,
+    "kind": "other",
+    "basis": "The Colorado Mountain Club's report of an outing on 12 August 1934 says 'The lower ladder was down', so the top was reached by at least two ladders then (Trail and Timberline, read on the page image by the helper). The Gazette's index has two headlines: 'St. Peter's Dome staircase among forest projects' (15 October 1961) and 'Steps to St. Peter's Dome destroyed' (13 June 1976, indexed under vandalism); neither article has been read. A Gazette trail article of 2010, a secondary source, says wooden ladders were followed by 'a metal staircase', whose 'twisted remnants' lay in the weeds below a 10 ft ledge where a knotted rope hung. That the staircase was the Forest Service's work of 1961 and was wrecked by 1976 is inferred from the headlines. Its size, make and rails are not known, and 'spiral', which is sometimes said, has no source. The pin is where the path traced on the lidar meets the north-east end of the summit block (the lidar picture looked at by me); the ledge itself was not identified, so it is good only to about 160 ft. Of 34 photographs of the dome looked at, none shows a ladder, stairs or a railing.",
+    "sources": [
+     "source:st-peters-dome-record",
+     "source:lidar-3dep"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-27",
+    "on_lines": [],
+    "summary": "The steep ledge on the way to the summit, climbed by wooden ladders in the railway's and the highway's time and by a steel staircase from about 1961, destroyed by 1976. No photograph of the ladders or the stairs has been found."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -104.834603,
      38.828288
     ]
@@ -5384,7 +5439,8 @@
     "error_ft": 1300,
     "basis": "Placed by its printed mileage: 14.9 miles from Colorado Springs Yard in the Short Line's public timetable of 26 September 1909, measured along the atlas's checked route. The route begins about 2.9 miles out from the yard; that offset comes from three places located independently, which agree to a tenth of a mile. The point is good to about a quarter of a mile along the track. It is the timetable's stopping place, not the site of a building; nothing here has been checked on the ground.",
     "sources": [
-     "source:official-guide-timetables"
+     "source:official-guide-timetables",
+     "source:st-peters-dome-record"
     ],
     "status": "draft",
     "contributor": "project",
