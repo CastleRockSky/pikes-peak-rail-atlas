@@ -3245,22 +3245,23 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -105.032349,
-     38.73514
+     -105.032769,
+     38.735344
     ]
    },
    "properties": {
     "id": "place:sl-cathedral-park-trestle",
     "name": "Cathedral Park trestle, Bison Creek (Short Line)",
     "grade": "inferred",
-    "error_ft": 50,
+    "error_ft": 120,
     "kind": "trestle",
-    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 57 ft below the railway's grade line; it is below grade for 755 ft, between 38.735487, -105.031260 and 38.734793, -105.033437, and 15 ft or more below it for about 413 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. Photographs (McClure and others) show a curved trestle of nine or ten bents at Cathedral Park, and a later account puts a trestle over Bison Creek just past Tunnel 9, since filled. The hollow here, just beyond Tunnel 9, is below grade for 755 ft, far more than nine or ten 20 ft spans: the trestle (about 180 to 200 ft by the photographs) stood somewhere within it, with fills either side, and its own ends are not fixed. The ends given are those of the whole hollow. The place is firmly identified; the trestle's ends within it are not. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-37). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 shows the bridge over Bison Creek here then and now, filled by the 1980s (the helper's reading); its mileage falls 460 ft from this pin. Caution (26 November 2026): the height given here was read from a fitted grade line since found to stand 10 ft or more above the road hereabouts, so it is probably too great by about that much. Not re-measured.",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 57 ft below the railway's grade line; it is below grade for 755 ft, between 38.735487, -105.031260 and 38.734793, -105.033437, and 15 ft or more below it for about 413 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. Photographs (McClure and others) show a curved trestle of nine or ten bents at Cathedral Park, and a later account puts a trestle over Bison Creek just past Tunnel 9, since filled. The hollow here, just beyond Tunnel 9, is below grade for 755 ft, far more than nine or ten 20 ft spans: the trestle (about 180 to 200 ft by the photographs) stood somewhere within it, with fills either side, and its own ends are not fixed. The ends given are those of the whole hollow. The place is firmly identified; the trestle's ends within it are not. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-37). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 shows the bridge over Bison Creek here then and now, filled by the 1980s (the helper's reading); its mileage falls 460 ft from this pin. Photographs worked out against the lidar (28 November 2026): H. S. Poley's view from the floor of the park (Denver Public Library P-394), its camera fixed by the Cathedral Rocks towers and the bench of the track along their foot, shows the trestle side-on, and the point where its deck meets the eastern fill falls at 38.735576, -105.032385; W. H. Jackson's 'Cathedral Park near Clyde' of 1901 (Library of Congress LC-D4-13784), worked out separately from the other end, puts that same deck end within 15 ft of it. So Poley's 'straight' trestle and the curved Cathedral Park trestle are one structure, and it stood in the western half of this hollow, the eastern half being fill. The east end is good to about 50 ft. The west end, 38.735112, -105.033153, comes from the Jackson plate alone, whose fit is poor because today's road leaves the railway's curve there: the deck so mapped is 277 ft against the 180 to 200 ft of nine or ten bents, so the west end may be 60 to 100 ft too far west, and it is good only to about 120 ft. The ends given are now the photographs'; the length is the bents'. An earlier trial with McClure's MCC-119 had put the deck in the eastern half; that fit was poor and is set aside. The fits were made by a helper and the pictures of them looked at by the atlas's editor; the fits were not run a second time. Caution (26 November 2026): the height given here was read from a fitted grade line since found to stand 10 ft or more above the road hereabouts, so it is probably too great by about that much. Not re-measured.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
      "source:engineering-news-1902-short-line",
-     "source:wolfe-gold-camp-road-1988"
+     "source:wolfe-gold-camp-road-1988",
+     "source:short-line-trestle-photo-match"
     ],
     "status": "draft",
     "contributor": "project",
@@ -3277,15 +3278,15 @@
     "local": {
      "ends": [
       [
-       -105.03126,
-       38.735487
+       -105.032385,
+       38.735576
       ],
       [
-       -105.033437,
-       38.734793
+       -105.033153,
+       38.735112
       ]
      ],
-     "length_ft": 413,
+     "length_ft": 200,
      "height_ft": 57,
      "opening_ft": 755
     }
@@ -3306,7 +3307,7 @@
     "grade": "inferred",
     "error_ft": 50,
     "kind": "trestle",
-    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 62 ft below the railway's grade line; it is below grade for 755 ft, between 38.731871, -104.934418 and 38.730488, -104.936368, and 15 ft or more below it for about 558 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. The National Register form for the road (a later account) says two trestles at the Double Horseshoe on Little Fountain Creek are buried in the present fills. This is the largest fill there, up to 62 ft high over the creek, higher than any fill the railway had in 1902 by Engineering News. Which of the two trestles it is, and where the other was, is not known; no photograph has been matched. Probable, from the fill's height and the later account. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-19). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 prints A. J. Harlan's early photograph of the Double Horseshoe and says it 'shows the two trestles that spanned the creek'; a second photograph shows two timber trestles, and the text speaks of 'the filled-in trestle' as the place to stop (read on the page by me). So there were two trestles here, and one at least was filled; its mileage falls 100 ft from this pin.",
+    "basis": "The road crosses this hollow on a fill. On the 1 m lidar the natural ground beside the road lies up to 62 ft below the railway's grade line; it is below grade for 755 ft, between 38.731871, -104.934418 and 38.730488, -104.936368, and 15 ft or more below it for about 558 ft, which is the likelier length of a trestle. The lidar cannot tell a trestle later buried in fill from a fill the railway built. The National Register form for the road (a later account) says two trestles at the Double Horseshoe on Little Fountain Creek are buried in the present fills. This is the largest fill there, up to 62 ft high over the creek, higher than any fill the railway had in 1902 by Engineering News. Which of the two trestles it is, and where the other was, is not known; no photograph has been matched. Probable, from the fill's height and the later account. The ends are good to about 50 ft (research/structures/shortline-trestles.md, site sl-t-19). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. A photo-guide of 1988 prints A. J. Harlan's early photograph of the Double Horseshoe and says it 'shows the two trestles that spanned the creek'; a second photograph shows two timber trestles, and the text speaks of 'the filled-in trestle' as the place to stop (read on the page by me). So there were two trestles here, and one at least was filled; its mileage falls 100 ft from this pin. The creek's second crossing, about 0.4 mile further up the line, is pinned separately as a conjectured site of the other trestle (28 November 2026).",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
@@ -3315,7 +3316,7 @@
     ],
     "status": "draft",
     "contributor": "project",
-    "updated": "2026-11-27",
+    "updated": "2026-11-28",
     "on_lines": [
      {
       "line": "line:cs-and-cc-district",
@@ -3357,11 +3358,12 @@
     "grade": "inferred",
     "error_ft": 60,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the railway's grade stops at 38.735456, -104.911086 and begins again at 38.735466, -104.911684, 171 ft apart, with the ground up to 42 ft below the grade line between them; the ground is 15 ft or more below grade for about 125 ft, the likelier length of the trestle itself. Nothing stands in the opening. The railway's line here is itself inferred (the loop redrawn on 26 November 2026), so the ends rest on that line. Photographs catalogued as the Rock Creek trestle show seven to nine bents in two storeys under a crag, which is 140 to 180 ft and 35 to 45 ft high: the opening here fits. A photograph also shows a small railway bridge over the stage road beside Tunnel 7's west portal; whether that is this structure or another is not settled. Moderately well identified; good only to about 60 ft because the line is inferred. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-16). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. The Cripple Creek stage road (today's Old Stage Road) passes through this gap: on the 1 m lidar the road is at 8,962 ft and the railway's banks end at 8,997 and 9,007 ft, so the road went about 44 ft under the track. It is the only place near Tunnel No. 7 where the road passes under the railway, so the photograph catalogued as a railway bridge over the stage road by the tunnel's west portal is very likely this trestle (inferred).",
+    "basis": "On the 1 m lidar the railway's grade stops at 38.735456, -104.911086 and begins again at 38.735466, -104.911684, 171 ft apart, with the ground up to 42 ft below the grade line between them; the ground is 15 ft or more below grade for about 125 ft, the likelier length of the trestle itself. Nothing stands in the opening. The railway's line here is itself inferred (the loop redrawn on 26 November 2026), so the ends rest on that line. Photographs catalogued as the Rock Creek trestle show seven to nine bents in two storeys under a crag, which is 140 to 180 ft and 35 to 45 ft high: the opening here fits. A photograph also shows a small railway bridge over the stage road beside Tunnel 7's west portal; whether that is this structure or another is not settled. Moderately well identified; good only to about 60 ft because the line is inferred. The ends are good to about 60 ft (research/structures/shortline-trestles.md, site sl-t-16). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. McClure's photographs titled 'Duffield Loop' (Denver Public Library MCC-85, MCC-107) probably show this loop and this trestle: MCC-85's skyline, worked out against the lidar, puts its camera on the loop below Tunnel 7, and no loop exists on the line west of Duffield. Conjecture: MCC-107 itself would not solve (28 November 2026). The Cripple Creek stage road (today's Old Stage Road) passes through this gap: on the 1 m lidar the road is at 8,962 ft and the railway's banks end at 8,997 and 9,007 ft, so the road went about 44 ft under the track. It is the only place near Tunnel No. 7 where the road passes under the railway, so the photograph catalogued as a railway bridge over the stage road by the tunnel's west portal is very likely this trestle (inferred).",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
-     "source:engineering-news-1902-short-line"
+     "source:engineering-news-1902-short-line",
+     "source:short-line-trestle-photo-match"
     ],
     "status": "draft",
     "contributor": "project",
@@ -3448,17 +3450,17 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.90553,
-     38.742286
+     -104.905468,
+     38.742065
     ]
    },
    "properties": {
     "id": "place:sl-trestle-near-tunnel-6",
     "name": "Trestle above St. Peter's siding, west of Tunnel 6 (Short Line)",
     "grade": "inferred",
-    "error_ft": 20,
+    "error_ft": 60,
     "kind": "trestle",
-    "basis": "On the 1 m lidar the railway's grade stops at 38.742693, -104.905902 and begins again at 38.741878, -104.905159, 387 ft apart, with the ground up to 78 ft below the grade line between them; the ground is 15 ft or more below grade for about 259 ft, the likelier length of the trestle itself. Nothing stands in the opening. The drawn line crosses a deep gulch obliquely between a plain bench at one end and a short fill face at the other, while the road goes round the head. The ends are good to about 20 ft (research/structures/shortline-trestles.md, site sl-t-13). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. Photographs now matched to it (28 November 2026): McClure's 'three elevations of track' (Denver Public Library MCC-81; MCC-1911 and Pikes Peak Library District 402-106 are the same view) shows a long fill running from a tunnel portal to a trestle on the middle level. The camera's place worked out from the skyline, the portal and the track makes the tunnel Tunnel 6's west portal, and the point where the fill meets the trestle falls on this opening's east end. A second photograph from the trail to St. Peter's Dome (MCC-116), worked out separately and less well, puts the trestle at the same place and shows four or five tiers of bracing: a tall trestle, as the 78 ft measured here wants, not the 'short, low' one it was taken for in the distant views, where trees hide its lower part. Its west end is in no photograph, so the west end given is the ground's, not the picture's. The hollow next down the line (site sl-t-12) shows in MCC-81 as an earth fill. How the photographs were used: the place the camera stood was worked out by comparing the photograph's skyline and the line of the track with views drawn from the lidar, the trestle itself left out of the working; on the one trestle already fixed where this was tried and worked (Trestle 8A) it came within about 60 ft, and on another (Cathedral Park) only within about 100 ft. The fits were made by a helper and the pictures of them looked at by the atlas's editor; the fits were not run a second time.",
+    "basis": "On the 1 m lidar the railway's grade stops at 38.742693, -104.905902 and begins again at 38.741878, -104.905159, 387 ft apart, with the ground up to 78 ft below the grade line between them; the ground is 15 ft or more below grade for about 259 ft, the likelier length of the trestle itself. Nothing stands in the opening. The drawn line crosses a deep gulch obliquely between a plain bench at one end and a short fill face at the other, while the road goes round the head. The ends are good to about 20 ft (research/structures/shortline-trestles.md, site sl-t-13). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, every one of 20 ft spans; it does not list them. By an eyewitness's letter of 1941 only two were left by 1938, the road builders having filled or by-passed the rest. Photographs now matched to it (28 November 2026): McClure's 'three elevations of track' (Denver Public Library MCC-81; MCC-1911 and Pikes Peak Library District 402-106 are the same view) shows a long fill running from a tunnel portal to a trestle on the middle level. The camera's place worked out from the skyline, the portal and the track makes the tunnel Tunnel 6's west portal, and the point where the fill meets the trestle falls on this opening's east end. A second photograph from the trail to St. Peter's Dome (MCC-116), worked out separately and less well, puts the trestle at the same place and shows four or five tiers of bracing: a tall trestle, as the 78 ft measured here wants, not the 'short, low' one it was taken for in the distant views, where trees hide its lower part. The hollow next down the line (site sl-t-12) shows in MCC-81 as an earth fill. How the photographs were used: the place the camera stood was worked out by comparing the photograph's skyline and the line of the track with views drawn from the lidar, the trestle itself left out of the working; on the one trestle already fixed where this was tried and worked (Trestle 8A) it came within about 60 ft, and on another (Cathedral Park) only within about 100 ft. The fits were made by a helper and the pictures of them looked at by the atlas's editor; the fits were not run a second time. A third photograph (28 November 2026): McClure's 'East from Tunnel No. 8' (Denver Public Library MCC-76), long taken for a separate 'trestle below Tunnel 8', is this trestle seen from the south. The camera's place, on the knoll about 300 ft west of Tunnel 8's west portal, was worked out from St. Peter's Dome, the far ridges and the track on two levels; the point where the track leaves the pale fill for the deck falls at 38.742253, -104.905776, which is 164 ft inside the western edge of the opening measured on the lidar. So the western 160 ft or so of the opening was fill and the trestle about 220 ft long. The west end is now the photograph's, good to about 60 ft; the east end is good to about 40 ft. The deck points fall 45 to 65 ft south-west of the straight line between the ends: the deck curved down the gulch, as the photograph shows, or the fit is out by that much; not settled. A newspaper notice of 5 May 1909 says about 100 ft of a 'long trestle on the Short Line, near St. Peters dome' burned; this is the likeliest one, which is an inference.",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-pictures",
@@ -3480,15 +3482,15 @@
     "local": {
      "ends": [
       [
-       -104.905902,
-       38.742693
+       -104.905776,
+       38.742253
       ],
       [
        -104.905159,
        38.741878
       ]
      ],
-     "length_ft": 259,
+     "length_ft": 220,
      "height_ft": 78,
      "opening_ft": 387
     }
@@ -5077,17 +5079,17 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -104.875832,
-     38.795896
+     -104.875788,
+     38.795938
     ]
    },
    "properties": {
     "id": "place:sl-twin-bridges-south",
     "name": "Twin Bridges, south trestle, under the cliff above Stratton Park (Short Line)",
     "grade": "inferred",
-    "error_ft": 100,
+    "error_ft": 60,
     "kind": "trestle",
-    "basis": "In 'Climbing the Foothills near Broadmoor' (Pikes Peak Library District 001-2515) a train stands on a trestle of seven or eight bents, about 160 to 180 ft, to the left of a rock spur, with the other trestle to the right of it; the camera's place worked out from the skyline and the track puts this trestle here, between the spur the line cuts through and a cliff 75 to 90 ft high beside the road. McClure's 'Stratton Park' (Denver Public Library MCC-813), worked out separately, shows a trestle at the same place. Against it: on the lidar the road here crosses only a dip of 14 to 17 ft, 95 ft long, so the ground does not bear out a trestle of that length and height where the road now runs. The trestle may have stood a little outside the road, across the gully the road now rounds: not established. Its height, 25 to 40 ft, is inferred and not measured. It was on no earlier list of trestle sites. The ends are those read from the photographs along today's road, good to about 100 ft. How the photographs were used: the place the camera stood was worked out by comparing the photograph's skyline and the line of the track with views drawn from the lidar, the trestle itself left out of the working; on the one trestle already fixed where this was tried and worked (Trestle 8A) it came within about 60 ft, and on another (Cathedral Park) only within about 100 ft. The fits were made by a helper and the pictures of them looked at by the atlas's editor; the fits were not run a second time. Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, of 20 ft spans; it does not list them.",
+    "basis": "In 'Climbing the Foothills near Broadmoor' (Pikes Peak Library District 001-2515) a train stands on a trestle of seven or eight bents, about 160 to 180 ft, to the left of a rock spur, with the other trestle to the right of it; the camera's place worked out from the skyline and the track puts this trestle here, between the spur the line cuts through and a cliff 75 to 90 ft high beside the road. McClure's 'Stratton Park' (Denver Public Library MCC-813), worked out separately, shows a trestle at the same place. Against it: on the lidar the road here crosses only a dip of 14 to 17 ft, 95 ft long, so the ground does not bear out a trestle of that length and height where the road now runs. The trestle may have stood a little outside the road, across the gully the road now rounds: not established. Its height, 25 to 40 ft, is inferred and not measured. It was on no earlier list of trestle sites. How the photographs were used: the place the camera stood was worked out by comparing the photograph's skyline and the line of the track with views drawn from the lidar, the trestle itself left out of the working; on the one trestle already fixed where this was tried and worked (Trestle 8A) it came within about 60 ft, and on another (Cathedral Park) only within about 100 ft. The fits were made by a helper and the pictures of them looked at by the atlas's editor; the fits were not run a second time. Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, of 20 ft spans; it does not list them. Carried further on 28 November 2026, on the ground alone: today's road kinks west into the head of the gully between route miles 3.10 and 3.165, and a gently curved line joining the road's own direction at each end (bowed about 16 ft east of the straight chord, radius about 800 ft) crosses the gully 30 to 65 ft east of the road, where the lidar ground is up to 39 ft below grade, 15 ft or more below it for 138 ft, and 166 ft between the points 6 ft deep. That is the trestle the photographs show, seven or eight bents and 25 to 40 ft high, so the ends are now given on that line and not on the road. Lines bowed between 10 and 26 ft give 152 to 185 ft and 35 to 45 ft high, and move the ends 10 to 30 ft: good to about 60 ft. This rests on the shape of the ground; no photograph was worked again against the new line, and earth spilled from the road could make the ground outside it look shallower than it was. A second photograph of a trestle under a cliff (Pikes Peak Library District 013-420) would not solve and neither bears this out nor moves it (research/structures/sl4a-photo-match.md).",
     "sources": [
      "source:lidar-3dep",
      "source:short-line-trestle-photo-match",
@@ -5103,23 +5105,22 @@
       "milepost": null
      }
     ],
-    "summary": "The southern of the two trestles on the face below Point Sublime, between a rock spur and a cliff: the one with a train on it in a photograph of the time, seven or eight bents long. Placed from photographs; the ground today shows only a small dip.",
+    "summary": "The southern of the two trestles on the face below Point Sublime, between a rock spur and a cliff: the one with a train on it in a photograph of the time, seven or eight bents long. It stood a little east of today's road, which now bends into the head of the gully.",
     "valid_from": 1901,
     "valid_to": 1920,
     "local": {
      "ends": [
       [
-       -104.87606,
-       38.79622
+       -104.875909,
+       38.796144
       ],
       [
-       -104.875604,
-       38.795572
+       -104.875666,
+       38.795731
       ]
      ],
-     "length_ft": 170,
-     "height_ft": 30,
-     "opening_ft": 95
+     "length_ft": 166,
+     "height_ft": 39
     }
    }
   },
@@ -5171,6 +5172,56 @@
      "length_ft": 200,
      "height_ft": 40,
      "opening_ft": 223
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.937161,
+     38.733321
+    ]
+   },
+   "properties": {
+    "id": "place:sl-double-horseshoe-second-crossing",
+    "name": "Double Horseshoe: second crossing of Little Fountain Creek, perhaps the second trestle (Short Line)",
+    "grade": "conjecture",
+    "error_ft": 80,
+    "kind": "trestle",
+    "basis": "On the 1 m lidar the line crosses Little Fountain Creek twice in the Double Horseshoe: at the large fill already pinned, and again here, about route mile 17.20 to 17.25 on the far side of a crag-covered hill, where the road stands on a fill with the lowest ground 25 to 28 ft below it. Earlier readings of the lidar missed this opening. Wolfe's guide of 1988 (a later account) speaks of two trestles that spanned the creek, and the National Register form says two trestles lie buried in the fills. That a trestle stood here is conjecture: a fill of this depth could be the railway's own, and the photographs tried (a plate in Wolfe's guide; McClure's MCC-87) would not solve. The other place once suggested for the second trestle, at the Summit wye, has nothing to support it. The ends given are those of the opening in the fill, good to about 80 ft (research/structures/sl4b-photo-match.md). Engineering News of 1 May 1902 counts 31 timber trestles on the line, 6,456 ft in all, of 20 ft spans; it does not list them.",
+    "sources": [
+     "source:lidar-3dep",
+     "source:short-line-trestle-photo-match",
+     "source:wolfe-gold-camp-road-1988",
+     "source:engineering-news-1902-short-line"
+    ],
+    "status": "draft",
+    "contributor": "project",
+    "updated": "2026-11-28",
+    "on_lines": [
+     {
+      "line": "line:cs-and-cc-district",
+      "milepost": null
+     }
+    ],
+    "summary": "Where the line crosses Little Fountain Creek a second time, on a fill 25 to 28 ft deep. A later account says two trestles spanned the creek in the Double Horseshoe; this may be the site of the second. No photograph confirms it.",
+    "valid_from": 1901,
+    "valid_to": 1920,
+    "local": {
+     "ends": [
+      [
+       -104.937587,
+       38.73309
+      ],
+      [
+       -104.936735,
+       38.733552
+      ]
+     ],
+     "height_ft": 27,
+     "opening_ft": 295
     }
    }
   },
